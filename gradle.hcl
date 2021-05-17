@@ -1,0 +1,9 @@
+description = "Gradle helps teams build, automate and deliver better software, faster."
+requires = ["jre"]
+source = "https://services.gradle.org/distributions/gradle-${version}-bin.zip"
+strip = 1
+binaries = ["bin/gradle"]
+
+version "6.7" {}
+version "6.8.3" {}
+version "7.0" {}
