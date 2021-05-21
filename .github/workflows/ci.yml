@@ -1,0 +1,29 @@
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+name: CI
+jobs:
+  packages:
+    name: Package sanity tests
+    strategy:
+      matrix:
+        os: [ ubuntu-latest, macos-latest ]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install Hermit
+        run: |
+          set -e
+          set -o pipefail
+          curl -fsSL https://github.com/cashapp/hermit/releases/download/stable/install.sh | bash
+      - name: Test packages
+        run: |
+          set -x
+          mkdir build testenv
+          ~/bin/hermit validate "file://$PWD"
+          ~/bin/hermit init --sources="file://$PWD" ./testenv
+          . ./testenv/bin/activate-hermit
+          hermit search -s | xargs hermit test --level=debug
