@@ -13,6 +13,7 @@ linux {
 version "1.5.0" {}
 version "1.6.0" {}
 version "1.7.0" {}
+version "1.8.0" {}
 
 version "1.5.1-kotlin.3" {
   darwin {
