@@ -8,4 +8,4 @@ This repository contains package manifests for [Hermit](https://github.com/casha
 
 A manifest describes how to download, install and map packages to an environment.
 
-Refer to the Hermit [packaging documentation](https://cashapp.github.io/hermit/docs/packaging/) for more information.
+Refer to the Hermit [packaging documentation](https://cashapp.github.io/hermit/packaging/) for more information.
