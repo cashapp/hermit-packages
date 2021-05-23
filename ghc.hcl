@@ -1,4 +1,4 @@
-description = "An advanced, purely functional programming language"
+description = "GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell."
 binaries = ["bin/*"]
 
 on unpack {
