@@ -4,7 +4,7 @@
 
 # Hermit package manifests ![(CI status)](https://github.com/cashapp/hermit-packages/workflows/CI/badge.svg)
 
-This repository contains package manifests for [Hermit](https://github.com/cashapp/hermit).
+This repository contains package manifests for [Hermit](https://cashapp.github.io/hermit/).
 
 A manifest describes how to download, install and map packages to an environment.
 
