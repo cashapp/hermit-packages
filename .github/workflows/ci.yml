@@ -1,7 +1,4 @@
 on:
-  push:
-    branches:
-      - master
   pull_request:
 name: CI
 jobs:
@@ -19,11 +16,14 @@ jobs:
           set -e
           set -o pipefail
           curl -fsSL https://github.com/cashapp/hermit/releases/download/stable/install.sh | bash
+      - name: Changed files
+        uses: jitterbit/get-changed-files@v1
       - name: Test packages
         run: |
-          set -xe
+          set -xe -o pipefail
           mkdir build testenv
           ~/bin/hermit validate "file://$PWD"
           ~/bin/hermit init --sources="file://$PWD" ./testenv
           . ./testenv/bin/activate-hermit
-          for pkg in $(hermit search -s | grep -v '@'); do echo $pkg; hermit test -t $pkg; hermit clean -tp; done
+          echo "${{ steps.files.outputs.all }}"
+          for pkg in $(echo ${{ steps.files.outputs.all }} | tr ' ' '\n' | fgrep .hcl | cut -d. -f1 | xargs -n1 hermit search -s | grep -v '@'); do echo $pkg; hermit test -t $pkg; hermit clean -tp; done
