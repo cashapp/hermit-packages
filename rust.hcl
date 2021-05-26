@@ -11,6 +11,7 @@ linux {
 }
 
 version "1.51.0" {}
+version "1.52.1" {}
 
 channel nightly {
   update = "24h"
