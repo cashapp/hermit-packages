@@ -1,5 +1,6 @@
 description = "A language empowering everyone to build reliable and efficient software."
 binaries = ["bin/*"]
+strip = 2
 
 darwin {
   source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-apple-darwin.tar.xz"
@@ -21,10 +22,4 @@ channel nightly {
   linux {
     source = "https://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-musl.tar.xz"
   }
-}
-
-on unpack {
-  run { cmd = "chmod" args = ["-R", "+w", "."] dir = "${root}" }
-  copy { from = "rust/install.sh" to = "${root}/install.sh" }
-  run { cmd = "bash" args = ["./install.sh"] dir = "${root}" }
 }
