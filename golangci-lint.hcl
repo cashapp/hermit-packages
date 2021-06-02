@@ -4,11 +4,9 @@ binaries = ["golangci-lint"]
 strip = 1
 source = "https://github.com/golangci/golangci-lint/releases/download/v${version}/golangci-lint-${version}-${os}-${arch}.tar.gz"
 
-version "1.23.7" "1.24.0" "1.26.0" "1.32.2" "1.36.0" {
-  darwin {
-    arch = "arm64"
-    source = "https://github.com/golangci/golangci-lint/releases/download/v${version}/golangci-lint-${version}-${os}-amd64.tar.gz"
-  }
-}
-
+version "1.23.7" {}
+version "1.24.0" {}
+version "1.26.0" {}
+version "1.32.2" {}
+version "1.36.0" {}
 version "1.37.0" {}
