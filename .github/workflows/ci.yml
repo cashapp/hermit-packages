@@ -26,4 +26,4 @@ jobs:
           ~/bin/hermit validate "file://$PWD"
           ~/bin/hermit init --sources="file://$PWD" ./testenv
           . ./testenv/bin/activate-hermit
-          hermit search -s | xargs hermit test --level=debug
+          hermit search -s | grep -v '@' | xargs hermit test --level=debug
