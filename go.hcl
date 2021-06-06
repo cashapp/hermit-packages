@@ -5,18 +5,19 @@ env = {
   GOBIN: "${HERMIT_ENV}/.hermit/go/bin",
   PATH: "${GOBIN}:${PATH}",
 }
-source = "https://golang.org/dl/go${version}.${os}-${arch}.tar.gz"
 strip = 1
 test = "go version"
 
-version "1.13.5" {}
-version "1.14.4" {}
-version "1.14.7" {}
-version "1.15.2" {}
-version "1.15.3" {}
-version "1.15.6" {}
-version "1.15.7" {}
-version "1.15.11" {}
+version "1.13.5" "1.14.4" "1.14.7" "1.15.2" "1.15.3" "1.15.6" "1.15.7" "1.15.11" {
+  // We don't have arm64 builds for these older versions.
+  darwin {
+    arch = "arm64"
+    source = "https://golang.org/dl/go${version}.${os}-amd64.tar.gz"
+  }
+}
+
+source = "https://golang.org/dl/go${version}.${os}-${arch}.tar.gz"
+
 version "1.16" {}
 version "1.16.3" {}
 version "1.16.4" {}
