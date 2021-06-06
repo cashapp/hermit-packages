@@ -9,12 +9,17 @@ env = {
 }
 
 version "12.18.3" {}
-version "14.16.0" {}
+version "14.16.0" "14.17.0" {}
 version "15.10.0" {}
 
-version "16.1.0" {
+version "16.1.0" "16.2.0" "16.3.0" {
   darwin {
     arch = "arm64"
     source = "https://nodejs.org/dist/v${version}/node-v${version}-${os}-arm64.tar.gz"
   }
+}
+
+channel lts {
+  version = "14.*"
+  update = "168h" // Weekly update.
 }
