@@ -23,3 +23,4 @@ version "0.7.1" {
 }
 
 version "0.8.0-dev.2275+8467373bb" {}
+version "0.8.0" {}
