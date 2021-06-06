@@ -4,23 +4,20 @@ binaries = ["zig"]
 strip = 1
 
 linux {
-  source = "https://ziglang.org/builds/zig-linux-${xarch}-${version}.tar.xz"
+  source = "https://ziglang.org/download/${version}/zig-linux-${xarch}-${version}.tar.xz"
 }
 
 darwin {
-  source = "https://ziglang.org/builds/zig-macos-${xarch}-${version}.tar.xz"
+  source = "https://ziglang.org/download/${version}/zig-macos-${xarch}-${version}.tar.xz"
 }
 
 version "0.7.1" {
-  linux {
-    source = "https://ziglang.org/download/${version}/zig-linux-${xarch}-${version}.tar.xz"
-  }
-
   darwin {
-    source = "https://ziglang.org/download/${version}/zig-macos-${xarch}-${version}.tar.xz"
+    arch = "arm64"
+    source = "https://ziglang.org/download/${version}/zig-macos-x86_64-${version}.tar.xz"
   }
-
 }
 
-version "0.8.0-dev.2275+8467373bb" {}
-version "0.8.0" {}
+version "0.8.0" {
+}
+
