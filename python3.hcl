@@ -13,9 +13,6 @@ on install {
 
 version "3.9.5" {
   darwin {
-    env = {
-      PYTHONHOME: "${root}",
-    }
     binaries = ["bin/pip3", "bin/python3"]
     strip = 1
 
@@ -28,9 +25,5 @@ version "3.9.5" {
     source = "https://github.com/cashapp/hermit-build/releases/download/python/python-${version}-linux-x86_64.tar.xz"
     strip = 1
     binaries = ["usr/bin/pip3", "usr/bin/python3"]
-
-    env = {
-      PYTHONHOME: "${root}/opt/python3.9",
-    }
   }
 }
