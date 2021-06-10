@@ -3,9 +3,9 @@ test = "bash --version"
 
 binaries = ["bash"]
 
-version "5.1" {
-  source = "https://github.com/cashapp/hermit-build/releases/download/bash/bash-${version}-${os}-${arch}.xz"
-  on unpack {
-    rename { from="${root}/bash-${version}-${os}-${arch}" to="${root}/bash" }
-  }
+source = "https://github.com/cashapp/hermit-build/releases/download/bash/bash-${version}-${os}-${arch}.xz"
+on unpack {
+  rename { from="${root}/bash-${version}-${os}-${arch}" to="${root}/bash" }
 }
+
+version "5.1" {}
