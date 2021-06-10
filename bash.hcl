@@ -3,18 +3,9 @@ test = "bash --version"
 
 binaries = ["bash"]
 
-version "5.1.4" {
-  linux {
-    on unpack {
-      rename { from="${root}/bash-linux-x86_64" to="${root}/bash" }
-    }
-    source = "https://github.com/robxu9/bash-static/releases/download/5.1.004-1.2.2/bash-linux-x86_64"
-  }
-
-  darwin {
-    on unpack {
-      rename { from="${root}/bash-macos-x86_64" to="${root}/bash" }
-    }
-    source = "https://github.com/robxu9/bash-static/releases/download/5.1.004-1.2.2/bash-macos-x86_64"
+version "5.1" {
+  source = "https://github.com/cashapp/hermit-build/releases/download/bash/bash-${version}-${os}-${arch}.xz"
+  on unpack {
+    rename { from="${root}/bash-${version}-${os}-${arch}" to="${root}/bash" }
   }
 }
