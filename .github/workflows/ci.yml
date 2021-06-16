@@ -21,9 +21,9 @@ jobs:
           curl -fsSL https://github.com/cashapp/hermit/releases/download/stable/install.sh | bash
       - name: Test packages
         run: |
-          set -x
+          set -xe
           mkdir build testenv
           ~/bin/hermit validate "file://$PWD"
           ~/bin/hermit init --sources="file://$PWD" ./testenv
           . ./testenv/bin/activate-hermit
-          hermit search -s | grep -v '@' | xargs hermit test --level=debug
+          for pkg in $(hermit search -s | grep -v '@'); do echo $pkg; hermit test -t $pkg; hermit clean -tp; done
