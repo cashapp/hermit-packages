@@ -9,4 +9,9 @@ darwin {
   source = "https://github.com/jenkins-x/jx/releases/download/v${version}/jx-darwin-amd64.tar.gz"
 }
 
-version "3.2.137" {}
+version "3.2.137" "3.2.140" {}
+
+channel "stable" {
+  update = "24h"
+  version = "3.*"
+}
