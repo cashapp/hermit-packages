@@ -7,3 +7,4 @@ binaries = ["bin/gradle"]
 version "6.7" {}
 version "6.8.3" {}
 version "7.0" {}
+version "7.1" {}
