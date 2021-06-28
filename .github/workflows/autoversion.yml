@@ -1,0 +1,26 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+name: Auto-version
+jobs:
+  auto-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+      - name: Init Hermit
+        run: |
+          ./bin/hermit env -r >> $GITHUB_ENV
+      - name: Auto-version
+        run: |
+          set -xe
+          hermit -d manifest auto-version *.hcl
+          if ! git diff --exit-code; then
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            git commit -am   "Auto-versioned $(git diff --name-only)"
+            git push
+          else
+            echo "No change"
+          fi
