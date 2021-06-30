@@ -9,5 +9,8 @@ linux {
   source = "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_Linux-64bit.tar.gz"
 }
 
-
-version "0.82.0" {}
+version "0.82.0" "0.84.3" {
+  auto-version {
+    github-release = "gohugoio/hugo"
+  }
+}

@@ -3,9 +3,15 @@ source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${versio
 binaries = ["terragrunt"]
 test = "terragrunt --version"
 
-on unpack {
-  rename { from = "${root}/terragrunt_${os}_${arch}" to = "${root}/terragrunt" }
+on "unpack" {
+  rename {
+    from = "${root}/terragrunt_${os}_${arch}"
+    to = "${root}/terragrunt"
+  }
 }
 
-version "0.28.20" {}
-version "0.29.5" {}
+version "0.28.20" "0.29.5" "0.31.0" {
+  auto-version {
+    github-release = "gruntwork-io/terragrunt"
+  }
+}

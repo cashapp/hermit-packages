@@ -3,16 +3,28 @@ binaries = ["goose"]
 
 linux {
   source = "https://github.com/pressly/goose/releases/download/v${version}/goose-linux64"
-  on unpack {
-    rename { from = "${root}/goose-linux64" to = "${root}/goose" }
+
+  on "unpack" {
+    rename {
+      from = "${root}/goose-linux64"
+      to = "${root}/goose"
+    }
   }
 }
 
 darwin {
   source = "https://github.com/pressly/goose/releases/download/v${version}/goose-darwin64"
-  on unpack {
-    rename { from = "${root}/goose-darwin64" to = "${root}/goose" }
+
+  on "unpack" {
+    rename {
+      from = "${root}/goose-darwin64"
+      to = "${root}/goose"
+    }
   }
 }
 
-version "2.6.0" {}
+version "2.6.0" "2.7.0" {
+  auto-version {
+    github-release = "pressly/goose"
+  }
+}
