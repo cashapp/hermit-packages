@@ -10,4 +10,8 @@ darwin {
   source = "https://github.com/dflemstr/rq/releases/download/v${version}/rq-v${version}-${xarch}-apple-darwin.tar.gz"
 }
 
-version "1.0.2" {}
+version "1.0.2" {
+  auto-version {
+    github-release = "dflemstr/rq"
+  }
+}
