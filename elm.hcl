@@ -15,8 +15,4 @@ darwin {
   }
 }
 
-version "0.19.1" {
-  auto-version {
-    github-release = "elm/compiler"
-  }
-}
+version "0.19.1" {}
