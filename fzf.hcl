@@ -10,4 +10,8 @@ linux {
   source = "https://github.com/junegunn/fzf/releases/download/${version}/fzf-${version}-${os}_${arch}.tar.gz"
 }
 
-version "0.27.2" {}
+version "0.27.2" {
+  auto-version {
+    github-release = "junegunn/fzf"
+  }
+}

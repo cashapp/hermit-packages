@@ -16,4 +16,9 @@ darwin {
   }
 }
 
-version "1.6" {}
+version "1.6" {
+  auto-version {
+    github-release = "stedolan/jq"
+    version-pattern = "jq-(.*)"
+  }
+}

@@ -10,4 +10,8 @@ linux {
   source = "https://github.com/istio/istio/releases/download/${version}/istioctl-${version}-linux-${arch}.tar.gz"
 }
 
-version "1.7.8" "1.8.5" "1.9.3" "1.9.5" {}
+version "1.7.8" "1.8.5" "1.9.3" "1.9.5" "1.10.2" {
+  auto-version {
+    github-release = "istio/istio"
+  }
+}

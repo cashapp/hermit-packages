@@ -3,16 +3,28 @@ binaries = ["bazel"]
 
 darwin {
   source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-darwin-x86_64"
-  on unpack {
-    rename { from = "${root}/bazel-${version}-darwin-x86_64" to = "${root}/bazel" }
+
+  on "unpack" {
+    rename {
+      from = "${root}/bazel-${version}-darwin-x86_64"
+      to = "${root}/bazel"
+    }
   }
 }
 
 linux {
   source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-linux-x86_64"
-  on unpack {
-    rename { from = "${root}/bazel-${version}-linux-x86_64" to = "${root}/bazel" }
+
+  on "unpack" {
+    rename {
+      from = "${root}/bazel-${version}-linux-x86_64"
+      to = "${root}/bazel"
+    }
   }
 }
 
-version "4.0.0" {}
+version "4.0.0" "4.1.0" {
+  auto-version {
+    github-release = "bazelbuild/bazel"
+  }
+}
