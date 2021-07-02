@@ -1,14 +1,12 @@
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 2 * * *"
 name: Auto-version
 jobs:
   auto-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-        with:
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+      - uses: actions/checkout@v2
       - name: Init Hermit
         run: |
           ./bin/hermit env -r >> $GITHUB_ENV
