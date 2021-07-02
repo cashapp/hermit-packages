@@ -32,15 +32,6 @@ linux {
     }
 }
 
-windows {
-    source = "https://github.com/aws/copilot-cli/releases/download/v${version}/copilot-windows.exe"
-    on unpack {
-        rename { from = "${root}/copilot-windows.exe" to = "${root}/copilot.exe" }
-    }
-}
-
-
-
 version "1.8.2" {
     auto-version {
         github-release = "aws/copilot-cli"
