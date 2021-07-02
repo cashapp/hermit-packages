@@ -10,26 +10,10 @@ darwin {
 }
 
 linux {
-    source = "https://github.com/aws/copilot-cli/releases/download/v${version}/copilot-linux"
-    on unpack {
-        rename { from = "${root}/copilot-linux" to = "${root}/copilot" }
-    }
-}
-
-linux {
-    arch = "amd64"
-    source = "https://github.com/aws/copilot-cli/releases/download/v${version}/copilot-linux-amd64-v${version}"
-    on unpack {
-        rename { from = "${root}/copilot-linux-amd64-v${version}" to = "${root}/copilot" }
-    }
-}
-
-linux {
-    arch = "arm64"
-    source = "https://github.com/aws/copilot-cli/releases/download/v${version}/copilot-linux-arm64"
-    on unpack {
-        rename { from = "${root}/copilot-linux-arm64" to = "${root}/copilot" }
-    }
+  source = "https://github.com/aws/copilot-cli/releases/download/v${version}/copilot-${os}-${arch}"
+  on unpack {
+    rename { from = "${root}/copilot-${os}-${arch}" to = "${root}/copilot" }
+  }
 }
 
 version "1.8.2" {
