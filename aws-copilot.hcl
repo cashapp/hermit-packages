@@ -10,7 +10,7 @@ darwin {
 }
 
 linux {
-  source = "https://github.com/aws/copilot-cli/releases/download/v${version}/copilot-${os}-${arch}"
+  source = "https://github.com/aws/copilot-cli/releases/download/v${version}/copilot-${os}-${arch}-v${version}"
   on unpack {
     rename { from = "${root}/copilot-${os}-${arch}" to = "${root}/copilot" }
   }
