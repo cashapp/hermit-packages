@@ -3,16 +3,16 @@ test = "kind version"
 binaries = ["kind"]
 
 linux {
-  source = "https://github.com/kubernetes-sigs/kind/releases/download/v${version}/kind-linux-amd64"
+  source = "https://github.com/kubernetes-sigs/kind/releases/download/v${version}/kind-linux-${arch}"
   on unpack {
-    rename { from = "${root}/kind-linux-amd64" to = "${root}/kind" }
+    rename { from = "${root}/kind-linux-${arch}" to = "${root}/kind" }
   }
 }
 
 darwin {
-  source = "https://github.com/kubernetes-sigs/kind/releases/download/v${version}/kind-darwin-amd64"
+  source = "https://github.com/kubernetes-sigs/kind/releases/download/v${version}/kind-darwin-${arch}"
   on unpack {
-    rename { from = "${root}/kind-darwin-amd64" to = "${root}/kind" }
+    rename { from = "${root}/kind-darwin-${arch}" to = "${root}/kind" }
   }
 }
 
