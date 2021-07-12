@@ -35,4 +35,5 @@ channel "lts" {
 
 channel "current" {
   version = "16.*"
+  update = "24h"
 }
