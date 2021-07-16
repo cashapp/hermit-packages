@@ -3,7 +3,6 @@ source      = "https://releases.hashicorp.com/terraform/${version}/terraform_${v
 binaries    = ["terraform"]
 test        = "terraform --version"
 
-
 version "0.14.10" {}
 version "0.15.0" {}
 version "0.15.3" {}
