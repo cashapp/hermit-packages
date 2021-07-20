@@ -11,7 +11,7 @@ linux {
   source = "https://github.com/jgm/pandoc/releases/download/${version}/pandoc-${version}-linux-${arch}.tar.gz"
 }
 
-version "2.13" "2.14.0.3" {
+version "2.13" "2.14.0.3" "2.14.1" {
   auto-version {
     github-release = "jgm/pandoc"
   }

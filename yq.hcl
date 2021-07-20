@@ -24,7 +24,7 @@ linux {
   }
 }
 
-version "4.9.5" "4.9.6" "4.9.8" "4.10.0" "4.11.0" {
+version "4.9.5" "4.9.6" "4.9.8" "4.10.0" "4.11.0" "4.11.1" {
   auto-version {
     github-release = "mikefarah/yq"
   }
