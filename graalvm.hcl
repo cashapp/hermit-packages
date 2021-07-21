@@ -17,7 +17,7 @@ linux {
   source = "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${version}/graalvm-ce-java11-linux-amd64-${version}.tar.gz"
 }
 
-version "20.3.0" "21.1.0" {
+version "20.3.0" "21.1.0" "21.2.0" {
   auto-version {
     github-release = "graalvm/graalvm-ce-builds"
     version-pattern = "vm-(.*)"
