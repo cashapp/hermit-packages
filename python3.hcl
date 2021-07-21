@@ -10,6 +10,22 @@ on install {
   message { text = "Hermit Python support is experimental. Please report issues at https://github.com/cashapp/hermit-packages" }
 }
 
+version "3.7" {
+  platform darwin amd64 {
+    binaries = ["bin/pip3", "bin/python3"]
+    strip = 1
+
+    source = "https://github.com/cashapp/hermit-build/releases/download/python/python-3.7.9-darwin-amd64.tar.xz"
+    root = "${dest}/Versions/3.7"
+  }
+
+  linux {
+    source = "https://github.com/cashapp/hermit-build/releases/download/python/python-3.7.11-linux-x86_64.tar.xz"
+    strip = 1
+    binaries = ["usr/bin/pip3", "usr/bin/python3"]
+  }
+}
+
 
 version "3.9.5" {
   darwin {
