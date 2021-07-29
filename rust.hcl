@@ -10,11 +10,15 @@ linux {
   source = "https://static.rust-lang.org/dist/rust-${version}-x86_64-unknown-linux-musl.tar.xz"
 }
 
-version "1.51.0" {}
-version "1.52.1" {}
+version "1.51.0" "1.52.1" "1.53.0" "1.54.0" {
+  auto-version {
+    github-release = "rust-lang/rust"
+  }
+}
 
-channel nightly {
+channel "nightly" {
   update = "24h"
+
   darwin {
     source = "https://static.rust-lang.org/dist/rust-nightly-${xarch}-apple-darwin.tar.xz"
   }
