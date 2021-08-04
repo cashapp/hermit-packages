@@ -11,7 +11,7 @@ env = {
 version "12.18.3" {
 }
 
-version "14.16.0" "14.17.0" "14.17.3" "16.5.0" "16.6.0" {
+version "14.16.0" "14.17.0" "14.17.3" "16.5.0" "16.6.0" "16.6.1" {
   // auto-version grabs "latest" which is currently v14
   auto-version {
     github-release = "nodejs/node"
