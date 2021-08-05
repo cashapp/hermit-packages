@@ -2,7 +2,7 @@ description = "is a CLI tool that supports Kubernetes admins in their roles, by 
 binaries = ["datree"]
 test = "datree version"
 
-version "0.2.1" {
+version "0.2.1" "0.2.2" {
   auto-version {
     github-release = "datreeio/datree"
   }
@@ -11,7 +11,6 @@ version "0.2.1" {
 linux {
   source = "https://github.com/datreeio/datree/releases/download/${version}/datree-cli_${version}_Linux_x86_64.zip"
 }
-
 
 darwin {
   source = "https://github.com/datreeio/datree/releases/download/${version}/datree-cli_${version}_Darwin_x86_64.zip"
