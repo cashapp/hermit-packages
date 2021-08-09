@@ -3,7 +3,7 @@ test = "envoy --version"
 strip = 2
 binaries = ["envoy"]
 
-// Artifacts are from the Tetrate Labs manifest:
+// Artefacts are from the Tetrate Labs manifest:
 //
 //   echo $(curl -s https://archive.tetratelabs.io/envoy/envoy-versions.json | jq -r '.versions|to_entries[]|"\"\(.key)\""' | sort -n)
 //   
