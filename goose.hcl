@@ -23,7 +23,7 @@ darwin {
   }
 }
 
-version "2.6.0" "2.7.0" "3.0.0" {
+version "2.6.0" "2.7.0" "3.0.0" "3.0.1" {
   auto-version {
     github-release = "pressly/goose"
   }
