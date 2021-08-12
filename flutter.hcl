@@ -5,11 +5,11 @@ strip = 1
 #test = "dart --version"
 
 darwin {
-  source = "https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_${version}-stable.zip"
+  source = "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_${version}-stable.zip"
 }
 
 linux {
-  source = "https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_${version}-stable.tar.xz"
+  source = "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${version}-stable.tar.xz"
 }
 
-version "2.0.1" {}
+version "2.0.1" "2.2.3" {}
