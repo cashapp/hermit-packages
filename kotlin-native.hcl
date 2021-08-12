@@ -1,4 +1,5 @@
 description = "Statically typed programming eanguage"
+requires = ["jre"]
 provides = ["kotlinc"]
 binaries = ["bin/*"]
 test = "kotlinc -version"
