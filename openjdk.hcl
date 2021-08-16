@@ -56,6 +56,20 @@ version "11.0.11_9-zulu11.48.21" {
   }
 }
 
+version "18-loom+2-74" {
+  platform darwin arm64 {
+    strip = 2
+    source = "https://download.java.net/java/early_access/loom/2/openjdk-18-loom+2-74_macos-aarch64_bin.tar.gz"
+  }
+  platform darwin amd64 {
+    strip = 2
+    source = "https://download.java.net/java/early_access/loom/2/openjdk-18-loom+2-74_macos-x64_bin.tar.gz"
+  }
+  platform linux amd64 {
+    source = "https://download.java.net/java/early_access/loom/2/openjdk-18-loom+2-74_linux-x64_bin.tar.gz"
+  }
+}
+
 channel "stable" {
   update = "24h"
   version = "11.*"
