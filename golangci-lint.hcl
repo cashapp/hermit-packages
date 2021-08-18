@@ -11,7 +11,7 @@ version "1.23.7" "1.24.0" "1.26.0" "1.31.0" "1.32.2" "1.33.2" "1.36.0" {
   }
 }
 
-version "1.37.0" "1.40.1" "1.41.1" {
+version "1.37.0" "1.40.1" "1.41.1" "1.42.0" {
   auto-version {
     github-release = "golangci/golangci-lint"
   }
