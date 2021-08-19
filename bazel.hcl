@@ -23,7 +23,7 @@ linux {
   }
 }
 
-version "4.0.0" "4.1.0" {
+version "4.0.0" "4.1.0" "4.2.0" {
   auto-version {
     github-release = "bazelbuild/bazel"
   }
