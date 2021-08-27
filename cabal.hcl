@@ -12,6 +12,4 @@ darwin {
   source = "https://downloads.haskell.org/~cabal/cabal-install-${version}/cabal-install-${version}-${xarch}-${os}-sierra.tar.xz"
 }
 
-test = "cabal --version"
-
 version "3.4.0.0" {}
