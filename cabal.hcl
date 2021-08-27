@@ -8,7 +8,7 @@ env = {
   PATH: "${root}/bin:${PATH}",
 }
 
-darwin {
+linux {
   source = "https://downloads.haskell.org/~cabal/cabal-install-${version}/cabal-install-${version}-${xarch}-${os}-sierra.tar.xz"
 }
 
