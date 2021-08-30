@@ -17,5 +17,5 @@ darwin {
 }
 
 // Unfortunately these are the only versions with both Linux and Darwin binaries.
-version "1.13.7" "1.14.7" "1.15.5" "1.16.4" "1.17.3" "1.18.4" "1.19.1" {
+version "1.13.7" "1.14.7" "1.15.5" "1.16.4" "1.17.3" "1.18.3" "1.18.4" "1.19.0" "1.19.1" {
 }
