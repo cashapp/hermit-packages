@@ -13,10 +13,10 @@ darwin {
 }
 
 linux {
-  source = "https://github.com/mvdan/gofumpt/releases/download/v${version}/gofumpt_v${version}_linux_${xarch}"
+  source = "https://github.com/mvdan/gofumpt/releases/download/v${version}/gofumpt_v${version}_linux_${arch}"
   on "unpack" {
     rename {
-      from = "${root}/gofumpt_v${version}_linux_${xarch}"
+      from = "${root}/gofumpt_v${version}_linux_${arch}"
       to = "${root}/gofumpt"
     }
   }
