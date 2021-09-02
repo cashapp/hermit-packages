@@ -1,0 +1,20 @@
+description = "A tool for managing OCI containers and pods."
+binaries = ["podman"]
+
+platform darwin {
+  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin.zip"
+  strip = 1
+}
+
+platform linux {
+  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+  on unpack {
+    rename { from = "${root}/podman-remote-static" to = "${root}/podman" }
+  }
+}
+
+version "3.3.1" {
+  auto-version {
+    github-release = "containers/podman"
+  }
+}
