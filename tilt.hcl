@@ -16,7 +16,7 @@ linux {
   source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/tilt.${version}.linux.x86_64.tar.gz"
 }
 
-version "0.20.5" "0.21.0" "0.21.1" "0.21.2" "0.21.3" "0.22.0" "0.22.1" "0.22.2" "0.22.3" "0.22.4" "0.22.5" "0.22.6" {
+version "0.20.5" "0.21.0" "0.21.1" "0.21.2" "0.21.3" "0.22.0" "0.22.1" "0.22.2" "0.22.3" "0.22.4" "0.22.5" "0.22.6" "0.22.7" {
   auto-version {
     github-release = "tilt-dev/tilt"
   }
