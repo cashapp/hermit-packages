@@ -2,7 +2,7 @@ description = "Task is a task runner / build tool that aims to be simpler and ea
 binaries = ["task"]
 test = "task --version"
 
-version "3.7.0" {
+version "3.7.0" "3.7.3" {
   auto-version {
     github-release = "go-task/task"
   }
@@ -11,7 +11,6 @@ version "3.7.0" {
 linux {
   source = "https://github.com/go-task/task/releases/download/v${version}/task_${os}_${arch}.tar.gz"
 }
-
 
 darwin {
   source = "https://github.com/go-task/task/releases/download/v${version}/task_${os}_${arch}.tar.gz"
