@@ -10,12 +10,6 @@ linux {
   source = "https://static.rust-lang.org/dist/rust-${version}-x86_64-unknown-linux-musl.tar.xz"
 }
 
-version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" {
-  auto-version {
-    github-release = "rust-lang/rust"
-  }
-}
-
 channel "nightly" {
   update = "24h"
 
@@ -27,3 +21,10 @@ channel "nightly" {
     source = "https://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-musl.tar.xz"
   }
 }
+
+version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" {
+  auto-version {
+    github-release = "rust-lang/rust"
+  }
+}
+
