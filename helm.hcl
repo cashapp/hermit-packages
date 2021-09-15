@@ -12,4 +12,8 @@ version "3.4.0" "3.5.3" {
   }
 }
 
-version "3.6.0" {}
+version "3.6.0" "3.6.1" "3.6.2" "3.6.3" {
+  auto-version {
+    github-release = "helm/helm"
+  }
+}
