@@ -2,7 +2,7 @@ description = "Task is a task runner / build tool that aims to be simpler and ea
 binaries = ["task"]
 test = "task --version"
 
-version "3.7.0" "3.7.3" {
+version "3.7.0" "3.7.3" "3.8.0" {
   auto-version {
     github-release = "go-task/task"
   }
