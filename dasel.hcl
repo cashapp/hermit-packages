@@ -23,7 +23,7 @@ platform "darwin" {
   }
 }
 
-version "1.16.1" "1.17.0" "1.18.0" "1.19.0" "1.20.0" "1.20.1" {
+version "1.16.1" "1.17.0" "1.18.0" "1.19.0" "1.20.0" "1.20.1" "1.21.0" {
   auto-version {
     github-release = "TomWright/dasel"
   }
