@@ -10,5 +10,3 @@ darwin {
   arch = "arm64"
   source = "https://github.com/cashapp/hermit-build/releases/download/tinygo/tinygo-${version}-darwin-arm64.tar.xz"
 }
-
-version "0.18.0" {}
