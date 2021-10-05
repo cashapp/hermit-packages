@@ -24,7 +24,7 @@ linux {
   }
 }
 
-version "1.8.2" "1.8.3" "1.9.0" "1.10.0" "1.10.1" {
+version "1.8.2" "1.8.3" "1.9.0" "1.10.0" "1.10.1" "1.11.0" {
   auto-version {
     github-release = "aws/copilot-cli"
   }
