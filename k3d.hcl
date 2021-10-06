@@ -9,7 +9,7 @@ on "unpack" {
   }
 }
 
-version "4.4.1" "3.2.0" "4.4.6" "4.4.7" "4.4.8" {
+version "4.4.1" "3.2.0" "4.4.6" "4.4.7" "4.4.8" "5.0.0" {
   auto-version {
     github-release = "rancher/k3d"
   }
