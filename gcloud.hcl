@@ -21,3 +21,10 @@ platform arm64 {
 }
 
 version "352.0.0" {}
+
+version "360.0.0" {
+  requires = ["python3"]
+  env = {
+    "CLOUDSDK_PYTHON": "python3",
+  }
+}
