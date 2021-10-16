@@ -2,7 +2,7 @@ description = "Bicep is a Domain Specific Language (DSL) for deploying Azure res
 binaries = ["bicep"]
 test = "bicep --help"
 
-version "0.4.451" "0.4.613" {
+version "0.4.451" "0.4.613" "0.4.1008" {
   auto-version {
     github-release = "Azure/bicep"
   }
