@@ -3,7 +3,7 @@ binaries    = ["bin/gh"]
 test        = "gh --version"
 
 linux {
-  source = "https://github.com/cli/cli/releases/download/v${version}/gh_${version}_linux_${arch}.tar.gz"
+  source = "https://github.com/cli/cli/releases/download/v${version}/gh_${version}_linux_amd64.tar.gz"
 }
 
 darwin {
