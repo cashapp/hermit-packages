@@ -2,12 +2,8 @@ description = "go release builder"
 test = "goreleaser --version"
 binaries = ["goreleaser"]
 
-version "0.159.0" "0.182.1" {
+version "0.159.0" {
   source = "https://github.com/goreleaser/goreleaser/releases/download/v${version}/goreleaser_${os}_x86_64.tar.gz"
-
-  auto-version {
-    github-release = "goreleaser/goreleaser"
-  }
 }
 
 version "0.172.1" "0.173.1" "0.173.2" "0.174.0" "0.174.1" "0.174.2" "0.175.0"
@@ -25,5 +21,9 @@ version "0.182.0" "0.182.1" {
 
   platform "darwin" {
     source = "https://github.com/goreleaser/goreleaser/releases/download/v${version}/goreleaser_${os}_all.tar.gz"
+  }
+
+  auto-version {
+    github-release = "goreleaser/goreleaser"
   }
 }
