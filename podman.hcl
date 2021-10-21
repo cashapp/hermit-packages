@@ -17,7 +17,7 @@ platform "linux" {
   }
 }
 
-version "3.3.1" "3.4.0" {
+version "3.3.1" "3.4.0" "3.4.1" {
   auto-version {
     github-release = "containers/podman"
   }
