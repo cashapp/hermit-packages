@@ -1,6 +1,7 @@
 description = "GitHub command-line tool"
-binaries    = ["bin/gh"]
+binaries    = ["gh"]
 test        = "gh --version"
+strip       = 2
 
 linux {
   source = "https://github.com/cli/cli/releases/download/v${version}/gh_${version}_linux_amd64.tar.gz"
