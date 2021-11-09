@@ -1,4 +1,4 @@
-description = "svu"
+description = "Semantic Version Util is a tool to manage semantic versions at ease!"
 test        = "svu --version"
 binaries    = ["svu"]
 
