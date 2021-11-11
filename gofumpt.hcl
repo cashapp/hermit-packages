@@ -4,6 +4,7 @@ binaries = ["gofumpt"]
 
 darwin {
   source = "https://github.com/mvdan/gofumpt/releases/download/v${version}/gofumpt_v${version}_darwin_amd64"
+
   on "unpack" {
     rename {
       from = "${root}/gofumpt_v${version}_darwin_amd64"
@@ -14,6 +15,7 @@ darwin {
 
 linux {
   source = "https://github.com/mvdan/gofumpt/releases/download/v${version}/gofumpt_v${version}_linux_${arch}"
+
   on "unpack" {
     rename {
       from = "${root}/gofumpt_v${version}_linux_${arch}"
@@ -22,7 +24,7 @@ linux {
   }
 }
 
-version "0.1.1" {
+version "0.1.1" "0.2.0" {
   auto-version {
     github-release = "mvdan/gofumpt"
   }

@@ -10,7 +10,7 @@ platform "linux" {
   source = "https://github.com/crystal-lang/crystal/releases/download/${version}/crystal-${version}-1-linux-x86_64.tar.gz"
 }
 
-version "0.36.1" "1.0.0" "1.1.0" "1.1.1" "1.2.0" "1.2.1" {
+version "0.36.1" "1.0.0" "1.1.0" "1.1.1" "1.2.0" "1.2.1" "1.2.2" {
   auto-version {
     github-release = "crystal-lang/crystal"
   }
