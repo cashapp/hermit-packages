@@ -7,6 +7,6 @@ version "4.4.1" {
 
   auto-version {
     github-release = "kubernetes-sigs/kustomize"
-    version-pattern = "kustomize/(.*)"
+    version-pattern = "kustomize/v(.*)"
   }
 }
