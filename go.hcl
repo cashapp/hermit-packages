@@ -29,3 +29,8 @@ version "1.13.5" "1.14.4" "1.14.7" "1.15.2" "1.15.3" "1.15.6" "1.15.7" "1.15.11"
 source = "https://golang.org/dl/go${version}.${os}-${arch}.tar.gz"
 
 version "1.16" "1.16.3" "1.16.4" "1.16.5" "1.16.6" "1.16.7" "1.17rc1" "1.17" "1.17.1" "1.17.2" {}
+
+channel tip {
+  update = "24h"
+  source = "https://github.com/cashapp/hermit-build/releases/download/gotip/go-tip-${os}-${arch}.tbz"
+}
