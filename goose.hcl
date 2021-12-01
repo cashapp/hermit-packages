@@ -2,28 +2,39 @@ description = "Goose is a database migration tool. Manage your database schema b
 binaries = ["goose"]
 
 linux {
-  source = "https://github.com/pressly/goose/releases/download/v${version}/goose-linux64"
+  source = "https://github.com/pressly/goose/releases/download/v${version}/goose_linux_x86_64"
 
   on "unpack" {
     rename {
-      from = "${root}/goose-linux64"
+      from = "${root}/goose-linux_x86_64"
       to = "${root}/goose"
     }
   }
 }
 
-darwin {
-  source = "https://github.com/pressly/goose/releases/download/v${version}/goose-darwin64"
+platform darwin arm64 {
+  source = "https://github.com/pressly/goose/releases/download/v${version}/goose_darwin_arm64"
 
   on "unpack" {
     rename {
-      from = "${root}/goose-darwin64"
+      from = "${root}/goose-darwin_arm64"
       to = "${root}/goose"
     }
   }
 }
 
-version "2.6.0" "3.0.0" "3.0.1" "3.1.0" "3.2.0" "3.3.0" "3.3.1" "3.4.1" {
+platform darwin amd64 {
+  source = "https://github.com/pressly/goose/releases/download/v${version}/goose_darwin_x86_64"
+
+  on "unpack" {
+    rename {
+      from = "${root}/goose-darwin_x86_64"
+      to = "${root}/goose"
+    }
+  }
+}
+
+version "3.2.0" "3.3.0" "3.3.1" "3.4.1" {
   auto-version {
     github-release = "pressly/goose"
   }
