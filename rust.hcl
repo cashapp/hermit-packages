@@ -22,7 +22,7 @@ channel "nightly" {
   }
 }
 
-version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" {
+version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" {
   auto-version {
     github-release = "rust-lang/rust"
   }
