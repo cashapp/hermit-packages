@@ -1,5 +1,6 @@
 description = "Tools to bootstrap CAs, certificate requests, and signed certificates."
 binaries = ["certstrap"]
+test = "certstrap --version"
 
 source = "https://github.com/square/certstrap/releases/download/v${version}/certstrap-${version}-${os}-amd64"
 on unpack {
