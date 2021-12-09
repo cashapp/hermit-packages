@@ -12,7 +12,7 @@ on "unpack" {
 
 source = "https://github.com/mvdan/sh/releases/download/v${version}/shfmt_v${version}_${os}_amd64"
 
-version "3.2.4" "3.3.0" "3.3.1" "3.4.0" {
+version "3.2.4" "3.3.0" "3.3.1" "3.4.0" "3.4.1" {
   auto-version {
     github-release = "mvdan/sh"
   }
