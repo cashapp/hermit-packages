@@ -34,7 +34,7 @@ platform "linux" "amd64" {
   }
 }
 
-version "2.1.0" "2.1.1" {
+version "2.1.0" "2.1.1" "2.1.2" {
   auto-version {
     github-release = "ocaml/opam"
   }

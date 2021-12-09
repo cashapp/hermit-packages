@@ -3,29 +3,21 @@ binaries = ["kn"]
 test = "kn --help"
 
 version "0.26.0" {
+  source = "https://github.com/knative/client/releases/download/v${version}/kn-${os}-${arch}"
+}
+
+version "1.0.0" {
+  source = "https://github.com/knative/client/releases/download/knative-v${version}/kn-${os}-${arch}"
   auto-version {
-    github-release = " knative/client"
+    github-release = "knative/client"
+    version-pattern = "knative-v(.*)"
   }
 }
 
-linux {
-  source = "https://github.com/knative/client/releases/download/v${version}/kn-${os}-${arch}"
 
-  on "unpack" {
-    rename {
-      from = "${root}/kn-${os}-${arch}"
-      to = "${root}/kn"
-    }
-  }
-}
-
-darwin {
-  source = "https://github.com/knative/client/releases/download/v${version}/kn-${os}-${arch}"
-
-  on "unpack" {
-    rename {
-      from = "${root}/kn-${os}-${arch}"
-      to = "${root}/kn"
-    }
+on "unpack" {
+  rename {
+    from = "${root}/kn-${os}-${arch}"
+    to = "${root}/kn"
   }
 }
