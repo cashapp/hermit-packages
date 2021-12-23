@@ -4,10 +4,6 @@ platform "darwin" "amd64" {
   source = "https://github.com/docker/compose/releases/download/v${version}/docker-compose-${os}-${xarch}"
 }
 
-platform "darwin" "arm64" {
-  source = "https://github.com/docker/compose/releases/download/v${version}/docker-compose-${os}-${xarch}"
-}
-
 platform "linux" "amd64" {
   source = "https://github.com/docker/compose/releases/download/v${version}/docker-compose-${os}-${xarch}"
   on unpack {
