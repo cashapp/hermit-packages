@@ -2,6 +2,9 @@ binaries = ["docker-compose"]
 
 platform "darwin" "amd64" {
   source = "https://github.com/docker/compose/releases/download/v${version}/docker-compose-${os}-${xarch}"
+  on unpack {
+      rename { from = "${root}/docker-compose-${os}-${xarch}" to = "${root}/docker-compose" }
+  }
 }
 
 platform "linux" "amd64" {
