@@ -14,7 +14,7 @@ platform "linux" "amd64" {
 
 description = "A Pluggable Terraform Linter"
 
-version "0.33.1" "0.33.2" {
+version "0.33.1" "0.33.2" "0.34.0" {
   auto-version {
     github-release = "terraform-linters/tflint"
   }

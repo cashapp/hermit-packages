@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.31.0" "1.32.0" "1.33.0" "1.35.0" {
+version "1.31.0" "1.32.0" "1.33.0" "1.35.0" "1.35.1" {
   auto-version {
     github-release = "GoogleContainerTools/skaffold"
   }
