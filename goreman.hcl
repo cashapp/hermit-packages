@@ -4,7 +4,4 @@ source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman
 strip = 1
 
 version "0.3.7" "0.3.8" {
-  auto-version {
-    github-release = "mattn/goreman"
-  }
 }
