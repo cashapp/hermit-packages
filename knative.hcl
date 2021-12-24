@@ -6,14 +6,14 @@ version "0.26.0" {
   source = "https://github.com/knative/client/releases/download/v${version}/kn-${os}-${arch}"
 }
 
-version "1.0.0" {
+version "1.0.0" "1.1.0" {
   source = "https://github.com/knative/client/releases/download/knative-v${version}/kn-${os}-${arch}"
+
   auto-version {
     github-release = "knative/client"
     version-pattern = "knative-v(.*)"
   }
 }
-
 
 on "unpack" {
   rename {

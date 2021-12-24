@@ -11,7 +11,7 @@ darwin {
   source = "https://github.com/cli/cli/releases/download/v${version}/gh_${version}_macOS_amd64.tar.gz"
 }
 
-version "2.1.0" "2.2.0" {
+version "2.1.0" "2.2.0" "2.4.0" {
   auto-version {
     github-release = "cli/cli"
   }

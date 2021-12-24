@@ -9,7 +9,7 @@ platform "darwin" "arm64" {
   source = "https://github.com/lima-vm/lima/releases/download/v${version}/lima-${version}-${os}-arm64.tar.gz"
 }
 
-version "0.6.4" "0.7.1" "0.7.2" "0.7.3" "0.7.4" {
+version "0.6.4" "0.7.1" "0.7.2" "0.7.3" "0.7.4" "0.8.0" {
   auto-version {
     github-release = "lima-vm/lima"
   }

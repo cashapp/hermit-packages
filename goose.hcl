@@ -12,7 +12,7 @@ linux {
   }
 }
 
-platform darwin arm64 {
+platform "darwin" "arm64" {
   source = "https://github.com/pressly/goose/releases/download/v${version}/goose_darwin_arm64"
 
   on "unpack" {
@@ -23,7 +23,7 @@ platform darwin arm64 {
   }
 }
 
-platform darwin amd64 {
+platform "darwin" "amd64" {
   source = "https://github.com/pressly/goose/releases/download/v${version}/goose_darwin_x86_64"
 
   on "unpack" {
@@ -34,7 +34,7 @@ platform darwin amd64 {
   }
 }
 
-version "3.2.0" "3.3.0" "3.3.1" "3.4.1" {
+version "3.2.0" "3.3.0" "3.3.1" "3.4.1" "3.5.0" {
   auto-version {
     github-release = "pressly/goose"
   }
