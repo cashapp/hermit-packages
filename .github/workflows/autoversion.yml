@@ -11,6 +11,8 @@ jobs:
         run: |
           ./bin/hermit env -r >> $GITHUB_ENV
       - name: Auto-version
+        env:
+          GITHUB_TOKEN: ${{ secrets.AUTO_VERSIONING }}
         run: |
           set -xe
           hermit -d manifest auto-version *.hcl
