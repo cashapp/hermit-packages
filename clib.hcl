@@ -1,5 +1,5 @@
 description = "C package manager-ish"
-binaries = ["clib", "clib-*"]
+binaries = ["clib"]
 strip = 1
 
 on unpack {
@@ -12,6 +12,10 @@ on unpack {
   chmod { file = "${root}/clib-uninstall" mode = 0700 }
   chmod { file = "${root}/clib-update" mode = 0700 }
   chmod { file = "${root}/clib-upgrade" mode = 0700 }
+}
+
+env = {
+  PATH: "${root}:${PATH}",
 }
 
 platform linux {
