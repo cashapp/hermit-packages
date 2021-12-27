@@ -12,8 +12,4 @@ linux {
   strip = 1
 }
 
-version "2.0.40" {}
-version "2.1.26" {}
-version "2.2.4" {}
-version "2.4.2" {}
-version "2.4.4" {}
+version "2.0.40" "2.1.26" "2.2.4" "2.4.2" "2.4.4" "2.4.7" {}
