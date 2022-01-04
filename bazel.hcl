@@ -1,7 +1,7 @@
 description = "Bazel is an open-source build and test tool similar to Make, Maven, and Gradle."
 binaries = ["bazel"]
 
-darwin {
+platform "darwin" "amd64" {
   source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-darwin-x86_64"
 
   on "unpack" {
@@ -12,7 +12,7 @@ darwin {
   }
 }
 
-linux {
+platform "linux" "amd64" {
   source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-linux-x86_64"
 
   on "unpack" {
@@ -23,7 +23,18 @@ linux {
   }
 }
 
-version "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" {
+platform "linux" "arm64" {
+  source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-linux-arm64"
+
+  on "unpack" {
+    rename {
+      from = "${root}/bazel-${version}-linux-arm64"
+      to = "${root}/bazel"
+    }
+  }
+}
+
+version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" {
   auto-version {
     github-release = "bazelbuild/bazel"
   }
