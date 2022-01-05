@@ -1,7 +1,8 @@
 description = "Bazel is an open-source build and test tool similar to Make, Maven, and Gradle."
 binaries = ["bazel"]
 
-platform "darwin" "amd64" {
+platform "darwin" {
+  // Note that this will match both Intel and M1 arch, so will be emulated on the latter
   source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-darwin-x86_64"
 
   on "unpack" {
