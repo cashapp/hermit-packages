@@ -3,12 +3,12 @@ binaries = ["task"]
 test = "task --version"
 
 version "3.7.0" {
-  platform darwin arm64 {
+  platform "darwin" "arm64" {
     source = "https://github.com/go-task/task/releases/download/v${version}/task_${os}_amd64.tar.gz"
   }
 }
 
-version "3.7.3" "3.8.0" "3.9.2" {
+version "3.7.3" "3.8.0" "3.9.2" "3.10.0" {
   auto-version {
     github-release = "go-task/task"
   }

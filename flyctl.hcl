@@ -14,7 +14,7 @@ platform "linux" "amd64" {
   source = "https://github.com/superfly/flyctl/releases/download/v${version}/flyctl_${version}_Linux_x86_64.tar.gz"
 }
 
-version "0.0.260" "0.0.271" "0.0.272" "0.0.275" "0.0.276" {
+version "0.0.260" "0.0.271" "0.0.272" "0.0.275" "0.0.276" "0.0.277" {
   auto-version {
     github-release = "superfly/flyctl"
   }
