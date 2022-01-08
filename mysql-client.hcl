@@ -20,6 +20,6 @@ version "8.0.27" {
     source = "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-${version}-macos11-arm64.tar.gz"
   }
   linux {
-    source = "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-community-client-core_${version}-1ubuntu21.10_amd64.tar.xz"
+    source = "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-community-client-core_${version}-1ubuntu20.04_amd64.deb"
   }
 }
