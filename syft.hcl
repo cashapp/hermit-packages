@@ -9,7 +9,8 @@ linux {
   source = "https://github.com/anchore/syft/releases/download/v${version}/syft_${version}_linux_amd64.tar.gz"
 }
 
-version "0.19.1" "0.20.0" "0.21.0" "0.23.0" "0.24.0" "0.24.1" "0.32.0" "0.34.0" {
+version "0.19.1" "0.20.0" "0.21.0" "0.23.0" "0.24.0" "0.24.1" "0.32.0" "0.34.0"
+        "0.35.0" {
   auto-version {
     github-release = "anchore/syft"
   }
