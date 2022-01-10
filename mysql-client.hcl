@@ -21,6 +21,6 @@ version "8.0.27" {
   }
   linux {
     source = "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-community-client-core_${version}-1ubuntu20.04_amd64.deb"
-    strip = 0
+    strip = 2
   }
 }
