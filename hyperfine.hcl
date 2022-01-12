@@ -4,7 +4,7 @@ strip = 1
 binaries = ["hyperfine"]
 
 darwin {
-  source = "https://github.com/sharkdp/hyperfine/releases/download/v${version}/hyperfine-v${version}-${xarch}-apple-darwin.tar.gz"
+  source = "https://github.com/sharkdp/hyperfine/releases/download/v${version}/hyperfine-v${version}-x86_64-apple-darwin.tar.gz"
 }
 
 linux {
