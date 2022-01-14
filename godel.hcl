@@ -3,7 +3,7 @@ source = "https://github.com/palantir/godel/releases/download/v${version}/godel-
 binaries = ["bin/${os}-${arch}/godel"]
 strip = 1
 
-version "2.42.0" {
+version "2.42.0" "2.43.0" {
   auto-version {
     github-release = "palantir/godel"
   }
