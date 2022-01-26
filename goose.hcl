@@ -34,7 +34,7 @@ platform "darwin" "amd64" {
   }
 }
 
-version "3.2.0" "3.3.0" "3.3.1" "3.4.1" "3.5.0" {
+version "3.2.0" "3.3.0" "3.3.1" "3.4.1" "3.5.0" "3.5.1" {
   auto-version {
     github-release = "pressly/goose"
   }
