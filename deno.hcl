@@ -18,7 +18,7 @@ platform "windows" {
   source = "https://github.com/denoland/deno/releases/download/v${version}/deno-x86_64-pc-windows-msvc.zip"
 }
 
-version "1.18.0" "1.18.1" {
+version "1.18.0" "1.18.1" "1.18.2" {
   auto-version {
     github-release = "denoland/deno"
   }
