@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.2.1" "1.3.0" {
+version "1.2.1" "1.3.0" "1.3.1" {
   auto-version {
     github-release = "grpc/grpc-web"
   }
