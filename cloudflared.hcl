@@ -13,23 +13,7 @@ linux {
 }
 
 darwin {
-  source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-${arch}.tgz"
-  on "unpack" {
-    rename {
-      from = "${root}/cloudflared-${os}-${arch}"
-      to = "${root}/cloudflared"
-    }
-  }
-}
-
-windows {
-  source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-${arch}.exe"
-  on "unpack" {
-    rename {
-      from = "${root}/cloudflared-${os}-${arch}"
-      to = "${root}/cloudflared"
-    }
-  }
+  source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-amd64.tgz"
 }
 
 version "2022.2.0" {
