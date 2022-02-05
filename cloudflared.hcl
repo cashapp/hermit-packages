@@ -22,16 +22,6 @@ darwin {
   }
 }
 
-windows {
-  source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-${arch}.exe"
-  on "unpack" {
-    rename {
-      from = "${root}/cloudflared-${os}-${arch}"
-      to = "${root}/cloudflared"
-    }
-  }
-}
-
 version "2022.2.0" {
   auto-version {
     github-release = "cloudflare/cloudflared"
