@@ -3,7 +3,7 @@ source = "https://github.com/cue-lang/cue/releases/download/v${version}/cue_v${v
 binaries = ["cue"]
 test = "cue version"
 
-version "0.4.0" "0.4.1" {
+version "0.4.0" "0.4.1" "0.4.2" {
   auto-version {
     github-release = "cue-lang/cue"
   }
