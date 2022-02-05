@@ -2,7 +2,6 @@ description = "Cloudflared is the command line client for Cloudflare Tunnel, a t
 binaries = ["cloudflared"]
 test = "cloudflared --version"
 
-
 linux {
   source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-${arch}"
   on "unpack" {
