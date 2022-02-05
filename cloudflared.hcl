@@ -14,12 +14,6 @@ linux {
 
 darwin {
   source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-amd64.tgz"
-  on "unpack" {
-    rename {
-      from = "${root}/cloudflared-${os}-${arch}"
-      to = "${root}/cloudflared"
-    }
-  }
 }
 
 version "2022.2.0" {
