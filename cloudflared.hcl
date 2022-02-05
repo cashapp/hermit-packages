@@ -13,7 +13,7 @@ linux {
 }
 
 darwin {
-  source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-${arch}.tgz"
+  source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-amd64.tgz"
   on "unpack" {
     rename {
       from = "${root}/cloudflared-${os}-${arch}"
