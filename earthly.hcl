@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.6.5" "0.6.6" {
+version "0.6.5" "0.6.6" "0.6.7" {
   auto-version {
     github-release = "earthly/earthly"
   }
