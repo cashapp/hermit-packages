@@ -1,5 +1,5 @@
 description = "Create, maintain, and interact with Xcode projects at scale"
-test = "tuist --version"
+test = "tuist version"
 binaries = ["tuist"]
 
 darwin {
