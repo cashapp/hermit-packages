@@ -2,7 +2,7 @@ description = "ko is a simple, fast container image builder for Go applications.
 binaries = ["ko"]
 test = "ko --help"
 
-version "0.9.3" {
+version "0.9.3" "0.10.0" {
   auto-version {
     github-release = "google/ko"
   }
