@@ -4,6 +4,7 @@ test = "cloudflared --version"
 
 linux {
   source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-${arch}"
+
   on "unpack" {
     rename {
       from = "${root}/cloudflared-${os}-${arch}"
@@ -16,7 +17,7 @@ darwin {
   source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-amd64.tgz"
 }
 
-version "2022.2.0" {
+version "2022.2.0" "2022.2.1" {
   auto-version {
     github-release = "cloudflare/cloudflared"
   }
