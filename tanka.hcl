@@ -3,7 +3,7 @@ binaries = ["tk"]
 test = "tk --help"
 
 linux {
-  source = "https://github.com/grafana/tanka/releases/download/${version}/tk-${os}-amd64"
+  source = "https://github.com/grafana/tanka/releases/download/v${version}/tk-${os}-amd64"
 
   on "unpack" {
     rename {
@@ -14,7 +14,7 @@ linux {
 }
 
 darwin {
-  source = "https://github.com/grafana/tanka/releases/download/${version}/tk-${os}-amd64"
+  source = "https://github.com/grafana/tanka/releases/download/v${version}/tk-${os}-amd64"
 
   on "unpack" {
     rename {
@@ -24,7 +24,7 @@ darwin {
   }
 }
 
-version "v0.20.0" {
+version "0.20.0" {
   auto-version {
     github-release = "grafana/tanka"
   }
