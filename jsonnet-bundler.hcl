@@ -1,6 +1,6 @@
 description = "The jsonnet-bundler is a package manager for Jsonnet."
 binaries = ["jb"]
-test = "tk --version"
+test = "jb --version"
 
 source = "https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v${version}/jb-${os}-amd64"
 
