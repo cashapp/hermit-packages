@@ -8,4 +8,8 @@ platform darwin {
   source = "https://github.com/wader/fq/releases/download/v${version}/fq_${version}_macos_${arch}.zip"
 }
 
-version "0.0.5" {}
+version "0.0.5" {
+  auto-version {
+    github-release = "wader/fq"
+  }
+}
