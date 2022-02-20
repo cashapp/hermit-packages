@@ -2,25 +2,12 @@ description = "Flexible, reusable and concise configuration for Kubernetes."
 binaries = ["tk"]
 test = "tk --help"
 
-linux {
-  source = "https://github.com/grafana/tanka/releases/download/v${version}/tk-${os}-amd64"
+source = "https://github.com/grafana/tanka/releases/download/v${version}/tk-${os}-amd64"
 
-  on "unpack" {
-    rename {
-      from = "${root}/tk-${os}-amd64"
-      to = "${root}/tk"
-    }
-  }
-}
-
-darwin {
-  source = "https://github.com/grafana/tanka/releases/download/v${version}/tk-${os}-amd64"
-
-  on "unpack" {
-    rename {
-      from = "${root}/tk-${os}-amd64"
-      to = "${root}/tk"
-    }
+on "unpack" {
+  rename {
+    from = "${root}/tk-${os}-amd64"
+    to = "${root}/tk"
   }
 }
 
