@@ -35,7 +35,7 @@ platform "linux" "amd64" {
 
 description = "Define and run multi-container applications with Docker"
 
-version "2.2.2" "2.2.3" "2.3.0" "2.3.1" {
+version "2.2.2" "2.2.3" "2.3.0" "2.3.1" "2.3.2" {
   auto-version {
     github-release = "docker/compose"
   }
