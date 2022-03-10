@@ -3,10 +3,7 @@ description = "A command-line tool for working with a log of Architecture Decisi
 source = "https://github.com/npryce/adr-tools/archive/refs/tags/${version}.tar.gz"
 strip = 1
 
-binaries = [
-  "src/_adr*",
-  "src/adr*",
-]
+binaries = ["src/adr"]
 
 test = "adr help"
 
