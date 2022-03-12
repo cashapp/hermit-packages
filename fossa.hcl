@@ -9,7 +9,8 @@ platform "darwin" "arm64" {
   source = "https://github.com/fossas/fossa-cli/releases/download/v${version}/fossa_${version}_${os}_amd64.zip"
 }
 
-version "3.0.12" "3.0.14" "3.0.15" "3.0.16" "3.0.17" "3.0.18" "3.1.0" "3.1.2" "3.1.3" {
+version "3.0.12" "3.0.14" "3.0.15" "3.0.16" "3.0.17" "3.0.18" "3.1.0" "3.1.2" "3.1.3"
+        "3.1.4" {
   auto-version {
     github-release = "fossas/fossa-cli"
   }
