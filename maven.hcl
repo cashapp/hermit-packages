@@ -4,6 +4,6 @@ requires = ["jdk"]
 binaries = ["bin/mvn"]
 strip = 1
 
-version "3.6.3" "3.8.4" {
+version "3.6.3" "3.8.4" "3.8.5" {
   source = "https://downloads.apache.org/maven/maven-3/${version}/binaries/apache-maven-${version}-bin.tar.gz"
 }
