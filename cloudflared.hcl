@@ -17,7 +17,7 @@ darwin {
   source = "https://github.com/cloudflare/cloudflared/releases/download/${version}/cloudflared-${os}-amd64.tgz"
 }
 
-version "2022.2.0" "2022.2.1" "2022.2.2" "2022.3.0" "2022.3.1" {
+version "2022.2.0" "2022.2.1" "2022.2.2" "2022.3.0" "2022.3.1" "2022.3.2" {
   auto-version {
     github-release = "cloudflare/cloudflared"
   }
