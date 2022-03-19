@@ -45,20 +45,12 @@ version "3.9.5" {
   }
 }
 
-platform darwin arm64 {
-  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-aarch64-apple-darwin-pgo+lto-full.tar.zst"
+platform darwin {
+  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-apple-darwin-pgo+lto-full.tar.zst"
 }
 
-platform darwin amd64 {
-  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-x86_64-apple-darwin-pgo+lto-full.tar.zst"
-}
-
-platform linux arm64 {
-  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-aarch64-unknown-linux-gnu-debug-full.tar.zst"
-}
-
-platform linux amd64 {
-  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-x86_64-unknown-linux-gnu-debug-full.tar.zst"
+platform linux {
+  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-unknown-linux-gnu-debug-full.tar.zst"
 }
 
 version "3.9.10" "3.10.2" {
