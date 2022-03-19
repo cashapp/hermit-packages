@@ -1,6 +1,7 @@
 description = "Python is a programming language that lets you work quickly and integrate systems more effectively."
 
 env = {
+  PYTHONPYCACHEPREFIX: "${HERMIT_ENV}/.hermit/python/cache",
   PYTHONUSERBASE: "${HERMIT_ENV}/.hermit/python",
   PATH: "${HERMIT_ENV}/.hermit/python/bin:${PATH}",
 }
@@ -56,6 +57,7 @@ platform linux {
 version "3.9.10" "3.10.2" {
   env = {
     PYTHONHOME: "${root}/install",
+    PYTHONPATH: "${root}/install/lib/python3.10/site-packages",
   }
   vars = {
     release_date: "20220227"
