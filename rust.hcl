@@ -4,6 +4,7 @@ strip = 2
 
 env = {
   CARGO_HOME: "${HERMIT_ENV}/.hermit/rust",
+  PATH: "${HERMIT_ENV}/.hermit/rust/bin:${PATH}",
 }
 
 darwin {
