@@ -2,6 +2,10 @@ description = "A language empowering everyone to build reliable and efficient so
 binaries = ["bin/*"]
 strip = 2
 
+env = {
+  CARGO_HOME: "${HERMIT_ENV}/.hermit/rust",
+}
+
 darwin {
   source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-apple-darwin.tar.xz"
 }
