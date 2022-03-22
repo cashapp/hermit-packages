@@ -11,7 +11,7 @@ platform "linux" {
 }
 
 version "2021.33.2" "2022.03" "2022.04" "2022.05" "2022.06" "2022.07" "2022.09"
-        "2022.10" "2022.11" {
+        "2022.10" "2022.11" "2022.12" {
   auto-version {
     github-release = "vlang/v"
     version-pattern = "weekly\\.(.*)"

@@ -7,7 +7,7 @@ platform "linux" {
   source = "https://github.com/turbot/steampipe/releases/download/v${version}/steampipe_${os}_${arch}.tar.gz"
 }
 
-version "0.12.2" "0.13.0" "0.13.1" "0.13.2" {
+version "0.12.2" "0.13.0" "0.13.1" "0.13.2" "0.13.3" {
   auto-version {
     github-release = "turbot/steampipe"
   }

@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.16.0" "2.7.3" "2.8.0" "2.9.0" {
+version "1.16.0" "2.7.3" "2.8.0" "2.9.0" "2.10.0" {
   auto-version {
     github-release = "grpc-ecosystem/grpc-gateway"
   }
