@@ -68,6 +68,18 @@ version "17.0.1_12" {
   }
 }
 
+version "17.0.2_8" {
+  platform linux {
+    source = "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.2_8.tar.gz"
+  }
+  platform darwin {
+    source = "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.2_8.tar.gz"
+  }
+  platform darwin arm64 {
+    source = "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.2_8.tar.gz"
+  }
+}
+
 channel "stable" {
   update = "24h"
   version = "11.*"
