@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "0.61.3" "0.62.0" {
+version "0.61.3" "0.62.0" "0.61.4" {
   auto-version {
     github-release = "mesonbuild/meson"
   }

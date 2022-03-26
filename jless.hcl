@@ -3,15 +3,15 @@ homepage = "https://jless.io/"
 binaries = ["jless"]
 test = "jless --version"
 
-platform darwin {
+platform "darwin" {
   source = "https://github.com/PaulJuliusMartinez/jless/releases/download/v${version}/jless-v${version}-x86_64-apple-darwin.zip"
 }
 
-platform linux amd64 {
+platform "linux" "amd64" {
   source = "https://github.com/PaulJuliusMartinez/jless/releases/download/v${version}/jless-v${version}-x86_64-unknown-linux-gnu.zip"
 }
 
-version "0.7.2" {
+version "0.7.2" "0.8.0" {
   auto-version {
     github-release = "PaulJuliusMartinez/jless"
   }
