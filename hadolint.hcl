@@ -9,7 +9,7 @@ on "unpack" {
   }
 }
 
-version "2.7.0" "2.8.0" "2.9.1" "2.9.2" "2.9.3" {
+version "2.7.0" "2.8.0" "2.9.1" "2.9.2" "2.9.3" "2.10.0" {
   auto-version {
     github-release = "hadolint/hadolint"
   }
