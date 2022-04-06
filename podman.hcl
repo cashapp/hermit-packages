@@ -1,24 +1,45 @@
 description = "A tool for managing OCI containers and pods."
-binaries = ["podman"]
 
-platform "darwin" {
-  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin.zip"
-  strip = 1
-}
+version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
+  binaries = ["podman"]
 
-platform "linux" {
-  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+  platform "darwin" {
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin.zip"
+    strip = 1
+  }
 
-  on "unpack" {
-    rename {
-      from = "${root}/podman-remote-static"
-      to = "${root}/podman"
+  platform "linux" {
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static"
+        to = "${root}/podman"
+      }
     }
   }
 }
 
-version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" "4.0.0" "4.0.1" "4.0.2" "4.0.3" {
+version "4.0.2" "4.0.3" {
   auto-version {
     github-release = "containers/podman"
+  }
+
+  platform "darwin" {
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin_${arch}.zip"
+    strip = 1
+    binaries = ["usr/bin/podman"]
+  }
+
+  platform "linux" {
+    binaries = ["podman"]
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static"
+        to = "${root}/podman"
+      }
+    }
   }
 }
