@@ -12,7 +12,7 @@ darwin {
 }
 
 linux {
-  source = "https://static.rust-lang.org/dist/rust-${version}-x86_64-unknown-linux-musl.tar.xz"
+  source = "https://static.rust-lang.org/dist/rust-${version}-x86_64-unknown-linux-gnu.tar.xz"
 }
 
 channel "nightly" {
@@ -23,7 +23,7 @@ channel "nightly" {
   }
 
   linux {
-    source = "https://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-musl.tar.xz"
+    source = "https://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-gnu.tar.xz"
   }
 }
 
