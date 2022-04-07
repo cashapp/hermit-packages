@@ -10,10 +10,6 @@ env = {
   PYTHONHOME: "${root}/install",
 }
 
-on install {
-  message { text = "Hermit Python support is experimental. Please report issues at https://github.com/cashapp/hermit-packages" }
-}
-
 platform darwin {
   source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-apple-darwin-pgo+lto-full.tar.zst"
 }
