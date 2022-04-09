@@ -35,7 +35,7 @@ platform "linux" "arm64" {
   }
 }
 
-version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" "5.0.0" "5.1.0" {
+version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" "5.0.0" "5.1.0" "5.1.1" {
   auto-version {
     github-release = "bazelbuild/bazel"
   }
