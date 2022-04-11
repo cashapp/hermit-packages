@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.12.1" "0.13.0" {
+version "0.12.1" "0.13.0" "0.13.1" {
   auto-version {
     github-release = "restic/restic"
   }
