@@ -11,8 +11,7 @@ platform "linux" {
   source = "https://github.com/tidwall/tile38/releases/download/${version}/tile38-${version}-${os}-${arch}.tar.gz"
 }
 
-
-version "1.27.1" {
+version "1.27.1" "1.28.0" {
   auto-version {
     github-release = "tidwall/tile38"
   }
