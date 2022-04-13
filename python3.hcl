@@ -7,7 +7,6 @@ env = {
   PYTHONPYCACHEPREFIX: "${HERMIT_ENV}/.hermit/python/cache",
   PYTHONUSERBASE: "${HERMIT_ENV}/.hermit/python",
   PATH: "${HERMIT_ENV}/.hermit/python/bin:${PATH}",
-  PYTHONHOME: "${root}/install",
 }
 
 platform darwin {
