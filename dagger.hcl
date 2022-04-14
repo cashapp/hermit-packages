@@ -1,6 +1,5 @@
 description = "A portable devkit for CI/CD pipelines."
 
-requires = ["docker"]
 binaries = ["dagger"]
 test = "dagger version"
 
