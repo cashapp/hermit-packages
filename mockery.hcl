@@ -28,7 +28,7 @@ version "2.10.4" {
   }
 }
 
-version "2.10.6" {
+version "2.10.6" "2.11.0" {
   auto-version {
     github-release = "vektra/mockery"
   }
