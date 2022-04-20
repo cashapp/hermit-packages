@@ -1,6 +1,7 @@
 description = "A command-line tool to prevent committing secret keys into your source code."
 homepage = "https://github.com/sirwart/secrets"
 binaries = ["secrets"]
+test = "secrets --version"
 strip = 1
 
 darwin {
