@@ -1,7 +1,6 @@
 description = "Statically typed programming language (for JS and the JVM)"
 requires = ["jre"]
 source = "https://github.com/JetBrains/kotlin/releases/download/v${version}/kotlin-compiler-${version}.zip"
-provides = ["kotlinc"]
 binaries = [
   "bin/kapt",
   "bin/kotlin",
