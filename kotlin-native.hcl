@@ -1,8 +1,17 @@
-description = "Statically typed programming eanguage"
+description = "Statically typed programming language"
 requires = ["jre"]
-provides = ["kotlinc"]
-binaries = ["bin/*"]
-test = "kotlinc -version"
+binaries = [
+  "bin/cinterop",
+  "bin/generate-platform",
+  "bin/jsinterop",
+  "bin/klib",
+  "bin/konan-lldb",
+  "bin/konanc",
+  # do not expose "kotlinc" to prevent a conflict with "kotlin"
+  "bin/kotlinc-native",
+  "bin/run_konan",
+]
+test = "kotlinc-native -version"
 strip = 1
 
 version "1.5.0" "1.5.20" "1.5.21" {
