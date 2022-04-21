@@ -20,7 +20,7 @@ version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
   }
 }
 
-version "4.0.2" "4.0.3" "3.4.6" {
+version "4.0.2" "4.0.3" "3.4.6" "3.4.7" {
   auto-version {
     github-release = "containers/podman"
   }
