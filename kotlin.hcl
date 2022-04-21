@@ -1,11 +1,11 @@
 description = "Statically typed programming language (for JS and the JVM)"
 requires = ["jre"]
 source = "https://github.com/JetBrains/kotlin/releases/download/v${version}/kotlin-compiler-${version}.zip"
+// Do not expose "kotlinc" to prevent a conflict with "kotlin-native"
 binaries = [
   "bin/kapt",
   "bin/kotlin",
   "bin/kotlin-dce-js",
-  # do not expose "kotlinc" to prevent a conflict with "kotlin-native"
   "bin/kotlinc-js",
   "bin/kotlinc-jvm",
 ]

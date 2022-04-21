@@ -1,5 +1,6 @@
 description = "Statically typed programming language"
 requires = ["jre"]
+// Do not expose "kotlinc" to prevent a conflict with "kotlin"
 binaries = [
   "bin/cinterop",
   "bin/generate-platform",
@@ -7,7 +8,6 @@ binaries = [
   "bin/klib",
   "bin/konan-lldb",
   "bin/konanc",
-  # do not expose "kotlinc" to prevent a conflict with "kotlin"
   "bin/kotlinc-native",
   "bin/run_konan",
 ]
