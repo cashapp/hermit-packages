@@ -3,40 +3,40 @@ test = "sentry-cli --version"
 binaries = ["sentry-cli"]
 
 platform "darwin" "arm64" {
-    source = "https://github.com/getsentry/sentry-cli/releases/download/${version}/sentry-cli-Darwin-arm64"
+  source = "https://github.com/getsentry/sentry-cli/releases/download/${version}/sentry-cli-Darwin-arm64"
 
-    on "unpack" {
-        rename {
-            from = "${root}/sentry-cli-Darwin-arm64"
-            to = "${root}/sentry-cli"
-        }
+  on "unpack" {
+    rename {
+      from = "${root}/sentry-cli-Darwin-arm64"
+      to = "${root}/sentry-cli"
     }
+  }
 }
 
 platform "darwin" "amd64" {
-    source = "https://github.com/getsentry/sentry-cli/releases/download/${version}/sentry-cli-Darwin-x86_64"
+  source = "https://github.com/getsentry/sentry-cli/releases/download/${version}/sentry-cli-Darwin-x86_64"
 
-    on "unpack" {
-        rename {
-            from = "${root}/sentry-cli-Darwin-x86_64"
-            to = "${root}/sentry-cli"
-        }
+  on "unpack" {
+    rename {
+      from = "${root}/sentry-cli-Darwin-x86_64"
+      to = "${root}/sentry-cli"
     }
+  }
 }
 
 linux {
-    source = "https://github.com/getsentry/sentry-cli/releases/download/${version}/sentry-cli-Linux-${xarch}"
+  source = "https://github.com/getsentry/sentry-cli/releases/download/${version}/sentry-cli-Linux-${xarch}"
 
-    on "unpack" {
-        rename {
-            from = "${root}/sentry-cli-Linux-${xarch}"
-            to = "${root}/sentry-cli"
-        }
+  on "unpack" {
+    rename {
+      from = "${root}/sentry-cli-Linux-${xarch}"
+      to = "${root}/sentry-cli"
     }
+  }
 }
 
-version "2.0.2" {
-    auto-version {
-        github-release = "getsentry/sentry-cli"
-    }
+version "2.0.2" "2.0.3" {
+  auto-version {
+    github-release = "getsentry/sentry-cli"
+  }
 }
