@@ -1,4 +1,4 @@
-binaries = []
+binaries = ["goproxy"]
 
 platform "darwin" "amd64" {
   source = "https://github.com/goproxy/goproxy/releases/download/v${version}/goproxy_${version}_${os}_${arch}.tar.gz"
@@ -18,9 +18,6 @@ homepage = "https://pkg.go.dev/github.com/goproxy/goproxy"
 version "0.10.2" {
   auto-version {
     github-release = "goproxy/goproxy"
-
-    html {
-    }
   }
 }
 
