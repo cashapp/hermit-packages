@@ -16,11 +16,13 @@ platform linux amd64 {
 darwin {
   root = "${dest}/Contents/Home"
   dest = "${HOME}/Library/Java/JavaVirtualMachines/jdk-${version}.jdk"
-  
-  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macos-${xarch}.tar.gz"
+
+  platform aarch64 {
+    source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macosx-${xarch}.tar.gz"
+  }
 
   platform amd64 {
-    source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macos-x64.tar.gz"
+    source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macosx-x64.tar.gz"
   }
 }
 
