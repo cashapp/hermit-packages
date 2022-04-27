@@ -10,19 +10,10 @@ darwin {
   dest = "${HOME}/Library/Java/JavaVirtualMachines/corretto-${version}.jdk"
 }
 
-source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${os}-${xarch}.tar.gz"
-
-platform darwin amd64 {
-  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macosx-x64.tar.gz"
-}
-
-platform darwin arm64 {
-  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macosx-${xarch}.tar.gz"
-}
-
-platform linux amd64 {
-  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${os}-x64.tar.gz"
-}
+vars = { _os = "${os}", _arch = "${xarch}" }
+darwin { vars { _arch = "macosx" } }
+amd64 { vars { _os = "x64" } }
+source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${_os}-${_arch}.tar.gz"
 
 channel "stable" {
   update = "24h"
