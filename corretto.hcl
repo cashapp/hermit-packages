@@ -7,7 +7,7 @@ strip = 1
 
 darwin {
   root = "${dest}/Contents/Home"
-  dest = "${HOME}/Library/Java/JavaVirtualMachines/jdk-${version}.jdk"
+  dest = "${HOME}/Library/Java/JavaVirtualMachines/corretto-${version}.jdk"
 }
 
 source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${os}-${xarch}.tar.gz"
