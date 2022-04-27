@@ -14,16 +14,16 @@ darwin {
 
 source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${os}-${xarch}.tar.gz"
 
-platform linux amd64 {
-  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${os}-x64.tar.gz"
+platform darwin amd64 {
+  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macosx-x64.tar.gz"
 }
 
-platform darwin aarch64 {
+platform darwin arm64 {
   source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macosx-${xarch}.tar.gz"
 }
 
-platform darwin amd64 {
-  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-macosx-x64.tar.gz"
+platform linux amd64 {
+  source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${os}-x64.tar.gz"
 }
 
 version "11.0.15.9.1" {
