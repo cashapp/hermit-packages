@@ -9,7 +9,7 @@ on "unpack" {
   }
 }
 
-version "16.18.0" "16.19.0" {
+version "16.18.0" "16.19.0" "16.20.0" {
   auto-version {
     github-release = "thought-machine/please"
   }
