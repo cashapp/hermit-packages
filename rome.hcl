@@ -3,14 +3,15 @@ binaries = ["rome"]
 homepage = "https://rome.tools"
 test = "rome --help"
 
-version "0.4.2" {
+version "0.4.2" "lsp/v0.6.0" {
   auto-version {
     github-release = "rome/tools"
   }
 }
 
-platform arm64 {
+platform "arm64" {
   source = "https://github.com/rome/tools/releases/download/v${version}/rome-${os}-arm64"
+
   on "unpack" {
     rename {
       from = "${root}/rome-${os}-arm64"
@@ -19,8 +20,9 @@ platform arm64 {
   }
 }
 
-platform amd64 {
+platform "amd64" {
   source = "https://github.com/rome/tools/releases/download/v${version}/rome-${os}-x64"
+
   on "unpack" {
     rename {
       from = "${root}/rome-${os}-x64"
