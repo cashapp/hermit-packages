@@ -12,4 +12,4 @@ version "1.19.0" "1.20.0" {
   source = "https://dl.k8s.io/release/v${version}/bin/${os}/amd64/kubectl"
 }
 
-version "1.21.0" {}
+version "1.21.0" "1.22.0" "1.23.0" "1.24.0" {}
