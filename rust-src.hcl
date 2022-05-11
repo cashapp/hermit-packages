@@ -3,7 +3,7 @@ binaries = ["rust-src"]
 strip = 1
 
 env = {
-  RUST_SRC_PATH: "${root}/src",
+  RUST_SRC_PATH: "${root}/library",
 }
 
 source = "https://static.rust-lang.org/dist/rustc-${version}-src.tar.gz"
