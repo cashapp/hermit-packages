@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "$RUST_SRC_PATH"
