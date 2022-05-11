@@ -2,20 +2,20 @@ description = "Database migrations written in Go. Migrate reads migrations from 
 test = "migrate --version"
 binaries = ["migrate"]
 
-version "v4.15.2" {
+version "4.15.2" {
   auto-version {
     github-release = "golang-migrate/migrate"
   }
 }
 
 platform "linux" {
-  source = "https://github.com/golang-migrate/migrate/releases/download/${version}/migrate.${os}-amd64.tar.gz"
+  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-amd64.tar.gz"
 }
 
 platform "darwin" {
-  source = "https://github.com/golang-migrate/migrate/releases/download/${version}/migrate.${os}-amd64.tar.gz"
+  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-amd64.tar.gz"
 }
 
 platform "windows" {
-  source = "https://github.com/golang-migrate/migrate/releases/download/${version}/migrate.${os}-amd64.zip"
+  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-amd64.zip"
 }
