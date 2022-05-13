@@ -1,5 +1,5 @@
 description = "Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase."
-binaries = ["bin/*"]
+binaries = ["bin/dart", "bin/flutter"]
 strip = 1
 # Flutter is ~1GB so we'll avoid testing it in CI.
 #test = "dart --version"
@@ -12,4 +12,4 @@ linux {
   source = "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${version}-stable.tar.xz"
 }
 
-version "2.0.1" "2.2.3" {}
+version "2.0.1" "2.2.3" "3.0.0" {}
