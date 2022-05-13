@@ -8,7 +8,7 @@ platform "linux" {
 }
 
 version "0.12.2" "0.13.0" "0.13.1" "0.13.2" "0.13.3" "0.13.4" "0.13.5" "0.13.6"
-        "0.14.1" "0.14.3" {
+        "0.14.1" "0.14.3" "0.14.4" {
   auto-version {
     github-release = "turbot/steampipe"
   }
