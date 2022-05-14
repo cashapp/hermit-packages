@@ -12,4 +12,8 @@ linux {
   source = "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${version}-stable.tar.xz"
 }
 
+env = {
+  FLUTTER_ROOT: "${root}",
+}
+
 version "2.0.1" "2.2.3" "3.0.0" {}
