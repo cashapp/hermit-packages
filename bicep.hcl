@@ -3,7 +3,7 @@ binaries = ["bicep"]
 test = "bicep --help"
 
 version "0.4.451" "0.4.613" "0.4.1008" "0.4.1124" "0.4.1272" "0.4.1318" "0.5.6"
-        "0.6.1" "0.6.11" {
+        "0.6.1" "0.6.11" "0.6.18" {
   auto-version {
     github-release = "Azure/bicep"
   }
