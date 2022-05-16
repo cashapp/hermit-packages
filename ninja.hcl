@@ -9,7 +9,7 @@ linux {
   source = "https://github.com/ninja-build/ninja/releases/download/v${version}/ninja-linux.zip"
 }
 
-version "1.10.2" {
+version "1.10.2" "1.11.0" {
   auto-version {
     github-release = "ninja-build/ninja"
   }
