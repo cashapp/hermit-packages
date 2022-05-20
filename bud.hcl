@@ -10,7 +10,7 @@ version "0.0.9" {
   }
 }
 
-version "0.1.0" "0.1.2" "0.1.3" {
+version "0.1.0" "0.1.2" "0.1.3" "0.1.4" {
   auto-version {
     github-release = "livebud/bud"
   }
