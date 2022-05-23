@@ -1,6 +1,7 @@
 description = "Simple, fast, safe, compiled language for developing maintainable software."
 binaries = ["v"]
 strip = 1
+mutable = true
 
 platform "darwin" {
   source = "https://github.com/vlang/v/releases/download/weekly.${version}/v_macos.zip"
