@@ -2,6 +2,7 @@ description = "Envoy is an open source edge and service proxy, designed for clou
 test = "envoy --version"
 strip = 2
 binaries = ["envoy"]
+repository = "https://github.com/envoyproxy/envoy"
 
 // Artefacts are from the Tetrate Labs manifest:
 //

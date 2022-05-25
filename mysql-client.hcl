@@ -2,6 +2,7 @@ description = "MySQL client."
 test = "mysql --version"
 binaries = ["bin/mysql"]
 strip = 1
+repository = "https://github.com/mysql/mysql-server"
 
 version "8.0.21" {
   darwin {
