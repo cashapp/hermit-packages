@@ -2,6 +2,7 @@ description = "Dart is a client-optimized language for fast apps on any platform
 homepage = "https://dart.dev/"
 binaries = ["bin/dart*"]
 strip = 1
+repository = "https://github.com/dart-lang/sdk"
 
 platform darwin amd64 {
   source = "https://storage.googleapis.com/dart-archive/channels/stable/release/${version}/sdk/dartsdk-macos-x64-release.zip"
