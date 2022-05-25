@@ -2,6 +2,7 @@ description = "Zig is a general-purpose programming language and toolchain for m
 test = "zig version"
 binaries = ["zig"]
 strip = 1
+repository = "https://github.com/ziglang/zig"
 
 linux {
   source = "https://ziglang.org/download/${version}/zig-linux-${xarch}-${version}.tar.xz"

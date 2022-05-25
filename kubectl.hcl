@@ -2,6 +2,7 @@ description = "The Kubernetes command-line tool, kubectl, allows you to run comm
 source = "https://dl.k8s.io/release/v${version}/bin/${os}/${arch}/kubectl"
 binaries = ["kubectl"]
 test = "kubectl version --client"
+repository = "https://github.com/kubernetes/kubectl"
 
 version "1.13.7-eks" {
   source = "https://amazon-eks.s3-us-west-2.amazonaws.com/1.13.7/2019-06-11/bin/${os}/amd64/kubectl"
