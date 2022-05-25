@@ -1,5 +1,6 @@
 description = "Instant Kubernetes-Native Application Observability"
 binaries = ["px"]
+repository = "https://github.com/pixie-io/pixie"
 
 channel latest {
   update = "24h"

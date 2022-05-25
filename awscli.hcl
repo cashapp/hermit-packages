@@ -1,5 +1,6 @@
 description = "The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services."
 test = "aws --version"
+repository = "https://github.com/aws/aws-cli"
 
 darwin {
   source = "https://awscli.amazonaws.com/AWSCLIV2-${version}.pkg"
