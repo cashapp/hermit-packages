@@ -4,7 +4,6 @@ strip = 1
 # Flutter is ~1GB so we'll avoid testing it in CI.
 #test = "dart --version"
 mutable = true
-repository = "https://github.com/flutter/flutter"
 
 darwin {
   source = "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_${version}-stable.zip"

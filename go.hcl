@@ -7,7 +7,6 @@ env = {
 }
 strip = 1
 test = "go version"
-repository = "https://github.com/golang/go"
 
 version "1.13.5" "1.14.4" "1.14.7" "1.15.2" "1.15.3" "1.15.6" "1.15.7" "1.15.11" {
   // We don't have arm64 builds for these older versions.

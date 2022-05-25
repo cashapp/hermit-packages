@@ -1,6 +1,5 @@
 description = "K8S Lens - Kubernetes IDE/console."
 binaries = ["opt/Lens/lens"]
-repository = "https://github.com/lensapp/lens"
 
 version "5.3.4" {
   platform darwin amd64 {
