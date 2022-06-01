@@ -36,7 +36,7 @@ linux {
 }
 
 version "2.11.1" "edge-22.3.5" "stable-2.11.2" "edge-22.4.1" "edge-22.5.1"
-        "edge-22.5.2" {
+        "edge-22.5.2" "edge-22.5.3" {
   auto-version {
     github-release = "linkerd/linkerd2"
   }
