@@ -1,6 +1,6 @@
 description = "Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language, Your Way 🚀"
 test = "pulumi version"
-binaries = ["pulumi"]
+binaries = ["pulumi/*"]
 source = "https://github.com/pulumi/pulumi/releases/download/v${version}/pulumi-v${version}-${os}-${arch}.tar.gz"
 
 platform "amd64" {
