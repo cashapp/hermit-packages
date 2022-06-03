@@ -10,7 +10,7 @@ platform "linux" {
   source = "https://github.com/skeema/skeema/releases/download/v${version}/skeema_${version}_linux_amd64.tar.gz"
 }
 
-version "1.5.3" "1.6.0" "1.7.0" "1.7.1" {
+version "1.5.3" "1.6.0" "1.7.0" "1.7.1" "1.8.0" {
   auto-version {
     github-release = "skeema/skeema"
   }
