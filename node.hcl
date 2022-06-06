@@ -2,6 +2,7 @@ description = "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript
 test = "node --version"
 binaries = ["bin/*"]
 source = "https://nodejs.org/dist/v${version}/node-v${version}-${os}-x64.tar.xz"
+repository = "https://github.com/nodejs/node"
 strip = 1
 env = {
   "NPM_CONFIG_PREFIX": "${HERMIT_ENV}/.hermit/node",
