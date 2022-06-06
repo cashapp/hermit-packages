@@ -5,15 +5,14 @@ env = { JAVA_HOME: "${root}" }
 test = "java -version"
 strip = 1
 
-darwin {
+vars = { os_: "${os}", arch_: "${xarch}" }
+platform darwin {
+  vars = { os_: "macosx" }
   root = "${dest}/Contents/Home"
   dest = "${HOME}/Library/Java/JavaVirtualMachines/corretto-${version}.jdk"
 }
-
-vars = { _os = "${os}", _arch = "${xarch}" }
-darwin { vars { _arch = "macosx" } }
-amd64 { vars { _os = "x64" } }
-source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${_os}-${_arch}.tar.gz"
+platform amd64 { vars = { arch_: "x64" } }
+source = "https://corretto.aws/downloads/resources/${version}/amazon-corretto-${version}-${os_}-${arch_}.tar.gz"
 
 channel "stable" {
   update = "24h"
