@@ -2,7 +2,7 @@ description = "Go compiler for small places. Microcontrollers, WebAssembly (WASM
 homepage = "https://tinygo.org"
 binaries = ["bin/*"]
 strip = 1
-requires = ["go"]
+requires = ["go", "binaryen"]
 
 source = "https://github.com/tinygo-org/tinygo/releases/download/v${version}/tinygo${version}.${os}-amd64.tar.gz"
 
