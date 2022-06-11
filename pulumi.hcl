@@ -7,7 +7,7 @@ platform "amd64" {
   source = "https://github.com/pulumi/pulumi/releases/download/v${version}/pulumi-v${version}-${os}-x64.tar.gz"
 }
 
-version "3.33.2" "3.34.0" {
+version "3.33.2" "3.34.0" "3.34.1" {
   auto-version {
     github-release = "pulumi/pulumi"
   }
