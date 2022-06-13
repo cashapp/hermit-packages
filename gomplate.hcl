@@ -4,6 +4,7 @@ test = "gomplate --version"
 
 linux {
   source = "https://github.com/hairyhenderson/gomplate/releases/download/v${version}/gomplate_linux-${arch}"
+
   on "unpack" {
     rename {
       from = "${root}/gomplate_linux-${arch}"
@@ -14,6 +15,7 @@ linux {
 
 darwin {
   source = "https://github.com/hairyhenderson/gomplate/releases/download/v${version}/gomplate_darwin-${arch}"
+
   on "unpack" {
     rename {
       from = "${root}/gomplate_darwin-${arch}"
@@ -22,7 +24,7 @@ darwin {
   }
 }
 
-version "3.10.0" {
+version "3.10.0" "3.11.0" {
   auto-version {
     github-release = "hairyhenderson/gomplate"
   }
