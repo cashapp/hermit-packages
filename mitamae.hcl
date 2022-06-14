@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.12.9" {
+version "1.12.9" "1.12.10" {
   auto-version {
     github-release = "itamae-kitchen/mitamae"
   }
