@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.20.0" "0.21.0" "0.22.0" {
+version "0.20.0" "0.21.0" "0.22.0" "0.22.1" {
   auto-version {
     github-release = "grafana/tanka"
   }
