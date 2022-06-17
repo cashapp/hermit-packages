@@ -16,4 +16,4 @@ description = "GnuPG is a complete and free implementation of the OpenPGP standa
 homepage = "https://gnupg.org/"
 test = "gpg --version"
 
-version "1.4.23" {}
+version "1.4.23" "1.4.23-2" {}
