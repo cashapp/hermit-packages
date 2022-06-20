@@ -24,7 +24,7 @@ darwin {
   }
 }
 
-version "3.10.0" "3.11.0" {
+version "3.10.0" "3.11.0" "3.11.1" {
   auto-version {
     github-release = "hairyhenderson/gomplate"
   }
