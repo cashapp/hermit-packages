@@ -23,7 +23,7 @@ platform "arm64" {
   }
 }
 
-version "0.9.0" "0.10.3" "0.11.0" {
+version "0.9.0" "0.10.3" "0.11.0" "0.11.1" {
   auto-version {
     github-release = "mfridman/tparse"
   }
