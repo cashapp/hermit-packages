@@ -1,4 +1,4 @@
-description = "Helm-Doc is a tool for auto-generates documentation from helm charts into markdown file."
+description = "Helm-Docs is a tool for auto-generates documentation from helm charts into markdown file."
 test = "helm-docs --version"
 binaries = ["helm-docs"]
 
