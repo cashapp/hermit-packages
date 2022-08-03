@@ -6,7 +6,7 @@ test = "packer --version"
 version "1.7.4" {
 }
 
-version "1.7.8" "1.7.9" "1.7.10" "1.8.0" "1.8.1" "1.8.2" {
+version "1.7.8" "1.7.9" "1.7.10" "1.8.0" "1.8.1" "1.8.2" "1.8.3" {
   auto-version {
     github-release = "hashicorp/packer"
   }
