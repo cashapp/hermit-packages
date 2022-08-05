@@ -15,9 +15,8 @@ platform "linux" "amd64" {
 description = "A minimalist Go module proxy handler."
 homepage = "https://pkg.go.dev/github.com/goproxy/goproxy"
 
-version "0.10.2" {
+version "0.10.2" "0.11.0" {
   auto-version {
     github-release = "goproxy/goproxy"
   }
 }
-
