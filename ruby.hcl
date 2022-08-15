@@ -5,7 +5,7 @@ test = "ruby --version"
 
 env = {
   GEM_HOME: "${HERMIT_ENV}/.hermit/ruby/gem",
-  PATH: "${GEM_HOME}/bin:${PATH}",
+  PATH: "${HERMIT_ENV}/.hermit/ruby/gem/bin:${PATH}",
 }
 
 platform darwin arm64 {
