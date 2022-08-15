@@ -4,9 +4,9 @@ binaries = ["install/bin/pip3", "install/bin/python3"]
 test = "python3 -m pip install flake8"
 
 env = {
-  PYTHONPYCACHEPREFIX: "${HERMIT_ENV}/.hermit/python/cache",
   PYTHONUSERBASE: "${HERMIT_ENV}/.hermit/python",
-  PATH: "${HERMIT_ENV}/.hermit/python/bin:${PATH}",
+  PYTHONPYCACHEPREFIX: "${PYTHONUSERBASE}/cache",
+  PATH: "${PYTHONUSERBASE}/bin:${PATH}",
 }
 
 platform darwin {
