@@ -3,6 +3,11 @@ strip = 2
 binaries = ["bin/*"]
 test = "ruby --version"
 
+env = {
+  GEM_HOME: "${HERMIT_ENV}/.hermit/ruby/gem",
+  PATH: "${HERMIT_ENV}/.hermit/ruby/gem/bin:${PATH}",
+}
+
 platform darwin arm64 {
   source = "https://github.com/Homebrew/homebrew-portable-ruby/releases/download/${version}/portable-ruby-${version}.arm64_big_sur.bottle.tar.gz"
 }
