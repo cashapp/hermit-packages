@@ -38,7 +38,7 @@ version "11.0.15.9.1" {
   }
 }
 
-version "17.0.3.6.1" "17.0.4.8.1" {
+version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" {
   auto-version {
     github-release = "corretto/corretto-17"
   }

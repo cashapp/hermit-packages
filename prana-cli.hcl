@@ -24,7 +24,7 @@ darwin {
   }
 }
 
-version "0.1.0" "0.1.4-beta.1" "0.1.5-beta.1" {
+version "0.1.0" "0.1.4-beta.1" "0.1.5-beta.1" "0.1.6" {
   auto-version {
     github-release = "cashapp/pranadb"
   }
