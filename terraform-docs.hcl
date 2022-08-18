@@ -3,4 +3,8 @@ source      = "https://github.com/terraform-docs/terraform-docs/releases/downloa
 binaries    = ["terraform-docs"]
 test        = "terraform-docs --version"
 
-version "0.15.0" {}
+version "0.15.0" "0.16.0" {
+  auto-version {
+    github-release = "terraform-docs/terraform-docs"
+  }
+}
