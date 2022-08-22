@@ -10,8 +10,7 @@ platform "arm64" {
   source = "https://github.com/zinclabs/zinc/releases/download/v${version}/zinc_${version}_${os}_arm64.tar.gz"
 }
 
-
-version "0.2.8" {
+version "0.2.8" "0.2.9" {
   auto-version {
     github-release = "zinclabs/zinc"
   }
