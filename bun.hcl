@@ -11,8 +11,9 @@ platform "amd64" {
   source = "https://github.com/oven-sh/bun/releases/download/bun-v${version}/bun-${os}-x64.zip"
 }
 
-version "0.1.8" "bun-v0.1.8" "bun-v0.1.9" "bun-v0.1.10" {
+version "0.1.8" "0.1.8" "0.1.9" "0.1.10" {
   auto-version {
     github-release = "oven-sh/bun"
+    version-pattern = "bun-v(.*)"
   }
 }
