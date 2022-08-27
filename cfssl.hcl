@@ -2,7 +2,6 @@ description = "PKI and TLS toolkit."
 homepage = "https://github.com/cloudflare/cfssl"
 binaries = ["cfssl"]
 test = "cfssl version"
-
 source = "https://github.com/cloudflare/cfssl/releases/download/v${version}/cfssl_${version}_${os}_amd64"
 
 on "unpack" {
@@ -12,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "1.6.1" {
+version "1.6.1" "1.6.2" {
   auto-version {
     github-release = "cloudflare/cfssl"
   }
