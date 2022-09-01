@@ -9,6 +9,12 @@ env = {
   PATH: "${HERMIT_ENV}/.hermit/python/bin:${PATH}",
 }
 
+on unpack {
+  copy { from = "python3/relocate.sh" to = "${root}/relocate.sh" }
+  chmod { file = "${root}/relocate.sh" mode = 0755 }
+  run { cmd = "${root}/relocate.sh ${root}" }
+}
+
 platform darwin {
   source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-apple-darwin-pgo+lto-full.tar.zst"
 }
@@ -26,7 +32,6 @@ version "3.8.10" "3.9.5" {
   platform linux {
     source = "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-${version}-${xarch}-unknown-linux-gnu-pgo+lto-20210506T0943.tar.zst"
   }
-
 }
 
 version "3.8.12" "3.9.10" "3.10.2" {
