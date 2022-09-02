@@ -24,7 +24,7 @@ darwin {
   }
 }
 
-version "0.11.1" "0.12.0" "0.13.0" "0.14.0" {
+version "0.11.1" "0.12.0" "0.13.0" "0.14.0" "0.15.0" {
   auto-version {
     github-release = "kubernetes-sigs/kind"
   }
