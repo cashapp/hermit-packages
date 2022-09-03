@@ -9,7 +9,7 @@ on "unpack" {
   }
 }
 
-version "0.28.0" "0.29.0" "0.30.0" {
+version "0.28.0" "0.29.0" "0.30.0" "0.30.2" {
   auto-version {
     github-release = "go-swagger/go-swagger"
   }
