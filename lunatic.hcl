@@ -1,4 +1,5 @@
 description = "Lunatic is an Erlang-inspired runtime for WebAssembly"
+homepage = "https://lunatic.solutions/"
 binaries = ["lunatic"]
 
 platform darwin {
