@@ -50,10 +50,6 @@ on "unpack" {
   run { cmd = "/bin/ln" args = [ "rustup", "rustfmt" ] }
 }
 
-on install {
-  run { cmd = "${HERMIT_BIN}/rustup" args = [ "default", "stable" ] }
-}
-
 version "1.25.1" {
   auto-version {
     github-release = "rust-lang/rustup"
