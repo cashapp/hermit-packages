@@ -6,13 +6,11 @@ set -euo pipefail
 
 root="$1"
 cd "${root}"
+chmod -R +w .
 
 sysconfig="$(echo install/lib/python*/_sysconfigdata_*.py)"
-tmpfile="$(mktemp)"
-trap "rm -f ${tmpfile}" INT EXIT
 
-chmod +w "${sysconfig}"
+sed -i '' "s,'/install,'${root}/install,g" "${sysconfig}"
+./bin/pip3 install wheel
 
-cp "${sysconfig}" "${tmpfile}"
-
-sed "s,'/install,'${root}/install,g" "${tmpfile}" > "${sysconfig}"
+chmod -R -w .
