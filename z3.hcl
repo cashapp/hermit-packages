@@ -1,7 +1,7 @@
 description = "Z3 is a theorem prover from Microsoft Research."
 homepage    = "https://github.com/Z3Prover/z3/"
-binaries    = ["bin/z3"]
-test        = "z3 --version"
+binaries    = ["z3"]
+test        = "z3 -version"
 vars = {
   "os_" : "${os}",
   "arch_" : "${arch}",
@@ -37,6 +37,13 @@ platform "amd64" {
 }
 
 source = "https://github.com/Z3Prover/z3/releases/download/z3-${version}/z3-${version}-${arch_}-${os_}-${osver}.zip"
+
+on "unpack" {
+  chmod {
+    file = "${root}/LICENSE.txt"
+    mode = 755
+  }
+}
 
 version "4.11.2" {
   auto-version {
