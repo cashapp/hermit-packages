@@ -15,12 +15,12 @@ version "8.0.21" {
 
 version "8.0.27" {
   platform darwin amd64 {
-    source = "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-${version}-macos11-x86_64.tar.gz"
+    source = "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-${version}-macos11-x86_64.tar.gz"
   }
   platform darwin arm64 {
-    source = "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-${version}-macos11-arm64.tar.gz"
+    source = "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-${version}-macos11-arm64.tar.gz"
   }
-  linux {
+  platform linux amd64 {
     source = "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-community-client-core_${version}-1ubuntu20.04_amd64.deb"
     strip = 2
   }
