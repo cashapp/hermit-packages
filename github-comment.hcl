@@ -4,9 +4,8 @@ source = "https://github.com/suzuki-shunsuke/github-comment/releases/download/v$
 binaries = ["github-comment"]
 test = "github-comment -v"
 
-version "4.5.0" {
+version "4.5.0" "4.5.2" {
   auto-version {
     github-release = "suzuki-shunsuke/github-comment"
   }
 }
-
