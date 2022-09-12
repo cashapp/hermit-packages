@@ -5,7 +5,7 @@ binaries = ["apidiff"]
 
 channel "latest" {
   update = "72h"
-  source = "https://github.com/cashapp/hermit-build/releases/download/apidiff/apidiff-${os}-${arch}.bz2"
+  source = "https://github.com/cashapp/hermit-build/releases/download/go-tools/apidiff-${os}-${arch}.bz2"
   on unpack { rename { from = "${root}/apidiff-${os}-${arch}" to = "${root}/apidiff" } }
 }
 
