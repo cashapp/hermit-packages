@@ -34,6 +34,14 @@ version "3.8.10" "3.9.5" {
   }
 }
 
+// Current releases 
+version "3.9.14" "3.10.7" {
+  vars = {
+    release_date: "20220906",
+  }
+}
+
+
 version "3.9.13" "3.10.6" {
   vars = {
     release_date: "20220802",
