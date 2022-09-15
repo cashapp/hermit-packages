@@ -16,7 +16,7 @@ version "1.5.3" {
   }
 }
 
-version "1.6.0" "1.7.0" "1.7.1" "1.8.0" "1.8.1" {
+version "1.6.0" "1.7.0" "1.7.1" "1.8.0" "1.8.1" "1.8.2" {
   auto-version {
     github-release = "skeema/skeema"
   }
