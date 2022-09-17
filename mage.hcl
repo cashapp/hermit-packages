@@ -10,7 +10,7 @@ platform "linux" {
   source = "https://github.com/magefile/mage/releases/download/v${version}/mage_${version}_Linux-64bit.tar.gz"
 }
 
-version "1.11.0" "1.12.1" "1.13.0" {
+version "1.11.0" "1.12.1" "1.13.0" "1.14.0" {
   auto-version {
     github-release = "magefile/mage"
   }
