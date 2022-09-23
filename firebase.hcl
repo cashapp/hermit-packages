@@ -25,7 +25,7 @@ linux {
   }
 }
 
-version "11.6.0" "11.7.0" "11.8.0" "11.8.1" "11.9.0" {
+version "11.6.0" "11.7.0" "11.8.0" "11.8.1" "11.9.0" "11.10.0" {
   auto-version {
     github-release = "firebase/firebase-tools"
   }
