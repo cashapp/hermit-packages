@@ -22,7 +22,7 @@ channel "nightly" {
   }
 
   linux {
-    source = "https://static.rust-lang.org/dist/rust-nightly-${xarc}-unknown-linux-gnu.tar.xz"
+    source = "https://static.rust-lang.org/dist/rust-nightly-${xarch}-unknown-linux-gnu.tar.xz"
   }
 }
 
