@@ -23,6 +23,11 @@ platform linux {
   source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-unknown-linux-gnu-pgo+lto-full.tar.zst"
 }
 
+// Linux arm64 has no pgo
+platform linux arm64 {
+  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-unknown-linux-gnu-lto-full.tar.zst"
+}
+
 // Older releases had a slightly different URL template and no arm64 builds on Mac.
 version "3.8.10" "3.9.5" {
   platform darwin {
