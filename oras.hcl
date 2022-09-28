@@ -13,7 +13,7 @@ platform "linux" "amd64" {
   source = "https://github.com/oras-project/oras/releases/download/v${version}/oras_${version}_${os}_${arch}.tar.gz"
 }
 
-version "0.12.0" "0.13.0" "0.14.0" "0.14.1" {
+version "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.15.0" {
   auto-version {
     github-release = "oras-project/oras"
   }
