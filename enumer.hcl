@@ -24,7 +24,7 @@ platform "amd64" {
   }
 }
 
-version "1.5.5" "1.5.6" {
+version "1.5.5" "1.5.6" "1.5.7" {
   auto-version {
     github-release = "dmarkham/enumer"
   }
