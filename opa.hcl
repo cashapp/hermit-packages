@@ -27,7 +27,18 @@ version "0.30.1" {
 }
 
 version "0.38.1" "0.43.0" "0.44.0" {
-  platform 'darwin|linux' {
+  platform linux {
+    source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_${os}_${arch}_static"
+
+    on "unpack" {
+      rename {
+        from = "${root}/opa_${os}_${arch}_static"
+        to = "${root}/opa"
+      }
+    }
+  }
+
+  platform darwin arm64 {
     source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_${os}_${arch}_static"
 
     on "unpack" {
