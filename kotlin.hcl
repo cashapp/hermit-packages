@@ -7,7 +7,7 @@ strip = 1
 test = "kotlinc-jvm -version"
 
 version "1.5.0" "1.5.20" "1.5.21" "1.5.30" "1.5.31" "1.6.0" "1.5.32" "1.6.10" "1.6.20"
-        "1.6.21" "1.7.0" "1.7.10" {
+        "1.6.21" "1.7.0" "1.7.10" "1.7.20" {
   auto-version {
     github-release = "JetBrains/kotlin"
   }
