@@ -27,38 +27,26 @@ version "0.30.1" {
 }
 
 version "0.38.1" "0.43.0" "0.44.0" {
-  platform linux {
-    source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_${os}_${arch}_static"
+  source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_${os}_${arch}${suffix}"
 
-    on "unpack" {
-      rename {
-        from = "${root}/opa_${os}_${arch}_static"
-        to = "${root}/opa"
-      }
+  on "unpack" {
+    rename {
+      from = "${root}/opa_${os}_${arch}${suffix}"
+      to = "${root}/opa"
     }
   }
 
-  platform darwin arm64 {
-    source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_${os}_${arch}_static"
+  platform linux {
+    vars = {suffix: "_static"}
+  }
 
-    on "unpack" {
-      rename {
-        from = "${root}/opa_${os}_${arch}_static"
-        to = "${root}/opa"
-      }
-    }
+  platform darwin arm64 {
+    vars = {suffix: "_static"}
   }
 
   // For some reason all platforms _except_ darwin/amd64 are static.
   platform "darwin" "amd64" {
-    source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_darwin_amd64"
-
-    on "unpack" {
-      rename {
-        from = "${root}/opa_darwin_amd64"
-        to = "${root}/opa"
-      }
-    }
+    vars = {suffix: ""}
   }
 
   auto-version {
