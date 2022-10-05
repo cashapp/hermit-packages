@@ -5,7 +5,7 @@ strip = 1
 requires = ["go", "binaryen"]
 source = "https://github.com/tinygo-org/tinygo/releases/download/v${version}/tinygo${version}.${os}-amd64.tar.gz"
 
-version "0.23.0" "0.24.0" "0.25.0" {
+version "0.23.0" "0.24.0" "0.25.0" "0.26.0" {
   auto-version {
     github-release = "tinygo-org/tinygo"
   }

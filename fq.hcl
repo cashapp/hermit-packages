@@ -7,7 +7,7 @@ platform "darwin" {
   source = "https://github.com/wader/fq/releases/download/v${version}/fq_${version}_macos_${arch}.zip"
 }
 
-version "0.0.5" "0.0.6" "0.0.7" "0.0.8" "0.0.9" {
+version "0.0.5" "0.0.6" "0.0.7" "0.0.8" "0.0.9" "0.0.10" {
   auto-version {
     github-release = "wader/fq"
   }

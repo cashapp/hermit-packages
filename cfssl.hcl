@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "1.6.1" "1.6.2" {
+version "1.6.1" "1.6.2" "1.6.3" {
   auto-version {
     github-release = "cloudflare/cfssl"
   }
