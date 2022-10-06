@@ -1,6 +1,6 @@
 description = "Backup and migrate Kubernetes applications and their persistent volumes."
 binaries = ["velero"]
-test = "velero version"
+test = "velero version --client-only"
 repository = "https://github.com/vmware-tanzu/velero"
 source = "https://github.com/vmware-tanzu/velero/releases/download/v${version}/velero-v${version}-${os}-${arch}.tar.gz"
 
