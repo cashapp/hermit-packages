@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "1.26.0" "1.26.1" "1.27.0" {
+version "1.26.0" "1.26.1" "1.27.0" "1.27.1" {
   auto-version {
     github-release = "kubernetes/minikube"
   }
