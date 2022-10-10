@@ -35,3 +35,23 @@ version "11.0.16.1_1" {
     source = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%2B1/OpenJDK11U-jre_x64_mac_hotspot_11.0.16.1_1.tar.gz"
   }
 }
+
+version "17.0.4.1_1" {
+  platform darwin {
+    root = "${dest}"
+    dest = "${HOME}/Library/Java/JavaVirtualMachines/jdk-${version}.jre/Contents/Home"
+  }
+
+  platform linux amd64 {
+    source = "https://cdn.azul.com/zulu/bin/zulu17.36.17-ca-jre17.0.4.1-linux_x64.tar.gz"
+  }
+  platform linux arm64 {
+    source = "https://cdn.azul.com/zulu/bin/zulu17.36.17-ca-jre17.0.4.1-linux_aarch64.tar.gz"
+  }
+  platform darwin amd64 {
+    source = "https://cdn.azul.com/zulu/bin/zulu17.36.17-ca-jre17.0.4.1-macosx_x64.tar.gz"
+  }
+  platform darwin arm64 {
+    source = "https://cdn.azul.com/zulu/bin/zulu17.36.17-ca-jre17.0.4.1-macosx_aarch64.tar.gz"
+  }
+}
