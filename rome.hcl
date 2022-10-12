@@ -3,10 +3,11 @@ binaries = ["rome"]
 homepage = "https://rome.tools"
 test = "rome --help"
 
-version "0.4.2" "lsp/v0.6.0" "lsp/v0.8.0" "cli/v0.6.1-next" "lsp/v0.10.0"
-        "lsp/v0.12.0" "lsp/v0.14.1" "cli/v0.9.2-next" "lsp/v0.16.0" {
+version "0.4.2" {
   auto-version {
     github-release = "rome/tools"
+    version-pattern = "^cli/v(.*)"
+    ignore-invalid-versions = true
   }
 }
 
