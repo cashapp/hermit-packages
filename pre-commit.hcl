@@ -2,9 +2,7 @@ description = "Pre-commit is a multi-language package manager for pre-commit hoo
 binaries = ["pre-commit"]
 test = "pre-commit --version"
 source = "https://github.com/pre-commit/pre-commit/releases/download/v${version}/pre-commit-${version}.pyz"
-strip = 1
 runtime-dependencies = ["python3@3.9"]
-provides=["pre-commit"]
 dont-extract = true
 on unpack {
   rename { from = "${root}/pre-commit-${version}.pyz" to = "${root}/pre-commit" }
