@@ -3,7 +3,7 @@ source = "https://github.com/bitnami-labs/sealed-secrets/releases/download/v${ve
 binaries = ["kubeseal"]
 test = "kubeseal --version"
 
-version "0.17.5" "0.18.0" "0.18.1" "0.18.2" "helm-v2.6.5" "0.18.4" "0.18.5" {
+version "0.17.5" "0.18.0" "0.18.1" "0.18.2" "helm-v2.6.5" "0.18.4" "0.18.5" "0.19.0" {
   auto-version {
     github-release = "bitnami-labs/sealed-secrets"
   }
