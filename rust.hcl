@@ -11,7 +11,7 @@ darwin {
 }
 
 linux {
-  source = "https://static.rust-lang.org/dist/rust-${version}-x86_64-unknown-linux-gnu.tar.xz"
+  source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-unknown-linux-gnu.tar.xz"
 }
 
 channel "nightly" {
@@ -22,12 +22,12 @@ channel "nightly" {
   }
 
   linux {
-    source = "https://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-gnu.tar.xz"
+    source = "https://static.rust-lang.org/dist/rust-nightly-${xarch}-unknown-linux-gnu.tar.xz"
   }
 }
 
 version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" "1.58.0"
-        "1.58.1" "1.59.0" "1.60.0" "1.61.0" {
+        "1.58.1" "1.59.0" "1.60.0" "1.61.0" "1.62.0" "1.62.1" "1.63.0" "1.64.0" {
   auto-version {
     github-release = "rust-lang/rust"
   }

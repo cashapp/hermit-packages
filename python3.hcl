@@ -9,12 +9,23 @@ env = {
   PATH: "${HERMIT_ENV}/.hermit/python/bin:${PATH}",
 }
 
+on unpack {
+  copy { from = "python3/relocate.sh" to = "${root}/relocate.sh" }
+  chmod { file = "${root}/relocate.sh" mode = 0755 }
+  run { cmd = "${root}/relocate.sh ${root}" }
+}
+
 platform darwin {
   source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-apple-darwin-pgo+lto-full.tar.zst"
 }
 
 platform linux {
   source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-unknown-linux-gnu-pgo+lto-full.tar.zst"
+}
+
+// Linux arm64 has no pgo
+platform linux arm64 {
+  source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-unknown-linux-gnu-lto-full.tar.zst"
 }
 
 // Older releases had a slightly different URL template and no arm64 builds on Mac.
@@ -26,7 +37,12 @@ version "3.8.10" "3.9.5" {
   platform linux {
     source = "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-${version}-${xarch}-unknown-linux-gnu-pgo+lto-20210506T0943.tar.zst"
   }
+}
 
+version "3.9.13" "3.10.6" {
+  vars = {
+    release_date: "20220802",
+  }
 }
 
 version "3.8.12" "3.9.10" "3.10.2" {
@@ -44,5 +60,11 @@ version "3.8.13" "3.9.11" "3.10.3" {
 version "3.9.12" "3.10.4" {
   vars = {
     release_date: "20220502",
+  }
+}
+
+version "3.9.13" {
+  vars = {
+    release_date: "20220528",
   }
 }

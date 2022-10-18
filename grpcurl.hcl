@@ -10,7 +10,7 @@ linux {
   source = "https://github.com/fullstorydev/grpcurl/releases/download/v${version}/grpcurl_${version}_linux_${xarch}.tar.gz"
 }
 
-version "1.8.1" "1.8.2" "1.8.5" "1.8.6" {
+version "1.8.1" "1.8.2" "1.8.5" "1.8.6" "1.8.7" {
   auto-version {
     github-release = "fullstorydev/grpcurl"
   }

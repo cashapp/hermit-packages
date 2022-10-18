@@ -3,23 +3,23 @@ homepage = "https://github.com/boyter/scc"
 binaries = ["scc"]
 test = "scc --version"
 
-platform darwin arm64 {
+platform "darwin" "arm64" {
   source = "https://github.com/boyter/scc/releases/download/v${version}/scc-${version}-arm64-apple-darwin.zip"
 }
 
-platform darwin amd64 {
+platform "darwin" "amd64" {
   source = "https://github.com/boyter/scc/releases/download/v${version}/scc-${version}-x86_64-apple-darwin.zip"
 }
 
-platform linux arm64 {
+platform "linux" "arm64" {
   source = "https://github.com/boyter/scc/releases/download/v${version}/scc-${version}-arm64-unknown-linux.zip"
 }
 
-platform linux amd64 {
+platform "linux" "amd64" {
   source = "https://github.com/boyter/scc/releases/download/v${version}/scc-${version}-x86_64-unknown-linux.zip"
 }
 
-version "3.0.0" {
+version "3.0.0" "3.1.0" {
   auto-version {
     github-release = "boyter/scc"
   }

@@ -1,42 +1,48 @@
 description = "Bazel is an open-source build and test tool similar to Make, Maven, and Gradle."
 binaries = ["bazel"]
+source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-${os}-${arch_}"
 
-platform "darwin" {
-  // Note that this will match both Intel and M1 arch, so will be emulated on the latter
-  source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-darwin-x86_64"
+on "unpack" {
+  rename {
+    from = "${root}/bazel-${version}-${os}-${arch_}"
+    to = "${root}/bazel"
+  }
+}
 
-  on "unpack" {
-    rename {
-      from = "${root}/bazel-${version}-darwin-x86_64"
-      to = "${root}/bazel"
+version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" {
+  platform "darwin" {
+    vars = {
+      "arch_": "x86_64",
+    }
+  }
+
+  platform "linux" "amd64" {
+    vars = {
+      "arch_": "x86_64",
+    }
+  }
+
+  platform "linux" "arm64" {
+    vars = {
+      "arch_": "arm64",
     }
   }
 }
 
-platform "linux" "amd64" {
-  source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-linux-x86_64"
-
-  on "unpack" {
-    rename {
-      from = "${root}/bazel-${version}-linux-x86_64"
-      to = "${root}/bazel"
-    }
-  }
-}
-
-platform "linux" "arm64" {
-  source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-linux-arm64"
-
-  on "unpack" {
-    rename {
-      from = "${root}/bazel-${version}-linux-arm64"
-      to = "${root}/bazel"
-    }
-  }
-}
-
-version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" "5.0.0" "5.1.0" "5.1.1" {
+version "5.0.0" "5.1.0" "5.1.1" "5.2.0" "5.3.0" "5.3.1" {
   auto-version {
     github-release = "bazelbuild/bazel"
+  }
+
+  platform "amd64" {
+    vars = {
+      "arch_": "x86_64",
+    }
+  }
+
+  platform "arm64" {
+    vars = {
+      "arch_": "arm64",
+    }
   }
 }

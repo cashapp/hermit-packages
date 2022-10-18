@@ -5,6 +5,6 @@ binaries = ["bin/mvn"]
 strip = 1
 repository = "https://github.com/apache/maven"
 
-version "3.6.3" "3.8.4" "3.8.5" {
+version "3.6.3" "3.8.4" "3.8.5" "3.8.6" {
   source = "https://downloads.apache.org/maven/maven-3/${version}/binaries/apache-maven-${version}-bin.tar.gz"
 }

@@ -1,0 +1,25 @@
+on:
+  push:
+    branches:
+      - master
+  workflow_run:
+    workflows: [Auto-version]
+    types:
+      - completed
+name: Index
+jobs:
+  packages:
+    name: Update package index
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Init Hermit
+        run: ./bin/hermit env -r >> $GITHUB_ENV
+      - name: Upload Index
+        run: |
+          hermit search --json > index.json
+          gh release upload --clobber index index.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
