@@ -2,6 +2,7 @@ description = "The gcloud command-line interface is the primary CLI tool to crea
 test = "gcloud --version"
 strip = 1
 binaries = ["bin/gcloud", "bin/gsutil", "bin/bq", "bin/docker-credential-gcloud", "bin/git-credential-gcloud.sh"]
+mutable = true
 
 platform "amd64" {
   source = "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${version}-${os}-x86_64.tar.gz"
