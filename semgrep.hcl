@@ -3,19 +3,22 @@ binaries = ["semgrep"]
 test = "semgrep -version"
 strip = 1
 
-on unpack {
-  rename { from = "${root}/semgrep-core" to = "${root}/semgrep" }
+on "unpack" {
+  rename {
+    from = "${root}/semgrep-core"
+    to = "${root}/semgrep"
+  }
 }
 
-platform darwin {
+platform "darwin" {
   source = "https://github.com/returntocorp/semgrep/releases/download/v${version}/semgrep-v${version}-osx.zip"
 }
 
-platform linux amd64 {
+platform "linux" "amd64" {
   source = "https://github.com/returntocorp/semgrep/releases/download/v${version}/semgrep-v${version}-ubuntu-16.04.tgz"
 }
 
-version "0.117.0" {
+version "0.117.0" "0.118.0" {
   auto-version {
     github-release = "returntocorp/semgrep"
   }

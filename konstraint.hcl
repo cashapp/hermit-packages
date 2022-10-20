@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.23.0" {
+version "0.23.0" "0.24.0" {
   auto-version {
     github-release = "plexsystems/konstraint"
   }
