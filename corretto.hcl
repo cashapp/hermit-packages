@@ -32,7 +32,7 @@ channel "stable" {
   version = "11.*"
 }
 
-version "11.0.15.9.1", "11.0.17.8.1" {
+version "11.0.15.9.1" "11.0.17.8.1" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
