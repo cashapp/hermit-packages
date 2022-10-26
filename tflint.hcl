@@ -16,7 +16,7 @@ description = "A Pluggable Terraform Linter"
 
 version "0.33.1" "0.33.2" "0.34.0" "0.34.1" "0.35.0" "0.36.1" "0.36.2" "0.37.0"
         "0.38.1" "0.39.0" "0.39.1" "0.39.2" "0.39.3" "0.40.0" "0.40.1" "0.41.0" "0.42.0"
-        "0.42.1" {
+        "0.42.1" "0.42.2" {
   auto-version {
     github-release = "terraform-linters/tflint"
   }

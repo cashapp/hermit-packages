@@ -18,7 +18,7 @@ linux {
 }
 
 version "20.3.0" "21.1.0" "21.2.0" "21.0.0.2" "21.3.0" "19.3.6" "22.0.0.2" "22.1.0"
-        "22.2.0" {
+        "22.2.0" "22.3.0" {
   auto-version {
     github-release = "graalvm/graalvm-ce-builds"
     version-pattern = "vm-(.*)"
