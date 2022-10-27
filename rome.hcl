@@ -3,7 +3,7 @@ binaries = ["rome"]
 homepage = "https://rome.tools"
 test = "rome --help"
 
-version "0.4.2" "0.10.1-next" {
+version "0.4.2" "0.10.1-next" "0.10.1-next.e8dd9b4" {
   auto-version {
     github-release = "rome/tools"
     version-pattern = "^cli/v(.*)"
