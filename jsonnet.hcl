@@ -11,7 +11,7 @@ platform "darwin" {
   source = "https://github.com/google/go-jsonnet/releases/download/v${version}/go-jsonnet_${version}_${os}_x86_64.tar.gz"
 }
 
-version "0.18.0" "0.19.0" {
+version "0.18.0" "0.19.0" "0.19.1" {
   auto-version {
     github-release = "google/go-jsonnet"
   }
