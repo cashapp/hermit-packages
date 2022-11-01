@@ -19,7 +19,7 @@ version "0.7.1" {
   }
 }
 
-version "0.8.0" "0.8.1" "0.9.0" "0.9.1" {
+version "0.8.0" "0.8.1" "0.9.0" "0.9.1" "0.10.0" {
   auto-version {
     html {
       url = "https://ziglang.org/download/"
