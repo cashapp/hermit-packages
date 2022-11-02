@@ -1,6 +1,6 @@
 description = "Python is a programming language that lets you work quickly and integrate systems more effectively."
 strip = 1
-binaries = ["install/bin/pip3", "install/bin/python3"]
+binaries = ["install/bin/pip3", "install/bin/python3", "install/bin/pip", "install/bin/python"]
 test = "python3 -m pip install flake8"
 
 env = {
@@ -13,6 +13,7 @@ on unpack {
   copy { from = "python3/relocate.sh" to = "${root}/relocate.sh" }
   chmod { file = "${root}/relocate.sh" mode = 0755 }
   run { cmd = "${root}/relocate.sh ${root}" }
+  run { cmd = "/bin/ln" args = [ "${root}/install/bin/python3", "${root}/install/bin/python" ] }
 }
 
 platform darwin {
