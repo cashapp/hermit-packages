@@ -17,7 +17,7 @@ platform "darwin" "arm64" {
 
   on "unpack" {
     rename {
-      from = "${root}/goose-darwin_arm64"
+      from = "${root}/goose_darwin_arm64"
       to = "${root}/goose"
     }
   }
@@ -28,7 +28,7 @@ platform "darwin" "amd64" {
 
   on "unpack" {
     rename {
-      from = "${root}/goose-darwin_x86_64"
+      from = "${root}/goose_darwin_x86_64"
       to = "${root}/goose"
     }
   }
