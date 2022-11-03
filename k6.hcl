@@ -3,15 +3,15 @@ homepage = "https://k6.io"
 binaries = ["k6"]
 strip = 1
 
-platform linux {
+platform "linux" {
   source = "https://github.com/grafana/k6/releases/download/v${version}/k6-v${version}-${os}-${arch}.tar.gz"
 }
 
-platform darwin {
+platform "darwin" {
   source = "https://github.com/grafana/k6/releases/download/v${version}/k6-v${version}-macos-${arch}.zip"
 }
 
-version "0.40.0" {
+version "0.40.0" "0.41.0" {
   auto-version {
     github-release = "grafana/k6"
   }

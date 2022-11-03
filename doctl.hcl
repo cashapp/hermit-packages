@@ -7,7 +7,7 @@ platform "windows" {
   source = "https://github.com/digitalocean/doctl/releases/download/v${version}/doctl-${version}-${os}-${arch}.zip"
 }
 
-version "1.84.1" {
+version "1.84.1" "1.85.0" {
   auto-version {
     github-release = "digitalocean/doctl"
   }
