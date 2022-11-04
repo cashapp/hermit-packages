@@ -14,8 +14,7 @@ platform "linux" "amd64" {
   source = "https://github.com/elastic/elastic-package/releases/download/v${version}/elastic-package_${version}_${os}_${arch}.tar.gz"
 }
 
-
-version "0.66.1" {
+version "0.66.1" "0.67.0" {
   auto-version {
     github-release = "elastic/elastic-package"
   }
