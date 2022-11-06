@@ -17,3 +17,38 @@ version "2.13" "2.14.0.3" "2.14.1" "2.14.2" "2.15" "2.16" "2.16.1" "2.16.2" "2.1
     github-release = "jgm/pandoc"
   }
 }
+
+sha256sums = {
+  "https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-linux-amd64.tar.gz": "7404aa88a6eb9fbb99d9803b80170a3a546f51959230cc529c66a2ce6b950d4c",
+  "https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-macOS.zip": "b243ee1b8da3f3b1efc3613ac5e46807f28e2b1cb12e9792ed9a7aca5306a837",
+  "https://github.com/jgm/pandoc/releases/download/2.14.0.3/pandoc-2.14.0.3-macOS.zip": "c6c1addd968699733c7d597cf269cc66d692371995703c32e5262f84a125c27b",
+  "https://github.com/jgm/pandoc/releases/download/2.14.0.3/pandoc-2.14.0.3-linux-amd64.tar.gz": "3ed8bf98126fb68fa6ce05861ab866f5100edc38bcf47bc0bb000692453344c0",
+  "https://github.com/jgm/pandoc/releases/download/2.14.1/pandoc-2.14.1-linux-amd64.tar.gz": "ddf2aa5431484830fbf508b6613e9bd55890b6bb965f0b60b55b1f106d077a10",
+  "https://github.com/jgm/pandoc/releases/download/2.14.1/pandoc-2.14.1-macOS.zip": "30640fb8e9e5eb81145da44592189ac7aaefe2b1fe3bb1ad8131e000bc08ec75",
+  "https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-macOS.zip": "84ffb388aeb61b790b9ed41f3927f900974b9112e3628e9e5b3ff0090de69021",
+  "https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-linux-amd64.tar.gz": "1a0548b15255b1c11722f3d4e12fc7a652edf8c9a329a8458f1e765517aec1be",
+  "https://github.com/jgm/pandoc/releases/download/2.15/pandoc-2.15-macOS.zip": "6c0a6e5a462a3507179d4d0f6e04e943f690e2a8e465afa28e5393b899c7b0be",
+  "https://github.com/jgm/pandoc/releases/download/2.15/pandoc-2.15-linux-amd64.tar.gz": "31074d3a6a62c22ef53d0ebfed2a4798f2b95034863cce215bf84e4601ad17c4",
+  "https://github.com/jgm/pandoc/releases/download/2.16/pandoc-2.16-macOS.zip": "55d176b3d08426b52bca2536e9c8b5bb8c9f6df7c5c4fb7bf3f14f215239a511",
+  "https://github.com/jgm/pandoc/releases/download/2.16/pandoc-2.16-linux-amd64.tar.gz": "d3961adc1805641bf11dcd36ed5f5ed168c84f67e6d7b920ed981cc4ac1e0b07",
+  "https://github.com/jgm/pandoc/releases/download/2.16.1/pandoc-2.16.1-macOS.zip": "b6ce88ac43e75fd83ed416858fa750d66afcdfb26c16c67ab03b2d053d9bb311",
+  "https://github.com/jgm/pandoc/releases/download/2.16.1/pandoc-2.16.1-linux-amd64.tar.gz": "3fe3d42179af289d4f5452b9317d2bc9cd139a4f33a37f68d70e128f1d415aa4",
+  "https://github.com/jgm/pandoc/releases/download/2.16.2/pandoc-2.16.2-linux-amd64.tar.gz": "f053aa621130383c9166db3a3a09fa5de95090e165711011607f84b285609bd1",
+  "https://github.com/jgm/pandoc/releases/download/2.16.2/pandoc-2.16.2-macOS.zip": "7e6b694f7402b979130ba1a7f80cee28a745b186bf9ac40058f4338398677605",
+  "https://github.com/jgm/pandoc/releases/download/2.17/pandoc-2.17-linux-amd64.tar.gz": "567f9b2b4e9e9cd086a5badf9cf013d5127d48edfa1135cd861c3d2a30be9cc1",
+  "https://github.com/jgm/pandoc/releases/download/2.17/pandoc-2.17-macOS.zip": "4102b6684d5dbad7dd97f54b6bd720ec35de3c6a786942bba857cdf47123aff6",
+  "https://github.com/jgm/pandoc/releases/download/2.17.0.1/pandoc-2.17.0.1-linux-amd64.tar.gz": "108cf440a9111de27212e1b6f8459a211c414e3173ddfc07b65703cb39a66f09",
+  "https://github.com/jgm/pandoc/releases/download/2.17.0.1/pandoc-2.17.0.1-macOS.zip": "e72d2e22b15ee77a0727b35692a0f0582982874fb38dee5c25380af0c1b801c0",
+  "https://github.com/jgm/pandoc/releases/download/2.17.1/pandoc-2.17.1-linux-amd64.tar.gz": "94def8f3e54c3939d822f02461f5dad1e9083800308f73c104c9dbee0751458f",
+  "https://github.com/jgm/pandoc/releases/download/2.17.1/pandoc-2.17.1-macOS.zip": "1198455e8b0743d4c84ba9c9e81c946148e2d78f8016a602b52d20ffba1be9c8",
+  "https://github.com/jgm/pandoc/releases/download/2.17.1.1/pandoc-2.17.1.1-linux-amd64.tar.gz": "bce0609dfe196784fe0300fb6847a2a246391a5b98e0490e5f7eadb78afb0d74",
+  "https://github.com/jgm/pandoc/releases/download/2.17.1.1/pandoc-2.17.1.1-macOS.zip": "6a2d0173805c3358b26e3f8c64d66e9bb67429b188e4b224b6ff1b8fa098b7e2",
+  "https://github.com/jgm/pandoc/releases/download/2.18/pandoc-2.18-macOS.zip": "55bd37ef2a3941a7af65f72e94dc8de4e9e4f179a93909d6ecc24c55a4ef4255",
+  "https://github.com/jgm/pandoc/releases/download/2.18/pandoc-2.18-linux-amd64.tar.gz": "103df36dc21081b7205d763ef7705e340eb0ea7e18694239b328a549892cc007",
+  "https://github.com/jgm/pandoc/releases/download/2.19/pandoc-2.19-macOS.zip": "eb41406967450fd08138cfa3e95d99fbed4552e08430093888517a267f531727",
+  "https://github.com/jgm/pandoc/releases/download/2.19/pandoc-2.19-linux-amd64.tar.gz": "2afd7c0c385a5817003330a2359c2b6e04e0a7e167addd41dda51e523e807426",
+  "https://github.com/jgm/pandoc/releases/download/2.19.1/pandoc-2.19.1-linux-amd64.tar.gz": "e5dd4f533c616b246a979de1d3c16c87b460b28ff371e3993157301a18b2063f",
+  "https://github.com/jgm/pandoc/releases/download/2.19.1/pandoc-2.19.1-macOS.zip": "c55b41c6265bc8558bf9776be80d918d69ff9cf17ca8a01f8a559ecd9dc7cac8",
+  "https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-linux-amd64.tar.gz": "9d55c7afb6a244e8a615451ed9cb02e6a6f187ad4d169c6d5a123fa74adb4830",
+  "https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-macOS.zip": "af0cda69e31e42f01ba6adc0aa779d3e5853e6c092beeb420a4fc22712d2110b",
+}

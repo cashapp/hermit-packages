@@ -13,3 +13,7 @@ version "1.20.2" {
     ignore-invalid-versions = true
   }
 }
+
+sha256sums = {
+  "https://github.com/cashapp/hermit-build/releases/download/protoc-gen-swift-1.20.2/protoc-gen-swift-1.20.2-macos.tar.gz": "959966e425a96aed9f233876925ce99de8e182fb4c0c65ccccb329fe580e3db8",
+}
