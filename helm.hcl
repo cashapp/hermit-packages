@@ -2,6 +2,7 @@ description = "Helm is a tool for managing Charts. Charts are packages of pre-co
 test = "helm version"
 strip = 1
 source = "https://get.helm.sh/helm-v${version}-${os}-${arch}.tar.gz"
+// sha256-source = "https://get.helm.sh/helm-v${version}-${os}-${arch}.tar.gz.sha256sum"
 binaries = ["helm"]
 env = {
   "HELM_PLUGINS": "${HERMIT_ENV}/.hermit/helm/plugins",
@@ -20,4 +21,62 @@ version "3.6.0" "3.6.1" "3.6.2" "3.6.3" "3.7.0" "3.7.1" "3.7.2" "3.8.0" "3.8.1" 
   auto-version {
     github-release = "helm/helm"
   }
+}
+
+sha256sums = {
+  "https://get.helm.sh/helm-v3.4.0-linux-amd64.tar.gz": "270acb0f085b72ec28aee894c7443739271758010323d72ced0e92cd2c96ffdb",
+  "https://get.helm.sh/helm-v3.4.0-darwin-amd64.tar.gz": "e1588ee03cfa3f2140199acafc29aff95960a4f593b8f4ca8fc0a6be169827bf",
+  "https://get.helm.sh/helm-v3.5.3-darwin-amd64.tar.gz": "451ad70dfe286e3979c78ecf7074f4749d93644da8aa2cc778e2f969771f1794",
+  "https://get.helm.sh/helm-v3.5.3-linux-amd64.tar.gz": "2170a1a644a9e0b863f00c17b761ce33d4323da64fc74562a3a6df2abbf6cd70",
+  "https://get.helm.sh/helm-v3.6.0-darwin-arm64.tar.gz": "7d49924d0badcf081370e129448f62dd6f33878fc5812ee87fea7ef4de4ae19c",
+  "https://get.helm.sh/helm-v3.6.0-linux-amd64.tar.gz": "0a9c80b0f211791d6a9d36022abd0d6fd125139abe6d1dcf4c5bf3bc9dcec9c8",
+  "https://get.helm.sh/helm-v3.6.0-darwin-amd64.tar.gz": "7f6bcf15e5c828504dddbe733813a6d73e41abf28d649e7b9d698c4a77d412dd",
+  "https://get.helm.sh/helm-v3.6.1-linux-amd64.tar.gz": "c64f2c7b1d00c5328b164cea4bbd5e0752c103193037173c9eadea9d6a57eddb",
+  "https://get.helm.sh/helm-v3.6.1-darwin-arm64.tar.gz": "05e0165c5e9ad9905af85a36a6abdd6390aac06cd387be6c0917957d22b1dfbd",
+  "https://get.helm.sh/helm-v3.6.1-darwin-amd64.tar.gz": "f5e49aac89701162871e576ebd32506060e43a470da1fcb4b8e4118dc3512913",
+  "https://get.helm.sh/helm-v3.6.2-darwin-amd64.tar.gz": "81a94d2877326012b99ac0737517501e5ed69bb4987884e7f2d0887ad27895a9",
+  "https://get.helm.sh/helm-v3.6.2-linux-amd64.tar.gz": "f3a4be96b8a3b61b14eec1a35072e1d6e695352e7a08751775abf77861a0bf54",
+  "https://get.helm.sh/helm-v3.6.2-darwin-arm64.tar.gz": "ec337794aa72c57cad90064a10e9fa2f6e1579dcefe491281dad5a60f56876a1",
+  "https://get.helm.sh/helm-v3.6.3-darwin-arm64.tar.gz": "a50b499dbd0bbec90761d50974bf1e67cc6d503ea20d03b4a1275884065b7e9e",
+  "https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz": "07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262",
+  "https://get.helm.sh/helm-v3.6.3-darwin-amd64.tar.gz": "84a1ff17dd03340652d96e8be5172a921c97825fd278a2113c8233a4e8db5236",
+  "https://get.helm.sh/helm-v3.7.0-linux-amd64.tar.gz": "096e30f54c3ccdabe30a8093f8e128dba76bb67af697b85db6ed0453a2701bf9",
+  "https://get.helm.sh/helm-v3.7.0-darwin-amd64.tar.gz": "0bf671be69563a0c2b4253c393bed271fab90a4aa9321d09685a781f583b5c9d",
+  "https://get.helm.sh/helm-v3.7.0-darwin-arm64.tar.gz": "6968d3488cf36cae00b33c3b5799a9cfa0211270ce6f90d61a5ced5eeb54c635",
+  "https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz": "6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4",
+  "https://get.helm.sh/helm-v3.7.1-darwin-amd64.tar.gz": "3a9efe337c61a61b3e160da919ac7af8cded8945b75706e401f3655a89d53ef5",
+  "https://get.helm.sh/helm-v3.7.1-darwin-arm64.tar.gz": "733fa6731b396514071b4dbc66614bd3be8e1f079f86594ab449649441bf18f1",
+  "https://get.helm.sh/helm-v3.7.2-darwin-arm64.tar.gz": "260d4b8bffcebc6562ea344dfe88efe252cf9511dd6da3cccebf783773d42aec",
+  "https://get.helm.sh/helm-v3.7.2-darwin-amd64.tar.gz": "5a0738afb1e194853aab00258453be8624e0a1d34fcc3c779989ac8dbcd59436",
+  "https://get.helm.sh/helm-v3.7.2-linux-amd64.tar.gz": "4ae30e48966aba5f807a4e140dad6736ee1a392940101e4d79ffb4ee86200a9e",
+  "https://get.helm.sh/helm-v3.8.0-darwin-amd64.tar.gz": "532ddd6213891084873e5c2dcafa577f425ca662a6594a3389e288fc48dc2089",
+  "https://get.helm.sh/helm-v3.8.0-darwin-arm64.tar.gz": "751348f1a4a876ffe089fd68df6aea310fd05fe3b163ab76aa62632e327122f3",
+  "https://get.helm.sh/helm-v3.8.0-linux-amd64.tar.gz": "8408c91e846c5b9ba15eb6b1a5a79fc22dd4d33ac6ea63388e5698d1b2320c8b",
+  "https://get.helm.sh/helm-v3.8.1-darwin-arm64.tar.gz": "5f0fea586781fb867b92c10133786949ab6a447f297d5c12e1e8f5dd3a9ed712",
+  "https://get.helm.sh/helm-v3.8.1-darwin-amd64.tar.gz": "3b6d87d360a51bf0f2344edd54e3580a8e8de2c4a4fd92eccef3e811f7e81bb3",
+  "https://get.helm.sh/helm-v3.8.1-linux-amd64.tar.gz": "d643f48fe28eeb47ff68a1a7a26fc5142f348d02c8bc38d699674016716f61cd",
+  "https://get.helm.sh/helm-v3.8.2-linux-amd64.tar.gz": "6cb9a48f72ab9ddfecab88d264c2f6508ab3cd42d9c09666be16a7bf006bed7b",
+  "https://get.helm.sh/helm-v3.8.2-darwin-arm64.tar.gz": "dfddc0696597c010ed903e486fe112a18535ab0c92e35335aa54af2360077900",
+  "https://get.helm.sh/helm-v3.8.2-darwin-amd64.tar.gz": "25bb4a70b0d9538a97abb3aaa57133c0779982a8091742a22026e60d8614f8a0",
+  "https://get.helm.sh/helm-v3.9.0-darwin-amd64.tar.gz": "7e5a2f2a6696acf278ea17401ade5c35430e2caa57f67d4aa99c607edcc08f5e",
+  "https://get.helm.sh/helm-v3.9.0-linux-amd64.tar.gz": "1484ffb0c7a608d8069470f48b88d729e88c41a1b6602f145231e8ea7b43b50a",
+  "https://get.helm.sh/helm-v3.9.0-darwin-arm64.tar.gz": "22cf080ded5dd71ec15d33c13586ace9b6002e97518a76df628e67ecedd5aa70",
+  "https://get.helm.sh/helm-v3.9.1-darwin-amd64.tar.gz": "3cd0ad43154506ef65003bb871e71ab88d080b855ecbaa183e41f774bc7fb46e",
+  "https://get.helm.sh/helm-v3.9.1-darwin-arm64.tar.gz": "df47fb682a3ddc9904ee5fe21e60a788cced3556df0496b46278644074b2618a",
+  "https://get.helm.sh/helm-v3.9.1-linux-amd64.tar.gz": "73df7ddd5ab05e96230304bf0e6e31484b1ba136d0fc22679345c0b4bd43f7ac",
+  "https://get.helm.sh/helm-v3.9.2-darwin-amd64.tar.gz": "35d7ff8bea561831d78dce8f7bf614a7ffbcad3ff88d4c2f06a51bfa51c017e2",
+  "https://get.helm.sh/helm-v3.9.2-linux-amd64.tar.gz": "3f5be38068a1829670440ccf00b3b6656fd90d0d9cfd4367539f3b13e4c20531",
+  "https://get.helm.sh/helm-v3.9.2-darwin-arm64.tar.gz": "6250a6b92603a9c14194932e9dc22380ac423779519521452163493db33b68c8",
+  "https://get.helm.sh/helm-v3.9.3-linux-amd64.tar.gz": "2d07360a9d93b18488f1ddb9de818b92ba738acbec6e1c66885a88703fa7b21c",
+  "https://get.helm.sh/helm-v3.9.3-darwin-amd64.tar.gz": "ca3d57bb68135fa45a7acc2612d472e8ad01b78f49eaca57490aefef74a61c95",
+  "https://get.helm.sh/helm-v3.9.3-darwin-arm64.tar.gz": "db20ee8758616e1d69e90aedc5eb940751888bdd2b031badf2080a05df4c9eb7",
+  "https://get.helm.sh/helm-v3.9.4-linux-amd64.tar.gz": "31960ff2f76a7379d9bac526ddf889fb79241191f1dbe2a24f7864ddcb3f6560",
+  "https://get.helm.sh/helm-v3.9.4-darwin-amd64.tar.gz": "fe5930feca6fd1bd2c57df01c1f381c6444d1c3d2b857526bf6cbfbd6bf906b4",
+  "https://get.helm.sh/helm-v3.9.4-darwin-arm64.tar.gz": "a73d91751153169781b3ab5b4702ba1a2631fc8242eba33828b5905870059312",
+  "https://get.helm.sh/helm-v3.10.0-darwin-arm64.tar.gz": "f7f6558ebc8211824032a7fdcf0d55ad064cb33ec1eeec3d18057b9fe2e04dbe",
+  "https://get.helm.sh/helm-v3.10.0-linux-amd64.tar.gz": "bf56beb418bb529b5e0d6d43d56654c5a03f89c98400b409d1013a33d9586474",
+  "https://get.helm.sh/helm-v3.10.0-darwin-amd64.tar.gz": "1e7fd528482ac2ef2d79fe300724b3e07ff6f846a2a9b0b0fe6f5fa05691786b",
+  "https://get.helm.sh/helm-v3.10.1-darwin-arm64.tar.gz": "28a079a61c393d125c5d5e1a8e20a04b72c709ccfa8e7822f3f17bb1ad2bbc22",
+  "https://get.helm.sh/helm-v3.10.1-darwin-amd64.tar.gz": "e7f2db0df45a5011c1df8c82efde1e306a93a31eba4696d27cd751917e549ac6",
+  "https://get.helm.sh/helm-v3.10.1-linux-amd64.tar.gz": "c12d2cd638f2d066fec123d0bd7f010f32c643afdf288d39a4610b1f9cb32af3",
 }
