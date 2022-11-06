@@ -15,3 +15,10 @@ version "0.4.0" "0.5.1" {
     github-release = "jsonnet-bundler/jsonnet-bundler"
   }
 }
+
+sha256sums = {
+  "https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v0.4.0/jb-darwin-amd64": "756825884a246e263bb0bd6701c2367a9d5e552f32da43cb636607acd9ff8cf8",
+  "https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v0.4.0/jb-linux-amd64": "433edab5554a88a0371e11e93080408b225d41c31decf321c02b50d2e44993ce",
+  "https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v0.5.1/jb-linux-amd64": "f5bccc94d28fbbe8ad1d46fd4f208619e45d368a5d7924f6335f4ecfa0605c85",
+  "https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v0.5.1/jb-darwin-amd64": "a144a33c9da219c329bfe862270d0601c4d52a1f18b13aa62b59391fd111ac42",
+}

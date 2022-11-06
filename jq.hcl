@@ -30,3 +30,10 @@ version "1.6" "1.5" {
     version-pattern = "jq-(.*)"
   }
 }
+
+sha256sums = {
+  "https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64": "c6b3a7d7d3e7b70c6f51b706a3b90bd01833846c54d32ca32f0027f00226ff6d",
+  "https://github.com/stedolan/jq/releases/download/jq-1.5/jq-osx-amd64": "386e92c982a56fe4851468d7a931dfca29560cee306a0e66c6a1bd4065d3dac5",
+  "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-osx-amd64": "5c0a0a3ea600f302ee458b30317425dd9632d1ad8882259fcaf4e9b868b2b1ef",
+  "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64": "af986793a515d500ab2d35f8d2aecd656e764504b789b66d7e1a0b727a124c44",
+}
