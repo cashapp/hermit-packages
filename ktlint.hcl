@@ -8,3 +8,7 @@ version "0.47.1" {
     github-release = "pinterest/ktlint"
   }
 }
+
+sha256sums = {
+  "https://github.com/pinterest/ktlint/releases/download/0.47.1/ktlint": "a333ad0172369a5cd973aea83e02e8b698c06a2daac6f32925da03049aa3dce7",
+}
