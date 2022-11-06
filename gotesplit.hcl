@@ -1,10 +1,33 @@
 description = "Splits the testing in Go into a subset and run it. It is useful for the CI environment."
 binaries = ["gotesplit"]
 strip = 1
-source = "https://github.com/Songmu/gotesplit/releases/download/v${version}/gotesplit_v${version}_${os}_amd64.zip"
+source = "https://github.com/Songmu/gotesplit/releases/download/v${version}/gotesplit_v${version}_${os}_${arch}.zip"
 
-version "0.1.2" "0.2.0" "0.2.1" {
+platform "linux" {
+  source = "https://github.com/Songmu/gotesplit/releases/download/v${version}/gotesplit_v${version}_${os}_${arch}.tar.gz"
+}
+
+version "0.1.2" {
+  source = "https://github.com/Songmu/gotesplit/releases/download/v${version}/gotesplit_v${version}_${os}_amd64.zip"
+
+  platform "linux" {
+    source = "https://github.com/Songmu/gotesplit/releases/download/v${version}/gotesplit_v${version}_${os}_amd64.tar.gz"
+  }
+}
+
+version "0.2.0" "0.2.1" {
   auto-version {
     github-release = "Songmu/gotesplit"
   }
+}
+
+sha256sums = {
+  "https://github.com/Songmu/gotesplit/releases/download/v0.1.2/gotesplit_v0.1.2_linux_amd64.tar.gz": "e68227940fa1b90ce6efe78a6d44311867241c6f78debee6075398d9b8fecf28",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.1.2/gotesplit_v0.1.2_darwin_amd64.zip": "67526ccebe44954a5da9d990876e4dcfa00f1793285d9859005437cffec17893",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.2.0/gotesplit_v0.2.0_darwin_amd64.zip": "a7ca52eb7d6660686a0c56c94ec3473883d0bd7cb5d8ba3a5724d8c200a11f96",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.2.0/gotesplit_v0.2.0_darwin_arm64.zip": "1f46c83223d52e28f4a8a11775208a24617160b52aa66d4951b473ccbd3c6742",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.2.0/gotesplit_v0.2.0_linux_amd64.tar.gz": "9053d8d5d84117b1170592571817c7d1ab18e1917a7b916c59f906b3422b149d",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.2.1/gotesplit_v0.2.1_linux_amd64.tar.gz": "cad89bb963989d101c39d8b00137dd05b55b49431e55f4ef66984561c75f426a",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.2.1/gotesplit_v0.2.1_darwin_amd64.zip": "e2aba95dca24406927ce6145b3a077252b09400f844ad6ffc9ab6f9d85452618",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.2.1/gotesplit_v0.2.1_darwin_arm64.zip": "5eb7ea1d4b121e80d2c550b58e8390d33868524aca759446a03c8777f0413dd9",
 }
