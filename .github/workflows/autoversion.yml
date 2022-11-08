@@ -1,4 +1,5 @@
 on:
+  workflow_dispatch:
   schedule:
     - cron: "30 2 * * *"
 name: Auto-version
@@ -14,7 +15,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.AUTO_VERSIONING }}
         run: |
           set -xe
-          hermit -d manifest auto-version *.hcl
+          hermit -d manifest auto-version --update-digests *.hcl
           if git diff --exit-code ${{ github.event.pull_request.base.sha }}; then
             echo "No change"
             exit 0
