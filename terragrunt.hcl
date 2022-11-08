@@ -2,8 +2,8 @@ description = "Terragrunt is a thin wrapper that provides extra tools for keepin
 source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${version}/terragrunt_${os}_${arch}"
 binaries = ["terragrunt"]
 test = "terragrunt --version"
-// sha256-source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${version}/SHA256SUMS"
 
+// sha256-source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${version}/SHA256SUMS"
 on "unpack" {
   rename {
     from = "${root}/terragrunt_${os}_${arch}"
@@ -17,7 +17,7 @@ version "0.28.20" "0.29.5" "0.31.0" "0.31.1" "0.31.2" "0.31.3" "0.31.4" "0.31.5"
         "0.36.2" "0.36.3" "0.36.5" "0.36.6" "0.36.7" "0.36.8" "0.36.9" "0.36.10" "0.37.0"
         "0.37.1" "0.37.2" "0.37.3" "0.37.4" "0.38.0" "0.38.1" "0.38.2" "0.38.3" "0.38.4"
         "0.38.5" "0.38.6" "0.38.7" "0.38.8" "0.38.9" "0.38.10" "0.38.12" "0.39.0" "0.39.1"
-        "0.39.2" "0.40.0" {
+        "0.39.2" "0.40.0" "0.40.1" {
   auto-version {
     github-release = "gruntwork-io/terragrunt"
   }
@@ -189,4 +189,7 @@ sha256sums = {
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.37.4/terragrunt_darwin_amd64": "4711e09d47a51a212fe7908a4608d487a48cab59275e0a31691b2b213bcaa32f",
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.38.7/terragrunt_linux_amd64": "c3dd39836d968c9299647d9b950ba9110922c6a910c60d8dcc30e8549333aac1",
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.38.12/terragrunt_linux_amd64": "7545d60ef9861526456d086a808e08055687ffbe18d1ff6be95dba8b1797761a",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.40.1/terragrunt_linux_amd64": "7af7985ec93d67f8f3b2a67a45306ab1c1ba78c516135fdbe45897aa62a3a118",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.40.1/terragrunt_darwin_arm64": "e628522597fc7f7ce707cc521e4715529437f36a71cfd3eec4d1271728af24ff",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.40.1/terragrunt_darwin_amd64": "9d229972fe7b580eec241c873859e0502a3762320931f79bba876e1058417cb2",
 }

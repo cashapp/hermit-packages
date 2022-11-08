@@ -7,8 +7,8 @@ env = {
   "NPM_CONFIG_PREFIX": "${HERMIT_ENV}/.hermit/node",
   "PATH": "${HERMIT_ENV}/node_modules/.bin:${NPM_CONFIG_PREFIX}/bin:${PATH}",
 }
-// sha256-source = "https://nodejs.org/dist/v${version}/SHASUMS256.txt.asc"
 
+// sha256-source = "https://nodejs.org/dist/v${version}/SHASUMS256.txt.asc"
 platform "amd64" {
   source = "https://nodejs.org/dist/v${version}/node-v${version}-${os}-x64.tar.gz"
 }
@@ -45,7 +45,7 @@ version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
 }
 
 version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.0"
-        "18.5.0" "18.6.0" "18.7.0" "18.8.0" "18.9.0" "18.9.1" {
+        "18.5.0" "18.6.0" "18.7.0" "18.8.0" "18.9.0" "18.9.1" "18.12.1" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -254,4 +254,7 @@ sha256sums = {
   "https://nodejs.org/dist/v19.0.1/node-v19.0.1-darwin-x64.tar.gz": "55dffff4ef8e82c6e241d89fd124c7620dff83880c5e33c4ec2b19bd2d6399aa",
   "https://nodejs.org/dist/v19.0.1/node-v19.0.1-darwin-arm64.tar.gz": "96bcdf51e92320a79ada8ef9f97ab6eda8426e84fb2aad4b290719d8d749f4de",
   "https://nodejs.org/dist/v19.0.1/node-v19.0.1-linux-x64.tar.gz": "7df29266d2cfd75b6e6ae59205476debac94848e29350378ece95701c13c32ee",
+  "https://nodejs.org/dist/v18.12.1/node-v18.12.1-darwin-x64.tar.gz": "90ac0e8148f3fb52bcfc01d9f7d7963ce565dd0add0cd8d3e0698fbd7ecf1e5a",
+  "https://nodejs.org/dist/v18.12.1/node-v18.12.1-linux-x64.tar.gz": "a8fcacb8033504e6d704bdee821f7005ee3774db25c799bcf2a13b5bda7de172",
+  "https://nodejs.org/dist/v18.12.1/node-v18.12.1-darwin-arm64.tar.gz": "9857042e18a0530a19f22f29a38de4fed5608e32543216f9afb6edea8d0dfdd3",
 }

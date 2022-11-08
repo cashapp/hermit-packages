@@ -1,8 +1,8 @@
 description = "A multi-service dev environment for teams on Kubernetes."
 binaries = ["tilt"]
 test = "tilt version"
-// sha256-source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/checksums.txt"
 
+// sha256-source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/checksums.txt"
 darwin {
   arch = "amd64"
   source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/tilt.${version}.mac.x86_64.tar.gz"
@@ -28,7 +28,8 @@ version "0.20.5" "0.21.0" "0.21.1" "0.21.2" "0.21.3" "0.22.0" "0.22.1" "0.22.2"
 version "0.23.2" "0.23.4" "0.23.5" "0.23.6" "0.23.7" "0.23.8" "0.23.9" "0.24.0"
         "0.24.1" "0.25.0" "0.25.1" "0.25.2" "0.25.3" "0.26.0" "0.26.1" "0.26.2" "0.26.3"
         "0.27.0" "0.27.1" "0.27.2" "0.27.3" "0.28.0" "0.28.1" "0.29.0" "0.30.0" "0.30.1"
-        "0.30.2" "0.30.3" "0.30.4" "0.30.5" "0.30.6" "0.30.7" "0.30.8" "0.30.9" "0.30.10" {
+        "0.30.2" "0.30.3" "0.30.4" "0.30.5" "0.30.6" "0.30.7" "0.30.8" "0.30.9" "0.30.10"
+        "0.30.11" {
   auto-version {
     github-release = "tilt-dev/tilt"
   }
@@ -185,4 +186,7 @@ sha256sums = {
   "https://github.com/tilt-dev/tilt/releases/download/v0.30.0/tilt.0.30.0.mac.x86_64.tar.gz": "a625dd1d6764a7896d40488eff01e0f699048e39a226aae2a5eac83043c9ae65",
   "https://github.com/tilt-dev/tilt/releases/download/v0.30.4/tilt.0.30.4.mac.arm64.tar.gz": "1b7ac205668f712920f8d43f252884f09ede822ad0960d59ba09b23c875f85e2",
   "https://github.com/tilt-dev/tilt/releases/download/v0.30.6/tilt.0.30.6.mac.x86_64.tar.gz": "9d727974662dd401d338f7a515ac8c64c5c9ceccac6da158bf2cd7f304239af3",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.30.11/tilt.0.30.11.mac.arm64.tar.gz": "628f0c7b75b0ac76f035407dfba767c8508265c27a9c453c8f500aac33e84e8f",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.30.11/tilt.0.30.11.linux.x86_64.tar.gz": "1bcc1e3529f78ef1be040754321276de7fb84877dac70f3032191887e6f15a02",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.30.11/tilt.0.30.11.mac.x86_64.tar.gz": "df99f11b9dc8efcfe3ca0edf740f4dc1f67a1cffeed84bc455b0b16d96cf9ca9",
 }
