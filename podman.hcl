@@ -32,7 +32,7 @@ version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" {
   auto-version {
     github-release = "containers/podman"
     ignore-invalid-versions = true
-    version-pattern = "v[4-9]\\.[0-9]+\\.[0-9]+"
+    version-pattern = "v([4-9]\\.[0-9]+\\.[0-9]+)"
   }
 }
 
