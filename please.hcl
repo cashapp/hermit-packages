@@ -1,8 +1,8 @@
 description = "High-performance extensible build system for reproducible multi-language builds."
 binaries = ["plz"]
 source = "https://github.com/thought-machine/please/releases/download/v${version}/please_${version}_${os}_${arch}"
-// sha256-source = "https://github.com/thought-machine/please/releases/download/v${version}/please_${version}_${os}_${arch}.sha256"
 
+// sha256-source = "https://github.com/thought-machine/please/releases/download/v${version}/please_${version}_${os}_${arch}.sha256"
 on "unpack" {
   rename {
     from = "${root}/please_${version}_${os}_${arch}"
@@ -11,7 +11,7 @@ on "unpack" {
 }
 
 version "16.18.0" "16.19.0" "16.20.0" "16.20.1" "16.20.2" "16.20.3" "16.20.4"
-        "16.21.1" "16.21.2" "16.21.3" "16.22.0" "16.22.1" "16.23.0" "16.23.1" {
+        "16.21.1" "16.21.2" "16.21.3" "16.22.0" "16.22.1" "16.23.0" "16.23.1" "16.24.0" {
   auto-version {
     github-release = "thought-machine/please"
   }
@@ -60,4 +60,7 @@ sha256sums = {
   "https://github.com/thought-machine/please/releases/download/v16.23.1/please_16.23.1_darwin_amd64": "31b593c729ede4fefd663b6af275b8e1fa5fae3ffd37a33366435c2553cf1380",
   "https://github.com/thought-machine/please/releases/download/v16.23.1/please_16.23.1_linux_amd64": "1ab9f9da6f0140a47287d118681eb518c52acf8dca391adcfbf28af6eccd1b23",
   "https://github.com/thought-machine/please/releases/download/v16.23.1/please_16.23.1_darwin_arm64": "5f7306db10da7a770264d222f9be60b1b1ce2ba668089cce445dceef6ee4bb4b",
+  "https://github.com/thought-machine/please/releases/download/v16.24.0/please_16.24.0_linux_amd64": "83e44d91c5a6668c8ce2f584a35e846c6cc82d794bc7ee03f556b0d20e8a3cdc",
+  "https://github.com/thought-machine/please/releases/download/v16.24.0/please_16.24.0_darwin_amd64": "3e9f57dd82de9252301d3f3965cb05f5bcacc46dfb411fae5ac18ea90a007a1a",
+  "https://github.com/thought-machine/please/releases/download/v16.24.0/please_16.24.0_darwin_arm64": "703a6e32a8e3914436755eb691b579d49ba6ac452b559cea05b1e9c88eb95cd3",
 }

@@ -9,7 +9,7 @@ on "unpack" {
   }
 }
 
-version "2.7.0" "2.8.0" "2.9.1" "2.9.2" "2.9.3" "2.10.0" {
+version "2.7.0" "2.8.0" "2.9.1" "2.9.2" "2.9.3" "2.10.0" "2.12.0" {
   auto-version {
     github-release = "hadolint/hadolint"
   }
@@ -28,4 +28,6 @@ sha256sums = {
   "https://github.com/hadolint/hadolint/releases/download/v2.9.3/hadolint-darwin-x86_64": "397d4ed6d9860351b0d61055316a9b5863babc3b43aef9b7b4b89a0312b9b3fc",
   "https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-darwin-x86_64": "59f0523069a857ae918b8ac0774230013f7bcc00c1ea28119c2311353120867a",
   "https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-linux-x86_64": "8ee6ff537341681f9e91bae2d5da451b15c575691e33980893732d866d3cefc4",
+  "https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-linux-x86_64": "56de6d5e5ec427e17b74fa48d51271c7fc0d61244bf5c90e828aab8362d55010",
+  "https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-darwin-x86_64": "2a5b7afcab91645c39a7cebefcd835b865f7488e69be24567f433dfc3d41cd27",
 }
