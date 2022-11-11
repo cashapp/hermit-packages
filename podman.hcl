@@ -1,6 +1,6 @@
 description = "A tool for managing OCI containers and pods."
-// sha256-source = "https://github.com/containers/podman/releases/download/v${version}/shasums"
 
+// sha256-source = "https://github.com/containers/podman/releases/download/v${version}/shasums"
 platform "darwin" {
   source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin_${arch}.zip"
   strip = 1
@@ -28,7 +28,7 @@ version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
   }
 }
 
-version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" {
+version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
   auto-version {
     github-release = "containers/podman"
     ignore-invalid-versions = true
@@ -68,4 +68,7 @@ sha256sums = {
   "https://github.com/containers/podman/releases/download/v4.3.0/podman-remote-release-darwin_amd64.zip": "8ece5783b5deea329dd1c46ddc78f65e0774a394a9442a85f9b3ca5e09b3f3f9",
   "https://github.com/containers/podman/releases/download/v4.3.0/podman-remote-release-darwin_arm64.zip": "d59f4d8ec6bc16e649a7eb16cfde76fd515596c171a798f1e346765b82fd37ea",
   "https://github.com/containers/podman/releases/download/v4.3.0/podman-remote-static.tar.gz": "6e355f2d2c13e49f1b2f517578600f687b86d7b81e3d6c854b1a63042a04fdea",
+  "https://github.com/containers/podman/releases/download/v4.3.1/podman-remote-release-darwin_amd64.zip": "bc787ddf7aac6626c7faaec1e3a2d0d39594b3100023fc69c61812abeaff76e0",
+  "https://github.com/containers/podman/releases/download/v4.3.1/podman-remote-static.tar.gz": "63ad8062ccccf814475f5992d82dc0f41829569c6ef57a619648202f47c4a477",
+  "https://github.com/containers/podman/releases/download/v4.3.1/podman-remote-release-darwin_arm64.zip": "c390226becbe6fcfeecba88147934fc036a727a7d9c1079e874c90ee886d074c",
 }

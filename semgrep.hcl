@@ -18,7 +18,7 @@ platform "linux" "amd64" {
   source = "https://github.com/returntocorp/semgrep/releases/download/v${version}/semgrep-v${version}-ubuntu-16.04.tgz"
 }
 
-version "0.117.0" "0.118.0" "0.120.0" "0.121.0" "0.121.1" {
+version "0.117.0" "0.118.0" "0.120.0" "0.121.0" "0.121.1" "0.121.2" {
   auto-version {
     github-release = "returntocorp/semgrep"
   }
@@ -35,4 +35,6 @@ sha256sums = {
   "https://github.com/returntocorp/semgrep/releases/download/v0.121.0/semgrep-v0.121.0-ubuntu-16.04.tgz": "a05ddbdba28decc73e63731a46bd5362151821affc64e46686cd61ae2d6b7775",
   "https://github.com/returntocorp/semgrep/releases/download/v0.121.1/semgrep-v0.121.1-osx.zip": "f5f3efec0ed631ddd11eada372437e716762f7700d161da2a680496691866f99",
   "https://github.com/returntocorp/semgrep/releases/download/v0.121.1/semgrep-v0.121.1-ubuntu-16.04.tgz": "bf4424d500579fea85cff178380882790d8ab37dc41a1cde8c35aa2983ba607d",
+  "https://github.com/returntocorp/semgrep/releases/download/v0.121.2/semgrep-v0.121.2-osx.zip": "1ecda211f25febe2c8e80abfe36af5378ac32a0ad661fc61f618e1bb3d826085",
+  "https://github.com/returntocorp/semgrep/releases/download/v0.121.2/semgrep-v0.121.2-ubuntu-16.04.tgz": "ea07d7c6c01dd108595e11dc4235288f0f4234a4319f1f444ca4605c08f317ee",
 }
