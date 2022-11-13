@@ -5,8 +5,8 @@ env = {
   "CARGO_HOME": "${HERMIT_ENV}/.hermit/rust",
   "PATH": "${HERMIT_ENV}/.hermit/rust/bin:${PATH}",
 }
-// sha256-source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-apple-darwin.tar.xz.sha256"
 
+// sha256-source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-apple-darwin.tar.xz.sha256"
 darwin {
   source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-apple-darwin.tar.xz"
 }
@@ -80,9 +80,9 @@ sha256sums = {
   "https://static.rust-lang.org/dist/rust-1.63.0-x86_64-apple-darwin.tar.xz": "c1259fb8ea25a05b8ddf0c3b6b05e7a8b0fc993764162805181722706cd2d241",
   "https://static.rust-lang.org/dist/rust-1.63.0-aarch64-apple-darwin.tar.xz": "b8c3461e4924093308bff8a8b4bab00502dc7e481c9e5e3b520c8e2d3cd3c876",
   "https://static.rust-lang.org/dist/rust-1.63.0-x86_64-unknown-linux-gnu.tar.xz": "c1259fb8ea25a05b8ddf0c3b6b05e7a8b0fc993764162805181722706cd2d241",
-  "https://static.rust-lang.org/dist/rust-1.64.0-x86_64-apple-darwin.tar.xz": "b51d1e2f752f58d02d781566f3e3ac4da0a666896ebba49d70f404dbaf312d7c",
-  "https://static.rust-lang.org/dist/rust-1.64.0-x86_64-unknown-linux-gnu.tar.xz": "b51d1e2f752f58d02d781566f3e3ac4da0a666896ebba49d70f404dbaf312d7c",
   "https://static.rust-lang.org/dist/rust-1.64.0-aarch64-apple-darwin.tar.xz": "3b03717464f60cf28af3d2bd68f98d9d1de299be2722d9977da853915d2ee5c0",
+  "https://static.rust-lang.org/dist/rust-1.64.0-x86_64-apple-darwin.tar.xz": "b51d1e2f752f58d02d781566f3e3ac4da0a666896ebba49d70f404dbaf312d7c",
+  "https://static.rust-lang.org/dist/rust-1.64.0-x86_64-unknown-linux-gnu.tar.xz": "bd69e42f6cfe3ba96d781ad0b4095ddac4f0fc31c1af445018edf6f0aba543e4",
   "https://static.rust-lang.org/dist/rust-1.65.0-aarch64-apple-darwin.tar.xz": "083053e61d037bdaf1ed0fc48f9770db3cc5a7e4126b386146290451f7b4bf44",
   "https://static.rust-lang.org/dist/rust-1.65.0-x86_64-apple-darwin.tar.xz": "dcefa4bcec7b806c1a7a249e2dcd6ff046888a83141964a8f2815278f7faf7ff",
   "https://static.rust-lang.org/dist/rust-1.65.0-x86_64-unknown-linux-gnu.tar.xz": "dcefa4bcec7b806c1a7a249e2dcd6ff046888a83141964a8f2815278f7faf7ff",
