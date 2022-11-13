@@ -6,7 +6,7 @@ linux {
 
   on "unpack" {
     rename {
-      from = "${root}/goose-linux_x86_64"
+      from = "${root}/goose_linux_x86_64"
       to = "${root}/goose"
     }
   }
