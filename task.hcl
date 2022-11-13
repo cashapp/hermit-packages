@@ -1,8 +1,8 @@
 description = "Task is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make."
 binaries = ["task"]
 test = "task --version"
-// sha256-source = "https://github.com/go-task/task/releases/download/v${version}/task_checksums.txt"
 
+// sha256-source = "https://github.com/go-task/task/releases/download/v${version}/task_checksums.txt"
 version "3.7.0" {
   platform "darwin" "arm64" {
     source = "https://github.com/go-task/task/releases/download/v${version}/task_${os}_amd64.tar.gz"
@@ -10,7 +10,7 @@ version "3.7.0" {
 }
 
 version "3.7.3" "3.8.0" "3.9.2" "3.10.0" "3.11.0" "3.12.0" "3.12.1" "3.13.0" "3.14.0"
-        "3.14.1" "3.15.0" "3.15.2" "3.16.0" "3.17.0" {
+        "3.14.1" "3.15.0" "3.15.2" "3.16.0" "3.17.0" "3.18.0" {
   auto-version {
     github-release = "go-task/task"
   }
@@ -69,4 +69,7 @@ sha256sums = {
   "https://github.com/go-task/task/releases/download/v3.15.2/task_linux_amd64.tar.gz": "9358ee7a8dfe63f6ec9f06d26a0ca97ff13bc8d18a983367cdd0ab9bd2611bd4",
   "https://github.com/go-task/task/releases/download/v3.15.2/task_darwin_arm64.tar.gz": "07dab343374a6e445b1582068c1a7558f6bd8b1be4f1fad5e043fa713480f99f",
   "https://github.com/go-task/task/releases/download/v3.16.0/task_darwin_amd64.tar.gz": "0c56167fd9af86cffd4619ab26c476df26f4583354f6248a3348442347a04543",
+  "https://github.com/go-task/task/releases/download/v3.18.0/task_linux_amd64.tar.gz": "b8bb5258d5fa3f0e278309b393b67a56065c0fa0e69be73e110b45094fa1e01c",
+  "https://github.com/go-task/task/releases/download/v3.18.0/task_darwin_arm64.tar.gz": "59ab06d9b9a707a086a31f79f9ae05c3d817a087445b4a52d8eb58f743e6c250",
+  "https://github.com/go-task/task/releases/download/v3.18.0/task_darwin_amd64.tar.gz": "ae067158cb08b60ed7de63775bbb6194778d6fea096c12cea59113d69a304842",
 }
