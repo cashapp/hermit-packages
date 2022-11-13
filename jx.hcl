@@ -1,7 +1,7 @@
 description = "Jenkins X CLI"
 test = "jx version"
 binaries = ["jx"]
-// sha256-source = "https://github.com/jenkins-x/jx/releases/download/v${version}/jx-checksums.txt"
+sha256-source = "https://github.com/jenkins-x/jx/releases/download/v${version}/jx-checksums.txt"
 source = "https://github.com/jenkins-x/jx/releases/download/v${version}/jx-${os}-${arch}.tar.gz"
 
 version "3.2.137" "3.2.140" "3.2.158" "3.2.159" "3.2.160" "3.2.162" "3.2.165"

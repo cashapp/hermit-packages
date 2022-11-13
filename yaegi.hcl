@@ -2,7 +2,7 @@ description = "Yaegi is Another Elegant Go Interpreter"
 homepage = "https://github.com/traefik/yaegi"
 binaries = ["yaegi"]
 source = "https://github.com/traefik/yaegi/releases/download/v${version}/yaegi_v${version}_${os}_${arch}.tar.gz"
-// sha256-source = "https://github.com/traefik/yaegi/releases/download/v${version}/yaegi_${version}_checksums.txt"
+sha256-source = "https://github.com/traefik/yaegi/releases/download/v${version}/yaegi_${version}_checksums.txt"
 
 version "0.11.2" "0.11.3" "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.14.2" "0.14.3" {
   auto-version {

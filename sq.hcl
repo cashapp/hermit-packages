@@ -1,6 +1,6 @@
 description = "swiss-army knife for data"
 binaries = ["sq"]
-// sha256-source = "https://github.com/neilotoole/sq/releases/download/v${version}/checksums.txt"
+sha256-source = "https://github.com/neilotoole/sq/releases/download/v${version}/checksums.txt"
 
 platform "darwin" {
   source = "https://github.com/neilotoole/sq/releases/download/v${version}/sq_${version}_macos_${arch}.tar.gz"

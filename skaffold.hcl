@@ -2,7 +2,7 @@ description = "Easy and Repeatable Kubernetes Development"
 test = "skaffold version"
 binaries = ["skaffold"]
 source = "https://storage.googleapis.com/skaffold/releases/v${version}/skaffold-${os}-${arch}"
-// sha256-source = "https://storage.googleapis.com/skaffold/releases/v${version}/skaffold-${os}-${arch}.sha256"
+sha256-source = "https://storage.googleapis.com/skaffold/releases/v${version}/skaffold-${os}-${arch}.sha256"
 
 on "unpack" {
   rename {

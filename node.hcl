@@ -8,7 +8,7 @@ env = {
   "PATH": "${HERMIT_ENV}/node_modules/.bin:${NPM_CONFIG_PREFIX}/bin:${PATH}",
 }
 
-// sha256-source = "https://nodejs.org/dist/v${version}/SHASUMS256.txt.asc"
+sha256-source = "https://nodejs.org/dist/v${version}/SHASUMS256.txt.asc"
 platform "amd64" {
   source = "https://nodejs.org/dist/v${version}/node-v${version}-${os}-x64.tar.gz"
 }

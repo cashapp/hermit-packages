@@ -3,7 +3,7 @@ binaries = ["v"]
 strip = 1
 mutable = true
 
-// sha256-source = "/dev/null"
+sha256-source = "/dev/null"
 platform "darwin" {
   source = "https://github.com/vlang/v/releases/download/weekly.${version}/v_macos.zip"
 }

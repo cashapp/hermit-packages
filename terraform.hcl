@@ -1,7 +1,7 @@
 description = "Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services."
 binaries = ["terraform"]
 test = "terraform --version"
-// sha256-source = "https://releases.hashicorp.com/terraform/${version}/terraform_${version}_SHA256SUMS"
+sha256-source = "https://releases.hashicorp.com/terraform/${version}/terraform_${version}_SHA256SUMS"
 
 darwin {
   source = "https://releases.hashicorp.com/terraform/${version}/terraform_${version}_${os}_${arch}.zip"

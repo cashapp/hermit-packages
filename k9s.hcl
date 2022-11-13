@@ -1,6 +1,6 @@
 description = "K9s provides a terminal UI to interact with your Kubernetes clusters."
 binaries = ["k9s"]
-// sha256-source = "https://github.com/derailed/k9s/releases/download/v${version}/checksums.txt"
+sha256-source = "https://github.com/derailed/k9s/releases/download/v${version}/checksums.txt"
 
 platform "linux" "amd64" {
   source = "https://github.com/derailed/k9s/releases/download/v${version}/k9s_Linux_x86_64.tar.gz"

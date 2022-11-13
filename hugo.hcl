@@ -1,6 +1,6 @@
 description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
 binaries = ["hugo"]
-// sha256-source = "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_checksums.txt"
+sha256-source = "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_checksums.txt"
 
 linux {
   source = "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_linux-${arch}.tar.gz"

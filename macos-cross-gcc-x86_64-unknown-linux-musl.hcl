@@ -11,12 +11,12 @@ on "install" {
 
 platform "darwin" "arm64" {
   source = "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v${version}/aarch64-unknown-linux-musl-aarch64-darwin.tar.gz"
-  // sha256-source = "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v${version}/aarch64-unknown-linux-musl-aarch64-darwin.tar.gz.sha256"
+  sha256-source = "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v${version}/aarch64-unknown-linux-musl-aarch64-darwin.tar.gz.sha256"
 }
 
 platform "darwin" "amd64" {
   source = "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v${version}/aarch64-unknown-linux-musl-x86_64-darwin.tar.gz"
-  // sha256-source = "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v${version}/aarch64-unknown-linux-musl-x86_64-darwin.tar.gz.sha256"
+  sha256-source = "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v${version}/aarch64-unknown-linux-musl-x86_64-darwin.tar.gz.sha256"
 }
 
 platform "darwin" {

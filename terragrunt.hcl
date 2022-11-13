@@ -3,7 +3,7 @@ source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${versio
 binaries = ["terragrunt"]
 test = "terragrunt --version"
 
-// sha256-source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${version}/SHA256SUMS"
+sha256-source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${version}/SHA256SUMS"
 on "unpack" {
   rename {
     from = "${root}/terragrunt_${os}_${arch}"

@@ -4,7 +4,7 @@ test = "linkerd version --client"
 
 platform "darwin" "amd64" {
   source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}"
-  // sha256-source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}.sha256"
+  sha256-source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}.sha256"
 
   on "unpack" {
     rename {
@@ -16,7 +16,7 @@ platform "darwin" "amd64" {
 
 platform "darwin" "arm64" {
   source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}-${arch}"
-  // sha256-source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}-${arch}.sha256"
+  sha256-source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}-${arch}.sha256"
 
   on "unpack" {
     rename {
@@ -28,7 +28,7 @@ platform "darwin" "arm64" {
 
 linux {
   source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}-${arch}"
-  // sha256-source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}-${arch}.sha256"
+  sha256-source = "https://github.com/linkerd/linkerd2/releases/download/stable-${version}/linkerd2-cli-stable-${version}-${os}-${arch}.sha256"
 
   on "unpack" {
     rename {

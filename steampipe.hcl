@@ -3,7 +3,7 @@ homepage = "https://steampipe.io"
 binaries = ["steampipe"]
 source = "https://github.com/turbot/steampipe/releases/download/v${version}/steampipe_${os}_${arch}.zip"
 
-// sha256-source = "https://github.com/turbot/steampipe/releases/download/v${version}/checksums.txt"
+sha256-source = "https://github.com/turbot/steampipe/releases/download/v${version}/checksums.txt"
 platform "linux" {
   source = "https://github.com/turbot/steampipe/releases/download/v${version}/steampipe_${os}_${arch}.tar.gz"
 }

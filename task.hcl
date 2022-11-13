@@ -2,7 +2,7 @@ description = "Task is a task runner / build tool that aims to be simpler and ea
 binaries = ["task"]
 test = "task --version"
 
-// sha256-source = "https://github.com/go-task/task/releases/download/v${version}/task_checksums.txt"
+sha256-source = "https://github.com/go-task/task/releases/download/v${version}/task_checksums.txt"
 version "3.7.0" {
   platform "darwin" "arm64" {
     source = "https://github.com/go-task/task/releases/download/v${version}/task_${os}_amd64.tar.gz"

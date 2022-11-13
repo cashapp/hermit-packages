@@ -1,7 +1,7 @@
 description = "Your CLI home video recorder 📼"
 binaries = ["vhs"]
 source = "https://github.com/charmbracelet/vhs/releases/download/v${version}/vhs_${version}_${os}_${arch}.tar.gz"
-// sha256-source = "https://github.com/charmbracelet/vhs/releases/download/v${version}/checksums.txt"
+sha256-source = "https://github.com/charmbracelet/vhs/releases/download/v${version}/checksums.txt"
 requires = ["ffmpeg"]
 
 platform "amd64" {

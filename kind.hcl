@@ -2,7 +2,7 @@ description = "kind: Kubernetes IN Docker"
 test = "kind version"
 binaries = ["kind"]
 source = "https://github.com/kubernetes-sigs/kind/releases/download/v${version}/kind-${os}-${arch}"
-// sha256-source = "https://github.com/kubernetes-sigs/kind/releases/download/v${version}/kind-${os}-${arch}.sha256sum"
+sha256-source = "https://github.com/kubernetes-sigs/kind/releases/download/v${version}/kind-${os}-${arch}.sha256sum"
 
 on "unpack" {
   rename {

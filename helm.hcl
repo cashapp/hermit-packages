@@ -2,7 +2,7 @@ description = "Helm is a tool for managing Charts. Charts are packages of pre-co
 test = "helm version"
 strip = 1
 source = "https://get.helm.sh/helm-v${version}-${os}-${arch}.tar.gz"
-// sha256-source = "https://get.helm.sh/helm-v${version}-${os}-${arch}.tar.gz.sha256sum"
+sha256-source = "https://get.helm.sh/helm-v${version}-${os}-${arch}.tar.gz.sha256sum"
 binaries = ["helm"]
 env = {
   "HELM_PLUGINS": "${HERMIT_ENV}/.hermit/helm/plugins",

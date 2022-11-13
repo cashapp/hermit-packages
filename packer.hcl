@@ -2,7 +2,7 @@ description = "Packer is a tool for creating identical machine images for multip
 source = "https://releases.hashicorp.com/packer/${version}/packer_${version}_${os}_${arch}.zip"
 binaries = ["packer"]
 test = "packer --version"
-// sha256-source = "https://releases.hashicorp.com/packer/${version}/packer_${version}_SHA256SUMS"
+sha256-source = "https://releases.hashicorp.com/packer/${version}/packer_${version}_SHA256SUMS"
 
 version "1.7.4" {
 }

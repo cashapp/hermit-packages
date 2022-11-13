@@ -1,6 +1,6 @@
 description = "A tool for managing OCI containers and pods."
 
-// sha256-source = "https://github.com/containers/podman/releases/download/v${version}/shasums"
+sha256-source = "https://github.com/containers/podman/releases/download/v${version}/shasums"
 platform "darwin" {
   source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin_${arch}.zip"
   strip = 1

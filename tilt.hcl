@@ -2,7 +2,7 @@ description = "A multi-service dev environment for teams on Kubernetes."
 binaries = ["tilt"]
 test = "tilt version"
 
-// sha256-source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/checksums.txt"
+sha256-source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/checksums.txt"
 darwin {
   arch = "amd64"
   source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/tilt.${version}.mac.x86_64.tar.gz"

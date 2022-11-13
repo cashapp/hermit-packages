@@ -1,6 +1,6 @@
 description = "Linux virtual machines, on macOS (aka \"Linux-on-Mac\", \"macOS subsystem for Linux\", \"containerd for Mac\", unofficially)"
 binaries = ["bin/*"]
-// sha256-source = "https://github.com/lima-vm/lima/releases/download/v${version}/SHA256SUMS"
+sha256-source = "https://github.com/lima-vm/lima/releases/download/v${version}/SHA256SUMS"
 
 platform "amd64" {
   source = "https://github.com/lima-vm/lima/releases/download/v${version}/lima-${version}-${os}-x86_64.tar.gz"

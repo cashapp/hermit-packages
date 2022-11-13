@@ -2,7 +2,7 @@ description = "gRPC to JSON proxy generator following the gRPC HTTP spec"
 homepage = "https://grpc-ecosystem.github.io/grpc-gateway/"
 binaries = ["protoc-gen-grpc-gateway"]
 source = "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v${version}/protoc-gen-grpc-gateway-v${version}-${os}-x86_64"
-// sha256-source = "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v${version}/grpc-gateway_${version}_checksums.txt"
+sha256-source = "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v${version}/grpc-gateway_${version}_checksums.txt"
 
 on "unpack" {
   rename {

@@ -2,7 +2,7 @@ description = "High-performance extensible build system for reproducible multi-l
 binaries = ["plz"]
 source = "https://github.com/thought-machine/please/releases/download/v${version}/please_${version}_${os}_${arch}"
 
-// sha256-source = "https://github.com/thought-machine/please/releases/download/v${version}/please_${version}_${os}_${arch}.sha256"
+sha256-source = "https://github.com/thought-machine/please/releases/download/v${version}/please_${version}_${os}_${arch}.sha256"
 on "unpack" {
   rename {
     from = "${root}/please_${version}_${os}_${arch}"
