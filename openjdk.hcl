@@ -87,7 +87,7 @@ version "17.0.2_8" {
   }
 }
 
-version "17.0.5" {
+version "17.0.5_8" {
   platform "linux" {
     source = "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.5%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.5_8.tar.gz"
   }
