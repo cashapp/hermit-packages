@@ -11,7 +11,8 @@ version "0.2.1" "0.2.2" "0.4.0" "0.5.0" "0.7.1" "0.8.0" "0.9.0" "0.11.0" "0.12.0
         "1.4.22" "1.4.26" "1.4.28" "1.4.30" "1.4.32" "1.4.37" "1.5.2" "1.5.3" "1.5.7" "1.5.9"
         "1.5.15" "1.5.16" "1.5.17" "1.5.19" "1.5.20" "1.5.25" "1.5.29" "1.5.30" "1.5.36"
         "1.5.37" "1.6.0" "1.6.6" "1.6.12" "1.6.13" "1.6.16" "1.6.18" "1.6.19" "1.6.26" "1.6.28"
-        "1.6.29" "1.6.33" "1.6.36" "1.6.37" "1.6.40" "1.6.42" "1.6.46" "1.6.48" "1.7.1" "1.7.3" {
+        "1.6.29" "1.6.33" "1.6.36" "1.6.37" "1.6.40" "1.6.42" "1.6.46" "1.6.48" "1.7.1" "1.7.3"
+        "1.8.0" {
   auto-version {
     github-release = "datreeio/datree"
   }
@@ -214,4 +215,6 @@ sha256sums = {
   "https://github.com/datreeio/datree/releases/download/1.7.1/datree-cli_1.7.1_Darwin_x86_64.zip": "4765baf15b858fbcf315b3a229d0675de87a008b12265494b7f6975c0de782f4",
   "https://github.com/datreeio/datree/releases/download/1.7.3/datree-cli_1.7.3_Linux_x86_64.zip": "0d9b4fc2d123ae46b64c85ba7170dbeafe8b4be88c1a727975adf6e06e6acaff",
   "https://github.com/datreeio/datree/releases/download/1.7.3/datree-cli_1.7.3_Darwin_x86_64.zip": "3993fd72697d7fa4ec01230014db5d42f755adb62eaf6b368f7f98358ff7f866",
+  "https://github.com/datreeio/datree/releases/download/1.8.0/datree-cli_1.8.0_Darwin_x86_64.zip": "67ed13e5f4eab15e1eb9b4e153a4f2967426aed5839967d7a1b21520af5e06b4",
+  "https://github.com/datreeio/datree/releases/download/1.8.0/datree-cli_1.8.0_Linux_x86_64.zip": "f123b0f0c8868f9af14639a10eda822483803b34d909183944410a7450e7d33e",
 }
