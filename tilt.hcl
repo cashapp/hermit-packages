@@ -1,8 +1,8 @@
 description = "A multi-service dev environment for teams on Kubernetes."
 binaries = ["tilt"]
 test = "tilt version"
-
 sha256-source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/checksums.txt"
+
 darwin {
   arch = "amd64"
   source = "https://github.com/tilt-dev/tilt/releases/download/v${version}/tilt.${version}.mac.x86_64.tar.gz"
@@ -29,7 +29,7 @@ version "0.23.2" "0.23.4" "0.23.5" "0.23.6" "0.23.7" "0.23.8" "0.23.9" "0.24.0"
         "0.24.1" "0.25.0" "0.25.1" "0.25.2" "0.25.3" "0.26.0" "0.26.1" "0.26.2" "0.26.3"
         "0.27.0" "0.27.1" "0.27.2" "0.27.3" "0.28.0" "0.28.1" "0.29.0" "0.30.0" "0.30.1"
         "0.30.2" "0.30.3" "0.30.4" "0.30.5" "0.30.6" "0.30.7" "0.30.8" "0.30.9" "0.30.10"
-        "0.30.11" {
+        "0.30.11" "0.30.12" {
   auto-version {
     github-release = "tilt-dev/tilt"
   }
@@ -189,4 +189,7 @@ sha256sums = {
   "https://github.com/tilt-dev/tilt/releases/download/v0.30.11/tilt.0.30.11.mac.arm64.tar.gz": "628f0c7b75b0ac76f035407dfba767c8508265c27a9c453c8f500aac33e84e8f",
   "https://github.com/tilt-dev/tilt/releases/download/v0.30.11/tilt.0.30.11.linux.x86_64.tar.gz": "1bcc1e3529f78ef1be040754321276de7fb84877dac70f3032191887e6f15a02",
   "https://github.com/tilt-dev/tilt/releases/download/v0.30.11/tilt.0.30.11.mac.x86_64.tar.gz": "df99f11b9dc8efcfe3ca0edf740f4dc1f67a1cffeed84bc455b0b16d96cf9ca9",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.30.12/tilt.0.30.12.mac.x86_64.tar.gz": "fbc4fa775ad47c2c8d6801009c3283c4e124f990f1234db806ef0b66268f230a",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.30.12/tilt.0.30.12.linux.x86_64.tar.gz": "90178633c010ebd499277b645b6b1303406af801133f77966c77f75da9d12484",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.30.12/tilt.0.30.12.mac.arm64.tar.gz": "7a725644eb44b4663811ba5c166a16962b3434f143ce6a00baf9bdc0920a890e",
 }
