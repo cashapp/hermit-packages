@@ -13,7 +13,7 @@ platform "darwin" {
   }
 }
 
-platform "linux" {
+platform linux amd64 {
   source = "https://github.com/orhun/git-cliff/releases/download/v${version}/git-cliff-${version}-x86_64-unknown-linux-gnu.tar.gz"
 
   on "unpack" {
