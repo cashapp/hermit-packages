@@ -2,15 +2,15 @@ description = "Use SQL to instantly query your cloud services (AWS, Azure, GCP a
 homepage = "https://steampipe.io"
 binaries = ["steampipe"]
 source = "https://github.com/turbot/steampipe/releases/download/v${version}/steampipe_${os}_${arch}.zip"
-
 sha256-source = "https://github.com/turbot/steampipe/releases/download/v${version}/checksums.txt"
+
 platform "linux" {
   source = "https://github.com/turbot/steampipe/releases/download/v${version}/steampipe_${os}_${arch}.tar.gz"
 }
 
 version "0.12.2" "0.13.1" "0.13.2" "0.13.3" "0.13.4" "0.13.5" "0.13.6" "0.14.1"
         "0.14.3" "0.14.4" "0.14.5" "0.14.6" "0.15.0" "0.15.1" "0.15.2" "0.15.3" "0.15.4"
-        "0.16.0" "0.16.1" "0.16.2" "0.16.3" "0.16.4" "0.17.0" "0.17.1" {
+        "0.16.0" "0.16.1" "0.16.2" "0.16.3" "0.16.4" "0.17.0" "0.17.1" "0.17.2" {
   auto-version {
     github-release = "turbot/steampipe"
   }
@@ -89,4 +89,7 @@ sha256sums = {
   "https://github.com/turbot/steampipe/releases/download/v0.17.1/steampipe_darwin_amd64.zip": "2a309f7d8ad595213284aa8ef835467a903bf43649bf9931909f8e05b31ad35f",
   "https://github.com/turbot/steampipe/releases/download/v0.17.1/steampipe_linux_amd64.tar.gz": "c6cdbfc3a16ce73f2f152031e07dafada650c35cb8b330aea0ab9c75a71ffd42",
   "https://github.com/turbot/steampipe/releases/download/v0.17.1/steampipe_darwin_arm64.zip": "3bb4577e4d92013b2cab4f0325257519b5d8f2cd95bb22d2e6269bc56684ccd8",
+  "https://github.com/turbot/steampipe/releases/download/v0.17.2/steampipe_darwin_arm64.zip": "5ea6d675a947160965d51802ba5b99c7857847e525c9e03a24efb57785efb1d5",
+  "https://github.com/turbot/steampipe/releases/download/v0.17.2/steampipe_darwin_amd64.zip": "912c674c3d3c5ef78a6b51abe6a73640dc788166c15d6ddd2fe4f612cad21908",
+  "https://github.com/turbot/steampipe/releases/download/v0.17.2/steampipe_linux_amd64.tar.gz": "edf73b0f2d2bdb9071ac0143c5ab014090f58273a5cacb49b1af73f975a87b7d",
 }
