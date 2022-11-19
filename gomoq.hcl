@@ -10,10 +10,6 @@ platform linux amd64 {
   source = "https://github.com/matryer/moq/releases/download/v${version}/moq_${version}_Linux_x86_64.tar.gz"
 }
 
-platform linux x86_64 {
-  source = "https://github.com/matryer/moq/releases/download/v${version}/moq_${version}_Linux_x86_64.tar.gz"
-}
-
 platform linux arm64 {
   source = "https://github.com/matryer/moq/releases/download/v${version}/moq_${version}_Linux_arm64.tar.gz"
 }
