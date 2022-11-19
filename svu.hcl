@@ -2,6 +2,10 @@ description = "Semantic Version Util is a tool to manage semantic versions at ea
 test = "svu --version"
 binaries = ["svu"]
 
+on install {
+  message { text = "Hello ${env} ${version}" }
+}
+
 version "1.9.0" {
   source = "https://github.com/caarlos0/svu/releases/download/v${version}/svu_${version}_${os}_${arch}.tar.gz"
 
