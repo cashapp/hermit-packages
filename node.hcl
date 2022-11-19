@@ -26,7 +26,7 @@ version "12.18.3" "12.22.12" "12.22.6" "12.22.7" "12.22.9" "14.16.0" "14.17.0"
 }
 
 version "16.1.0" "16.10.0" "16.11.0" "16.13.0" "16.13.1" "16.14.0" "16.14.1"
-        "16.15.0" "16.17.0" "16.18.0" "16.2.0" "16.3.0" "16.4.0" "16.5.0" "16.6.0" "16.6.1"
+        "16.15.0" "16.17.0" "16.17.1" "16.18.0" "16.2.0" "16.3.0" "16.4.0" "16.5.0" "16.6.0" "16.6.1"
         "16.6.2" "16.7.0" "16.8.0" "16.9.0" "16.9.1" "16.18.1" {
   auto-version {
     github-release = "nodejs/node"
@@ -158,6 +158,9 @@ sha256sums = {
   "https://nodejs.org/dist/v16.17.0/node-v16.17.0-linux-x64.tar.gz": "4827808e50b8ee42b4dadf056835287dac267b9cff56cea56e70843bf8cecb79",
   "https://nodejs.org/dist/v16.17.0/node-v16.17.0-darwin-x64.tar.gz": "b85eaa537f9d60a68c704e23839db65b5a75f14b37d6855c5d4e31a6bcef26c6",
   "https://nodejs.org/dist/v16.17.0/node-v16.17.0-darwin-arm64.tar.gz": "96eefac1e168ec1bf39c5ae1e7b2760522624adfbe2e0c92875cd33ef9a07792",
+  "https://nodejs.org/dist/v16.17.1/node-v16.17.1-linux-x64.tar.gz": "da5658693243b3ecf6a4cba6751a71df1eb9e9703ca93b42a9404aed85f58ad0",
+  "https://nodejs.org/dist/v16.17.1/node-v16.17.1-darwin-x64.tar.gz": "3db26761ad8493b894d42260d7e65094b7af9bc473588739e61bc1c32d6ff955",
+  "https://nodejs.org/dist/v16.17.1/node-v16.17.1-darwin-arm64.tar.gz": "f9f02f7872e2e8ee54320fce13deb9d56904f32bb0615b6e21aa3371d8899150",
   "https://nodejs.org/dist/v16.18.0/node-v16.18.0-darwin-arm64.tar.gz": "8ceee891d0171381520e9017326589a9a616d6be2689493304970290d9b6e3b2",
   "https://nodejs.org/dist/v16.18.0/node-v16.18.0-linux-x64.tar.gz": "faca6476cb5b41aa995370fd856d16fcfbbef5c18718a6fa44cc1bae4140849d",
   "https://nodejs.org/dist/v16.18.0/node-v16.18.0-darwin-x64.tar.gz": "bd1476e95856879710026a344572c1b77add48da0f2d15bda48513d0b2667ed5",
