@@ -39,7 +39,7 @@ version "10.16.1" {
 
 version "10.16.2" {
   vars = {
-    "release_date": "release20221108",
+    "release_date": "20221108",
   }
 }
 
