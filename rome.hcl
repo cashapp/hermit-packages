@@ -3,29 +3,20 @@ binaries = ["rome"]
 homepage = "https://rome.tools"
 test = "rome --help"
 
-platform "arm64" {
-  vars = {
-    "arch_": "arm64",
-  }
-
-  on "unpack" {
-    rename {
-      from = "${root}/rome-${os}-arm64"
-      to = "${root}/rome"
-    }
-  }
+vars = {
+  "arch_": "${arch}",
 }
 
 platform "amd64" {
   vars = {
     "arch_": "x64",
   }
+}
 
-  on "unpack" {
-    rename {
-      from = "${root}/rome-${os}-x64"
-      to = "${root}/rome"
-    }
+on "unpack" {
+  rename {
+    from = "${root}/rome-${os}-${arch_}"
+    to = "${root}/rome"
   }
 }
 
