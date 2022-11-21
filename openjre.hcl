@@ -8,6 +8,11 @@ test = "java -version"
 strip = 1
 source = "https://cdn.azul.com/zulu/bin/zulu${zulu}-ca-jre${jre}-${os_}_${arch_}.tar.gz"
 
+vars = {
+  "arch_": "${xarch}",
+  "os_": "${os}",
+}
+
 platform "darwin" {
   vars = {
     "os_": "macosx",
@@ -16,21 +21,9 @@ platform "darwin" {
   dest = "${HOME}/Library/Java/JavaVirtualMachines/jdk-${version}.jre/Contents/Home"
 }
 
-platform "linux" {
-  vars = {
-    "os_": "linux",
-  }
-}
-
 platform "amd64" {
   vars = {
     "arch_": "x64",
-  }
-}
-
-platform "arm64" {
-  vars = {
-    "arch_": "aarch64",
   }
 }
 
