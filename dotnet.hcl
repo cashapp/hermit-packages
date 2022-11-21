@@ -6,7 +6,7 @@ test = "dotnet --version"
 vars = {
   "baseurl": "https://download.visualstudio.microsoft.com/download/pr",
   "os_": "${os}",
-  "arch_": "${xarch}",
+  "arch_": "${arch}",
 }
 
 platform "darwin" {
@@ -18,12 +18,6 @@ platform "darwin" {
 platform "amd64" {
   vars = {
     "arch_": "x64",
-  }
-}
-
-platform "arm64" {
-  vars = {
-    "arch_": "arm64",
   }
 }
 
