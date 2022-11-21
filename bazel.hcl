@@ -4,7 +4,7 @@ source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel
 
 on "unpack" {
   rename {
-    from = "${root}/bazel-${version}-${os}-${arch}"
+    from = "${root}/bazel-${version}-${os}-${arch_}"
     to = "${root}/bazel"
   }
 }
