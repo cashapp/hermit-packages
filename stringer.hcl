@@ -10,17 +10,14 @@ on "unpack" {
   }
 }
 
-version "0.1.11" {
-  auto-version {
-    html {
-      url = "https://github.com/cashapp/hermit-build/releases/tag/go-tools"
-      xpath = "replace((//a[contains(@href, '/stringer-')])/@href, '^.*/stringer-v([^-]*)-.*$', '$1')"
-    }
-  }
+version "0.1.11" "0.1.12" {
 }
 
 sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/stringer-v0.1.11-linux-amd64.bz2": "088722f42fe748acbd3eef31f912df74930529606a094d8a61a87549cd96706b",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/stringer-v0.1.11-darwin-amd64.bz2": "088722f42fe748acbd3eef31f912df74930529606a094d8a61a87549cd96706b",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/stringer-v0.1.11-darwin-arm64.bz2": "088722f42fe748acbd3eef31f912df74930529606a094d8a61a87549cd96706b",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/stringer-v0.1.12-linux-amd64.bz2": "5606c08972f37cc56088668ea14a058b6f488e3e74ff6497a184c93d701a4a89",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/stringer-v0.1.12-darwin-amd64.bz2": "f39caf031231cd4ed543d8e1e1e219aa1e122ac28313ad5ca384f02bf69d272f",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/stringer-v0.1.12-darwin-arm64.bz2": "a2ec37d60bec944d4acd600a2d66c3fae4d1d485441c413d88314a8aa98c27f3",
 }

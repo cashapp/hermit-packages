@@ -64,4 +64,6 @@ sha256sums = {
   "https://azcopyvnext.azureedge.net/release20220721/azcopy_darwin_amd64_10.16.0.zip": "7b012b9d5336aba2fe0bf8631e2a3d05fe7ee9b141facdbc86182b15d9206953",
   "https://azcopyvnext.azureedge.net/release20221005/azcopy_linux_amd64_10.16.1.tar.gz": "085cdd470e1750436815354bb63ca1050e6c54a041db76de58059c282512d96a",
   "https://azcopyvnext.azureedge.net/release20221005/azcopy_darwin_amd64_10.16.1.zip": "af1af6ef2b98da02c5b8b438433be385d4664824b9bf757c0abbbd5f18ed5a70",
+  "https://azcopyvnext.azureedge.net/release20221108/azcopy_darwin_amd64_10.16.2.zip": "f2ad79ccf4228484e149bfc54461cb301b50eca83924f839b6f05826bb84c4df",
+  "https://azcopyvnext.azureedge.net/release20221108/azcopy_linux_amd64_10.16.2.tar.gz": "8a35a74ba6ac973c1d6efdfd3e16446ff9049ef03333a8f91f002ae8220edeeb",
 }
