@@ -1,5 +1,6 @@
 description = "A Go tool to auto generate methods for your enums"
 binaries = ["enumer"]
+homepage = "https://github.com/dmarkham/enumer"
 source = "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v${version}-${os}-${arch}.bz2"
 
 on "unpack" {
