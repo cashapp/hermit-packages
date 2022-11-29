@@ -2,8 +2,8 @@ description = "Terragrunt is a thin wrapper that provides extra tools for keepin
 source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${version}/terragrunt_${os}_${arch}"
 binaries = ["terragrunt"]
 test = "terragrunt --version"
-
 sha256-source = "https://github.com/gruntwork-io/terragrunt/releases/download/v${version}/SHA256SUMS"
+
 on "unpack" {
   rename {
     from = "${root}/terragrunt_${os}_${arch}"
@@ -17,7 +17,7 @@ version "0.28.20" "0.29.5" "0.31.0" "0.31.1" "0.31.2" "0.31.3" "0.31.4" "0.31.5"
         "0.36.2" "0.36.3" "0.36.5" "0.36.6" "0.36.7" "0.36.8" "0.36.9" "0.36.10" "0.37.0"
         "0.37.1" "0.37.2" "0.37.3" "0.37.4" "0.38.0" "0.38.1" "0.38.2" "0.38.3" "0.38.4"
         "0.38.5" "0.38.6" "0.38.7" "0.38.8" "0.38.9" "0.38.10" "0.38.12" "0.39.0" "0.39.1"
-        "0.39.2" "0.40.0" "0.40.1" "0.40.2" {
+        "0.39.2" "0.40.0" "0.40.1" "0.40.2" "0.41.0" {
   auto-version {
     github-release = "gruntwork-io/terragrunt"
   }
@@ -195,4 +195,7 @@ sha256sums = {
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.40.2/terragrunt_darwin_arm64": "6e5449da51ae8cc19119d4e22ab708d0281412ad4377a040916e345d9249c6a5",
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.40.2/terragrunt_linux_amd64": "f943e4e4eb6069906ebb850067b7192dd86c6772ac0802b0bd5b3d44a212d7b4",
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.40.2/terragrunt_darwin_amd64": "29ba464d26518cf8d2c1f500436086ed6ebb826fc81c3932f4fb775e1b1b1661",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.41.0/terragrunt_darwin_amd64": "936bdb9d9f75c40436222d3ffced5238da4103e51e6605030ecdb5310a853760",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.41.0/terragrunt_linux_amd64": "96a843ba998a58339a1fc1f7426848cf4afeb0bcb0f7cad749f86a1366aa00e1",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.41.0/terragrunt_darwin_arm64": "0f17bcda2478902bf9ecbdebfb0dec3a9229c1058bde34bdc6bc89a193f759b4",
 }
