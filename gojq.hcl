@@ -12,7 +12,7 @@ darwin {
   strip = 1
 }
 
-version "0.12.5" "0.12.6" "0.12.7" "0.12.8" "0.12.9" {
+version "0.12.5" "0.12.6" "0.12.7" "0.12.8" "0.12.9" "0.12.10" {
   auto-version {
     github-release = "itchyny/gojq"
   }
@@ -34,4 +34,7 @@ sha256sums = {
   "https://github.com/itchyny/gojq/releases/download/v0.12.9/gojq_v0.12.9_linux_amd64.tar.gz": "03f2df54a931e0c1de4dc619af894d2c52e91cdf214a88780b68f3e1d12603ef",
   "https://github.com/itchyny/gojq/releases/download/v0.12.9/gojq_v0.12.9_darwin_amd64.zip": "9858c49d21095337039cb785d9b119f7f579dc7f2d2926250ff593118ae45e80",
   "https://github.com/itchyny/gojq/releases/download/v0.12.9/gojq_v0.12.9_darwin_arm64.zip": "8fbd0ac9883767ce2bc0d7e711ba6142eb97d4e808ed13a7029b6d39cd4cfa03",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.10/gojq_v0.12.10_linux_amd64.tar.gz": "1f010b028eab94b86756c21fe43a0dc073296a4a7d59129030a6d5d8da5794d5",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.10/gojq_v0.12.10_darwin_amd64.zip": "c5b7df0c6319a6b3b0ca7f7cffea2ab85e10de12bee04c6c3380b8c27efb7941",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.10/gojq_v0.12.10_darwin_arm64.zip": "548a5857160c79172dc224782939c48570cdb0745af42d9c9b4da660bf256cdc",
 }
