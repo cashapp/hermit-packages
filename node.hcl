@@ -4,6 +4,7 @@ binaries = ["bin/*"]
 repository = "https://github.com/nodejs/node"
 strip = 1
 env = {
+  "COREPACK_HOME": "${HERMIT_ENV}/.hermit/node",
   "NPM_CONFIG_PREFIX": "${HERMIT_ENV}/.hermit/node",
   "PATH": "${HERMIT_ENV}/node_modules/.bin:${NPM_CONFIG_PREFIX}/bin:${PATH}",
 }
