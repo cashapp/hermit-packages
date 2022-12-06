@@ -34,6 +34,11 @@ version "16.1.0" "16.10.0" "16.11.0" "16.13.0" "16.13.1" "16.14.0" "16.14.1"
     ignore-invalid-versions = true
     version-pattern = "v(16.*)"
   }
+
+  on install {
+    run { cmd = "/bin/mkdir -p ${HERMIT_ENV}/.hermit/node/bin" }
+    run { cmd = "${HERMIT_ENV}/bin/corepack enable --install-directory ${HERMIT_ENV}/.hermit/node/bin" }
+  }
 }
 
 version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
@@ -42,6 +47,10 @@ version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
     github-release = "nodejs/node"
     ignore-invalid-versions = true
     version-pattern = "v(17.*)"
+  }
+  on install {
+    run { cmd = "/bin/mkdir -p ${HERMIT_ENV}/.hermit/node/bin" }
+    run { cmd = "${HERMIT_ENV}/bin/corepack enable --install-directory ${HERMIT_ENV}/.hermit/node/bin" }
   }
 }
 
@@ -52,6 +61,10 @@ version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.
     ignore-invalid-versions = true
     version-pattern = "v(18.*)"
   }
+  on install {
+    run { cmd = "/bin/mkdir -p ${HERMIT_ENV}/.hermit/node/bin" }
+    run { cmd = "${HERMIT_ENV}/bin/corepack enable --install-directory ${HERMIT_ENV}/.hermit/node/bin" }
+  }
 }
 
 version "19.0.0" "19.0.1" "19.1.0" "19.2.0" {
@@ -59,6 +72,10 @@ version "19.0.0" "19.0.1" "19.1.0" "19.2.0" {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
     version-pattern = "v(19.*)"
+  }
+  on install {
+    run { cmd = "/bin/mkdir -p ${HERMIT_ENV}/.hermit/node/bin" }
+    run { cmd = "${HERMIT_ENV}/bin/corepack enable --install-directory ${HERMIT_ENV}/.hermit/node/bin" }
   }
 }
 
