@@ -2,16 +2,12 @@ description = "An extremely fast JavaScript bundler"
 binaries = ["esbuild"]
 strip = 2
 
-platform "darwin" "arm64" {
-  source = "https://registry.npmjs.org/esbuild-darwin-arm64/-/esbuild-darwin-arm64-${version}.tgz"
+platform "arm64" {
+  source = "https://registry.npmjs.org/@esbuild/${os}-arm64/-/${os}-arm64-${version}.tgz"
 }
 
-platform "darwin" "amd64" {
-  source = "https://registry.npmjs.org/esbuild-darwin-64/-/esbuild-darwin-64-${version}.tgz"
-}
-
-platform "linux" "amd64" {
-  source = "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-${version}.tgz"
+platform "amd64" {
+  source = "https://registry.npmjs.org/@esbuild/${os}-x64/-/${os}-x64-${version}.tgz"
 }
 
 version "0.12.14" "0.12.15" "0.12.16" "0.12.17" "0.12.18" "0.12.19" "0.12.20"
@@ -25,6 +21,16 @@ version "0.12.14" "0.12.15" "0.12.16" "0.12.17" "0.12.18" "0.12.19" "0.12.20"
         "0.14.46" "0.14.47" "0.14.48" "0.14.49" "0.14.50" "0.14.51" "0.14.53" "0.14.54"
         "0.15.1" "0.15.2" "0.15.3" "0.15.5" "0.15.6" "0.15.7" "0.15.8" "0.15.9" "0.15.10"
         "0.15.11" "0.15.12" "0.15.13" "0.15.14" "0.15.16" "0.15.17" "0.15.18" {
+  platform "arm64" {
+    source = "https://registry.npmjs.org/esbuild-${os}-arm64/-/esbuild-${os}-arm64-${version}.tgz"
+  }
+
+  platform "amd64" {
+    source = "https://registry.npmjs.org/esbuild-${os}-64/-/esbuild-${os}-64-${version}.tgz"
+  }
+}
+
+version "0.16.4" {
   auto-version {
     github-release = "evanw/esbuild"
   }
@@ -298,4 +304,7 @@ sha256sums = {
   "https://registry.npmjs.org/esbuild-darwin-64/-/esbuild-darwin-64-0.15.18.tgz": "3389c215d724bdf687d0df263509a5db8c62cda683743b5bbdc624639992a632",
   "https://registry.npmjs.org/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.15.18.tgz": "06c9a037b3969fe62c4053248b659d217789f0bbea81cb5db85a76b0e3e79a49",
   "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-0.15.18.tgz": "8fc71c83c5caeaf3b977508225dc3e0365cbc5f08d20119271713852f1b3de47",
+  "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.16.4.tgz": "f5360e8d8d059b72569834852e4cb9b25c53cd527798c13ccaaa6ded95318bfc",
+  "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.16.4.tgz": "49edf7b0fa76428fcbab9d6125e320262e125881332b733772cda154c2c247f2",
+  "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.16.4.tgz": "6c7845ff4eeb7c5887be4d65a963b7ef0b64a0b8b32941c31c0804bcb9b23a8d",
 }
