@@ -4,7 +4,7 @@ binaries = ["install/bin/pip3", "install/bin/python3"]
 test = "python3 -m pip install flake8"
 env = {
   "PYTHONPYCACHEPREFIX": "${HERMIT_ENV}/.hermit/python/cache",
-  "PIP_CACHE_DIR": "${HERMIT_ENV}/.hermit/python/cache/pip",
+  "PIP_CACHE_DIR": "${PYTHONPYCACHEPREFIX}/pip",
   "PYTHONUSERBASE": "${HERMIT_ENV}/.hermit/python",
   "PATH": "${HERMIT_ENV}/.hermit/python/bin:${PATH}",
 }
