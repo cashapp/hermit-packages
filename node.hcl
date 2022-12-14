@@ -6,7 +6,7 @@ strip = 1
 env = {
   "COREPACK_HOME": "${HERMIT_ENV}/.hermit/node",
   "NPM_CONFIG_PREFIX": "${HERMIT_ENV}/.hermit/node",
-  "NPM_CONFIG_CACHE": "${NPM_CONFIG_PREFIX}/cache",
+  "NPM_CONFIG_CACHE": "${HERMIT_ENV}/.hermit/node/cache",
   "PATH": "${HERMIT_ENV}/node_modules/.bin:${NPM_CONFIG_PREFIX}/bin:${PATH}",
 }
 sha256-source = "https://nodejs.org/dist/v${version}/SHASUMS256.txt.asc"
