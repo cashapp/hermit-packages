@@ -16,7 +16,7 @@ platform "amd64" {
 }
 
 vars = {
-  "arch_": "${arch}"
+  "arch_": "${arch}",
 }
 
 version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" {
@@ -27,7 +27,7 @@ version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" {
   }
 }
 
-version "5.0.0" "5.1.0" "5.1.1" "5.2.0" "5.3.0" "5.3.1" "5.3.2" {
+version "5.0.0" "5.1.0" "5.1.1" "5.2.0" "5.3.0" "5.3.1" "5.3.2" "5.4.0" {
   auto-version {
     github-release = "bazelbuild/bazel"
   }
@@ -67,4 +67,7 @@ sha256sums = {
   "https://github.com/bazelbuild/bazel/releases/download/5.3.2/bazel-5.3.2-darwin-arm64": "d3ce116379b835e2a0ae16b924a485c48330db434b192f090c8f875238e584cb",
   "https://github.com/bazelbuild/bazel/releases/download/5.3.2/bazel-5.3.2-darwin-x86_64": "fe01824013184899386a4807435e38811949ca13f46713e7fc39c70fa1528a17",
   "https://github.com/bazelbuild/bazel/releases/download/5.3.2/bazel-5.3.2-linux-x86_64": "973e213b1e9207ccdd3ea4730c0f92cbef769ec112ac2b84980583220d8db845",
+  "https://github.com/bazelbuild/bazel/releases/download/5.4.0/bazel-5.4.0-linux-x86_64": "4f0e14764a60375855e59bafb1de26f5189f6d34a65587c8d6dc499e57a8a8f0",
+  "https://github.com/bazelbuild/bazel/releases/download/5.4.0/bazel-5.4.0-darwin-arm64": "c848c0b3a5f804486edc2abe41e9cf4cf7e7f6289f3301fe7788194b9bf3ab95",
+  "https://github.com/bazelbuild/bazel/releases/download/5.4.0/bazel-5.4.0-darwin-x86_64": "eee833e77a39bff9684700e3cb360fe5dc82212829b034ed82e162c669106ac4",
 }
