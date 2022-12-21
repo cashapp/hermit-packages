@@ -10,7 +10,7 @@ on unpack {
   }
   chmod {
     file = "${root}/git-lfs"
-    mode = 0700
+    mode = 448
   }
 }
 
