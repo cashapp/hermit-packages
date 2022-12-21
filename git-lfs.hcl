@@ -1,12 +1,11 @@
 description = "Git extension for versioning large files"
 homepage = "https://git-lfs.github.com"
 binaries = ["git-lfs"]
+test = "git-lfs --version"
+strip = 1
 
-on unpack {
-  rename {
-    from = "${root}/git-lfs-${version}"
-    to = "${root}/git-lfs"
-  }
+env = {
+  "MANPATH": "${root}/man:${MANPATH}",
 }
 
 platform darwin {
