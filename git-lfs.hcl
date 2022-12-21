@@ -1,18 +1,8 @@
 description = "Git extension for versioning large files"
 homepage = "https://git-lfs.github.com"
-binaries = ["git-lfs"]
+binaries = ["git-lfs/git-lfs"]
 test = "git-lfs --version"
-
-on unpack {
-  rename {
-    from = "${root}/git-lfs-${version}"
-    to = "${root}/git-lfs"
-  }
-  chmod {
-    file = "${root}/git-lfs"
-    mode = 448
-  }
-}
+strip = 1
 
 platform darwin {
   source = "https://github.com/git-lfs/git-lfs/releases/download/v${version}/git-lfs-${os}-${arch}-v${version}.zip"
