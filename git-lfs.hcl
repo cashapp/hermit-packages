@@ -1,6 +1,6 @@
 description = "Git extension for versioning large files"
 homepage = "https://git-lfs.github.com"
-binaries = ["git-lfs/git-lfs"]
+binaries = ["git-lfs"]
 test = "git-lfs --version"
 strip = 1
 
