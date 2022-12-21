@@ -8,11 +8,9 @@ on unpack {
     from = "${root}/git-lfs-${version}"
     to = "${root}/git-lfs"
   }
-  on unpack {
-    chmod {
-      file = "${root}/git-lfs"
-      mode = 0700
-    }
+  chmod {
+    file = "${root}/git-lfs"
+    mode = 0700
   }
 }
 
