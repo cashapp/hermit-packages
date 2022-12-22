@@ -12,16 +12,19 @@ linux {
 
 version "3.7.1" "3.14.0" "3.15.0" "3.15.8" "3.17.3" "3.18.0" "3.18.1" "3.19.0"
         "3.19.1" "3.19.2" "3.19.3" "3.19.4" "3.20.0" "3.20.1" "3.20.2" "3.20.3" {
+}
+
+version "21.10" "21.12" {
   auto-version {
     github-release = "protocolbuffers/protobuf"
-    version-pattern = "v(\\d+\\.\\d+\\.\\d+.*)"
+    version-pattern = "v(\\d+\\.\\d+.*)"
     ignore-invalid-versions = true
   }
 }
 
 channel "stable" {
   update = "24h"
-  version = "3.*"
+  version = "21.*"
 }
 
 sha256sums = {
@@ -57,4 +60,8 @@ sha256sums = {
   "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.2/protoc-3.20.2-osx-x86_64.zip": "bf4abeff0678eba602b7f17d718574f394ac8455324a1563d10e4896c9037e1a",
   "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.3/protoc-3.20.3-linux-x86_64.zip": "44a6b498e996b845edef83864734c0e52f42197e85c9d567af55f4e3ff09d755",
   "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.3/protoc-3.20.3-osx-x86_64.zip": "f3ac8c37e87cb345a509eef7ec614092995d9423b8effb42c207c8fbdacb97ee",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v21.10/protoc-21.10-linux-x86_64.zip": "0d13805474b85611c74f00c738a85ad00a25828dbf6e501de29d7f56b3dbcc03",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v21.10/protoc-21.10-osx-x86_64.zip": "96126be6f421b2417e54cd4cf79afeea98a4ca035fa39fa2bd7bf29e6c5afe0b",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-linux-x86_64.zip": "3a4c1e5f2516c639d3079b1586e703fc7bcfa2136d58bda24d1d54f949c315e8",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-osx-x86_64.zip": "9448ff40278504a7ae5139bb70c962acc78c32d8fc54b4890a55c14c68b9d10a",
 }
