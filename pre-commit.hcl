@@ -17,7 +17,7 @@ on "unpack" {
   }
 }
 
-version "2.17.0" "2.20.0" {
+version "2.17.0" "2.20.0" "2.21.0" {
   auto-version {
     github-release = "pre-commit/pre-commit"
   }
@@ -26,4 +26,5 @@ version "2.17.0" "2.20.0" {
 sha256sums = {
   "https://github.com/pre-commit/pre-commit/releases/download/v2.17.0/pre-commit-2.17.0.pyz": "7ca7b4499d3bc2b80fb2834e4621905ad768682394dff04598dd068f3926bbee",
   "https://github.com/pre-commit/pre-commit/releases/download/v2.20.0/pre-commit-2.20.0.pyz": "83afdec9f97cbb1d2a2fd7eae645ab732e9f7a3b60cfe499269fec03fb836c42",
+  "https://github.com/pre-commit/pre-commit/releases/download/v2.21.0/pre-commit-2.21.0.pyz": "5b222bb00db637bb41feb96fded6838338bec0ae2c4f157d5ef1ad5f5060fb6a",
 }
