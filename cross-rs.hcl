@@ -3,7 +3,7 @@ homepage = "https://github.com/cross-rs/cross"
 binaries = ["cross", "cross-util"]
 test = "cross --version"
 
-amd64 {
+platform "amd64" {
   darwin {
     source = "https://github.com/cross-rs/cross/releases/download/v${version}/cross-x86_64-apple-darwin.tar.gz"
   }
