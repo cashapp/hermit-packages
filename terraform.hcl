@@ -21,7 +21,7 @@ version "0.11.15" "0.12.31" "0.13.6" "0.13.7" "0.14.10" "0.14.11" "0.15.0" "0.15
 
 version "1.0.2" "1.0.11" "1.1.0" "1.1.1" "1.1.2" "1.1.3" "1.1.4" "1.1.5" "1.1.6"
         "1.1.7" "1.1.8" "1.1.9" "1.2.0" "1.2.1" "1.2.2" "1.2.3" "1.2.4" "1.2.5" "1.2.6" "1.2.7"
-        "1.2.8" "1.2.9" "1.3.0" "1.3.1" "1.3.2" "1.3.3" "1.3.4" "1.3.5" "1.3.6" {
+        "1.2.8" "1.2.9" "1.3.0" "1.3.1" "1.3.2" "1.3.3" "1.3.4" "1.3.5" "1.3.6" "1.3.7" {
   auto-version {
     github-release = "hashicorp/terraform"
   }
@@ -135,4 +135,7 @@ sha256sums = {
   "https://releases.hashicorp.com/terraform/1.3.6/terraform_1.3.6_linux_amd64.zip": "bb44a4c2b0a832d49253b9034d8ccbd34f9feeb26eda71c665f6e7fa0861f49b",
   "https://releases.hashicorp.com/terraform/1.3.6/terraform_1.3.6_darwin_arm64.zip": "f1c20b2180c982bdda8384b1316209d20fc55def4f0354ead7a2a8e04c89f54e",
   "https://releases.hashicorp.com/terraform/1.3.6/terraform_1.3.6_darwin_amd64.zip": "5ab98e2d9f3b908fd6422a0562e829cc17eb055c8e242427d16d0a13506d401b",
+  "https://releases.hashicorp.com/terraform/1.3.7/terraform_1.3.7_linux_amd64.zip": "b8cf184dee15dfa89713fe56085313ab23db22e17284a9a27c0999c67ce3021e",
+  "https://releases.hashicorp.com/terraform/1.3.7/terraform_1.3.7_darwin_arm64.zip": "8860db524d1a51435cbed731902c7de1595348c09dd5b3a342024405c8e7ef74",
+  "https://releases.hashicorp.com/terraform/1.3.7/terraform_1.3.7_darwin_amd64.zip": "aa111cd80d84586697d1643c6c21452d34f70e5bc639e4106856f59382351397",
 }
