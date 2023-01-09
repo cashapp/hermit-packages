@@ -21,7 +21,7 @@ version "1.20.4" "1.20.5" {
   }
 }
 
-version "1.20.6" {
+version "1.20.6" "1.21.0" {
   auto-version {
     github-release = "watchexec/watchexec"
   }
@@ -36,4 +36,6 @@ sha256sums = {
   "https://github.com/watchexec/watchexec/releases/download/cli-v1.20.5/watchexec-1.20.5-aarch64-apple-darwin.tar.xz": "6f251b324c33a6268d42371a094c20145f04a895d31010cc2a72f7ee02fec222",
   "https://github.com/watchexec/watchexec/releases/download/v1.20.6/watchexec-1.20.6-x86_64-unknown-linux-gnu.tar.xz": "5fc4b044bf19cbe0fe1a601fe41232ac31fa56fb98ca0915ace5ef4c3bae5a10",
   "https://github.com/watchexec/watchexec/releases/download/v1.20.6/watchexec-1.20.6-x86_64-apple-darwin.tar.xz": "23337ac860b3f260f13d6ee3cf2c728b2ea3cb909cbec5a9a659eb4edd34b638",
+  "https://github.com/watchexec/watchexec/releases/download/v1.21.0/watchexec-1.21.0-x86_64-unknown-linux-gnu.tar.xz": "2ec0c4a594237f9a55bd9eff56a0e1f3d345a30e2c666c0c8855e562562b5ba7",
+  "https://github.com/watchexec/watchexec/releases/download/v1.21.0/watchexec-1.21.0-x86_64-apple-darwin.tar.xz": "e2ea18f4602dbb182a908615ec6b6d75f4193c9f375b1662187a75c60b8e9802",
 }
