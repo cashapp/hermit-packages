@@ -9,6 +9,11 @@ platform linux {
       from = "${root}/comby-${version}-${xarch}-linux"
       to = "${root}/comby"
     }
+    
+    chmod {
+      file = "${root}/comby"
+      mode = 448
+    }
   }
 
   source = "https://github.com/comby-tools/comby/releases/download/${version}/comby-${version}-${xarch}-linux.tar.gz"
