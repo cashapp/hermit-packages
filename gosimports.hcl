@@ -3,7 +3,7 @@ homepage = "https://pkg.go.dev/github.com/rinchsan/gosimports/cmd/gosimports"
 binaries = ["gosimports"]
 source = "https://github.com/rinchsan/gosimports/releases/download/v${version}/gosimports_${version}_${os}_${arch}.tar.gz"
 
-version "0.1.5" "0.2.2" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.3.4" {
+version "0.1.5" "0.2.2" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" {
   auto-version {
     github-release = "rinchsan/gosimports"
   }
@@ -31,4 +31,7 @@ sha256sums = {
   "https://github.com/rinchsan/gosimports/releases/download/v0.3.4/gosimports_0.3.4_linux_amd64.tar.gz": "163dd01b29f7c90b50a7a7ab974444b3020ddb6deaa1544117f6c03275ec6b51",
   "https://github.com/rinchsan/gosimports/releases/download/v0.3.4/gosimports_0.3.4_darwin_arm64.tar.gz": "11c82070315f5bbb43af87a54b7686bbda346a43c39c8fb38b10210b497ab3e9",
   "https://github.com/rinchsan/gosimports/releases/download/v0.3.4/gosimports_0.3.4_darwin_amd64.tar.gz": "d0f2d5a4e6e89d671f8c91e026e08237f2fad1bc6c677a62a07288545a98ae6b",
+  "https://github.com/rinchsan/gosimports/releases/download/v0.3.5/gosimports_0.3.5_darwin_amd64.tar.gz": "5dbeb3089b0dc8084e29ac38abf01eb2027f178dcab8b05ef2ec2e19bcaeca3a",
+  "https://github.com/rinchsan/gosimports/releases/download/v0.3.5/gosimports_0.3.5_linux_amd64.tar.gz": "73194abffce41cabcdf851b2e452d737414c2c80f81f0e574acc5cbb7094f1aa",
+  "https://github.com/rinchsan/gosimports/releases/download/v0.3.5/gosimports_0.3.5_darwin_arm64.tar.gz": "097872a97eac894385fe17c7b7398df60de50c66db5326e571f530d399f1cd03",
 }

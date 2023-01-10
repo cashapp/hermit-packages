@@ -10,7 +10,7 @@ platform "arm64" {
   source = "https://github.com/zinclabs/zinc/releases/download/v${version}/zinc_${version}_${os}_arm64.tar.gz"
 }
 
-version "0.2.8" "0.2.9" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" {
+version "0.2.8" "0.2.9" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" "0.3.6" {
   auto-version {
     github-release = "zinclabs/zinc"
   }
@@ -41,4 +41,7 @@ sha256sums = {
   "https://github.com/zinclabs/zinc/releases/download/v0.3.5/zinc_0.3.5_darwin_x86_64.tar.gz": "c2651e1560da91443b00a84990310f3618d8201433d0d4ebfecaab9df9b2e75e",
   "https://github.com/zinclabs/zinc/releases/download/v0.3.5/zinc_0.3.5_darwin_arm64.tar.gz": "f3e6b7bd5e23a77473002e4004d5240d4c1a399383b42ffcf1f8a7acbca2f2c4",
   "https://github.com/zinclabs/zinc/releases/download/v0.3.5/zinc_0.3.5_linux_x86_64.tar.gz": "f0161cd5110ef091154bdac9b8cef13d1e6249258313381c9353f264a992c176",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.6/zinc_0.3.6_linux_x86_64.tar.gz": "b454236f5f509ad706fe48fe69b99420dafc80615bcb13de13365ffe6411245b",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.6/zinc_0.3.6_darwin_arm64.tar.gz": "7bc4695ebcbc5da2118b0442eabee00c37ef56e166248de774b3f72088e83a60",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.6/zinc_0.3.6_darwin_x86_64.tar.gz": "cee57641cd75c6132938633e9aa2d0e416b966e387ee87c146d06b1388d628ae",
 }
