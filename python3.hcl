@@ -1,6 +1,6 @@
 description = "Python is a programming language that lets you work quickly and integrate systems more effectively."
 strip = 1
-binaries = ["install/bin/pip3", "install/bin/python3"]
+binaries = ["install/bin/p*"]
 test = "python3 -m pip install flake8"
 env = {
   "PYTHONPYCACHEPREFIX": "${HERMIT_ENV}/.hermit/python/cache",
@@ -22,6 +22,9 @@ on "unpack" {
 
   run {
     cmd = "${root}/relocate.sh ${root}"
+  }
+  run {
+    cmd = "/bin/ln" args = [ "${root}/install/bin/python3", "${root}/install/bin/python" ]
   }
 }
 
