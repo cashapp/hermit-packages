@@ -3,8 +3,8 @@ homepage = "https://dotnet.microsoft.com/"
 binaries = ["dotnet"]
 strip = 1
 test = "dotnet --version"
+source = "https://download.visualstudio.microsoft.com/download/pr/${midurl}/dotnet-sdk-${version}-${os_}-${arch_}.tar.gz"
 vars = {
-  "baseurl": "https://download.visualstudio.microsoft.com/download/pr",
   "os_": "${os}",
   "arch_": "${arch}",
 }
@@ -463,7 +463,24 @@ version "6.0.100-preview.2.21155.3" {
   }
 }
 
-source = "${baseurl}/${midurl}/dotnet-sdk-${version}-${os_}-${arch_}.tar.gz"
+version "7.0.102" {
+  platform "darwin" "arm64" {
+    source = "https://download.visualstudio.microsoft.com/download/pr/d0c47b58-a384-46b3-8fce-bd9188541858/dbfe7b537396b747255e65c0fbc9641e/dotnet-sdk-7.0.102-osx-arm64.tar.gz"
+  }
+
+  platform "darwin" "amd64" {
+    source = "https://download.visualstudio.microsoft.com/download/pr/91c41b31-cf90-4771-934b-6928bbb48aaf/76e95bac2a4cb3fd50c920fd1601527c/dotnet-sdk-7.0.102-osx-x64.tar.gz"
+  }
+
+  platform "linux" "amd64" {
+    source = "https://download.visualstudio.microsoft.com/download/pr/c646b288-5d5b-4c9c-a95b-e1fad1c0d95d/e13d71d48b629fe3a85f5676deb09e2d/dotnet-sdk-7.0.102-linux-x64.tar.gz"
+  }
+
+  platform "linux" "arm64" {
+    source = "https://download.visualstudio.microsoft.com/download/pr/72ec0dc2-f425-48c3-97f1-dc83740ba400/78e8fa01fa9987834fa01c19a23dd2e7/dotnet-sdk-7.0.102-linux-arm64.tar.gz"
+  }
+}
+
 sha256sums = {
   "https://download.visualstudio.microsoft.com/download/pr/da2b7ceb-4248-4d0b-ba7f-7f60c3e704b6/fa7a19c67639e0bff34cdd93e303d431/dotnet-sdk-6.0.100-preview.2.21155.3-osx-x64.tar.gz": "287935025f030980a3d95e9e4574853c886cbf48010a576fceb1a35137eb61b8",
   "https://download.visualstudio.microsoft.com/download/pr/37b33b92-1f3e-4f72-a636-d82fd01bb725/792c44980047c5c77a8a07916db87783/dotnet-sdk-6.0.100-preview.2.21155.3-osx-arm64.tar.gz": "e6302fc6e70d2725d3b693adb77157aaf32793a132495d425ce5585f1d84e7f8",
@@ -516,6 +533,9 @@ sha256sums = {
   "https://download.visualstudio.microsoft.com/download/pr/0e45597f-a72d-42fa-95c5-85a811a7a8b6/1d77d2eeb8c08815edd1a6e9e9dfda4a/dotnet-sdk-6.0.400-osx-arm64.tar.gz": "15bf3186739a9bb4ca4ed67a5fdc79300dc94fee6303006fa187cc9bb4d9e5e1",
   "https://download.visualstudio.microsoft.com/download/pr/f52fb2f4-a0a3-4094-9f75-add72fcbc21e/d46eda7abf39baf278c0b0b040c7b81d/dotnet-sdk-6.0.400-osx-x64.tar.gz": "35ba54eb13634a68116d73ee81df32bf17326c88a5fc770ea96ecef867ee4e9d",
   "https://download.visualstudio.microsoft.com/download/pr/cd0d0a4d-2a6a-4d0d-b42e-dfd3b880e222/008a93f83aba6d1acf75ded3d2cfba24/dotnet-sdk-6.0.400-linux-x64.tar.gz": "c9507e9d3fe0a0d3e18277d15606f27bd134c8541b26682a20b55e45fd7bc17b",
+  "https://download.visualstudio.microsoft.com/download/pr/c646b288-5d5b-4c9c-a95b-e1fad1c0d95d/e13d71d48b629fe3a85f5676deb09e2d/dotnet-sdk-7.0.102-linux-x64.tar.gz": "28b4d4821bca2c5b12d69e6a4509f2b975b479546d88d714dfe5ebccc3d8e30f",
+  "https://download.visualstudio.microsoft.com/download/pr/d0c47b58-a384-46b3-8fce-bd9188541858/dbfe7b537396b747255e65c0fbc9641e/dotnet-sdk-7.0.102-osx-arm64.tar.gz": "f4b342fb61075a9dedc9acb7d6efe482a22bbfe409b1f49604134c6fdbb3a1e7",
+  "https://download.visualstudio.microsoft.com/download/pr/91c41b31-cf90-4771-934b-6928bbb48aaf/76e95bac2a4cb3fd50c920fd1601527c/dotnet-sdk-7.0.102-osx-x64.tar.gz": "aa80daf5d3c03cf6242d51e367993b5451b9444d6973653d1a4cec59f71f975c",
 }
 // # curl https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/6.0/releases.json | \
 // #     jq '.releases | .[] | .sdk | 
