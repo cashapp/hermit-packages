@@ -2,19 +2,19 @@ description = "crane - Command line tool for interacting with remote images and 
 binaries = ["crane"]
 test = "crane version"
 
-platform "Darwin" "x86_64" {
+platform "darwin" "amd64" {
+  source = "https://github.com/google/go-containerregistry/releases/download/v${version}/go-containerregistry_${os}_x86_64.tar.gz"
+}
+
+platform "darwin" "arm64" {
   source = "https://github.com/google/go-containerregistry/releases/download/v${version}/go-containerregistry_${os}_${arch}.tar.gz"
 }
 
-platform "Darwin" "arm64" {
-  source = "https://github.com/google/go-containerregistry/releases/download/v${version}/go-containerregistry_${os}_${arch}.tar.gz"
+platform "linux" "amd64" {
+  source = "https://github.com/google/go-containerregistry/releases/download/v${version}/go-containerregistry_${os}_x86_64.tar.gz"
 }
 
-platform "Linux" "x86_64" {
-  source = "https://github.com/google/go-containerregistry/releases/download/v${version}/go-containerregistry_${os}_${arch}.tar.gz"
-}
-
-platform "Linux" "arm64" {
+platform "linux" "arm64" {
   source = "https://github.com/google/go-containerregistry/releases/download/v${version}/go-containerregistry_${os}_${arch}.tar.gz"
 }
 
