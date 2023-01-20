@@ -5,11 +5,14 @@ strip = 1
 binaries = ["make"]
 
 // Alias 4.2 => 4.3 because we can no longer build 4.2 :(
-version "4.2" {
-  source = "https://github.com/cashapp/hermit-build/releases/download/make-4.3/make-4.3-${os}-${arch}.tar.xz"
+version "4.2" "4.3" {
+  source = "https://github.com/cashapp/hermit-build/releases/download/make/make-4.3-${os}-${arch}.xz"
+  on unpack {
+    rename { from = "${root}/make-4.3-${os}-${arch}" to = "${root}/make" }
+  }
 }
 
-version "4.3" "4.4" {
+version "4.4" {
   on unpack {
     run { cmd = "/bin/ln -s ${root}/bin/make ${root}/make" }
   }
