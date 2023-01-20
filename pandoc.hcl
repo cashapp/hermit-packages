@@ -51,4 +51,6 @@ sha256sums = {
   "https://github.com/jgm/pandoc/releases/download/2.19.1/pandoc-2.19.1-macOS.zip": "c55b41c6265bc8558bf9776be80d918d69ff9cf17ca8a01f8a559ecd9dc7cac8",
   "https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-linux-amd64.tar.gz": "9d55c7afb6a244e8a615451ed9cb02e6a6f187ad4d169c6d5a123fa74adb4830",
   "https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-macOS.zip": "af0cda69e31e42f01ba6adc0aa779d3e5853e6c092beeb420a4fc22712d2110b",
+  "https://github.com/jgm/pandoc/releases/download/3.0/pandoc-3.0-macOS.zip": "0e7e092b443e99bf24dfe468f54a0a1109ed3f91f0bd13fb73c0d95cb91623bf",
+  "https://github.com/jgm/pandoc/releases/download/3.0/pandoc-3.0-linux-amd64.tar.gz": "0fe2ef8366a61b9296ef4a8512b9a2d4acd056c7f92ce7e0cc82add960c2cc8f",
 }
