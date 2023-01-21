@@ -12,6 +12,16 @@ version "4.2" "4.3" {
   }
 }
 
+version "4.4-temporary" {
+  on unpack {
+    run { cmd = "/bin/ln -s ${root}/bin/make ${root}/make" }
+  }
+  source = "https://github.com/cashapp/hermit-build/releases/download/make-4.4/make-4.4-${os}-${arch}.tar.xz"
+  platform linux amd64 {
+    source = "https://github.com/cashapp/hermit-build/releases/download/make-4.4/make-4.4-centos-linux-amd64.tar.xz"
+  }
+}
+
 version "4.4" {
   on unpack {
     run { cmd = "/bin/ln -s ${root}/bin/make ${root}/make" }
