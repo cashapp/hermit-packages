@@ -2,7 +2,7 @@ description = "Mutagen provides real-time file synchronization and flexible netw
 binaries = ["mutagen"]
 source = "https://github.com/mutagen-io/mutagen/releases/download/v${version}/mutagen_${os}_${arch}_v${version}.tar.gz"
 
-version "0.16.0" "0.16.1" "0.16.2" "0.16.3" {
+version "0.16.0" "0.16.1" "0.16.2" "0.16.3" "0.16.4" {
   auto-version {
     github-release = "mutagen-io/mutagen"
   }
@@ -21,4 +21,7 @@ sha256sums = {
   "https://github.com/mutagen-io/mutagen/releases/download/v0.16.3/mutagen_darwin_arm64_v0.16.3.tar.gz": "7011f8b3cd8a98135cc483e8f5a5ee9f2f3d4ac959132e79637d7073957e472a",
   "https://github.com/mutagen-io/mutagen/releases/download/v0.16.3/mutagen_linux_amd64_v0.16.3.tar.gz": "fce3c9027f7ddca38068d146c37ef86610849a77ae0f32c746586c5fc60e6545",
   "https://github.com/mutagen-io/mutagen/releases/download/v0.16.3/mutagen_darwin_amd64_v0.16.3.tar.gz": "144f9379b108d92eaac55c2ed0af8ca73b9d5a34ab9b17feea13892c68b9b253",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.4/mutagen_linux_amd64_v0.16.4.tar.gz": "7bb029ff21e5fab0bc2e094af5a93903a14ec0105d6247de441c521e431801e0",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.4/mutagen_darwin_amd64_v0.16.4.tar.gz": "7bf6b4e41aa6238a560a67634e52085dda9ac3af610526baccf567ccdcd82d9b",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.4/mutagen_darwin_arm64_v0.16.4.tar.gz": "9d11b6e3ab096a7ddf37dfbf79a2e0c17644117938e4d9fcf84dce12b7322d4f",
 }
