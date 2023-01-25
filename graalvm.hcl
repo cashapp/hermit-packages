@@ -18,7 +18,7 @@ linux {
 }
 
 version "20.3.0" "21.1.0" "21.2.0" "21.0.0.2" "21.3.0" "19.3.6" "22.0.0.2" "22.1.0"
-        "22.2.0" "22.3.0" {
+        "22.2.0" "22.3.0" "22.3.1" {
   auto-version {
     github-release = "graalvm/graalvm-ce-builds"
     version-pattern = "vm-(.*)"
@@ -46,4 +46,6 @@ sha256sums = {
   "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java11-linux-amd64-22.2.0.tar.gz": "882363c75d1b1782a48bbf7dd8b155ab231b0957fd5885941376d90b69f21b9e",
   "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.0/graalvm-ce-java11-darwin-amd64-22.3.0.tar.gz": "b8b39d6a3e3a9ed6348c2776ff071fc64ca90f98999ee846e6ca7e5fdc746a8b",
   "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.0/graalvm-ce-java11-linux-amd64-22.3.0.tar.gz": "d4200bcc43e5ad4e6949c1b1edc1e59f63066e3a2280d5bd82d0c9b1d67c3f2c",
+  "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java11-linux-amd64-22.3.1.tar.gz": "55547725a8be3ceb0a1da29a84cd3e958ba398ce4470ac89a8ba1bdb6d9bddb8",
+  "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java11-darwin-amd64-22.3.1.tar.gz": "325afad5f1c4a07a458c95e7c444cff63514a6afa6f2655c12b4f494dccf2228",
 }
