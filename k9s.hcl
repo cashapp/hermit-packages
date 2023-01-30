@@ -1,22 +1,25 @@
 description = "K9s provides a terminal UI to interact with your Kubernetes clusters."
 binaries = ["k9s"]
 sha256-source = "https://github.com/derailed/k9s/releases/download/v${version}/checksums.txt"
-
-platform "linux" "amd64" {
-  source = "https://github.com/derailed/k9s/releases/download/v${version}/k9s_Linux_x86_64.tar.gz"
-}
-
-platform "darwin" "amd64" {
-  source = "https://github.com/derailed/k9s/releases/download/v${version}/k9s_Darwin_x86_64.tar.gz"
-}
-
-platform "darwin" "arm64" {
-  source = "https://github.com/derailed/k9s/releases/download/v${version}/k9s_Darwin_arm64.tar.gz"
-}
+source = "https://github.com/derailed/k9s/releases/download/v0.27.0/k9s_${os}_${arch}.tar.gz"
 
 version "0.24.12" "0.24.13" "0.24.14" "0.24.15" "0.25.1" "0.25.3" "0.25.4" "0.25.5"
         "0.25.6" "0.25.15" "0.25.16" "0.25.18" "0.25.19" "0.25.20" "0.25.21" "0.26.0" "0.26.1"
         "0.26.2" "0.26.3" "0.26.4" "0.26.5" "0.26.6" "0.26.7" {
+  platform "linux" "amd64" {
+    source = "https://github.com/derailed/k9s/releases/download/v${version}/k9s_Linux_x86_64.tar.gz"
+  }
+
+  platform "darwin" "amd64" {
+    source = "https://github.com/derailed/k9s/releases/download/v${version}/k9s_Darwin_x86_64.tar.gz"
+  }
+
+  platform "darwin" "arm64" {
+    source = "https://github.com/derailed/k9s/releases/download/v${version}/k9s_Darwin_arm64.tar.gz"
+  }
+}
+
+version "0.27.0" {
   auto-version {
     github-release = "derailed/k9s"
   }
@@ -92,4 +95,7 @@ sha256sums = {
   "https://github.com/derailed/k9s/releases/download/v0.26.7/k9s_Linux_x86_64.tar.gz": "f774bb75045e361e17a4f267491c5ec66f41db7bffd996859ffb1465420af249",
   "https://github.com/derailed/k9s/releases/download/v0.26.7/k9s_Darwin_arm64.tar.gz": "dc3873eefec2b85392239dda70201b665246a9e5aaedae3c6519ee2c9e4488e6",
   "https://github.com/derailed/k9s/releases/download/v0.26.7/k9s_Darwin_x86_64.tar.gz": "a5ef29a5f52edfc11783a361eb9c6600b959ba8b62c9d6c94e325a0857d61cc6",
+  "https://github.com/derailed/k9s/releases/download/v0.27.0/k9s_linux_amd64.tar.gz": "2d7811614bffd66660cc6b670da6f47ece234177097410d5fceab59ae245a3aa",
+  "https://github.com/derailed/k9s/releases/download/v0.27.0/k9s_darwin_arm64.tar.gz": "a8cec661e6d4f61d570802668b1bc5ec05a42c77396539153712324eb43dcbef",
+  "https://github.com/derailed/k9s/releases/download/v0.27.0/k9s_darwin_amd64.tar.gz": "11ed3c82e32a9cad14b1d8cbec3fa5916f6945dd19bd587a1598b9c25b4c9e87",
 }
