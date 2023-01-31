@@ -18,7 +18,7 @@ version "0.1.0" "0.1.2" "0.1.3" {
 source = "https://github.com/livebud/bud/releases/download/v${version}/bud_v${version}_${os}_${arch}.tar.gz"
 
 version "0.1.4" "0.1.7" "0.1.8" "0.1.9" "0.1.10" "0.1.11" "0.2.0" "0.2.1" "0.2.2"
-        "0.2.3" "0.2.4" "0.2.5" "0.2.7" {
+        "0.2.3" "0.2.4" "0.2.5" "0.2.7" "0.2.8" {
   auto-version {
     github-release = "livebud/bud"
   }
@@ -75,4 +75,7 @@ sha256sums = {
   "https://github.com/livebud/bud/releases/download/v0.2.7/bud_v0.2.7_linux_amd64.tar.gz": "7ff123f3bf16b94cde61028ccadab7204e1e81111081cf8c9cf7cbf4faba36fd",
   "https://github.com/livebud/bud/releases/download/v0.2.7/bud_v0.2.7_darwin_amd64.tar.gz": "8b884e4351fa988da79f216e4d914eff2aa20413b995aa57887727fed89ff444",
   "https://github.com/livebud/bud/releases/download/v0.2.7/bud_v0.2.7_darwin_arm64.tar.gz": "73c8a760cd3ebe3e8793e94da0428fe9cb29a3955b030c412fbc3499c4cc502b",
+  "https://github.com/livebud/bud/releases/download/v0.2.8/bud_v0.2.8_linux_amd64.tar.gz": "ba0a0b80a22fd724c03a8cc007b384317038b08488fcbac564ba4f1e9e8b0f74",
+  "https://github.com/livebud/bud/releases/download/v0.2.8/bud_v0.2.8_darwin_amd64.tar.gz": "09f92c4345bc1c970322cf172f4d777b0877e9134ae592bc757ceb176c9e767e",
+  "https://github.com/livebud/bud/releases/download/v0.2.8/bud_v0.2.8_darwin_arm64.tar.gz": "db6a81612b0ff847513272015aa3f75971eb05df3acc5d543af0640c3e2c4554",
 }
