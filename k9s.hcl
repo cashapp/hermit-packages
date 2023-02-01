@@ -19,7 +19,7 @@ version "0.24.12" "0.24.13" "0.24.14" "0.24.15" "0.25.1" "0.25.3" "0.25.4" "0.25
   }
 }
 
-version "0.27.0" {
+version "0.27.0" "0.27.2" {
   auto-version {
     github-release = "derailed/k9s"
   }
