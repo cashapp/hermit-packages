@@ -3,6 +3,10 @@ homepage = "https://github.com/planetscale/vtprotobuf"
 binaries = ["protoc-gen-go-vtproto"]
 source = "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-go-vtproto-v${version}-${os}-${arch}.bz2"
 
+on unpack {
+  rename { from = "${root}/protoc-gen-go-vtproto-v${version}-${os}-${arch}" to = "${root}/protoc-gen-go-vtproto" }
+}
+
 version "0.4.0" {
 }
 
