@@ -13,6 +13,11 @@ linux {
       from = "${root}/codecov-alpine"
       to = "${root}/codecov"
     }
+
+    chmod {
+      file = "${root}/codecov"
+      mode = 448
+    }
   }
 }
 
