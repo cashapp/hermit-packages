@@ -2,11 +2,11 @@ description = "Codecov Report Uploader"
 binaries = ["codecov"]
 test = "codecov --version"
 
-version "v0.3.2" {
+version "0.3.2" {
 }
 
 linux {
-  source = "https://github.com/codecov/uploader/releases/download/${version}/codecov-alpine"
+  source = "https://github.com/codecov/uploader/releases/download/v${version}/codecov-alpine"
 
   on "unpack" {
     rename {
@@ -17,7 +17,7 @@ linux {
 }
 
 darwin {
-  source = "https://github.com/codecov/uploader/releases/download/${version}/codecov-macos"
+  source = "https://github.com/codecov/uploader/releases/download/v${version}/codecov-macos"
 
   on "unpack" {
     rename {
