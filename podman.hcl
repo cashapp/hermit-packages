@@ -9,11 +9,11 @@ platform "darwin" {
 
 platform "linux" {
   binaries = ["podman"]
-  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
 
   on "unpack" {
     rename {
-      from = "${root}/podman-remote-static"
+      from = "${root}/podman-remote-static-linux_${arch}"
       to = "${root}/podman"
     }
   }
@@ -26,6 +26,18 @@ version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
     source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin.zip"
     strip = 1
   }
+
+  platform "linux" {
+    binaries = ["podman"]
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static"
+        to = "${root}/podman"
+      }
+    }
+  }
 }
 
 version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
@@ -33,6 +45,18 @@ version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
     github-release = "containers/podman"
     ignore-invalid-versions = true
     version-pattern = "^v([4-9]\\.[0-9]+\\.[0-9]+)$"
+  }
+
+  platform "linux" {
+    binaries = ["podman"]
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static"
+        to = "${root}/podman"
+      }
+    }
   }
 }
 
