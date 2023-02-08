@@ -47,7 +47,7 @@ version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
 }
 
 version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.0"
-        "18.5.0" "18.6.0" "18.7.0" "18.8.0" "18.9.0" "18.9.1" "18.12.1" "18.13.0" {
+        "18.5.0" "18.6.0" "18.7.0" "18.8.0" "18.9.0" "18.9.1" "18.12.1" "18.13.0" "18.14.0" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -55,7 +55,7 @@ version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.
   }
 }
 
-version "19.0.0" "19.0.1" "19.1.0" "19.2.0" "19.3.0" "19.4.0" "19.5.0" {
+version "19.0.0" "19.0.1" "19.1.0" "19.2.0" "19.3.0" "19.4.0" "19.5.0" "19.6.0" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -283,4 +283,10 @@ sha256sums = {
   "https://nodejs.org/dist/v19.5.0/node-v19.5.0-linux-x64.tar.gz": "0df264934dadd15e7e9ba7576e88129017e62b29f259325c3fd3f1688fdf85bb",
   "https://nodejs.org/dist/v19.5.0/node-v19.5.0-darwin-x64.tar.gz": "ebb3798171ce65fb11420aa21696ef6aadc9a1969998d6e00bbea46961c07045",
   "https://nodejs.org/dist/v19.5.0/node-v19.5.0-darwin-arm64.tar.gz": "6b2ee18d9e888840411086151ab7f2fe519ff9b9292ed450aa98838b7eb58009",
+  "https://nodejs.org/dist/v18.14.0/node-v18.14.0-linux-x64.tar.gz": "bcdfd28bb7ab9a53c7045e0862556f77c250580c6d3d6cb960843895e024cac6",
+  "https://nodejs.org/dist/v18.14.0/node-v18.14.0-darwin-arm64.tar.gz": "514438c258ee87e3083c21359f6d5e84988946db8a5ed5fa8bb0485276ea99f0",
+  "https://nodejs.org/dist/v18.14.0/node-v18.14.0-darwin-x64.tar.gz": "274a62f2f1c21e6216a9be1445c53ef63814db4a3ffeea8028b507fb6453c0ac",
+  "https://nodejs.org/dist/v19.6.0/node-v19.6.0-linux-x64.tar.gz": "142e3caf0ea8476767d4ad006acf46b9dd059c169d3287f9d58eac964f16a4e1",
+  "https://nodejs.org/dist/v19.6.0/node-v19.6.0-darwin-arm64.tar.gz": "a759366eea06f3433f1f1f7778b6e22d68bbf75661a2de1cd03fc85e30f649cf",
+  "https://nodejs.org/dist/v19.6.0/node-v19.6.0-darwin-x64.tar.gz": "6b97f9e434a3a3b4cfef35ae1881ced9e80adc3fb536b3060d2ceda5c446a6d3",
 }
