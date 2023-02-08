@@ -7,18 +7,6 @@ platform "darwin" {
   binaries = ["usr/bin/podman"]
 }
 
-platform "linux" {
-  binaries = ["podman"]
-  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
-
-  on "unpack" {
-    rename {
-      from = "${root}/podman-remote-static-linux_${arch}"
-      to = "${root}/podman"
-    }
-  }
-}
-
 version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
   binaries = ["podman"]
 
@@ -54,7 +42,7 @@ version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
   }
 }
 
-version "4.4.0" {
+version "4.4.0" "4.4.1" {
   auto-version {
     github-release = "containers/podman"
     ignore-invalid-versions = true
@@ -63,11 +51,11 @@ version "4.4.0" {
 
   platform "linux" {
     binaries = ["podman"]
-    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
 
     on "unpack" {
       rename {
-        from = "${root}/podman-remote-static"
+        from = "${root}/podman-remote-static-linux_${arch}"
         to = "${root}/podman"
       }
     }
