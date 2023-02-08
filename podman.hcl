@@ -42,7 +42,7 @@ version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
   }
 }
 
-version "4.4.0" "4.4.1" {
+version "4.4.0" {
   auto-version {
     github-release = "containers/podman"
     ignore-invalid-versions = true
