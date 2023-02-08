@@ -1,0 +1,17 @@
+description = "Android SDK Tools"
+binaries = ["sdkmanager"]
+test = "sdkmanager --version"
+
+version "7583922" {
+}
+
+linux {
+  source = "https://dl.google.com/android/repository/commandlinetools-linux-${version}_latest.zip"
+
+  on "unpack" {
+    rename {
+      from = "${root}/cmdline-tools/tools/bin/sdkmanager"
+      to = "${root}/sdkmanager"
+    }
+  }
+}
