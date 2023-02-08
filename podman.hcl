@@ -1,22 +1,10 @@
 description = "A tool for managing OCI containers and pods."
-
 sha256-source = "https://github.com/containers/podman/releases/download/v${version}/shasums"
+
 platform "darwin" {
   source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin_${arch}.zip"
   strip = 1
   binaries = ["usr/bin/podman"]
-}
-
-platform "linux" {
-  binaries = ["podman"]
-  source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
-
-  on "unpack" {
-    rename {
-      from = "${root}/podman-remote-static"
-      to = "${root}/podman"
-    }
-  }
 }
 
 version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
@@ -26,13 +14,51 @@ version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
     source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin.zip"
     strip = 1
   }
+
+  platform "linux" {
+    binaries = ["podman"]
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static"
+        to = "${root}/podman"
+      }
+    }
+  }
 }
 
 version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
+  platform "linux" {
+    binaries = ["podman"]
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static"
+        to = "${root}/podman"
+      }
+    }
+  }
+}
+
+version "4.4.0" {
   auto-version {
     github-release = "containers/podman"
     ignore-invalid-versions = true
     version-pattern = "^v([4-9]\\.[0-9]+\\.[0-9]+)$"
+  }
+
+  platform "linux" {
+    binaries = ["podman"]
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static-linux_${arch}"
+        to = "${root}/podman"
+      }
+    }
   }
 }
 
