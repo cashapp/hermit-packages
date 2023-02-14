@@ -17,6 +17,13 @@ platform linux {
   }
 }
 
+on unpack {
+  run {
+    cmd = "${root}/bin/dot -c"
+    env = ["LD_LIBRARY_PATH=${root}/lib", "DYLD_LIBRARY_PATH=${root}/lib"]
+  }
+}
+
 version "7.1.0" {
   auto-version {
     github-release = "cashapp/hermit-build"
