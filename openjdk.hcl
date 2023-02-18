@@ -12,6 +12,16 @@ platform "darwin" {
   dest = "${HOME}/Library/Java/JavaVirtualMachines/jdk-${version}.jdk"
 }
 
+version "8.0.292+b10" {
+  platform "darwin" {
+    source = "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10/OpenJDK11U-jdk_x64_mac_hotspot_11.0.8_10.tar.gz"
+  }
+
+  platform "linux" {
+    source = "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10_openj9-0.26.0/OpenJDK8U-jdk_x64_linux_openj9_8u292b10_openj9-0.26.0.tar.gz"
+  }
+}
+
 version "11.0.8_10" {
   platform "darwin" {
     source = "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10/OpenJDK11U-jdk_x64_mac_hotspot_11.0.8_10.tar.gz"
@@ -124,6 +134,7 @@ channel "zulu" {
 }
 
 sha256sums = {
+  "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10_openj9-0.26.0/OpenJDK8U-jdk_x64_linux_openj9_8u292b10_openj9-0.26.0.tar.gz": "06d6c9421778575cf59d50f69b7ac6a7bb237485b3a3c2f89cfb61a056c7b2de",
   "https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jdk11.0.11-linux_x64.tar.gz": "172449e998afbb59a961598330a3438dbe9f188910cdeb14d0a6457421541134",
   "https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jdk11.0.11-macosx_x64.tar.gz": "866b25c47aa3bedddc57fbe38fd7d2e0f888d314b85d1e88b2fb12100f3c166c",
   "https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jdk11.0.11-macosx_aarch64.tar.gz": "0c52621329b0d148c816b4c21e91386240bf57eb53ecfc4a6201f59ee983dc18",
