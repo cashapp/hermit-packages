@@ -14,7 +14,7 @@ platform linux {
   sha256-source = "https://github.com/mozilla/sccache/releases/download/v${version}/sccache-v${version}-${xarch}-unknown-linux-musl.tar.gz.sha256"
 }
 
-version "0.3.3" {
+version "0.3.3" "v0.4.0-pre.7" {
   auto-version {
     github-release = "mozilla/sccache"
   }
