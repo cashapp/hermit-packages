@@ -8,6 +8,7 @@ strip = 1
 version "2.16.3" {
   auto-version {
     github-release = "quarkusio/quarkus"
+    version-pattern = "(.*)\\.Final"
   }
 }
 
