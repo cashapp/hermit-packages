@@ -5,7 +5,9 @@ source = "https://github.com/JetBrains/kotlin/releases/download/v${version}/kotl
 binaries = ["bin/kapt", "bin/kotlin", "bin/kotlin-dce-js", "bin/kotlinc-js", "bin/kotlinc-jvm"]
 strip = 1
 test = "kotlinc-jvm -version"
-
+env = {
+  "KOTLIN_HOME": "${root}",
+}
 version "1.5.0" "1.5.20" "1.5.21" "1.5.30" "1.5.31" "1.6.0" "1.5.32" "1.6.10" "1.6.20"
         "1.6.21" "1.7.0" "1.7.10" "1.7.20" "1.7.21" "1.8.0" "1.8.10" {
   auto-version {
