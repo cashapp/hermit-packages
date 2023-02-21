@@ -11,9 +11,7 @@ platform "arm64" {
 }
 
 version "0.2.8" "0.2.9" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" "0.3.6" {
-  auto-version {
-    github-release = "zinclabs/zinc"
-  }
+  // Renamed to "zincsearch" since 0.4.0
 }
 
 sha256sums = {
