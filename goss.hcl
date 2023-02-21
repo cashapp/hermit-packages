@@ -3,16 +3,19 @@ binaries = ["goss"]
 homepage = "https://goss.rocks/"
 source = "https://github.com/goss-org/goss/releases/download/v${version}/goss-${release}${os}-${arch_}"
 vars = {
-  "release": "",
   "arch_": "${arch}"
 }
 
 platform "darwin" {
-  vars = {
-    "release": "alpha-",
+  source = "https://github.com/goss-org/goss/releases/download/v${version}/goss-alpha-${os}-${arch_}"
+
+  on "unpack" {
+    rename {
+      from = "${root}/goss-alpha-${os}-${arch_}.exe"
+      to = "${root}/goss.exe"
+    }
   }
 }
-
 
 platform "darwin" "arm64" {
   vars = {
@@ -21,14 +24,19 @@ platform "darwin" "arm64" {
 }
 
 platform "windows" {
-  vars = {
-    "release": "alpha-",
+  source = "https://github.com/goss-org/goss/releases/download/v${version}/goss-alpha-${os}-${arch_}"
+
+  on "unpack" {
+    rename {
+      from = "${root}/goss-alpha-${os}-${arch_}.exe"
+      to = "${root}/goss.exe"
+    }
   }
 }
 
 on "unpack" {
   rename {
-    from = "${root}/goss-${release}${os}-${arch_}"
+    from = "${root}/goss-${os}-${arch_}"
     to = "${root}/goss"
   }
 }
