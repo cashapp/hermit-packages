@@ -11,8 +11,8 @@ platform "darwin" {
 
   on "unpack" {
     rename {
-      from = "${root}/goss-alpha-${os}-${arch_}.exe"
-      to = "${root}/goss.exe"
+      from = "${root}/goss-alpha-${os}-${arch_}"
+      to = "${root}/goss"
     }
   }
 }
@@ -34,10 +34,12 @@ platform "windows" {
   }
 }
 
-on "unpack" {
-  rename {
-    from = "${root}/goss-${os}-${arch_}"
-    to = "${root}/goss"
+platform "linux" {
+  on "unpack" {
+    rename {
+      from = "${root}/goss-${os}-${arch_}"
+      to = "${root}/goss"
+    }
   }
 }
 
