@@ -42,7 +42,7 @@ version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
   }
 }
 
-version "4.4.0" "4.4.1" {
+version "4.4.0" "4.4.1" "4.4.2" {
   auto-version {
     github-release = "containers/podman"
     ignore-invalid-versions = true
@@ -103,4 +103,7 @@ sha256sums = {
   "https://github.com/containers/podman/releases/download/v4.4.1/podman-remote-release-darwin_amd64.zip": "293d4c400faac1ac9577cf5397dd2ea9a4e6756cd5bf5c2e10aeb6997bb94383",
   "https://github.com/containers/podman/releases/download/v4.4.1/podman-remote-release-darwin_arm64.zip": "10ab1cc6fedad823b7285c96fdae16ac7878ac24db6f74d6258d46c04a94cf9b",
   "https://github.com/containers/podman/releases/download/v4.4.1/podman-remote-static-linux_amd64.tar.gz": "13bc6c291304f9e2f5b85219366f37137eba748aa72487f71ea7db360296ed3a",
+  "https://github.com/containers/podman/releases/download/v4.4.2/podman-remote-static-linux_amd64.tar.gz": "32ae5e0c7102381b48ebca746f402810fef4e4a496a8d45f0e410c59b9fbf411",
+  "https://github.com/containers/podman/releases/download/v4.4.2/podman-remote-release-darwin_arm64.zip": "6eb56a22583206e372b3ef65fe40da4f393ff6c87844ad6009da58fbfe1f65ae",
+  "https://github.com/containers/podman/releases/download/v4.4.2/podman-remote-release-darwin_amd64.zip": "6da0aae1afb965c02ef01aa9f7a0d7ddac8e2e06c75804d2cd0e8eb1d00d7b46",
 }
