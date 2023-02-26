@@ -2,7 +2,7 @@ description = "OctoSQL is a query tool that allows you to join, analyse and tran
 binaries = ["octosql"]
 source = "https://github.com/cube2222/octosql/releases/download/v${version}/octosql_${version}_${os}_${arch}.tar.gz"
 
-version "0.9.4" "0.10.0" "0.11.0" "0.11.1" "0.12.0" {
+version "0.9.4" "0.10.0" "0.11.0" "0.11.1" "0.12.0" "0.12.1" {
   auto-version {
     github-release = "cube2222/octosql"
   }
@@ -24,4 +24,7 @@ sha256sums = {
   "https://github.com/cube2222/octosql/releases/download/v0.12.0/octosql_0.12.0_darwin_amd64.tar.gz": "4df5ee3f6da5472f39eac72fbf090d43763dcb2f2b73df85975b76de66e16ecf",
   "https://github.com/cube2222/octosql/releases/download/v0.12.0/octosql_0.12.0_linux_amd64.tar.gz": "cc890a34b57854651d73e8f526ff59307751ebe1eac917ae40a854577c8b2aad",
   "https://github.com/cube2222/octosql/releases/download/v0.12.0/octosql_0.12.0_darwin_arm64.tar.gz": "77ebc471799c405c2b3debe132a4ecfdef55c0b57fc63cda1fc09c06efcbe441",
+  "https://github.com/cube2222/octosql/releases/download/v0.12.1/octosql_0.12.1_darwin_arm64.tar.gz": "6041c8441100abf895939e64868dede234c0b9183b2de8871f1bd2bc8664a65c",
+  "https://github.com/cube2222/octosql/releases/download/v0.12.1/octosql_0.12.1_linux_amd64.tar.gz": "3d1d3b13732f765866594dabaf249e225054bd800f091d0fb072ecf882e8add0",
+  "https://github.com/cube2222/octosql/releases/download/v0.12.1/octosql_0.12.1_darwin_amd64.tar.gz": "b95f493903056efc1b2d5cbb8b83b2d7b0d8a95c3c7a4cffb049f35ea4d64c29",
 }
