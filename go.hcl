@@ -19,16 +19,62 @@ version "1.13.5" "1.14.4" "1.14.7" "1.15.2" "1.15.3" "1.15.6" "1.15.7" "1.15.11"
 
 source = "https://golang.org/dl/go${version}.${os}-${arch}.tar.gz"
 
-version "1.16" "1.16.3" "1.16.4" "1.16.5" "1.16.6" "1.16.7" "1.17rc1" "1.17" "1.17.1"
-        "1.17.2" "1.17.3" "1.17.7" "1.18beta1" "1.18beta2" "1.17.8" "1.18" "1.18.1" "1.17.9"
-        "1.17.10" "1.17.11" "1.17.12" "1.17.13" "1.18.2" "1.18.3" "1.19beta1" "1.18.4" "1.18.5"
-        "1.19" "1.18.6" "1.19.1" "1.18.7" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.20" "1.20.1" {
+version "1.16" "1.16.3" "1.16.4" "1.16.5" "1.16.6" "1.16.7" "1.16.15" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
     html {
       url = "https://go.dev/dl/"
-      xpath = "//h3/text()"
+      xpath = "//span[starts-with(., 'go1.16')]"
+    }
+  }
+}
+
+version "1.17rc1" "1.17" "1.17.1" "1.17.2" "1.17.3" "1.17.7" "1.17.8" "1.17.9"
+        "1.17.10" "1.17.11" "1.17.12" "1.17.13" {
+  auto-version {
+    version-pattern = "go([^\\s]+)"
+
+    html {
+      url = "https://go.dev/dl/"
+      xpath = "//span[starts-with(., 'go1.17')]"
+    }
+  }
+}
+
+version "1.18beta1" "1.18beta2" "1.18" "1.18.1" "1.18.2" "1.18.3" "1.19beta1"
+        "1.18.4" "1.18.5" "1.18.6" "1.18.7" "1.18.10" {
+  auto-version {
+    version-pattern = "go([^\\s]+)"
+
+    html {
+      url = "https://go.dev/dl/"
+      xpath = "//span[starts-with(., 'go1.18')]"
+    }
+  }
+}
+
+version "1.19" "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.19.6" {
+  auto-version {
+    version-pattern = "go([^\\s]+)"
+
+    html {
+      url = "https://go.dev/dl/"
+      xpath = "//span[starts-with(., 'go1.19')]"
+    }
+  }
+}
+
+// All other versions
+version "1.20" "1.20.1" {
+  auto-version {
+    version-pattern = "go([^\\s]+)"
+
+    html {
+      url = "https://go.dev/dl/"
+      // this XPath will match all versions starting with "go1", i.e. all future versions.
+      // Once there is a new minor version, we'll need to update this, like in the previous sections.
+      xpath = "//span[starts-with(., 'go1')]"
     }
   }
 }
@@ -166,4 +212,13 @@ sha256sums = {
   "https://golang.org/dl/go1.20.1.darwin-amd64.tar.gz": "a300a45e801ab459f3008aae5bb9efbe9a6de9bcd12388f5ca9bbd14f70236de",
   "https://golang.org/dl/go1.20.1.linux-amd64.tar.gz": "000a5b1fca4f75895f78befeb2eecf10bfff3c428597f3f1e69133b63b911b02",
   "https://golang.org/dl/go1.20.1.darwin-arm64.tar.gz": "f1a8e06c7f1ba1c008313577f3f58132eb166a41ceb95ce6e9af30bc5a3efca4",
+  "https://golang.org/dl/go1.16.15.linux-amd64.tar.gz": "77c782a633186d78c384f972fb113a43c24be0234c42fef22c2d8c4c4c8e7475",
+  "https://golang.org/dl/go1.16.15.darwin-arm64.tar.gz": "28365c5c252970c10f2627dc0aa63a2ec3df04a92df4d45ed83dbe464732c3e0",
+  "https://golang.org/dl/go1.16.15.darwin-amd64.tar.gz": "4f16a427ea513892b7be6646ca26159223d404193ef28c5c45c5f2ec9a0f03d1",
+  "https://golang.org/dl/go1.18.10.darwin-amd64.tar.gz": "5614904f2b0b546b1493f294122fea7d67b2fbfc2efe84b1ab560fb678502e1f",
+  "https://golang.org/dl/go1.18.10.linux-amd64.tar.gz": "5e05400e4c79ef5394424c0eff5b9141cb782da25f64f79d54c98af0a37f8d49",
+  "https://golang.org/dl/go1.18.10.darwin-arm64.tar.gz": "718b32cb2c1d203ba2c5e6d2fc3cf96a6952b38e389d94ff6cdb099eb959dade",
+  "https://golang.org/dl/go1.19.6.linux-amd64.tar.gz": "e3410c676ced327aec928303fef11385702a5562fd19d9a1750d5a2979763c3d",
+  "https://golang.org/dl/go1.19.6.darwin-arm64.tar.gz": "dfbf3e4686dd7fee7a9c0223c52b124c1af5f02508baf07e1e59489cd9df2a90",
+  "https://golang.org/dl/go1.19.6.darwin-amd64.tar.gz": "108a3cd27b7dff5a8b3540d3bab0aa04d16814babc85625b183f2a1217af88d0",
 }
