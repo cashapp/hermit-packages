@@ -2,6 +2,7 @@ description = "sbt is a build tool for Scala, Java, and more"
 homepage = "https://www.scala-sbt.org/"
 binaries = ["sbt/bin/sbt"]
 test = "sbt --version"
+requires = ["jre"]
 
 version "1.8.2" {}
 
