@@ -65,12 +65,15 @@ version "1.19" "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.19.6" {
   }
 }
 
+// All other versions
 version "1.20" "1.20.1" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
     html {
       url = "https://go.dev/dl/"
+      // this XPath will match all versions starting with "go1", i.e. all future versions.
+      // Once there is a new minor version, we'll need to update this, like in the previous sections.
       xpath = "//span[starts-with(., 'go1')]"
     }
   }
