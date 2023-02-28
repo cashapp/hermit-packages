@@ -69,6 +69,11 @@ on "unpack" {
 
   run {
     cmd = "/bin/ln"
+    args = ["rustup", "rust-analyzer"]
+  }
+
+  run {
+    cmd = "/bin/ln"
     args = ["rustup", "rust-gdb"]
   }
 
