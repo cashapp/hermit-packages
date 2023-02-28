@@ -1,6 +1,21 @@
 description = "Rust toolchain installer."
 // TOOLS and DUP_TOOLS via https://github.com/rust-lang/rustup/blob/master/src/lib.rs
-binaries = ["cargo", "cargo-clippy", "cargo-fmt", "cargo-miri", "clippy-driver", "rls", "rust-gdb", "rust-gdbgui", "rust-lldb", "rustc", "rustdoc", "rustfmt", "rustup"]
+binaries = [
+  "cargo",
+  "cargo-clippy",
+  "cargo-fmt",
+  "cargo-miri",
+  "clippy-driver",
+  "rls",
+  "rust-analyzer",
+  "rust-gdb",
+  "rust-gdbgui",
+  "rust-lldb",
+  "rustc",
+  "rustdoc",
+  "rustfmt",
+  "rustup",
+]
 test = "rustup --version"
 env = {
   "CARGO_HOME": "${HERMIT_ENV}/.hermit/rust",
@@ -50,6 +65,11 @@ on "unpack" {
   run {
     cmd = "/bin/ln"
     args = ["rustup", "rls"]
+  }
+
+  run {
+    cmd = "/bin/ln"
+    args = ["rustup", "rust-analyzer"]
   }
 
   run {
