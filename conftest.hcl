@@ -6,7 +6,7 @@ platform "amd64" {
   source = "https://github.com/open-policy-agent/conftest/releases/download/v${version}/conftest_${version}_${os}_x86_64.tar.gz"
 }
 
-version "0.34.0" "0.35.0" "0.36.0" "0.37.0" "0.38.0" "0.39.0" "0.39.1" {
+version "0.34.0" "0.35.0" "0.36.0" "0.37.0" "0.38.0" "0.39.0" "0.39.1" "0.39.2" {
   auto-version {
     github-release = "open-policy-agent/conftest"
   }
@@ -34,4 +34,7 @@ sha256sums = {
   "https://github.com/open-policy-agent/conftest/releases/download/v0.39.1/conftest_0.39.1_darwin_arm64.tar.gz": "5687aedb57242446a63ad39854c20a79bfdaed934673853ade5963f6b181918a",
   "https://github.com/open-policy-agent/conftest/releases/download/v0.39.1/conftest_0.39.1_darwin_x86_64.tar.gz": "51d67a471eb8c23b5d804df52817cd25328e01b48fe5d1048fd07b76452f94ff",
   "https://github.com/open-policy-agent/conftest/releases/download/v0.39.1/conftest_0.39.1_linux_x86_64.tar.gz": "43aa996d00c0a5d49b08cf35973bcd8251a2300a25829b1a46ce22a638755a52",
+  "https://github.com/open-policy-agent/conftest/releases/download/v0.39.2/conftest_0.39.2_darwin_x86_64.tar.gz": "5ba6b5206f5e9ff9a9a9c697b0f3afe7275205c21a0de5aaa8cf7b25392c6433",
+  "https://github.com/open-policy-agent/conftest/releases/download/v0.39.2/conftest_0.39.2_linux_x86_64.tar.gz": "24a9429e81ec9f5a52daa0479651e10ce1c5e814b7493070c12ec8b0ba1011ec",
+  "https://github.com/open-policy-agent/conftest/releases/download/v0.39.2/conftest_0.39.2_darwin_arm64.tar.gz": "90dac17b0ec8cae028fa8eb95e3aae24e413479934f48989702556147ab060ad",
 }

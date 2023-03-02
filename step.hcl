@@ -10,7 +10,8 @@ on "unpack" {
   }
 }
 
-version "0.18.2" "0.19.0" "0.20.0" "0.21.0" "0.22.0" "0.23.0" "0.23.1" "0.23.2" {
+version "0.18.2" "0.19.0" "0.20.0" "0.21.0" "0.22.0" "0.23.0" "0.23.1" "0.23.2"
+        "0.23.3" {
   auto-version {
     github-release = "smallstep/cli"
   }
@@ -41,4 +42,7 @@ sha256sums = {
   "https://dl.step.sm/gh-release/cli/gh-release-header/v0.23.2/step_darwin_0.23.2_arm64.tar.gz": "688708f333cf9055773ef460c53516667b07b092151ea58cbcf6b9e675aa5f6a",
   "https://dl.step.sm/gh-release/cli/gh-release-header/v0.23.2/step_linux_0.23.2_amd64.tar.gz": "044fe5517ece907dd9193e92ba1579926310e0694e83fe947b428e24ff089785",
   "https://dl.step.sm/gh-release/cli/gh-release-header/v0.23.2/step_darwin_0.23.2_amd64.tar.gz": "a783d901de4d04ea68aee34e701659ab08c41829f58456f43df3572236caa96e",
+  "https://dl.step.sm/gh-release/cli/gh-release-header/v0.23.3/step_linux_0.23.3_amd64.tar.gz": "b036c8b1d576fa243b78d2db9c753c328e46951a5d8229fe192e6ab51c3fb238",
+  "https://dl.step.sm/gh-release/cli/gh-release-header/v0.23.3/step_darwin_0.23.3_amd64.tar.gz": "c2c5c973dbc857092cf839dbd33fb244329e2d850bcef813a2c0771be7f62459",
+  "https://dl.step.sm/gh-release/cli/gh-release-header/v0.23.3/step_darwin_0.23.3_arm64.tar.gz": "0d6a5267266f6345da78d817ac47088f8badc92fb3f97357e025ea23da28a918",
 }

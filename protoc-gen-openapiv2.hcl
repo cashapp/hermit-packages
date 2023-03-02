@@ -11,7 +11,7 @@ on "unpack" {
 }
 
 version "2.8.0" "2.9.0" "2.10.0" "2.10.1" "2.10.2" "2.10.3" "2.11.0" "2.11.1" "2.11.2"
-        "2.11.3" "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.15.1" {
+        "2.11.3" "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.15.1" "2.15.2" {
   auto-version {
     github-release = "grpc-ecosystem/grpc-gateway"
   }
@@ -48,4 +48,6 @@ sha256sums = {
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.15.0/protoc-gen-openapiv2-v2.15.0-linux-x86_64": "f2e5e4df6e2ef406a9c754caa5f148bce90493dcb67f4efb5b079d3599fce520",
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.15.1/protoc-gen-openapiv2-v2.15.1-linux-x86_64": "37f12feffac54b4d4c48fd68800aa6958ac25942deaf9308232e507781a4fc7e",
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.15.1/protoc-gen-openapiv2-v2.15.1-darwin-x86_64": "be72209044f98727c3f0e857aff764cacc3d922829c8e143d32d429f4c666949",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.15.2/protoc-gen-openapiv2-v2.15.2-darwin-x86_64": "4ccf5888c36d8935188d4367f611ab441d1e2066d67a113f8f38c5e772dfd4d6",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.15.2/protoc-gen-openapiv2-v2.15.2-linux-x86_64": "d894ad0601d955376d3eed2fdc6bf31339626a76a1cd9206f77860b0a0c9c920",
 }
