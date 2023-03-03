@@ -1,28 +1,24 @@
 description = "A modern tool for managing database schemas"
-binaries = ["atlas"]
 homepage = "https://atlasgo.io/"
-source = "https://release.ariga.io/atlas/atlas-${os}-${arch_}-v${version}"
-vars = {
-  "arch_": "${arch}",
-}
+binaries = ["atlas"]
+test = "atlas version"
 
-platform "darwin" "arm64" {
-  vars = {
-    "arch_": "amd64",
-  }
-}
+source = "https://release.ariga.io/atlas/atlas-${os}-${arch}-v${version}"
 
 on "unpack" {
   rename {
-    from = "${root}/atlas-${os}-${arch_}-v${version}"
+    from = "${root}/atlas-${os}-${arch}-v${version}"
     to = "${root}/atlas"
   }
 }
 
-version "0.9.0" {
-  auto-version {
-    github-release = "ariga/atlas"
-  }
+version "0.9.0" {}
+
+channel "latest" {
+  update = "24h"
+
+  source = "https://release.ariga.io/atlas/atlas-${arch}-${os}-latest"
+  on unpack { rename { from = "${root}/atlas-${arch}-${os}-latest" to = "${root}/atlas" } }
 }
 
 sha256sums = {
