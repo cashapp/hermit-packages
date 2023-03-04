@@ -2,7 +2,7 @@ description = "ProtoSync synchronises remote .proto files to a local directory"
 binaries = ["protosync"]
 source = "https://github.com/cashapp/protosync/releases/download/v${version}/protosync-${version}-${os}-${arch}.tar.gz"
 
-version "0.1.0" "0.2.0" "0.2.1" "0.3.0" "0.3.1" "0.3.2" "0.4.0" "0.5.0" "0.5.2" "0.5.3" {
+version "0.1.0" "0.2.0" "0.2.1" "0.3.0" "0.3.1" "0.3.2" "0.4.0" "0.5.0" "0.5.2" "0.5.4" {
   auto-version {
     github-release = "cashapp/protosync"
   }
@@ -36,4 +36,7 @@ sha256sums = {
   "https://github.com/cashapp/protosync/releases/download/v0.5.2/protosync-0.5.2-darwin-amd64.tar.gz": "22935578c2f45852dca119978ccea183721da76bc09fb3c28073a7909d249b48",
   "https://github.com/cashapp/protosync/releases/download/v0.5.2/protosync-0.5.2-darwin-arm64.tar.gz": "12dbc07471770904479f17730e50d196e4ebae5e5500860d880bfe82c12eeca0",
   "https://github.com/cashapp/protosync/releases/download/v0.5.2/protosync-0.5.2-linux-amd64.tar.gz": "614be11680438adfd927452dd37cfc2b931bec774d5bc7763ddf641e520522c7",
+  "https://github.com/cashapp/protosync/releases/download/v0.5.4/protosync-0.5.4-darwin-arm64.tar.gz": "9ff3a07a33a8c2a99d057755535d3a2ab8292a65e8dfb6e475dbf6d7ea32833c",
+  "https://github.com/cashapp/protosync/releases/download/v0.5.4/protosync-0.5.4-darwin-amd64.tar.gz": "b8b0e650404dfee3b292bfd94960c3d7cd62df2928633e5fa5520e1183c5c8cd",
+  "https://github.com/cashapp/protosync/releases/download/v0.5.4/protosync-0.5.4-linux-amd64.tar.gz": "a9963f8ed6df644008b7190470cfd0465152def4ad8fb3b3813495737d864566",
 }
