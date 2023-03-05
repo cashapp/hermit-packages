@@ -103,7 +103,27 @@ on "unpack" {
   }
 }
 
+
 version "1.25.1" {
+  binaries = [
+    "cargo",
+    "cargo-clippy",
+    "cargo-fmt",
+    "cargo-miri",
+    "clippy-driver",
+    "rls",
+    "rust-analyzer",
+    "rust-gdb",
+    "rust-gdbgui",
+    "rust-lldb",
+    "rustc",
+    "rustdoc",
+    "rustfmt",
+    "rustup",
+  ]
+}
+
+version "1.25.2" {
   auto-version {
     github-release = "rust-lang/rustup"
   }
