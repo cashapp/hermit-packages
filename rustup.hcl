@@ -112,7 +112,6 @@ version "1.25.1" {
     "cargo-miri",
     "clippy-driver",
     "rls",
-    "rust-analyzer",
     "rust-gdb",
     "rust-gdbgui",
     "rust-lldb",
