@@ -1,13 +1,11 @@
-description = "Railway CLI"
+description = "Railway CLI (deprecated -> use rlwy)"
 homepage = "https://railway.app"
 binaries = ["railway"]
 source = "https://github.com/railwayapp/cli/releases/download/v${version}/railway_${version}_${os}_${arch}.tar.gz"
 sha256-source = "https://github.com/railwayapp/cli/releases/download/v${version}/railway_${version}_checksums.txt"
 
 version "2.1.0" {
-  auto-version {
-    github-release = "railwayapp/cli"
-  }
+  // Newer versions are under rlwy.
 }
 
 sha256sums = {
