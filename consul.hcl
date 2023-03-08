@@ -5,7 +5,7 @@ sha256-source = "https://releases.hashicorp.com/consul/${version}/consul_${versi
 
 version "1.10.3" "1.11.1" "1.11.2" "1.11.3" "1.11.4" "1.11.5" "1.9.17" "1.12.0"
         "1.12.1" "1.12.2" "1.12.3" "1.13.0" "1.13.1" "1.13.2" "1.11.10" "1.13.3" "1.14.0"
-        "1.14.1" "1.14.2" "1.14.3" "1.14.4" "1.15.0" {
+        "1.14.1" "1.14.2" "1.14.3" "1.14.4" "1.15.0" "1.15.1" {
   auto-version {
     github-release = "hashicorp/consul"
   }
@@ -56,4 +56,6 @@ sha256sums = {
   "https://releases.hashicorp.com/consul/1.14.4/consul_1.14.4_darwin_amd64.zip": "694b8edc470838d8a73df08d6c616d25b54724abad410fa27c83697b372a2cfc",
   "https://releases.hashicorp.com/consul/1.15.0/consul_1.15.0_darwin_amd64.zip": "8cf26909e1f92cc1c26d2c73536e7af5bb9fdca3454b04b4e47ca3d2aab8c85a",
   "https://releases.hashicorp.com/consul/1.15.0/consul_1.15.0_linux_amd64.zip": "62a358ff2c3c08d19f15a92ea3130b05b547ab5a767ae13454eab7655a718c24",
+  "https://releases.hashicorp.com/consul/1.15.1/consul_1.15.1_linux_amd64.zip": "23f7eb0461dd01a95c5d56472b91c22d5dacec84f31f1846c0c9f9621f98f29f",
+  "https://releases.hashicorp.com/consul/1.15.1/consul_1.15.1_darwin_amd64.zip": "9080598e31cbf49adb20f554567479bc74bdfa768ea193bb76dd98df96924dc4",
 }
