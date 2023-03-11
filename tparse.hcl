@@ -24,9 +24,10 @@ platform "arm64" {
 }
 
 version "0.9.0" "0.10.3" "0.11.0" "0.11.1" {
-  auto-version {
-    github-release = "mfridman/tparse"
-  }
+  // https://github.com/mfridman/tparse/commit/6030ec89747e88ad7cc8bb29f8eb644c0baa9f64 ??
+  //auto-version {
+  //  github-release = "mfridman/tparse"
+  //}
 }
 
 sha256sums = {
