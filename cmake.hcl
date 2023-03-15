@@ -18,7 +18,7 @@ version "3.20.4" "3.21.0-rc1" "3.21.0-rc2" "3.21.0-rc3" "3.21.0" "3.21.1" "3.21.
         "3.23.0" "3.23.1" "3.23.2" "3.22.5" "3.24.0-rc1" "3.24.0-rc2" "3.24.0-rc3"
         "3.24.0-rc4" "3.24.0-rc5" "3.24.0" "3.24.1" "3.24.2" "3.23.4" "3.25.0-rc1" "3.25.0-rc2"
         "3.25.0-rc3" "3.25.0-rc4" "3.24.3" "3.25.0" "3.25.1" "3.25.2" "3.26.0-rc1" "3.26.0-rc2"
-        "3.26.0-rc3" "3.26.0-rc4" "3.26.0-rc5" "3.26.0-rc6" {
+        "3.26.0-rc3" "3.26.0-rc4" "3.26.0-rc5" "3.26.0-rc6" "3.26.0" {
   auto-version {
     github-release = "Kitware/CMake"
   }
@@ -123,4 +123,6 @@ sha256sums = {
   "https://github.com/Kitware/CMake/releases/download/v3.26.0-rc5/cmake-3.26.0-rc5-linux-x86_64.tar.gz": "f8118d636383d22af0a6e6b137cf225a6dc08765b3548be3f1cfe2a2ab38a232",
   "https://github.com/Kitware/CMake/releases/download/v3.26.0-rc6/cmake-3.26.0-rc6-linux-x86_64.tar.gz": "048bb576080abba3b13ef5f62cb5ddd20aeb53e8aa84602470fd95fef7c9e444",
   "https://github.com/Kitware/CMake/releases/download/v3.26.0-rc6/cmake-3.26.0-rc6-macos-universal.tar.gz": "c64f1a2ba7191cee70f920ae968bbbb06cb19e7c003c48e259405b31c13d32e2",
+  "https://github.com/Kitware/CMake/releases/download/v3.26.0/cmake-3.26.0-linux-x86_64.tar.gz": "69b55523145b2e619f637e7766c413cb1b7de1f06269ea1eab4a655d59847d59",
+  "https://github.com/Kitware/CMake/releases/download/v3.26.0/cmake-3.26.0-macos-universal.tar.gz": "9c4634a421458c63ce90cb4152f6663021e045f8d9c481fd949e8b19d562b2bb",
 }

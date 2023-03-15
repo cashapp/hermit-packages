@@ -27,7 +27,7 @@ version "1.15.0" "1.16.0" "1.17.0" "1.18.0" "1.18.1" {
 
 version "1.19.0" "1.19.1" "1.20.0" "1.20.1" "1.21.0" "1.22.0" "1.22.1" "1.22.2"
         "1.23.0" "1.24.0" "1.24.1" "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.26.0" "1.25.4"
-        "1.26.1" {
+        "1.26.1" "1.28.0" {
   auto-version {
     github-release = "operator-framework/operator-sdk"
   }
@@ -98,4 +98,7 @@ sha256sums = {
   "https://github.com/operator-framework/operator-sdk/releases/download/v1.26.1/operator-sdk_linux_amd64": "c86868cb9812864b2992b02b1a10ab0a7e3fac718e4a5312f59f8643643bbfd4",
   "https://github.com/operator-framework/operator-sdk/releases/download/v1.26.1/operator-sdk_darwin_arm64": "6719761d3de4517904c85a9abc15164030d1c0ad29462f02b96ae63ee06b71de",
   "https://github.com/operator-framework/operator-sdk/releases/download/v1.26.1/operator-sdk_darwin_amd64": "b3e86240c11ba3530e36d8b38e3577965ea0877754c053652acdaf09782cf6e4",
+  "https://github.com/operator-framework/operator-sdk/releases/download/v1.28.0/operator-sdk_linux_amd64": "da5b57c59f5c9751c0466569968d35e1ad118308f4f0a9fd38f800130cf85e8b",
+  "https://github.com/operator-framework/operator-sdk/releases/download/v1.28.0/operator-sdk_darwin_amd64": "96f585bddedba2234db45be7f1ab9ee3cc6bc6768e78d0419909ba779d81d9eb",
+  "https://github.com/operator-framework/operator-sdk/releases/download/v1.28.0/operator-sdk_darwin_arm64": "74970b2bc3e5db08d7db3188bd915acfd7819b7f35b2c7fa2f4aa326a8e41dd3",
 }
