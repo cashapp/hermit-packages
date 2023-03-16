@@ -18,7 +18,7 @@ platform "linux" "arm64" {
   source = "https://github.com/google/go-containerregistry/releases/download/v${version}/go-containerregistry_${os}_${arch}.tar.gz"
 }
 
-version "0.12.0" "0.12.1" "0.13.0" {
+version "0.12.0" "0.12.1" "0.13.0" "0.14.0" {
   auto-version {
     github-release = "google/go-containerregistry"
   }
@@ -34,4 +34,7 @@ sha256sums = {
   "https://github.com/google/go-containerregistry/releases/download/v0.13.0/go-containerregistry_darwin_arm64.tar.gz": "3d609a3f5037eaf61038b900cc483fe196f2fbd2f4475c575d12d5309acdcf17",
   "https://github.com/google/go-containerregistry/releases/download/v0.13.0/go-containerregistry_linux_x86_64.tar.gz": "b06641f6cd08c509d5f1b234076269bfbb512f91e7ba4f796adb8c4b1626c9b7",
   "https://github.com/google/go-containerregistry/releases/download/v0.13.0/go-containerregistry_darwin_x86_64.tar.gz": "3a1b3f99a09c1384fadcdf4d283baf59114836f78bcca3b0c37b9bf65da06fee",
+  "https://github.com/google/go-containerregistry/releases/download/v0.14.0/go-containerregistry_darwin_arm64.tar.gz": "f20fb7af3899296fce2b660f4c75169af1435215faff35c89d8fed55968e6f61",
+  "https://github.com/google/go-containerregistry/releases/download/v0.14.0/go-containerregistry_linux_x86_64.tar.gz": "5b68fe0f7fe9170ba3e1677f47ecfc892c687a2fdcbc2b1de39ab5e9663de5d7",
+  "https://github.com/google/go-containerregistry/releases/download/v0.14.0/go-containerregistry_darwin_x86_64.tar.gz": "87ebddb174a77decfc31480b30f2cb83bb55a9ecb2452c522416ad0bffb23d16",
 }
