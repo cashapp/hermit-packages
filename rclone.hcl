@@ -13,7 +13,7 @@ platform "darwin" {
 }
 
 version "1.57.0" "1.58.0" "1.58.1" "1.59.0" "1.59.1" "1.59.2" "1.60.0" "1.60.1"
-        "1.61.0" "1.61.1" "1.62.0" "1.62.1" {
+        "1.61.0" "1.61.1" "1.62.0" "1.62.1" "1.62.2" {
   auto-version {
     github-release = "rclone/rclone"
   }
@@ -56,4 +56,7 @@ sha256sums = {
   "https://github.com/rclone/rclone/releases/download/v1.62.1/rclone-v1.62.1-osx-arm64.zip": "94c211a1a14f81bdc2ec004ff3a433ad860520c731ac54ddf38435e2512cba4b",
   "https://github.com/rclone/rclone/releases/download/v1.62.1/rclone-v1.62.1-osx-amd64.zip": "0df7fda080a85036256bf9916737f16ba70a61f60f7e94127a5a37da4de93e14",
   "https://github.com/rclone/rclone/releases/download/v1.62.1/rclone-v1.62.1-linux-amd64.zip": "27f2630140201c66ce90182677f6fd305a33baa304034fd47e5f4b78ea66123f",
+  "https://github.com/rclone/rclone/releases/download/v1.62.2/rclone-v1.62.2-osx-amd64.zip": "afef35513c7ce89e9ed9962e2c44c604587de1faa317d9fd3bf6590dc3be8658",
+  "https://github.com/rclone/rclone/releases/download/v1.62.2/rclone-v1.62.2-linux-amd64.zip": "6c8676dc56e3d2e26358b5bae616ab3ec95e26181cd9b8692e101dcc0fc966a1",
+  "https://github.com/rclone/rclone/releases/download/v1.62.2/rclone-v1.62.2-osx-arm64.zip": "efb17668ff5bc7cb632ddc85ad0d38b020bed85ca6a2b798a31a61abb32b0516",
 }
