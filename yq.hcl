@@ -29,7 +29,7 @@ version "4.9.5" "4.9.6" "4.9.8" "4.10.0" "4.11.0" "4.11.1" "4.11.2" "4.12.0" "4.
         "4.20.2" "4.21.1" "4.22.1" "4.23.1" "4.24.2" "4.24.3" "4.24.4" "4.24.5" "4.25.1"
         "4.25.2" "4.25.3" "4.26.1" "4.27.2" "4.27.3" "4.27.5" "4.28.1" "4.28.2" "4.29.1"
         "4.29.2" "4.30.1" "4.30.2" "4.30.3" "4.30.4" "4.30.5" "4.30.6" "4.30.8" "4.31.1"
-        "4.31.2" "4.32.1" {
+        "4.31.2" "4.32.1" "4.32.2" {
   auto-version {
     github-release = "mikefarah/yq"
   }
@@ -130,4 +130,6 @@ sha256sums = {
   "https://github.com/mikefarah/yq/releases/download/v4.31.2/yq_darwin_amd64": "6a8c5bb759b9daa2f25b9103715acc8011412a917794fa718fa4605075b1f997",
   "https://github.com/mikefarah/yq/releases/download/v4.32.1/yq_linux_amd64": "e53b82caa86477bd96cf447138c72c9a0a857142a5bcdd34440b2644693ed18f",
   "https://github.com/mikefarah/yq/releases/download/v4.32.1/yq_darwin_amd64": "3464b7deb4a4f6b1cb81ccae2804e83a6d1ca69ca0298d4ec91c41736b91b958",
+  "https://github.com/mikefarah/yq/releases/download/v4.32.2/yq_linux_amd64": "0e5c6b5a74d4ccd6eed43180f60dd48a6e1d0e778f834dca33a312301674b628",
+  "https://github.com/mikefarah/yq/releases/download/v4.32.2/yq_darwin_amd64": "2776f85b683d39875f52f995fa18e32a1e1f286023bf2dd730ad6b502372920a",
 }
