@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.23.0" "0.24.0" "0.25.0" "0.25.1" "0.26.0" {
+version "0.23.0" "0.24.0" "0.25.0" "0.25.1" "0.26.0" "0.26.1" {
   auto-version {
     github-release = "plexsystems/konstraint"
   }
@@ -32,4 +32,7 @@ sha256sums = {
   "https://github.com/plexsystems/konstraint/releases/download/v0.26.0/konstraint-darwin-arm64": "3727293f9aca17b9ebd5874349eecc5e92f8857070497571ec31f055c0d57642",
   "https://github.com/plexsystems/konstraint/releases/download/v0.26.0/konstraint-linux-amd64": "f0d1a569ced9ac4fb3d5149307226f4d1497e871482fc58163d46e97b09691bb",
   "https://github.com/plexsystems/konstraint/releases/download/v0.26.0/konstraint-darwin-amd64": "ad881dfea6fa9d6d96b5ae94d538673a3cc023578bd3380fbef0896fa3f60ddf",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.26.1/konstraint-linux-amd64": "dd96f383a4f8c175f96d3387656ea80e10bcc248f92330bb0b4ed73ee6eca7c7",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.26.1/konstraint-darwin-arm64": "3960f27b9dfb972ff74eda1433c604002d05ae8381e543a94fb6e9ea44d70531",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.26.1/konstraint-darwin-amd64": "f841bcd99f54f26a9fcbab3519bc962fe59edd86af94d05900f47588ea7f959d",
 }

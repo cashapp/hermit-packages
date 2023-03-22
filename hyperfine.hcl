@@ -11,7 +11,7 @@ linux {
   source = "https://github.com/sharkdp/hyperfine/releases/download/v${version}/hyperfine-v${version}-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
-version "1.10.0" "1.11.0" "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0" {
+version "1.10.0" "1.11.0" "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0" "1.16.1" {
   auto-version {
     github-release = "sharkdp/hyperfine"
   }
@@ -32,4 +32,6 @@ sha256sums = {
   "https://github.com/sharkdp/hyperfine/releases/download/v1.15.0/hyperfine-v1.15.0-x86_64-unknown-linux-gnu.tar.gz": "cd524317254811e6d60024c4e29d4cc5c986e59f6a1d840dd4fe005adcad30ef",
   "https://github.com/sharkdp/hyperfine/releases/download/v1.16.0/hyperfine-v1.16.0-x86_64-unknown-linux-gnu.tar.gz": "0ad49092bf0227334a2b817ba06377c8942b7b8ce698b8dda96dd66e88d61b1c",
   "https://github.com/sharkdp/hyperfine/releases/download/v1.16.0/hyperfine-v1.16.0-x86_64-apple-darwin.tar.gz": "b4964645b56c2b99bc13318038ff1907260523b4131d5b44c83e73dc3dc23150",
+  "https://github.com/sharkdp/hyperfine/releases/download/v1.16.1/hyperfine-v1.16.1-x86_64-apple-darwin.tar.gz": "f19d22147b5307138524eed5eff2265a116e5ecbaab886bbe0eb02e57cbb3f2c",
+  "https://github.com/sharkdp/hyperfine/releases/download/v1.16.1/hyperfine-v1.16.1-x86_64-unknown-linux-gnu.tar.gz": "5d81cad5cad690cfa85675834c13b736ef6f3d9f6e99ee4f3da266a23b4d0033",
 }
