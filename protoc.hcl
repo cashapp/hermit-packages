@@ -21,7 +21,7 @@ version "3.20.0" "3.20.1" "3.20.2" {
 
   auto-version {
     github-release = "protocolbuffers/protobuf"
-    version-pattern = "v(\\d+\\.\\d+.*)"
+    version-pattern = "v(\\d+\\.\\d+\\.\\d+.*)"
     ignore-invalid-versions = true
   }
 }
