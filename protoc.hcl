@@ -3,7 +3,7 @@ binaries = ["bin/protoc"]
 test = "protoc --version"
 
 platform darwin amd64 {
-  source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-macos-x86_64.zip"
+  source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-x86_64.zip"
 }
 
 platform linux amd64 {
@@ -13,7 +13,7 @@ platform linux amd64 {
 version "3.7.1" "3.14.0" "3.15.0" "3.15.8" "3.17.3" "3.18.0" "3.18.1" "3.19.0"
   "3.19.1" "3.19.2" "3.19.3" "3.19.4" "3.20.0" "3.20.1" "3.20.2" "3.20.3" {
   platform darwin arm64 {
-    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-macos-aarch_64.zip"
+    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-aarch_64.zip"
   }
 
   platform linux arm64 {
