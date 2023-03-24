@@ -66,6 +66,6 @@ sha256sums = {
   "https://github.com/kyleconroy/sqlc/releases/download/v1.16.0/sqlc_1.16.0_darwin_amd64.tar.gz": "5c2e55ece21329205187ab71e84f30cbbb547229fe5c4488ec267ed0b189ff0f",
   "https://github.com/kyleconroy/sqlc/releases/download/v1.17.0/sqlc_1.17.0_linux_amd64.tar.gz": "a4f8d539a3de735b6df010cc2c8169cc0bd99a5c4d097a751395e3dcbcda2d07",
   "https://github.com/kyleconroy/sqlc/releases/download/v1.17.0/sqlc_1.17.0_darwin_amd64.tar.gz": "1b2bc2ae1d0ddd54db53f02bc1fb9594fb8c07f832444e5c07dac1c11ca885cd",
-  "https://github.com/kyleconroy/sqlc/releases/download/v1.17.2/sqlc_1.17.2_linux_amd64.tar.gz": "4d93ce34c207cae4291d73286e987e169a4d7f83a821937683aa597ee9c899e6",
   "https://github.com/kyleconroy/sqlc/releases/download/v1.17.2/sqlc_1.17.2_darwin_amd64.tar.gz": "f9253370519f1bf270be81b58978c7ad7e0b4bd96ad27d5efcb4b88dc2aa482a",
+  "https://github.com/kyleconroy/sqlc/releases/download/v1.17.2/sqlc_1.17.2_linux_amd64.tar.gz": "76568b64caa36a03e8ab20c2ae6e17a68487728f33f24a4c6eecda5a836d0ae5",
 }
