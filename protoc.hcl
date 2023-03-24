@@ -2,26 +2,24 @@ description = "protoc is a compiler for protocol buffers definitions files."
 binaries = ["bin/protoc"]
 test = "protoc --version"
 
-darwin {
-  vars = { "_os": "osx" }
+platform darwin amd64 {
+  source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-macos-x86_64.zip"
 }
 
-linux {
-  vars = { "_os": "linux" }
+platform linux amd64 {
+  source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-linux-x86_64.zip"
 }
-
-platform amd64 {
-  vars = { "_arch": "x86_64" }
-}
-
-platform arm64 {
-  vars = { "_arch": "aarch_64" }
-}
-
-source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-${_os}-${_arch}.zip"
 
 version "3.7.1" "3.14.0" "3.15.0" "3.15.8" "3.17.3" "3.18.0" "3.18.1" "3.19.0"
-        "3.19.1" "3.19.2" "3.19.3" "3.19.4" "3.20.0" "3.20.1" "3.20.2" "3.20.3" {
+  "3.19.1" "3.19.2" "3.19.3" "3.19.4" "3.20.0" "3.20.1" "3.20.2" "3.20.3" {
+  platform darwin arm64 {
+    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-macos-aarch_64.zip"
+  }
+
+  platform linux arm64 {
+    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-linux-aarch_64.zip"
+  }
+  
   auto-version {
     github-release = "protocolbuffers/protobuf"
     version-pattern = "v(\\d+\\.\\d+\\.\\d+.*)"
