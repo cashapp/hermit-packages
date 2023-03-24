@@ -14,14 +14,14 @@ platform linux arm64 {
   source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-linux-aarch_64.zip"
 }
 
-version "3.20.0" "3.20.1" "3.20.2" {
+version "3.20.0" "3.20.1" "3.20.2" "21.0" {
   platform darwin arm64 {
     source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-aarch_64.zip"
   }
 
   auto-version {
     github-release = "protocolbuffers/protobuf"
-    version-pattern = "v(\\d+\\.\\d+\\.\\d+.*)"
+    version-pattern = "v(\\d+\\.\\d+.*)"
     ignore-invalid-versions = true
   }
 }
