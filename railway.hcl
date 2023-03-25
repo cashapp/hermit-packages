@@ -15,7 +15,7 @@ version "2.1.0" {
   source = "https://github.com/railwayapp/cli/releases/download/v${version}/railway_${version}_${os}_${arch}.tar.gz"
 }
 
-version "3.0.4" "3.0.5" "3.0.6" "3.0.8" "3.0.12" "3.0.13" "3.0.9" "3.0.17" {
+version "3.0.4" "3.0.5" "3.0.6" "3.0.8" "3.0.12" "3.0.13" "3.0.9" "3.0.17" "3.0.18" {
   auto-version {
     github-release = "railwayapp/cli"
   }
@@ -49,4 +49,7 @@ sha256sums = {
   "https://github.com/railwayapp/cli/releases/download/v3.0.17/railway-v3.0.17-aarch64-apple-darwin.tar.gz": "2d953f9b73fe532aee5df166105f2981dbf9a28608fa608e8e94ba2aa329ebde",
   "https://github.com/railwayapp/cli/releases/download/v3.0.17/railway-v3.0.17-x86_64-unknown-linux-gnu.tar.gz": "3c064d931fa96b4b4ff32d16aa46fe18b6b297c0fd9e1f16a3d312fddd7c69f3",
   "https://github.com/railwayapp/cli/releases/download/v3.0.17/railway-v3.0.17-x86_64-apple-darwin.tar.gz": "7954fbe430684a77a42731b60270ed0f29389f3259b6e950de53462ad95fcc70",
+  "https://github.com/railwayapp/cli/releases/download/v3.0.18/railway-v3.0.18-aarch64-apple-darwin.tar.gz": "5175e70a3bcf8b2382cb7ec2bf13e9c74fbe071ced6815b0a4f9e20b85e7e343",
+  "https://github.com/railwayapp/cli/releases/download/v3.0.18/railway-v3.0.18-x86_64-apple-darwin.tar.gz": "e3c9d78362ec40cb3532b11f79d10c85f767348410e48a0a1fa0bdcc3d5f0389",
+  "https://github.com/railwayapp/cli/releases/download/v3.0.18/railway-v3.0.18-x86_64-unknown-linux-gnu.tar.gz": "20e5181f085b9f55953f5c857ea0b4250a851465e48cdc9979dfce1e5e995f4a",
 }
