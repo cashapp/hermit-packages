@@ -2,7 +2,7 @@ description = "protoc is a compiler for protocol buffers definitions files."
 binaries = ["bin/protoc"]
 test = "protoc --version"
 
-platform darwin amd64 {
+platform darwin {
   source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-x86_64.zip"
 }
 
