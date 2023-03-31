@@ -3,16 +3,26 @@ binaries = ["bin/pandoc"]
 strip = 1
 test = "pandoc --version"
 
-darwin {
-  source = "https://github.com/jgm/pandoc/releases/download/${version}/pandoc-${version}-macOS.zip"
+platform "darwin" "arm64" {
+  source = "https://github.com/jgm/pandoc/releases/download/${version}/pandoc-${version}-arm64-macOS.zip"
 }
 
-linux {
+platform "darwin" "amd64" {
+  source = "https://github.com/jgm/pandoc/releases/download/${version}/pandoc-${version}-x86_64-macOS.zip"
+}
+
+platform "linux" {
   source = "https://github.com/jgm/pandoc/releases/download/${version}/pandoc-${version}-linux-${arch}.tar.gz"
 }
 
 version "2.13" "2.14.0.3" "2.14.1" "2.14.2" "2.15" "2.16" "2.16.1" "2.16.2" "2.17"
         "2.17.0.1" "2.17.1" "2.17.1.1" "2.18" "2.19" "2.19.1" "2.19.2" "3.0" "3.0.1" "3.1" "3.1.1" {
+  platform "darwin" {
+    source = "https://github.com/jgm/pandoc/releases/download/${version}/pandoc-${version}-macOS.zip"
+  }
+}
+
+version "3.1.2" {
   auto-version {
     github-release = "jgm/pandoc"
   }
@@ -59,4 +69,7 @@ sha256sums = {
   "https://github.com/jgm/pandoc/releases/download/3.1/pandoc-3.1-linux-amd64.tar.gz": "37de6be90055d9a7e1b4e3384cd7fc4c42e138a77f62ddeec12f362bfa3ee18e",
   "https://github.com/jgm/pandoc/releases/download/3.1.1/pandoc-3.1.1-linux-amd64.tar.gz": "52b25f0115517e32047a06d821e63729108027bd06d9605fe8eac0fa83e0bf81",
   "https://github.com/jgm/pandoc/releases/download/3.1.1/pandoc-3.1.1-macOS.zip": "e585337b279be48f29d3436c76507f6c21617479c0ece0ac78f53226dc46d643",
+  "https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-arm64-macOS.zip": "aa0eab6cf10e5d54d255d68f8fae47e08da071565a3d2b8d242be29a8c1f1460",
+  "https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-x86_64-macOS.zip": "72c43b1de30e67d3a2f69bfd69881e5fcf6ed3c2583c2ad22142c390d185f0b4",
+  "https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz": "4e1c607f7e4e9243fa1e1f5b208cd4f1d3f6fd055d5d8c39ba0cdc38644e1c35",
 }
