@@ -2,36 +2,46 @@ description = "protoc is a compiler for protocol buffers definitions files."
 binaries = ["bin/protoc"]
 test = "protoc --version"
 
-platform darwin {
-  source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-x86_64.zip"
+platform "darwin" {
+  source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-universal_binary.zip"
 }
 
-platform linux amd64 {
+platform "linux" "amd64" {
   source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-linux-x86_64.zip"
 }
 
-platform linux arm64 {
+platform "linux" "arm64" {
   source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-linux-aarch_64.zip"
 }
 
-version "3.20.0" "3.20.1" "3.20.2" {
-  platform darwin arm64 {
-    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-aarch_64.zip"
-  }
-
+version "22.1" "22.2" {
   auto-version {
     github-release = "protocolbuffers/protobuf"
-    version-pattern = "v(\\d+\\.\\d+\\.\\d+.*)"
+    version-pattern = "v(\\d+\\.\\d+)$"
     ignore-invalid-versions = true
   }
 }
 
+version "3.20.0" "3.20.1" "3.20.2" {
+  platform "darwin" "amd64" {
+    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-x86_64.zip"
+  }
+
+  platform "darwin" "arm64" {
+    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-aarch_64.zip"
+  }
+}
+
 version "3.7.1" "3.14.0" "3.15.0" "3.15.8" "3.17.3" "3.18.0" "3.18.1" "3.19.0"
-        "3.19.1" "3.19.2" "3.19.3" "3.19.4" "3.20.3" {}
+        "3.19.1" "3.19.2" "3.19.3" "3.19.4" "3.20.3" {
+  platform "darwin" {
+    source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-osx-x86_64.zip"
+  }
+}
 
 channel "stable" {
   update = "24h"
-  version = "3.*"
+  version = "22.*"
 }
 
 sha256sums = {
@@ -67,4 +77,11 @@ sha256sums = {
   "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.2/protoc-3.20.2-osx-x86_64.zip": "bf4abeff0678eba602b7f17d718574f394ac8455324a1563d10e4896c9037e1a",
   "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.3/protoc-3.20.3-linux-x86_64.zip": "44a6b498e996b845edef83864734c0e52f42197e85c9d567af55f4e3ff09d755",
   "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.3/protoc-3.20.3-osx-x86_64.zip": "f3ac8c37e87cb345a509eef7ec614092995d9423b8effb42c207c8fbdacb97ee",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.0/protoc-3.20.0-osx-aarch_64.zip": "dc5ad98c7b1d7ad90475ed333f023946e8fe5bef748cb54dc463069adb3fb5aa",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.1/protoc-3.20.1-osx-aarch_64.zip": "b362acae78542872bb6aac8dba73aaf0dc6e94991b8b0a065d6c3e703fec2a8b",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v3.20.2/protoc-3.20.2-osx-aarch_64.zip": "4a9df5c4921dc3ea6d166da12178f7c40c398643b16844e61737e2bd6c765619",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-osx-universal_binary.zip": "f7a4502cfbdaa84c4d5335e86af666c5adef9eb42081bb93d77b886c542a6a43",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-linux-x86_64.zip": "3c830b09192a8c40c599856eb184c89ee5029d7dab9df8ec6d3d6741dcb94b93",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-osx-universal_binary.zip": "635c7d1fffa43604bc7ed2acf1ea421b5af4e57e9855df7296bffd20de36b55f",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-linux-x86_64.zip": "15f281b36897e0ffbbe3a02f687ff9108c7a0f98bb653fb433e4bd62e698abe7",
 }
