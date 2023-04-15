@@ -8,10 +8,11 @@ env = {
 }
 
 version "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.9.0" "1.10.1" "1.11.0" "1.13.0"
-        "1.14.4" {
-  auto-version {
-    github-release = "encoredev/encore"
-  }
+        "1.14.4" "1.14.5" {
+// https://github.com/encoredev/encore/issues/669
+//  auto-version {
+//    github-release = "encoredev/encore"
+//  }
 }
 
 sha256sums = {
