@@ -29,7 +29,7 @@ version "0.23.2" "0.23.4" "0.23.5" "0.23.6" "0.23.7" "0.23.8" "0.23.9" "0.24.0"
         "0.24.1" "0.25.0" "0.25.1" "0.25.2" "0.25.3" "0.26.0" "0.26.1" "0.26.2" "0.26.3"
         "0.27.0" "0.27.1" "0.27.2" "0.27.3" "0.28.0" "0.28.1" "0.29.0" "0.30.0" "0.30.1"
         "0.30.2" "0.30.3" "0.30.4" "0.30.5" "0.30.6" "0.30.7" "0.30.8" "0.30.9" "0.30.10"
-        "0.30.11" "0.30.12" "0.30.13" "0.31.0" "0.31.1" "0.31.2" "0.32.0" {
+        "0.30.11" "0.30.12" "0.30.13" "0.31.0" "0.31.1" "0.31.2" "0.32.0" "0.32.1" {
   auto-version {
     github-release = "tilt-dev/tilt"
   }
@@ -207,4 +207,7 @@ sha256sums = {
   "https://github.com/tilt-dev/tilt/releases/download/v0.32.0/tilt.0.32.0.mac.arm64.tar.gz": "db7cd032c5248bb67f6464b7fc1d2f3e30620f1727cf24b40fc4a8b5d6745c7a",
   "https://github.com/tilt-dev/tilt/releases/download/v0.32.0/tilt.0.32.0.mac.x86_64.tar.gz": "1efbf6d69b25b6065721fea18a0645fadd8d05eddb55ca3d6c25ef12a58eb3fa",
   "https://github.com/tilt-dev/tilt/releases/download/v0.32.0/tilt.0.32.0.linux.x86_64.tar.gz": "b59cf42e8f54d81f56857e1601317cc2894625ab88094478193f2e2f703653ba",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.32.1/tilt.0.32.1.mac.x86_64.tar.gz": "f32044427b443258971fcd0d9d0e5c6cdfd58a9d9eba0857c233e8b9febaaeb4",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.32.1/tilt.0.32.1.mac.arm64.tar.gz": "8337bd855e1af75e7ae12a31d6e41d60424ef56e62473c66bd0efcd70f89f003",
+  "https://github.com/tilt-dev/tilt/releases/download/v0.32.1/tilt.0.32.1.linux.x86_64.tar.gz": "7f3360ae042b0647d37bb4f20484da9d8b0a9cbfa11aba7bcf82e9e842060938",
 }
