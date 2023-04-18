@@ -1,13 +1,27 @@
 description = "Manage Procfile-based applications"
 binaries = ["goreman"]
-source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman_v${version}_${os}_amd64.zip"
 strip = 1
 
-platform "linux" {
-  source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman_v${version}_${os}_amd64.tar.gz"
+platform darwin {
+  source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman_v${version}_${os}_${arch}.zip"
+}
+platform linux {
+  source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman_v${version}_${os}_${arch}.tar.gz"
 }
 
-version "0.3.7" "0.3.8" {
+version "0.3.8" "0.3.15" {
+  auto-version {
+    github-release = "mattn/goreman"
+  }
+}
+
+version "0.3.7" {
+  platform darwin {
+    source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman_v${version}_${os}_amd64.zip"
+  }
+  platform linux {
+    source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman_v${version}_${os}_amd64.tar.gz"
+  }  
 }
 
 sha256sums = {
