@@ -15,6 +15,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.AUTO_VERSIONING }}
         run: |
           set -xe
+
+          # Clear out and then re-add HashiCorp package digests because they
+          # frequently change due to binaries being republished every few months
+          # Examples:
+          # https://status.hashicorp.com/incidents/xbbwr755y78b
+          # https://status.hashicorp.com/incidents/f7bz2z28w6pv
+          grep --files-with-matches --fixed-strings 'releases.hashicorp.com' *.hcl | while read -r file; do
+            sed -i '' -E '/[a-fA-F0-9]{64}/d' $file
+            hermit manifest add-digests $file
+          done
+
           hermit -d manifest auto-version --update-digests *.hcl
           if git diff --exit-code ${{ github.event.pull_request.base.sha }}; then
             echo "No change"
