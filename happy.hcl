@@ -26,7 +26,7 @@ sha256sums = {
   "https://github.com/thnxdev/happy/releases/download/v0.1.1/happy-0.1.1-darwin-amd64.tar.gz": "1dbbafb461fc7c391dbcb7e58787121a97d0813a8dacb39b6a728b0be3672a8e",
   "https://github.com/thnxdev/happy/releases/download/v0.1.1/happy-0.1.1-linux-amd64.tar.gz": "23c2f62496c508c9b48db8da1031c30f28a8296f6e1d971ede4bb9b411dfb045",
   "https://github.com/thnxdev/happy/releases/download/v0.1.1/happy-0.1.1-darwin-arm64.tar.gz": "abbb8f8204b672b98c025d0feb6879921d721b23076d4b3872466248f85c4d56",
-  "https://github.com/thnxdev/happy/releases/download/v0.1.2/happy-0.1.2-darwin-amd64.tar.gz": "e29e67d836ba92d68c6df38ed6974971f096adb7e5b3c543062d6c8da6e37fc3",
-  "https://github.com/thnxdev/happy/releases/download/v0.1.2/happy-0.1.2-linux-amd64.tar.gz": "31e4c4e8fd669fd51773ee848c159739f4342c41a9c4871943e6d50db6ebeae0",
-  "https://github.com/thnxdev/happy/releases/download/v0.1.2/happy-0.1.2-darwin-arm64.tar.gz": "4961a1fee0b83838c2a356e951ddad92ce4f6182b1893888e79b7b5aaafccd6d",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.2/happy-0.1.2-darwin-amd64.tar.gz": "378b4e5b2d5e03f140d989531114151d28ac3c9e3dfa32032c2332cef6e9bd8c",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.2/happy-0.1.2-linux-amd64.tar.gz": "0033480ad982940dff00c612e1f46d7d1475f6c72c6125cb4e5193d89ec4d170",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.2/happy-0.1.2-darwin-arm64.tar.gz": "e809c5bb69191b55c7b0aa4017f41ad1f5e642b7e260c0a9e3df311777e1dc85",
 }
