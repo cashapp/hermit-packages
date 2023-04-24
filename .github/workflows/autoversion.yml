@@ -22,7 +22,7 @@ jobs:
           # https://status.hashicorp.com/incidents/xbbwr755y78b
           # https://status.hashicorp.com/incidents/f7bz2z28w6pv
           grep --files-with-matches --fixed-strings 'releases.hashicorp.com' *.hcl | while read -r file; do
-            sed -i '' -r -e '/[a-fA-F0-9]{64}/d' $file
+            sed -i~ -E -e '/[a-fA-F0-9]{64}/d' $file
             hermit manifest add-digests $file
           done
 
