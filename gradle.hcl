@@ -41,6 +41,9 @@ version "8.0-rc-2" {
 version "8.0.1" {
 }
 
+version "8.1.1" {
+}
+
 # Checksum reference: https://gradle.org/release-checksums/.
 sha256sums = {
   "https://services.gradle.org/distributions/gradle-6.7-bin.zip": "8ad57759019a9233dc7dc4d1a530cefe109dc122000d57f7e623f8cf4ba9dfc4",
@@ -54,5 +57,6 @@ sha256sums = {
   "https://services.gradle.org/distributions/gradle-7.6-bin.zip": "7ba68c54029790ab444b39d7e293d3236b2632631fb5f2e012bb28b4ff669e4b",
   "https://services.gradle.org/distributions/gradle-7.6.1-bin.zip": "6147605a23b4eff6c334927a86ff3508cb5d6722cd624c97ded4c2e8640f1f87",
   "https://services.gradle.org/distributions/gradle-8.0-rc-2-bin.zip": "28ebe9afc20564bcdc39bfe36f6b60a373e40be2c3c307a0028b545b8ccf6ba0",
-  "https://services.gradle.org/distributions/gradle-8.0.1-bin.zip": "1b6b558be93f29438d3df94b7dfee02e794b94d9aca4611a92cdb79b6b88e909"
+  "https://services.gradle.org/distributions/gradle-8.0.1-bin.zip": "1b6b558be93f29438d3df94b7dfee02e794b94d9aca4611a92cdb79b6b88e909",
+  "https://services.gradle.org/distributions/gradle-8.1.1-bin.zip": "e111cb9948407e26351227dabce49822fb88c37ee72f1d1582a69c68af2e702f"
 }
