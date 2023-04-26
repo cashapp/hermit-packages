@@ -15,6 +15,10 @@ platform "darwin" {
 
 source = "https://github.com/amacneil/dbmate/releases/download/v${version}/dbmate-${os_}-${arch}"
 
+on unpack {
+  rename { from = "${root}/dbmate-${os_}-${arch}" to = "${root}/dbmate" }
+}
+
 version "2.2.0" {
   auto-version {
     github-release = "amacneil/dbmate"
