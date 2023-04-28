@@ -55,6 +55,12 @@ version "10.18.0" {
   }
 }
 
+version "10.18.1" {
+  vars = {
+    "release_date": "20230420",
+  }
+}
+
 platform "linux" {
   source = "https://azcopyvnext.azureedge.net/release${release_date}/azcopy_${os}_amd64_${version}.tar.gz"
 }
