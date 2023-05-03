@@ -18,7 +18,7 @@ on "unpack" {
 }
 
 version "2.17.0" "2.20.0" "2.21.0" "3.0.0" "3.0.2" "3.0.4" "3.1.0" "3.1.1" "3.2.0"
-        "3.2.1" "3.2.2" {
+        "3.2.1" "3.2.2" "3.3.1" {
   auto-version {
     github-release = "pre-commit/pre-commit"
   }
@@ -36,4 +36,5 @@ sha256sums = {
   "https://github.com/pre-commit/pre-commit/releases/download/v3.2.0/pre-commit-3.2.0.pyz": "bed0c50a2ac4cd1209833f89b115e058d7b8bc120650cc3f69241e0b88d7cfa0",
   "https://github.com/pre-commit/pre-commit/releases/download/v3.2.1/pre-commit-3.2.1.pyz": "1526dca6f6568b94cc992aa02bd9f096c2dbbb8745196c220b63fb81c324dce6",
   "https://github.com/pre-commit/pre-commit/releases/download/v3.2.2/pre-commit-3.2.2.pyz": "751c8a20367fea3e9137bcbb30b4f918424d4ccaa1eca1a294a633c4207a973a",
+  "https://github.com/pre-commit/pre-commit/releases/download/v3.3.1/pre-commit-3.3.1.pyz": "f4f020fa071c4fd626c1e43126b54aae544f59eb21dd4e16b4e9d121d9ea8312",
 }

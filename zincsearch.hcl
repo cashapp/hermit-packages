@@ -10,7 +10,7 @@ platform "arm64" {
   source = "https://github.com/zinclabs/zincsearch/releases/download/v${version}/zincsearch_${version}_${os}_arm64.tar.gz"
 }
 
-version "0.4.0" "0.4.1" "0.4.2" "0.4.3" "0.4.4" {
+version "0.4.0" "0.4.1" "0.4.2" "0.4.3" "0.4.4" "0.4.5" {
   auto-version {
     github-release = "zinclabs/zincsearch"
   }
@@ -32,4 +32,7 @@ sha256sums = {
   "https://github.com/zinclabs/zincsearch/releases/download/v0.4.4/zincsearch_0.4.4_darwin_x86_64.tar.gz": "badfd66bff784afb72ff14f2bc20e042fd2085d536562aa895d68a2bbfe4fa20",
   "https://github.com/zinclabs/zincsearch/releases/download/v0.4.4/zincsearch_0.4.4_darwin_arm64.tar.gz": "e65f443e8cd19843930230e0ae72596d7f9c6ad4023ddf9708850e31faac271c",
   "https://github.com/zinclabs/zincsearch/releases/download/v0.4.4/zincsearch_0.4.4_linux_x86_64.tar.gz": "6e6f3210db50d570a6723fdb86684501e9c12a109a46dc0b64ccd28c3d32e43e",
+  "https://github.com/zinclabs/zincsearch/releases/download/v0.4.5/zincsearch_0.4.5_linux_x86_64.tar.gz": "242478abe2f1bff7bba891d32f5eb2069a2e97a0ada784cf3d12dff1af3461a3",
+  "https://github.com/zinclabs/zincsearch/releases/download/v0.4.5/zincsearch_0.4.5_darwin_arm64.tar.gz": "5b00d2a272fa68209587bc8cc7848632dccc1985328af2db06b9641ef9ef5b35",
+  "https://github.com/zinclabs/zincsearch/releases/download/v0.4.5/zincsearch_0.4.5_darwin_x86_64.tar.gz": "d3d2aca2079f5451b7fced64c341dfbb06bfd9a28e2bb045fb4e68bdcacf9d50",
 }

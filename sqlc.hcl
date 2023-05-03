@@ -13,7 +13,7 @@ version "1.5.0" "1.6.0" "1.7.0" "1.8.0" {
 }
 
 version "1.9.0" "1.10.0" "1.11.0" "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0"
-        "1.17.0" "1.17.2" {
+        "1.17.0" "1.17.2" "1.18.0" {
   darwin {
     source = "https://github.com/kyleconroy/sqlc/releases/download/v${version}/sqlc_${version}_darwin_amd64.tar.gz"
   }
@@ -68,4 +68,6 @@ sha256sums = {
   "https://github.com/kyleconroy/sqlc/releases/download/v1.17.0/sqlc_1.17.0_darwin_amd64.tar.gz": "1b2bc2ae1d0ddd54db53f02bc1fb9594fb8c07f832444e5c07dac1c11ca885cd",
   "https://github.com/kyleconroy/sqlc/releases/download/v1.17.2/sqlc_1.17.2_darwin_amd64.tar.gz": "f9253370519f1bf270be81b58978c7ad7e0b4bd96ad27d5efcb4b88dc2aa482a",
   "https://github.com/kyleconroy/sqlc/releases/download/v1.17.2/sqlc_1.17.2_linux_amd64.tar.gz": "76568b64caa36a03e8ab20c2ae6e17a68487728f33f24a4c6eecda5a836d0ae5",
+  "https://github.com/kyleconroy/sqlc/releases/download/v1.18.0/sqlc_1.18.0_darwin_amd64.tar.gz": "53b296a2169beb09b64fa03a7d70dc6f604d69bf10e38ef438d30116cbba7f5d",
+  "https://github.com/kyleconroy/sqlc/releases/download/v1.18.0/sqlc_1.18.0_linux_amd64.tar.gz": "3cfb6d82dec9bc15a37f983886cb3d55eacd31bad8538dc864497cff59d133c5",
 }
