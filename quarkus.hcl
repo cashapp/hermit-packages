@@ -5,11 +5,11 @@ source = "https://github.com/quarkusio/quarkus/releases/download/${version}.Fina
 binaries = ["bin/quarkus"]
 strip = 1
 
-version "2.16.3" "2.16.4" "2.16.5" "2.16.6" {
-  auto-version {
-    github-release = "quarkusio/quarkus"
-    version-pattern = "(.*)\\.Final"
-  }
+version "2.16.3" "2.16.4" "2.16.5" "2.16.6" "3.0.1" {
+//  auto-version {
+//    github-release = "quarkusio/quarkus"
+//    version-pattern = "(.*)\\.Final"
+//  }
 }
 
 sha256sums = {
