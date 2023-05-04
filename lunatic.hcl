@@ -10,7 +10,7 @@ platform "linux" "amd64" {
   source = "https://github.com/lunatic-solutions/lunatic/releases/download/v${version}/lunatic-linux-amd64.tar.gz"
 }
 
-version "0.10.0" "0.10.1" "0.12.0" {
+version "0.10.0" "0.10.1" "0.12.0" "0.13.2" {
   auto-version {
     github-release = "lunatic-solutions/lunatic"
   }
@@ -23,4 +23,6 @@ sha256sums = {
   "https://github.com/lunatic-solutions/lunatic/releases/download/v0.10.1/lunatic-macos-universal.tar.gz": "0e8b8ece255a4e0293407337d09bbf84948383a47cde34194944efa356cd0b39",
   "https://github.com/lunatic-solutions/lunatic/releases/download/v0.12.0/lunatic-linux-amd64.tar.gz": "23b1bc373d0aaead63c1a21aec0a873318516f2ed38726e600a4975cdf722628",
   "https://github.com/lunatic-solutions/lunatic/releases/download/v0.12.0/lunatic-macos-universal.tar.gz": "cef3c9187596086656d843976f7e84e5f22492f519ebebe70cd9549f4f82653b",
+  "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-linux-amd64.tar.gz": "9f46947b5d7865f67cd58efb5e732ae1472cc9c808a1f0152c588353299676e3",
+  "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-macos-universal.tar.gz": "b88299a9ba9044c461810d1f1ce3bf98a49b4a5a2f5261ab0b3857cf62a1d310",
 }
