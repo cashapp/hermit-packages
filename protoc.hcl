@@ -14,7 +14,7 @@ platform "linux" "arm64" {
   source = "https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protoc-${version}-linux-aarch_64.zip"
 }
 
-version "22.1" "22.2" "22.3" {
+version "22.1" "22.2" "22.3" "22.4" {
   auto-version {
     github-release = "protocolbuffers/protobuf"
     version-pattern = "v(\\d+\\.\\d+)$"
@@ -86,4 +86,6 @@ sha256sums = {
   "https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-linux-x86_64.zip": "15f281b36897e0ffbbe3a02f687ff9108c7a0f98bb653fb433e4bd62e698abe7",
   "https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-linux-x86_64.zip": "0f8070d762eb8a2f5a13a47713a553f989f9d9b556e7e3ebfa2bd6464e2ecaeb",
   "https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-osx-universal_binary.zip": "1691c8d43c2e7a1cf725ada147f64ee8398d04de6570ebc24c3c44205dc4a2ef",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v22.4/protoc-22.4-linux-x86_64.zip": "b3cff4d4076efe2965e8560cae6307c429349eda0af7755950d6ea5db6d72870",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v22.4/protoc-22.4-osx-universal_binary.zip": "fbb133d92cd6cdc919f8a9238c1bfbddf515e2a7ed9ca3ed1de4bf22dad79677",
 }
