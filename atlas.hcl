@@ -12,7 +12,7 @@ platform "darwin" "arm64" {
   }
 }
 
-version "0.9.0" "0.10.0" "0.10.1" {
+version "0.9.0" "0.10.0" "0.10.1" "0.11.0" {
   source = "https://release.ariga.io/atlas/atlas-${os}-${arch_}-v${version}"
 
   auto-version {
@@ -46,4 +46,6 @@ sha256sums = {
   "https://release.ariga.io/atlas/atlas-darwin-amd64-v0.10.0": "ee7640f3e9d1a639b327f4b0ca0077286af80fa1d14ba645df355c6169b17aa0",
   "https://release.ariga.io/atlas/atlas-linux-amd64-v0.10.1": "eb480bc9d1de4d144e71f48e637a5474e44aa1276a5cb4672b3975c6cb410ebb",
   "https://release.ariga.io/atlas/atlas-darwin-amd64-v0.10.1": "bb44c0118af842b9dcc8b0a1585fd2ec7ece41465eaf63e8c9c373a191715352",
+  "https://release.ariga.io/atlas/atlas-linux-amd64-v0.11.0": "69d43d036e9e5cb35181e650210ea65fec5398847b695e3a5da417a202317bf1",
+  "https://release.ariga.io/atlas/atlas-darwin-amd64-v0.11.0": "f6858471226a3dc4a9791785f83c246852f0811ac4bd96cfd87ba7ec0efefabf",
 }
