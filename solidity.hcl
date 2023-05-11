@@ -33,7 +33,7 @@ on "unpack" {
 version "0.8.16" "0.8.15" "0.8.14" "0.8.13" "0.8.12" "0.8.11" "0.8.10" "0.8.9" "0.8.8"
         "0.8.7" "0.8.6" "0.8.5" "0.8.4" "0.8.3" "0.8.2" "0.8.1" "0.8.0" "0.7.6" "0.7.5" "0.7.4"
         "0.7.3" "0.7.2" "0.7.1" "0.7.0" "0.6.12" "0.6.11" "0.6.10" "0.6.9" "0.8.17" "0.8.18"
-        "0.8.19" {
+        "0.8.19" "0.8.20" {
   auto-version {
     github-release = "ethereum/solidity"
     version-pattern = "v(.*)"
@@ -103,4 +103,6 @@ sha256sums = {
   "https://github.com/ethereum/solidity/releases/download/v0.8.18/solc-macos": "8f15287c799ad2b33f241d1252226abda5d4bc3ef6be40b946923178fc57d397",
   "https://github.com/ethereum/solidity/releases/download/v0.8.19/solc-static-linux": "7a5c1d3dc9a8eba62bb2ec37192c9178ae5fe8a54a56e5573fd3c9c17cd9eb48",
   "https://github.com/ethereum/solidity/releases/download/v0.8.19/solc-macos": "38c8523ab67e0b3e21c48189d6bfb99ad6879b9ce02e0d802ec8be598bb2622d",
+  "https://github.com/ethereum/solidity/releases/download/v0.8.20/solc-macos": "fc329945e0068e4e955d0a7b583776dc8d25e72ab657a044618a7ce7dd0519aa",
+  "https://github.com/ethereum/solidity/releases/download/v0.8.20/solc-static-linux": "0479d44fdf9c501c25337fdc540419f1593b884a87b47f023da4f1c700fda782",
 }
