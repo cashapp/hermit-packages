@@ -22,7 +22,7 @@ version "0.15.11" {
 
 version "0.16.0" "0.16.1" "0.17.0" "0.18.2" "0.24.0" "0.24.1" "0.24.2" "0.24.4"
         "0.25.1" "0.26.0" "0.27.0" "0.29.0" "0.30.0" "0.31.0" "0.32.0" "0.33.0" "0.34.1"
-        "0.34.2" {
+        "0.34.2" "0.35.0" {
   auto-version {
     github-release = "neilotoole/sq"
   }
@@ -86,4 +86,7 @@ sha256sums = {
   "https://github.com/neilotoole/sq/releases/download/v0.34.2/sq-0.34.2-macos-amd64.tar.gz": "afd97a39acf7b25d132535cb02896e919ee720006dac65adcfaf67a4cb3c55d3",
   "https://github.com/neilotoole/sq/releases/download/v0.34.2/sq-0.34.2-macos-arm64.tar.gz": "a07403510fbb84782a24b0a50ce3ebc731c271a07949aa5aff06ab1daccf9911",
   "https://github.com/neilotoole/sq/releases/download/v0.34.2/sq-0.34.2-linux-amd64.tar.gz": "d165e4d52b380d1ffb8b45d9f3fdb5bb7fd1aa750dda1308cd4d05d153a149f4",
+  "https://github.com/neilotoole/sq/releases/download/v0.35.0/sq-0.35.0-macos-arm64.tar.gz": "fa428aea2ea91ae0c28f6cc53fc46ad19760bb41e9b8f941e0d29c587ad604fc",
+  "https://github.com/neilotoole/sq/releases/download/v0.35.0/sq-0.35.0-linux-amd64.tar.gz": "1ac0127a19846c5ff01076d026ec9dcb625c42102dfd4e134ceab90fca6a82dd",
+  "https://github.com/neilotoole/sq/releases/download/v0.35.0/sq-0.35.0-macos-amd64.tar.gz": "671ca82ef50d42bef67030c72044c4083ed830cced6c04332acd1886266cdd0b",
 }

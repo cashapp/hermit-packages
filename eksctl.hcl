@@ -5,7 +5,7 @@ source = "https://github.com/weaveworks/eksctl/releases/download/v${version}/eks
 sha256-source = "https://github.com/weaveworks/eksctl/releases/download/v${version}/eksctl_checksums.txt"
 
 version "0.129.0" "0.130.0" "0.131.0" "0.132.0" "0.133.0" "0.134.0" "0.135.0"
-        "0.136.0" "0.137.0" "0.138.0" "0.139.0" "0.140.0" {
+        "0.136.0" "0.137.0" "0.138.0" "0.139.0" "0.140.0" "0.141.0" {
   auto-version {
     github-release = "weaveworks/eksctl"
   }
@@ -48,4 +48,7 @@ sha256sums = {
   "https://github.com/weaveworks/eksctl/releases/download/v0.140.0/eksctl_darwin_arm64.tar.gz": "7b8f6d0faebdfc51f8219e94c72fbfa06c7e3f416e69223f6a075c04624f7549",
   "https://github.com/weaveworks/eksctl/releases/download/v0.140.0/eksctl_darwin_amd64.tar.gz": "f4b130477c19c45be969e007005f18c09181724ec1d3d9fad3ec9875dcae83ee",
   "https://github.com/weaveworks/eksctl/releases/download/v0.140.0/eksctl_linux_amd64.tar.gz": "efa5fe8876fa36d4e4d81bdcd0f39805855e80ced1f971fda9a8d6a18055c824",
+  "https://github.com/weaveworks/eksctl/releases/download/v0.141.0/eksctl_darwin_arm64.tar.gz": "2a638f5730216d2179a2bb69096cfc4b60b0975262b5c54b43f5bf7615f27e91",
+  "https://github.com/weaveworks/eksctl/releases/download/v0.141.0/eksctl_linux_amd64.tar.gz": "a6f7390e3520721376cfc35bfc688492ab380e6adcc5cbd897d996db44f00712",
+  "https://github.com/weaveworks/eksctl/releases/download/v0.141.0/eksctl_darwin_amd64.tar.gz": "60d5ae50d5b6133f10156faa2588b7fc85f4e561df3b9e208160ea8630031e0e",
 }
