@@ -8,7 +8,7 @@ platform "darwin" {
 }
 
 version "0.0.5" "0.0.6" "0.0.7" "0.0.8" "0.0.9" "0.0.10" "0.1.0" "0.2.0" "0.3.0"
-        "0.4.0" "0.5.0" {
+        "0.4.0" "0.5.0" "0.6.0" {
   auto-version {
     github-release = "wader/fq"
   }
@@ -48,4 +48,7 @@ sha256sums = {
   "https://github.com/wader/fq/releases/download/v0.5.0/fq_0.5.0_macos_amd64.zip": "5b00e7f71276a1c4ae8156106509fa8402a6eb18977a9921be4e3f9a7a3c5f1c",
   "https://github.com/wader/fq/releases/download/v0.5.0/fq_0.5.0_macos_arm64.zip": "40d8e92589ead536bf7f4698cbeb6dbf5ac9f53481126e800791b32e145b5c7e",
   "https://github.com/wader/fq/releases/download/v0.5.0/fq_0.5.0_linux_amd64.tar.gz": "a56f9f25e100171c28df0f65e5a084a560b9d865760fd8b80a37db501464c902",
+  "https://github.com/wader/fq/releases/download/v0.6.0/fq_0.6.0_linux_amd64.tar.gz": "74f204c91b876672f6b24e2445488651dcb3d869b414d27d9f1ffe38a361f466",
+  "https://github.com/wader/fq/releases/download/v0.6.0/fq_0.6.0_macos_arm64.zip": "b1521817ab30cc2f41e959c1945d26845043fd98d69eb9e793d7643046a6d104",
+  "https://github.com/wader/fq/releases/download/v0.6.0/fq_0.6.0_macos_amd64.zip": "63dae9853fedc27b3f6c8ef4863be6b4ae0ac9ee060ec7e21f9eceb26cf188b3",
 }

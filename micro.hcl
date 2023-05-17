@@ -3,7 +3,7 @@ homepage = "https://micro.dev"
 binaries = ["micro"]
 source = "https://github.com/micro/micro/releases/download/v${version}/micro-v${version}-${os}-${arch}.tar.gz"
 
-version "3.13.0" "3.14.0" "3.15.0" "3.15.1" "3.16.0" "3.18.0" {
+version "3.13.0" "3.14.0" "3.15.0" "3.15.1" "3.16.0" "3.18.0" "3.18.2" {
   auto-version {
     github-release = "micro/micro"
   }
@@ -28,4 +28,7 @@ sha256sums = {
   "https://github.com/micro/micro/releases/download/v3.18.0/micro-v3.18.0-darwin-arm64.tar.gz": "5ff3a2603f2caa07f5394ab39bac701aaa919cddf69eef74ac9330edfde97205",
   "https://github.com/micro/micro/releases/download/v3.18.0/micro-v3.18.0-linux-amd64.tar.gz": "f21b40c698869948dc53c0f2e5ca071767ca8a2aee8fbfb7ee9ff7b2c9426fa3",
   "https://github.com/micro/micro/releases/download/v3.18.0/micro-v3.18.0-darwin-amd64.tar.gz": "de5a392435f9c80065d1466091843316e45341552d144ce2c8abb5a7e6939aec",
+  "https://github.com/micro/micro/releases/download/v3.18.2/micro-v3.18.2-darwin-arm64.tar.gz": "a2de761355f10686aeff96424241648d221bc4bac0f3337010096c0f8afe6314",
+  "https://github.com/micro/micro/releases/download/v3.18.2/micro-v3.18.2-darwin-amd64.tar.gz": "87f4c2941e66540d402775a857d972f8b815ebb888e4d0def6d19e04e5c0615b",
+  "https://github.com/micro/micro/releases/download/v3.18.2/micro-v3.18.2-linux-amd64.tar.gz": "7552bfc37745d0dba28d831d92f049caafc1ba8f025929fef8d0e5c98cf9dc5a",
 }

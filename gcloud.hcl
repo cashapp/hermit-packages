@@ -24,7 +24,8 @@ version "360.0.0" "387.0.0" "388.0.0" "389.0.0" "390.0.0" "391.0.0" "392.0.0"
         "401.0.0" "402.0.0" "403.0.0" "404.0.0" "405.0.0" "405.0.1" "406.0.0" "407.0.0"
         "408.0.0" "408.0.1" "409.0.0" "410.0.0" "411.0.0" "412.0.0" "413.0.0" "414.0.0"
         "415.0.0" "416.0.0" "417.0.0" "417.0.1" "418.0.0" "419.0.0" "420.0.0" "421.0.0"
-        "422.0.0" "423.0.0" "424.0.0" "425.0.0" "426.0.0" "427.0.0" "429.0.0" "430.0.0" {
+        "422.0.0" "423.0.0" "424.0.0" "425.0.0" "426.0.0" "427.0.0" "429.0.0" "430.0.0"
+        "431.0.0" {
   env = {
     "CLOUDSDK_PYTHON": "python3",
   }
@@ -188,4 +189,7 @@ sha256sums = {
   "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-430.0.0-darwin-x86_64.tar.gz": "4ce63d6d18d87cd3055ccd85f2a6ea8897487fa212326fdec2d1b5d6b59ca92f",
   "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-430.0.0-darwin-arm.tar.gz": "03fa355695554e5178f59b218350c2bd22936ec8abba0b5d5a841a6fdd40956e",
   "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-430.0.0-linux-x86_64.tar.gz": "a10844ec4e5af0e9f8c814ab765018bd40006c43e23b9f98cb25388848facea6",
+  "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-431.0.0-darwin-x86_64.tar.gz": "e3c3a82638ae2d44969af19472f15163695a8fa35d6cc9199cc744ab72e8aa51",
+  "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-431.0.0-darwin-arm.tar.gz": "4a8374c069336db6e090304d047b42fee93482dcc05e0ce37c0965694af1f2de",
+  "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-431.0.0-linux-x86_64.tar.gz": "a8eb9f3c55fd67f54fc9a0a1b7d9eb7f15d4a1fb884b763fcd63ac9557a29467",
 }

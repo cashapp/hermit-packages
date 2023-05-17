@@ -2,7 +2,7 @@ description = "Generate Atlantis Config for Terragrunt projects"
 binaries = ["terragrunt-atlantis-config"]
 strip = 1
 
-platform darwin {
+platform "darwin" {
   source = "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v${version}/terragrunt-atlantis-config_${version}_${os}_amd64.zip"
 
   on "unpack" {
@@ -13,7 +13,7 @@ platform darwin {
   }
 }
 
-platform linux amd64 {
+platform "linux" "amd64" {
   source = "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v${version}/terragrunt-atlantis-config_${version}_${os}_amd64.tar.gz"
 
   on "unpack" {
@@ -23,7 +23,8 @@ platform linux amd64 {
     }
   }
 }
-platform linux arm64 {
+
+platform "linux" "arm64" {
   source = "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v${version}/terragrunt-atlantis-config_${version}_${os}_arm.tar.gz"
 
   on "unpack" {
@@ -34,8 +35,7 @@ platform linux arm64 {
   }
 }
 
-
-version "1.15.0" {
+version "1.15.0" "1.16.0" {
   auto-version {
     github-release = "transcend-io/terragrunt-atlantis-config"
   }
@@ -43,5 +43,7 @@ version "1.15.0" {
 
 sha256sums = {
   "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.16.0/terragrunt-atlantis-config_1.16.0_darwin_amd64.zip": "588db1f4563f234103f580431698ce9cf8dd7ce3d280e1c313aa90e545d71c7a",
-  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.16.0/terragrunt-atlantis-config_1.16.0_linux_amd64.tar.gz": "fc3b069cf4ae51e9b7a7d01f09862d1974b260fffb3ec857d661d7b1756fe26f"
+  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.16.0/terragrunt-atlantis-config_1.16.0_linux_amd64.tar.gz": "fc3b069cf4ae51e9b7a7d01f09862d1974b260fffb3ec857d661d7b1756fe26f",
+  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.15.0/terragrunt-atlantis-config_1.15.0_linux_amd64.tar.gz": "ef0737c9dce98441686e4ec5e69aa7fa36c9ffc9663f214a6fcb5a9fc448907a",
+  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.15.0/terragrunt-atlantis-config_1.15.0_darwin_amd64.zip": "cc698d1e66462be272db5372134bf6bb75ef38534815cdd030376b0e13d04623",
 }

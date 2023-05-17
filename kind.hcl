@@ -11,7 +11,8 @@ on "unpack" {
   }
 }
 
-version "0.11.1" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" "0.18.0" {
+version "0.11.1" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" "0.18.0"
+        "0.19.0" {
   auto-version {
     github-release = "kubernetes-sigs/kind"
   }
@@ -47,4 +48,7 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/kind/releases/download/v0.18.0/kind-darwin-arm64": "96e0765d385c4e5457dc95dc49f66d385727885dfe1ad77520af0a32b7f8ccb2",
   "https://github.com/kubernetes-sigs/kind/releases/download/v0.18.0/kind-linux-amd64": "705c722b0a87c9068e183f6d8baecd155a97a9683949ca837c2a500c9aa95c63",
   "https://github.com/kubernetes-sigs/kind/releases/download/v0.18.0/kind-darwin-amd64": "9c91e3a6f380ee4cab79094d3fade94eb10a4416d8d3a6d3e1bb9c616f392de4",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.19.0/kind-darwin-amd64": "32bd46859a98bffdfc2e594850c4147d297b3f93007f8376b6d4a28e82dee29a",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.19.0/kind-linux-amd64": "b543dca8440de4273be19ad818dcdfcf12ad1f767c962242fcccdb383dff893b",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.19.0/kind-darwin-arm64": "2628c53ddf4a2de19950df0452176e400e33b8c83834afab93651c2b6f9546bd",
 }
