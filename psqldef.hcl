@@ -10,7 +10,7 @@ platform "linux" {
   source = "https://github.com/k0kubun/sqldef/releases/download/v${version}/psqldef_${os}_${arch}.tar.gz"
 }
 
-version "0.15.22" "0.15.23" "0.15.24" "0.15.25" "0.15.26" "0.15.27" {
+version "0.15.22" "0.15.23" "0.15.24" "0.15.25" "0.15.26" "0.15.27" "0.16.0" {
   auto-version {
     github-release = "k0kubun/sqldef"
   }
@@ -35,4 +35,7 @@ sha256sums = {
   "https://github.com/k0kubun/sqldef/releases/download/v0.15.27/psqldef_linux_amd64.tar.gz": "7cd1cdf63c8586f76553a626eb92158629d317cd25671f49639b23c5d7f620dd",
   "https://github.com/k0kubun/sqldef/releases/download/v0.15.27/psqldef_darwin_amd64.zip": "8142a929a6d61142b821e890c57ff90f86a9b2614ef3fdc5a3e45607e966abd2",
   "https://github.com/k0kubun/sqldef/releases/download/v0.15.27/psqldef_darwin_arm64.zip": "bcae68c1dcf9fb8ca3b66831690638328deeffd3a228693e71ef012fb20435e6",
+  "https://github.com/k0kubun/sqldef/releases/download/v0.16.0/psqldef_darwin_amd64.zip": "e01dff178bb6b01000308091b5c2e0b4317b7f3ed01b7c829acfce151141a7d6",
+  "https://github.com/k0kubun/sqldef/releases/download/v0.16.0/psqldef_darwin_arm64.zip": "d4a9444f0316f43a7d2b3fa20131a5d01dbcf2431603a2c112de1953ae49b0b7",
+  "https://github.com/k0kubun/sqldef/releases/download/v0.16.0/psqldef_linux_amd64.tar.gz": "e188fde9f0e9d2246cefdaa8c4a43d918b9afd900aee675090b78e9aa61dbb50",
 }
