@@ -12,7 +12,7 @@ platform "darwin" "arm64" {
 
 version "0.6.4" "0.7.1" "0.7.2" "0.7.3" "0.7.4" "0.8.0" "0.8.1" "0.8.2" "0.8.3" "0.9.0"
         "0.9.1" "0.9.2" "0.10.0" "0.11.0" "0.11.1" "0.11.2" "0.11.3" "0.12.0" "0.13.0"
-        "0.14.1" "0.14.2" "0.15.0" "0.15.1" {
+        "0.14.1" "0.14.2" "0.15.0" "0.15.1" "0.16.0" {
   auto-version {
     github-release = "lima-vm/lima"
   }
@@ -88,4 +88,7 @@ sha256sums = {
   "https://github.com/lima-vm/lima/releases/download/v0.15.1/lima-0.15.1-darwin-x86_64.tar.gz": "471f7d58080031745ac88e1560a550895b89caaee1bb66162a084a5ca7a8a563",
   "https://github.com/lima-vm/lima/releases/download/v0.15.1/lima-0.15.1-darwin-arm64.tar.gz": "eb5dee5f96f87c2bd8046a6e5f6acb4ffe0c07b15b2863156b1427be904a4437",
   "https://github.com/lima-vm/lima/releases/download/v0.15.1/lima-0.15.1-linux-x86_64.tar.gz": "bfe9e41ed7a718143cbfc7b797c764ca23297a031a2645c4f8bb4be6bf0b8388",
+  "https://github.com/lima-vm/lima/releases/download/v0.16.0/lima-0.16.0-darwin-x86_64.tar.gz": "6c6278ddc2db080b4ad6a2f39ae36e6258efd6c696fbe599a5d389cfb9232aa1",
+  "https://github.com/lima-vm/lima/releases/download/v0.16.0/lima-0.16.0-darwin-arm64.tar.gz": "092d586426f85c61263bd4822c22538b1585dc84d0369dccac936db758a17ce1",
+  "https://github.com/lima-vm/lima/releases/download/v0.16.0/lima-0.16.0-linux-x86_64.tar.gz": "be6093c2a9b0aa3c39cc5a5e39e79223c6d03f0e07ebadf70c3c128143672a84",
 }
