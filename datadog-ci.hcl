@@ -2,7 +2,7 @@ description = "Use Datadog from your CI"
 binaries = ["datadog-ci"]
 test = "datadog-ci --version"
 
-platform "darwin" "amd64" {
+platform "darwin" {
   source = "https://github.com/DataDog/datadog-ci/releases/download/v${version}/datadog-ci_darwin-x64"
 
   on "unpack" {
