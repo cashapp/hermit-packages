@@ -6,7 +6,7 @@ source = "https://github.com/vespa-engine/vespa/releases/download/v${version}/ve
 
 version "8.125.29" "8.130.48" "8.131.17" "8.132.43" "8.136.37" "8.146.12" "8.148.14"
         "8.149.36" "8.151.21" "8.153.19" "8.154.35" "8.159.53" "8.161.74" "8.162.29" "8.164.52"
-        "8.167.17" {
+        "8.167.17" "8.168.43" {
   auto-version {
     github-release = "vespa-engine/vespa"
     version-pattern = "v(.*)"
@@ -62,4 +62,7 @@ sha256sums = {
   "https://github.com/vespa-engine/vespa/releases/download/v8.167.17/vespa-cli_8.167.17_linux_amd64.tar.gz": "0c80dc92ddde9ffd0d03ec08afe9128b74c0c76eae60cb231cadc039ad5f29e1",
   "https://github.com/vespa-engine/vespa/releases/download/v8.167.17/vespa-cli_8.167.17_darwin_amd64.tar.gz": "635b467ea9d68e88fb70ee885d4eb225928ed5371cb16e4d3d035ad397f3110c",
   "https://github.com/vespa-engine/vespa/releases/download/v8.167.17/vespa-cli_8.167.17_darwin_arm64.tar.gz": "df8ec80d0f44bc44edae81b05022def55167b4559670d9a1666d8723682e46cb",
+  "https://github.com/vespa-engine/vespa/releases/download/v8.168.43/vespa-cli_8.168.43_linux_amd64.tar.gz": "1daf3de176922416ca765cf319020502fc5329dad3537fbffede3c3d0ebd5c9c",
+  "https://github.com/vespa-engine/vespa/releases/download/v8.168.43/vespa-cli_8.168.43_darwin_amd64.tar.gz": "d3b16135395a2a34c6d35f199fa91d3d0db2891b9f44ec333c5d3a957ada2edd",
+  "https://github.com/vespa-engine/vespa/releases/download/v8.168.43/vespa-cli_8.168.43_darwin_arm64.tar.gz": "39f33860eeedce928db9bb9703ae046d597af75071bf608942007a3e434261ee",
 }

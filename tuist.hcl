@@ -8,7 +8,7 @@ darwin {
 
 version "2.7.2" "3.0.1" "3.1.0" "3.2.0" "3.3.0" "3.4.0" "3.5.0" "3.6.0" "3.7.0" "3.8.0"
         "3.9.0" "3.10.0" "3.11.0" "3.12.0" "3.12.1" "3.13.0" "3.14.0" "3.15.0" "3.16.0"
-        "3.17.0" "3.18.0" "3.19.0" {
+        "3.17.0" "3.18.0" "3.19.0" "3.20.0" {
   auto-version {
     github-release = "tuist/tuist"
   }
@@ -37,4 +37,5 @@ sha256sums = {
   "https://github.com/tuist/tuist/releases/download/3.17.0/tuist.zip": "43c551f9c9fd729b989218f9e2ebc0bebd44af1f888119d398aac829d0f7231c",
   "https://github.com/tuist/tuist/releases/download/3.18.0/tuist.zip": "afec90f79ff620821d56c3bcc361c25b7fb9bb876cceb77c0c38acc4921ff959",
   "https://github.com/tuist/tuist/releases/download/3.19.0/tuist.zip": "dcbb0e528ef7fee7152f84658eb2da34ac4ef418f65cab808be818d940797073",
+  "https://github.com/tuist/tuist/releases/download/3.20.0/tuist.zip": "f46f04ae8937b45fe466746b1ef48d988cd832d99845a6bd380379ef53f32aeb",
 }
