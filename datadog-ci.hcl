@@ -7,8 +7,8 @@ platform "darwin" {
 
   on "unpack" {
     rename {
-      from = "datadog-ci_darwin-x64"
-      to = "datadog-ci"
+      from = "${root}/datadog-ci_darwin-x64"
+      to = "${root}/datadog-ci"
     }
   }
 }
@@ -18,8 +18,8 @@ platform "linux" "amd64" {
 
   on "unpack" {
     rename {
-      from = "datadog-ci_linux-x64"
-      to = "datadog-ci"
+      from = "${root}/datadog-ci_linux-x64"
+      to = "${root}/datadog-ci"
     }
   }
 }
