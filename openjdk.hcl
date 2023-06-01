@@ -179,9 +179,9 @@ channel "zulu" {
 }
 
 sha256sums = {
-  "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jdk8.0.372-linux_x64.tar.gz": "afcda0f08cd05efd3bd60b021618931595ab03689f1c1fefcd46ef7761276d10"
-  "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jdk8.0.372-macosx_aarch64.tar.gz": "ae68ae6a93d1d9952e5ff096f6612eea486846a8506e30dec3dd3b3e52b9d005"
-  "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jdk8.0.372-macosx_x64.tar.gz": "d35a7bedfb3dde69701d27b7df6100143c5617d5fee746acb3d845311a9573af"
+  "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jdk8.0.372-linux_x64.tar.gz": "afcda0f08cd05efd3bd60b021618931595ab03689f1c1fefcd46ef7761276d10",
+  "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jdk8.0.372-macosx_aarch64.tar.gz": "ae68ae6a93d1d9952e5ff096f6612eea486846a8506e30dec3dd3b3e52b9d005",
+  "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jdk8.0.372-macosx_x64.tar.gz": "d35a7bedfb3dde69701d27b7df6100143c5617d5fee746acb3d845311a9573af",
   "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10_openj9-0.26.0/OpenJDK8U-jdk_x64_mac_openj9_8u292b10_openj9-0.26.0.tar.gz": "d262bc226895e80b7e80d61905e65fe043ca0a3e3b930f7b88ddfacb8835e939",
   "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10_openj9-0.26.0/OpenJDK8U-jdk_x64_linux_openj9_8u292b10_openj9-0.26.0.tar.gz": "06d6c9421778575cf59d50f69b7ac6a7bb237485b3a3c2f89cfb61a056c7b2de",
   "https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jdk11.0.11-linux_x64.tar.gz": "172449e998afbb59a961598330a3438dbe9f188910cdeb14d0a6457421541134",
