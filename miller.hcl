@@ -8,7 +8,7 @@ platform "darwin" {
   source = "https://github.com/johnkerl/miller/releases/download/v${version}/miller-${version}-macos-${arch}.tar.gz"
 }
 
-version "6.6.0" "6.7.0" {
+version "6.6.0" "6.7.0" "6.8.0" {
   auto-version {
     github-release = "johnkerl/miller"
   }
@@ -21,4 +21,7 @@ sha256sums = {
   "https://github.com/johnkerl/miller/releases/download/v6.7.0/miller-6.7.0-linux-amd64.tar.gz": "987b5a63cdec38026d82c18a0935fab26bd93125b955fe75bb8f772dd0390205",
   "https://github.com/johnkerl/miller/releases/download/v6.7.0/miller-6.7.0-macos-amd64.tar.gz": "9fc900bfeba344c0fdd11e8e944c89fdefa60dbda7a839b89339320e08d282d7",
   "https://github.com/johnkerl/miller/releases/download/v6.7.0/miller-6.7.0-macos-arm64.tar.gz": "e71d2afac2b64fb965f61b341db3ce4ec8ae12f32652ee5c4d39a19380503e25",
+  "https://github.com/johnkerl/miller/releases/download/v6.8.0/miller-6.8.0-macos-amd64.tar.gz": "08c704378446141027e14950ab2a6b3c5fc2addc68d05f3af2f548c864ee164a",
+  "https://github.com/johnkerl/miller/releases/download/v6.8.0/miller-6.8.0-linux-amd64.tar.gz": "2c4d3dda545a5124f71a3e17dda47e168e6035e02668015327f9efc8b66ad667",
+  "https://github.com/johnkerl/miller/releases/download/v6.8.0/miller-6.8.0-macos-arm64.tar.gz": "c35508a5cccf759d768f2ff08cd8d98be0789b88003cfd9a078d69514466b0c4",
 }
