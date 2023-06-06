@@ -11,7 +11,7 @@ platform "linux" {
   source = "https://github.com/shuttle-hq/shuttle/releases/download/v${version}/cargo-shuttle-v${version}-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
-version "0.11.2" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" {
+version "0.11.2" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" "0.18.0" {
   auto-version {
     github-release = "shuttle-hq/shuttle"
   }
@@ -32,4 +32,6 @@ sha256sums = {
   "https://github.com/shuttle-hq/shuttle/releases/download/v0.16.0/cargo-shuttle-v0.16.0-x86_64-unknown-linux-gnu.tar.gz": "ed65a047a2b67be7169cffe383b452cf92eaa6c15a781b5e111685eb963c2aeb",
   "https://github.com/shuttle-hq/shuttle/releases/download/v0.17.0/cargo-shuttle-v0.17.0-x86_64-apple-darwin.tar.gz": "5570a4752b876f1946d6537a72ce16d1fb6aa10f140d62ed672c877dde2b7201",
   "https://github.com/shuttle-hq/shuttle/releases/download/v0.17.0/cargo-shuttle-v0.17.0-x86_64-unknown-linux-gnu.tar.gz": "3f87271a3d5675cc15bfdd14913bc25cb320ca94afd9af1308d5a7a6b708f0cd",
+  "https://github.com/shuttle-hq/shuttle/releases/download/v0.18.0/cargo-shuttle-v0.18.0-x86_64-unknown-linux-gnu.tar.gz": "2064888e331de40788ae0ac8f34e7add53b79549959f0ebf9f8c040056503e43",
+  "https://github.com/shuttle-hq/shuttle/releases/download/v0.18.0/cargo-shuttle-v0.18.0-x86_64-apple-darwin.tar.gz": "d43300a69aa7b7d4d088fa28b365d4d3ca1aa023e049c2affcb0df197436f6f1",
 }
