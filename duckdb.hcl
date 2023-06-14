@@ -9,7 +9,7 @@ platform "darwin" {
   source = "https://github.com/duckdb/duckdb/releases/download/v${version}/duckdb_cli-osx-universal.zip"
 }
 
-version "0.4.0" "0.5.0" "0.5.1" "0.6.0" "0.6.1" "0.7.0" "0.7.1" "0.8.0" {
+version "0.4.0" "0.5.0" "0.5.1" "0.6.0" "0.6.1" "0.7.0" "0.7.1" "0.8.0" "0.8.1" {
   auto-version {
     github-release = "duckdb/duckdb"
   }
@@ -32,4 +32,6 @@ sha256sums = {
   "https://github.com/duckdb/duckdb/releases/download/v0.7.1/duckdb_cli-osx-universal.zip": "7dc474b21a964689f739bc70053718adb1ead3b12679a4efe29487687c684c45",
   "https://github.com/duckdb/duckdb/releases/download/v0.8.0/duckdb_cli-osx-universal.zip": "9e7d89a9238ac86246a5632611f55e96ba4c7cd6f2c3829cbeead3be7e732f5a",
   "https://github.com/duckdb/duckdb/releases/download/v0.8.0/duckdb_cli-linux-amd64.zip": "bc5cb74015e7d164ac0cf160df62625b7024003b48a7507bcde486fcad1120b7",
+  "https://github.com/duckdb/duckdb/releases/download/v0.8.1/duckdb_cli-linux-amd64.zip": "892ae08f39598124180fbd2912895beb116f5ca0f32e9657db2376f3d58fec97",
+  "https://github.com/duckdb/duckdb/releases/download/v0.8.1/duckdb_cli-osx-universal.zip": "ce22241064378fd6e3e43f4be2d9d5cf4a245187e2ef97268715a774586aab2b",
 }
