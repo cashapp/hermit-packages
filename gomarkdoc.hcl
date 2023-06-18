@@ -3,7 +3,7 @@ binaries = ["gomarkdoc"]
 strip = 1
 source = "https://github.com/princjef/gomarkdoc/releases/download/v${version}/gomarkdoc_${version}_${os}_${arch}.tar.gz"
 
-version "0.4.1" "1.0.0" {
+version "0.4.1" "1.0.0" "1.1.0" {
   auto-version {
     github-release = "princjef/gomarkdoc"
   }
@@ -16,4 +16,7 @@ sha256sums = {
   "https://github.com/princjef/gomarkdoc/releases/download/v1.0.0/gomarkdoc_1.0.0_linux_amd64.tar.gz": "93c42613b59902e3d2c34b0c86d9fcea87f34e6967cef0a6906fcbd8a402add4",
   "https://github.com/princjef/gomarkdoc/releases/download/v1.0.0/gomarkdoc_1.0.0_darwin_amd64.tar.gz": "05b59e55b458517ae046884d058025f653f968e623569301ba036e565ccab580",
   "https://github.com/princjef/gomarkdoc/releases/download/v1.0.0/gomarkdoc_1.0.0_darwin_arm64.tar.gz": "6452d3ef02b0dca050751f2e774da6dea9d4f1fa6481cb938797ae62b049c03a",
+  "https://github.com/princjef/gomarkdoc/releases/download/v1.1.0/gomarkdoc_1.1.0_linux_amd64.tar.gz": "d2259bd92f434c60a90633bca336aed169f17b96d0bb078f408bc68349bf348a",
+  "https://github.com/princjef/gomarkdoc/releases/download/v1.1.0/gomarkdoc_1.1.0_darwin_amd64.tar.gz": "0e729f634fe0a943ee5cc0dc30b5293019c4ac6ef80c31a255a8a0154f7e492c",
+  "https://github.com/princjef/gomarkdoc/releases/download/v1.1.0/gomarkdoc_1.1.0_darwin_arm64.tar.gz": "27b12364b525524f07b588986d0ad58f87fb2b484eff8a2af0b01332c339e073",
 }
