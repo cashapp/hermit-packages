@@ -2,7 +2,7 @@ description = "ko is a simple, fast container image builder for Go applications.
 binaries = ["ko"]
 test = "ko --help"
 
-version "0.9.3" "0.10.0" "0.11.0" "0.11.1" "0.11.2" "0.12.0" "0.13.0" {
+version "0.9.3" "0.10.0" "0.11.0" "0.11.1" "0.11.2" "0.12.0" "0.13.0" "0.14.1" {
   auto-version {
     github-release = "google/ko"
   }
@@ -33,4 +33,6 @@ sha256sums = {
   "https://github.com/google/ko/releases/download/v0.12.0/ko_0.12.0_Linux_x86_64.tar.gz": "05aa77182fa7c55386bd2a210fd41298542726f33bbfc9c549add3a66f7b90ad",
   "https://github.com/google/ko/releases/download/v0.13.0/ko_0.13.0_Linux_x86_64.tar.gz": "80f3e3148fabd5b839cc367ac56bb4794f90e7262b01911316c670b210b574cc",
   "https://github.com/google/ko/releases/download/v0.13.0/ko_0.13.0_Darwin_x86_64.tar.gz": "8d9daea9bcf25c790f705ea115d1c0a0193cb3d9759e937ab2959c71f88ce29c",
+  "https://github.com/google/ko/releases/download/v0.14.1/ko_0.14.1_Darwin_x86_64.tar.gz": "b879ea58255c9f2be2d4d6c4f6bd18209c78e9e0b890dbce621954ee0d63c4e5",
+  "https://github.com/google/ko/releases/download/v0.14.1/ko_0.14.1_Linux_x86_64.tar.gz": "3f8f8e3fb4b78a4dfc0708df2b58f202c595a66c34195786f9a279ea991f4eae",
 }

@@ -11,7 +11,7 @@ platform "linux" {
 }
 
 version "0.0.256" "0.0.257" "0.0.258" "0.0.259" "0.0.260" "0.0.261" "0.0.262"
-        "0.0.264" "0.0.265" "0.0.267" "0.0.269" "0.0.270" "0.0.271" "0.0.272" {
+        "0.0.264" "0.0.265" "0.0.267" "0.0.269" "0.0.270" "0.0.271" "0.0.272" "0.0.273" {
   auto-version {
     github-release = "charliermarsh/ruff"
   }
@@ -60,4 +60,7 @@ sha256sums = {
   "https://github.com/charliermarsh/ruff/releases/download/v0.0.272/ruff-x86_64-unknown-linux-gnu.tar.gz": "e2e54c3c70c3f6bf8101ab2e4cb2d14aebda6d8ecba8622bd1cce22378641ecc",
   "https://github.com/charliermarsh/ruff/releases/download/v0.0.272/ruff-aarch64-apple-darwin.tar.gz": "3945bf15d15370bbf25fb557c95c5c8e11f97393a9efda15d34e979e8da843bc",
   "https://github.com/charliermarsh/ruff/releases/download/v0.0.272/ruff-x86_64-apple-darwin.tar.gz": "13ccbdbdc8d5817def3f57680045156074e730ecfe7364cfa5317f028e0663e7",
+  "https://github.com/charliermarsh/ruff/releases/download/v0.0.273/ruff-x86_64-apple-darwin.tar.gz": "1452239d6249ffd786867d0ec8bb4b7ab847e52749662aa2011ea2f26828a1ae",
+  "https://github.com/charliermarsh/ruff/releases/download/v0.0.273/ruff-aarch64-apple-darwin.tar.gz": "0b48c907fc7e3fd4c5b31c9f704361ba423318e4f8d83e83997395de1f2cc82c",
+  "https://github.com/charliermarsh/ruff/releases/download/v0.0.273/ruff-x86_64-unknown-linux-gnu.tar.gz": "e16814b760d205955b075d49eab332c381a1ff209506af46eefdb0a4c972c3f8",
 }
