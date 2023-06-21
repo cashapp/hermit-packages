@@ -20,7 +20,15 @@ on "unpack" {
   }
 }
 
-version "0.4.2" "12.1.3" {
+version "0.4.2" {
+  source = "https://github.com/rome/tools/releases/download/v${version}/rome-${os}-${arch_}"
+}
+
+version "0.8.0" "0.10.1" {
+  source = "https://github.com/rome/tools/releases/download/cli%2Fv${version}-next/rome-${os}-${arch_}"
+}
+
+version "12.1.3" {
   source = "https://github.com/rome/tools/releases/download/cli%2Fv${version}/rome-${os}-${arch_}"
 
   auto-version {
@@ -28,10 +36,6 @@ version "0.4.2" "12.1.3" {
     version-pattern = "^cli/v(.*)"
     ignore-invalid-versions = true
   }
-}
-
-version "0.8.0" "0.10.1" {
-  source = "https://github.com/rome/tools/releases/download/cli%2Fv${version}-next/rome-${os}-${arch_}"
 }
 
 sha256sums = {
