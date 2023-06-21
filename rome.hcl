@@ -25,13 +25,17 @@ version "0.4.2" {
 }
 
 version "0.8.0" "0.10.1" {
+  source = "https://github.com/rome/tools/releases/download/cli%2Fv${version}-next/rome-${os}-${arch_}"
+}
+
+version "12.1.3" {
   auto-version {
     github-release = "rome/tools"
-    version-pattern = "^cli/v(.*)-next"
+    version-pattern = "^cli/v(.*)"
     ignore-invalid-versions = true
   }
 
-  source = "https://github.com/rome/tools/releases/download/cli%2Fv${version}-next/rome-${os}-${arch_}"
+  source = "https://github.com/rome/tools/releases/download/cli%2Fv${version}/rome-${os}-${arch_}"
 }
 
 sha256sums = {
