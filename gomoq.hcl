@@ -14,7 +14,7 @@ platform "linux" "arm64" {
   source = "https://github.com/matryer/moq/releases/download/v${version}/moq_${version}_Linux_arm64.tar.gz"
 }
 
-version "0.2.7" "0.3.0" "0.3.1" {
+version "0.2.7" "0.3.0" "0.3.1" "0.3.2" {
   auto-version {
     github-release = "matryer/moq"
   }
@@ -27,4 +27,6 @@ sha256sums = {
   "https://github.com/matryer/moq/releases/download/v0.3.0/moq_0.3.0_macOS_all.tar.gz": "b0197c576ef1c609b7b0ccc2f303c7503ab3be433ae4e248c09bf416ee6853cd",
   "https://github.com/matryer/moq/releases/download/v0.3.1/moq_0.3.1_Linux_x86_64.tar.gz": "b73add82ce2d9dc1bbc46e4dcfcfa04dcb022fb25d8922bf85f7521d5bff7e14",
   "https://github.com/matryer/moq/releases/download/v0.3.1/moq_0.3.1_macOS_all.tar.gz": "0d95a489110178178fc36cd8d9e422f7d1a940cf7242f2e5cba3df038b9a593a",
+  "https://github.com/matryer/moq/releases/download/v0.3.2/moq_0.3.2_Linux_x86_64.tar.gz": "56a9a53312decb28dbda1614e07f8370bb0392160e4cc39f1aee0d120bd4001f",
+  "https://github.com/matryer/moq/releases/download/v0.3.2/moq_0.3.2_macOS_all.tar.gz": "ad7645325350d23f5ea68a91c01a4bbf0102add34eaf67e3ab54c8896aefaaae",
 }

@@ -2,7 +2,6 @@ description = "Rome is a formatter, linter, bundler, and more for JavaScript, Ty
 binaries = ["rome"]
 homepage = "https://rome.tools"
 test = "rome --help"
-
 vars = {
   "arch_": "${arch}",
 }
@@ -28,7 +27,7 @@ version "0.8.0" "0.10.1" {
   source = "https://github.com/rome/tools/releases/download/cli%2Fv${version}-next/rome-${os}-${arch_}"
 }
 
-version "12.1.3" {
+version "12.1.3" "12.1.3-nightly.3de5a1a" {
   auto-version {
     github-release = "rome/tools"
     version-pattern = "^cli/v(.*)"
@@ -48,4 +47,10 @@ sha256sums = {
   "https://github.com/rome/tools/releases/download/cli%2Fv0.10.1-next/rome-darwin-x64": "bdc81c6a5549473f508c856a740e76e1ae96e39c269cc1e9c61bfd8545f2a2f9",
   "https://github.com/rome/tools/releases/download/cli%2Fv0.10.1-next/rome-linux-x64": "a282ec13520db11c8eaf9190970a657aa556ead2970b8cde75cea34fde443d97",
   "https://github.com/rome/tools/releases/download/cli%2Fv0.10.1-next/rome-darwin-arm64": "75d11232062547ad7b2b8582574bb55501401b6d6bdb203343504ef00d4cd1ff",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.3de5a1a/rome-linux-x64": "10b0d9db8fddfbd48238ddba250446c3a4985569dbf32c6e4f529da521788297",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.3de5a1a/rome-darwin-x64": "e53dccfe6657e260fafc9b38d6708577f60162709a91ee28689e2c09d67ad831",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.3de5a1a/rome-darwin-arm64": "eff7cf85dd94e4815bcab342047fa5e2710958daa5f603f0142c8223fd24633d",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3/rome-darwin-x64": "3ee663dd3bb1483beeffc85a37e6b3ba99fd070b2a81bf841f7d3b3289c33a7b",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3/rome-darwin-arm64": "a65d5c1f6a060c7831f5ddff524a0bac031a0fb78a36725e288538a4b176eaa9",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3/rome-linux-x64": "563347520686e434ac193001e0ab8665f2d97ae2ce38064fc33c056e5a146931",
 }
