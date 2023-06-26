@@ -5,43 +5,10 @@ strip = 1
 binaries = ["bin/gradle"]
 repository = "https://github.com/gradle/gradle"
 
-version "6.7" {
-}
-
-version "6.8.3" {
-}
-
-version "7.0" {
-}
-
-version "7.1" {
-}
-
-version "7.2" {
-}
-
-version "7.3.2" {
-}
-
-version "7.4.2" {
-}
-
-version "7.5" {
-}
-
-version "7.6" {
-}
-
-version "7.6.1" {
-}
-
-version "8.0-rc-2" {
-}
-
-version "8.0.1" {
-}
-
-version "8.1.1" {
+version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "8.0-rc-2" "8.0.1" "8.1.1" {
+  auto-version {
+    github-release = "gradle/gradle"
+  }
 }
 
 # Checksum reference: https://gradle.org/release-checksums/.
