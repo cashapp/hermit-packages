@@ -4,7 +4,7 @@ test = "supabase --version"
 source = "https://github.com/supabase/cli/releases/download/v${version}/supabase_${os}_${arch}.tar.gz"
 
 version "1.62.3" "1.62.4" "1.62.5" "1.63.1" "1.63.2" "1.64.2" "1.64.3" "1.64.8"
-        "1.68.6" "1.74.0" "1.74.2" {
+        "1.68.6" "1.74.0" "1.74.2" "1.75.2" {
   auto-version {
     github-release = "supabase/cli"
   }
@@ -44,4 +44,7 @@ sha256sums = {
   "https://github.com/supabase/cli/releases/download/v1.74.2/supabase_darwin_amd64.tar.gz": "46a070f082eca01547c1cf735ffc2e54abbfb64a56f5be37aea15942b12173f8",
   "https://github.com/supabase/cli/releases/download/v1.74.2/supabase_darwin_arm64.tar.gz": "f377cc9072d5c442dbf7860c34a5c0beb24d157599a2168f91c3630da720ce27",
   "https://github.com/supabase/cli/releases/download/v1.74.2/supabase_linux_amd64.tar.gz": "fd49841ae73d84eea50af133e00059152ee48c425f041e5e7dc7a44bfd13e53a",
+  "https://github.com/supabase/cli/releases/download/v1.75.2/supabase_darwin_arm64.tar.gz": "765b3e398ebafc97ad716dbefa2e82ec201b69fc682e27eb093265f41ec97307",
+  "https://github.com/supabase/cli/releases/download/v1.75.2/supabase_linux_amd64.tar.gz": "549c584e9e76d05a7b10c2762b4fc7d22d2b3187667b7d7ff336a9e74f6b78af",
+  "https://github.com/supabase/cli/releases/download/v1.75.2/supabase_darwin_amd64.tar.gz": "c00d1c3cdda13fc2e060dccc654cc8bdd4ef65c08d0633b5eb2b3dab43e291e1",
 }
