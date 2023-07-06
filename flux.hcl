@@ -8,7 +8,7 @@ version "0.23.0" "0.24.0" "0.24.1" "0.25.1" "0.25.2" "0.25.3" "0.26.0" "0.26.1"
         "0.31.0" "0.31.1" "0.31.2" "0.31.3" "0.31.4" "0.31.5" "0.32.0" "0.33.0" "0.34.0"
         "0.35.0" "0.36.0" "0.37.0" "0.38.1" "0.38.2" "0.38.3" "0.39.0" "0.40.0" "0.40.1"
         "0.40.2" "0.41.0" "0.41.1" "0.41.2" "2.0.0-rc.1" "2.0.0-rc.2" "2.0.0-rc.3"
-        "2.0.0-rc.4" "2.0.0-rc.5" {
+        "2.0.0-rc.4" "2.0.0-rc.5" "2.0.0" {
   source = "https://github.com/fluxcd/flux2/releases/download/v${version}/flux_${version}_${os}_${arch}.tar.gz"
 
   auto-version {
@@ -176,4 +176,7 @@ sha256sums = {
   "https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.5/flux_2.0.0-rc.5_darwin_amd64.tar.gz": "2d9a96acdc4973fd1a834dce8262bdb0be05f127f30073b783206517b9520693",
   "https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.5/flux_2.0.0-rc.5_linux_amd64.tar.gz": "962f858c4af7a8101535cd2ac300c8cdfae87b8ce4002928737a5da7f708f068",
   "https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.5/flux_2.0.0-rc.5_darwin_arm64.tar.gz": "82ce8c6e764941c45cb56cc63d952dd0577e015cf7b8a07fbd464943a0f8c24e",
+  "https://github.com/fluxcd/flux2/releases/download/v2.0.0/flux_2.0.0_darwin_amd64.tar.gz": "7d7473b4fb6f19c67ae7696d378577926c303ab00c04406610a6586cf6556825",
+  "https://github.com/fluxcd/flux2/releases/download/v2.0.0/flux_2.0.0_darwin_arm64.tar.gz": "80eb785d602d28ce42573801266b787dca8791b097cb1b5dafe1d96c5bbe8b79",
+  "https://github.com/fluxcd/flux2/releases/download/v2.0.0/flux_2.0.0_linux_amd64.tar.gz": "283610583dd13fc41efc5f6e0823ba042a4381b942a85634c477a8adc29e840d",
 }
