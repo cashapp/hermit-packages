@@ -1,42 +1,25 @@
 description = "GNU ARM embedded toolchain"
-homepage = "https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain"
+binaries = ["gcc-arm-none-eabi-10-2020-q4-major/bin/*"]
 test = "arm-none-eabi-gcc --version"
-
-binaries = ["${prefix}/bin/*"]
-env = {
-  "GCC_EXEC_PREFIX": "${root}/${prefix}/lib/gcc/",
+vars = {
+  "prefix": "${root}/gcc-arm-none-eabi-10-2020-q4-major",
 }
 
 version "10.2020.4" {
-  vars = {
-    "prefix": "gcc-arm-none-eabi-10-2020-q4-major",
-  }
-
   platform "linux" {
-    source = "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/${prefix}-${xarch}-linux.tar.bz2"
+    source = "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2?revision=ca0cbf9c-9de2-491c-ac48-898b5bbc0443&hash=3710A129B3F3955AFDC7A74934A611E6C7F218AE"
   }
 
   platform "darwin" {
-    source = "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/${prefix}-mac.tar.bz2
-  }
-}
-
-version "12.2.mpacbti-rel1" {
-  vars = {
-    "_arch": "${os}-${xarch}",
-    "prefix": "arm-gnu-toolchain-${version}-${_arch}-arm-none-eabi",
+    source = "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-mac.tar.bz2?revision=48a4e09a-eb5a-4eb8-8b11-d65d7e6370ff&hash=3796ADBE6F2919B757D24FA2621C5AA7D9325DD3"
   }
 
-  platform "linux" {
-    vars = {
-      "_arch": "${xarch}",
-    }
+  env = {
+    "GCC_EXEC_PREFIX": "${prefix}/lib/gcc/",
   }
-
-  source = "https://developer.arm.com/-/media/Files/downloads/gnu/${version}/binrel/${prefix}.tar.xz"
 }
 
 sha256sums = {
-  "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2": "21134caa478bbf5352e239fbc6e2da3038f8d2207e089efc96c3b55f1edcd618",
-  "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-mac.tar.bz2": "bed12de3565d4eb02e7b58be945376eaca79a8ae3ebb785ec7344e7e2db0bdc0",
+  "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2?revision=ca0cbf9c-9de2-491c-ac48-898b5bbc0443&hash=3710A129B3F3955AFDC7A74934A611E6C7F218AE": "21134caa478bbf5352e239fbc6e2da3038f8d2207e089efc96c3b55f1edcd618",
+  "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-mac.tar.bz2?revision=48a4e09a-eb5a-4eb8-8b11-d65d7e6370ff&hash=3796ADBE6F2919B757D24FA2621C5AA7D9325DD3": "bed12de3565d4eb02e7b58be945376eaca79a8ae3ebb785ec7344e7e2db0bdc0",
 }
