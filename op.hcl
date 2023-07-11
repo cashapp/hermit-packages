@@ -6,17 +6,10 @@ test = "op --version"
 
 darwin {
     source = "https://cache.agilebits.com/dist/1P/op2/pkg/v${version}/op_apple_universal_v${version}.pkg"
-
-    on "unpack" {
-        rename {
-            from = "${root}/op.pkg/Payload"
-            to = "${root}/op"
-        }
-    }
 }
 
 linux {
     source = "https://cache.agilebits.com/dist/1P/op2/pkg/v${version}/op_linux_${arch}_v${version}.zip"
 }
 
-version "2.18.0" {}
+version "2.18.0", "2.19.0" {}
