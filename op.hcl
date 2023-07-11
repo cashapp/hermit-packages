@@ -6,6 +6,17 @@ test = "op --version"
 
 darwin {
     source = "https://cache.agilebits.com/dist/1P/op2/pkg/v${version}/op_apple_universal_v${version}.pkg"
+
+    on "unpack" {
+        // How "${HOME}/usr/local/bin/op" was determined:
+        // 1. curl https://cache.agilebits.com/dist/1P/op2/pkg/v2.18.0/op_apple_universal_v2.18.0.pkg --output op_v2.18.0.pkg
+        // 2. pkgutil --expand op_v2.18.0.pkg op-v2.18.0/
+        // 3. grep install-location op-v2.18.0/op.pkg/PackageInfo
+        rename {
+            from = "${HOME}/usr/local/bin/op"
+            to = "${root}/op"
+        }
+    }
 }
 
 linux {
