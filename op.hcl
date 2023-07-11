@@ -16,6 +16,12 @@ darwin {
             from = "${HOME}/usr/local/bin/op"
             to = "${root}/op"
         }
+
+        // clean up directories created by pkg install-location
+        delete {
+            files = ["${HOME}/usr/local/bin/"]
+            recursive = true
+        }
     }
 }
 
