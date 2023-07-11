@@ -17,10 +17,8 @@ darwin {
             to = "${root}/op"
         }
 
-        // clean up directories created by pkg install-location
-        delete {
-            files = ["${HOME}/usr/local/bin/"]
-            recursive = true
+        message {
+            text = "It is safe to `rm -r ${HOME}/usr/` if you do not need that directory"
         }
     }
 }
