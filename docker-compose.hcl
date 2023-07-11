@@ -38,7 +38,8 @@ description = "Define and run multi-container applications with Docker"
 version "2.2.2" "2.2.3" "2.3.0" "2.3.1" "2.3.2" "2.3.3" "2.3.4" "2.4.0" "2.4.1" "2.5.0"
         "2.5.1" "2.6.0" "2.6.1" "2.7.0" "2.8.0" "2.9.0" "2.10.0" "2.10.1" "2.10.2" "2.11.0"
         "2.11.1" "2.11.2" "2.12.0" "2.12.2" "2.13.0" "2.14.0" "2.14.1" "2.14.2" "2.15.0"
-        "2.15.1" "2.16.0" "2.17.0" "2.17.1" "2.17.2" "2.17.3" "2.18.0" "2.18.1" "2.19.0" {
+        "2.15.1" "2.16.0" "2.17.0" "2.17.1" "2.17.2" "2.17.3" "2.18.0" "2.18.1" "2.19.0"
+        "2.19.1" {
   auto-version {
     github-release = "docker/compose"
   }
@@ -160,4 +161,7 @@ sha256sums = {
   "https://github.com/docker/compose/releases/download/v2.19.0/docker-compose-darwin-aarch64": "3908fa756cfc48b09761f8e8669ced0ee680179fce6d75359aafba01c1c16a4a",
   "https://github.com/docker/compose/releases/download/v2.19.0/docker-compose-linux-x86_64": "34e3b754d13eab683222f67827e20f640dfe0630b3b786c49a9de3f7fc7400a6",
   "https://github.com/docker/compose/releases/download/v2.19.0/docker-compose-darwin-x86_64": "a9fa167c391816b637b484fda93a74ba4057cbe68087cee2411a02a998be6a3a",
+  "https://github.com/docker/compose/releases/download/v2.19.1/docker-compose-darwin-aarch64": "5ecb092d8bf7ad463154edc2a7632c126519d989744c2f42b7ee7da5cbc06a77",
+  "https://github.com/docker/compose/releases/download/v2.19.1/docker-compose-linux-x86_64": "8d3ecd3e48c598ba2e2d8eb3b59380f74c8c0c46259008fcd16d0dc058aaebd1",
+  "https://github.com/docker/compose/releases/download/v2.19.1/docker-compose-darwin-x86_64": "056faeefeb5e0089e9295e2331ee6d8b352050286514c69f1bec9d2c12948e9b",
 }

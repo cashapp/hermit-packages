@@ -28,7 +28,7 @@ version "0.8.0" "0.10.1" {
 }
 
 version "12.1.3" "12.1.3-nightly.3de5a1a" "12.1.3-nightly.50eb45f"
-        "12.1.3-nightly.af25635" {
+        "12.1.3-nightly.af25635" "12.1.3-nightly.f65b0d9" {
   auto-version {
     github-release = "rome/tools"
     version-pattern = "^cli/v(.*)"
@@ -60,4 +60,7 @@ sha256sums = {
   "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.af25635/rome-linux-x64": "bef46690d0cbeba4ff40f2ddc2437a2f6c6edcacf5bf085e4a535f28c1f3a078",
   "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.af25635/rome-darwin-x64": "c033b14a8209f30e4ce5f94bf09912684b2a0be09aaa0b6b8a54163c36ee976c",
   "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.af25635/rome-darwin-arm64": "c6c299b25e534ba043776a65fb5e64b9e43434839f1d5253f8afd93c1aefef46",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.f65b0d9/rome-linux-x64": "a3a3e1e779ad2aed331c619d9177a1655f6d7d799d00b358e7c2705b9a8f0813",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.f65b0d9/rome-darwin-arm64": "6dab5fb369815076e1e241a7a13d884021ec7ed3adbcb29e19576a561f6cfabf",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.f65b0d9/rome-darwin-x64": "e98b2d2d6874848de1c8a07a9357fd8d1921cb1a4b2fdd5c3bff4af58cb2a5a5",
 }

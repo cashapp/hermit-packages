@@ -35,7 +35,7 @@ platform "darwin" "amd64" {
 }
 
 version "3.2.0" "3.3.0" "3.3.1" "3.4.1" "3.5.0" "3.5.1" "3.5.2" "3.5.3" "3.6.0" "3.6.1"
-        "3.7.0" "3.8.0" "3.9.0" "3.10.0" "3.11.0" "3.11.2" {
+        "3.7.0" "3.8.0" "3.9.0" "3.10.0" "3.11.0" "3.11.2" "3.13.1" "3.13.4" {
   auto-version {
     github-release = "pressly/goose"
   }
@@ -90,4 +90,10 @@ sha256sums = {
   "https://github.com/pressly/goose/releases/download/v3.11.2/goose_linux_x86_64": "6a98a044f4df9b962dcc080383e41eb75dd2b55aa878927b478f6cdaa4b991cf",
   "https://github.com/pressly/goose/releases/download/v3.11.2/goose_darwin_arm64": "5b19d3dbd454a1f345313758474b1af16e744ac28fc6583ddc31d3c3e365f49b",
   "https://github.com/pressly/goose/releases/download/v3.11.2/goose_darwin_x86_64": "3fea7ed0a73cfbbfcc7a1c0be553292f5134422084de506690c15bd69e1a19eb",
+  "https://github.com/pressly/goose/releases/download/v3.13.1/goose_darwin_arm64": "2a9f5b327cda02d4b9131a69a92260a8399093ff6df3241994e2e2a39b1180a2",
+  "https://github.com/pressly/goose/releases/download/v3.13.1/goose_darwin_x86_64": "94b415655650f0db4cea10eb6047a03c0cbd68c517c46fb92f41bd551c76480b",
+  "https://github.com/pressly/goose/releases/download/v3.13.1/goose_linux_x86_64": "4a3bf87f6da02a43bb18a74a3fd045de90161a7b20616213af11bc8ad401b4e1",
+  "https://github.com/pressly/goose/releases/download/v3.13.4/goose_darwin_x86_64": "a9115912a3e341d58fa99fe4c6042d1d8c76933d22f53d593bf7585bcc33a1bd",
+  "https://github.com/pressly/goose/releases/download/v3.13.4/goose_darwin_arm64": "90331cd7028a585d2f8243d145a0cb6a8607e14ab6725a9460fb1ec75b37fd9f",
+  "https://github.com/pressly/goose/releases/download/v3.13.4/goose_linux_x86_64": "f28c2531afe5dde703863b8f4619550bd26f6af402b162553ffeaeb5bd9e2f63",
 }

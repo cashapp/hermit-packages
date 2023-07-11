@@ -63,7 +63,7 @@ version "0.102.0" "0.102.1" "0.102.2" "0.102.3" {
 version "0.103.0" "0.103.1" "0.104.0" "0.104.1" "0.104.2" "0.104.3" "0.105.0"
         "0.106.0" "0.107.0" "0.108.0" "0.109.0" "0.110.0" "0.111.0" "0.111.2" "0.111.3"
         "0.112.1" "0.112.3" "0.112.4" "0.112.5" "0.112.6" "0.112.7" "0.113.0" "0.114.0"
-        "0.114.1" {
+        "0.114.1" "0.115.0" "0.115.1" "0.115.2" {
   auto-version {
     github-release = "gohugoio/hugo"
   }
@@ -202,4 +202,10 @@ sha256sums = {
   "https://github.com/gohugoio/hugo/releases/download/v0.114.0/hugo_extended_0.114.0_linux-amd64.tar.gz": "b63d444de293c18d23dd1546d718e83ba6e2753d6cdb0be6e42dc7767ceb9f28",
   "https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_extended_0.114.1_darwin-universal.tar.gz": "adaebed125dd86ab35f2638d09470829b24811f225b2f3f324b3ec40b45523bc",
   "https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_extended_0.114.1_linux-amd64.tar.gz": "862e7338439e91e8d9339ddb96484a29d492eea530eb808b1106c1f301b556f9",
+  "https://github.com/gohugoio/hugo/releases/download/v0.115.0/hugo_extended_0.115.0_linux-amd64.tar.gz": "e78a8e09b14045fec5dc4c33e5f14b0e006c5568700c1db23454b181628de34f",
+  "https://github.com/gohugoio/hugo/releases/download/v0.115.0/hugo_extended_0.115.0_darwin-universal.tar.gz": "1cd6c4d841cfe5b81830ac517d4ecf7f3c00e58799e93db21a329a98a781586e",
+  "https://github.com/gohugoio/hugo/releases/download/v0.115.1/hugo_extended_0.115.1_darwin-universal.tar.gz": "1e4e7ad7c1d5af59c0f311b0e83fa7776e2731acc2e2c71630d1c32c59ecea61",
+  "https://github.com/gohugoio/hugo/releases/download/v0.115.1/hugo_extended_0.115.1_linux-amd64.tar.gz": "54dda1d6b474c09b9ea09a3ab1d6a8700e94b2a1a188a94ce7204d46feb505b7",
+  "https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_extended_0.115.2_darwin-universal.tar.gz": "e1beef7fdbc197c1ad2b588e4b5837c4f625a897f8f851cff7d3c6c8b6900fc6",
+  "https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_extended_0.115.2_linux-amd64.tar.gz": "12d4d073c5c0d9b3f6979a39ff8c9173f60f69c634ed45a060a5e413a4db8a06",
 }
