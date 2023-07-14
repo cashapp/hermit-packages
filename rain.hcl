@@ -4,7 +4,7 @@ repository = "https://github.com/aws-cloudformation/rain"
 
 darwin {
   source = "https://github.com/aws-cloudformation/rain/releases/download/v${version}/rain-v${version}_macos-amd64.zip"
-  binaries = ["rain"]
+  binaries = ["rain-*/rain"]
 }
 
 linux {
