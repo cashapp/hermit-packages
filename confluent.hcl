@@ -7,7 +7,7 @@ strip = 1
 
 version "3.0.0" "3.0.1" "3.1.0" "3.1.1" "3.2.0" "3.2.1" "3.3.0" "3.4.0" "3.5.0" "3.5.1"
         "3.5.2" "3.6.0" "3.8.0" "3.9.0" "3.10.0" "3.11.0" "3.12.0" "3.13.0" "3.14.0" "3.14.1"
-        "3.15.0" "3.15.1" "3.16.0" "3.17.0" "3.18.0" "3.19.0" "3.20.0" "3.21.0" {
+        "3.15.0" "3.15.1" "3.16.0" "3.17.0" "3.18.0" "3.19.0" "3.20.0" "3.21.0" "3.22.0" {
   auto-version {
     github-release = "confluentinc/cli"
     ignore-invalid-versions = true
@@ -100,4 +100,7 @@ sha256sums = {
   "https://github.com/confluentinc/cli/releases/download/v3.21.0/confluent_3.21.0_darwin_amd64.tar.gz": "398173d2cef3660e7335c4095d486b17c8010d1e12e49ed2d20aed0f49ee54f6",
   "https://github.com/confluentinc/cli/releases/download/v3.21.0/confluent_3.21.0_linux_amd64.tar.gz": "1151bd1bdc1770824e617a899fa159aa224572c31e15568b6931e8444bbfb7b3",
   "https://github.com/confluentinc/cli/releases/download/v3.21.0/confluent_3.21.0_darwin_arm64.tar.gz": "6096b991414b010b8ae19ec1db4c77a60e9f650965ea7823bedcb168725fd25b",
+  "https://github.com/confluentinc/cli/releases/download/v3.22.0/confluent_3.22.0_darwin_amd64.tar.gz": "8707c1468c6c22033ba4c008f6c5f3e07b4552fb9c82b3fe0ca33dd5529f6306",
+  "https://github.com/confluentinc/cli/releases/download/v3.22.0/confluent_3.22.0_linux_amd64.tar.gz": "133f98ecd3bd4c44994442de7088d86111f50e6e723e5f6c4ea93d3ee5b9f29c",
+  "https://github.com/confluentinc/cli/releases/download/v3.22.0/confluent_3.22.0_darwin_arm64.tar.gz": "43435e896e3db7e0158c1bc43aa9a5708541cb48f678a4db2907ee1ce6461a57",
 }

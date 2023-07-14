@@ -5,7 +5,7 @@ test = "bicep --help"
 version "0.4.451" "0.4.613" "0.4.1008" "0.4.1124" "0.4.1272" "0.4.1318" "0.5.6"
         "0.6.1" "0.6.11" "0.6.18" "0.7.4" "0.8.2" "0.8.9" "0.9.1" "0.10.13" "0.10.61" "0.11.1"
         "0.12.1" "0.12.40" "0.13.1" "0.14.6" "0.14.46" "0.14.85" "0.15.31" "0.16.1" "0.16.2"
-        "0.17.1" "0.18.4" {
+        "0.17.1" "0.18.4" "0.19.5" {
   auto-version {
     github-release = "Azure/bicep"
   }
@@ -90,4 +90,6 @@ sha256sums = {
   "https://github.com/Azure/bicep/releases/download/v0.17.1/bicep-osx-x64": "eca2716658897ef306669a51d4f87f648c341d26f37347dbc60df36e8b55aa5f",
   "https://github.com/Azure/bicep/releases/download/v0.18.4/bicep-linux-x64": "ed5dd0a344b963d4153bcf0642cccc2036bad29b5acc96c6388821566cc621b2",
   "https://github.com/Azure/bicep/releases/download/v0.18.4/bicep-osx-x64": "5e3f4e4313a42a2babc18905fab143359f309ed825ac5671b5adc999b22cbef1",
+  "https://github.com/Azure/bicep/releases/download/v0.19.5/bicep-linux-x64": "f8e2e308edf8399e106f1030d0a5a4a667cd9950378e03826facb2c81f882d1d",
+  "https://github.com/Azure/bicep/releases/download/v0.19.5/bicep-osx-x64": "4c3d02ad2b43685e11c8146a919babb7663274dc92bee0729e592527adeaace1",
 }

@@ -13,7 +13,7 @@ on "unpack" {
 version "16.18.0" "16.19.0" "16.20.0" "16.20.1" "16.20.2" "16.20.3" "16.20.4"
         "16.21.1" "16.21.2" "16.21.3" "16.22.0" "16.22.1" "16.23.0" "16.23.1" "16.24.0"
         "16.25.1" "16.26.1" "16.27.1" "16.27.2" "16.27.3" "16.27.5" "16.28.0" "17.0.0" "17.1.0"
-        "16.28.1" {
+        "16.28.1" "17.2.0" {
   auto-version {
     github-release = "thought-machine/please"
   }
@@ -95,4 +95,7 @@ sha256sums = {
   "https://github.com/thought-machine/please/releases/download/v16.28.1/please_16.28.1_darwin_arm64": "2d624dc61e17a750db1aba9161d1a8997d58e92c0499119b494e818d9049f499",
   "https://github.com/thought-machine/please/releases/download/v16.28.1/please_16.28.1_linux_amd64": "255dad42ab78a99c7887f496ef74ca97a2980217d42a35f21607df5d95d25cca",
   "https://github.com/thought-machine/please/releases/download/v16.28.1/please_16.28.1_darwin_amd64": "19cc82722de4310052013170a05ffe217bc0fb700b8ca5f1d43813a49f25adf1",
+  "https://github.com/thought-machine/please/releases/download/v17.2.0/please_17.2.0_linux_amd64": "6323159048b6eb7ccc9cd9e6cc3ca5db085f3b28de5691bf889379499ea646be",
+  "https://github.com/thought-machine/please/releases/download/v17.2.0/please_17.2.0_darwin_amd64": "e8b885874435ed207ead77680a96164d8476ba298f43f70d52d10bf67aa257ed",
+  "https://github.com/thought-machine/please/releases/download/v17.2.0/please_17.2.0_darwin_arm64": "c7cc9e17bad65d0684cc498d972bf1fe92c28c768694dc18cd5e98f2cc40ac4b",
 }
