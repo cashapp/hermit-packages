@@ -32,14 +32,14 @@ channel "stable" {
   version = "11.*"
 }
 
-version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" {
+version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
 }
 
 version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
-        "17.0.7.7.1" {
+        "17.0.7.7.1" "17.0.8.7.1" {
   auto-version {
     github-release = "corretto/corretto-17"
   }
@@ -76,4 +76,10 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-linux-x64.tar.gz": "8d23e0f1249f2852caa76b7ae8770847e005e4310a70a46b7c1a816c34ff9195",
   "https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-macosx-x64.tar.gz": "68e169404a1021d24f7c39b2fa2366d40075311377f9cbddd328f0aac6c2ea6c",
   "https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-macosx-aarch64.tar.gz": "d2410941ee1a8910412511c18a5ff954bc4bd1e4412cb4260a7f138be3a791dd",
+  "https://corretto.aws/downloads/resources/11.0.20.8.1/amazon-corretto-11.0.20.8.1-macosx-aarch64.tar.gz": "39b540600520dae0e664bf9f7bfa8bf931b6e2b320960e276197670bd9e08928",
+  "https://corretto.aws/downloads/resources/11.0.20.8.1/amazon-corretto-11.0.20.8.1-macosx-x64.tar.gz": "9e6bf76968737f929511b7c8f4d1456f7d2f53e996e2ce9f352d529ee8e5c028",
+  "https://corretto.aws/downloads/resources/11.0.20.8.1/amazon-corretto-11.0.20.8.1-linux-x64.tar.gz": "78e5e259dd11ffb02007c68cfb68a2602aec9d783cf1ddcdf453179ef251c64e",
+  "https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-macosx-aarch64.tar.gz": "053c0bac27f5847bb2a2e7c6dbc223b880b3873b671ff8793a529d28cc37519d",
+  "https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-macosx-x64.tar.gz": "10dafc711e1ea18246f942cd067a007f3756495c117b1ea1ff40acdf2c944952",
+  "https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-linux-x64.tar.gz": "6cc5e6ed4913fe51d3efd96684124522d0bfe75c263a31cf06340e0dfa81f4cb",
 }
