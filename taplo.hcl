@@ -13,7 +13,7 @@ darwin {
 linux {
   source = "https://github.com/tamasfe/taplo/releases/download/${version}/taplo-${os}-${xarch}.gz"
   on unpack {
-    rename { from = "${root}/taplo-${os}-{$xarch}" to = "${root}/taplo" }
+    rename { from = "${root}/taplo-${os}-${xarch}" to = "${root}/taplo" }
   }
 }
 
