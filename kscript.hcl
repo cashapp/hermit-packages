@@ -1,5 +1,5 @@
 description = "Scripting extensions for kotlin (inclusions and dependencies)"
-requires = ["jre@17", "kotlin"]
+requires = ["jre", "kotlin"]
 source = "https://github.com/kscripting/kscript/releases/download/v${version}/kscript-${version}-bin.zip"
 binaries = ["bin/kscript"]
 strip = 1
@@ -7,12 +7,11 @@ test = "kscript -d 'println(\"Kscript: OK\")'"
 
 // these older versions break with Kotlin 1.9, so just limit them to older versions.
 version "4.1.1" "4.2.0" "4.2.1" "4.2.2" {
-  requires = ["kotlin-1.8.22"]
+  requires = ["openjre@stable", "kotlin-1.8.22"]
   test = "kscript \"\"" // The test rig can't install older kotlin to test these, but they've been tested prior.
 }
 
 version "4.2.3-RC.1" {
-  requires = ["kotlin"]
   auto-version {
     github-release = "kscripting/kscript"
   }
