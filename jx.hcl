@@ -26,7 +26,7 @@ version "3.2.262" "3.2.263" "3.2.265" "3.2.267" "3.2.270" "3.2.280" "3.2.282"
         "3.8.2" "3.9.5" "3.10.1" "3.10.2" "3.10.3" "3.10.9" "3.10.10" "3.10.11" "3.10.12"
         "3.10.14" "3.10.18" "3.10.19" "3.10.20" "3.10.21" "3.10.22" "3.10.33" "3.10.35"
         "3.10.37" "3.10.41" "3.10.45" "3.10.50" "3.10.53" "3.10.63" "3.10.69" "3.10.72"
-        "3.10.75" "3.10.81" "3.10.83" "3.10.86" {
+        "3.10.75" "3.10.81" "3.10.83" "3.10.86" "3.10.89" {
   auto-version {
     github-release = "jenkins-x/jx"
   }
@@ -424,4 +424,7 @@ sha256sums = {
   "https://github.com/jenkins-x/jx/releases/download/v3.10.86/jx-linux-amd64.tar.gz": "3a6b2c2b2434867d6c95ae1fd09c7459ca8a17bad8bcbd3dc1e94addce7ce6f1",
   "https://github.com/jenkins-x/jx/releases/download/v3.10.86/jx-darwin-arm64.tar.gz": "8daaaf71f196a0a6fa4f4e8ceeeb53df1063d476637c0cb23a6a5677f1703603",
   "https://github.com/jenkins-x/jx/releases/download/v3.10.86/jx-darwin-amd64.tar.gz": "2f92111c90b048708b74e6c55eca3b3add3d54e42fb7ee4ba23ad6cb16a2c2ec",
+  "https://github.com/jenkins-x/jx/releases/download/v3.10.89/jx-linux-amd64.tar.gz": "d621306ae4193fd61b47a1c3da61b2a57d00cde92f28c321d6ccd5881f74713f",
+  "https://github.com/jenkins-x/jx/releases/download/v3.10.89/jx-darwin-arm64.tar.gz": "af5ad33b38e6940805e4d6a60dd42414efad614850415996f59d3027aeb83968",
+  "https://github.com/jenkins-x/jx/releases/download/v3.10.89/jx-darwin-amd64.tar.gz": "671f0421abebb3a1ed4a6138315bed31c3f0cd84775854562b67c40ed973d45d",
 }
