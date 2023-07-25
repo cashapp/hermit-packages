@@ -28,7 +28,7 @@ version "3.7.2" "4.0.0" "4.1.0" "4.2.0" "4.2.1" "4.2.2" {
 }
 
 version "5.0.0" "5.1.0" "5.1.1" "5.2.0" "5.3.0" "5.3.1" "5.3.2" "5.4.0" "6.0.0" "6.1.0"
-        "6.1.1" "6.1.2" "6.2.0" "6.2.1" {
+        "6.1.1" "6.1.2" "6.2.0" "6.2.1" "6.3.0" {
   auto-version {
     github-release = "bazelbuild/bazel"
   }
@@ -89,4 +89,7 @@ sha256sums = {
   "https://github.com/bazelbuild/bazel/releases/download/6.2.1/bazel-6.2.1-linux-x86_64": "cdf349dc938b1f11db5a7172269d66e91ce18c0ca134b38bb3997a3e3be782b8",
   "https://github.com/bazelbuild/bazel/releases/download/6.2.1/bazel-6.2.1-darwin-x86_64": "dd69512405d7a07c14ee2b33c8e1cb434b2eac203b3d46e17e7acb797608db22",
   "https://github.com/bazelbuild/bazel/releases/download/6.2.1/bazel-6.2.1-darwin-arm64": "0e4409d3243bf04bb709d3f1cc8a32ec0c36475c6d2aeda8475a213c40470793",
+  "https://github.com/bazelbuild/bazel/releases/download/6.3.0/bazel-6.3.0-linux-x86_64": "d64606c17e6b6a7fc119150420b4c109315982319ff3229587e200c47bf36946",
+  "https://github.com/bazelbuild/bazel/releases/download/6.3.0/bazel-6.3.0-darwin-x86_64": "16f86ca1536fa9e1c7bb584de5425f935d391ae8ec6bb34f4c4f176a66efb21f",
+  "https://github.com/bazelbuild/bazel/releases/download/6.3.0/bazel-6.3.0-darwin-arm64": "94f797719cad71ee0c8f710797be334c9b94e9ad9ae86c3a9e45c3986113643e",
 }
