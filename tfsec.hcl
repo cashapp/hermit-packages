@@ -4,6 +4,13 @@ binaries = ["tfsec"]
 source = "https://github.com/aquasecurity/tfsec/releases/download/v${version}/tfsec-${os}-${arch}"
 sha256-source = "https://github.com/aquasecurity/tfsec/releases/download/v${version}/tfsec_checksums.txt"
 
+on "unpack" {
+  rename {
+    from = "${root}/tfsec-${os}-${arch}"
+    to = "${root}/tfsec"
+  }
+}
+
 version "1.25.1" "1.26.3" "1.27.6" "1.28.1" {
   auto-version {
     github-release = "aquasecurity/tfsec"
