@@ -38,7 +38,7 @@ version "0.0.260" "0.0.271" "0.0.272" "0.0.275" "0.0.276" "0.0.277" "0.0.278"
         "0.1.13" "0.1.17" "0.1.20" "0.1.21" "0.1.23" "0.1.24" "0.1.26" "0.1.27" "0.1.31"
         "0.1.32" "0.1.33" "0.1.34" "0.1.35" "0.1.36" "0.1.38" "0.1.39" "0.1.40" "0.1.41"
         "0.1.43" "0.1.44" "0.1.45" "0.1.48" "0.1.50" "0.1.51" "0.1.52" "0.1.53" "0.1.54"
-        "0.1.56" "0.1.58" "0.1.62" "0.1.63" "0.1.64" "0.1.65" {
+        "0.1.56" "0.1.58" "0.1.62" "0.1.63" "0.1.64" "0.1.65" "0.1.66" {
   auto-version {
     github-release = "superfly/flyctl"
   }
@@ -651,4 +651,7 @@ sha256sums = {
   "https://github.com/superfly/flyctl/releases/download/v0.1.65/flyctl_0.1.65_Linux_x86_64.tar.gz": "34a9345b31e7aaf7f4d184e2258d1f08cc797aa70054326522809f0ebe0f7cca",
   "https://github.com/superfly/flyctl/releases/download/v0.1.65/flyctl_0.1.65_macOS_x86_64.tar.gz": "c9f1743c380a67c9d4d6c2730c3547ed3dc1855973569407638f41f017441b67",
   "https://github.com/superfly/flyctl/releases/download/v0.1.65/flyctl_0.1.65_macOS_arm64.tar.gz": "f76eaef61c0f638d205625bf6aa0b7274e8656763f08f6a8d2b59fe34953fb3d",
+  "https://github.com/superfly/flyctl/releases/download/v0.1.66/flyctl_0.1.66_macOS_arm64.tar.gz": "e4a2fb935b595e58ea4a1b495a0a254cb92baf71a6f4c34fc5fe85fc590b2bae",
+  "https://github.com/superfly/flyctl/releases/download/v0.1.66/flyctl_0.1.66_macOS_x86_64.tar.gz": "8f92ffefddc9750711165fa44b0d21f0eb7efba477b424334d31c0c2503a830b",
+  "https://github.com/superfly/flyctl/releases/download/v0.1.66/flyctl_0.1.66_Linux_x86_64.tar.gz": "4411e1a30f2d525514a93432c813484c35f0efc197ff460c8e7e7e3ec1b53aef",
 }
