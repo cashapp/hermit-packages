@@ -12,7 +12,7 @@ platform "linux" {
 }
 
 version "0.11.2" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" "0.18.0"
-        "0.19.0" "0.20.0" "0.21.0" {
+        "0.19.0" "0.20.0" "0.21.0" "0.22.0" {
   auto-version {
     github-release = "shuttle-hq/shuttle"
   }
@@ -41,4 +41,6 @@ sha256sums = {
   "https://github.com/shuttle-hq/shuttle/releases/download/v0.20.0/cargo-shuttle-v0.20.0-x86_64-unknown-linux-gnu.tar.gz": "50bb53d3b7b0fdbaf2cf4d145da6b82a6daedddb5ce6efb8b2caa9afb5a51fee",
   "https://github.com/shuttle-hq/shuttle/releases/download/v0.21.0/cargo-shuttle-v0.21.0-x86_64-unknown-linux-gnu.tar.gz": "a74e0aaeca4b7b046ab2227b9c775c1d5268e12e1d63a6ff24cc241859b29ffb",
   "https://github.com/shuttle-hq/shuttle/releases/download/v0.21.0/cargo-shuttle-v0.21.0-x86_64-apple-darwin.tar.gz": "f9224ea4168827bbe42b4e67f218f8313a5338522b24d6da1aee42dba2f3b652",
+  "https://github.com/shuttle-hq/shuttle/releases/download/v0.22.0/cargo-shuttle-v0.22.0-x86_64-apple-darwin.tar.gz": "b3bff1e3c0d64cd690092e4c50a3b60238a1d3ea1e783dcd757177761016b61a",
+  "https://github.com/shuttle-hq/shuttle/releases/download/v0.22.0/cargo-shuttle-v0.22.0-x86_64-unknown-linux-gnu.tar.gz": "4b69f23d3d363729d88a6eae804fe79bbb5a90b6577854246b7d8b1132708f2b",
 }
