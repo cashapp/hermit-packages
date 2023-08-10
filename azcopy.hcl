@@ -3,12 +3,20 @@ binaries = ["azcopy_${os}_amd64_${version}/azcopy"]
 test = "azcopy --version"
 repository = "https://github.com/Azure/azure-storage-azcopy"
 
+// Versions prior to 10.20.0 had a different path from where to fetch releases,
+// hence the inclusion of a 'release_path' variable. ALl older versions override
+// this to maintain backwards compatibility and to make adding new versions much
+// easier.
+vars = {
+  "release_path": "releases/release-${version}-",
+}
+
 // To find out what the latest version and release date is
 // 
 // https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#download-azcopy
 // 
 // $ curl -sLI https://aka.ms/downloadazcopy-v10-linux | grep "Location"
-// Location: https://azcopyvnext.azureedge.net/release20221005/azcopy_linux_amd64_10.16.1.tar.gz
+// Location: https://azcopyvnext.azureedge.net/releases/release-10.20.0-20230727/azcopy_linux_amd64_10.20.0.tar.gz
 // 
 // -s: silent or quiet mode
 // -L: follow redirections
@@ -16,54 +24,63 @@ repository = "https://github.com/Azure/azure-storage-azcopy"
 version "10.14.1" {
   vars = {
     "release_date": "20220315",
+    "release_path": "release",
   }
 }
 
 version "10.15.0" {
   vars = {
     "release_date": "20220511",
+    "release_path": "release",
   }
 }
 
 version "10.16.0" {
   vars = {
     "release_date": "20220721",
+    "release_path": "release",
   }
 }
 
 version "10.16.1" {
   vars = {
     "release_date": "20221005",
+    "release_path": "release",
   }
 }
 
 version "10.16.2" {
   vars = {
     "release_date": "20221108",
+    "release_path": "release",
   }
 }
 
 version "10.17.0" {
   vars = {
     "release_date": "20230123",
+    "release_path": "release",
   }
 }
 
 version "10.18.0" {
   vars = {
     "release_date": "20230331",
+    "release_path": "release",
   }
 }
 
 version "10.18.1" {
   vars = {
     "release_date": "20230420",
+    "release_path": "release",
   }
 }
 
 version "10.19.0" {
   vars = {
     "release_date": "20230530",
+    "release_path": "release",
   }
 }
 
@@ -74,15 +91,15 @@ version "10.20.0" {
 }
 
 platform "linux" {
-  source = "https://azcopyvnext.azureedge.net/release${release_date}/azcopy_${os}_amd64_${version}.tar.gz"
+  source = "https://azcopyvnext.azureedge.net/${release_path}${release_date}/azcopy_${os}_amd64_${version}.tar.gz"
 }
 
 platform "darwin" {
-  source = "https://azcopyvnext.azureedge.net/release${release_date}/azcopy_${os}_amd64_${version}.zip"
+  source = "https://azcopyvnext.azureedge.net/${release_path}${release_date}/azcopy_${os}_amd64_${version}.zip"
 }
 
 platform "windows" {
-  source = "https://azcopyvnext.azureedge.net/release${release_date}/azcopy_${os}_amd64_${version}.zip"
+  source = "https://azcopyvnext.azureedge.net/${release_path}${release_date}/azcopy_${os}_amd64_${version}.zip"
 }
 
 sha256sums = {
