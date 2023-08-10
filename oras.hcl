@@ -13,7 +13,7 @@ platform "linux" "amd64" {
   source = "https://github.com/oras-project/oras/releases/download/v${version}/oras_${version}_${os}_${arch}.tar.gz"
 }
 
-version "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.15.0" "0.15.1" "0.16.0" "1.0.0" {
+version "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.15.0" "0.15.1" "0.16.0" "1.0.0" "1.0.1" {
   auto-version {
     github-release = "oras-project/oras"
   }
@@ -45,4 +45,7 @@ sha256sums = {
   "https://github.com/oras-project/oras/releases/download/v1.0.0/oras_1.0.0_darwin_arm64.tar.gz": "0168a0b8289c202b9dcd57fb4fa3638610245fd5574032e18b1196a20e4100d1",
   "https://github.com/oras-project/oras/releases/download/v1.0.0/oras_1.0.0_darwin_amd64.tar.gz": "3bce1a83fb518c7bc0afac685601835e5234daa88b3074aafecf768ec80229fe",
   "https://github.com/oras-project/oras/releases/download/v1.0.0/oras_1.0.0_linux_amd64.tar.gz": "8533c9ea1e5a0d5eb1dfc5094c0e8ef106d15462f8a119077548f88937ed2133",
+  "https://github.com/oras-project/oras/releases/download/v1.0.1/oras_1.0.1_linux_amd64.tar.gz": "6b51b87360d373dd3c19b91d2627d2efd320513380a878b6f06702f72fe8c5ab",
+  "https://github.com/oras-project/oras/releases/download/v1.0.1/oras_1.0.1_darwin_arm64.tar.gz": "faa0181799f0e0295d7df188441a1f8869da78a50da4cf7fb03cf35dc746b178",
+  "https://github.com/oras-project/oras/releases/download/v1.0.1/oras_1.0.1_darwin_amd64.tar.gz": "34f11536dc191f9ad4288649f97ef69b478548f891c932c9732307f064ed3331",
 }

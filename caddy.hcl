@@ -8,7 +8,7 @@ platform "darwin" {
 }
 
 version "2.4.6" "2.5.0" "2.5.1" "2.5.2" "2.6.0" "2.6.1" "2.6.2" "2.6.3" "2.6.4" "2.7.1"
-        "2.7.2" {
+        "2.7.2" "2.7.3" {
   auto-version {
     github-release = "caddyserver/caddy"
   }
@@ -48,4 +48,7 @@ sha256sums = {
   "https://github.com/caddyserver/caddy/releases/download/v2.7.2/caddy_2.7.2_mac_amd64.tar.gz": "563a63987818f8435d1737a6479b96091deb87cb87febcbbe542d7c16f122875",
   "https://github.com/caddyserver/caddy/releases/download/v2.7.2/caddy_2.7.2_mac_arm64.tar.gz": "8fdac8b465d4689dac02d59432df20ba82fa07e46016087634318bfc41127a08",
   "https://github.com/caddyserver/caddy/releases/download/v2.7.2/caddy_2.7.2_linux_amd64.tar.gz": "463f3e78793f560649d31144ac0fba2cfb96c0266b26443057cc48298327e6a9",
+  "https://github.com/caddyserver/caddy/releases/download/v2.7.3/caddy_2.7.3_linux_amd64.tar.gz": "a3da54761ab593ffc5e3dd4ecea8fd736663433b33680547e49c0d5e17585f5d",
+  "https://github.com/caddyserver/caddy/releases/download/v2.7.3/caddy_2.7.3_mac_amd64.tar.gz": "3415ef4a1c63b1cb4101870d428971287ab01869d32c1f194a75b08156ed0955",
+  "https://github.com/caddyserver/caddy/releases/download/v2.7.3/caddy_2.7.3_mac_arm64.tar.gz": "7d6d796875d27217e22dc18f48ee052cfbb69f6f6f1409d8497426fe2764798c",
 }

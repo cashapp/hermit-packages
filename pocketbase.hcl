@@ -3,7 +3,8 @@ homepage = "https://pocketbase.io"
 binaries = ["pocketbase"]
 source = "https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch}.zip"
 
-version "0.16.5" "0.16.6" "0.16.7" "0.16.8" "0.16.9" "0.16.10" "0.17.0" "0.17.1" {
+version "0.16.5" "0.16.6" "0.16.7" "0.16.8" "0.16.9" "0.16.10" "0.17.0" "0.17.1"
+        "0.17.2" "0.17.3" {
   auto-version {
     github-release = "pocketbase/pocketbase"
   }
@@ -34,4 +35,10 @@ sha256sums = {
   "https://github.com/pocketbase/pocketbase/releases/download/v0.17.1/pocketbase_0.17.1_linux_amd64.zip": "4382279dde508bc07e5930cd0cb2ab0bbd11552b1dc2b1f4bfe0adf1da97316e",
   "https://github.com/pocketbase/pocketbase/releases/download/v0.17.1/pocketbase_0.17.1_darwin_amd64.zip": "76621460253fa61421738135a4c1f34f05ffb7ff074c050d2d5ce11c9675dac4",
   "https://github.com/pocketbase/pocketbase/releases/download/v0.17.1/pocketbase_0.17.1_darwin_arm64.zip": "2e814ebe0cd177cef750e4d0c74f4e281fc27c56b1dd9c1e6bedf9b5333c0cb7",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.2/pocketbase_0.17.2_linux_amd64.zip": "b00e50c8b002db18c47e567b8f35b6916daab91993d20643a81ab7422936f87a",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.2/pocketbase_0.17.2_darwin_amd64.zip": "ca92ebae183cdf901eb8fb9212c34f2289c96575af8e63567f9a270d9fcec24e",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.2/pocketbase_0.17.2_darwin_arm64.zip": "a4aa3a15fa6b7358b352abb22a65764f8db8c030b6ad14131f38d6b7117d1cff",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.3/pocketbase_0.17.3_darwin_arm64.zip": "d0d79a6747f6618a899da75895f03ee55016a100dcb8dc0b0961422266ae98fd",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.3/pocketbase_0.17.3_linux_amd64.zip": "f2476c7d30cc781056b5cce77edb789d61d40e22fcb17876f52fd5798cd055c6",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.3/pocketbase_0.17.3_darwin_amd64.zip": "b918ae47aeeb0f5bbf8cfcf726cfa56d8e27af622eeb7e4daab62816ca80a2aa",
 }
