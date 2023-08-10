@@ -13,12 +13,24 @@ version "1.15.3" {
   source = "https://archive.apache.org/dist/flink/flink-1.15.3/flink-1.15.3-bin-scala_2.12.tgz"
 }
 
+version "1.15.4" {
+  source = "https://dlcdn.apache.org/flink/flink-1.15.4/flink-1.15.4-bin-scala_2.12.tgz"
+}
+
 version "1.16.0" {
   source = "https://archive.apache.org/dist/flink/flink-1.16.0/flink-1.16.0-bin-scala_2.12.tgz"
 }
 
 version "1.16.1" {
   source = "https://archive.apache.org/dist/flink/flink-1.16.1/flink-1.16.1-bin-scala_2.12.tgz"
+}
+
+version "1.16.2" {
+  source = "https://dlcdn.apache.org/flink/flink-1.16.2/flink-1.16.2-bin-scala_2.12.tgz"
+}
+
+version "1.17.1" {
+  source = "https://dlcdn.apache.org/flink/flink-1.17.1/flink-1.17.1-bin-scala_2.12.tgz"
 }
 
 sha256sums = {
