@@ -89,6 +89,12 @@ version "10.20.0" {
   }
 }
 
+version "10.20.1" {
+  vars = {
+    "release_date": "20230809",
+  }
+}
+
 platform "linux" {
   source = "https://azcopyvnext.azureedge.net/${release_path}${release_date}/azcopy_${os}_amd64_${version}.tar.gz"
 }
@@ -122,4 +128,6 @@ sha256sums = {
   "https://azcopyvnext.azureedge.net/release20230530/azcopy_darwin_amd64_10.19.0.zip": "b2124b6925983fd3a456b574387b2e8a20d3b20f775fc6f1ca58505055a60dcf",
   "https://azcopyvnext.azureedge.net/releases/release-10.20.0-20230727/azcopy_darwin_amd64_10.20.0.zip": "4b0a49670540f2dc57a86c2100e5596b7285488f8c4d7af0a999bd5a0bc93f27",
   "https://azcopyvnext.azureedge.net/releases/release-10.20.0-20230727/azcopy_linux_amd64_10.20.0.tar.gz": "a2ac0b643b3dbb2d174bdb75d07bd0ae77b72b13b40264f74f10f689442cbad9",
+  "https://azcopyvnext.azureedge.net/releases/release-10.20.1-20230809/azcopy_darwin_amd64_10.20.1.zip": "d7d822d303bdac464e17aed95f67a36054870d52e2ec956630279c2bd841165a",
+  "https://azcopyvnext.azureedge.net/releases/release-10.20.1-20230809/azcopy_linux_amd64_10.20.1.tar.gz": "91c8ae06d7a5ac274ce3c9b3d142e678a77f00a04d82a71c1e7ec0b3104fe249",
 }
