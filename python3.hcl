@@ -108,6 +108,12 @@ version "3.8.16" "3.10.11" "3.11.3" {
   }
 }
 
+version "3.9.17" "3.10.12" "3.11.4" {
+  vars = {
+    "release_date": "20230726",
+  }
+}
+
 sha256sums = {
   "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-3.8.10-x86_64-unknown-linux-gnu-pgo+lto-20210506T0943.tar.zst": "aec8c4c53373b90be7e2131093caa26063be6d9d826f599c935c0e1042af3355",
   "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-3.8.10-x86_64-apple-darwin-pgo+lto-20210506T0943.tar.zst": "8d06bec08db8cdd0f64f4f05ee892cf2fcbc58cfb1dd69da2caab78fac420238",
