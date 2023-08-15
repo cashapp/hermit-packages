@@ -25,6 +25,9 @@ version "12.18.3" "12.22.12" "12.22.6" "12.22.7" "12.22.9" "14.16.0" "14.17.0"
   platform "darwin" "arm64" {
     source = "https://nodejs.org/dist/v${version}/node-v${version}-${os}-x64.tar.gz"
   }
+  on install {
+    run { cmd = "npm install yarn" }
+  }
 }
 
 version "16.1.0" "16.10.0" "16.11.0" "16.13.0" "16.13.1" "16.14.0" "16.14.1"
@@ -36,6 +39,9 @@ version "16.1.0" "16.10.0" "16.11.0" "16.13.0" "16.13.1" "16.14.0" "16.14.1"
     ignore-invalid-versions = true
     version-pattern = "v(16.*)"
   }
+  on install {
+    run { cmd = "npm install yarn" }
+  }
 }
 
 version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
@@ -44,6 +50,9 @@ version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
     github-release = "nodejs/node"
     ignore-invalid-versions = true
     version-pattern = "v(17.*)"
+  }
+  on install {
+    run { cmd = "npm install yarn" }
   }
 }
 
@@ -55,6 +64,9 @@ version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.
     ignore-invalid-versions = true
     version-pattern = "v(18.*)"
   }
+  on install {
+    run { cmd = "npm install yarn" }
+  }
 }
 
 version "19.0.0" "19.0.1" "19.1.0" "19.2.0" "19.3.0" "19.4.0" "19.5.0" "19.6.0"
@@ -64,6 +76,9 @@ version "19.0.0" "19.0.1" "19.1.0" "19.2.0" "19.3.0" "19.4.0" "19.5.0" "19.6.0"
     ignore-invalid-versions = true
     version-pattern = "v(19.*)"
   }
+  on install {
+    run { cmd = "npm install yarn" }
+  }
 }
 
 version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1" {
@@ -71,6 +86,9 @@ version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1" 
     github-release = "nodejs/node"
     ignore-invalid-versions = true
     version-pattern = "v(20.*)"
+  }
+  on install {
+    run { cmd = "npm install yarn" }
   }
 }
 
