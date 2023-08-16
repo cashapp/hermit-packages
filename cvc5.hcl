@@ -13,7 +13,7 @@ vars = {
   "os_": "${os}",
 }
 
-version "1.0.1" "1.0.2" "1.0.3" "1.0.4" "1.0.5" {
+version "1.0.1" "1.0.2" "1.0.3" "1.0.4" "1.0.5" "1.0.6" {
   auto-version {
     github-release = "cvc5/cvc5"
     version-pattern = "cvc5-(.*)"
@@ -56,4 +56,7 @@ sha256sums = {
   "https://github.com/cvc5/cvc5/releases/download/cvc5-1.0.5/cvc5-macOS": "0e74e40a3db82f3ac4d8ea23308931bedbc6afbcf3ed484b8b000da17c75885c",
   "https://github.com/cvc5/cvc5/releases/download/cvc5-1.0.5/cvc5-Linux": "57fa94b740e0827f655a731b97dae84fedf86e65fa897c3a56a01a83d283d15e",
   "https://github.com/cvc5/cvc5/releases/download/cvc5-1.0.5/cvc5-macOS-arm64": "f1fe16664d88f9549da3df00853b6ddabafa68b1dc1c62d6dad0c0549cf95a33",
+  "https://github.com/cvc5/cvc5/releases/download/cvc5-1.0.6/cvc5-Linux": "40ea5db4710335ff2e6e5c38202c675b224e7f6aa336419a04ac2f85054a2a44",
+  "https://github.com/cvc5/cvc5/releases/download/cvc5-1.0.6/cvc5-macOS-arm64": "1bf778d6e7d84a2f46562520e875c17139e86d506c59aaee38ea7fce1f7cfb6b",
+  "https://github.com/cvc5/cvc5/releases/download/cvc5-1.0.6/cvc5-macOS": "afeaf4f4d77527dd6d663e5775c63040179d843161e85b9392a851dea1c80879",
 }
