@@ -8,7 +8,7 @@ version "1.7.4" {
 }
 
 version "1.7.8" "1.7.9" "1.7.10" "1.8.0" "1.8.1" "1.8.2" "1.8.3" "1.8.4" "1.8.5"
-        "1.8.6" "1.8.7" "1.9.0" "1.9.1" "1.9.2" {
+        "1.8.6" "1.8.7" "1.9.0" "1.9.1" "1.9.2" "1.9.3" {
   auto-version {
     github-release = "hashicorp/packer"
   }
@@ -60,4 +60,7 @@ sha256sums = {
   "https://releases.hashicorp.com/packer/1.9.2/packer_1.9.2_darwin_amd64.zip": "b3ed88d414c6dca69d2173b5f03d6bf8e2f9b65110b86dfff3b979373ef5305a",
   "https://releases.hashicorp.com/packer/1.9.2/packer_1.9.2_linux_amd64.zip": "34fe48d0d5f99670af15d8a3b581db7ce9d08093ce37240d7c7b996de7947275",
   "https://releases.hashicorp.com/packer/1.9.2/packer_1.9.2_darwin_arm64.zip": "d8e49cf30f085f1889bd16eb6a2fb44b2ff716d2c1560c9531c5e382bf813965",
+  "https://releases.hashicorp.com/packer/1.9.3/packer_1.9.3_darwin_arm64.zip": "ba9fa96be6caabaa4157f9384f6e22f4f4a2cc871fd64e68e745c46c3c9846b2",
+  "https://releases.hashicorp.com/packer/1.9.3/packer_1.9.3_linux_amd64.zip": "44d798b1defdfd2396a4106979d54848278876e3c190102c43c41b10e150b0c2",
+  "https://releases.hashicorp.com/packer/1.9.3/packer_1.9.3_darwin_amd64.zip": "5c50c94c8c5d21138f584d03e9399a342597b186ca11f3c6779fe0665dc9be31",
 }
