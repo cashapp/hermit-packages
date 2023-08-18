@@ -13,7 +13,7 @@ version "1.5.0" "1.6.0" "1.7.0" "1.8.0" {
 }
 
 version "1.9.0" "1.10.0" "1.11.0" "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0"
-        "1.17.0" "1.17.2" "1.18.0" "1.19.0" "1.19.1" "1.20.0" {
+        "1.17.0" "1.17.2" "1.18.0" "1.19.0" "1.19.1" {
   darwin {
     source = "https://github.com/kyleconroy/sqlc/releases/download/v${version}/sqlc_${version}_darwin_amd64.tar.gz"
   }
@@ -21,9 +21,13 @@ version "1.9.0" "1.10.0" "1.11.0" "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0"
   linux {
     source = "https://github.com/kyleconroy/sqlc/releases/download/v${version}/sqlc_${version}_linux_amd64.tar.gz"
   }
+}
+
+version "1.20.0" {
+  source = "https://github.com/sqlc-dev/sqlc/releases/download/v${version}/sqlc_${version}_${os}_${arch}.tar.gz"
 
   auto-version {
-    github-release = "kyleconroy/sqlc"
+    github-release = "sqlc-dev/sqlc"
   }
 }
 
@@ -74,6 +78,7 @@ sha256sums = {
   "https://github.com/kyleconroy/sqlc/releases/download/v1.19.0/sqlc_1.19.0_linux_amd64.tar.gz": "2b4bc7b301bc1c37d138ab759b2015fb3a0c4bd1600f64db095cae7493f6c7b9",
   "https://github.com/kyleconroy/sqlc/releases/download/v1.19.1/sqlc_1.19.1_linux_amd64.tar.gz": "e58d22093df6950f3209ba80b69ee2774b4352f923f16f12e9f2eea9fdf8f317",
   "https://github.com/kyleconroy/sqlc/releases/download/v1.19.1/sqlc_1.19.1_darwin_amd64.tar.gz": "46ced5886eacba272d6b9b9b74d31955d46209b9d8c7b6c9be1aee123973b135",
-  "https://github.com/kyleconroy/sqlc/releases/download/v1.20.0/sqlc_1.20.0_darwin_amd64.tar.gz": "577ae56982abfcdecb0a248ebbc826afe8336fe69cd47501f43d0b47984f250e",
-  "https://github.com/kyleconroy/sqlc/releases/download/v1.20.0/sqlc_1.20.0_linux_amd64.tar.gz": "136b23d8d2b537c05fdd76ab5abd63d7429caef812e7a4d58bb0995337e4cf61",
+  "https://github.com/sqlc-dev/sqlc/releases/download/v1.20.0/sqlc_1.20.0_linux_amd64.tar.gz": "136b23d8d2b537c05fdd76ab5abd63d7429caef812e7a4d58bb0995337e4cf61",
+  "https://github.com/sqlc-dev/sqlc/releases/download/v1.20.0/sqlc_1.20.0_darwin_amd64.tar.gz": "577ae56982abfcdecb0a248ebbc826afe8336fe69cd47501f43d0b47984f250e",
+  "https://github.com/sqlc-dev/sqlc/releases/download/v1.20.0/sqlc_1.20.0_darwin_arm64.tar.gz": "abd9300769480084f2007e91c0f286d391109ce02e80205b6bf63c65ee39c572",
 }
