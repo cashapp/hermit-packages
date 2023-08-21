@@ -15,7 +15,7 @@ version "0.1.2" {
   }
 }
 
-version "0.2.0" "0.2.1" {
+version "0.2.0" "0.2.1" "0.3.0" {
   auto-version {
     github-release = "Songmu/gotesplit"
   }
@@ -30,4 +30,7 @@ sha256sums = {
   "https://github.com/Songmu/gotesplit/releases/download/v0.2.1/gotesplit_v0.2.1_linux_amd64.tar.gz": "cad89bb963989d101c39d8b00137dd05b55b49431e55f4ef66984561c75f426a",
   "https://github.com/Songmu/gotesplit/releases/download/v0.2.1/gotesplit_v0.2.1_darwin_amd64.zip": "e2aba95dca24406927ce6145b3a077252b09400f844ad6ffc9ab6f9d85452618",
   "https://github.com/Songmu/gotesplit/releases/download/v0.2.1/gotesplit_v0.2.1_darwin_arm64.zip": "5eb7ea1d4b121e80d2c550b58e8390d33868524aca759446a03c8777f0413dd9",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.3.0/gotesplit_v0.3.0_linux_amd64.tar.gz": "3c531cdb0efe6d48819e3c583d72329a651c6c6590e1ea372c1e0b70e9e6d987",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.3.0/gotesplit_v0.3.0_darwin_amd64.zip": "ab6a45f47a2faf78ae872063fa34bdc93b6cd326b21bc8d284b867d2b4316c3f",
+  "https://github.com/Songmu/gotesplit/releases/download/v0.3.0/gotesplit_v0.3.0_darwin_arm64.zip": "bf99ca59cdde3d9c559d0da410a3a09dcc94bd4b1ca439ff5e617aeaa2b5ee46",
 }
