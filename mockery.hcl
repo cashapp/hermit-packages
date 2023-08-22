@@ -32,7 +32,7 @@ version "2.10.6" "2.11.0" "2.12.0" "2.12.1" "2.12.2" "2.13.0-beta.1" "2.13.0"
         "2.13.1" "2.14.0" "2.14.1" "2.15.0" "2.16.0" "2.18.0" "2.19.0" "2.20.0" "2.20.2"
         "2.21.1" "2.21.2" "2.21.4" "2.22.1" "2.23.0" "2.23.1" "2.23.2" "2.24.0" "2.25.0"
         "2.25.1" "2.26.0" "2.26.1" "2.27.1" "2.28.0" "2.28.1" "2.28.2" "2.29.0" "2.30.1"
-        "2.30.16" "2.31.1" "2.31.4" "2.32.0" "2.32.2" "2.32.3" "2.23.4" "2.32.4" {
+        "2.30.16" "2.31.1" "2.31.4" "2.32.0" "2.32.2" "2.32.3" "2.23.4" "2.32.4" "2.33.0" {
   auto-version {
     github-release = "vektra/mockery"
   }
@@ -165,4 +165,7 @@ sha256sums = {
   "https://github.com/vektra/mockery/releases/download/v2.32.4/mockery_2.32.4_darwin_arm64.tar.gz": "c5b9b6f68c84f8712879ea56e7714a9cb181d8e5899921e57588fc5d3bb98e4d",
   "https://github.com/vektra/mockery/releases/download/v2.32.4/mockery_2.32.4_linux_x86_64.tar.gz": "cd8cf9a43ea5d13e75076e3e1b7dd02e970adf49374db3cb835e7ddb6eea2f2d",
   "https://github.com/vektra/mockery/releases/download/v2.32.4/mockery_2.32.4_darwin_x86_64.tar.gz": "2c6c313c41cae0f0b410e128e1090eafb87273bf1340a2e8e24b3135007206be",
+  "https://github.com/vektra/mockery/releases/download/v2.33.0/mockery_2.33.0_darwin_x86_64.tar.gz": "897efaa985505cd43dc39e3948b48d1442e073df90ebc8fbfba13cd4a13da867",
+  "https://github.com/vektra/mockery/releases/download/v2.33.0/mockery_2.33.0_linux_x86_64.tar.gz": "da53977e56885aacbc9cbf27ba0ea57a1e04b36148ebf4e19098c7715242b9d3",
+  "https://github.com/vektra/mockery/releases/download/v2.33.0/mockery_2.33.0_darwin_arm64.tar.gz": "697be14da6ab077079168f11b7b8b5784c6b7ba26b5350674038263d3fa69c1f",
 }
