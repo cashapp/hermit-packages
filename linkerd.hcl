@@ -39,7 +39,8 @@ linux {
 }
 
 version "2.11.1" "2.11.2" "2.11.3" "2.11.4" "2.12.0-rc2" "2.12.0" "2.12.1" "2.12.2"
-        "2.12.3" "2.12.4" "2.13.0" "2.13.1" "2.13.2" "2.13.3" "2.13.4" "2.13.5" "2.13.6" {
+        "2.12.3" "2.12.4" "2.13.0" "2.13.1" "2.13.2" "2.13.3" "2.13.4" "2.13.5" "2.13.6"
+        "2.14.0" {
   auto-version {
     github-release = "linkerd/linkerd2"
     ignore-invalid-versions = true
@@ -99,4 +100,7 @@ sha256sums = {
   "https://github.com/linkerd/linkerd2/releases/download/stable-2.13.6/linkerd2-cli-stable-2.13.6-darwin-arm64": "afc180585480442d9c7110cf64a1b6c9c10a712ac4421b8faa4deae3b351e596",
   "https://github.com/linkerd/linkerd2/releases/download/stable-2.13.6/linkerd2-cli-stable-2.13.6-linux-amd64": "91701c6e427f269d254ba85cdfb4c2dcc124ef89338ce3c48d861c1e1c1f78d4",
   "https://github.com/linkerd/linkerd2/releases/download/stable-2.13.6/linkerd2-cli-stable-2.13.6-darwin": "dc1bee3b97f04b9ddc50e15cb50e052d324b5eec54cbc45a9450d7f14358cab3",
+  "https://github.com/linkerd/linkerd2/releases/download/stable-2.14.0/linkerd2-cli-stable-2.14.0-darwin-arm64": "58e75b7f0e119bf8b2776abd8c75fac85ead8626db60504b0279b0d5551a2034",
+  "https://github.com/linkerd/linkerd2/releases/download/stable-2.14.0/linkerd2-cli-stable-2.14.0-darwin": "7dbb2a7b24d476dd0372aa13398d43a9caa6d0d513ebec07f92f7c81a01fd422",
+  "https://github.com/linkerd/linkerd2/releases/download/stable-2.14.0/linkerd2-cli-stable-2.14.0-linux-amd64": "3f520295020e147e4388190dc2a85a550e012da0f68905945b57e304c3940ffa",
 }

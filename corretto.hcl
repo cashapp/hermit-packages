@@ -32,14 +32,15 @@ channel "stable" {
   version = "11.*"
 }
 
-version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1" {
+version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
+        "11.0.20.9.1" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
 }
 
 version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
-        "17.0.7.7.1" "17.0.8.7.1" {
+        "17.0.7.7.1" "17.0.8.7.1" "17.0.8.8.1" {
   auto-version {
     github-release = "corretto/corretto-17"
   }
@@ -82,4 +83,10 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-macosx-aarch64.tar.gz": "053c0bac27f5847bb2a2e7c6dbc223b880b3873b671ff8793a529d28cc37519d",
   "https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-macosx-x64.tar.gz": "10dafc711e1ea18246f942cd067a007f3756495c117b1ea1ff40acdf2c944952",
   "https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-linux-x64.tar.gz": "6cc5e6ed4913fe51d3efd96684124522d0bfe75c263a31cf06340e0dfa81f4cb",
+  "https://corretto.aws/downloads/resources/11.0.20.9.1/amazon-corretto-11.0.20.9.1-macosx-aarch64.tar.gz": "32c81583c291153662b39e199129ec77303651593f531ca3839f78f7a37121c0",
+  "https://corretto.aws/downloads/resources/11.0.20.9.1/amazon-corretto-11.0.20.9.1-linux-x64.tar.gz": "b6150255d304eab8fdcc0422beab277e5395bc481b4f87f096da78a979e47d47",
+  "https://corretto.aws/downloads/resources/11.0.20.9.1/amazon-corretto-11.0.20.9.1-macosx-x64.tar.gz": "bbb6dbb917b8def5fa2c7e94a52c8b92020d6e38c5f55634296facff3168e4b4",
+  "https://corretto.aws/downloads/resources/17.0.8.8.1/amazon-corretto-17.0.8.8.1-macosx-x64.tar.gz": "edb6d0406a8c16b44b7bd81b3d23d2a3de054c06ec8d86a25872093eee501ba0",
+  "https://corretto.aws/downloads/resources/17.0.8.8.1/amazon-corretto-17.0.8.8.1-macosx-aarch64.tar.gz": "08833433222ddb241a448eab92e0926d96287986f85dd5a6a065ae724e1bce43",
+  "https://corretto.aws/downloads/resources/17.0.8.8.1/amazon-corretto-17.0.8.8.1-linux-x64.tar.gz": "dd0e9596a6661c85656bbb6c2c726b768ce50af7cd37209d56b681d0838c3393",
 }
