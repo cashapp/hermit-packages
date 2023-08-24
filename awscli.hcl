@@ -8,7 +8,7 @@ darwin {
 }
 
 linux {
-  source = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-${version}.zip"
+  source = "https://awscli.amazonaws.com/awscli-exe-linux-${xarch}-${version}.zip"
   binaries = ["dist/aws", "dist/aws_completer"]
   strip = 1
 }
