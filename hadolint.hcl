@@ -1,10 +1,10 @@
 description = "Dockerfile linter, validate inline bash, written in Haskell"
 binaries = ["hadolint"]
-source = "https://github.com/hadolint/hadolint/releases/download/v${version}/hadolint-${os}-x86_64"
+source = "https://github.com/hadolint/hadolint/releases/download/v${version}/hadolint-${os}-${arch}"
 
 on "unpack" {
   rename {
-    from = "${root}/hadolint-${os}-x86_64"
+    from = "${root}/hadolint-${os}-${arch}"
     to = "${root}/hadolint"
   }
 }
