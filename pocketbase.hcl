@@ -4,7 +4,7 @@ binaries = ["pocketbase"]
 source = "https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch}.zip"
 
 version "0.16.5" "0.16.6" "0.16.7" "0.16.8" "0.16.9" "0.16.10" "0.17.0" "0.17.1"
-        "0.17.2" "0.17.3" "0.17.4" "0.17.5" "0.17.6" {
+        "0.17.2" "0.17.3" "0.17.4" "0.17.5" "0.17.6" "0.17.7" {
   auto-version {
     github-release = "pocketbase/pocketbase"
   }
@@ -50,4 +50,7 @@ sha256sums = {
   "https://github.com/pocketbase/pocketbase/releases/download/v0.17.6/pocketbase_0.17.6_linux_amd64.zip": "1b3f47da6095b0d16c2509b24da6828f905eb9f873621a9fe54aca70c2208e01",
   "https://github.com/pocketbase/pocketbase/releases/download/v0.17.6/pocketbase_0.17.6_darwin_amd64.zip": "1284c18fa602cd6114da1c7facff71e02cac4fd466b3ef20d76e8b5fe42b51af",
   "https://github.com/pocketbase/pocketbase/releases/download/v0.17.6/pocketbase_0.17.6_darwin_arm64.zip": "089c71bb6029d48f0dd41bb52f9433ab3a8f084a3221c9450b2aac3947f16438",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.7/pocketbase_0.17.7_linux_amd64.zip": "1e600ca2683c6ac5aeece79de0f56d71322dfe7d3bd14639579ac22bb00a9f91",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.7/pocketbase_0.17.7_darwin_amd64.zip": "381e9b891eaf6d03571e7438b6fde48cbd0462c04556238471bd6dac61141479",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.17.7/pocketbase_0.17.7_darwin_arm64.zip": "6dc2bcceb3b6d5110b89b1fb938c5d787459aa51831646763d57fca3a5d67c67",
 }
