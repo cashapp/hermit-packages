@@ -3,6 +3,12 @@ binaries = ["bw"]
 test = "bw --version"
 source = "https://github.com/bitwarden/clients/releases/download/cli-v${version}/bw-${os}-${version}.zip"
 
+platform "darwin" {
+  vars = {
+    "os_": "macos",
+  }
+}
+
 version "2023.7.0" {
   auto-version {
     github-release = "bitwarden/clients"
