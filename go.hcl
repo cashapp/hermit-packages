@@ -4,6 +4,8 @@ env = {
   "GOROOT": "${root}",
   "GOBIN": "${HERMIT_ENV}/.hermit/go/bin",
   "PATH": "${GOBIN}:${PATH}",
+  # Hermit defines the Go toolchain, we don't want Go downloading different versions
+  "GOTOOLCHAIN": "local",
 }
 strip = 1
 test = "go version"
