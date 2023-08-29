@@ -3,7 +3,7 @@ binaries = ["air"]
 source = "https://github.com/cosmtrek/air/releases/download/v${version}/air_${version}_${os}_${arch}.tar.gz"
 
 version "1.27.3" "1.27.8" "1.27.9" "1.27.10" "1.29.0" "1.28.0" "1.30.0" "1.40.1"
-        "1.40.2" "1.40.3" "1.40.4" "1.41.0" "1.42.0" "1.43.0" "1.44.0" {
+        "1.40.2" "1.40.3" "1.40.4" "1.41.0" "1.42.0" "1.43.0" "1.44.0" "1.45.0" {
   auto-version {
     github-release = "cosmtrek/air"
   }
@@ -55,4 +55,7 @@ sha256sums = {
   "https://github.com/cosmtrek/air/releases/download/v1.44.0/air_1.44.0_darwin_arm64.tar.gz": "fe08ca40fb000358c16a5cc5ca0374d7cb6205292282ae9ca03e5b0ec7f0b629",
   "https://github.com/cosmtrek/air/releases/download/v1.44.0/air_1.44.0_darwin_amd64.tar.gz": "4db5f5c2b969786944b92c3c29975461b957f7d25678d195e718c950e1cbcb3d",
   "https://github.com/cosmtrek/air/releases/download/v1.44.0/air_1.44.0_linux_amd64.tar.gz": "148e6b101d3a102674aff86faff36423597e3437d7da1dd8edac3bc27d7b8e49",
+  "https://github.com/cosmtrek/air/releases/download/v1.45.0/air_1.45.0_linux_amd64.tar.gz": "6684e7c9451e9d244e9dfe12f0873647fb44a37a7a40a43606727f683c336cde",
+  "https://github.com/cosmtrek/air/releases/download/v1.45.0/air_1.45.0_darwin_amd64.tar.gz": "88e16a1ed4fb1ce4d4dc64e2627ad783a92455ddc68e8d4bda239998742dc5c5",
+  "https://github.com/cosmtrek/air/releases/download/v1.45.0/air_1.45.0_darwin_arm64.tar.gz": "9c8fe5dfacd544e997566896c0d8084bb339d16e43f7077d11bb68ac2c2a738e",
 }
