@@ -14,7 +14,7 @@ on "unpack" {
 version "1.31.0" "1.32.0" "1.33.0" "1.35.0" "1.35.1" "1.35.2" "1.36.0" "1.36.1"
         "1.37.0" "1.37.1" "1.38.0" "1.37.2" "1.39.0" "1.39.1" "1.39.2" "2.0.0" "2.0.1" "2.0.2"
         "2.0.3" "2.0.4" "2.1.0" "2.2.0" "2.3.0" "2.3.1" "2.4.0" "2.4.1" "2.5.0" "2.5.1" "2.6.0"
-        "2.6.1" "2.6.2" "2.6.3" {
+        "2.6.1" "2.6.2" "2.6.3" "2.7.0" {
   auto-version {
     github-release = "GoogleContainerTools/skaffold"
   }
@@ -117,4 +117,7 @@ sha256sums = {
   "https://storage.googleapis.com/skaffold/releases/v2.6.3/skaffold-linux-amd64": "7bee8f63a061965d8d343fd3aa81a20e712ae47e5f205f4b7c643f85c475e18b",
   "https://storage.googleapis.com/skaffold/releases/v2.6.3/skaffold-darwin-amd64": "0022b64a5a430db949becbe85efa2f032f3f5acbefb720e5231c5ee927b4f252",
   "https://storage.googleapis.com/skaffold/releases/v2.6.3/skaffold-darwin-arm64": "1f69d86416acdd17a2ecf8977cd429e4e10dc5d95e3515aa321e387febb7df3e",
+  "https://storage.googleapis.com/skaffold/releases/v2.7.0/skaffold-darwin-arm64": "85bdf72ec4cb0e1e63daaa023e30f5b827275ecc6667116f86b3e741f5496359",
+  "https://storage.googleapis.com/skaffold/releases/v2.7.0/skaffold-darwin-amd64": "ae55efb3672aee09f987b2b6894219ee34aac40848865d548e253cbb89b978e0",
+  "https://storage.googleapis.com/skaffold/releases/v2.7.0/skaffold-linux-amd64": "0117a495b0085718f33f66562ce4f25287ba7b753de6997bc0089f8e24ff9069",
 }

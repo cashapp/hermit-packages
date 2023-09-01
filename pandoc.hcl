@@ -22,7 +22,7 @@ version "2.13" "2.14.0.3" "2.14.1" "2.14.2" "2.15" "2.16" "2.16.1" "2.16.2" "2.1
   }
 }
 
-version "3.1.2" "3.1.3" "3.1.4" "3.1.5" "3.1.6" "3.1.6.1" "3.1.6.2" {
+version "3.1.2" "3.1.3" "3.1.4" "3.1.5" "3.1.6" "3.1.6.1" "3.1.6.2" "3.1.7" {
   auto-version {
     github-release = "jgm/pandoc"
   }
@@ -90,4 +90,7 @@ sha256sums = {
   "https://github.com/jgm/pandoc/releases/download/3.1.6.2/pandoc-3.1.6.2-x86_64-macOS.zip": "bf4dee8b1cf36ffceb947d08154db0af2dd728f4d0f9d2cef290d7d7222a3122",
   "https://github.com/jgm/pandoc/releases/download/3.1.6.2/pandoc-3.1.6.2-arm64-macOS.zip": "1a4ce781a808a37f565ad2d8a52a6eb88a2a7013a4ddb498ff391df0ca09fdd8",
   "https://github.com/jgm/pandoc/releases/download/3.1.6.2/pandoc-3.1.6.2-linux-amd64.tar.gz": "a9c84b765991891572b4b67525c184d501cabfc751e6de054c902bbc7b41ee50",
+  "https://github.com/jgm/pandoc/releases/download/3.1.7/pandoc-3.1.7-arm64-macOS.zip": "39ccdca512a9462b7f9ca59fd56a84a3672c199500ece27619589098d14411cb",
+  "https://github.com/jgm/pandoc/releases/download/3.1.7/pandoc-3.1.7-linux-amd64.tar.gz": "63237f1a333371cab324a8780dd13455386d68aa92b4289175611cfdad1f302c",
+  "https://github.com/jgm/pandoc/releases/download/3.1.7/pandoc-3.1.7-x86_64-macOS.zip": "c2344a01f2abdba19b6baf3c1d2c1e8b6a3dcc4330ce50bcbd0170e985be3a35",
 }
