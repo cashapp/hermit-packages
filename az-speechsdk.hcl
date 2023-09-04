@@ -1,5 +1,4 @@
 description = "The Azure Cognitive Services Speech SDK is a platform agnostic, cross-language library for adding speech to applications."
-binaries = ["speechsdk/lib/*"]
 // # https://aka.ms/csspeech/linuxbinary
 // # curl -sLI https://aka.ms/csspeech/linuxbinary | grep "Location" 
 // # Location: https://csspeechstorage.blob.core.windows.net/drop/1.27.0/SpeechSDK-Linux-1.27.0.tar.gz
@@ -11,7 +10,7 @@ env = {
 
 platform "linux" {
   source = "https://csspeechstorage.blob.core.windows.net/drop/${version}/SpeechSDK-Linux-${version}.tar.gz"
-
+  binaries = ["speechsdk/lib/*"]
   on "unpack" {
     rename {
       from = "${root}/SpeechSDK-Linux-${version}"
@@ -22,6 +21,7 @@ platform "linux" {
 
 platform "darwin" {
   source = "https://csspeechstorage.blob.core.windows.net/drop/${version}/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-${version}.zip"
+  binaries = ["MicrosoftCognitiveServicesSpeech.xcframework/macos-arm64_x86_64/MicrosoftCognitiveServicesSpeech.framework/Versions/A/Headers/*"]
 
   on "unpack" {
     rename {
