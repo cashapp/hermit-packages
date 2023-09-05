@@ -16,7 +16,7 @@ platform "linux" "amd64" {
 
 version "0.66.1" "0.67.0" "0.68.0" "0.69.0" "0.70.0" "0.70.1" "0.72.0" "0.73.0"
         "0.74.0" "0.75.0" "0.76.2" "0.77.0" "0.78.0" "0.79.0" "0.80.0" "0.81.0" "0.82.0"
-        "0.83.0" "0.83.1" "0.83.2" "0.84.0" "0.85.0" {
+        "0.83.0" "0.83.1" "0.83.2" "0.84.0" "0.85.0" "0.86.0" {
   auto-version {
     github-release = "elastic/elastic-package"
   }
@@ -89,4 +89,7 @@ sha256sums = {
   "https://github.com/elastic/elastic-package/releases/download/v0.85.0/elastic-package_0.85.0_darwin_arm64.tar.gz": "d482db2dacfc7dcc1cb6c124d6182e22a5d09773d8b581a6c8e030cfd496a330",
   "https://github.com/elastic/elastic-package/releases/download/v0.85.0/elastic-package_0.85.0_linux_amd64.tar.gz": "bca8228593a7734c541ad47d53b93730d87d58016cd72badaeaebb90d8e64c89",
   "https://github.com/elastic/elastic-package/releases/download/v0.85.0/elastic-package_0.85.0_darwin_amd64.tar.gz": "8264113ffec561b9db932779080fda75644f8dd09213035e058ab4766a61f71a",
+  "https://github.com/elastic/elastic-package/releases/download/v0.86.0/elastic-package_0.86.0_linux_amd64.tar.gz": "79d36e1b25a11e2a2a2ef3cf4dc638d423f2017c64cc3005223097f7428c829a",
+  "https://github.com/elastic/elastic-package/releases/download/v0.86.0/elastic-package_0.86.0_darwin_amd64.tar.gz": "20801d62b470b95d6add131a07a27a89ccdc229d9eb11a2f8427bbf21f21bdfd",
+  "https://github.com/elastic/elastic-package/releases/download/v0.86.0/elastic-package_0.86.0_darwin_arm64.tar.gz": "7f63624e557143733e3071a144dbddd5b687b3426449d4ca8820f234f6ed8b50",
 }
