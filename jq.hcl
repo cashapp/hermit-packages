@@ -1,9 +1,6 @@
 description = "jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text."
 binaries = ["jq"]
 test = "jq --version"
-vars = {
-  "arch_": "${arch}",
-}
 
 linux {
   source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-linux-${arch}"
@@ -21,7 +18,7 @@ darwin {
 
   on "unpack" {
     rename {
-      from = "${root}/jq-macos-${arch_}"
+      from = "${root}/jq-macos-${arch}"
       to = "${root}/jq"
     }
   }
@@ -44,7 +41,7 @@ version "1.5" "1.6" {
 
     on "unpack" {
       rename {
-        from = "${root}/jq-osx-${arch_}"
+        from = "${root}/jq-osx-amd64"
         to = "${root}/jq"
       }
     }
