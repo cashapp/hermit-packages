@@ -2,30 +2,8 @@ description = "jq is like sed for JSON data - you can use it to slice and filter
 binaries = ["jq"]
 test = "jq --version"
 
-linux {
-  source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-linux-${arch}"
-
-  on "unpack" {
-    rename {
-      from = "${root}/jq-linux-${arch}"
-      to = "${root}/jq"
-    }
-  }
-}
-
-darwin {
-  source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-macos-${arch}"
-
-  on "unpack" {
-    rename {
-      from = "${root}/jq-macos-${arch}"
-      to = "${root}/jq"
-    }
-  }
-}
-
 version "1.5" "1.6" {
-  linux {
+  platform linux {
     source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-linux64"
 
     on "unpack" {
@@ -36,7 +14,7 @@ version "1.5" "1.6" {
     }
   }
 
-  darwin {
+  platform darwin {
     source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-osx-amd64"
 
     on "unpack" {
@@ -52,6 +30,28 @@ version "1.7" {
   auto-version {
     github-release = "stedolan/jq"
     version-pattern = "jq-(.*)"
+  }
+
+  platform linux {
+    source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-linux-${arch}"
+
+    on "unpack" {
+      rename {
+        from = "${root}/jq-linux-${arch}"
+        to = "${root}/jq"
+      }
+    }
+  }
+
+  platform darwin {
+    source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-macos-${arch}"
+
+    on "unpack" {
+      rename {
+        from = "${root}/jq-macos-${arch}"
+        to = "${root}/jq"
+      }
+    }
   }
 }
 
