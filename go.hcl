@@ -4,7 +4,7 @@ env = {
   "GOROOT": "${root}",
   "GOBIN": "${HERMIT_ENV}/.hermit/go/bin",
   "PATH": "${GOBIN}:${PATH}",
-  # Hermit defines the Go toolchain, we don't want Go downloading different versions
+  // # Hermit defines the Go toolchain, we don't want Go downloading different versions
   "GOTOOLCHAIN": "local",
 }
 strip = 1
@@ -57,7 +57,7 @@ version "1.18beta1" "1.18beta2" "1.18" "1.18.1" "1.18.2" "1.18.3" "1.19beta1"
 }
 
 version "1.19" "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.19.6" "1.19.7" "1.19.8"
-        "1.19.9" "1.19.10" "1.19.11" "1.19.12" {
+        "1.19.9" "1.19.10" "1.19.11" "1.19.12" "1.19.13" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -69,7 +69,8 @@ version "1.19" "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.19.6" "1.19.7" "1
 }
 
 // All other versions
-version "1.20" "1.20.1" "1.20.2" "1.20.3" "1.20.4" "1.20.5" "1.20.6" "1.20.7" "1.21.0" {
+version "1.20" "1.20.1" "1.20.2" "1.20.3" "1.20.4" "1.20.5" "1.20.6" "1.20.7" "1.21.0"
+        "1.21.1" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -263,4 +264,10 @@ sha256sums = {
   "https://golang.org/dl/go1.21.0.darwin-arm64.tar.gz": "3aca44de55c5e098de2f406e98aba328898b05d509a2e2a356416faacf2c4566",
   "https://golang.org/dl/go1.21.0.darwin-amd64.tar.gz": "b314de9f704ab122c077d2ec8e67e3670affe8865479d1f01991e7ac55d65e70",
   "https://golang.org/dl/go1.21.0.linux-amd64.tar.gz": "d0398903a16ba2232b389fb31032ddf57cac34efda306a0eebac34f0965a0742",
+  "https://golang.org/dl/go1.19.13.darwin-arm64.tar.gz": "022b35fa9c79b9457fa4a14fd9c4cf5f8ea315a8f2e3b3cd949fea55e11a7d7b",
+  "https://golang.org/dl/go1.19.13.linux-amd64.tar.gz": "4643d4c29c55f53fa0349367d7f1bb5ca554ea6ef528c146825b0f8464e2e668",
+  "https://golang.org/dl/go1.19.13.darwin-amd64.tar.gz": "1b4329dc9e73def7f894ca71fce78bb9f3f5c4c8671b6c7e4f363a3f47e88325",
+  "https://golang.org/dl/go1.21.1.darwin-arm64.tar.gz": "ffd40391a1e995855488b008ad9326ff8c2e81803a6e80894401003bae47fcf1",
+  "https://golang.org/dl/go1.21.1.darwin-amd64.tar.gz": "809f5b0ef4f7dcdd5f51e9630a5b2e5a1006f22a047126d61560cdc365678a19",
+  "https://golang.org/dl/go1.21.1.linux-amd64.tar.gz": "b3075ae1ce5dab85f89bc7905d1632de23ca196bd8336afd93fa97434cfa55ae",
 }
