@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "2.4.2" "2.7.3" "2.7.4" "2.7.5" "2.8.0" "2.8.2" "2.8.3" "2.8.4" {
+version "2.4.2" "2.7.3" "2.7.4" "2.7.5" "2.8.0" "2.8.2" "2.8.3" "2.8.4" "2.9.0" {
   auto-version {
     github-release = "grafana/loki"
   }
@@ -41,4 +41,7 @@ sha256sums = {
   "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-linux-amd64.zip": "05799bd94b5550b12ec975b6d4f82cd93cb50f79d13ab8e8fd9573aef8455372",
   "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-darwin-amd64.zip": "bbe235cdc8389d02565e417f51b293cfad39f26ef2ef787df412f7566f1933f4",
   "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-darwin-arm64.zip": "358d16c8470cad11dfde56dd956afd4e6bf3aebe42dfe82b38444ad55a80cd34",
+  "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-linux-amd64.zip": "03fb78a9fd0acd3c3391049ab4d45d118a5f4a3a78cdecf366de65de9ad4e281",
+  "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-darwin-amd64.zip": "02adf0fcb651d39e243c724faf2559eb783376e03b33b6d971f0e0ad608e28d6",
+  "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-darwin-arm64.zip": "d4685cf2d60ce4e36dc71aa2b31b1f9199f881a7316688e04d9265991c7b4f4f",
 }
