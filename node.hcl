@@ -3,6 +3,9 @@ test = "node --version"
 binaries = ["bin/*"]
 repository = "https://github.com/nodejs/node"
 strip = 1
+vars = {
+  "node_libdir": "${HERMIT_ENV}/.hermit/node/lib"
+}
 env = {
   "COREPACK_HOME": "${HERMIT_ENV}/.hermit/node",
   "NPM_CONFIG_PREFIX": "${HERMIT_ENV}/.hermit/node",
@@ -10,6 +13,15 @@ env = {
   "PATH": "${HERMIT_ENV}/node_modules/.bin:${NPM_CONFIG_PREFIX}/bin:${PATH}",
 }
 sha256-source = "https://nodejs.org/dist/v${version}/SHASUMS256.txt.asc"
+
+
+on activate {
+  mkdir { dir = "${node_libdir}" }
+}
+
+on install {
+  mkdir { dir = "${node_libdir}" }
+}
 
 platform "amd64" {
   source = "https://nodejs.org/dist/v${version}/node-v${version}-${os}-x64.tar.gz"
