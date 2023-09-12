@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "1.25.1" "1.26.3" "1.27.6" "1.28.1" "1.28.2" {
+version "1.25.1" "1.26.3" "1.27.6" "1.28.1" "1.28.2" "1.28.4" {
   auto-version {
     github-release = "aquasecurity/tfsec"
   }
@@ -33,4 +33,7 @@ sha256sums = {
   "https://github.com/aquasecurity/tfsec/releases/download/v1.28.2/tfsec-linux-amd64": "b3e36c2c75809ea03ae6d496e2a67ac273e33f4b9625920b51dc0b47a759d90d",
   "https://github.com/aquasecurity/tfsec/releases/download/v1.28.2/tfsec-darwin-amd64": "4acf37f4f55ded6eefd2ae3bbc0174aa2b1814068e722e845f54c888ad20239c",
   "https://github.com/aquasecurity/tfsec/releases/download/v1.28.2/tfsec-darwin-arm64": "b1379c536266e0314d4bf0f2df8c32cdc345187c19fe5631499b48a873fb80b5",
+  "https://github.com/aquasecurity/tfsec/releases/download/v1.28.4/tfsec-darwin-amd64": "600f091f1a92adc9cd1754eca380f73d59a51c148b64176c72b652e721628a02",
+  "https://github.com/aquasecurity/tfsec/releases/download/v1.28.4/tfsec-linux-amd64": "ecd6c40122835356b78d9488328c2c1c186a1a03c8ae00c6a33ba1c08909a4d9",
+  "https://github.com/aquasecurity/tfsec/releases/download/v1.28.4/tfsec-darwin-arm64": "136eb58bfdc28d79d2f476995e20f9c2e1f17958b1cd21237ec7818a2390896f",
 }
