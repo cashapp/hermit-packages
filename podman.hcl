@@ -1,5 +1,7 @@
 description = "A tool for managing OCI containers and pods."
 sha256-source = "https://github.com/containers/podman/releases/download/v${version}/shasums"
+binaries = ["podman"]
+source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
 
 platform "darwin" {
   source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin_${arch}.zip"
@@ -8,15 +10,12 @@ platform "darwin" {
 }
 
 version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
-  binaries = ["podman"]
-
   platform "darwin" {
     source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin.zip"
     strip = 1
   }
 
   platform "linux" {
-    binaries = ["podman"]
     source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
 
     on "unpack" {
@@ -30,7 +29,6 @@ version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
 
 version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
   platform "linux" {
-    binaries = ["podman"]
     source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static.tar.gz"
 
     on "unpack" {
@@ -42,7 +40,21 @@ version "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.2.0" "4.2.1" "4.3.0" "4.3.1" {
   }
 }
 
-version "4.4.0" "4.4.1" "4.4.2" "4.4.3" "4.4.4" "4.5.0" "4.5.1" "4.6.0" "4.6.1" "4.6.2" {
+// These versions have no bin/ prefix
+version "4.4.0" "4.4.2" "4.4.3" {
+  platform "linux" {
+    source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
+
+    on "unpack" {
+      rename {
+        from = "${root}/podman-remote-static-linux_${arch}"
+        to = "${root}/podman"
+      }
+    }
+  }
+}
+
+version "4.4.1" "4.4.4" "4.5.0" "4.5.1" "4.6.0" "4.6.1" "4.6.2" {
   auto-version {
     github-release = "containers/podman"
     ignore-invalid-versions = true
@@ -50,12 +62,11 @@ version "4.4.0" "4.4.1" "4.4.2" "4.4.3" "4.4.4" "4.5.0" "4.5.1" "4.6.0" "4.6.1" 
   }
 
   platform "linux" {
-    binaries = ["podman"]
     source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
 
     on "unpack" {
       rename {
-        from = "${root}/podman-remote-static-linux_${arch}"
+        from = "${root}/bin/podman-remote-static-linux_${arch}"
         to = "${root}/podman"
       }
     }
@@ -114,7 +125,7 @@ sha256sums = {
   "https://github.com/containers/podman/releases/download/v4.4.4/podman-remote-release-darwin_arm64.zip": "99cf5944b5501d6f2eeeefc47a860e9f2cfc18aa04d397032592bcf62b370554",
   "https://github.com/containers/podman/releases/download/v4.5.0/podman-remote-release-darwin_amd64.zip": "e41c4d060f9f0f914f4eb31fad1342577bf0893d393a151a3d3dee66cafa2277",
   "https://github.com/containers/podman/releases/download/v4.5.0/podman-remote-release-darwin_arm64.zip": "727c1ebbc9dcda2fe49eecbd1704f20fb0332accb01c257f1e18213b58bc6f82",
-  "https://github.com/containers/podman/releases/download/v4.5.0/podman-remote-static-linux_amd64.tar.gz": "8b29195b51cf9d94168f64ea7434e48a90a4c27c0fd33fa61d894e987ce53f7d",
+  "https://github.com/containers/podman/releases/download/v4.5.0/podman-remote-static-linux_amd64.tar.gz": "da38265994c0099ed912cb3bd80041c6bbff18e7a3bbde090c467b3860be3639",
   "https://github.com/containers/podman/releases/download/v4.5.1/podman-remote-static-linux_amd64.tar.gz": "16c7c56979daec868d0abceb31cb0bf86a8996a3211cd5d27e46f155898278ec",
   "https://github.com/containers/podman/releases/download/v4.5.1/podman-remote-release-darwin_amd64.zip": "36a5ae035d5988354d29684e849262b9539239bb67c795cf41e372581bbc41b7",
   "https://github.com/containers/podman/releases/download/v4.5.1/podman-remote-release-darwin_arm64.zip": "5f31c01ab10314834b2165977c88fbeb58f921fc0668bb8af18128ab3720d5ac",
