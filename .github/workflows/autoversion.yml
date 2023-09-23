@@ -32,6 +32,11 @@ jobs:
             echo "No change"
             exit 0
           fi
+          packages="$(git diff --name-only | paste -s -d ' ' -)"
+          for pkg in $packages; do
+            echo "Trying to install new version of $pkg"
+            hermit install "${pkg%.hcl}@latest"
+          done
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git commit -am   "Auto-versioned: $(git diff --name-only | paste -s -d ' ' -)"
