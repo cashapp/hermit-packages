@@ -2,8 +2,9 @@ description = "Bit - A simple yet powerful build tool"
 binaries = ["bit"]
 test = "bit --help"
 source = "https://github.com/alecthomas/bit/releases/download/v${version}/bit-${os}-${arch}.tar.gz"
+sha256-source = "https://github.com/alecthomas/bit/releases/download/v${version}/checksums.txt"
 
-version "0.0.1" "0.1.0" "0.3.0" "0.3.1" {
+version "0.0.1" "0.1.0" "0.3.0" "0.3.1" "0.3.2" {
   auto-version {
     github-release = "alecthomas/bit"
   }
@@ -22,4 +23,7 @@ sha256sums = {
   "https://github.com/alecthomas/bit/releases/download/v0.3.1/bit-darwin-amd64.tar.gz": "c91fb968a9b449351b89a28a870476441b98becf68a4d0cd5fdc7739a9f0df97",
   "https://github.com/alecthomas/bit/releases/download/v0.3.1/bit-linux-amd64.tar.gz": "ada129d9c5ca1d2b7d57046544830664c1bb3cb951ade76f2c78c5bd8fc3aa92",
   "https://github.com/alecthomas/bit/releases/download/v0.3.1/bit-darwin-arm64.tar.gz": "891462a3e96a202179d34bd1230f8bc228a685fa9787b8a86ab16ac773ebbbc2",
+  "https://github.com/alecthomas/bit/releases/download/v0.3.2/bit-darwin-arm64.tar.gz": "effa0b92e886460cbe618d1434f9f4621f415c6a7f3229fb8558224b30f4e83a",
+  "https://github.com/alecthomas/bit/releases/download/v0.3.2/bit-linux-amd64.tar.gz": "aa46c92d38fab232859a632c13cf2205cd37991c0839be0314a36ec73f85bcb4",
+  "https://github.com/alecthomas/bit/releases/download/v0.3.2/bit-darwin-amd64.tar.gz": "ae64a18d3979407ec7ccbaf8b701a60e305c8580ecf401aba40e5b0232830be0",
 }
