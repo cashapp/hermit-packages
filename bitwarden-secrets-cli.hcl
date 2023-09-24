@@ -3,6 +3,11 @@ binaries = ["bws"]
 test = "bws --version"
 source = "https://github.com/bitwarden/sdk/releases/download/bws-v${version}/bws-${arch_}-${os_}-${version}.zip"
 
+vars = {
+  "arch_": "${arch}",
+  "os_": "${os}",
+}
+
 platform "amd64" {
   vars = {
     "arch_": "x86_64",
@@ -25,11 +30,6 @@ platform "windows" {
   vars = {
     "os_": "pc-windows-msvc",
   }
-}
-
-vars = {
-  "arch_": "${arch}",
-  "os_": "${os}",
 }
 
 version "0.3.0" {
