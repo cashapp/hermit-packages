@@ -9,6 +9,10 @@ platform "darwin" {
   }
 }
 
+vars = {
+  "os_": "${os}",
+}
+
 version "2023.7.0" {
   auto-version {
     github-release = "bitwarden/clients"

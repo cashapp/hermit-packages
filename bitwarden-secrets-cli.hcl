@@ -27,6 +27,11 @@ platform "windows" {
   }
 }
 
+vars = {
+  "arch_": "${arch}",
+  "os_": "${os}",
+}
+
 version "0.3.0" {
   auto-version {
     github-release = "bitwarden/sdk"
