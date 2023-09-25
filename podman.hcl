@@ -7,6 +7,7 @@ platform "darwin" {
   binaries = ["usr/bin/podman"]
 }
 
+// just check it
 version "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.4" {
   binaries = ["podman"]
 
