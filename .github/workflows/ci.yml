@@ -28,4 +28,4 @@ jobs:
           ~/bin/hermit validate "file://$PWD"
           ~/bin/hermit init --sources="file://$PWD" ./testenv
           . ./testenv/bin/activate-hermit
-          for pkg in $(git diff --name-only ${{ github.event.pull_request.base.sha }} | fgrep .hcl | cut -d. -f1 | xargs -I{} -n1 hermit search -s '^{}$' | grep -v '@'); do echo $pkg; hermit test -t $pkg; hermit clean -tp; done
+          for pkg in $(git diff --name-only ${{ github.event.pull_request.base.sha }} | fgrep .hcl | cut -d. -f1 | xargs -I{} -n1 hermit search -s '^{}$' | grep -v '@'); do echo $pkg; hermit test -t $pkg; hermit install $pkg; hermit uninstall $pkg; hermit clean -tp; done
