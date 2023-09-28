@@ -5,13 +5,14 @@ strip = 1
 binaries = ["bin/gradle"]
 repository = "https://github.com/gradle/gradle"
 
-version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "8.0-rc-2" "8.0.1" "8.1.1" "8.2" "8.2.1" "8.3" {
+version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "7.6.2"
+        "8.0-rc-2" "8.0.1" "8.1.1" "8.2" "8.2.1" "8.3" {
   auto-version {
     github-release = "gradle/gradle"
   }
 }
 
-# Checksum reference: https://gradle.org/release-checksums/.
+// # Checksum reference: https://gradle.org/release-checksums/.
 sha256sums = {
   "https://services.gradle.org/distributions/gradle-6.7-bin.zip": "8ad57759019a9233dc7dc4d1a530cefe109dc122000d57f7e623f8cf4ba9dfc4",
   "https://services.gradle.org/distributions/gradle-6.8.3-bin.zip": "7faa7198769f872826c8ef4f1450f839ec27f0b4d5d1e51bade63667cbccd205",
@@ -28,5 +29,6 @@ sha256sums = {
   "https://services.gradle.org/distributions/gradle-8.1.1-bin.zip": "e111cb9948407e26351227dabce49822fb88c37ee72f1d1582a69c68af2e702f",
   "https://services.gradle.org/distributions/gradle-8.2-bin.zip": "38f66cd6eef217b4c35855bb11ea4e9fbc53594ccccb5fb82dfd317ef8c2c5a3",
   "https://services.gradle.org/distributions/gradle-8.2.1-bin.zip": "03ec176d388f2aa99defcadc3ac6adf8dd2bce5145a129659537c0874dea5ad1",
-  "https://services.gradle.org/distributions/gradle-8.3-bin.zip": "591855b517fc635b9e04de1d05d5e76ada3f89f5fc76f87978d1b245b4f69225"
+  "https://services.gradle.org/distributions/gradle-8.3-bin.zip": "591855b517fc635b9e04de1d05d5e76ada3f89f5fc76f87978d1b245b4f69225",
+  "https://services.gradle.org/distributions/gradle-7.6.2-bin.zip": "a01b6587e15fe7ed120a0ee299c25982a1eee045abd6a9dd5e216b2f628ef9ac",
 }
