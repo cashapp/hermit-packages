@@ -20,7 +20,7 @@ version "3.20.4" "3.21.0-rc1" "3.21.0-rc2" "3.21.0-rc3" "3.21.0" "3.21.1" "3.21.
         "3.25.0-rc3" "3.25.0-rc4" "3.24.3" "3.25.0" "3.25.1" "3.25.2" "3.26.0-rc1" "3.26.0-rc2"
         "3.26.0-rc3" "3.26.0-rc4" "3.26.0-rc5" "3.26.0-rc6" "3.26.0" "3.26.1" "3.26.2" "3.26.3"
         "3.26.4" "3.27.0-rc1" "3.27.0-rc2" "3.27.0-rc3" "3.27.0-rc4" "3.27.0-rc5" "3.27.0"
-        "3.26.5" "3.27.1" "3.27.2" "3.27.3" "3.27.4" "3.27.5" "3.27.6" "3.27.7" {
+        "3.26.5" "3.27.1" "3.27.2" "3.27.3" "3.27.4" "3.27.5" "3.27.6" "3.27.7" "3.28.0-rc1" {
   auto-version {
     github-release = "Kitware/CMake"
   }
@@ -163,4 +163,6 @@ sha256sums = {
   "https://github.com/Kitware/CMake/releases/download/v3.27.6/cmake-3.27.6-linux-x86_64.tar.gz": "26373a283daa8490d772dc8a179450cd6d391cb2a9db8d4242fe09e361efc42e",
   "https://github.com/Kitware/CMake/releases/download/v3.27.7/cmake-3.27.7-macos-universal.tar.gz": "54fd2f14b3d4fc2e8363e775c5eaceb52b532667bc79f98413959cfbb0978819",
   "https://github.com/Kitware/CMake/releases/download/v3.27.7/cmake-3.27.7-linux-x86_64.tar.gz": "a8c92ecb139bcc7a1f92a8108179bd1d021bdb158a5ee759cba6d60010b83ae9",
+  "https://github.com/Kitware/CMake/releases/download/v3.28.0-rc1/cmake-3.28.0-rc1-linux-x86_64.tar.gz": "921897b443d3b2fd1bc847f03c6beeb47b606d66b3c25e48a99acdbee9c7e897",
+  "https://github.com/Kitware/CMake/releases/download/v3.28.0-rc1/cmake-3.28.0-rc1-macos-universal.tar.gz": "1d768e19569bbcaa442537bc4efebbad83ea3caca63d89f8215b6866d8e68df6",
 }
