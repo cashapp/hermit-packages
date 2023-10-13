@@ -15,7 +15,7 @@ platform "linux" "amd64" {
 description = "A minimalist Go module proxy handler."
 homepage = "https://pkg.go.dev/github.com/goproxy/goproxy"
 
-version "0.10.2" "0.11.0" "0.12.0" "0.13.0" "0.14.0" "0.14.1" {
+version "0.10.2" "0.11.0" "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.15.1" {
   auto-version {
     github-release = "goproxy/goproxy"
   }
@@ -40,4 +40,7 @@ sha256sums = {
   "https://github.com/goproxy/goproxy/releases/download/v0.14.1/goproxy_0.14.1_linux_amd64.tar.gz": "7682d771f7b44150ab4722b900e44a9a9f63ce8e1368fe90bb50c157a4b492b0",
   "https://github.com/goproxy/goproxy/releases/download/v0.14.1/goproxy_0.14.1_darwin_arm64.tar.gz": "992d1ea8d3e8655352a8b4f84a4b2f078b0f60915e8cdcd0ed0c13e19ef54307",
   "https://github.com/goproxy/goproxy/releases/download/v0.14.1/goproxy_0.14.1_darwin_amd64.tar.gz": "c3f164e121c99bd3842302d3ddefd0150a48a3f68c34fa49ab5de836fd4bc72d",
+  "https://github.com/goproxy/goproxy/releases/download/v0.15.1/goproxy_0.15.1_darwin_amd64.tar.gz": "ca2db5ca92c302c8ad7f224b8fdb610fc93dc19de36123d2a59fa94db1937a96",
+  "https://github.com/goproxy/goproxy/releases/download/v0.15.1/goproxy_0.15.1_linux_amd64.tar.gz": "3ab6b78610a090717a621914b8711523b88922831d3cf17351708814b758f0e1",
+  "https://github.com/goproxy/goproxy/releases/download/v0.15.1/goproxy_0.15.1_darwin_arm64.tar.gz": "d5de2c23de0a7e841946e2402582e676c9e392d6bdee022ebc477a674a2e23f8",
 }
