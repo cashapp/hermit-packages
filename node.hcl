@@ -64,7 +64,8 @@ version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
 
 version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.0"
         "18.5.0" "18.6.0" "18.7.0" "18.8.0" "18.9.0" "18.9.1" "18.12.1" "18.13.0" "18.14.0"
-        "18.14.2" "18.15.0" "18.16.0" "18.16.1" "18.17.0" "18.17.1" "18.18.0" "18.18.1" {
+        "18.14.2" "18.15.0" "18.16.0" "18.16.1" "18.17.0" "18.17.1" "18.18.0" "18.18.1"
+        "18.18.2" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -82,7 +83,7 @@ version "19.0.0" "19.0.1" "19.1.0" "19.2.0" "19.3.0" "19.4.0" "19.5.0" "19.6.0"
 }
 
 version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1"
-        "20.6.0" "20.6.1" "20.7.0" "20.8.0" {
+        "20.6.0" "20.6.1" "20.7.0" "20.8.0" "20.8.1" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -400,4 +401,10 @@ sha256sums = {
   "https://nodejs.org/dist/v18.18.1/node-v18.18.1-linux-x64.tar.gz": "9ce4db11f1d8399f6b58aab6858a688b2e09405127b47ebc4594dc8262a5e29f",
   "https://nodejs.org/dist/v18.18.1/node-v18.18.1-darwin-x64.tar.gz": "b7237c9c8e6f7ec3a2c61158e9e5e96f1e19d54a1d1d0932b79fede24aa6de86",
   "https://nodejs.org/dist/v18.18.1/node-v18.18.1-darwin-arm64.tar.gz": "e2b276e7a62cb4bd487211a185f84a94f012220f9e09d2ecd1f24de482c8f023",
+  "https://nodejs.org/dist/v18.18.2/node-v18.18.2-linux-x64.tar.gz": "a44c3e7f8bf91e852c928e5d8bd67ca316b35e27eec1d8acbe3b9dbe03688dab",
+  "https://nodejs.org/dist/v18.18.2/node-v18.18.2-darwin-arm64.tar.gz": "9f982cc91b28778dd8638e4f94563b0c2a1da7aba62beb72bd427721035ab553",
+  "https://nodejs.org/dist/v18.18.2/node-v18.18.2-darwin-x64.tar.gz": "5bb8da908ed590e256a69bf2862238c8a67bc4600119f2f7721ca18a7c810c0f",
+  "https://nodejs.org/dist/v20.8.1/node-v20.8.1-linux-x64.tar.gz": "a42ac1f81704b14c7d07ddde989a8e290087b0487ee3f47185eb0240ba518195",
+  "https://nodejs.org/dist/v20.8.1/node-v20.8.1-darwin-arm64.tar.gz": "5451f3651c89cd8f224e74961c84e68f4c8d63fe288431a3223b0465cc8b961e",
+  "https://nodejs.org/dist/v20.8.1/node-v20.8.1-darwin-x64.tar.gz": "92b00b357c311eb45dd86516b032d80c63894aa069821c3ae3c8b3bbd00fdb9a",
 }
