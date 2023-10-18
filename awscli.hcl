@@ -14,6 +14,9 @@ linux {
 }
 
 version "2.0.40" "2.1.26" "2.2.4" "2.4.2" "2.4.4" "2.4.7" "2.5.8" "2.6.4" "2.7.35" "2.13.26" {
+  auto-version {
+    github-release = "aws/aws-cli"
+  }
 }
 
 sha256sums = {
