@@ -26,7 +26,7 @@ platform "darwin" {
 version "1.16.1" "1.17.0" "1.18.0" "1.19.0" "1.20.0" "1.20.1" "1.21.0" "1.21.1"
         "1.21.2" "1.22.1" "1.23.0" "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.25.0" "1.26.0"
         "1.26.1" "1.27.0" "1.27.1" "1.27.3" "2.0.0" "2.0.2" "2.1.0" "2.1.1" "2.1.2" "2.2.0"
-        "2.3.1" "2.3.3" "2.3.4" "2.3.5" "2.3.6" {
+        "2.3.1" "2.3.3" "2.3.4" "2.3.5" "2.3.6" "2.4.1" {
   auto-version {
     github-release = "TomWright/dasel"
   }
@@ -97,4 +97,6 @@ sha256sums = {
   "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_darwin_amd64": "594610e941458481b5be8028fefe054e04abcb5114aa982c80f0fdbb959820e9",
   "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_linux_amd64": "28516f64c268dac3377aad05bada8f5cfa1548df780831dbaca33f1475998afe",
   "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_darwin_amd64": "1daf0015975047b5e1a5233680750c4d688f4ade5f7012d4dbda374457c21a4c",
+  "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_linux_amd64": "8e9fb0aa24e35774fab792005f05f9df141c22ec0a7436c7329a932582a10200",
+  "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_darwin_amd64": "cc979f560794cd95c425e0867083a2af1cb7ac4904c6fe8077aec85d34f22743",
 }
