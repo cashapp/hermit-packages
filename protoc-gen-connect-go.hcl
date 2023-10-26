@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.5.1" "1.5.2" "1.8.0" "1.10.0" "1.11.1" {
+version "1.5.1" "1.5.2" "1.8.0" "1.10.0" "1.11.1" "1.12.0" {
 }
 
 sha256sums = {
@@ -29,4 +29,7 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.11.1-linux-amd64.bz2": "344d5d5927fa5bc93a9dbc06042f6c638d4e9174f93cc08bb075a6e72575c7dc",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.11.1-darwin-amd64.bz2": "a2142f5471af35cdc593b000bad34150c22573c55dd43e5a5a94fe8b6c637435",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.11.1-darwin-arm64.bz2": "42db950056f0d4e64a3b617a58aec47de801b8fd1e20565633b7b244b21e57dd",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.12.0-linux-amd64.bz2": "c0acee88f2f162e4ef0f2d17288d41ff779a23ee3959c13607d52fd0845c309b",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.12.0-darwin-arm64.bz2": "13f58db20ca2852390c121c75a6746b69555c437890fb48dbf014e041ff83967",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.12.0-darwin-amd64.bz2": "75b6cf08fa8fe5551c8ef54edda491f19ba16b4a083e7ec51fea76cdb5700ce0",
 }
