@@ -1,4 +1,11 @@
-binaries = []
+binaries = ["aws-sso"]
+
+on "unpack" {
+  rename { 
+    from = "${root}/aws-sso-${version}-${os}-${arch}"
+    to = "${root}/aws-sso"
+  }
+}
 
 platform "darwin" "amd64" {
   source = "https://github.com/synfinatic/aws-sso-cli/releases/download/v${version}/aws-sso-${version}-${os}-${arch}"
