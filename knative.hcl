@@ -8,7 +8,8 @@ version "0.26.0" {
 }
 
 version "1.0.0" "1.1.0" "1.2.0" "1.3.1" "1.4.0" "1.4.1" "1.5.0" "1.6.0" "1.6.1" "1.7.0"
-        "1.7.1" "1.8.0" "1.8.1" "1.9.0" "1.8.2" "1.9.2" "1.10.0" "1.11.0" "1.11.1" "1.12.0" {
+        "1.7.1" "1.8.0" "1.8.1" "1.9.0" "1.8.2" "1.9.2" "1.10.0" "1.11.0" "1.11.1" "1.12.0"
+        "1.11.2" {
   source = "https://github.com/knative/client/releases/download/knative-v${version}/kn-${os}-${arch}"
   sha256-source = "https://github.com/knative/client/releases/download/knative-v${version}/checksums.txt"
 
@@ -89,4 +90,7 @@ sha256sums = {
   "https://github.com/knative/client/releases/download/knative-v1.12.0/kn-darwin-amd64": "8ffb052263454250d46eecba47e64be9be2b4d6ac97abab0c2c503d327693d87",
   "https://github.com/knative/client/releases/download/knative-v1.12.0/kn-linux-amd64": "d8ec5f3beff4b9bccea7b67937370f477537d6188e178a4c36a11162d4d06cf5",
   "https://github.com/knative/client/releases/download/knative-v1.12.0/kn-darwin-arm64": "f07d70a7c62c107dad399fadb62804979fd99f1957f421c0fc349a9dc64f5153",
+  "https://github.com/knative/client/releases/download/knative-v1.11.2/kn-darwin-arm64": "9f2d18ce293fb888ae1a89d21cce4b2c49ffab268c7b0bbace9b84aaea862f71",
+  "https://github.com/knative/client/releases/download/knative-v1.11.2/kn-linux-amd64": "f1d864d35dc06956d1a6ae8083d9af926951c0989ea3aba2849e092adc9fc38d",
+  "https://github.com/knative/client/releases/download/knative-v1.11.2/kn-darwin-amd64": "92b022a412bb771b2fd2b5e560421149339db4fc0d8ecfdc39c80cb386df524d",
 }
