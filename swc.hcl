@@ -37,7 +37,8 @@ version "1.3.26" "1.3.27" "1.3.28" "1.3.31" "1.3.32" "1.3.34" "1.3.35" "1.3.36"
         "1.3.94-nightly-20231021.1" "1.3.95-nightly-20231022.1" "1.3.95-nightly-20231023.1"
         "1.3.96-nightly-20231025.1" "1.3.96-nightly-20231026.1" "1.3.96-nightly-20231029.1"
         "1.3.96-nightly-20231030.1" "1.3.96-nightly-20231031.1" "1.3.96-nightly-20231101.1"
-        "1.3.96-nightly-20231102.1" "1.3.96-nightly-20231103.1" "1.3.97-nightly-20231104.1" {
+        "1.3.96-nightly-20231102.1" "1.3.96-nightly-20231103.1" "1.3.97-nightly-20231104.1"
+        "1.3.97-nightly-20231105.1" {
   auto-version {
     github-release = "swc-project/swc"
   }
@@ -239,4 +240,7 @@ sha256sums = {
   "https://github.com/swc-project/swc/releases/download/v1.3.97-nightly-20231104.1/swc-darwin-x64": "ab99f910e7bbe030538896d9a616c96f6dc9db2297f4bfd5ed93abba92f6c51b",
   "https://github.com/swc-project/swc/releases/download/v1.3.97-nightly-20231104.1/swc-linux-x64-musl": "777a31c128aa07a8903397f3b9ea6c03446a7ca25db299df2430e13412d846d9",
   "https://github.com/swc-project/swc/releases/download/v1.3.97-nightly-20231104.1/swc-darwin-arm64": "0511a3f607a90597ef3a2a1453c48881935f83be2aa2a8397e3df6625c18783d",
+  "https://github.com/swc-project/swc/releases/download/v1.3.97-nightly-20231105.1/swc-darwin-x64": "6284968d93fa23dab66d345c71c12745bf2b3813aa2ff9886f761693956608b8",
+  "https://github.com/swc-project/swc/releases/download/v1.3.97-nightly-20231105.1/swc-darwin-arm64": "b1de072b43c00b9f3fab1a33bf5bd22ad3b06f0beb9d32921f034e69cb63137e",
+  "https://github.com/swc-project/swc/releases/download/v1.3.97-nightly-20231105.1/swc-linux-x64-musl": "122be47a10666b5802428bdd513615cfd75e8add6249c3b4ad22196bfb639f09",
 }
