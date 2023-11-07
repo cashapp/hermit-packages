@@ -91,13 +91,21 @@ version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1"
   }
 }
 
+version "21.0.0" "21.1.0" {
+  auto-version {
+    github-release = "nodejs/node"
+    ignore-invalid-versions = true
+    version-pattern = "v(21.*)"
+  }
+}
+
 channel "lts" {
-  version = "18.*"
+  version = "20.*"
   update = "168h"
 }
 
 channel "current" {
-  version = "20.*"
+  version = "21.*"
   update = "24h"
 }
 
