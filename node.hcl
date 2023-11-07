@@ -418,4 +418,10 @@ sha256sums = {
   "https://nodejs.org/dist/v20.9.0/node-v20.9.0-darwin-x64.tar.gz": "fc5b73f2a78c17bbe926cdb1447d652f9f094c79582f1be6471b4b38a2e1ccc8",
   "https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-x64.tar.gz": "f0919f092fbf74544438907fa083c21e76b2d7a4bc287f0607ada1553ef16f60",
   "https://nodejs.org/dist/v20.9.0/node-v20.9.0-darwin-arm64.tar.gz": "31d2d46ae8d8a3982f54e2ff1e60c2e4a8e80bf78a3e8b46dcaac95ac5d7ce6a",
+  "https://nodejs.org/dist/v21.0.0/node-v21.0.0-darwin-x64.tar.gz": "2ec98307e388407cfa62d1fb8abc4d6dc1e54c11bc70329d6675ed0595326763",
+  "https://nodejs.org/dist/v21.0.0/node-v21.0.0-darwin-arm64.tar.gz": "d49aae353ab9e264a1d8c75f80eb26dcc4006f50b35ba05bda3a9c33f5554609",
+  "https://nodejs.org/dist/v21.0.0/node-v21.0.0-linux-x64.tar.gz": "013f370f1772197cb4e22f22f2185ee26d2e5f3acdb2f252d11cd214e9a8cdb9",
+  "https://nodejs.org/dist/v21.1.0/node-v21.1.0-darwin-x64.tar.gz": "6b526c08320fcf41ced0ceee7588828ea2cb07ba826af4ff82b0ec53958fd8a4",
+  "https://nodejs.org/dist/v21.1.0/node-v21.1.0-linux-x64.tar.gz": "b919cad4e8a5abbd7e6a4433c4f8a7cdc1a78c1e526c6c1aa4a5fcf74011ad2b",
+  "https://nodejs.org/dist/v21.1.0/node-v21.1.0-darwin-arm64.tar.gz": "4872463830381785b91d13a7fbb9b6f4a9c7658e10d964f6c421951cec8833ad",
 }
