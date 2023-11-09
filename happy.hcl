@@ -4,7 +4,7 @@ test = "happy --version"
 sha256-source = "https://github.com/thnxdev/happy/releases/download/v${version}/happy-${version}-checksums.txt"
 source = "https://github.com/thnxdev/happy/releases/download/v${version}/happy-${version}-${os}-${arch}.tar.gz"
 
-version "0.0.1" "0.0.2" "0.0.3" "0.1.0" "0.1.1" "0.1.2" "0.1.3" "0.1.4" {
+version "0.0.1" "0.0.2" "0.0.3" "0.1.0" "0.1.1" "0.1.2" "0.1.3" "0.1.4" "0.1.5" {
   auto-version {
     github-release = "thnxdev/happy"
   }
@@ -35,4 +35,7 @@ sha256sums = {
   "https://github.com/thnxdev/happy/releases/download/v0.1.4/happy-0.1.4-darwin-amd64.tar.gz": "a70580100fcaca31cd0bbd1fe3bb1af7d609588eaf0ce6ba0b20cc63f02f9c82",
   "https://github.com/thnxdev/happy/releases/download/v0.1.4/happy-0.1.4-linux-amd64.tar.gz": "1e3e75d6fa3dcc7417d03877491f73f53f40b5f7a635c3034de3cd5281ce48a4",
   "https://github.com/thnxdev/happy/releases/download/v0.1.4/happy-0.1.4-darwin-arm64.tar.gz": "90e959f516106b35e6f519a67e9c1d088383afa0a5c72a4b8a813dfa42c64b83",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.5/happy-0.1.5-darwin-amd64.tar.gz": "d34d8f6cb40f4815afea381434821f22e86ec06915fd097c5d8e65d74d7a33b0",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.5/happy-0.1.5-darwin-arm64.tar.gz": "ca4a392ba286cc2f3a8136a39eda65ae5ab19e60702b71043fce7dadef96d514",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.5/happy-0.1.5-linux-amd64.tar.gz": "dadeeab745c68c28e7f567779fe3c7abc0ab7a316dac0d02f8ef5e28b280411a",
 }
