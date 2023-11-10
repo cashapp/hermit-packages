@@ -1,6 +1,7 @@
 binaries = ["kubectl-krew"]
 env = {
-  "KREW_ROOT": "${HERMIT_ENV}/.hermit/krew/root",
+  "KREW_ROOT": "${HERMIT_ENV}/.hermit/krew",
+  "PATH": "${HERMIT_ENV}/.hermit/krew/bin:$PATH",
 }
 
 on "unpack" {
