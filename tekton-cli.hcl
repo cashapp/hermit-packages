@@ -23,7 +23,7 @@ platform "linux" "arm64" {
 }
 
 version "0.29.0" "0.29.1" "0.30.0" "0.30.1" "0.31.0" "0.31.1" "0.31.2" "0.32.0"
-        "0.32.1" "0.32.2" {
+        "0.32.1" "0.32.2" "0.33.0" {
   auto-version {
     github-release = "tektoncd/cli"
   }
@@ -50,4 +50,6 @@ sha256sums = {
   "https://github.com/tektoncd/cli/releases/download/v0.32.1/tkn_0.32.1_linux_x86_64.tar.gz": "5e9206ec9e4017c7b23e8be02d5d4da02993c31363f887eccd9bbcd0a63be9d9",
   "https://github.com/tektoncd/cli/releases/download/v0.32.2/tkn_0.32.2_darwin_all.tar.gz": "2b124461052621f4971682f259e80ef42fc4d7bf8c32ba98557134d84de80de1",
   "https://github.com/tektoncd/cli/releases/download/v0.32.2/tkn_0.32.2_linux_x86_64.tar.gz": "10b9f4d5415b483eaa037d401bed53d5f9ccedb625809506df63901242a44972",
+  "https://github.com/tektoncd/cli/releases/download/v0.33.0/tkn_0.33.0_linux_x86_64.tar.gz": "7af26831d802d2ec834f2c4ac8aac3a7b7b052a3d7a375240f2f8e5b94e3352e",
+  "https://github.com/tektoncd/cli/releases/download/v0.33.0/tkn_0.33.0_darwin_all.tar.gz": "2c84b025b7ef7bae54ab35ac539dab48c4465d5b0076a7c1dbbac604d443e5ed",
 }
