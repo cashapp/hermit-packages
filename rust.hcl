@@ -31,7 +31,7 @@ channel "nightly" {
 version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" "1.58.0"
         "1.58.1" "1.59.0" "1.60.0" "1.61.0" "1.62.0" "1.62.1" "1.63.0" "1.64.0" "1.65.0"
         "1.66.0" "1.66.1" "1.67.0" "1.67.1" "1.68.0" "1.68.2" "1.69.0" "1.70.0" "1.71.0"
-        "1.72.0" "1.71.1" "1.72.1" "1.73.0" {
+        "1.72.0" "1.71.1" "1.72.1" "1.73.0" "1.74.0" {
   auto-version {
     github-release = "rust-lang/rust"
   }
@@ -128,4 +128,7 @@ sha256sums = {
   "https://static.rust-lang.org/dist/rust-1.73.0-x86_64-unknown-linux-gnu.tar.xz": "45a6fabaea481d27165a05ed1d6706ee452f6d3e74f50d8a00533cfb00fe355f",
   "https://static.rust-lang.org/dist/rust-1.73.0-aarch64-apple-darwin.tar.xz": "024c89f967d2c38d1bb35cbde91e7a79bb79bae5b5a4811107b567350b0d690a",
   "https://static.rust-lang.org/dist/rust-1.73.0-x86_64-apple-darwin.tar.xz": "f6488a32cab29a517b657965e707c736147a7b08356c53c837c70ca21a58f094",
+  "https://static.rust-lang.org/dist/rust-1.74.0-x86_64-apple-darwin.tar.xz": "005167f81f28a167bec4f600e597790f06028b9179c59771551214b7a8081eaf",
+  "https://static.rust-lang.org/dist/rust-1.74.0-aarch64-apple-darwin.tar.xz": "da499fed6aed09bd3c26a7524ccac69587bf4d01d726eaed24e63aaedad9cca7",
+  "https://static.rust-lang.org/dist/rust-1.74.0-x86_64-unknown-linux-gnu.tar.xz": "06a2c9a8e1968ab438d4cf45c22c9802daea28af0f80aa1aab3091e705422180",
 }

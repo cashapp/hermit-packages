@@ -25,7 +25,7 @@ darwin {
 
 binaries = ["serverless"]
 
-version "3.35.2" "3.36.0" {
+version "3.35.2" "3.36.0" "3.37.0" {
   auto-version {
     github-release = "serverless/serverless"
   }
@@ -36,4 +36,6 @@ sha256sums = {
   "https://github.com/serverless/serverless/releases/download/v3.35.2/serverless-macos-x64": "a59253a5e24cd543c93d00400861837f622964327205ab23dbd44567eff9ed85",
   "https://github.com/serverless/serverless/releases/download/v3.36.0/serverless-linux-x64": "7a1f445c2d216430761b28d1c399e35e00e7b485e03930defd1eff34928845d4",
   "https://github.com/serverless/serverless/releases/download/v3.36.0/serverless-macos-x64": "e77bb2fa818fa8bfb28ac150c7279c155e9022c18b0d64dfe3176b68210760bf",
+  "https://github.com/serverless/serverless/releases/download/v3.37.0/serverless-linux-x64": "cfe1d228f2deb6c15bcc0f89b5b3492095594bf0db015b2e92a656fb6a409fb2",
+  "https://github.com/serverless/serverless/releases/download/v3.37.0/serverless-macos-x64": "ea1573656fe13c346156cbb4615af31acb1edd44e534a931dc6038d3158a76d1",
 }
