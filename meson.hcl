@@ -13,7 +13,7 @@ on "unpack" {
 
 version "0.61.3" "0.62.0" "0.61.4" "0.62.1" "0.62.2" "0.61.5" "0.63.0" "0.63.1"
         "0.63.2" "0.63.3" "0.64.0" "0.64.1" "1.0.0" "1.0.1" "1.1.0" "1.1.1" "1.2.0" "1.2.1"
-        "1.2.2" "1.2.3" {
+        "1.2.2" "1.2.3" "1.3.0" {
   auto-version {
     github-release = "mesonbuild/meson"
   }
@@ -40,4 +40,5 @@ sha256sums = {
   "https://github.com/mesonbuild/meson/releases/download/1.2.1/meson-1.2.1.tar.gz": "b1db3a153087549497ee52b1c938d2134e0338214fe14f7efd16fecd57b639f5",
   "https://github.com/mesonbuild/meson/releases/download/1.2.2/meson-1.2.2.tar.gz": "4a0f04de331fbc7af3b802a844fc8838f4ccd1ded1e792ba4f8f2faf8c5fe4d6",
   "https://github.com/mesonbuild/meson/releases/download/1.2.3/meson-1.2.3.tar.gz": "4533a43c34548edd1f63a276a42690fce15bde9409bcf20c4b8fa3d7e4d7cac1",
+  "https://github.com/mesonbuild/meson/releases/download/1.3.0/meson-1.3.0.tar.gz": "4ba253ef60e454e23234696119cbafa082a0aead0bd3bbf6991295054795f5dc",
 }
