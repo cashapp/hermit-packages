@@ -19,7 +19,7 @@ linux {
 
   on "unpack" {
     rename {
-      from = "${root}/yj-macos-${arch}"
+      from = "${root}/yj-linux-${arch}"
       to = "${root}/yj"
     }
   }
