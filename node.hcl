@@ -65,7 +65,7 @@ version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
 version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.0"
         "18.5.0" "18.6.0" "18.7.0" "18.8.0" "18.9.0" "18.9.1" "18.12.1" "18.13.0" "18.14.0"
         "18.14.2" "18.15.0" "18.16.0" "18.16.1" "18.17.0" "18.17.1" "18.18.0" "18.18.1"
-        "18.18.2" {
+        "18.18.2" "18.19.0" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -430,4 +430,7 @@ sha256sums = {
   "https://nodejs.org/dist/v20.10.0/node-v20.10.0-darwin-x64.tar.gz": "5ff5e8abd3eea6e5f507eb6677554f5b2188eedef654096aa4168a9941e91a32",
   "https://nodejs.org/dist/v20.10.0/node-v20.10.0-linux-x64.tar.gz": "d3f0908a9d9190a8525c5b9a716ed91bb57e908555841b0c47f75b2a001ff91b",
   "https://nodejs.org/dist/v20.10.0/node-v20.10.0-darwin-arm64.tar.gz": "68b93099451d77aac116cf8fce179cabcf53fec079508dc6b39d3a086fb461a8",
+  "https://nodejs.org/dist/v18.19.0/node-v18.19.0-darwin-x64.tar.gz": "0a749fcdf5d6bf46e1c17b3ea01e050b4d1ec3f3073b14aa745527b45a759c74",
+  "https://nodejs.org/dist/v18.19.0/node-v18.19.0-linux-x64.tar.gz": "153312ae9fe8684f345100e4d141a521dc542b36d8c1e09c31ac290eae98c62a",
+  "https://nodejs.org/dist/v18.19.0/node-v18.19.0-darwin-arm64.tar.gz": "8907c42a968765b77730fb319458d63ec4ed009265f8012097c3a052407aa99b",
 }
