@@ -1,5 +1,5 @@
 description = "FTL - Towards a 𝝺-calculus for large-scale systems"
-binaries = ["ftl", "ftl-*"]
+binaries = ["ftl"]
 source = "https://github.com/TBD54566975/ftl/releases/download/v${version}/ftl-${version}.${os}-${arch}.tar.gz"
 sha256-source = "https://github.com/TBD54566975/ftl/releases/download/v${version}/checksums.txt"
 test = "ftl --version"
@@ -7,7 +7,8 @@ test = "ftl --version"
 version "0.39.0" "0.41.1" "0.42.0" "0.43.5" "0.46.1" "0.47.0" "0.53.0" "0.53.3"
         "0.55.2" "0.57.1" "0.58.0" "0.58.3" "0.60.0" "0.60.1" "0.61.5" "0.64.0" "0.65.1"
         "0.66.0" "0.66.3" "0.69.0" "0.71.3" "0.71.6" "0.71.9" "0.71.11" "0.71.12" "0.72.1"
-        "0.74.1" "0.74.4" "0.76.0" "0.76.2" "0.77.3" "0.78.0" {
+        "0.74.1" "0.74.4" "0.76.0" "0.76.2" "0.77.3" "0.78.0"
+        "0.78.1" {
   auto-version {
     github-release = "TBD54566975/ftl"
   }
@@ -95,6 +96,9 @@ sha256sums = {
   "https://github.com/TBD54566975/ftl/releases/download/v0.74.1/ftl-0.74.1.linux-amd64.tar.gz": "0d21f34b6ac2df9edf75fc3b39bcfe4cd72514495f085c39e4e92b2ba3c2dda8",
   "https://github.com/TBD54566975/ftl/releases/download/v0.74.1/ftl-0.74.1.darwin-amd64.tar.gz": "19e6d3e0f071710283b012443781545d41534a1e259a6b4a59c79399649d65e7",
   "https://github.com/TBD54566975/ftl/releases/download/v0.74.1/ftl-0.74.1.darwin-arm64.tar.gz": "c579840ece143bcca0e2043c5339dfa250e179462faac767e3da51795589a0e9",
+  "https://github.com/TBD54566975/ftl/releases/download/v0.78.1/ftl-0.78.1.linux-amd64.tar.gz": "6a72e9073932cb0d0427b9c27de1e8dc8cb7b76b6bb1aa3b2c7e2c553e459d67",
+  "https://github.com/TBD54566975/ftl/releases/download/v0.78.1/ftl-0.78.1.darwin-amd64.tar.gz": "cc034dd7250fd71f9d3cbf39b8c483794a0e92b55375d59ce0ca57b056970592",
+  "https://github.com/TBD54566975/ftl/releases/download/v0.78.1/ftl-0.78.1.darwin-arm64.tar.gz": "24b03665f51cb2740767e9d294e3a65fe0d56e0e0fb043cae15d3e43c6a69889",
   "https://github.com/TBD54566975/ftl/releases/download/v0.74.4/ftl-0.74.4.darwin-amd64.tar.gz": "85a30e8035285e4cb0fc901afe6c24309e1912e5dcc280b4c20c8628936b486f",
   "https://github.com/TBD54566975/ftl/releases/download/v0.74.4/ftl-0.74.4.darwin-arm64.tar.gz": "394099583ee4248947fb71ce8f77905674782e2af584e706c375dd808e7cd1ff",
   "https://github.com/TBD54566975/ftl/releases/download/v0.74.4/ftl-0.74.4.linux-amd64.tar.gz": "cdd0b121d9abc31cbb2ee1da93a90d32d7409af24dd0f99fd47d86235e59c7d0",
