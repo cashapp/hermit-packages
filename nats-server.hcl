@@ -7,7 +7,7 @@ sha256-source = "https://github.com/nats-io/nats-server/releases/download/v${ver
 
 version "2.9.8" "2.9.9" "2.9.10" "2.9.11" "2.9.14" "2.9.15" "2.9.16" "2.9.17" "2.9.18"
         "2.9.19" "2.9.20" "2.9.21" "2.9.22" "2.10.0" "2.10.1" "2.10.2" "2.10.3" "2.10.4"
-        "2.10.5" {
+        "2.10.5" "2.10.6" {
   auto-version {
     github-release = "nats-io/nats-server"
   }
@@ -71,4 +71,7 @@ sha256sums = {
   "https://github.com/nats-io/nats-server/releases/download/v2.10.5/nats-server-v2.10.5-darwin-amd64.tar.gz": "84b78ff3ede22bb3373c2296c9eb304fa17b2eda42d23f54d7637defd1870c26",
   "https://github.com/nats-io/nats-server/releases/download/v2.10.5/nats-server-v2.10.5-darwin-arm64.tar.gz": "73953cdea638ee982ab0d2ae310b6c59e73e7b9685ade491b5a3d6c65fc42497",
   "https://github.com/nats-io/nats-server/releases/download/v2.10.5/nats-server-v2.10.5-linux-amd64.tar.gz": "33e9796344fcde53d1d9ab5fc3e2393d1f558aec53f5ea51f769827602a20225",
+  "https://github.com/nats-io/nats-server/releases/download/v2.10.6/nats-server-v2.10.6-darwin-arm64.tar.gz": "a074a2eae822e61b37a6bb5fa89f4b52089be9a38b86ca80fb7dc8e4bd256b91",
+  "https://github.com/nats-io/nats-server/releases/download/v2.10.6/nats-server-v2.10.6-darwin-amd64.tar.gz": "82a70cc306285123ce7041cee5a51b12d8614e60342fc09ea068a8df341d3435",
+  "https://github.com/nats-io/nats-server/releases/download/v2.10.6/nats-server-v2.10.6-linux-amd64.tar.gz": "07a687d38ce737961adae346df8023ec5dc3a74e541931b911ec5e21491f6c2e",
 }
