@@ -5,6 +5,16 @@ env = {
   "MAMBA_ROOT_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
 }
 
+on "activate" {
+  run {
+    args = ["activate"]
+    cmd = "${root}/micromamba"
+    env = [
+        MAMBA_ROOT_PREFIX = "${HERMIT_ENV}/.hermit/micromamba"
+    ]
+  }
+}
+
 version "1.5.3-0" {
   auto-version {
     github-release = "mamba-org/micromamba-releases"
