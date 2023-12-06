@@ -3,17 +3,8 @@ binaries = ["micromamba"]
 test = "micromamba --help"
 env = {
   "MAMBA_ROOT_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
-}
-
-on "activate" {
-  mkdir {
-    dir = ${HERMIT_ENV}/.hermit/micromamba
-  }
-  run {
-    env = ["MAMBA_ROOT_PREFIX=${HERMIT_ENV}/.hermit/micromamba"]
-    cmd = "${HERMIT_ENV}/bin/micromamba"
-    args = ["activate"]
-  }
+  "CONDA_PREFIX": "${MAMBA_ROOT_PREFIX}",
+  "PATH": "${CONDA_PREFIX}/bin:${PATH}
 }
 
 version "1.5.3-0" {
