@@ -3,7 +3,7 @@ binaries = ["mutagen"]
 source = "https://github.com/mutagen-io/mutagen/releases/download/v${version}/mutagen_${os}_${arch}_v${version}.tar.gz"
 
 version "0.16.0" "0.16.1" "0.16.2" "0.16.3" "0.16.4" "0.16.5" "0.17.0" "0.17.1"
-        "0.17.2" "0.17.3" {
+        "0.17.2" "0.17.3" "0.17.4" {
   auto-version {
     github-release = "mutagen-io/mutagen"
   }
@@ -40,4 +40,7 @@ sha256sums = {
   "https://github.com/mutagen-io/mutagen/releases/download/v0.17.3/mutagen_linux_amd64_v0.17.3.tar.gz": "c1f8d50da7be30c4ab49ff54744b10a6421889ef138935bcc3eb6dda3ae80451",
   "https://github.com/mutagen-io/mutagen/releases/download/v0.17.3/mutagen_darwin_amd64_v0.17.3.tar.gz": "4095c8e77372ea0bc30b89a70307bbe0608bb4ec9d7661cc82a79a8ec99af2f0",
   "https://github.com/mutagen-io/mutagen/releases/download/v0.17.3/mutagen_darwin_arm64_v0.17.3.tar.gz": "b7e300221745eff45a6694b90b7bcd1eb00def10742a0cc6977429a2a7a795ff",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.4/mutagen_linux_amd64_v0.17.4.tar.gz": "78c3a249bb05de462e796d12813bf26b0ce57574e0f6bf791de5d9a151bb02ec",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.4/mutagen_darwin_amd64_v0.17.4.tar.gz": "a5a65003f2bc9280c8404f03f8973aa44a12806c3a27f3bd7a59f049fb7cc906",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.4/mutagen_darwin_arm64_v0.17.4.tar.gz": "9c867b6f7a4414c92b4f7780eef9c6936b7addd97248bfebd77ad79d526552f5",
 }

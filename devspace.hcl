@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "5.18.5" "6.0.1" "6.1.1" "6.2.5" "6.3.2" "6.3.3" "6.3.4" "6.3.5" {
+version "5.18.5" "6.0.1" "6.1.1" "6.2.5" "6.3.2" "6.3.3" "6.3.4" "6.3.5" "6.3.6" {
   source = "https://github.com/devspace-sh/devspace/releases/download/v${version}/devspace-${os}-${arch}"
 
   auto-version {
@@ -43,4 +43,7 @@ sha256sums = {
   "https://github.com/devspace-sh/devspace/releases/download/v6.3.5/devspace-linux-amd64": "f28368fc4116cbd45a6b60ff98a4fd2b41a445222ac85519ed368dcf2041987f",
   "https://github.com/devspace-sh/devspace/releases/download/v6.3.5/devspace-darwin-amd64": "db9186b740c4c0a67097d08428cad070c22f8329277ba93cb31bc196372e90ae",
   "https://github.com/devspace-sh/devspace/releases/download/v6.3.5/devspace-darwin-arm64": "acbd3ee8802d8ca6c85723575e3cef822f2c69eb2807039a64a31b30d90dfcbb",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.6/devspace-darwin-arm64": "765fcc9d248edeefb71d0c2db7ea7af71bb8d4066bd2e850f8766be3180b7a10",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.6/devspace-linux-amd64": "5bb8c686e6f664240de277f6acd09a2899bd9590b74e812075b52e0c351c6294",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.6/devspace-darwin-amd64": "53a68781e665aa10d3da3d3366322c10df6533e1a8a1a369228d8b0ec13270ec",
 }
