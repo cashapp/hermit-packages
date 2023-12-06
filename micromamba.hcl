@@ -5,13 +5,12 @@ env = {
   "MAMBA_ROOT_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
 }
 
+
 on "activate" {
   run {
-    args = ["activate"]
+    env = ["MAMBA_ROOT_PREFIX=${HERMIT_ENV}/.hermit/micromamba"]
     cmd = "${root}/micromamba"
-    env = [
-        MAMBA_ROOT_PREFIX = "${HERMIT_ENV}/.hermit/micromamba"
-    ]
+    args = ["activate"]
   }
 }
 
