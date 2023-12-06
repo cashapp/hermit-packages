@@ -4,7 +4,7 @@ test = "micromamba --help"
 env = {
   "MAMBA_ROOT_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
   "CONDA_PREFIX": "${MAMBA_ROOT_PREFIX}",
-  "PATH": "${CONDA_PREFIX}/bin:${PATH}
+  "PATH": "${CONDA_PREFIX}/bin:${PATH}"
 }
 
 version "1.5.3-0" {
