@@ -6,7 +6,7 @@ binaries = ["bin/gradle"]
 repository = "https://github.com/gradle/gradle"
 
 version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "7.6.2"
-        "7.6.3" "8.0-rc-2" "8.0.1" "8.1.1" "8.2" "8.2.1" "8.3" "8.4", "8.5" {
+        "7.6.3" "8.0-rc-2" "8.0.1" "8.1.1" "8.2" "8.2.1" "8.3" "8.4" "8.5" {
   auto-version {
     github-release = "gradle/gradle"
   }
