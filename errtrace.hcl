@@ -12,7 +12,7 @@ on "unpack" {
 
 version "0.2.0" {
   auto-version {
-    github-release = "dmarkham/enumer"
+    github-release = "bracesdev/errtrace"
   }
 }
 
