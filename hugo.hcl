@@ -64,7 +64,8 @@ version "0.103.0" "0.103.1" "0.104.0" "0.104.1" "0.104.2" "0.104.3" "0.105.0"
         "0.106.0" "0.107.0" "0.108.0" "0.109.0" "0.110.0" "0.111.0" "0.111.2" "0.111.3"
         "0.112.1" "0.112.3" "0.112.4" "0.112.5" "0.112.6" "0.112.7" "0.113.0" "0.114.0"
         "0.114.1" "0.115.0" "0.115.1" "0.115.2" "0.115.3" "0.115.4" "0.116.0" "0.116.1"
-        "0.117.0" "0.118.2" "0.119.0" "0.120.1" "0.120.2" "0.120.3" "0.120.4" "0.121.0" {
+        "0.117.0" "0.118.2" "0.119.0" "0.120.1" "0.120.2" "0.120.3" "0.120.4" "0.121.0"
+        "0.121.1" {
   auto-version {
     github-release = "gohugoio/hugo"
   }
@@ -233,4 +234,6 @@ sha256sums = {
   "https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_extended_0.120.4_darwin-universal.tar.gz": "0449ba1c67fdac35bda9e0e74d1e859624d20b262bb23b60b3817057ad4f51e4",
   "https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_extended_0.121.0_darwin-universal.tar.gz": "8041f0ce75e45bbc7d3bfc55cf31cf6a25047d33fd4094127efc187842f8dd18",
   "https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_extended_0.121.0_linux-amd64.tar.gz": "2dc008f55cb842459b40382b1e30c6fec1d17d9098356287790b1dda6ab6e336",
+  "https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_extended_0.121.1_linux-amd64.tar.gz": "762ddf0b3507284f8a046299fe0dea8fe5fe8b8ccd0c9e68b1604625822501fd",
+  "https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_extended_0.121.1_darwin-universal.tar.gz": "472781054c150ec26c9e181d1c7feadf6facacbaea2efe3d72fe93c5baed51f8",
 }
