@@ -1,4 +1,4 @@
-description = "Command line tool to  detect trojans, viruses, malware & other malicious threats"
+description = "Command line tool to detect viruses, malware & other malicious threats"
 homepage = "https://github.com/Cisco-Talos/clamav"
 binaries = ["clamav"]
 test = "clamscan --version"
