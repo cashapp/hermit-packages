@@ -8,7 +8,7 @@ platform "amd64" {
   source = "https://github.com/charmbracelet/vhs/releases/download/v${version}/vhs_${version}_${os}_x86_64.tar.gz"
 }
 
-version "0.1.1" "0.2.0" "0.3.0" "0.4.0" "0.5.0" "0.6.0" {
+version "0.1.1" "0.2.0" "0.3.0" "0.4.0" "0.5.0" "0.6.0" "0.7.1" {
   auto-version {
     github-release = "charmbracelet/vhs"
   }
@@ -33,4 +33,7 @@ sha256sums = {
   "https://github.com/charmbracelet/vhs/releases/download/v0.6.0/vhs_0.6.0_darwin_x86_64.tar.gz": "186949e88b3406a428c1bbf4106563bbf34e13c0afdbb475a49b987a7657a118",
   "https://github.com/charmbracelet/vhs/releases/download/v0.6.0/vhs_0.6.0_darwin_arm64.tar.gz": "6882c0a86798c80f90fb54f343aa565cd0d7c1d40f1b822e1deb1f38d527849a",
   "https://github.com/charmbracelet/vhs/releases/download/v0.6.0/vhs_0.6.0_linux_x86_64.tar.gz": "54234c73ba27ca8305cc4573be18ab636b565b883d19521d05434b011aeb0adc",
+  "https://github.com/charmbracelet/vhs/releases/download/v0.7.1/vhs_0.7.1_darwin_x86_64.tar.gz": "0ff15d02ef5283510ad54114d311f0bfc0b09fcd1d740854749056226ebf657d",
+  "https://github.com/charmbracelet/vhs/releases/download/v0.7.1/vhs_0.7.1_darwin_arm64.tar.gz": "560ab6c9af9efd9437b7c3534afee3ed2ea0a6dce26e6f08d833855eb407d42b",
+  "https://github.com/charmbracelet/vhs/releases/download/v0.7.1/vhs_0.7.1_linux_x86_64.tar.gz": "748443e0b5df89475499330b8943bf650cf0627250290cd5a11d38d3859e96d4",
 }
