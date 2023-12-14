@@ -5,7 +5,9 @@ description = "The Azure Cognitive Services Speech SDK is a platform agnostic, c
 // # curl -sLI https://aka.ms/csspeech/macosbinary | grep "Location"                                             
 // # Location: https://csspeechstorage.blob.core.windows.net/drop/1.27.0/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.27.0.zip
 env = {
-  "SPEECHSDK_ROOT": "${root}/speechsdk",
+  "SPEECHSDK_ROOT": "${root}",
+  "CGO_CFLAGS": "-I$SPEECHSDK_ROOT/MicrosoftCognitiveServicesSpeech.xcframework/macos-arm64_x86_64/MicrosoftCognitiveServicesSpeech.framework/Headers",
+  "CGO_LDFLAGS": "-Wl,-rpath,$SPEECHSDK_ROOT/MicrosoftCognitiveServicesSpeech.xcframework/macos-arm64_x86_64 -F$SPEECHSDK_ROOT/MicrosoftCognitiveServicesSpeech.xcframework/macos-arm64_x86_64 -framework MicrosoftCognitiveServicesSpeech",
 }
 
 platform "linux" {
@@ -24,12 +26,7 @@ platform "darwin" {
   source = "https://csspeechstorage.blob.core.windows.net/drop/${version}/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-${version}.zip"
   binaries = ["MicrosoftCognitiveServicesSpeech.xcframework/macos-arm64_x86_64/MicrosoftCognitiveServicesSpeech.framework/Versions/A/Headers/*"]
 
-  on "unpack" {
-    rename {
-      from = "${root}/MicrosoftCognitiveServicesSpeech.xcframework/macos-arm64_x86_64/MicrosoftCognitiveServicesSpeech.framework/Versions/A/Headers"
-      to = "${root}/speechsdk"
-    }
-  }
+#
 }
 
 version "1.27.0" "1.28.0" "1.29.0" "1.30.0" "1.31.0" "1.32.1" "1.33.0" "1.34.0" {
