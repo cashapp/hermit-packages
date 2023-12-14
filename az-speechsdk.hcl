@@ -4,7 +4,6 @@ description = "The Azure Cognitive Services Speech SDK is a platform agnostic, c
 // # Location: https://csspeechstorage.blob.core.windows.net/drop/1.27.0/SpeechSDK-Linux-1.27.0.tar.gz
 // # curl -sLI https://aka.ms/csspeech/macosbinary | grep "Location"                                             
 // # Location: https://csspeechstorage.blob.core.windows.net/drop/1.27.0/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.27.0.zip
-
 env = {
   "SPEECHSDK_ROOT": "${root}/speechsdk",
 }
@@ -12,9 +11,6 @@ env = {
 platform "linux" {
   source = "https://csspeechstorage.blob.core.windows.net/drop/${version}/SpeechSDK-Linux-${version}.tar.gz"
   binaries = ["speechsdk/lib/*"]
-  env = {
-  "SPEECHSDK_ROOT": "${root}/speechsdk",
-}
 
   on "unpack" {
     rename {
@@ -36,7 +32,7 @@ platform "darwin" {
   }
 }
 
-version "1.27.0" "1.28.0" "1.29.0" "1.30.0" "1.31.0" {
+version "1.27.0" "1.28.0" "1.29.0" "1.30.0" "1.31.0" "1.32.1" "1.33.0" "1.34.0" {
 }
 
 sha256sums = {
@@ -50,4 +46,10 @@ sha256sums = {
   "https://csspeechstorage.blob.core.windows.net/drop/1.30.0/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.30.0.zip": "9c42b35e2ab442fccfe8da645c99753f8b863c956363238117732c8158efef00",
   "https://csspeechstorage.blob.core.windows.net/drop/1.31.0/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.31.0.zip": "d4739c0c82961f321349bfca788d971b4735894c1d36544937afa21b4b786534",
   "https://csspeechstorage.blob.core.windows.net/drop/1.31.0/SpeechSDK-Linux-1.31.0.tar.gz": "da95a985c7eddbf69e674efefe31ff922d5f38f7c35678af9214a95eec0b668a",
+  "https://csspeechstorage.blob.core.windows.net/drop/1.32.1/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.32.1.zip": "fc996cd4e7def0b78605c5692235bc67047a50017cb16b95a8f5f6c9abd049f6",
+  "https://csspeechstorage.blob.core.windows.net/drop/1.32.1/SpeechSDK-Linux-1.32.1.tar.gz": "96d6b378c24e6693b8710fe3c57b177f3ba18b20c24657620c0c9c659f0913c6",
+  "https://csspeechstorage.blob.core.windows.net/drop/1.33.0/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.33.0.zip": "63b6a606d15c669481ecfb8b607aff308b4f69bd0d846eea0576b3cc19b8dd2a",
+  "https://csspeechstorage.blob.core.windows.net/drop/1.33.0/SpeechSDK-Linux-1.33.0.tar.gz": "853f581a99d691e4a571ae78d6fb0838bd19348199171f22a4a6f064b1e8b3a8",
+  "https://csspeechstorage.blob.core.windows.net/drop/1.34.0/SpeechSDK-Linux-1.34.0.tar.gz": "e7c6f0f0ebde78915d134fdfa487986986c2b14bc3dabecfcf285cbf5f3a405b",
+  "https://csspeechstorage.blob.core.windows.net/drop/1.34.0/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.34.0.zip": "5b278b2d11893be5d74d788aa08b0f37fd236b38e5291b8faeff9b7a103f87e8",
 }
