@@ -3,7 +3,7 @@ binaries = ["jq"]
 test = "jq --version"
 
 version "1.5" "1.6" {
-  platform linux {
+  platform "linux" {
     source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-linux64"
 
     on "unpack" {
@@ -14,7 +14,7 @@ version "1.5" "1.6" {
     }
   }
 
-  platform darwin {
+  platform "darwin" {
     source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-osx-amd64"
 
     on "unpack" {
@@ -26,13 +26,13 @@ version "1.5" "1.6" {
   }
 }
 
-version "1.7" {
+version "1.7" "1.7.1" {
   auto-version {
     github-release = "stedolan/jq"
     version-pattern = "jq-(.*)"
   }
 
-  platform linux {
+  platform "linux" {
     source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-linux-${arch}"
 
     on "unpack" {
@@ -43,7 +43,7 @@ version "1.7" {
     }
   }
 
-  platform darwin {
+  platform "darwin" {
     source = "https://github.com/stedolan/jq/releases/download/jq-${version}/jq-macos-${arch}"
 
     on "unpack" {
@@ -63,4 +63,7 @@ sha256sums = {
   "https://github.com/stedolan/jq/releases/download/jq-1.7/jq-macos-arm64": "b8d313fd4f3bd8a0b338b9ddd1c006fccf9312dc609a20d2d6e4bad964aa99f9",
   "https://github.com/stedolan/jq/releases/download/jq-1.7/jq-linux-amd64": "2f312b9587b1c1eddf3a53f9a0b7d276b9b7b94576c85bda22808ca950569716",
   "https://github.com/stedolan/jq/releases/download/jq-1.7/jq-macos-amd64": "4b4568fb5c6cbb8f1a8f640ff601c6d2bbecf9fa8f2cf796c7482e7054a01c41",
+  "https://github.com/stedolan/jq/releases/download/jq-1.7.1/jq-macos-arm64": "0bbe619e663e0de2c550be2fe0d240d076799d6f8a652b70fa04aea8a8362e8a",
+  "https://github.com/stedolan/jq/releases/download/jq-1.7.1/jq-linux-amd64": "5942c9b0934e510ee61eb3e30273f1b3fe2590df93933a93d7c58b81d19c8ff5",
+  "https://github.com/stedolan/jq/releases/download/jq-1.7.1/jq-macos-amd64": "4155822bbf5ea90f5c79cf254665975eb4274d426d0709770c21774de5407443",
 }
