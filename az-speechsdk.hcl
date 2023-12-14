@@ -20,19 +20,13 @@ platform "amd64" {
 
 platform "linux" {
   source   = "https://csspeechstorage.blob.core.windows.net/drop/${version}/SpeechSDK-Linux-${version}.tar.gz"
-  binaries = ["SpeechSDK-Linux-${version}/lib/${arch_}*"]
- 
+  binaries = ["lib/${arch_}*"]
+  strip = 1
+
   env      = {
     "CGO_CFLAGS" : "-I$SPEECHSDK_ROOT/include/c_api",
     "CGO_LDFLAGS" : "-L$SPEECHSDK_ROOT/lib/${arch_} -lMicrosoft.CognitiveServices.Speech.core",
-    "LD_LIBRARY_PATH~" : "${root}/lib/${arch_}:$LD_LIBRARY_PATH",
-  }
-
-  on "unpack" {
-    rename {
-      from = "${root}/SpeechSDK-Linux-${version}/"
-      to = "${root}"
-    }
+    "LD_LIBRARY_PATH" : "${root}/lib/${arch_}:$LD_LIBRARY_PATH",
   }
 }
 
