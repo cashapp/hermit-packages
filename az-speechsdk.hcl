@@ -7,14 +7,32 @@ description = "The Azure Cognitive Services Speech SDK is a platform agnostic, c
 env         = {
   "SPEECHSDK_ROOT" : "${root}",
 }
+vars = {
+  "arch_": "${arch}",
+}
+
+# supported archs are arm32, arm64, x64, and x86.
+platform "amd64" {
+  vars = {
+    "arch_": "x64",
+  }
+}
 
 platform "linux" {
   source   = "https://csspeechstorage.blob.core.windows.net/drop/${version}/SpeechSDK-Linux-${version}.tar.gz"
-  binaries = ["speechsdk/lib/*"]
+  binaries = ["SpeechSDK-Linux-${version}/lib/${arch_}*"]
+ 
   env      = {
     "CGO_CFLAGS" : "-I$SPEECHSDK_ROOT/include/c_api",
-    "CGO_LDFLAGS" : "-L$SPEECHSDK_ROOT/lib/${arch} -lMicrosoft.CognitiveServices.Speech.core",
-    "LD_LIBRARY_PATH" : "${root}/lib/${arch}:$LD_LIBRARY_PATH",
+    "CGO_LDFLAGS" : "-L$SPEECHSDK_ROOT/lib/${arch_} -lMicrosoft.CognitiveServices.Speech.core",
+    "LD_LIBRARY_PATH~" : "${root}/lib/${arch_}:$LD_LIBRARY_PATH",
+  }
+
+  on "unpack" {
+    rename {
+      from = "${root}/SpeechSDK-Linux-${version}/"
+      to = "${root}"
+    }
   }
 }
 
