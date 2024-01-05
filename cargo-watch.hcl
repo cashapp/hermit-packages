@@ -12,7 +12,7 @@ linux {
   source = "https://github.com/watchexec/cargo-watch/releases/download/v${version}/cargo-watch-v${version}-${xarch}-unknown-linux-gnu.tar.xz"
 }
 
-version "8.4.0" "8.4.1" {
+version "8.4.0" "8.4.1" "8.5.1" {
   auto-version {
     github-release = "watchexec/cargo-watch"
   }
@@ -25,4 +25,7 @@ sha256sums = {
   "https://github.com/watchexec/cargo-watch/releases/download/v8.4.1/cargo-watch-v8.4.1-x86_64-unknown-linux-gnu.tar.xz": "434bfcc4b9836a30d7a283ffc5cd12377429c4eacf6426fc9a660332a22cbc6b",
   "https://github.com/watchexec/cargo-watch/releases/download/v8.4.1/cargo-watch-v8.4.1-x86_64-apple-darwin.tar.xz": "2a9279b3f400ec97446b36e000ecfec552b244511ee427036b4af78c42576b4f",
   "https://github.com/watchexec/cargo-watch/releases/download/v8.4.1/cargo-watch-v8.4.1-aarch64-apple-darwin.tar.xz": "0f38d57eda8c5d83254560f699920a506f9609dff25589ba0425356fc243abb4",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.1/cargo-watch-v8.5.1-x86_64-unknown-linux-gnu.tar.xz": "f7444946025c40f64f29ae86407a2e38cbe27a8c4000f3e4d8ceece2fe2d565e",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.1/cargo-watch-v8.5.1-aarch64-apple-darwin.tar.xz": "cb087f6859f94788e2f1b2c32a815fe471bb7e67d8cf03057eac8c39157343b1",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.1/cargo-watch-v8.5.1-x86_64-apple-darwin.tar.xz": "81573a344cc99cf4725ff6f5cec00d8a43030121f4279a85dee40e272163eb53",
 }
