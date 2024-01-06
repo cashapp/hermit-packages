@@ -13,7 +13,7 @@ version "0.12.2" "0.13.1" "0.13.2" "0.13.3" "0.13.4" "0.13.5" "0.13.6" "0.14.1"
         "0.16.0" "0.16.1" "0.16.2" "0.16.3" "0.16.4" "0.17.0" "0.17.1" "0.17.2" "0.17.3"
         "0.17.4" "0.18.1" "0.18.2" "0.18.5" "0.18.6" "0.19.1" "0.19.2" "0.19.3" "0.19.4"
         "0.19.5" "0.20.0" "0.20.2" "0.20.3" "0.20.5" "0.20.6" "0.20.7" "0.20.8" "0.20.9"
-        "0.20.10" "0.20.11" "0.20.12" "0.21.0" "0.21.1" "0.21.2" {
+        "0.20.10" "0.20.11" "0.20.12" "0.21.0" "0.21.1" "0.21.2" "0.21.3" {
   auto-version {
     github-release = "turbot/steampipe"
   }
@@ -170,4 +170,7 @@ sha256sums = {
   "https://github.com/turbot/steampipe/releases/download/v0.21.2/steampipe_linux_amd64.tar.gz": "7f296e8db26f516d0ee90c5af69784ff6b989a6b5466b7bb96eec342f48b78e2",
   "https://github.com/turbot/steampipe/releases/download/v0.21.2/steampipe_darwin_arm64.zip": "008eb50d59656a8f79893b2478258bea913240e0867bc064fe7c21f58e4bef80",
   "https://github.com/turbot/steampipe/releases/download/v0.21.2/steampipe_darwin_amd64.zip": "344edcd2b35f771d14c89dfbc689a08f86a8f6624c80f5b08a7d15b26aecf0c5",
+  "https://github.com/turbot/steampipe/releases/download/v0.21.3/steampipe_linux_amd64.tar.gz": "b69b5008ad525c67faeff30ec77e3d6617a87ac01fe76f6f5ebc02384ddf93c8",
+  "https://github.com/turbot/steampipe/releases/download/v0.21.3/steampipe_darwin_amd64.zip": "ac922eaa0f23c17750ce92370cc58b9707e52d5bd31c48d28aa2d3f759f73d98",
+  "https://github.com/turbot/steampipe/releases/download/v0.21.3/steampipe_darwin_arm64.zip": "e6fc23a49d0d3a14946e32562f4a5c467e99a6f01cbcfd0a2eaab051ba219f7b",
 }
