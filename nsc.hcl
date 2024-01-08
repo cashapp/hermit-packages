@@ -1,6 +1,6 @@
-description = "a client for Namespace's cloud"
+description = "A client for Namespace's cloud"
 homepage = "https://github.com/namespacelabs/foundation"
-binaries = ["nsc"]
+binaries = ["nsc", "docker-credential-nsc"]
 test = "nsc -h"
 source = "https://github.com/namespacelabs/foundation/releases/download/v${version}/nsc_${version}_${os}_${arch}.tar.gz"
 
