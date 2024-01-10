@@ -15,7 +15,7 @@ platform "linux" "arm64" {
 }
 
 version "22.1" "22.2" "22.3" "22.4" "23.0" "22.5" "23.1" "23.2" "23.3" "23.4" "24.0"
-        "24.1" "24.2" "24.3" "24.4" "25.0" "25.1" {
+        "24.1" "24.2" "24.3" "24.4" "25.0" "25.1" "25.2" {
   auto-version {
     github-release = "protocolbuffers/protobuf"
     version-pattern = "v(\\d+\\.\\d+)$"
@@ -115,4 +115,6 @@ sha256sums = {
   "https://github.com/protocolbuffers/protobuf/releases/download/v25.0/protoc-25.0-osx-universal_binary.zip": "978aeba3d3b6e0cdc2dbbb37aa1ab60bacc0ddc50e8b4a00a9b81e24c9e2496d",
   "https://github.com/protocolbuffers/protobuf/releases/download/v25.1/protoc-25.1-linux-x86_64.zip": "ed8fca87a11c888fed329d6a59c34c7d436165f662a2c875246ddb1ac2b6dd50",
   "https://github.com/protocolbuffers/protobuf/releases/download/v25.1/protoc-25.1-osx-universal_binary.zip": "f05a5e7b9bb25464c4f3bf4f4bc9323794e1bd0ff5cb8001bdcb144f8b30fffa",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v25.2/protoc-25.2-linux-x86_64.zip": "78ab9c3288919bdaa6cfcec6127a04813cf8a0ce406afa625e48e816abee2878",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v25.2/protoc-25.2-osx-universal_binary.zip": "6a51da628a873f0f814437deb64f6f1e9aadc68cf85919f2e4e6cbf741d27c59",
 }
