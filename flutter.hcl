@@ -29,7 +29,7 @@ version "2.0.1" "2.2.3" "3.0.0" {
 }
 
 version "3.7.12" "3.10.5" "3.13.8" "3.13.0" "3.13.9" "3.16.0" "3.16.1" "3.16.2"
-        "3.16.3" "3.16.4" "3.16.5" "3.16.6" {
+        "3.16.3" "3.16.4" "3.16.5" "3.16.6" "3.16.7" {
   auto-version {
     html {
       url = "https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel"
@@ -81,4 +81,7 @@ sha256sums = {
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.16.6-stable.zip": "a2bef5d1f7b2c2f0f740792e1db8149bd5d8fa011afc0b4a200137e93ae0bef1",
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.16.6-stable.zip": "b89c5cbaa183e6f00b780ae44e56254fe677bfb9728092a84e2ebc5b517f479b",
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.16.6-stable.tar.xz": "2af51a8f048567b4672e41a0312789f2c4180b9139daad80840859296a7643e2",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.16.7-stable.tar.xz": "a10061a15f7a829337c284474b9703635350f8abeec4922534c8363816fd5eb4",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.16.7-stable.zip": "7c115012559c731e268f747497d95fc0755cd3835d9837e8bf42ad82563e51a3",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.16.7-stable.zip": "ec99cd99e23ce40cb3300c010b168136ebd767250951ebfa06505ce355b2897e",
 }
