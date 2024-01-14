@@ -18,7 +18,7 @@ platform "amd64" {
   }
 }
 
-version "5.0" "5.0.1" "6.0" {
+version "6.0" {
   auto-version {
     github-release = "eugeneware/ffmpeg-static"
     version-pattern = "b(.*)"
