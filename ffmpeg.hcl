@@ -3,14 +3,6 @@ binaries = ["ffmpeg"]
 vars = {
   "arch_": "${arch}",
 }
-source = "https://github.com/eugeneware/ffmpeg-static/releases/download/b${version}/${os}-${arch_}.gz"
-
-on "unpack" {
-  rename {
-    from = "${root}/${os}-${arch_}"
-    to = "${root}/ffmpeg"
-  }
-}
 
 platform "amd64" {
   vars = {
@@ -18,11 +10,31 @@ platform "amd64" {
   }
 }
 
-version "5.0" "5.0.1" {
+version "6.0" {
+  source = "https://github.com/eugeneware/ffmpeg-static/releases/download/b${version}/ffmpeg-${os}-${arch_}.gz"
+
   auto-version {
     github-release = "eugeneware/ffmpeg-static"
     version-pattern = "b(.*)"
     ignore-invalid-versions = true
+  }
+
+  on "unpack" {
+    rename {
+      from = "${root}/ffmpeg-${os}-${arch_}"
+      to = "${root}/ffmpeg"
+    }
+  }
+}
+
+version "5.0" "5.0.1" {
+  source = "https://github.com/eugeneware/ffmpeg-static/releases/download/b${version}/${os}-${arch_}.gz"
+
+  on "unpack" {
+    rename {
+      from = "${root}/${os}-${arch_}"
+      to = "${root}/ffmpeg"
+    }
   }
 }
 
