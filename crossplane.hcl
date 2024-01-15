@@ -3,7 +3,7 @@ homepage = "https://docs.crossplane.io/latest/cli/"
 binaries = ["crossplane"]
 test = "crossplane --version"
 
-version "1.14.5" "1.14.4" "1.14.3" "1.14.2" "1.14.1" "1.14.0" "1.13.2" "1.12.3" "1.11.5" {}
+version "1.14.5" {}
 
 linux {
   source = "https://releases.crossplane.io/stable/v${version}/bin/${os}_${arch}/crank"
