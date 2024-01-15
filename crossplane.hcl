@@ -2,16 +2,16 @@ description = "CLI for Crossplane"
 homepage = "https://docs.crossplane.io/latest/cli/"
 binaries = ["crossplane"]
 test = "crossplane --version"
+source = "https://releases.crossplane.io/stable/v${version}/bin/${os}_${arch}/crank"
+
+on "unpack" {
+  rename {
+    from = "${root}/crank"
+    to = "${root}/crossplane"
+  }
+}
 
 version "1.14.5" {}
-
-linux {
-  source = "https://releases.crossplane.io/stable/v${version}/bin/${os}_${arch}/crank"
-}
-
-darwin {
-  source = "https://releases.crossplane.io/stable/v${version}/bin/${os}_${arch}/crank"
-}
 
 sha256sums = {
   "https://releases.crossplane.io/stable/v1.14.5/bin/darwin_arm64/crank" : "d8b0e68c89bb3c728bdd7f8e001e6168326ddab6455b9ef6953661f6260928a8",
