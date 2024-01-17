@@ -30,5 +30,4 @@ version "8.14.1" {
       rename { from = "${root}/pnpm-macos-${arch}" to = "${root}/pnpm" }
     }
   }
-
 }
