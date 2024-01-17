@@ -33,14 +33,14 @@ channel "stable" {
 }
 
 version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
-        "11.0.20.9.1" "11.0.21.9.1" {
+        "11.0.20.9.1" "11.0.21.9.1" "11.0.22.7.1" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
 }
 
 version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
-        "17.0.7.7.1" "17.0.8.7.1" "17.0.8.8.1" "17.0.9.8.1" {
+        "17.0.7.7.1" "17.0.8.7.1" "17.0.8.8.1" "17.0.9.8.1" "17.0.10.7.1" {
   auto-version {
     github-release = "corretto/corretto-17"
   }
@@ -95,4 +95,10 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/17.0.9.8.1/amazon-corretto-17.0.9.8.1-macosx-x64.tar.gz": "7eed832eb25b6bb9fed5172a02931804ed0bf65dc86a2ddc751aa7648bb35c43",
   "https://corretto.aws/downloads/resources/17.0.9.8.1/amazon-corretto-17.0.9.8.1-linux-x64.tar.gz": "0cf11d8e41d7b28a3dbb95cbdd90c398c310a9ea870e5a06dac65a004612aa62",
   "https://corretto.aws/downloads/resources/17.0.9.8.1/amazon-corretto-17.0.9.8.1-macosx-aarch64.tar.gz": "8a0c542e78e47cb5de1db40763692d55b977f1d0b31c5f0ebf2dd426fa33a2f4",
+  "https://corretto.aws/downloads/resources/11.0.22.7.1/amazon-corretto-11.0.22.7.1-linux-x64.tar.gz": "f512bedb85adbef31c3823e219d9369e2bccb650575615478619b499f8e21117",
+  "https://corretto.aws/downloads/resources/11.0.22.7.1/amazon-corretto-11.0.22.7.1-macosx-x64.tar.gz": "820ed56b43c1f61b329a6b1af0e2dea2af62b3ec0523b1d7bb6af08e4b893204",
+  "https://corretto.aws/downloads/resources/11.0.22.7.1/amazon-corretto-11.0.22.7.1-macosx-aarch64.tar.gz": "f0f2794187d6af76ce65d70a7f483ee61b991280f055af8ce0196c2f06f8b73e",
+  "https://corretto.aws/downloads/resources/17.0.10.7.1/amazon-corretto-17.0.10.7.1-macosx-aarch64.tar.gz": "8bea3c09966e0d44c56f61d31d28c12a8df8d8ec0ef18ed2f6146c303abae754",
+  "https://corretto.aws/downloads/resources/17.0.10.7.1/amazon-corretto-17.0.10.7.1-linux-x64.tar.gz": "077a0bb5e754119408da694f8cd82579406f7b964bbc8b6141c5b2e42800db8f",
+  "https://corretto.aws/downloads/resources/17.0.10.7.1/amazon-corretto-17.0.10.7.1-macosx-x64.tar.gz": "03b56d0cc1d0d62f4cf6f1eb365380cad19fc35bc7a42051c6735183b78e3323",
 }
