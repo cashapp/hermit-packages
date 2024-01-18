@@ -4,7 +4,7 @@ binaries = ["nsc", "docker-credential-nsc"]
 test = "nsc -h"
 source = "https://github.com/namespacelabs/foundation/releases/download/v${version}/nsc_${version}_${os}_${arch}.tar.gz"
 
-version "0.0.322" "0.0.323" "0.0.325" "0.0.326" "0.0.328" "0.0.329" {
+version "0.0.322" "0.0.323" "0.0.325" "0.0.326" "0.0.328" "0.0.329" "0.0.330" {
   auto-version {
     github-release = "namespacelabs/foundation"
   }
@@ -29,4 +29,7 @@ sha256sums = {
   "https://github.com/namespacelabs/foundation/releases/download/v0.0.329/nsc_0.0.329_darwin_amd64.tar.gz": "6d90df80ca56a6931db770ff923b0ef349a6361aa8c88f2594183a1476b33298",
   "https://github.com/namespacelabs/foundation/releases/download/v0.0.329/nsc_0.0.329_linux_amd64.tar.gz": "7fe770b7ddf881e4684b1fcded5774d44f49a968c6eca6e512d3c4c299b7d195",
   "https://github.com/namespacelabs/foundation/releases/download/v0.0.329/nsc_0.0.329_darwin_arm64.tar.gz": "acd21a63da6df2652c8120115fecc5f69066fd0da123c79d47616e410d7aad2c",
+  "https://github.com/namespacelabs/foundation/releases/download/v0.0.330/nsc_0.0.330_darwin_arm64.tar.gz": "3549f6646e36ddebcc22546c51057a7c41d7a7bee2c5bfa33e2d40a2bff0bc51",
+  "https://github.com/namespacelabs/foundation/releases/download/v0.0.330/nsc_0.0.330_linux_amd64.tar.gz": "1f32eaed754e27f432f95bc4889300d0581ee822bf918353cbdd75fd2803e765",
+  "https://github.com/namespacelabs/foundation/releases/download/v0.0.330/nsc_0.0.330_darwin_amd64.tar.gz": "95867a68d187847a5a9ffd282ba75029576e761d10938067fbc5237eac9243ff",
 }

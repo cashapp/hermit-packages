@@ -27,7 +27,7 @@ linux {
 version "1.8.2" "1.8.3" "1.9.0" "1.10.0" "1.10.1" "1.11.0" "1.12.0" "1.13.0" "1.14.0"
         "1.15.0" "1.16.0" "1.17.0" "1.18.0" "1.18.1" "1.19.0" "1.20.0" "1.21.0" "1.21.1"
         "1.22.0" "1.22.1" "1.23.0" "1.24.0" "1.25.0" "1.26.0" "1.27.0" "1.28.0" "1.29.0"
-        "1.29.1" "1.30.0" "1.30.1" "1.31.0" "1.32.0" "1.32.1" {
+        "1.29.1" "1.30.0" "1.30.1" "1.31.0" "1.32.0" "1.32.1" "1.33.0" {
   auto-version {
     github-release = "aws/copilot-cli"
   }
@@ -100,4 +100,6 @@ sha256sums = {
   "https://github.com/aws/copilot-cli/releases/download/v1.32.0/copilot-linux-amd64-v1.32.0": "9f089d6e85cb1e171b1403fc999b6081443b1c0428ae4dfefdd12515863593fb",
   "https://github.com/aws/copilot-cli/releases/download/v1.32.1/copilot-linux-amd64-v1.32.1": "370f694042bf31cf21cb7bf1787304091696743ee7cca115acff2042229b7e63",
   "https://github.com/aws/copilot-cli/releases/download/v1.32.1/copilot-darwin": "720edf630a13594c65278621222bf57afca51f4a0f151ec5a9649f28f3221ae9",
+  "https://github.com/aws/copilot-cli/releases/download/v1.33.0/copilot-linux-amd64-v1.33.0": "5230a9d1f4324848661b44b1359c480ba9ff43bc141c5f33bcf7e7b6d4f12176",
+  "https://github.com/aws/copilot-cli/releases/download/v1.33.0/copilot-darwin": "e3c73d2298cfca9aa1b3b798b1667ad53bf92b67dc968a125d2401f4cb8d66ea",
 }
