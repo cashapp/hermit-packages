@@ -12,7 +12,7 @@ on "unpack" {
 
 version "2.8.0" "2.9.0" "2.10.0" "2.10.1" "2.10.2" "2.10.3" "2.11.0" "2.11.1" "2.11.2"
         "2.11.3" "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.15.1" "2.15.2" "2.16.0" "2.16.2"
-        "2.17.0" "2.17.1" "2.18.0" "2.18.1" "2.19.0" {
+        "2.17.0" "2.17.1" "2.18.0" "2.18.1" "2.19.0" "2.19.1" {
   auto-version {
     github-release = "grpc-ecosystem/grpc-gateway"
   }
@@ -65,4 +65,6 @@ sha256sums = {
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.18.1/protoc-gen-openapiv2-v2.18.1-darwin-x86_64": "787a054ca402e44de2626be1a2094bff440a03a9b452b9cac459f5dbedb68c4c",
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.19.0/protoc-gen-openapiv2-v2.19.0-darwin-x86_64": "46840e8062c11ea7d01ad8f3c5ad1e74dae3aba681f4e0f6c5756c6e322cccff",
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.19.0/protoc-gen-openapiv2-v2.19.0-linux-x86_64": "41ea2f88eff81c3234675f596693353740b93ce80530f135af7702e0f6207ff8",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.19.1/protoc-gen-openapiv2-v2.19.1-darwin-x86_64": "722be743a187a824e553c19970bc7524cc98ebb2b100a4d02b0059f119d7aa0b",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.19.1/protoc-gen-openapiv2-v2.19.1-linux-x86_64": "55e7b4944695d5fb59fa9f85ca2ed5a9a0c81f08602bcbf278703dfe40beea98",
 }
