@@ -5,6 +5,7 @@ vars = {
   "os_": "${os}",
 }
 source = "https://github.com/apple/pkl/releases/download/0.25.1/pkl-${os_}-${arch_}"
+test = "pkl --version"
 
 platform "arm64" {
   vars = {
