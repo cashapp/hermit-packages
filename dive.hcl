@@ -2,7 +2,7 @@ description = "A tool for exploring each layer in a docker image"
 binaries = ["dive"]
 source = "https://github.com/wagoodman/dive/releases/download/v${version}/dive_${version}_${os}_amd64.tar.gz"
 
-version "0.10.0" "0.11.0" {
+version "0.10.0" "0.11.0" "0.12.0" {
   auto-version {
     github-release = "wagoodman/dive"
   }
@@ -13,4 +13,6 @@ sha256sums = {
   "https://github.com/wagoodman/dive/releases/download/v0.10.0/dive_0.10.0_darwin_amd64.tar.gz": "b4cad081146defcb90b418215cdfdf835372abd4adf1b0f33aaf1ea5d9bb3244",
   "https://github.com/wagoodman/dive/releases/download/v0.11.0/dive_0.11.0_darwin_amd64.tar.gz": "a55761d26756bfbf5884a4e6ea4c1fd01f8e24c717645a4933da09cd30b25355",
   "https://github.com/wagoodman/dive/releases/download/v0.11.0/dive_0.11.0_linux_amd64.tar.gz": "80835d3320292c4ab761d03c1fd33745ddb9b6064c035b65f77825f18f407d28",
+  "https://github.com/wagoodman/dive/releases/download/v0.12.0/dive_0.12.0_linux_amd64.tar.gz": "20a7966523a0905f950c4fbf26471734420d6788cfffcd4a8c4bc972fded3e96",
+  "https://github.com/wagoodman/dive/releases/download/v0.12.0/dive_0.12.0_darwin_amd64.tar.gz": "2f7d0a7f970e09618b87f286c6ccae6a7423331372c6ced15760a5c9d6f27704",
 }
