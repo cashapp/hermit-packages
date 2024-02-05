@@ -11,7 +11,7 @@ on "unpack" {
 }
 
 version "0.12.1" "0.13.0" "0.13.1" "0.14.0" "0.15.0" "0.15.1" "0.15.2" "0.16.0"
-        "0.16.1" "0.16.2" "0.16.3" {
+        "0.16.1" "0.16.2" "0.16.3" "0.16.4" {
   auto-version {
     github-release = "restic/restic"
   }
@@ -51,4 +51,7 @@ sha256sums = {
   "https://github.com/restic/restic/releases/download/v0.16.3/restic_0.16.3_darwin_arm64.bz2": "faa846645677d0e4da5812851326f4f18b7310d53edd380ed93165099395e4c7",
   "https://github.com/restic/restic/releases/download/v0.16.3/restic_0.16.3_linux_amd64.bz2": "aa86e5667c46ab0bdf8ceca80fa3c8775da2bbc18656250a745ac8b042837a70",
   "https://github.com/restic/restic/releases/download/v0.16.3/restic_0.16.3_darwin_amd64.bz2": "92a895f1fc289a338ff9008045e94525099421d66829dece14c9eb880f685280",
+  "https://github.com/restic/restic/releases/download/v0.16.4/restic_0.16.4_darwin_amd64.bz2": "6b2fc43f794182788aaa8dae50f1f731c33c5126558e621d693c18455aae92cc",
+  "https://github.com/restic/restic/releases/download/v0.16.4/restic_0.16.4_darwin_arm64.bz2": "10b3f5491e54c82b421980e848542f8f589ad6635f83fb2d89d9996cb37ac9c7",
+  "https://github.com/restic/restic/releases/download/v0.16.4/restic_0.16.4_linux_amd64.bz2": "3d4d43c169a9e28ea76303b1e8b810f0dcede7478555fdaa8959971ad499e324",
 }
