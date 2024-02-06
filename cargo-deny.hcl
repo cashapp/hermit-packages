@@ -12,7 +12,7 @@ platform "linux" "amd64" {
 }
 
 version "0.13.9" "0.14.0" "0.14.1" "0.14.2" "0.14.3" "0.14.4" "0.14.5" "0.14.6"
-        "0.14.8" "0.14.10" {
+        "0.14.8" "0.14.10" "0.14.11" {
   auto-version {
     github-release = "EmbarkStudios/cargo-deny"
   }
@@ -49,4 +49,7 @@ sha256sums = {
   "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.14.10/cargo-deny-0.14.10-aarch64-apple-darwin.tar.gz": "40dfb728e059dd4e0acd96bd87aff0670fd45e02197fd072b9de2f72f573513b",
   "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.14.10/cargo-deny-0.14.10-x86_64-unknown-linux-musl.tar.gz": "c1a7965beda028ed2e74393eda64b735680b626826d68099d615a1f76d045948",
   "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.14.10/cargo-deny-0.14.10-x86_64-apple-darwin.tar.gz": "174ba853832b126cd653659e32d7b532f403d337c2a844072ba70c36f94c9d26",
+  "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.14.11/cargo-deny-0.14.11-x86_64-unknown-linux-musl.tar.gz": "081c69a65d59d6b1a033f051f9a8f0fdd824f6ca69d77ee8c575747ca6fd7fc7",
+  "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.14.11/cargo-deny-0.14.11-x86_64-apple-darwin.tar.gz": "68662d271818b20fa33debfd5e8654ec06cbcc9ab33453983cacaca60aba1c87",
+  "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.14.11/cargo-deny-0.14.11-aarch64-apple-darwin.tar.gz": "c266875533d3d92647a2f1ffda5f6a04c911dd9092025a556bf217b2e3d90bdc",
 }
