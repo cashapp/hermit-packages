@@ -3,8 +3,8 @@ binaries = ["micromamba"]
 test = "micromamba --help"
 env = {
   "MAMBA_ROOT_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
-  "CONDA_PREFIX": "${MAMBA_ROOT_PREFIX}",
-  "PATH": "${CONDA_PREFIX}/bin:${PATH}",
+  "CONDA_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
+  "PATH": "${HERMIT_ENV}/.hermit/micromamba/bin:${PATH}",
 }
 
 version "1.5.3-0" "1.5.5-0" "1.5.6-0" {
