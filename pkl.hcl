@@ -19,11 +19,14 @@ platform "darwin" {
   }
 }
 
-on unpack {
-  rename { from = "${root}/pkl-${os_}-${arch_}" to = "${root}/pkl" }
+on "unpack" {
+  rename {
+    from = "${root}/pkl-${os_}-${arch_}"
+    to = "${root}/pkl"
+  }
 }
 
-version "0.25.1" {
+version "0.25.1" "0.25.2" {
   auto-version {
     github-release = "apple/pkl"
   }
