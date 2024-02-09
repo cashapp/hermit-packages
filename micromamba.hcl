@@ -2,6 +2,7 @@ description = "Micromamba is a tiny version of the mamba package manager which i
 binaries = ["micromamba"]
 test = "micromamba --help"
 env = {
+  "MAMBA_EXE": "${HERMIT_ENV}/bin/micromamba",
   "MAMBA_ROOT_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
   "CONDA_PREFIX": "${HERMIT_ENV}/.hermit/micromamba",
   "PATH": "${HERMIT_ENV}/.hermit/micromamba/bin:${PATH}",
