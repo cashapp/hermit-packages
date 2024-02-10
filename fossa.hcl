@@ -20,7 +20,7 @@ version "3.0.12" "3.0.14" "3.0.15" "3.0.16" "3.0.17" "3.0.18" "3.1.0" "3.1.2" "3
         "3.8.4" "3.8.5" "3.8.6" "3.8.8" "3.8.9" "3.8.10" "3.8.11" "3.8.12" "3.8.13" "3.8.14"
         "3.8.15" "3.8.16" "3.8.17" "3.8.18" "3.8.19" "3.8.20" "3.8.21" "3.8.22" "3.8.23"
         "3.8.24" "3.8.25" "3.8.26" "3.8.27" "3.8.28" "3.8.29" "3.8.30" "3.8.31" "3.8.32"
-        "3.8.33" "3.8.34" "3.8.36" "3.8.37" {
+        "3.8.33" "3.8.34" "3.8.36" "3.8.37" "3.9.1" {
   auto-version {
     github-release = "fossas/fossa-cli"
   }
@@ -251,4 +251,6 @@ sha256sums = {
   "https://github.com/fossas/fossa-cli/releases/download/v3.8.36/fossa_3.8.36_linux_amd64.zip": "b156b76816cebdf7cd32b4a125632128a168bc7cc217b74255a7e1967303d7b4",
   "https://github.com/fossas/fossa-cli/releases/download/v3.8.37/fossa_3.8.37_darwin_amd64.zip": "fe9a953833be010ca5ec88d39953b987ef9cbb7822b25b7088d4b15e537549c8",
   "https://github.com/fossas/fossa-cli/releases/download/v3.8.37/fossa_3.8.37_linux_amd64.zip": "4bb0d2d43e6bfb6550fc4849b637ef3a2358402ba911661f6f57ab6505e355c3",
+  "https://github.com/fossas/fossa-cli/releases/download/v3.9.1/fossa_3.9.1_darwin_amd64.zip": "c4a7497b8cda83197169b5a5b1f58c848f7bf3c2a4f8de2a01de5a764cb5a5d8",
+  "https://github.com/fossas/fossa-cli/releases/download/v3.9.1/fossa_3.9.1_linux_amd64.zip": "7551606b5f8c5b6674e2f6184a14dab81d78a66475ba84c6bec4426bb83ae875",
 }
