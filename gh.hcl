@@ -3,6 +3,10 @@ binaries = ["gh"]
 test = "gh --version"
 strip = 2
 
+env = {
+  "GH_NO_UPDATE_NOTIFIER": "1"
+}
+
 platform "linux" {
   source = "https://github.com/cli/cli/releases/download/v${version}/gh_${version}_linux_amd64.tar.gz"
 }
