@@ -14,7 +14,7 @@ version "1.19.0" "1.20.0" {
 }
 
 version "1.21.0" "1.22.0" "1.23.0" "1.24.0" "1.25.13" "1.26.8" "1.27.5" "1.28.1"
-        "1.28.7" "1.29.2" {
+        "1.28.6" "1.28.7" "1.29.2" {
 }
 
 sha256sums = {
@@ -54,4 +54,7 @@ sha256sums = {
   "https://dl.k8s.io/release/v1.29.2/bin/darwin/amd64/kubectl": "bb04d9450d9c9fa120956c5cc7c8dfaa700297038ff9c941741e730b02bbd1f3",
   "https://dl.k8s.io/release/v1.29.2/bin/linux/amd64/kubectl": "7816d067740f47f949be826ac76943167b7b3a38c4f0c18b902fffa8779a5afa",
   "https://dl.k8s.io/release/v1.29.2/bin/darwin/arm64/kubectl": "ce030f86625df96560402573d86d4e6f4b8b956ca3e3b9df57cb8ccf2b9a540c",
+  "https://dl.k8s.io/release/v1.28.6/bin/linux/amd64/kubectl": "c8351fe0611119fd36634dd3f53eb94ec1a2d43ef9e78b92b4846df5cc7aa7e3",
+  "https://dl.k8s.io/release/v1.28.6/bin/darwin/amd64/kubectl": "2853d5a40a618a8d25f3cb30e72d03a8394a92e32842d60428271755e46bf2fe",
+  "https://dl.k8s.io/release/v1.28.6/bin/darwin/arm64/kubectl": "35a3ae87eee5af0a561f90d5139bda21da2f41884ec37bfe31547d271b0b2339",
 }
