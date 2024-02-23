@@ -24,7 +24,7 @@ platform "linux" {
   }
 }
 
-version "1.26.2" "1.27.0" {
+version "1.26.2" "1.27.0" "1.27.1" {
   auto-version {
     github-release = "neondatabase/neonctl"
   }
