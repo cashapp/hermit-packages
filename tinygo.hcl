@@ -5,7 +5,8 @@ strip = 1
 requires = ["go", "binaryen"]
 source = "https://github.com/tinygo-org/tinygo/releases/download/v${version}/tinygo${version}.${os}-amd64.tar.gz"
 
-version "0.23.0" "0.24.0" "0.25.0" "0.26.0" "0.27.0" "0.28.1" "0.29.0" "0.30.0" {
+version "0.23.0" "0.24.0" "0.25.0" "0.26.0" "0.27.0" "0.28.1" "0.29.0" "0.30.0"
+        "0.31.0" {
   auto-version {
     github-release = "tinygo-org/tinygo"
   }
@@ -28,4 +29,6 @@ sha256sums = {
   "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-amd64.tar.gz": "46efb5d3181101f774f746120e4d0cc392b2216c3a960422f8f10cd62afdae05",
   "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-amd64.tar.gz": "5d33610b6508b577761a7a134b0a38373232a807bf2abd97787583806a3b4920",
   "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.darwin-amd64.tar.gz": "6767934acc2d0a1b29b110de098dcf056b8cca1ce2737f01bc137c5d1f4f1ad7",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.darwin-amd64.tar.gz": "ed871e55a57b7c0e0304a215214fc507bdd68a4655d99053f344463360183bd5",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-amd64.tar.gz": "d2ef8ef3c502147a757a51fbff05272edf082588366bb97b21c38c3d72eb6ca3",
 }
