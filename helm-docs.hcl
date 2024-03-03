@@ -18,7 +18,7 @@ platform "darwin" "arm64" {
   source = "https://github.com/norwoodj/helm-docs/releases/download/v${version}/helm-docs_${version}_Darwin_arm64.tar.gz"
 }
 
-version "1.11.0" "1.10.0" "1.11.3" "1.12.0" "1.13.0" {
+version "1.11.0" "1.10.0" "1.11.3" "1.12.0" "1.13.0" "1.13.1" {
   auto-version {
     github-release = "norwoodj/helm-docs"
   }
@@ -40,4 +40,7 @@ sha256sums = {
   "https://github.com/norwoodj/helm-docs/releases/download/v1.13.0/helm-docs_1.13.0_Darwin_x86_64.tar.gz": "5a88255c801a3ed88724698d76b1609fd8aac2a4991f8f1db9e42220cad9ca30",
   "https://github.com/norwoodj/helm-docs/releases/download/v1.13.0/helm-docs_1.13.0_Darwin_arm64.tar.gz": "0ab1fff1b53e33011b027c7ec4bddbd5fafdc57e97f14e0c66249d28d983ad48",
   "https://github.com/norwoodj/helm-docs/releases/download/v1.13.0/helm-docs_1.13.0_Linux_x86_64.tar.gz": "fc5e6cd5d44efa5a40ae4874e261e5ee200119e379291582cc4c9303abb1a5fe",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.13.1/helm-docs_1.13.1_Darwin_x86_64.tar.gz": "fb7830b64d6bde9898c8f74ef96e6c4403f1c6369b30bae8a24dee4c237b9751",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.13.1/helm-docs_1.13.1_Darwin_arm64.tar.gz": "43789d5c057be8ea4486e7b07c5d4792cd8a3680e1d878910438a2a1a43a778e",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.13.1/helm-docs_1.13.1_Linux_x86_64.tar.gz": "df8d803506933ceb92bc2996d8a432059a35fc19a308ac37a141971ffdf7aa33",
 }
