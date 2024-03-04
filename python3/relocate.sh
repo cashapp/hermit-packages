@@ -16,3 +16,5 @@ chmod +w "${sysconfig}"
 cp "${sysconfig}" "${tmpfile}"
 
 sed "s,'/install,'${root}/install,g" "${tmpfile}" > "${sysconfig}"
+
+test -e "${root}/install/bin/python" || ln "${root}/install/bin/python3" "${root}/install/bin/python"
