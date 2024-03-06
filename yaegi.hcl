@@ -5,7 +5,7 @@ source = "https://github.com/traefik/yaegi/releases/download/v${version}/yaegi_v
 sha256-source = "https://github.com/traefik/yaegi/releases/download/v${version}/yaegi_${version}_checksums.txt"
 
 version "0.11.2" "0.11.3" "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.14.2" "0.14.3"
-        "0.15.0" "0.15.1" {
+        "0.15.0" "0.15.1" "0.16.0" {
   auto-version {
     github-release = "traefik/yaegi"
   }
@@ -42,4 +42,7 @@ sha256sums = {
   "https://github.com/traefik/yaegi/releases/download/v0.15.1/yaegi_v0.15.1_darwin_amd64.tar.gz": "6f6e939e983dcf0f52942c45864509b19f7acfd7a11a4387b2a0a71ecab80296",
   "https://github.com/traefik/yaegi/releases/download/v0.15.1/yaegi_v0.15.1_darwin_arm64.tar.gz": "ec7e47d612317bb837496b20b26809461a10c2833d1e0931c54d5bc9254d787e",
   "https://github.com/traefik/yaegi/releases/download/v0.15.1/yaegi_v0.15.1_linux_amd64.tar.gz": "f83b06e02b4cd4f51f02fcb0c0cb6848544bb907a5c93c9377f77a23bb268f4c",
+  "https://github.com/traefik/yaegi/releases/download/v0.16.0/yaegi_v0.16.0_linux_amd64.tar.gz": "639ae7af91bf2ff3153f3a9bd5f5486bcac0edb78c56c9c1a2fd945b6473ced2",
+  "https://github.com/traefik/yaegi/releases/download/v0.16.0/yaegi_v0.16.0_darwin_amd64.tar.gz": "f9eec78b56ee9c446bec6707d93a633dc01e592383ae1ecfc7a28ff571f54351",
+  "https://github.com/traefik/yaegi/releases/download/v0.16.0/yaegi_v0.16.0_darwin_arm64.tar.gz": "17ffa9004db434a757512b8e6c7db5e39c8ce94040499f8e8d0d659ac505b736",
 }
