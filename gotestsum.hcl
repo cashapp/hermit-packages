@@ -1,4 +1,4 @@
-description = "gotestsum"
+description = "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results"
 test = "gotestsum --version"
 binaries = ["gotestsum"]
 
