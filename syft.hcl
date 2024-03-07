@@ -12,7 +12,8 @@ version "0.36.0" "0.37.10" "0.38.0" "0.39.3" "0.40.0" "0.40.1" "0.41.0" "0.41.1"
         "0.77.0" "0.78.0" "0.79.0" "0.80.0" "0.81.0" "0.82.0" "0.83.0" "0.83.1" "0.84.0"
         "0.84.1" "0.85.0" "0.86.1" "0.87.0" "0.87.1" "0.88.0" "0.89.0" "0.90.0" "0.91.0"
         "0.92.0" "0.93.0" "0.94.0" "0.95.0" "0.96.0" "0.97.0" "0.97.1" "0.98.0" "0.99.0"
-        "0.100.0" "0.101.0" "0.101.1" "0.102.0" "0.103.1" "0.104.0" "0.105.0" "0.105.1" "1.0.0" {
+        "0.100.0" "0.101.0" "0.101.1" "0.102.0" "0.103.1" "0.104.0" "0.105.0" "0.105.1" "1.0.0"
+        "1.0.1" {
   auto-version {
     github-release = "anchore/syft"
   }
@@ -313,4 +314,7 @@ sha256sums = {
   "https://github.com/anchore/syft/releases/download/v1.0.0/syft_1.0.0_darwin_amd64.tar.gz": "3c191441fa355d9fad0be169c29b0b54f541a732b9094f29cda07d367b4d8147",
   "https://github.com/anchore/syft/releases/download/v1.0.0/syft_1.0.0_linux_amd64.tar.gz": "27dfeaca134cd8aeff6135ba349ff922109bd89b955755459601667d69fed88e",
   "https://github.com/anchore/syft/releases/download/v1.0.0/syft_1.0.0_darwin_arm64.tar.gz": "95c5ec22913b72a10e90760b85901c4a6a166defda52ba181d7c0281eb7a80ed",
+  "https://github.com/anchore/syft/releases/download/v1.0.1/syft_1.0.1_darwin_amd64.tar.gz": "3730868e23a65c0c2b94bd1d3c7ce608176aa98b631bf98249f04bec1a035b12",
+  "https://github.com/anchore/syft/releases/download/v1.0.1/syft_1.0.1_darwin_arm64.tar.gz": "5dc061290afb7e8249dc590fcf4a7e15966346e73948415559855e1154fc0f42",
+  "https://github.com/anchore/syft/releases/download/v1.0.1/syft_1.0.1_linux_amd64.tar.gz": "420f90e57def27745e414efcb7a41384b2ccdccafca87c327096ca44621ab0ce",
 }

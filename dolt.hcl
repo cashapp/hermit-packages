@@ -23,7 +23,8 @@ version "0.40.5" "0.40.6" "0.40.8" "0.40.9" "0.40.10" "0.40.11" "0.40.12" "0.40.
         "1.26.1" "1.27.0" "1.28.0" "1.28.1" "1.28.2" "1.29.0" "1.29.2" "1.29.3" "1.29.4"
         "1.29.5" "1.29.6" "1.29.7" "1.30.0" "1.30.1" "1.30.2" "1.30.3" "1.30.4" "1.30.5"
         "1.30.6" "1.30.7" "1.31.0" "1.31.1" "1.31.3" "1.32.0" "1.32.1" "1.32.2" "1.32.3"
-        "1.32.4" "1.32.5" "1.32.6" "1.33.0" "1.34.0" "1.34.1" "1.34.2" "1.34.3" "1.35.0" {
+        "1.32.4" "1.32.5" "1.32.6" "1.33.0" "1.34.0" "1.34.1" "1.34.2" "1.34.3" "1.35.0"
+        "1.35.1" {
   auto-version {
     github-release = "dolthub/dolt"
   }
@@ -603,4 +604,7 @@ sha256sums = {
   "https://github.com/dolthub/dolt/releases/download/v1.35.0/dolt-darwin-amd64.tar.gz": "bad3c07bf0866625df1a3dcd7c9591224a8ef3d693218407cbd3379114cfd770",
   "https://github.com/dolthub/dolt/releases/download/v1.35.0/dolt-linux-amd64.tar.gz": "49802557b2dd1079f7aed6faa571ad13c53e257ec10b13d510ff97b7a540eb72",
   "https://github.com/dolthub/dolt/releases/download/v1.35.0/dolt-darwin-arm64.tar.gz": "958c5b088a85d585163dfd0ced20d83408729d33a5e263ed7c04c9dd6dcd5f80",
+  "https://github.com/dolthub/dolt/releases/download/v1.35.1/dolt-darwin-amd64.tar.gz": "fae5c6d9930f436a9f241cd95538550c9473b83b75c938e9a66e517004ff2306",
+  "https://github.com/dolthub/dolt/releases/download/v1.35.1/dolt-darwin-arm64.tar.gz": "6263f93be62ea08c7041b6d5635700409023c9ca31b53a79b0bd083bb25179b4",
+  "https://github.com/dolthub/dolt/releases/download/v1.35.1/dolt-linux-amd64.tar.gz": "f8761c5015126e6986283d9b8e087bde03616a1c5906b230ec5370626f19e75d",
 }
