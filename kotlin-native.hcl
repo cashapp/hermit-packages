@@ -17,7 +17,7 @@ version "1.5.0" "1.5.20" "1.5.21" {
 
 version "1.5.30" "1.5.31" "1.6.0" "1.6.10" "1.6.20" "1.6.21" "1.7.0" "1.7.10" "1.7.20"
         "1.7.21" "1.8.0" "1.8.10" "1.8.20" "1.8.21" "1.8.22" "1.9.0" "1.9.10" "1.9.20" "1.9.21"
-        "1.9.22" {
+        "1.9.22" "1.9.23" {
   platform "linux" {
     source = "https://github.com/JetBrains/kotlin/releases/download/v${version}/kotlin-native-linux-x86_64-${version}.tar.gz"
   }
@@ -98,4 +98,7 @@ sha256sums = {
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.22/kotlin-native-linux-x86_64-1.9.22.tar.gz": "c2b0a6481ced5401db4a7028661c039b7466996efaa554bbcc6a3d421ac5e7d4",
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.22/kotlin-native-macos-aarch64-1.9.22.tar.gz": "8a95c0e0eb46b41b6d02a1942dc7dfe8c70082a2a26679490a77cd486f0ec8dd",
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.22/kotlin-native-macos-x86_64-1.9.22.tar.gz": "a9d7bcf38a41a84002ba7a733b08e97b554225a39656d5158fc31dc6d0acede4",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-native-macos-x86_64-1.9.23.tar.gz": "0eed7cce2e4323b6f9c58e9e76fcd4be2534e5d324355db8921f0ff9146cdc17",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-native-linux-x86_64-1.9.23.tar.gz": "2d1a8b0599064af2016297e3b1384a59673c6c122a9a96d56b60e49303bd54c8",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-native-macos-aarch64-1.9.23.tar.gz": "27a3560dc9b79c58420ea0015c97838f44a49380854bf26397fb1cd52d6934ec",
 }
