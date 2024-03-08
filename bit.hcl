@@ -4,7 +4,7 @@ test = "bit --help"
 source = "https://github.com/alecthomas/bit/releases/download/v${version}/bit-${os}-${arch}.tar.gz"
 sha256-source = "https://github.com/alecthomas/bit/releases/download/v${version}/checksums.txt"
 
-version "0.0.1" "0.1.0" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.4.0" "0.4.1" "0.4.2" {
+version "0.0.1" "0.1.0" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.4.0" "0.4.1" "0.4.2" "0.5.0" {
   auto-version {
     github-release = "alecthomas/bit"
   }
@@ -38,4 +38,7 @@ sha256sums = {
   "https://github.com/alecthomas/bit/releases/download/v0.4.2/bit-darwin-arm64.tar.gz": "72ab39b6d431d9caa8786660beca0eb56bcd5471566ed76ab79ede4822625963",
   "https://github.com/alecthomas/bit/releases/download/v0.4.2/bit-darwin-amd64.tar.gz": "78372109962df64aa1f9f7a7680d67d4fbad1911b5658e44ae76bbfd5fcf9703",
   "https://github.com/alecthomas/bit/releases/download/v0.4.2/bit-linux-amd64.tar.gz": "9b4e42805f8caefab54697c289d940eb3767b6a2809b4d9a9d4a1b31963826ad",
+  "https://github.com/alecthomas/bit/releases/download/v0.5.0/bit-darwin-arm64.tar.gz": "cf96de625532281a87bda2dfc10b2945620465f49b85e720b982fd04bcd34f16",
+  "https://github.com/alecthomas/bit/releases/download/v0.5.0/bit-linux-amd64.tar.gz": "96cdf02395a2675ebfd747e20b9eb515f37b2a57c098c898380498f1bbe5c035",
+  "https://github.com/alecthomas/bit/releases/download/v0.5.0/bit-darwin-amd64.tar.gz": "afc67738affc8f37aff080d33e015ef2d7966ad52cb69c501454f47645b7310a",
 }
