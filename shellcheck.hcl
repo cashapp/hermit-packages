@@ -4,7 +4,7 @@ binaries = ["shellcheck"]
 strip = 1
 source = "https://github.com/koalaman/shellcheck/releases/download/v${version}/shellcheck-v${version}.${os}.x86_64.tar.xz"
 
-version "0.7.1" "0.7.2" "0.8.0" "0.9.0" {
+version "0.7.1" "0.7.2" "0.8.0" "0.9.0" "0.10.0" {
   auto-version {
     github-release = "koalaman/shellcheck"
   }
@@ -19,4 +19,6 @@ sha256sums = {
   "https://github.com/koalaman/shellcheck/releases/download/v0.8.0/shellcheck-v0.8.0.darwin.x86_64.tar.xz": "e065d4afb2620cc8c1d420a9b3e6243c84ff1a693c1ff0e38f279c8f31e86634",
   "https://github.com/koalaman/shellcheck/releases/download/v0.9.0/shellcheck-v0.9.0.darwin.x86_64.tar.xz": "7d3730694707605d6e60cec4efcb79a0632d61babc035aa16cda1b897536acf5",
   "https://github.com/koalaman/shellcheck/releases/download/v0.9.0/shellcheck-v0.9.0.linux.x86_64.tar.xz": "700324c6dd0ebea0117591c6cc9d7350d9c7c5c287acbad7630fa17b1d4d9e2f",
+  "https://github.com/koalaman/shellcheck/releases/download/v0.10.0/shellcheck-v0.10.0.linux.x86_64.tar.xz": "6c881ab0698e4e6ea235245f22832860544f17ba386442fe7e9d629f8cbedf87",
+  "https://github.com/koalaman/shellcheck/releases/download/v0.10.0/shellcheck-v0.10.0.darwin.x86_64.tar.xz": "ef27684f23279d112d8ad84e0823642e43f838993bbb8c0963db9b58a90464c2",
 }
