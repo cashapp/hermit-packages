@@ -1,6 +1,7 @@
 description = "A language empowering everyone to build reliable and efficient software."
 binaries = ["bin/*"]
 strip = 2
+requires = ["rust-src-${version}"]
 env = {
   "CARGO_HOME": "${HERMIT_ENV}/.hermit/rust",
   "PATH": "${HERMIT_ENV}/.hermit/rust/bin:${PATH}",
