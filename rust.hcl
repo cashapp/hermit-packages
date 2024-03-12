@@ -16,6 +16,10 @@ linux {
   source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-unknown-linux-gnu.tar.xz"
 }
 
+on install {
+  message { text = "rust-analyzer requires rust-src in order to work correctly" }
+}
+
 channel "nightly" {
   update = "24h"
 
