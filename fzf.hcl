@@ -13,7 +13,7 @@ linux {
 version "0.27.2" "0.27.3" "0.28.0" "0.29.0" "0.30.0" "0.31.0" "0.32.0" "0.32.1"
         "0.33.0" "0.34.0" "0.35.0" "0.35.1" "0.36.0" "0.37.0" "0.38.0" "0.39.0" "0.40.0"
         "0.41.0" "0.41.1" "0.42.0" "0.43.0" "0.44.0" "0.44.1" "0.45.0" "0.46.0" "0.46.1"
-        "0.47.0" "0.48.0" {
+        "0.47.0" "0.48.0" "0.48.1" {
   auto-version {
     github-release = "junegunn/fzf"
   }
@@ -104,4 +104,7 @@ sha256sums = {
   "https://github.com/junegunn/fzf/releases/download/0.48.0/fzf-0.48.0-darwin_arm64.zip": "da4877e3ef0bdf7694153869f22cbf8871fc106de3b56325620d8303d76fdc3b",
   "https://github.com/junegunn/fzf/releases/download/0.48.0/fzf-0.48.0-linux_amd64.tar.gz": "5b2f637afbef504efaf3d39133f18587c88028581444ad705617bb1215229edb",
   "https://github.com/junegunn/fzf/releases/download/0.48.0/fzf-0.48.0-darwin_amd64.zip": "029de258b2dbee24c05d64320a35806f5cf462f6370e3764e2789680b06c4d02",
+  "https://github.com/junegunn/fzf/releases/download/0.48.1/fzf-0.48.1-darwin_arm64.zip": "5044d95f02da3611a5737778a100695736195d6c42b40f5c2112e25c2588b4aa",
+  "https://github.com/junegunn/fzf/releases/download/0.48.1/fzf-0.48.1-darwin_amd64.zip": "69b9700464c9125f61cc3eeb7393dbe1c5a8c7e528b750d70968f4cb220a3523",
+  "https://github.com/junegunn/fzf/releases/download/0.48.1/fzf-0.48.1-linux_amd64.tar.gz": "6cfce75aba3b22b454c8facb30aefd28c676d16f483493656c9b3e0fa3800f20",
 }
