@@ -27,7 +27,7 @@ on "unpack" {
   }
 }
 
-version "0.5.0" "0.6.0" "0.6.1" "0.6.2" {
+version "0.5.0" "0.6.0" "0.6.1" "0.6.2" "0.7.0" {
   auto-version {
     github-release = "alecthomas/mk"
   }
@@ -46,4 +46,7 @@ sha256sums = {
   "https://github.com/alecthomas/mk/releases/download/v0.6.2/mk-aarch64-apple-darwin.bz2": "6a188175858b8e73bb2550e6e149a88ffe2d36c29baab3be704e00db6de15005",
   "https://github.com/alecthomas/mk/releases/download/v0.6.2/mk-x86_64-unknown-linux-gnu.bz2": "e11216890b5e3bd05d6e58a4cb755f3aa43a03a2644bb99f54548c9627eadad6",
   "https://github.com/alecthomas/mk/releases/download/v0.6.2/mk-x86_64-apple-darwin.bz2": "cc0e2d99691446e9693f5bad347e6fdde0a0146abe684a357dccf182baa8c3c4",
+  "https://github.com/alecthomas/mk/releases/download/v0.7.0/mk-x86_64-apple-darwin.bz2": "04d02abf098a5c9d5800e607d8f0eb22fdd2718db8a1e173da821f78be700f4d",
+  "https://github.com/alecthomas/mk/releases/download/v0.7.0/mk-aarch64-apple-darwin.bz2": "f8ff8aa1d58bd1e0caeb30837aab11572ae056b61a9890aef8757c2ca95294ee",
+  "https://github.com/alecthomas/mk/releases/download/v0.7.0/mk-x86_64-unknown-linux-gnu.bz2": "d0abfa6bb9fdf3ade3a3bde410cb515f61be75ba598c57030bf6912f268389ac",
 }
