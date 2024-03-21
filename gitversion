@@ -2,24 +2,19 @@ description = "GitVersion calculates your version based on your Git history."
 binaries = ["gitversion"]
 test = "gitversion -version"
 
-linux {
-  arch = amd64
+platform linux amd64 {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-linux-x64-${version}.tar.gz"
-  strip = 1
 }
 
-linux {
-  arch = arm64
+platform linux arm64 {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-linux-arm64-${version}.tar.gz"
 }
 
-darwin {
-  arch = amd64
+platform darwin amd64 {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-osx-x64-${version}.tar.gz"
 }
 
-darwin {
-  arch = arm64
+platform darwin arm64 {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-osx-${arch}-${version}.tar.gz"
 }
 
