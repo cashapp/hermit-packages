@@ -2,6 +2,7 @@ description = "A tool for managing OCI containers and pods."
 sha256-source = "https://github.com/containers/podman/releases/download/v${version}/shasums"
 binaries = ["podman"]
 source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
+requires = [ "gvproxy" ]
 
 platform "darwin" {
   source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-release-darwin_${arch}.zip"
@@ -64,11 +65,25 @@ version "4.4.1" "4.4.4" "4.5.0" "4.5.1" "4.6.0" "4.6.1" "4.6.2" "4.7.0" "4.7.1" 
 
   platform "linux" {
     source = "https://github.com/containers/podman/releases/download/v${version}/podman-remote-static-linux_${arch}.tar.gz"
+    env = {
+      "CONTAINERS_CONF": "${HERMIT_ENV}/.hermit/podman/containers.conf",
+      "CONTAINER_HOST": "unix://${HOME}/.local/share/containers/podman/machine/qemu/podman.sock",
+    }
 
     on "unpack" {
       rename {
         from = "${root}/bin/podman-remote-static-linux_${arch}"
         to = "${root}/podman"
+      }
+    }
+
+    on "install" {
+      mkdir {
+        dir = "${HERMIT_ENV}/.hermit/podman"
+      }
+      run {
+        cmd = "/bin/bash"
+        args = ["-c", "echo \"[engine]\n  helper_binaries_dir = [\n    \"'\"'\"${HERMIT_ENV}/bin\"'\"'\"\n]\n\" > \"${HERMIT_ENV}/.hermit/podman/containers.conf\""]
       }
     }
   }
