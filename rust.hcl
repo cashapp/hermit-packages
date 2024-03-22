@@ -16,8 +16,10 @@ linux {
   source = "https://static.rust-lang.org/dist/rust-${version}-${xarch}-unknown-linux-gnu.tar.xz"
 }
 
-on install {
-  message { text = "rust-analyzer requires rust-src in order to work correctly" }
+on "install" {
+  message {
+    text = "rust-analyzer requires rust-src in order to work correctly"
+  }
 }
 
 channel "nightly" {
@@ -35,7 +37,7 @@ channel "nightly" {
 version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" "1.58.0"
         "1.58.1" "1.59.0" "1.60.0" "1.61.0" "1.62.0" "1.62.1" "1.63.0" "1.64.0" "1.65.0"
         "1.66.0" "1.66.1" "1.67.0" "1.67.1" "1.68.0" "1.68.2" "1.69.0" "1.70.0" "1.71.0"
-        "1.72.0" "1.71.1" "1.72.1" "1.73.0" "1.74.0" "1.74.1" "1.75.0" "1.76.0" {
+        "1.72.0" "1.71.1" "1.72.1" "1.73.0" "1.74.0" "1.74.1" "1.75.0" "1.76.0" "1.77.0" {
   auto-version {
     github-release = "rust-lang/rust"
   }
@@ -144,4 +146,7 @@ sha256sums = {
   "https://static.rust-lang.org/dist/rust-1.76.0-x86_64-unknown-linux-gnu.tar.xz": "04fa0cf224ed36c9c7a5ea7a0ad7d31f5ad20dda5af0cc1e5991c703e01ef988",
   "https://static.rust-lang.org/dist/rust-1.76.0-aarch64-apple-darwin.tar.xz": "6b469c6a737140b46616de9acd923c5ef981b5354acf1f3726d95b86e3142940",
   "https://static.rust-lang.org/dist/rust-1.76.0-x86_64-apple-darwin.tar.xz": "ec7333316e5b3ddb9ce9158713f32439f9a2f1e2aef1e82180a8d7a9de14566d",
+  "https://static.rust-lang.org/dist/rust-1.77.0-x86_64-unknown-linux-gnu.tar.xz": "54308d1f27f01505fd712f05dd723a639fd370412600ba4804ade3b36f77c906",
+  "https://static.rust-lang.org/dist/rust-1.77.0-aarch64-apple-darwin.tar.xz": "d94b58e2defc981ff61996f1658e6782ecbcab6b578868fbfa5607b052f20821",
+  "https://static.rust-lang.org/dist/rust-1.77.0-x86_64-apple-darwin.tar.xz": "ec67cc0057ec01746537ca47b0c2d901e631b44f482e06781589ef51839a9299",
 }
