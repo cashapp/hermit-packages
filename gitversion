@@ -1,0 +1,36 @@
+description = "GitVersion calculates your version based on your Git history."
+binaries = ["gitversion"]
+test = "gitversion -version"
+
+platform linux amd64 {
+  source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-linux-x64-${version}.tar.gz"
+}
+
+platform linux arm64 {
+  source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-linux-arm64-${version}.tar.gz"
+}
+
+platform darwin amd64 {
+  source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-osx-x64-${version}.tar.gz"
+}
+
+platform darwin arm64 {
+  source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-osx-${arch}-${version}.tar.gz"
+}
+
+version "5.12.0" "6.0.0-beta.7" {
+  auto-version {
+    github-release = "GitTools/GitVersion"
+  }
+}
+
+sha256sums = {
+  "https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-arm64-5.12.0.tar.gz": "0d0e3265b9d88e2ec05ac8a01610a9e008078bef1e3f477e3523595911495e0c",
+  "https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz": "f1e486e084dd7668c43eaef972bba8e957a65bd3e5f7522725d1c904d1c5f300",
+  "https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-osx-arm64-5.12.0.tar.gz": "ab39788091792bae890fe2f805286a882382d18e1a5d675108657e8438206501",
+  "https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-osx-x64-5.12.0.tar.gz": "41aaf2e15a74de514d87a60d1fe566664afaf3fb5a729b07836d96d64199cf8d",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0-beta.7/gitversion-linux-arm64-6.0.0-beta.7.tar.gz": "5508faca62bd3880004c64850ba4022093bdd07f319879748212fc4ecc3e1fe2",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0-beta.7/gitversion-linux-x64-6.0.0-beta.7.tar.gz": "745a044cec9ec53030c8df5cce04c397ca6460a8c6f2ad61f724a6ab5235f1ae",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0-beta.7/gitversion-osx-arm64-6.0.0-beta.7.tar.gz": "a2064d4779d904f8a1e290f0a00b64e08af78c0c6e852721975b311c586301fe",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0-beta.7/gitversion-osx-x64-6.0.0-beta.7.tar.gz": "2326dc489c50d01bdfa065b4be14be443c976e5173eeacca2d92f04d7844c770",
+}
