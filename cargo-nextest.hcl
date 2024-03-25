@@ -1,7 +1,6 @@
 homepage = "https://github.com/nextest-rs/nextest"
 description = "A next-generation test runner for Rust."
 binaries = ["cargo-nextest"]
-strip = 1
 
 platform "darwin" {
   source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-universal-apple-darwin.tar.gz"
