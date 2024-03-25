@@ -7,11 +7,7 @@ platform "darwin" {
   source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-universal-apple-darwin.tar.gz"
 }
 
-platform "linux" "amd64" {
-  source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-${xarch}-unknown-linux-musl.tar.gz"
-}
-
-platform "linux" "aarch64" {
+platform "linux" {
   source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-${xarch}-unknown-linux-musl.tar.gz"
 }
 
