@@ -1,6 +1,6 @@
 repository = "https://github.com/docker/cli"
 description = "Docker CLI"
-binaries = ["docker/docker", "docker/cli-plugins/*"]
+binaries = ["docker/docker"]
 test = "docker -v"
 
 platform "darwin" {
