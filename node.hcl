@@ -65,7 +65,7 @@ version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
 version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.0"
         "18.5.0" "18.6.0" "18.7.0" "18.8.0" "18.9.0" "18.9.1" "18.12.1" "18.13.0" "18.14.0"
         "18.14.2" "18.15.0" "18.16.0" "18.16.1" "18.17.0" "18.17.1" "18.18.0" "18.18.1"
-        "18.18.2" "18.19.0" "18.19.1" {
+        "18.18.2" "18.19.0" "18.19.1" "18.20.0" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -83,7 +83,8 @@ version "19.0.0" "19.0.1" "19.1.0" "19.2.0" "19.3.0" "19.4.0" "19.5.0" "19.6.0"
 }
 
 version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1"
-        "20.6.0" "20.6.1" "20.7.0" "20.8.0" "20.8.1" "20.9.0" "20.10.0" "20.11.0" "20.11.1" {
+        "20.6.0" "20.6.1" "20.7.0" "20.8.0" "20.8.1" "20.9.0" "20.10.0" "20.11.0" "20.11.1"
+        "20.12.0" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -467,4 +468,10 @@ sha256sums = {
   "https://nodejs.org/dist/v21.7.1/node-v21.7.1-darwin-arm64.tar.gz": "0a4dde483479dcf272f3d4d7afb509c3d45cf7a1ea451ce108f434dad4fa43e4",
   "https://nodejs.org/dist/v21.7.1/node-v21.7.1-linux-x64.tar.gz": "c7b15146aed968b781c235b6a8f67608be559c4615de9526a9851ae28660cc09",
   "https://nodejs.org/dist/v21.7.1/node-v21.7.1-darwin-x64.tar.gz": "a406f4fbe68ff33319d513fa645aa7b9508c2cb65299f0a2de1757c2a6333c85",
+  "https://nodejs.org/dist/v18.20.0/node-v18.20.0-darwin-x64.tar.gz": "062ba71618e88e06321de5caa038843c350aababa2d315f3ca7b8551f8e66c1c",
+  "https://nodejs.org/dist/v18.20.0/node-v18.20.0-darwin-arm64.tar.gz": "10066ad4dd9e03ea5c4c45ef8775420ff37b860de09bbdf87b97e0c07b1ea036",
+  "https://nodejs.org/dist/v18.20.0/node-v18.20.0-linux-x64.tar.gz": "80620426d177141aa99376de2ad1cb5ed461104cc53c0a5334df91467c60cac3",
+  "https://nodejs.org/dist/v20.12.0/node-v20.12.0-linux-x64.tar.gz": "b6b998947595c9550d6b89c815a68d608f5920275f1b48812f89792de3fdd893",
+  "https://nodejs.org/dist/v20.12.0/node-v20.12.0-darwin-arm64.tar.gz": "422a74b7ede14b697a8c2ca887ea161fe79898a35f163fdfb98435c5ab25027b",
+  "https://nodejs.org/dist/v20.12.0/node-v20.12.0-darwin-x64.tar.gz": "5c7d71a1c1cf613037432e0b6c3d913d96604d9293b3397ec70b344730c81daf",
 }

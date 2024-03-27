@@ -26,7 +26,7 @@ on "unpack" {
   }
 }
 
-version "0.25.1" "0.25.2" {
+version "0.25.1" "0.25.2" "0.25.3" {
   auto-version {
     github-release = "apple/pkl"
   }

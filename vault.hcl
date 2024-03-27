@@ -4,7 +4,7 @@ test = "vault version"
 repository = "https://github.com/hashicorp/vault"
 source = "https://releases.hashicorp.com/vault/${version}/vault_${version}_${os}_${arch}.zip"
 
-version "1.15.1" "1.15.2" "1.15.3" "1.15.4" "1.15.5" "1.15.6" {
+version "1.15.1" "1.15.2" "1.15.3" "1.15.4" "1.15.5" "1.15.6" "1.16.0" {
   auto-version {
     github-release = "hashicorp/vault"
   }
@@ -29,4 +29,7 @@ sha256sums = {
   "https://releases.hashicorp.com/vault/1.15.6/vault_1.15.6_linux_amd64.zip": "e5286f2f66a76972d1dd60a9cfb79e9e571c39a4531e89ac0b23a6a9147e6ee9",
   "https://releases.hashicorp.com/vault/1.15.6/vault_1.15.6_darwin_amd64.zip": "deca4a807fcf402351f16598e9bba4fa2d759aa04a99d4ac2a970d174187a282",
   "https://releases.hashicorp.com/vault/1.15.6/vault_1.15.6_darwin_arm64.zip": "991c61e424ba2c898f0acf970a1f07e96a4959d35168b351a2144684be9b1576",
+  "https://releases.hashicorp.com/vault/1.16.0/vault_1.16.0_darwin_arm64.zip": "073ea09be4ad9efa4fb8aa388e6e46472806a1d724e27b946e51b28c19126159",
+  "https://releases.hashicorp.com/vault/1.16.0/vault_1.16.0_linux_amd64.zip": "a75db415ef9dfbc148bfa30d6aee26cd5570f5bad2c4eb8ad94fe581ac33205c",
+  "https://releases.hashicorp.com/vault/1.16.0/vault_1.16.0_darwin_amd64.zip": "1cbb7ae160e9b2e27d1230f1486caa597ae5cc4054e84b64d126bca61c0bed17",
 }
