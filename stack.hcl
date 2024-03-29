@@ -12,7 +12,7 @@ platform "darwin" {
   }
 }
 
-version "2.13.1" "2.15.1" "2.15.3" {
+version "2.13.1" "2.15.1" "2.15.3" "2.15.5" {
   auto-version {
     github-release = "commercialhaskell/stack"
   }
