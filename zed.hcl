@@ -4,7 +4,7 @@ binaries = ["zed"]
 source = "https://github.com/brimdata/zed/releases/download/v${version}/zed-v${version}.${os}-${arch}.tar.gz"
 
 version "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.8.1" "1.9.0"
-        "1.10.0" "1.11.0" "1.11.1" "1.12.0" "1.13.0" "1.14.0" {
+        "1.10.0" "1.11.0" "1.11.1" "1.12.0" "1.13.0" "1.14.0" "1.15.0" {
   auto-version {
     github-release = "brimdata/zed"
   }
@@ -59,4 +59,7 @@ sha256sums = {
   "https://github.com/brimdata/zed/releases/download/v1.14.0/zed-v1.14.0.darwin-arm64.tar.gz": "c98eb85f653633c67c6d841ea5828b3868db7b2687f7123bcd285d82bdf2483e",
   "https://github.com/brimdata/zed/releases/download/v1.14.0/zed-v1.14.0.darwin-amd64.tar.gz": "38059144279b34d9f5506f08c0c20c4eafdd704865924fd78f63e35ea7297034",
   "https://github.com/brimdata/zed/releases/download/v1.14.0/zed-v1.14.0.linux-amd64.tar.gz": "a09bae78d94e47a1e2c3d3a9459bcfe1097d00ab6b7477a37cf2a5dae5d46c63",
+  "https://github.com/brimdata/zed/releases/download/v1.15.0/zed-v1.15.0.darwin-amd64.tar.gz": "e16b13114882014bea15f268ddd2c994f73a77aca4265d8292293c688baf5bdc",
+  "https://github.com/brimdata/zed/releases/download/v1.15.0/zed-v1.15.0.darwin-arm64.tar.gz": "a4988534da4c87cbd05fd3c2c31b72f1d7a867ce1f43bfa96f36733a017bbe11",
+  "https://github.com/brimdata/zed/releases/download/v1.15.0/zed-v1.15.0.linux-amd64.tar.gz": "8193d01c4050e4a22979f7da70faa6b5e5fb3ae959132248ae07c29aa206e2cd",
 }
