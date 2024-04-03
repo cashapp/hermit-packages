@@ -1,7 +1,7 @@
 description = "Reformats Java source code to comply with Google Java Style.."
 runtime-dependencies = ["openjre-17.0.4.1_1"]
 binaries = ["google-java-format"]
-source = "https://github.com/google/google-java-format/releases/download/v{version}/google-java-format-{version}-all-deps.jar"
+source = "https://github.com/google/google-java-format/releases/download/v${version}/google-java-format-${version}-all-deps.jar"
 dont-extract = true
 
 on "unpack" {
