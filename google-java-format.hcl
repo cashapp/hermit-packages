@@ -6,7 +6,7 @@ dont-extract = true
 
 on "unpack" {
   rename {
-    from = "${root}/google-java-format-{version}-all-deps.jar"
+    from = "${root}/google-java-format-${version}-all-deps.jar"
     to = "${root}/google-java-format.jar"
   }
 
