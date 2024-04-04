@@ -15,7 +15,7 @@ linux {
 
 version "1.3.0" "1.2.1" "1.4.0" "1.6.0" "1.6.1" "1.6.2" "1.7.1" "1.8.0" "1.9.0"
         "1.10.0" "1.11.0" "1.12.0" "1.12.1" "1.13.0" "1.14.0" "1.14.1" "1.14.2" "1.14.3"
-        "1.14.4" "1.14.5" "1.14.6" "1.15.0" "1.15.1" {
+        "1.14.4" "1.14.5" "1.14.6" "1.15.0" "1.15.1" "1.16.0" {
   auto-version {
     github-release = "dragonflydb/dragonfly"
   }
@@ -45,4 +45,5 @@ sha256sums = {
   "https://github.com/dragonflydb/dragonfly/releases/download/v1.14.6/dragonfly-x86_64.tar.gz": "d471cad4826d1560b12cbc1f37790633579133a71e52859ed8aee153a132b6c5",
   "https://github.com/dragonflydb/dragonfly/releases/download/v1.15.0/dragonfly-x86_64.tar.gz": "4f5b43d76911f2c8b94d9c459d086c681465a13ed5e970ea6cd93b4d850c500c",
   "https://github.com/dragonflydb/dragonfly/releases/download/v1.15.1/dragonfly-x86_64.tar.gz": "b033cb885a35df7d46fa0ad569aaa203931c8ac21090a8093dc1165fb88b0dad",
+  "https://github.com/dragonflydb/dragonfly/releases/download/v1.16.0/dragonfly-x86_64.tar.gz": "83a47aeb41ac7e2b6928829357ef371cfd2ea23ef7a5f73d60a5142cd0df4aa6",
 }
