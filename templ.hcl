@@ -8,7 +8,7 @@ platform "amd64" {
 
 version "0.2.282" "0.2.296" "0.2.304" "0.2.315" "0.2.316" "0.2.334" "0.2.364"
         "0.2.408" "0.2.428" "0.2.432" "0.2.476" "0.2.501" "0.2.513" "0.2.543" "0.2.598"
-        "0.2.639" "0.2.646" "0.2.648" {
+        "0.2.639" "0.2.646" "0.2.648" "0.2.663" {
   auto-version {
     github-release = "a-h/templ"
   }
@@ -69,4 +69,7 @@ sha256sums = {
   "https://github.com/a-h/templ/releases/download/v0.2.648/templ_darwin_arm64.tar.gz": "a2b13f1e1cc489cdee3a3fce620ec9e8e6812851bac151b30246eecd2dc7f7e4",
   "https://github.com/a-h/templ/releases/download/v0.2.648/templ_darwin_x86_64.tar.gz": "2bf708a8da131e637e865a613b3da7045c92c095204aa5a6a68230b810d21866",
   "https://github.com/a-h/templ/releases/download/v0.2.648/templ_linux_x86_64.tar.gz": "3abad775c8ef0ff42181158e58b6d8746be7d3e2e194974345d97556ad668259",
+  "https://github.com/a-h/templ/releases/download/v0.2.663/templ_linux_x86_64.tar.gz": "885ea3fb50cdeed1f7b8239ddec044b96de3f08f35c22d2aca9b8eeaf7fe0302",
+  "https://github.com/a-h/templ/releases/download/v0.2.663/templ_darwin_arm64.tar.gz": "4f92836ad5c1829df31b24840023e9bc2436339db0126c3724937a26e60423e5",
+  "https://github.com/a-h/templ/releases/download/v0.2.663/templ_darwin_x86_64.tar.gz": "48bcfd4d8c2297481856d29a37b16906468d8efadf2251117ef6c2debe5412e2",
 }

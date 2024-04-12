@@ -14,7 +14,8 @@ version "4.4.1" "3.2.0" "4.4.6" "4.4.7" "4.4.8" {
 
 // We have darwin-arm64 binaries after 5.0.0
 version "5.0.0" "5.0.1" "5.0.2" "5.0.3" "5.1.0" "5.2.2" "5.3.0" "5.4.0" "5.4.1" "5.4.2"
-        "5.4.3" "5.4.4" "5.4.6" "5.4.7" "5.4.8" "5.4.9" "5.5.0" "5.5.1" "5.5.2" "5.6.0" "5.6.2" {
+        "5.4.3" "5.4.4" "5.4.6" "5.4.7" "5.4.8" "5.4.9" "5.5.0" "5.5.1" "5.5.2" "5.6.0" "5.6.2"
+        "5.6.3" {
   source = "https://github.com/rancher/k3d/releases/download/v${version}/k3d-${os}-${arch}"
 
   on "unpack" {
@@ -103,4 +104,7 @@ sha256sums = {
   "https://github.com/rancher/k3d/releases/download/v5.6.2/k3d-darwin-arm64": "a91cf9e66d0474b10326a9164336dc0368d3e436d1befa406f7ee2f6cbf43f9f",
   "https://github.com/rancher/k3d/releases/download/v5.6.2/k3d-linux-amd64": "99b31f7a0244c381e85d18400d62a8e9358ebebe6c65319dbfb94690f2f654db",
   "https://github.com/rancher/k3d/releases/download/v5.6.2/k3d-darwin-amd64": "896680a2d2c162a2e86cb3e796c4100dd2507afaef8f7f14c51760ec16ac2b7e",
+  "https://github.com/rancher/k3d/releases/download/v5.6.3/k3d-darwin-arm64": "c8b824684153488a4234214e2f7264035e66bf73d2d68828ce026cb9c59bfc23",
+  "https://github.com/rancher/k3d/releases/download/v5.6.3/k3d-darwin-amd64": "c377952a095af4a1683411b2d3ccee53affdcdb7763d2dfca9714a9ebb978f8c",
+  "https://github.com/rancher/k3d/releases/download/v5.6.3/k3d-linux-amd64": "69f434b5a326eddafff6062a1b439d1c7a78a1ee93a91a9f79872cf8e516327d",
 }
