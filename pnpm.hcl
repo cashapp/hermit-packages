@@ -47,7 +47,7 @@ platform "darwin" "arm64" {
 }
 
 version "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3" "8.15.4"
-        "8.15.5" "8.15.6" "8.15.7" "9.0.1" {
+        "8.15.5" "8.15.6" "8.15.7" "9.0.1" "9.0.2" {
   auto-version {
     github-release = "pnpm/pnpm"
   }
@@ -90,4 +90,7 @@ sha256sums = {
   "https://github.com/pnpm/pnpm/releases/download/v9.0.1/pnpm-linux-x64": "2fb1c031c14f2be1de292785431689aa8d16aad7e3981bcb2d1c21d026b0612a",
   "https://github.com/pnpm/pnpm/releases/download/v9.0.1/pnpm-macos-arm64": "9b3afb6633cad10ab62386b63512af1bc36a35ae34222652b32b248caf6186bf",
   "https://github.com/pnpm/pnpm/releases/download/v9.0.1/pnpm-macos-x64": "48cd72392e82e6ec92fb09eb866812f3a34326226fec1d25ce7bb7f89c10a110",
+  "https://github.com/pnpm/pnpm/releases/download/v9.0.2/pnpm-macos-x64": "d6a8287e536e20c45cf1ac935629c45a531c25322dc2b8ae2c8c95724a8d1402",
+  "https://github.com/pnpm/pnpm/releases/download/v9.0.2/pnpm-macos-arm64": "09d9b73fb742aa4cc700cb57a7481ad8b2811f4d69c00d9d256b4b57f9cad422",
+  "https://github.com/pnpm/pnpm/releases/download/v9.0.2/pnpm-linux-x64": "3eea97f569a0bbbc539660413af7e5203b10ccbc52f96cd1c5f35f15ba2512c3",
 }
