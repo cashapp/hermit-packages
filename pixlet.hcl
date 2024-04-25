@@ -4,7 +4,7 @@ binaries = ["pixlet"]
 source = "https://github.com/tidbyt/pixlet/releases/download/v${version}/pixlet_${version}_${os}_${arch}.tar.gz"
 
 version "0.28.0" "0.28.1" "0.28.3" "0.28.4" "0.28.5" "0.28.6" "0.28.7" "0.29.0"
-        "0.29.1" "0.30.2" "0.31.0" {
+        "0.29.1" "0.30.2" "0.31.0" "0.32.2" {
   auto-version {
     github-release = "tidbyt/pixlet"
   }
@@ -44,4 +44,7 @@ sha256sums = {
   "https://github.com/tidbyt/pixlet/releases/download/v0.31.0/pixlet_0.31.0_darwin_amd64.tar.gz": "d3224e054ba59c01bfad41ea0108d569f770749ec00dfd093f80b306d92ab975",
   "https://github.com/tidbyt/pixlet/releases/download/v0.31.0/pixlet_0.31.0_darwin_arm64.tar.gz": "da2eaef9b9e9ca1e117c9129fdc979a8431014ea9467512e3dd73f4658e7b551",
   "https://github.com/tidbyt/pixlet/releases/download/v0.31.0/pixlet_0.31.0_linux_amd64.tar.gz": "0d7350f06df51c88157bde92aa55550aebb993e9e568603c48d33627fa03115f",
+  "https://github.com/tidbyt/pixlet/releases/download/v0.32.2/pixlet_0.32.2_linux_amd64.tar.gz": "2d1254dd8d989a5e885a91362f0b7aad83b88a51bfb032553ec9f2a457348a43",
+  "https://github.com/tidbyt/pixlet/releases/download/v0.32.2/pixlet_0.32.2_darwin_amd64.tar.gz": "11fa1c5ecea369135de43e712dadae91ca98d8eedc6878c192f8fe0fbe9f9708",
+  "https://github.com/tidbyt/pixlet/releases/download/v0.32.2/pixlet_0.32.2_darwin_arm64.tar.gz": "48b232952e3e1f070dda82c45d7f7421cb1f4c62f267b4f805cd1c173c534c97",
 }

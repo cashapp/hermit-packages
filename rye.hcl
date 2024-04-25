@@ -22,7 +22,7 @@ on "unpack" {
 }
 
 version "0.21.0" "0.22.0" "0.23.0" "0.24.0" "0.25.0" "0.26.0" "0.27.0" "0.28.0"
-        "0.29.0" "0.30.0" "0.31.0" "0.32.0" {
+        "0.29.0" "0.30.0" "0.31.0" "0.32.0" "0.33.0" {
   auto-version {
     github-release = "mitsuhiko/rye"
   }
@@ -65,4 +65,7 @@ sha256sums = {
   "https://github.com/mitsuhiko/rye/releases/download/0.32.0/rye-aarch64-macos.gz": "81cbc36fe71397d9cc36366adc807a6dcb9ccdf62303190b7cf55c3a359506e9",
   "https://github.com/mitsuhiko/rye/releases/download/0.32.0/rye-x86_64-linux.gz": "c917daac1bbdda4115838116f548236ed3c603d1aef649e72f0cd8078aa1097a",
   "https://github.com/mitsuhiko/rye/releases/download/0.32.0/rye-x86_64-macos.gz": "dc5459e337fb07f7277686b03bcb11d818fd576ae377f742de47e83810dbdc04",
+  "https://github.com/mitsuhiko/rye/releases/download/0.33.0/rye-x86_64-macos.gz": "e4d5529c65fa4f5f408dde0d2391c75726a69c48a252c25e8673ac407080e51a",
+  "https://github.com/mitsuhiko/rye/releases/download/0.33.0/rye-aarch64-macos.gz": "44ef201f256a898e27176e4a890ff681a3ed887deadbc7e8585aaf0d7cd65e6c",
+  "https://github.com/mitsuhiko/rye/releases/download/0.33.0/rye-x86_64-linux.gz": "77188fa863bc746e2d4f2613603eeeb6ebb774045028c4dd52c01600a9f91344",
 }
