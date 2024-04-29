@@ -2,17 +2,6 @@ description = "a lightweight and portable command-line YAML processor."
 binaries = ["yq"]
 test = "yq --version"
 
-darwin {
-  source = "https://github.com/mikefarah/yq/releases/download/v${version}/yq_${os}_amd64"
-
-  on "unpack" {
-    rename {
-      from = "${root}/yq_${os}_amd64"
-      to = "${root}/yq"
-    }
-  }
-}
-
 linux {
   source = "https://github.com/mikefarah/yq/releases/download/v${version}/yq_${os}_${arch}"
 
@@ -24,7 +13,7 @@ linux {
   }
 }
 
-version "4.9.5" "4.9.6" "4.9.8" "4.10.0" "4.11.0" "4.11.1" "4.11.2" "4.12.0" "4.12.1"
+version "4.9.6" "4.9.8" "4.10.0" "4.11.0" "4.11.1" "4.11.2" "4.12.0" "4.12.1"
         "4.12.2" "4.13.0" "4.13.2" "4.16.1" "4.16.2" "4.17.2" "4.18.1" "4.19.1" "4.20.1"
         "4.20.2" "4.21.1" "4.22.1" "4.23.1" "4.24.2" "4.24.3" "4.24.4" "4.24.5" "4.25.1"
         "4.25.2" "4.25.3" "4.26.1" "4.27.2" "4.27.3" "4.27.5" "4.28.1" "4.28.2" "4.29.1"
@@ -33,6 +22,30 @@ version "4.9.5" "4.9.6" "4.9.8" "4.10.0" "4.11.0" "4.11.1" "4.11.2" "4.12.0" "4.
         "4.35.2" "4.40.2" "4.40.3" "4.40.4" "4.40.5" "4.40.7" "4.41.1" "4.42.1" "4.43.1" {
   auto-version {
     github-release = "mikefarah/yq"
+  }
+
+  darwin {
+    source = "https://github.com/mikefarah/yq/releases/download/v${version}/yq_${os}_${arch}"
+
+    on "unpack" {
+      rename {
+        from = "${root}/yq_${os}_${arch}"
+        to = "${root}/yq"
+      }
+    }
+  }
+}
+
+version "4.9.5" {
+  darwin {
+    source = "https://github.com/mikefarah/yq/releases/download/v${version}/yq_${os}_amd64"
+
+    on "unpack" {
+      rename {
+        from = "${root}/yq_${os}_amd64"
+        to = "${root}/yq"
+      }
+    }
   }
 }
 
@@ -163,4 +176,66 @@ sha256sums = {
   "https://github.com/mikefarah/yq/releases/download/v4.42.1/yq_darwin_amd64": "41f307ea23006172b3575491bc5343f5c8ec82bb62c24530c2297253a8a21f5e",
   "https://github.com/mikefarah/yq/releases/download/v4.43.1/yq_darwin_amd64": "fdc42b132ac460037f4f0f48caea82138772c651d91cfbb735210075ddfdbaed",
   "https://github.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_amd64": "cfbbb9ba72c9402ef4ab9d8f843439693dfb380927921740e51706d90869c7e1",
+  "https://github.com/mikefarah/yq/releases/download/v4.10.0/yq_darwin_arm64": "e104b2754d4ba46bacefd8f12d4a8bc8d07ddef8483dc073cd454e7d8d12ec76",
+  "https://github.com/mikefarah/yq/releases/download/v4.13.0/yq_darwin_arm64": "5968706b942d66e42f0b44130e2be9c4b7bbf5499fa071a2f9dcc35c0b45c5c9",
+  "https://github.com/mikefarah/yq/releases/download/v4.13.2/yq_darwin_arm64": "31152030a2de9407a6aca217fbc07cc0756aef77248a67c7721e9fbbe11da49b",
+  "https://github.com/mikefarah/yq/releases/download/v4.16.2/yq_darwin_arm64": "18cf1bb7c0afd8d4d2d2de277b0f71fc6234f481b147f5ce06464e2ab863a7c5",
+  "https://github.com/mikefarah/yq/releases/download/v4.25.2/yq_darwin_arm64": "db8c11ca4c1dda8fe7c211e82e28191d48bd9ae83471b952003e819de79bcb51",
+  "https://github.com/mikefarah/yq/releases/download/v4.27.5/yq_darwin_arm64": "40547a5049f15a1103268fd871baaa34a31ad30136ee27a829cf697737f392be",
+  "https://github.com/mikefarah/yq/releases/download/v4.30.2/yq_darwin_arm64": "7ca9cc7475d8d4033ae33290003a9b8a2eae0e08f348658bc2a0f5942ce9f92d",
+  "https://github.com/mikefarah/yq/releases/download/v4.30.5/yq_darwin_arm64": "00a0e9d132da1080d83ceb1ac40d987246607599cfde7b2b5d83435069573358",
+  "https://github.com/mikefarah/yq/releases/download/v4.32.2/yq_darwin_arm64": "28251963fd112d1a3b9bb737da4a67cd9a356f91e3b2814214dfd8c3b92ffaf0",
+  "https://github.com/mikefarah/yq/releases/download/v4.34.1/yq_darwin_arm64": "30e8c7c52647f26312d8709193a269ec0ba4f384712775f87241b2abdc46de85",
+  "https://github.com/mikefarah/yq/releases/download/v4.40.5/yq_darwin_arm64": "1ef0022ed6d0769d19e2d391dd731162034b0e0ba2c9b53dda039d16cec1c26a",
+  "https://github.com/mikefarah/yq/releases/download/v4.9.6/yq_darwin_arm64": "54b9f62d839506b6140c05e9b3c3a1ae614e624adcfb52c73869dcd2affdbec1",
+  "https://github.com/mikefarah/yq/releases/download/v4.17.2/yq_darwin_arm64": "1a6203024c7c9b1e1e60c17e97e26e41d7b26f3227fdd3a6a4724193d110de90",
+  "https://github.com/mikefarah/yq/releases/download/v4.22.1/yq_darwin_arm64": "2888699d75cbe6d533f105756bb35b5d355a6eb71673aef2f16d50e776de8096",
+  "https://github.com/mikefarah/yq/releases/download/v4.24.2/yq_darwin_arm64": "71347ef1d847fa1b837ad19e386e3225230bea2bf4ad89d015196ad2c18835a0",
+  "https://github.com/mikefarah/yq/releases/download/v4.24.3/yq_darwin_arm64": "98b2fd69bd8a49202f8c7926fd8a31eeccacd8ed913470d291ceea567bdc386f",
+  "https://github.com/mikefarah/yq/releases/download/v4.27.2/yq_darwin_arm64": "fd3a3130c19faf95c22e0725c469ee40090d9ec47ecd7c6a95ecc46dff0836ed",
+  "https://github.com/mikefarah/yq/releases/download/v4.29.2/yq_darwin_arm64": "5479597c78fd673448adbdbafa0e69c1984aecf6465dcc969587b524f8799555",
+  "https://github.com/mikefarah/yq/releases/download/v4.30.3/yq_darwin_arm64": "8693267f57e1e4da054b4673dedaa04eaf7047487d5ecc1e80cdfc9e0d0edc68",
+  "https://github.com/mikefarah/yq/releases/download/v4.33.2/yq_darwin_arm64": "27f8736d265cbc597ed28851ba30bb30b8d5bd8bf95a0862c7be10aea745c4d3",
+  "https://github.com/mikefarah/yq/releases/download/v4.40.7/yq_darwin_arm64": "e48d94f4f8bea08135fc24a22f495cd604f98cb68298b607babdf02eb2a1236c",
+  "https://github.com/mikefarah/yq/releases/download/v4.43.1/yq_darwin_arm64": "9f1063d910698834cb9176593aa288471898031929138d226c2c2de9f262f8e5",
+  "https://github.com/mikefarah/yq/releases/download/v4.20.2/yq_darwin_arm64": "1f6c637d03c893263079682964a3fc45e96fa17978b02b8903af8c5f64b5f123",
+  "https://github.com/mikefarah/yq/releases/download/v4.21.1/yq_darwin_arm64": "abc24129847d24cb729135b35243102a6b49287b12e5d25398dcaefa80d9f4fb",
+  "https://github.com/mikefarah/yq/releases/download/v4.23.1/yq_darwin_arm64": "39413f8bef4c5d8867359e9db626e499fe4b2f18951e17522027b213d9a9e5bb",
+  "https://github.com/mikefarah/yq/releases/download/v4.24.5/yq_darwin_arm64": "e61398fe170b3f93f741cfd2fa8684002932c88f463880e0b9c48707722d52b0",
+  "https://github.com/mikefarah/yq/releases/download/v4.25.3/yq_darwin_arm64": "db9be0f73e7fbcba1039e405abc2a834cdc64ac3f90c7b79090b242e0002193c",
+  "https://github.com/mikefarah/yq/releases/download/v4.26.1/yq_darwin_arm64": "a105f380f13dcecd2ed499e07377018e3b87730d0afa41cb6e1278451d9569f3",
+  "https://github.com/mikefarah/yq/releases/download/v4.29.1/yq_darwin_arm64": "874fca986a74fb10a7c9a03feeed7a397fce01267e88e1e2586b0a09faf7fda4",
+  "https://github.com/mikefarah/yq/releases/download/v4.33.1/yq_darwin_arm64": "424c99045a0a4a172704326f37b613b7cec2dcd779fe2959e84cc1f6c783d79f",
+  "https://github.com/mikefarah/yq/releases/download/v4.33.3/yq_darwin_arm64": "d5e1b9de95c6cdf18b47e161580d8f5379a9c555030340215ac2232fd49b2d1e",
+  "https://github.com/mikefarah/yq/releases/download/v4.40.3/yq_darwin_arm64": "f8740da8c09a255de98fb122779755f3f41b85afd8c953dc7ee1bde40a87e28c",
+  "https://github.com/mikefarah/yq/releases/download/v4.40.4/yq_darwin_arm64": "5631b4cbeae0a29c1be69288551f59f32a7295975902f567ff9465bbbbb46534",
+  "https://github.com/mikefarah/yq/releases/download/v4.9.8/yq_darwin_arm64": "366c5fe1f110dfefd22f5ad2b1bf7c7cc8c302dc9cdde6ff3488d5874c301799",
+  "https://github.com/mikefarah/yq/releases/download/v4.11.0/yq_darwin_arm64": "89f0046f07dd0b242957cd4a784879638918a7f7bb6dd3eb3f2ac66a0033c283",
+  "https://github.com/mikefarah/yq/releases/download/v4.20.1/yq_darwin_arm64": "74d0fae8037beca8cdb000042e7bcb474d061b7b0f79832a7cf08d64eaad142f",
+  "https://github.com/mikefarah/yq/releases/download/v4.25.1/yq_darwin_arm64": "2e3dc822cf184c997573f95b4b9b05e1936695d151d673f95e25b4fdcf34868b",
+  "https://github.com/mikefarah/yq/releases/download/v4.27.3/yq_darwin_arm64": "c5b70c0669614a39b4747aae27863a9b81c38426815ec0a1636fa9d3521cf9a1",
+  "https://github.com/mikefarah/yq/releases/download/v4.28.2/yq_darwin_arm64": "a21ccb54cb05508f9f28f7887256d115bba7d0147505067bd2ec0b639445a150",
+  "https://github.com/mikefarah/yq/releases/download/v4.30.1/yq_darwin_arm64": "1c9ae6d7d4b2dd15f0903617121f1c232f4f6a26d5a7ca90101dd6fc3ae18c6c",
+  "https://github.com/mikefarah/yq/releases/download/v4.30.8/yq_darwin_arm64": "8495389a5c31dfd78314e680169cd2c277f2f47442d3fc08e5101ee2c07c6b13",
+  "https://github.com/mikefarah/yq/releases/download/v4.35.1/yq_darwin_arm64": "e9fc15db977875de982e0174ba5dc2cf5ae4a644e18432a4262c96d4439b1686",
+  "https://github.com/mikefarah/yq/releases/download/v4.41.1/yq_darwin_arm64": "26e0e834b07486208b81844e51346b63c9a2a2ecc20d5c5e7fab755b7b1396ff",
+  "https://github.com/mikefarah/yq/releases/download/v4.42.1/yq_darwin_arm64": "64b8c0ec337843fec2d3d18d5d2b77696b7b3814a4e712649fcbc9ad62c707f4",
+  "https://github.com/mikefarah/yq/releases/download/v4.11.1/yq_darwin_arm64": "f91f8fe98eb7fa47da9ef68d04c142683871068086e3119ad608c72c0f2f35c6",
+  "https://github.com/mikefarah/yq/releases/download/v4.11.2/yq_darwin_arm64": "bffe088b294209223bb33c0c72c28410777e1dbc65f51d5733457616bbc217a7",
+  "https://github.com/mikefarah/yq/releases/download/v4.12.0/yq_darwin_arm64": "665ae1af7c73866cba74dd878c12ac49c091b66e46c9ed57d168b43955f5dd69",
+  "https://github.com/mikefarah/yq/releases/download/v4.12.1/yq_darwin_arm64": "1bce57b221a84a89e68099eaa91f6c116212354ee6a21148a56c30eeced10819",
+  "https://github.com/mikefarah/yq/releases/download/v4.12.2/yq_darwin_arm64": "686dd55fc2af0940869244350b7f057027a740c7f9038011f6407ef0a2dd4f93",
+  "https://github.com/mikefarah/yq/releases/download/v4.19.1/yq_darwin_arm64": "76dd8067e9b777542d1eb1515b8cd1873340231295a280a07496cbe67c92bc64",
+  "https://github.com/mikefarah/yq/releases/download/v4.24.4/yq_darwin_arm64": "e44893b6b4733035a94b9e6d20ba809f78d65e27bc1f7ff83c36d552d023cc26",
+  "https://github.com/mikefarah/yq/releases/download/v4.30.4/yq_darwin_arm64": "f1cc055cd7882f184b8ae8e1fcb4dc1e86103c87444468b2b6b59479ceb30223",
+  "https://github.com/mikefarah/yq/releases/download/v4.30.6/yq_darwin_arm64": "878f5e31f4fe42e676b66e76037475761efd20fe4ab33663c72a61269db83a63",
+  "https://github.com/mikefarah/yq/releases/download/v4.31.2/yq_darwin_arm64": "180e260dacb3d8654a532c9af2f0d3fdd064a601ca061bd893582480aa7b3585",
+  "https://github.com/mikefarah/yq/releases/download/v4.35.2/yq_darwin_arm64": "e82ebb6260fc6eca53c7014a1b9962fa2b536ba302e2409d5d4fa08ae0ac6a97",
+  "https://github.com/mikefarah/yq/releases/download/v4.16.1/yq_darwin_arm64": "1eee837dd326b867fa5510a17a591370e96a1b387eaf010c76b46262278f1f0f",
+  "https://github.com/mikefarah/yq/releases/download/v4.18.1/yq_darwin_arm64": "258a78b2518945543dc1b8c3180a4935d5acd0fc9f6008361eab3a2751fda94c",
+  "https://github.com/mikefarah/yq/releases/download/v4.28.1/yq_darwin_arm64": "cf349d11cc0bd355e016bf077ce3d214e1066c650eecf7c7d5e8bc79bf82222e",
+  "https://github.com/mikefarah/yq/releases/download/v4.31.1/yq_darwin_arm64": "2b1350defe5ce0246286895e789c2736d9f36d6ac1da44bebd2ac90a598c34ac",
+  "https://github.com/mikefarah/yq/releases/download/v4.32.1/yq_darwin_arm64": "15344d39afd1585ceb64b4d46c0c9880154e5d3e9e82b5a1708e40e9c8666143",
+  "https://github.com/mikefarah/yq/releases/download/v4.34.2/yq_darwin_arm64": "929e0a774d4fbe1fd05fa4284524f2455e4ec1b8b01360099b36c4b3f2a18c57",
+  "https://github.com/mikefarah/yq/releases/download/v4.40.2/yq_darwin_arm64": "76feb14ad81d4bbcc29a87131fd15618aead997a0be00b4329be6245b7541a0e",
 }
