@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.15.0" "0.16.0" "0.17.0" {
+version "0.15.0" "0.16.0" "0.17.0" "0.18.0" {
   auto-version {
     version-pattern = "^v(.*)"
     ignore-invalid-versions = true
@@ -32,4 +32,7 @@ sha256sums = {
   "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.17.0/downloads/bin/release-cli-darwin-arm64": "c7968c9b871d7473f6dd243a52ff8033e0a1af288e9d99e7df68905cda7ec18c",
   "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.17.0/downloads/bin/release-cli-linux-amd64": "e45a69aacc927429560678c1be8f00c5fe5dd5eca8e7e3349d4fed0689eb49c7",
   "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.17.0/downloads/bin/release-cli-darwin-amd64": "7820757fe1c476bbe3aee94d6604fee9efb36ffc0434fc7401eaa114e3b30071",
+  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.18.0/downloads/bin/release-cli-darwin-arm64": "03adeb4ece1fa0b9516f227c677e5c2699bd55c83a35621e8b3c8f2f8ee2a497",
+  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.18.0/downloads/bin/release-cli-linux-amd64": "a6c688e1f246d392c18ef9c979b6be7145a64bfd1f5ba0a575c4a2fad0a9df3f",
+  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.18.0/downloads/bin/release-cli-darwin-amd64": "a016511a9eb9f36bb92b09691b6c5edac69bd5dce1d7186cd11304dac76db638",
 }
