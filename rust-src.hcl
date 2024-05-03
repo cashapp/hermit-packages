@@ -17,7 +17,7 @@ version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" "1.58.0"
         "1.58.1" "1.59.0" "1.60.0" "1.61.0" "1.62.0" "1.62.1" "1.63.0" "1.64.0" "1.65.0"
         "1.66.0" "1.66.1" "1.67.0" "1.67.1" "1.68.0" "1.68.2" "1.69.0" "1.70.0" "1.71.0"
         "1.72.0" "1.71.1" "1.72.1" "1.73.0" "1.74.0" "1.74.1" "1.75.0" "1.76.0" "1.77.0"
-        "1.77.1" "1.77.2" {
+        "1.77.1" "1.77.2" "1.78.0" {
   auto-version {
     github-release = "rust-lang/rust"
   }
@@ -66,4 +66,5 @@ sha256sums = {
   "https://static.rust-lang.org/dist/rustc-1.77.0-src.tar.gz": "0d6ccd1fa845fe3456b9ed4d483fc06acf9bbae9417e396b5144488c1a522d87",
   "https://static.rust-lang.org/dist/rustc-1.77.1-src.tar.gz": "ee106e4c569f52dba3b5b282b105820f86bd8f6b3d09c06b8dce82fb1bb3a4a1",
   "https://static.rust-lang.org/dist/rustc-1.77.2-src.tar.gz": "c61457ef8f596638fddbc7716778b2f6b99ff12513a3b0f13994c3bc521638c3",
+  "https://static.rust-lang.org/dist/rustc-1.78.0-src.tar.gz": "ff544823a5cb27f2738128577f1e7e00ee8f4c83f2a348781ae4fc355e91d5a9",
 }
