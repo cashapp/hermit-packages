@@ -10,7 +10,7 @@ version "2.29.2" "2.30.0" "2.30.1" "2.30.2" "2.30.3" "2.31.0" "2.31.1" "2.32.1"
         "2.36.2" "2.37.0" "2.38.0" "2.37.1" "2.39.0" "2.39.1" "2.40.0" "2.40.1" "2.40.2"
         "2.40.3" "2.40.4" "2.40.5" "2.40.7" "2.41.0" "2.42.0" "2.43.0" "2.43.1" "2.44.0"
         "2.45.0" "2.46.0" "2.47.0" "2.47.1" "2.47.2" "2.48.0" "2.48.1" "2.49.1" "2.50.0"
-        "2.50.1" "2.51.0" "2.51.1" "2.51.2" {
+        "2.50.1" "2.51.0" "2.51.1" "2.51.2" "2.52.0" {
   auto-version {
     github-release = "prometheus/prometheus"
   }
@@ -161,4 +161,7 @@ sha256sums = {
   "https://github.com/prometheus/prometheus/releases/download/v2.51.2/prometheus-2.51.2.darwin-amd64.tar.gz": "cdfced359c41718c0656b35038e03ebf416ea76c80325976bb3948ae5a0aaf45",
   "https://github.com/prometheus/prometheus/releases/download/v2.51.2/prometheus-2.51.2.darwin-arm64.tar.gz": "7bdf4d09562ad21e54b1beab43f3df309ca2b3bf82476ef377830ae81e1f966e",
   "https://github.com/prometheus/prometheus/releases/download/v2.51.2/prometheus-2.51.2.linux-amd64.tar.gz": "9bec7432fb92d80fdc193a0154f6c53653c37f8302528b06d63cf4a10a8b897f",
+  "https://github.com/prometheus/prometheus/releases/download/v2.52.0/prometheus-2.52.0.darwin-amd64.tar.gz": "6c5c05dd67074ade127004ddece0dac331309b16964e315211caf1a25c1f1826",
+  "https://github.com/prometheus/prometheus/releases/download/v2.52.0/prometheus-2.52.0.darwin-arm64.tar.gz": "a4bbadbede57f9568404d43afec160243a977999007a1acb9a579e418ce048b9",
+  "https://github.com/prometheus/prometheus/releases/download/v2.52.0/prometheus-2.52.0.linux-amd64.tar.gz": "7f31c5d6474bbff3e514e627e0b7a7fbbd4e5cea3f315fd0b76cad50be4c1ba3",
 }

@@ -11,7 +11,7 @@ platform "darwin" {
   source = "https://github.com/sharkdp/fd/releases/download/v${version}/fd-v${version}-x86_64-apple-darwin.tar.gz"
 }
 
-version "8.3.2" "8.6.0" "8.7.0" "8.7.1" "9.0.0" "10.0.0" {
+version "8.3.2" "8.6.0" "8.7.0" "8.7.1" "9.0.0" "10.0.0" "10.1.0" {
   auto-version {
     github-release = "sharkdp/fd"
   }
@@ -30,4 +30,6 @@ sha256sums = {
   "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-musl.tar.gz": "069e2d58127ddd944c03a2684ad79f72e3f9bd3e0d2642c36adc5b367c134592",
   "https://github.com/sharkdp/fd/releases/download/v10.0.0/fd-v10.0.0-x86_64-unknown-linux-musl.tar.gz": "3177ba9c730d261d13929d77e173bccdfb6a741862445f0e67e7d9e93cc97bc3",
   "https://github.com/sharkdp/fd/releases/download/v10.0.0/fd-v10.0.0-x86_64-apple-darwin.tar.gz": "b032ad8118c55c54b56c05b0ff62fdb85cb95c86dff5d5b79123ff7a9381c688",
+  "https://github.com/sharkdp/fd/releases/download/v10.1.0/fd-v10.1.0-x86_64-unknown-linux-musl.tar.gz": "f8fa73aa005e71598c1cdbb03ae6979fd016d5a8aaf92ee84ed6f8f186c58ead",
+  "https://github.com/sharkdp/fd/releases/download/v10.1.0/fd-v10.1.0-x86_64-apple-darwin.tar.gz": "316cdaf5c6ec7e8b0664914df1da21c511aef2a023e13f8628354e60e0346dac",
 }
