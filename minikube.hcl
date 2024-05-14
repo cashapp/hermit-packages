@@ -12,7 +12,7 @@ on "unpack" {
 }
 
 version "1.26.0" "1.26.1" "1.27.0" "1.27.1" "1.28.0" "1.29.0" "1.30.0" "1.30.1"
-        "1.31.0" "1.31.1" "1.31.2" "1.32.0" "1.33.0" {
+        "1.31.0" "1.31.1" "1.31.2" "1.32.0" "1.33.0" "1.33.1" {
   auto-version {
     github-release = "kubernetes/minikube"
   }
@@ -58,4 +58,7 @@ sha256sums = {
   "https://github.com/kubernetes/minikube/releases/download/v1.33.0/minikube-linux-amd64.tar.gz": "52770bced25d483359e88ca9811b415a1637bc6aa2e7be8f290293b7af70c5ba",
   "https://github.com/kubernetes/minikube/releases/download/v1.33.0/minikube-darwin-amd64.tar.gz": "3fa1cd91e0658ce8b8bc9bd540dbd8aa4ab3c7f08235d7bdede6283d36f0dbe2",
   "https://github.com/kubernetes/minikube/releases/download/v1.33.0/minikube-darwin-arm64.tar.gz": "d7a13813491298a5978923360801cf24e98dc13dd58540211d06d06aca97a0d3",
+  "https://github.com/kubernetes/minikube/releases/download/v1.33.1/minikube-darwin-amd64.tar.gz": "cbfb81bf1bdd927157f7853d8dcfe1ece937a19262ec95fb5f51addd9205ef94",
+  "https://github.com/kubernetes/minikube/releases/download/v1.33.1/minikube-linux-amd64.tar.gz": "ede5ae6367d7849c60af68488a7cc6ce477d7837dace64003a6897a26589a93b",
+  "https://github.com/kubernetes/minikube/releases/download/v1.33.1/minikube-darwin-arm64.tar.gz": "7e25c1cc83d6ebd95ec53c9e1938449e46f55dcdd59cea8ea79a2b719d431409",
 }

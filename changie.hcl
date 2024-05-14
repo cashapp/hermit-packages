@@ -2,7 +2,7 @@ description = "changie is a tool for maintaining and preparing hand-written chan
 binaries = ["changie"]
 test = "changie --version"
 
-version "1.16.1" "1.17.0" "1.18.0" {
+version "1.16.1" "1.17.0" "1.18.0" "1.19.0" {
   auto-version {
     github-release = "miniscruff/changie"
   }
@@ -28,4 +28,7 @@ sha256sums = {
   "https://github.com/miniscruff/changie/releases/download/v1.18.0/changie_1.18.0_darwin_arm64.tar.gz": "1036665dff3dba08f82332d3cf43f42af43bdfcc4d7dad9b8500b80374a07a6b",
   "https://github.com/miniscruff/changie/releases/download/v1.18.0/changie_1.18.0_linux_amd64.tar.gz": "ea104b9ac31de58265bf8c688b763ea6cce78c51635668086b85654378afa690",
   "https://github.com/miniscruff/changie/releases/download/v1.18.0/changie_1.18.0_darwin_amd64.tar.gz": "9d1884343e20b311e6cf8e36868b8026b725b5799bee0d250fe4acf29dd1fa79",
+  "https://github.com/miniscruff/changie/releases/download/v1.19.0/changie_1.19.0_darwin_amd64.tar.gz": "885971615c1996586688150f0223e3106432f5c1f9714884bfb60ece9da86722",
+  "https://github.com/miniscruff/changie/releases/download/v1.19.0/changie_1.19.0_linux_amd64.tar.gz": "ab6c43b904d03f7f3f7abc5faffe203cd54d6ec165ea7a6bf4739dccc155d52c",
+  "https://github.com/miniscruff/changie/releases/download/v1.19.0/changie_1.19.0_darwin_arm64.tar.gz": "90fb7f14e3f76661714477b848e1d33bb3fe74bf515e4aac215084cb87e5084a",
 }
