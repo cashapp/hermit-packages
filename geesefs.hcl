@@ -23,7 +23,8 @@ platform "darwin" {
   }
 }
 
-version "0.40.1" "0.40.2" "0.40.3" "0.40.5" "0.40.6" "0.40.7" "0.40.8" "0.40.9" {
+version "0.40.1" "0.40.2" "0.40.3" "0.40.5" "0.40.6" "0.40.7" "0.40.8" "0.40.9"
+        "0.41.0" {
   auto-version {
     github-release = "yandex-cloud/geesefs"
   }
@@ -54,4 +55,7 @@ sha256sums = {
   "https://github.com/yandex-cloud/geesefs/releases/download/v0.40.9/geesefs-mac-arm64": "df9aee424668b9b32d0409419a6c5df9237771e9dcf6cdb5ff49e6609302d043",
   "https://github.com/yandex-cloud/geesefs/releases/download/v0.40.9/geesefs-linux-amd64": "aeb9f0753fafbcdff5ef2b611c16b56795ada8a48bce15459fcc666caf0137bc",
   "https://github.com/yandex-cloud/geesefs/releases/download/v0.40.9/geesefs-mac-amd64": "8163a938638bc1ef7be6a1768407d5ae2a9efc45a2fc1aff017604375d723a5d",
+  "https://github.com/yandex-cloud/geesefs/releases/download/v0.41.0/geesefs-mac-arm64": "17096bc6611bfca107fd24a26320cfa0f7f741a559aec7aca57e29bea359c0ce",
+  "https://github.com/yandex-cloud/geesefs/releases/download/v0.41.0/geesefs-linux-amd64": "25d379a3e12fcd871c7830c1f21d9dce1647c8a77110831fb2303f645b3d13cf",
+  "https://github.com/yandex-cloud/geesefs/releases/download/v0.41.0/geesefs-mac-amd64": "0ea33222b04abfcfbdc8dc9f926c1bc853df9e5799347a7d82bef19f260edb9c",
 }
