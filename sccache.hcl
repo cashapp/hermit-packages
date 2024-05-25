@@ -15,7 +15,8 @@ platform "linux" {
 }
 
 version "0.3.3" "0.4.0-pre.7" "0.4.0" "0.4.1" "0.4.2" "0.5.0" "0.5.1" "0.5.2" "0.5.3"
-        "0.5.4" "0.6.0" "0.7.0" "0.7.1" "0.7.2" "0.7.3" "0.7.4" "0.7.5" "0.7.6" "0.7.7" "0.8.0" {
+        "0.5.4" "0.6.0" "0.7.0" "0.7.1" "0.7.2" "0.7.3" "0.7.4" "0.7.5" "0.7.6" "0.7.7" "0.8.0"
+        "0.8.1" {
   auto-version {
     github-release = "mozilla/sccache"
   }
@@ -82,4 +83,7 @@ sha256sums = {
   "https://github.com/mozilla/sccache/releases/download/v0.8.0/sccache-v0.8.0-x86_64-unknown-linux-musl.tar.gz": "2e0e7df61bc7dcf61fd65c1b345d05cd1f832598a15c6f42e7e21f86b8d39b1f",
   "https://github.com/mozilla/sccache/releases/download/v0.8.0/sccache-v0.8.0-aarch64-apple-darwin.tar.gz": "9439be7bd81ee86af6e8d866fd129150aefe24c78d857de9c99d57845187fc7e",
   "https://github.com/mozilla/sccache/releases/download/v0.8.0/sccache-v0.8.0-x86_64-apple-darwin.tar.gz": "d1b871daf7f96f8d01c50746e588d50e2c54559c0de508257db3cb55b7fb8ec0",
+  "https://github.com/mozilla/sccache/releases/download/v0.8.1/sccache-v0.8.1-x86_64-unknown-linux-musl.tar.gz": "e0ee621fb16b6940666cd770b091c62cadafd3e062dd12e3a49d9caaff3b795f",
+  "https://github.com/mozilla/sccache/releases/download/v0.8.1/sccache-v0.8.1-aarch64-apple-darwin.tar.gz": "b4029ae790e29333ebcf52faa5bc0559945011d5fdbc7cc15812bc45fc6ea5d4",
+  "https://github.com/mozilla/sccache/releases/download/v0.8.1/sccache-v0.8.1-x86_64-apple-darwin.tar.gz": "4306fb21606b14e2ce1266b25c40e55c090ea68c2cb54e1c39bfb9b81ea3e342",
 }
