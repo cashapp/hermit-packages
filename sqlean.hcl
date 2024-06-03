@@ -31,7 +31,8 @@ on "unpack" {
 }
 
 version "0.17.1" "0.17.2" "0.19.1" "0.19.2" "0.19.3" "0.19.4" "0.19.5" "0.20.0"
-        "0.21.0" "0.21.2" "0.21.5" "0.21.6" "0.21.7" "0.21.8" "0.21.9" "0.21.10" "0.22.0" {
+        "0.21.0" "0.21.2" "0.21.5" "0.21.6" "0.21.7" "0.21.8" "0.21.9" "0.21.10" "0.22.0"
+        "0.23.0" {
   auto-version {
     github-release = "nalgeon/sqlean"
   }
@@ -89,4 +90,7 @@ sha256sums = {
   "https://github.com/nalgeon/sqlean/releases/download/0.22.0/sqlean-macos-arm64.zip": "3e4065cb3d1cc9cbcdfe9a9cdcfd9d8f60f9f232b6bdbcd3ac913a0dc65351e1",
   "https://github.com/nalgeon/sqlean/releases/download/0.22.0/sqlean-linux-x86.zip": "62c776a64f442e513a865adcf8b430254cdd80f6eca14d4df7d11c770f94eefd",
   "https://github.com/nalgeon/sqlean/releases/download/0.22.0/sqlean-macos-x86.zip": "3c5cb3e84fe34561fb2aff8c6bdfbd735cab9bd7353e6ef234d25e2d0ad95cb4",
+  "https://github.com/nalgeon/sqlean/releases/download/0.23.0/sqlean-macos-arm64.zip": "3ef79e14aa8dae2eac25f8a65c483c99bc4e8d3109a1c0a4ab7c7d8b347c0c91",
+  "https://github.com/nalgeon/sqlean/releases/download/0.23.0/sqlean-linux-x86.zip": "0123dc2ea60ac16dd07e0ffd52431b25667de4d618e2b1694d59971272939cf7",
+  "https://github.com/nalgeon/sqlean/releases/download/0.23.0/sqlean-macos-x86.zip": "2c2c40ddc17807f81dc1b1a75678d864d0af87712543d9b062d65292ab8f90dc",
 }
