@@ -13,7 +13,7 @@ platform "darwin" {
 
 version "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.9.0" "1.11.0"
         "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0" "1.17.0" "1.18.1" "1.20.0" "1.21.0"
-        "1.22.0" "1.22.1" "1.23.0" "1.24.0" "1.25.0" "1.25.2" "1.26.0" "1.27.0" {
+        "1.22.0" "1.22.1" "1.23.0" "1.24.0" "1.25.0" "1.25.2" "1.26.0" "1.27.0" "1.28.0" {
   auto-version {
     github-release = "casey/just"
   }
@@ -98,4 +98,7 @@ sha256sums = {
   "https://github.com/casey/just/releases/download/1.27.0/just-1.27.0-x86_64-unknown-linux-musl.tar.gz": "6cc91651c4dd5e287df8ea7b3087c44120ba95a32ee50497bb071695846ab086",
   "https://github.com/casey/just/releases/download/1.27.0/just-1.27.0-aarch64-apple-darwin.tar.gz": "5d6b05ab581dca9346114df7c9f7285f54d4b80d8082e2c8fce51a42b3dbdb9c",
   "https://github.com/casey/just/releases/download/1.27.0/just-1.27.0-x86_64-apple-darwin.tar.gz": "ae5dae799d3dafeaf4d53e221e1efdeec88980a38375b0d6dbc9c9bb16eec273",
+  "https://github.com/casey/just/releases/download/1.28.0/just-1.28.0-x86_64-apple-darwin.tar.gz": "7c8c59950541dfbd0a08456d90785c660556898df1e2ac46ab09335ca763f6f9",
+  "https://github.com/casey/just/releases/download/1.28.0/just-1.28.0-x86_64-unknown-linux-musl.tar.gz": "a99cc9115c274af56355f87b979c0ac109eb250b0c8cf24375231c4e679f735f",
+  "https://github.com/casey/just/releases/download/1.28.0/just-1.28.0-aarch64-apple-darwin.tar.gz": "d11f9a23fe8263139acbca65cf6d023d8a8f7e76cb52ed7523c8f683b61f647f",
 }
