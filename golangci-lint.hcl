@@ -16,7 +16,7 @@ version "1.37.0" "1.40.1" "1.41.1" "1.42.0" "1.42.1" "1.43.0" "1.44.0" "1.44.2"
         "1.48.0" "1.49.0" "1.50.0" "1.50.1" "1.51.1" "1.51.2" "1.52.0" "1.52.1" "1.52.2"
         "1.53.0" "1.53.1" "1.53.2" "1.53.3" "1.54.0" "1.54.1" "1.54.2" "1.55.0" "1.55.1"
         "1.55.2" "1.56.0" "1.56.1" "1.56.2" "1.57.0" "1.57.1" "1.57.2" "1.58.0" "1.58.1"
-        "1.58.2" "1.59.0" {
+        "1.58.2" "1.59.0" "1.59.1" {
   auto-version {
     github-release = "golangci/golangci-lint"
   }
@@ -175,4 +175,7 @@ sha256sums = {
   "https://github.com/golangci/golangci-lint/releases/download/v1.59.0/golangci-lint-1.59.0-darwin-arm64.tar.gz": "5f6a1d95a6dd69f6e328eb56dd311a38e04cfab79a1305fbf4957f4e203f47b6",
   "https://github.com/golangci/golangci-lint/releases/download/v1.59.0/golangci-lint-1.59.0-linux-amd64.tar.gz": "3b14a439f33c4fff83dbe0349950d984042b9a1feb6c62f82787b598fc3ab5f4",
   "https://github.com/golangci/golangci-lint/releases/download/v1.59.0/golangci-lint-1.59.0-darwin-amd64.tar.gz": "418acf7e255ddc0783e97129c9b03d9311b77826a5311d425a01c708a86417e7",
+  "https://github.com/golangci/golangci-lint/releases/download/v1.59.1/golangci-lint-1.59.1-linux-amd64.tar.gz": "c30696f1292cff8778a495400745f0f9c0406a3f38d8bb12cef48d599f6c7791",
+  "https://github.com/golangci/golangci-lint/releases/download/v1.59.1/golangci-lint-1.59.1-darwin-arm64.tar.gz": "16ec8a86974ddebd466a5cc071bb9f44d06d2a1f4bf93d13fbcb59e1704edb39",
+  "https://github.com/golangci/golangci-lint/releases/download/v1.59.1/golangci-lint-1.59.1-darwin-amd64.tar.gz": "2f945063394a489c0037f0369c0ce21bc007565c08f90b924a35f4c04721cbc0",
 }
