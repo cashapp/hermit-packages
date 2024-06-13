@@ -16,7 +16,7 @@ version "1.19.0" "1.20.0" {
 version "1.21.0" "1.22.0" "1.23.0" "1.24.0" "1.25.13" "1.26.8" {
 }
 
-version "1.27.4" "1.27.11" "1.27.12" "1.27.13" "1.27.14" {
+version "1.27.4" "1.27.11" "1.27.12" "1.27.13" "1.27.14" "1.27.15" {
   auto-version {
     html {
       url = "https://kubernetes.io/releases/"
@@ -25,7 +25,7 @@ version "1.27.4" "1.27.11" "1.27.12" "1.27.13" "1.27.14" {
   }
 }
 
-version "1.28.1" "1.28.6" "1.28.7" "1.28.8" "1.28.9" "1.28.10" {
+version "1.28.1" "1.28.6" "1.28.7" "1.28.8" "1.28.9" "1.28.10" "1.28.11" {
   auto-version {
     html {
       url = "https://kubernetes.io/releases/"
@@ -34,7 +34,7 @@ version "1.28.1" "1.28.6" "1.28.7" "1.28.8" "1.28.9" "1.28.10" {
   }
 }
 
-version "1.29.1" "1.29.2" "1.29.3" "1.29.4" "1.29.5" {
+version "1.29.1" "1.29.2" "1.29.3" "1.29.4" "1.29.5" "1.29.6" {
   auto-version {
     html {
       url = "https://kubernetes.io/releases/"
@@ -119,4 +119,13 @@ sha256sums = {
   "https://dl.k8s.io/release/v1.29.5/bin/darwin/arm64/kubectl": "23b09c126c0a0b71b58cc725a32cf84f1753242b3892dfd762511f2da6cce165",
   "https://dl.k8s.io/release/v1.29.5/bin/darwin/amd64/kubectl": "395082ef84594ea4cb170d599056406ed2cf39555b53e92e0caee013c1ed5cdf",
   "https://dl.k8s.io/release/v1.29.5/bin/linux/amd64/kubectl": "603c8681fc0d8609c851f9cc58bcf55eeb97e2934896e858d0232aa8d1138366",
+  "https://dl.k8s.io/release/v1.27.15/bin/darwin/arm64/kubectl": "7210b5538b87ffb6f38cb148c79c0a7824d5540553e598ac362be8c8bceed681",
+  "https://dl.k8s.io/release/v1.27.15/bin/darwin/amd64/kubectl": "8ceb9c7e9c78bb367699ac3af08da2fd452c74273c29bc03fbb1b063ca39bbf7",
+  "https://dl.k8s.io/release/v1.27.15/bin/linux/amd64/kubectl": "c12cf17ec30fb162f8f5fb168e67d4e5b7d6826e08c7648a5f1c6b4e9ba23f39",
+  "https://dl.k8s.io/release/v1.28.11/bin/darwin/amd64/kubectl": "0eb7314ee18185d9e4782f70e79b1554e5d787d8e4a590532ab90b64b94384ac",
+  "https://dl.k8s.io/release/v1.28.11/bin/linux/amd64/kubectl": "1dba63e1a5c9520fc516c6e817924d927b9b83b8e08254c8fe2a2edb65da7a9c",
+  "https://dl.k8s.io/release/v1.28.11/bin/darwin/arm64/kubectl": "85f752c0ac9e7a560da57e904ef0dee310fe53fc6ad39c2e301b1dda4a21cf96",
+  "https://dl.k8s.io/release/v1.29.6/bin/darwin/amd64/kubectl": "d6a844991d3853d9928a7593f583157403ea322ff712d7659b16e621fca00d79",
+  "https://dl.k8s.io/release/v1.29.6/bin/linux/amd64/kubectl": "339553c919874ebe3b719e9e1fcd68b55bc8875f9b5a005cf4c028738d54d309",
+  "https://dl.k8s.io/release/v1.29.6/bin/darwin/arm64/kubectl": "0b7a3cd78503faf45c6506d594b586f58b9904ad48452466834397641d58d6f5",
 }
