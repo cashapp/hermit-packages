@@ -9,7 +9,7 @@ version "2.42.0" "2.43.0" "2.45.0" "2.46.0" "2.47.0" "2.48.0" "2.49.0" "2.50.0"
         "2.73.0" "2.74.0" "2.75.0" "2.76.0" "2.77.0" "2.78.0" "2.79.0" "2.80.0" "2.81.0"
         "2.82.0" "2.83.0" "2.84.0" "2.85.0" "2.86.0" "2.87.0" "2.88.0" "2.89.0" "2.92.0"
         "2.93.0" "2.94.0" "2.95.0" "2.96.0" "2.97.0" "2.98.0" "2.99.0" "2.100.0" "2.101.0"
-        "2.103.0" "2.104.0" "2.105.0" "2.106.0" "2.107.0" "2.108.0" "2.109.0" {
+        "2.103.0" "2.104.0" "2.105.0" "2.106.0" "2.107.0" "2.108.0" "2.109.0" "2.110.0" {
   auto-version {
     github-release = "palantir/godel"
   }
@@ -76,4 +76,5 @@ sha256sums = {
   "https://github.com/palantir/godel/releases/download/v2.107.0/godel-2.107.0.tgz": "fc0ffa3931d55928d47509a93664442f4a6e5b5742506bbbc87ed7f0f70e392c",
   "https://github.com/palantir/godel/releases/download/v2.108.0/godel-2.108.0.tgz": "15089219267f4bfea5abfb7af08edfd89d925df1a44ca0e986cfdd501c5d2af8",
   "https://github.com/palantir/godel/releases/download/v2.109.0/godel-2.109.0.tgz": "2f584d2e6232aca0409ba9dba32d0e5f810be5770f38a0c64f073d15c5f0926b",
+  "https://github.com/palantir/godel/releases/download/v2.110.0/godel-2.110.0.tgz": "23395d95c2121cb53636429ea3e5e6660bc55c1addb107cd93e388a956858068",
 }
