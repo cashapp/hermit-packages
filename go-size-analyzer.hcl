@@ -3,7 +3,7 @@ binaries = ["gsa"]
 source = "https://github.com/Zxilly/go-size-analyzer/releases/download/v${version}/go-size-analyzer_${os}_${arch}.tar.gz"
 
 version "1.0.4" "1.0.6" "1.0.8" "1.0.9" "1.0.10" "1.0.11" "1.0.13" "1.1.0" "1.2.0"
-        "1.2.2" "1.2.3" "1.3.1" {
+        "1.2.2" "1.2.3" "1.3.1" "1.3.2" {
   auto-version {
     github-release = "Zxilly/go-size-analyzer"
   }
@@ -46,4 +46,7 @@ sha256sums = {
   "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.3.1/go-size-analyzer_darwin_arm64.tar.gz": "73fd18783d73496b38c453825329a36723f53a426b2c07ee2c4227172187555c",
   "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.3.1/go-size-analyzer_darwin_amd64.tar.gz": "289fe98c4ef36df48aa2e4b8fe11dae3d7535d57f270d7397a9a65109ce4b7ab",
   "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.3.1/go-size-analyzer_linux_amd64.tar.gz": "09f52591d59866f4205f2bc827735bbbaa9f2519cf5a26a32b695d0b83de200f",
+  "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.3.2/go-size-analyzer_linux_amd64.tar.gz": "a00fbc87a2dc831f3f3103a5a197c995b04dfa91422aafd71f13c29bb011d5c0",
+  "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.3.2/go-size-analyzer_darwin_amd64.tar.gz": "4633cfcd055cc6542b8ba75d8eb1d73585b73575898c045e92913e13dacf135b",
+  "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.3.2/go-size-analyzer_darwin_arm64.tar.gz": "c43544019db4eb9e63b596243b78ee180bf8f4d626ac938567788e305c1bdea1",
 }
