@@ -17,7 +17,7 @@ homepage = "https://pkg.go.dev/github.com/goproxy/goproxy"
 
 version "0.10.2" "0.11.0" "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.15.1" "0.16.0"
         "0.16.1" "0.16.2" "0.16.3" "0.16.4" "0.16.5" "0.16.6" "0.16.7" "0.16.8" "0.16.9"
-        "0.16.10" {
+        "0.16.10" "0.17.0" {
   auto-version {
     github-release = "goproxy/goproxy"
   }
@@ -78,4 +78,7 @@ sha256sums = {
   "https://github.com/goproxy/goproxy/releases/download/v0.16.10/goproxy_0.16.10_darwin_amd64.tar.gz": "aebfed84eab0656cf5b0505c30d61d08148ebe9eca107c00fd5825cdc4cd5525",
   "https://github.com/goproxy/goproxy/releases/download/v0.16.10/goproxy_0.16.10_linux_amd64.tar.gz": "863cb4149728c822c9da895522cede100f80d8f730f7dc87609e05f9f4ea617e",
   "https://github.com/goproxy/goproxy/releases/download/v0.16.10/goproxy_0.16.10_darwin_arm64.tar.gz": "f5c614745ad39199bda0ddc1da4fbc11bf5bc7dc85d6cebbe38b045cfd700900",
+  "https://github.com/goproxy/goproxy/releases/download/v0.17.0/goproxy_0.17.0_linux_amd64.tar.gz": "c730d3314e3d3fde2905ca57bb4fb9d29713d84b8a27b7e94b95695f429a475b",
+  "https://github.com/goproxy/goproxy/releases/download/v0.17.0/goproxy_0.17.0_darwin_arm64.tar.gz": "fc322ac154b30c0a77d825f8a2bae9a547a1ddf56e4dee161267ff982d0c21f5",
+  "https://github.com/goproxy/goproxy/releases/download/v0.17.0/goproxy_0.17.0_darwin_amd64.tar.gz": "cbfaf886520f8da075b650d6a0bf3087c9418cf13cdee18b309e9e9ad5e96368",
 }
