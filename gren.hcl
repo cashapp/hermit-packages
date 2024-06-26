@@ -22,7 +22,7 @@ on "unpack" {
   }
 }
 
-version "0.2.1" "0.3.0" "0.4.0" "0.4.3" {
+version "0.2.1" "0.3.0" "0.4.0" "0.4.3" "0.4.4" {
   auto-version {
     github-release = "gren-lang/compiler"
   }
@@ -37,4 +37,6 @@ sha256sums = {
   "https://github.com/gren-lang/compiler/releases/download/0.4.0/gren_mac": "c52ce64452c9d5c8aff0d3fdcbb51f6138e1875fe8a597b077c1b20c2664ba1b",
   "https://github.com/gren-lang/compiler/releases/download/0.4.3/gren_linux": "114c5fc1f5f0ae68c10ac95c4c9c86fbb2d6c9d6349250bd48c916e9aa8452d6",
   "https://github.com/gren-lang/compiler/releases/download/0.4.3/gren_mac": "362b7e36e46e1593ce7d1fd41cbf6d60ea73c474377706dc0696757d78be0e97",
+  "https://github.com/gren-lang/compiler/releases/download/0.4.4/gren_mac": "739729d6c79ae07b74b2b5e88170c85a62670fe8879937e4e72d05a70025fec4",
+  "https://github.com/gren-lang/compiler/releases/download/0.4.4/gren_linux": "de85f0da5058052a69813bfead63e663a1e6e29fd5d875e60feb256a26851e22",
 }
