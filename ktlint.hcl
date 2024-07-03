@@ -4,7 +4,7 @@ binaries = ["ktlint"]
 runtime-dependencies = ["openjre-17.0.4.1_1"]
 
 version "0.47.1" "0.48.0" "0.48.1" "0.48.2" "0.49.0" "0.49.1" "0.50.0" "1.0.0" "1.0.1"
-        "1.1.0" "1.1.1" "1.2.0" "1.2.1" "1.3.0" {
+        "1.1.0" "1.1.1" "1.2.0" "1.2.1" "1.3.0" "1.3.1" {
   auto-version {
     github-release = "pinterest/ktlint"
   }
@@ -25,4 +25,5 @@ sha256sums = {
   "https://github.com/pinterest/ktlint/releases/download/1.2.0/ktlint": "0ef4fe14a82153c5a67094f44e203a8b96380cb25c838b211c6087c20b3381cd",
   "https://github.com/pinterest/ktlint/releases/download/1.2.1/ktlint": "2e28cf46c27d38076bf63beeba0bdef6a845688d6c5dccd26505ce876094eb92",
   "https://github.com/pinterest/ktlint/releases/download/1.3.0/ktlint": "01b2e0ef893383a50dbeb13970fe7fa3be36ca3e83259e01649945b09d736985",
+  "https://github.com/pinterest/ktlint/releases/download/1.3.1/ktlint": "a9f923be58fbd32670a17f0b729b1df804af882fa57402165741cb26e5440ca1",
 }
