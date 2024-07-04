@@ -19,7 +19,7 @@ version "0.66.1" "0.67.0" "0.68.0" "0.69.0" "0.70.0" "0.70.1" "0.72.0" "0.73.0"
         "0.83.0" "0.83.1" "0.83.2" "0.84.0" "0.85.0" "0.86.0" "0.86.1" "0.87.0" "0.87.1"
         "0.88.0" "0.89.1" "0.89.2" "0.90.0" "0.91.0" "0.91.1" "0.91.2" "0.92.0" "0.93.0"
         "0.94.0" "0.95.0" "0.96.0" "0.96.1" "0.97.0" "0.98.0" "0.98.1" "0.98.2" "0.99.0"
-        "0.100.0" {
+        "0.100.0" "0.101.0" {
   auto-version {
     github-release = "elastic/elastic-package"
   }
@@ -161,4 +161,7 @@ sha256sums = {
   "https://github.com/elastic/elastic-package/releases/download/v0.100.0/elastic-package_0.100.0_darwin_amd64.tar.gz": "cdbe7127ce861ef3e64d120c98fdf895badd10971fbbd8b67345022e3d06c931",
   "https://github.com/elastic/elastic-package/releases/download/v0.100.0/elastic-package_0.100.0_linux_amd64.tar.gz": "9eb087ec0e8e00ea104c6d8bc1a81fe7e0fa9709443b1c70ac38d8bbda775e8d",
   "https://github.com/elastic/elastic-package/releases/download/v0.100.0/elastic-package_0.100.0_darwin_arm64.tar.gz": "0c2a8ef4280664be331949ae2927fe13b6069260b7a610735e957c4340de1d6d",
+  "https://github.com/elastic/elastic-package/releases/download/v0.101.0/elastic-package_0.101.0_darwin_arm64.tar.gz": "a824cbd9edec15b60070aa14da3151636b8532370cd4d63ef944a6e71e87319d",
+  "https://github.com/elastic/elastic-package/releases/download/v0.101.0/elastic-package_0.101.0_linux_amd64.tar.gz": "9d78feb138b77cd8213e0fa3ff04f1e0453475443f623c68a3e0508dc20b52e3",
+  "https://github.com/elastic/elastic-package/releases/download/v0.101.0/elastic-package_0.101.0_darwin_amd64.tar.gz": "d3b7b0f3876b006bba4ba2797aefcdbab599482ee237857187f657af4449d6e6",
 }
