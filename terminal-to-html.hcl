@@ -11,7 +11,7 @@ on "unpack" {
 }
 
 version "3.6.1" "3.7.0" "3.8.0" "3.9.0" "3.9.1" "3.10.0" "3.10.1" "3.11.0" "3.12.1"
-        "3.13.0" {
+        "3.13.0" "3.14.0" {
   auto-version {
     github-release = "buildkite/terminal-to-html"
   }
@@ -48,4 +48,7 @@ sha256sums = {
   "https://github.com/buildkite/terminal-to-html/releases/download/v3.13.0/terminal-to-html-3.13.0-linux-amd64.gz": "cd5b37bb096744c1f995155bf98b825ed5eca50aa862659d65fc65e23c3e7e53",
   "https://github.com/buildkite/terminal-to-html/releases/download/v3.13.0/terminal-to-html-3.13.0-darwin-arm64.gz": "eaa14cf89ff26bff6593b3c391b1d23c8ae4aed0df9ffb2a95113c43ba53dbba",
   "https://github.com/buildkite/terminal-to-html/releases/download/v3.13.0/terminal-to-html-3.13.0-darwin-amd64.gz": "febe183079e123175b6ede8182191ab50c252126bd2acaa7a865bd6579a1a7d1",
+  "https://github.com/buildkite/terminal-to-html/releases/download/v3.14.0/terminal-to-html-3.14.0-linux-amd64.gz": "e4ad30593b99ae334500123efa4b825fab7f4c94ac282d211b892962a499f0e3",
+  "https://github.com/buildkite/terminal-to-html/releases/download/v3.14.0/terminal-to-html-3.14.0-darwin-amd64.gz": "b94e5ae95b853d816ae2e31d1f6b66f319e075a691f67f543dccd1a261ed42bf",
+  "https://github.com/buildkite/terminal-to-html/releases/download/v3.14.0/terminal-to-html-3.14.0-darwin-arm64.gz": "2114fd3f8b935d9ed33fc01243b98f31f99afd9c65daa8a20d31da57633823aa",
 }
