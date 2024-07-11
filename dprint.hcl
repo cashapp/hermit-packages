@@ -17,7 +17,8 @@ platform "darwin" "arm64" {
   source = "https://github.com/dprint/dprint/releases/download/${version}/dprint-aarch64-apple-${os}.zip"
 }
 
-version "0.45.0" "0.45.1" "0.46.0" "0.46.1" "0.46.2" "0.46.3" "0.47.0" "0.47.1" {
+version "0.45.0" "0.45.1" "0.46.0" "0.46.1" "0.46.2" "0.46.3" "0.47.0" "0.47.1"
+        "0.47.2" {
   auto-version {
     github-release = "dprint/dprint"
   }
@@ -48,4 +49,7 @@ sha256sums = {
   "https://github.com/dprint/dprint/releases/download/0.47.1/dprint-x86_64-apple-darwin.zip": "9528a8939951a04e14dda9d4a62a87a07e5ff483da5f5e19ae94c35e1b9d4f2a",
   "https://github.com/dprint/dprint/releases/download/0.47.1/dprint-x86_64-unknown-linux-gnu.zip": "822d768d651c5b06ae7ec7bced5b2083ec6d0d73bb552686a631d2d3dd64dd29",
   "https://github.com/dprint/dprint/releases/download/0.47.1/dprint-aarch64-apple-darwin.zip": "ad208fdd2941df0d6b133dfcc18afe39622648a3566a39d4574784288d4111c8",
+  "https://github.com/dprint/dprint/releases/download/0.47.2/dprint-aarch64-apple-darwin.zip": "d3af3952e4590663282e66413153f20cf7d3f6ac2795990d3652dec8971f68bb",
+  "https://github.com/dprint/dprint/releases/download/0.47.2/dprint-x86_64-apple-darwin.zip": "b174a7bc1ee55413da80b4469a5bcd1d91fdda2b813ac212bc8bbd0df293c448",
+  "https://github.com/dprint/dprint/releases/download/0.47.2/dprint-x86_64-unknown-linux-gnu.zip": "62297402bc9ede9434c33c5de1918d97864002347c0ff85863de7d1ffe6ea384",
 }
