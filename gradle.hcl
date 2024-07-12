@@ -6,7 +6,8 @@ binaries = ["bin/gradle"]
 repository = "https://github.com/gradle/gradle"
 
 version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "7.6.2"
-        "7.6.3" "8.0-rc-2" "8.0.1" "8.0.2" "8.1.1" "8.2" "8.2.1" "8.3" "8.4" "8.5" "8.6" "8.7" "8.8" {
+        "7.6.3" "8.0-rc-2" "8.0.1" "8.0.2" "8.1.1" "8.2" "8.2.1" "8.3" "8.4" "8.5" 
+        "8.6" "8.7" "8.8" "8.9" {
   auto-version {
     github-release = "gradle/gradle"
   }
@@ -24,6 +25,8 @@ sha256sums = {
   "https://services.gradle.org/distributions/gradle-7.5-bin.zip": "cb87f222c5585bd46838ad4db78463a5c5f3d336e5e2b98dc7c0c586527351c2",
   "https://services.gradle.org/distributions/gradle-7.6-bin.zip": "7ba68c54029790ab444b39d7e293d3236b2632631fb5f2e012bb28b4ff669e4b",
   "https://services.gradle.org/distributions/gradle-7.6.1-bin.zip": "6147605a23b4eff6c334927a86ff3508cb5d6722cd624c97ded4c2e8640f1f87",
+  "https://services.gradle.org/distributions/gradle-7.6.2-bin.zip": "a01b6587e15fe7ed120a0ee299c25982a1eee045abd6a9dd5e216b2f628ef9ac",
+  "https://services.gradle.org/distributions/gradle-7.6.3-bin.zip": "740c2e472ee4326c33bf75a5c9f5cd1e69ecf3f9b580f6e236c86d1f3d98cfac",
   "https://services.gradle.org/distributions/gradle-8.0-rc-2-bin.zip": "28ebe9afc20564bcdc39bfe36f6b60a373e40be2c3c307a0028b545b8ccf6ba0",
   "https://services.gradle.org/distributions/gradle-8.0.1-bin.zip": "1b6b558be93f29438d3df94b7dfee02e794b94d9aca4611a92cdb79b6b88e909",
   "https://services.gradle.org/distributions/gradle-8.0.2-bin.zip": "ff7bf6a86f09b9b2c40bb8f48b25fc19cf2b2664fd1d220cd7ab833ec758d0d7",
@@ -36,6 +39,5 @@ sha256sums = {
   "https://services.gradle.org/distributions/gradle-8.6-bin.zip": "9631d53cf3e74bfa726893aee1f8994fee4e060c401335946dba2156f440f24c",
   "https://services.gradle.org/distributions/gradle-8.7-bin.zip": "544c35d6bd849ae8a5ed0bcea39ba677dc40f49df7d1835561582da2009b961d",
   "https://services.gradle.org/distributions/gradle-8.8-bin.zip": "a4b4158601f8636cdeeab09bd76afb640030bb5b144aafe261a5e8af027dc612",
-  "https://services.gradle.org/distributions/gradle-7.6.2-bin.zip": "a01b6587e15fe7ed120a0ee299c25982a1eee045abd6a9dd5e216b2f628ef9ac",
-  "https://services.gradle.org/distributions/gradle-7.6.3-bin.zip": "740c2e472ee4326c33bf75a5c9f5cd1e69ecf3f9b580f6e236c86d1f3d98cfac",
+  "https://services.gradle.org/distributions/gradle-8.9-bin.zip": "d725d707bfabd4dfdc958c624003b3c80accc03f7037b5122c4b1d0ef15cecab",
 }
