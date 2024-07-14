@@ -12,12 +12,23 @@ linux {
   }
 }
 
-darwin {
+platform darwin amd64 {
   source = "https://github.com/elm/compiler/releases/download/${version}/binary-for-mac-64-bit.gz"
 
   on "unpack" {
     rename {
       from = "${root}/binary-for-mac-64-bit"
+      to = "${root}/elm"
+    }
+  }
+}
+
+platform darwin arm64 {
+  source = "https://github.com/elm/compiler/releases/download/${version}/binary-for-mac-64-bit-ARM.gz"
+
+  on "unpack" {
+    rename {
+      from = "${root}/binary-for-mac-64-bit-ARM"
       to = "${root}/elm"
     }
   }
