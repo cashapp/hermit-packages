@@ -11,7 +11,7 @@ version "0.2.6" "0.2.7" "0.2.8" "0.2.9" "0.2.10" "0.2.11" "0.2.12" "0.2.13" "0.2
         "0.6.4" "0.8.0" "0.8.1" "0.8.2" "0.8.3" "0.8.4" "0.8.5" "0.8.7" "0.8.8" "0.9.0" "0.9.1"
         "0.9.2" "0.9.3" "0.9.4" "0.9.5" "0.9.6" "0.9.7" "0.9.8" "0.9.9" "0.9.10" "0.9.11"
         "0.10.0" "0.10.1" "0.10.2" "0.10.3" "0.11.0" "0.11.1" "0.11.2" "0.11.3" "0.11.4"
-        "0.11.5" "0.11.6" "0.11.7" "0.11.8" "0.11.9" "0.12.0" {
+        "0.11.5" "0.11.6" "0.11.7" "0.11.8" "0.11.9" "0.12.0" "0.12.1" {
   auto-version {
     github-release = "dagger/dagger"
   }
@@ -270,4 +270,7 @@ sha256sums = {
   "https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_darwin_arm64.tar.gz": "09ee7c53a156f8b52ffe68d0f726bfdcf988d08fa12ac9fb3f00be4061a68d32",
   "https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_darwin_amd64.tar.gz": "997bae069b44e0f1f91a861642904cc591d5cbe012e5924cccfc14acb0a3ef96",
   "https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_linux_amd64.tar.gz": "33a61c5abb4094c8c2b79d3cea785ade4566ebc2bcfa6490664b4f08ba25b94d",
+  "https://github.com/dagger/dagger/releases/download/v0.12.1/dagger_v0.12.1_darwin_amd64.tar.gz": "3164d330ed04e1a5579598d2ccc2be768193a6a04b4805f326f1668a0be6778c",
+  "https://github.com/dagger/dagger/releases/download/v0.12.1/dagger_v0.12.1_darwin_arm64.tar.gz": "cb1357bddad854e16d540e38b4c33a16856155f0664f8b603a120d014a660dc1",
+  "https://github.com/dagger/dagger/releases/download/v0.12.1/dagger_v0.12.1_linux_amd64.tar.gz": "9caa881dcec59aa1794e795ec438dca2a84374c99752a948c8bb60e10562b67b",
 }

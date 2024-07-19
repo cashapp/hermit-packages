@@ -25,7 +25,7 @@ version "9.14.0" "9.14.1" "9.15.0" "9.15.1" "9.15.2" "9.16.1" "9.16.2" "9.17.0"
         "9.18.0" "9.19.1" "9.19.3" "9.19.4" "9.20.0" "9.20.1" "9.21.0" "9.21.1" "9.21.2"
         "9.22.0" "9.22.1" "9.22.3" "10.0.0" "10.0.1" "10.1.0" "10.2.0" "10.3.0" "10.4.0"
         "10.4.1" "10.5.0" "10.6.0" "10.7.1" "10.7.2" "10.8.1" "10.9.0" "10.9.1" "10.10.0"
-        "10.11.0" "10.11.1" "10.12.0" "10.13.0" "10.14.0" "10.15.0" "10.15.2" {
+        "10.11.0" "10.11.1" "10.12.0" "10.13.0" "10.14.0" "10.15.0" "10.15.2" "10.16.0" {
   auto-version {
     github-release = "flyway/flyway"
     version-pattern = "flyway-(.*)"
@@ -159,4 +159,7 @@ sha256sums = {
   "https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.15.2/flyway-commandline-10.15.2-linux-x64.tar.gz": "d591331d5ab62f5b4f2fe8a370df41460c3565806d1473ccefff1192e4ee36c0",
   "https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.15.2/flyway-commandline-10.15.2-macosx-arm64.tar.gz": "ef43499a79365e97a9895741fb4c8e2619161711c4aea484b4ab6d7edc52d52d",
   "https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.15.2/flyway-commandline-10.15.2-macosx-x64.tar.gz": "d5569bd77d8f2cc6c47bde8db03c60ce8a545e54bc8dad4a1abe01fe9db9491d",
+  "https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.16.0/flyway-commandline-10.16.0-macosx-x64.tar.gz": "204e5dffa68cad79897997df07ea687cc01a61a45e41efb8eab1ae3c835059cd",
+  "https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.16.0/flyway-commandline-10.16.0-linux-x64.tar.gz": "e82eef54b6bf7d45919d6d8c1828ff0450becac13fba1b5349acb131760d6974",
+  "https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.16.0/flyway-commandline-10.16.0-macosx-arm64.tar.gz": "0301022ded3fe8b94d5760284559244d7711502646fe8d65b9ac6fdfd82f19de",
 }
