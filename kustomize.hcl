@@ -3,7 +3,7 @@ test = "kustomize version"
 binaries = ["kustomize"]
 sha256-source = "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v${version}/checksums.txt"
 
-version "5.1.1" "5.2.1" "5.3.0" "5.4.1" "5.4.2" {
+version "5.1.1" "5.2.1" "5.3.0" "5.4.1" "5.4.2" "5.4.3" {
   source = "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v${version}/kustomize_v${version}_${os}_${arch}.tar.gz"
 
   platform "darwin" "arm64" {
@@ -50,4 +50,6 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.4.1/kustomize_v5.4.1_linux_amd64.tar.gz": "3d659a80398658d4fec4ec4ca184b432afa1d86451a60be63ca6e14311fc1c42",
   "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.4.2/kustomize_v5.4.2_linux_amd64.tar.gz": "881c6e9007c7ea2b9ecc214d13f4cdd1f837635dcf4db49ce4479898f7d911a3",
   "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.4.2/kustomize_v5.4.2_darwin_amd64.tar.gz": "d1dadf6d51058cdda6470344c95767e1c283cc5a36d5019eb32f8e43e63bd0df",
+  "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.4.3/kustomize_v5.4.3_darwin_amd64.tar.gz": "6a708ef727594bbb5f2b8f9f8049375a6028d57fa8897c1f9e78effde4e403a2",
+  "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.4.3/kustomize_v5.4.3_linux_amd64.tar.gz": "3669470b454d865c8184d6bce78df05e977c9aea31c30df3c669317d43bcc7a7",
 }
