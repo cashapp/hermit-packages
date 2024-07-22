@@ -3,11 +3,11 @@ test = "ruff --version"
 binaries = ["ruff"]
 
 platform "darwin" {
-  source = "https://github.com/charliermarsh/ruff/releases/download/v${version}/ruff-${xarch}-apple-darwin.tar.gz"
+  source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-apple-darwin.tar.gz"
 }
 
 platform "linux" {
-  source = "https://github.com/charliermarsh/ruff/releases/download/v${version}/ruff-${xarch}-unknown-linux-gnu.tar.gz"
+  source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
 version "0.0.256" "0.0.257" "0.0.258" "0.0.259" "0.0.260" "0.0.261" "0.0.262"
