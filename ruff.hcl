@@ -2,27 +2,29 @@ description = "Ruff - An extremely fast Python linter, written in Rust."
 test = "ruff --version"
 binaries = ["ruff"]
 
+platform "darwin" {
+  source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-apple-darwin.tar.gz"
+}
+
+platform "linux" {
+  source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-unknown-linux-gnu.tar.gz"
+}
+
 version "0.5.0" "0.5.1" "0.5.2" "0.5.3" "0.5.4" {
   platform "darwin" {
-    source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-apple-darwin.tar.gz"
-
     on "unpack" {
       run {
         cmd = "/bin/ln -s ${root}/ruff-${xarch}-apple-darwin/ruff ${root}/ruff"
       }
     }
-  }
-
+  } 
   platform "linux" {
-    source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-unknown-linux-gnu.tar.gz"
-
     on "unpack" {
       run {
         cmd = "/bin/ln -s ${root}/ruff-${xarch}-unknown-linux-gnu/ruff ${root}/ruff"
       }
     }
   }  
-  
   auto-version {
     github-release = "astral-sh/ruff"
   }
