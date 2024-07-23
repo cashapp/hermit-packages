@@ -2,23 +2,23 @@ description = "GitVersion calculates your version based on your Git history."
 binaries = ["gitversion"]
 test = "gitversion -version"
 
-platform linux amd64 {
+platform "linux" "amd64" {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-linux-x64-${version}.tar.gz"
 }
 
-platform linux arm64 {
+platform "linux" "arm64" {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-linux-arm64-${version}.tar.gz"
 }
 
-platform darwin amd64 {
+platform "darwin" "amd64" {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-osx-x64-${version}.tar.gz"
 }
 
-platform darwin arm64 {
+platform "darwin" "arm64" {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-osx-${arch}-${version}.tar.gz"
 }
 
-version "5.12.0" "6.0.0-beta.7" {
+version "5.12.0" "6.0.0-beta.7" "6.0.0" {
   auto-version {
     github-release = "GitTools/GitVersion"
   }
@@ -33,4 +33,7 @@ sha256sums = {
   "https://github.com/GitTools/GitVersion/releases/download/6.0.0-beta.7/gitversion-linux-x64-6.0.0-beta.7.tar.gz": "745a044cec9ec53030c8df5cce04c397ca6460a8c6f2ad61f724a6ab5235f1ae",
   "https://github.com/GitTools/GitVersion/releases/download/6.0.0-beta.7/gitversion-osx-arm64-6.0.0-beta.7.tar.gz": "a2064d4779d904f8a1e290f0a00b64e08af78c0c6e852721975b311c586301fe",
   "https://github.com/GitTools/GitVersion/releases/download/6.0.0-beta.7/gitversion-osx-x64-6.0.0-beta.7.tar.gz": "2326dc489c50d01bdfa065b4be14be443c976e5173eeacca2d92f04d7844c770",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0/gitversion-osx-x64-6.0.0.tar.gz": "f0c5fe2512d918acdea7cd145bff04729c6071f0ccee4bbdf04abcaa14daa219",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0/gitversion-osx-arm64-6.0.0.tar.gz": "16d23f586181bc816587ab923a32504b5bf6451d11c86856b3929afd0527c09c",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0/gitversion-linux-x64-6.0.0.tar.gz": "99324ad86713606f2e5e81f77a3d034ae1c9b2bc8672ddc0ffcec5150e6e92b4",
 }
