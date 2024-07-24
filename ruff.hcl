@@ -1,6 +1,5 @@
 description = "Ruff - An extremely fast Python linter, written in Rust."
 test = "ruff --version"
-binaries = ["ruff"]
 
 platform "darwin" {
   source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-apple-darwin.tar.gz"
@@ -12,19 +11,11 @@ platform "linux" {
 
 version "0.5.0" "0.5.1" "0.5.2" "0.5.3" "0.5.4" {
   platform "darwin" {
-    on "unpack" {
-      run {
-        cmd = "/bin/ln -s ${root}/ruff-${xarch}-apple-darwin/ruff ${root}/ruff"
-      }
-    }
-  } 
+    binaries = ["ruff-${xarch}-apple-darwin/ruff"]
+  }
   platform "linux" {
-    on "unpack" {
-      run {
-        cmd = "/bin/ln -s ${root}/ruff-${xarch}-unknown-linux-gnu/ruff ${root}/ruff"
-      }
-    }
-  }  
+    binaries = ["ruff-${xarch}-unknown-linux-gnu/ruff"]
+  } 
   auto-version {
     github-release = "astral-sh/ruff"
   }
@@ -43,6 +34,7 @@ version "0.0.256" "0.0.257" "0.0.258" "0.0.259" "0.0.260" "0.0.261" "0.0.262"
   platform "linux" {
     source = "https://github.com/astral-sh/ruff/releases/download/v${version}/ruff-${xarch}-unknown-linux-gnu.tar.gz"
   }
+  binaries = ["ruff"]
 }
 
 version "0.1.8" "0.1.9" "0.2.0" "0.2.1" "0.2.2" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.3.4"
@@ -55,6 +47,7 @@ version "0.1.8" "0.1.9" "0.2.0" "0.2.1" "0.2.2" "0.3.0" "0.3.1" "0.3.2" "0.3.3" 
   platform "linux" {
     source = "https://github.com/astral-sh/ruff/releases/download/v${version}/ruff-${version}-${xarch}-unknown-linux-gnu.tar.gz"
   }
+  binaries = ["ruff"]
 }
 
 sha256sums = {
