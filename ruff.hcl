@@ -9,13 +9,15 @@ platform "linux" {
   source = "https://github.com/astral-sh/ruff/releases/download/${version}/ruff-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
-version "0.5.0" "0.5.1" "0.5.2" "0.5.3" "0.5.4" {
+version "0.5.0" "0.5.1" "0.5.2" "0.5.3" "0.5.4" "0.5.5" {
   platform "darwin" {
     binaries = ["ruff-${xarch}-apple-darwin/ruff"]
   }
+
   platform "linux" {
     binaries = ["ruff-${xarch}-unknown-linux-gnu/ruff"]
-  } 
+  }
+
   auto-version {
     github-release = "astral-sh/ruff"
   }
@@ -34,6 +36,7 @@ version "0.0.256" "0.0.257" "0.0.258" "0.0.259" "0.0.260" "0.0.261" "0.0.262"
   platform "linux" {
     source = "https://github.com/astral-sh/ruff/releases/download/v${version}/ruff-${xarch}-unknown-linux-gnu.tar.gz"
   }
+
   binaries = ["ruff"]
 }
 
@@ -47,6 +50,7 @@ version "0.1.8" "0.1.9" "0.2.0" "0.2.1" "0.2.2" "0.3.0" "0.3.1" "0.3.2" "0.3.3" 
   platform "linux" {
     source = "https://github.com/astral-sh/ruff/releases/download/v${version}/ruff-${version}-${xarch}-unknown-linux-gnu.tar.gz"
   }
+
   binaries = ["ruff"]
 }
 
@@ -264,4 +268,7 @@ sha256sums = {
   "https://github.com/astral-sh/ruff/releases/download/v0.4.5/ruff-0.4.5-aarch64-apple-darwin.tar.gz": "a28c848121008db5f69bf07e0f17a4f377c92798c222b2483401598d3490dae3",
   "https://github.com/astral-sh/ruff/releases/download/v0.4.6/ruff-0.4.6-x86_64-apple-darwin.tar.gz": "566e96e074a2d05c97a8d56d3a7239d235e30adeee8f11495a8715e812275012",
   "https://github.com/astral-sh/ruff/releases/download/v0.4.7/ruff-0.4.7-x86_64-apple-darwin.tar.gz": "d6a9b5d26710e60daccc0b8c1b74a10d0e0efdff7276fa9bcdb0b04973831d5a",
+  "https://github.com/astral-sh/ruff/releases/download/0.5.5/ruff-aarch64-apple-darwin.tar.gz": "452fd58f29471a923c6b2cbb54935c4552ff327096951d51593db9886f600628",
+  "https://github.com/astral-sh/ruff/releases/download/0.5.5/ruff-x86_64-unknown-linux-gnu.tar.gz": "718c12729718fedd4428c225eb73630afd89c417d46c1e665967d7032edb5277",
+  "https://github.com/astral-sh/ruff/releases/download/0.5.5/ruff-x86_64-apple-darwin.tar.gz": "86dccec7ca8d7295bb3fcbb81d35f7f9541cb565ca9483aa60d1b5a5f5394fe3",
 }
