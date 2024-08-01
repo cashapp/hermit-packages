@@ -9,7 +9,7 @@ platform "windows" {
 }
 
 version "1.2.2" "1.3.0" "1.4.1" "1.5.0" "1.5.1" "1.5.2" "1.6.0" "1.6.3" "1.6.4" "1.7.0"
-        "1.8.0" "1.9.1" "1.9.3" "1.10.0" "1.11.0" {
+        "1.8.0" "1.9.1" "1.9.3" "1.10.0" "1.11.0" "1.12.0" {
   auto-version {
     github-release = "docker/scout-cli"
   }
@@ -61,4 +61,7 @@ sha256sums = {
   "https://github.com/docker/scout-cli/releases/download/v1.11.0/docker-scout_1.11.0_linux_amd64.tar.gz": "892b1fd5d7259625750aaaa8497f1a146386d8c6a3a67ed4984263cd873dbadc",
   "https://github.com/docker/scout-cli/releases/download/v1.11.0/docker-scout_1.11.0_darwin_arm64.tar.gz": "a52d360d2f7b33a3916aed7eaf9d0dc08c1e15dcb4140e98ee7d3ebf79980686",
   "https://github.com/docker/scout-cli/releases/download/v1.11.0/docker-scout_1.11.0_darwin_amd64.tar.gz": "72174417412d99bdb07251717c2908aa8bfdec58eaf3855fa968528d6a788fe8",
+  "https://github.com/docker/scout-cli/releases/download/v1.12.0/docker-scout_1.12.0_linux_amd64.tar.gz": "12ee997a8f969979c6eb3d6ecc9703d5233a75298e163f89b2a2f35a454f78e0",
+  "https://github.com/docker/scout-cli/releases/download/v1.12.0/docker-scout_1.12.0_darwin_amd64.tar.gz": "837f5727ae0206ecc989ecb34fb0b77775d147a9dbef9f862ac56d10efcd46de",
+  "https://github.com/docker/scout-cli/releases/download/v1.12.0/docker-scout_1.12.0_darwin_arm64.tar.gz": "81ee17bc0aff180dfd6754b09d0bd885a8e6d7009b9a7c410b2b6056df52dc05",
 }
