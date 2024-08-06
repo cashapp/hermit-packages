@@ -102,6 +102,14 @@ version "21.0.0" "21.1.0" "21.2.0" "21.3.0" "21.4.0" "21.5.0" "21.6.0" "21.6.1"
   }
 }
 
+version "22.0.0" "22.1.0" "22.2.0" "22.3.0" "21.4.0" "21.5.0" "21.6.0" {
+  auto-version {
+    github-release = "nodejs/node"
+    ignore-invalid-versions = true
+    version-pattern = "v(22.*)"
+  }
+}
+
 channel "lts" {
   version = "20.*"
   update = "168h"
@@ -517,4 +525,16 @@ sha256sums = {
   "https://nodejs.org/dist/v20.16.0/node-v20.16.0-linux-x64.tar.gz": "b3f874ea84e440d69ed02ca92429d0eccd17737fde86db69c1c153d16ec654f2",
   "https://nodejs.org/dist/v20.16.0/node-v20.16.0-darwin-x64.tar.gz": "e18942cd706e4d69a4845ddacee2f1c17a72e853a229e3d2623d2edeb7efde72",
   "https://nodejs.org/dist/v20.16.0/node-v20.16.0-darwin-arm64.tar.gz": "fc7355e778b181575153b7dea4879e8021776eeb376c43c50f65893d2ea70aa3",
+  "https://nodejs.org/dist/v22.0.0/node-v22.0.0-darwin-arm64.tar.gz": "ea96d349cfaa67aa87ceeaa3e5b52c9167f7ac302fd8d1ff162d0785e9dc0785",
+  "https://nodejs.org/dist/v22.0.0/node-v22.0.0-linux-x64.tar.gz": "74bb0f3a80307c529421c3ed84517b8f543867709f41e53cd73df99e6442af4d",
+  "https://nodejs.org/dist/v22.0.0/node-v22.0.0-darwin-x64.tar.gz": "422a3887ff5418f0a4552d89cf99346ab8ab51bb5d384660baa88b8444d2c111",
+  "https://nodejs.org/dist/v22.1.0/node-v22.1.0-darwin-arm64.tar.gz": "93904abf2b6afd0dc2a7c2947a83e10ed65cc39171db17663edb6f763aaa5a57",
+  "https://nodejs.org/dist/v22.1.0/node-v22.1.0-darwin-x64.tar.gz": "3a2c351b3eeeb4d12dee978f93f8f510589384b66a09feb903b609a58cf1bb5b",
+  "https://nodejs.org/dist/v22.2.0/node-v22.2.0-linux-x64.tar.gz": "2c6eaf8bfd0f886ed8764ffce19c795e909639105e4056b1d9f8f917bad12cf1",
+  "https://nodejs.org/dist/v22.2.0/node-v22.2.0-darwin-arm64.tar.gz": "66dd98bd28d19603f2e5ab0aa0e07b64f8cad28bbc446bb44fb61cc3da62e685",
+  "https://nodejs.org/dist/v22.2.0/node-v22.2.0-darwin-x64.tar.gz": "b3cd4ab4bb4ac7f9bd5c7603baf6bbdcf466c86bb6ca49abf5e221ab8fad7ceb",
+  "https://nodejs.org/dist/v22.3.0/node-v22.3.0-linux-x64.tar.gz": "a6d4fbf4306a883b8e1d235a8a890be84b9d95d2d39b929520bed64da41ce540",
+  "https://nodejs.org/dist/v22.3.0/node-v22.3.0-darwin-x64.tar.gz": "7fe139f9d769d65c27212f8be8f858e1ee522edf3a66eed1d08d42ba102995f8",
+  "https://nodejs.org/dist/v22.3.0/node-v22.3.0-darwin-arm64.tar.gz": "b6723f1e4972af1ca8a7ef9ec63305ee8cd4380fce3071e0e1630dfe055d77e3",
+  "https://nodejs.org/dist/v22.1.0/node-v22.1.0-linux-x64.tar.gz": "d8ae35a9e2bb0c0c0611ee9bacf564ea51cc8291ace1447f95ee6aeaf4f1d61d",
 }
