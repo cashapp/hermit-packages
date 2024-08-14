@@ -14,7 +14,7 @@ platform "linux" "amd64" {
   source = "https://github.com/dapr/cli/releases/download/v${version}/dapr_${os}_${arch}.tar.gz"
 }
 
-version "1.10.0" "1.11.0" "1.12.0" "1.13.0" {
+version "1.10.0" "1.11.0" "1.12.0" "1.13.0" "1.14.0" {
   auto-version {
     github-release = "dapr/cli"
   }
@@ -33,4 +33,7 @@ sha256sums = {
   "https://github.com/dapr/cli/releases/download/v1.13.0/dapr_linux_amd64.tar.gz": "b25f3a6ccb56eabfc06cdb8ef32e16c2983d62cd0200679685ecb4d87f9e998f",
   "https://github.com/dapr/cli/releases/download/v1.13.0/dapr_darwin_amd64.tar.gz": "842506d51a960f2747eaee915b40c199b3278f5b89804fe3f89eb3dc63da371f",
   "https://github.com/dapr/cli/releases/download/v1.13.0/dapr_darwin_arm64.tar.gz": "82d9b7551efa17744d3e70afabfb9f0847c9926440f277b3dd4b9c366aa0816b",
+  "https://github.com/dapr/cli/releases/download/v1.14.0/dapr_darwin_arm64.tar.gz": "05dcf8b658b2da812140e97db28681fa56dcba011ab5f292920cbc967dad13d0",
+  "https://github.com/dapr/cli/releases/download/v1.14.0/dapr_darwin_amd64.tar.gz": "600fadec438dd95493989a2812549f25cb672ceb83cc4bd5e307eca931eb43c7",
+  "https://github.com/dapr/cli/releases/download/v1.14.0/dapr_linux_amd64.tar.gz": "2e28715b14767e879bc86d1c72b56b7e2342a20bc0d5775a73b07fb1c0bb95ac",
 }

@@ -36,7 +36,7 @@ platform "linux" {
 
 version "0.1.38" "0.1.39" "0.1.40" "0.1.41" "0.1.42" "0.1.43" "0.1.44" "0.1.45"
         "0.1.46" "0.1.47" "0.1.48" "0.2.0" "0.2.1" "0.2.2" "0.2.5" "0.2.7" "0.2.8" "0.3.0"
-        "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" {
+        "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" "0.3.6" {
   auto-version {
     github-release = "ollama/ollama"
   }
@@ -89,4 +89,6 @@ sha256sums = {
   "https://github.com/ollama/ollama/releases/download/v0.3.4/ollama-darwin": "08a6dff6d22b756273874298f8ce1bfcf5812805e28743b43310c701dc3d56a4",
   "https://github.com/ollama/ollama/releases/download/v0.3.5/ollama-linux-amd64": "cf1d645f5f928a39e0f4615c717c180aa610956cebc90c6d4e56688ecea1a3bf",
   "https://github.com/ollama/ollama/releases/download/v0.3.5/ollama-darwin": "0024ac941a234f23f6038dc311c7d34fe537387c882acb1da4154d4f5a5f01f2",
+  "https://github.com/ollama/ollama/releases/download/v0.3.6/ollama-darwin": "663e24c2b2ad29f506566bbc239334daba4490b9d4f58bc8942616835e84aed7",
+  "https://github.com/ollama/ollama/releases/download/v0.3.6/ollama-linux-amd64": "775e0652c1dc61bde9ad98b9de743a10976ae026e4c1a230977193db3213e159",
 }
