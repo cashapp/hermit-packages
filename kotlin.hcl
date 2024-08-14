@@ -8,7 +8,8 @@ test = "kotlinc-jvm -version"
 
 version "1.5.0" "1.5.20" "1.5.21" "1.5.30" "1.5.31" "1.6.0" "1.5.32" "1.6.10" "1.6.20"
         "1.6.21" "1.7.0" "1.7.10" "1.7.20" "1.7.21" "1.8.0" "1.8.10" "1.8.20" "1.8.21" "1.8.22"
-        "1.9.0" "1.9.10" "1.9.20" "1.9.21" "1.9.22" "1.9.23" "1.9.24" "2.0.0" "1.9.25" {
+        "1.9.0" "1.9.10" "1.9.20" "1.9.21" "1.9.22" "1.9.23" "1.9.24" "2.0.0" "1.9.25"
+        "2.0.10" {
   auto-version {
     github-release = "JetBrains/kotlin"
   }
@@ -43,4 +44,5 @@ sha256sums = {
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.24/kotlin-compiler-1.9.24.zip": "eb7b68e01029fa67bc8d060ee54c12018f2c60ddc438cf21db14517229aa693b",
   "https://github.com/JetBrains/kotlin/releases/download/v2.0.0/kotlin-compiler-2.0.0.zip": "ef578730976154fd2c5968d75af8c2703b3de84a78dffe913f670326e149da3b",
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.25/kotlin-compiler-1.9.25.zip": "6ab72d6144e71cbbc380b770c2ad380972548c63ab6ed4c79f11c88f2967332e",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.0.10/kotlin-compiler-2.0.10.zip": "88d7d8bad362ae4e114a8b9668c6887b8c85f48e340883db0e317e47c8dc2f4f",
 }

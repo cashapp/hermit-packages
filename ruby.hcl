@@ -4,6 +4,7 @@ binaries = ["bin/*"]
 test = "ruby --version"
 env = {
   "GEM_HOME": "${HERMIT_ENV}/.hermit/ruby/gem",
+  "GEM_PATH": "${HERMIT_ENV}/.hermit/ruby/gem",
   "PATH": "${HERMIT_ENV}/.hermit/ruby/gem/bin:${PATH}",
 }
 

@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.7.6" "1.7.7" "1.8.1" "1.9.0" "1.9.1" {
+version "1.7.6" "1.7.7" "1.8.1" "1.9.0" "1.9.1" "1.10.0" {
   auto-version {
     github-release = "jpillora/chisel"
   }
@@ -32,4 +32,7 @@ sha256sums = {
   "https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_darwin_amd64.gz": "4c9c4d9df645d45510841d2edd07bd156bbb7ecd268626895f9b4d5ac8483633",
   "https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_darwin_arm64.gz": "cce469f76bb65315222426a32f579c4ba820587173b4dffb7f012f5b0bd5a877",
   "https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_linux_amd64.gz": "704a31cd89911a0f7d1741ee9ca32ca0f5496b06370bf398dfc5b7d3a31ef563",
+  "https://github.com/jpillora/chisel/releases/download/v1.10.0/chisel_1.10.0_linux_amd64.gz": "09c47937d391442c465dc89389a4568e8ed7d392f1f3b85c02516bb8a8b7d084",
+  "https://github.com/jpillora/chisel/releases/download/v1.10.0/chisel_1.10.0_darwin_amd64.gz": "b87d208a24725615518c517acabdc7cf614a7d90a51d1f38727527555a7eda1f",
+  "https://github.com/jpillora/chisel/releases/download/v1.10.0/chisel_1.10.0_darwin_arm64.gz": "14ad7a088d84d5d0aa1ba8cf71dcb7ee4c0ffda13193d50d0cec4d10bab60656",
 }
