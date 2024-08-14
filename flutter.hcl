@@ -33,8 +33,8 @@ version "3.7.12" "3.10.5" "3.13.8" "3.13.0" "3.13.9" "3.16.0" "3.16.1" "3.16.2"
         "3.19.3" "3.19.4" "3.19.5" "3.19.6" "3.22.0" "3.22.3" "3.24.0" {
   auto-version {
     html {
-      url = "https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel"
-      xpath = "(//h3/a[contains(@href, 'https:')]/text())[1]"
+      url = "https://github.com/flutter/flutter/blob/master/CHANGELOG.md"
+      xpath = "(//h3/a[contains(@href, 'https://github.com/flutter/flutter/releases')]/text())[1]"
     }
   }
 }
