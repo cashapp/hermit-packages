@@ -18,7 +18,7 @@ platform "linux" "amd64" {
 }
 
 version "1.115.0" "1.116.0" "1.117.0" "1.118.0" "1.119.0" "1.120.0" "1.121.0"
-        "1.122.0" {
+        "1.122.0" "1.123.0" {
   auto-version {
     github-release = "aws/aws-sam-cli"
   }
@@ -49,4 +49,7 @@ sha256sums = {
   "https://github.com/aws/aws-sam-cli/releases/download/v1.122.0/aws-sam-cli-macos-arm64.pkg": "0db73f4f51085f149d6b803fe0d246dc4f626a9b047574e4d35abc5db0348071",
   "https://github.com/aws/aws-sam-cli/releases/download/v1.122.0/aws-sam-cli-linux-x86_64.zip": "d8758e8aabbd8c33fb8a8216cf1e629072b0faa133fd0a80c0e4d5b343088c77",
   "https://github.com/aws/aws-sam-cli/releases/download/v1.122.0/aws-sam-cli-macos-x86_64.pkg": "b7fc18e35fa4fcf1b48771fcbea25c7ce4cdea2160a848031bce43a49dbec7c3",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.123.0/aws-sam-cli-macos-x86_64.pkg": "a9ffc8b0d53eaf57884f13b116f81517304b20187580c33b7c27ecc10c6d3634",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.123.0/aws-sam-cli-linux-x86_64.zip": "17e83dd212e27dd0b56d1189db92f50f040dd91f5fe8f20504eb57ca266bda1b",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.123.0/aws-sam-cli-macos-arm64.pkg": "a80e47bdbc1442050e8bcc69cf311c59ecc123e8cadd9fac9857f19431a33e42",
 }
