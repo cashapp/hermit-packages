@@ -1,6 +1,5 @@
 description = "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine."
 binaries = ["*"]
-strip = 1
 
 platform "linux" "amd64" {
   source = "https://www.sqlite.org/${year}/sqlite-tools-linux-${cpu}-${encoded_version}.zip"
@@ -11,6 +10,7 @@ platform "darwin" {
 }
 
 version "3.39.2" {
+  strip = 1
   vars = {
     "cpu": "x86",
     "encoded_version": "3390200",
@@ -19,6 +19,7 @@ version "3.39.2" {
 }
 
 version "3.40.0" {
+  strip = 1
   vars = {
     "cpu": "x86",
     "encoded_version": "3400000",
@@ -27,6 +28,7 @@ version "3.40.0" {
 }
 
 version "3.42.0" {
+  strip = 1
   vars = {
     "cpu": "x86",
     "encoded_version": "3420000",
@@ -35,6 +37,7 @@ version "3.42.0" {
 }
 
 version "3.46.1" {
+  strip = 0
   vars = {
     "cpu": "x64",
     "encoded_version": "3460100",
