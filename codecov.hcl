@@ -3,6 +3,9 @@ binaries = ["codecov"]
 test = "codecov --version"
 
 version "0.3.2" "0.6.2" {
+  auto-version {
+    github-release = "codecov/uploader"
+  }
 }
 
 linux {
