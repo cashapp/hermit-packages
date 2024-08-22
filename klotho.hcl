@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "0.6.4" "0.7.0" "0.7.1" {
+version "0.6.4" "0.7.0" "0.7.1" "0.7.2" {
   auto-version {
     github-release = "klothoplatform/klotho"
   }
@@ -27,4 +27,7 @@ sha256sums = {
   "https://github.com/klothoplatform/klotho/releases/download/v0.7.1/klotho_darwin_amd64": "b4597285e1b7e5fe996575c5dbbb197700f2c90894ee90e61c08817bee40deaf",
   "https://github.com/klothoplatform/klotho/releases/download/v0.7.1/klotho_darwin_arm64": "2ab03ab36d13fe7963525604c019c2fbf1f5fbcb0ce1303cd5e23bce77e98ed3",
   "https://github.com/klothoplatform/klotho/releases/download/v0.7.1/klotho_linux_amd64": "3f6d53354c2c51909509b5598c6db099d110475367c5589f6a5efa9ef572aee5",
+  "https://github.com/klothoplatform/klotho/releases/download/v0.7.2/klotho_linux_amd64": "885fb948cdbf714a334bccf6eda7154cf7491416aeb13a5aaae18190d6ce8b60",
+  "https://github.com/klothoplatform/klotho/releases/download/v0.7.2/klotho_darwin_amd64": "3b37ac7541f037007448e2f2ab77e0e17323bcf444bb5892cc05db88a48bcf4f",
+  "https://github.com/klothoplatform/klotho/releases/download/v0.7.2/klotho_darwin_arm64": "e3feccbb2773bcff0d7f0c8a3ff923009d5af402fd866eac76bbd2d7e994c8a9",
 }
