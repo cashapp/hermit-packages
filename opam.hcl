@@ -34,7 +34,7 @@ platform "linux" "amd64" {
   }
 }
 
-version "2.1.0" "2.1.1" "2.1.2" "2.1.3" "2.1.4" "2.1.5" "2.1.6" "2.2.0" {
+version "2.1.0" "2.1.1" "2.1.2" "2.1.3" "2.1.4" "2.1.5" "2.1.6" "2.2.0" "2.2.1" {
   auto-version {
     github-release = "ocaml/opam"
   }
@@ -65,4 +65,7 @@ sha256sums = {
   "https://github.com/ocaml/opam/releases/download/2.2.0/opam-2.2.0-x86_64-macos": "6cd5280ad78c0081396e21584463616732ff157dc3829aa5eeeb97a7f9a0d7cc",
   "https://github.com/ocaml/opam/releases/download/2.2.0/opam-2.2.0-arm64-macos": "d0ee226d696ce79e890e30cabe5f79b3d46a4e94c03bef27eb2751ded0be1b97",
   "https://github.com/ocaml/opam/releases/download/2.2.0/opam-2.2.0-x86_64-linux": "cc8c6db2110ae4e287a82fa7fa7d9c26045633107fac26a83894a5db2379a316",
+  "https://github.com/ocaml/opam/releases/download/2.2.1/opam-2.2.1-x86_64-linux": "01d6a02adcfe978f7a2ee5f82aa8e807e0ac26cf6bb8b4ede4781318b6405e3f",
+  "https://github.com/ocaml/opam/releases/download/2.2.1/opam-2.2.1-x86_64-macos": "83eb437611b377b4695b5420a3c17489cbe5fcaf8736422510a48fced91a2710",
+  "https://github.com/ocaml/opam/releases/download/2.2.1/opam-2.2.1-arm64-macos": "9844cf81c76269ad243afb15cdcf93cde882e4986df102d835c5be82295ad717",
 }

@@ -33,7 +33,7 @@ on "unpack" {
 version "0.27.4" "0.27.5" "0.27.7" "0.27.8" "0.27.9" "0.28.0" "0.28.1" "0.28.2"
         "0.28.3" "0.28.4" "0.29.0" "0.30.0" "0.30.1" "0.30.2" "0.30.3" "0.30.4" "0.30.5"
         "0.31.0" "0.31.2" "0.31.3" "0.31.4" "0.32.0" "0.32.1" "0.32.2" "0.33.0" "0.33.1"
-        "0.34.1" "0.34.2" "1.0.0" "1.1.3" "1.1.4" "1.1.5" "1.1.7" {
+        "0.34.1" "0.34.2" "1.0.0" "1.1.3" "1.1.4" "1.1.5" "1.1.7" "1.1.8" {
   auto-version {
     github-release = "openziti/ziti"
   }
@@ -106,4 +106,6 @@ sha256sums = {
   "https://github.com/openziti/ziti/releases/download/v1.1.5/ziti-darwin-amd64-1.1.5.tar.gz": "40fa55f9f81f2af17d31f7944e3bb06166383cf52a4c7f9c3179fc9b76f84109",
   "https://github.com/openziti/ziti/releases/download/v1.1.7/ziti-darwin-amd64-1.1.7.tar.gz": "24dfb9f91f4bc5089ebe265f1025ba806df1dbda82c3df1798e0bffabc3d8a35",
   "https://github.com/openziti/ziti/releases/download/v1.1.7/ziti-linux-amd64-1.1.7.tar.gz": "953dc2dccc2555a353aeef566bdb719b73bf2542e94db308c63ead6b7c516044",
+  "https://github.com/openziti/ziti/releases/download/v1.1.8/ziti-linux-amd64-1.1.8.tar.gz": "c655eab3ece0883ca34dd627fcba4c1cfc161d8197e43184443a6b92531c25d9",
+  "https://github.com/openziti/ziti/releases/download/v1.1.8/ziti-darwin-amd64-1.1.8.tar.gz": "af8f540e6685ff91a41d24ba7744387cbe75535f92f5524816db704e2ee6266f",
 }
