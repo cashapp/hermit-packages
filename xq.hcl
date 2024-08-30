@@ -2,7 +2,8 @@ source = "https://github.com/sibprogrammer/xq/releases/download/v${version}/xq_$
 description = "Command-line XML and HTML beautifier and content extractor"
 binaries = ["xq"]
 
-version "1.0.0" "1.1.0" "1.1.1" "1.1.2" "1.1.3" "1.1.4" "1.2.1" "1.2.2" "1.2.3" "1.2.4" {
+version "1.0.0" "1.1.0" "1.1.1" "1.1.2" "1.1.3" "1.1.4" "1.2.1" "1.2.2" "1.2.3" "1.2.4"
+        "1.2.5" {
   auto-version {
     github-release = "sibprogrammer/xq"
   }
@@ -39,4 +40,7 @@ sha256sums = {
   "https://github.com/sibprogrammer/xq/releases/download/v1.2.4/xq_1.2.4_linux_amd64.tar.gz": "96148dc3ce4fede9ab47b26fa07f1ada950dfd61ae54db7013c76a410945302f",
   "https://github.com/sibprogrammer/xq/releases/download/v1.2.4/xq_1.2.4_darwin_arm64.tar.gz": "a5621cdf04d51688f7e512776ad9cc27e5be7d97fb3bbdf6ed82becd689b7115",
   "https://github.com/sibprogrammer/xq/releases/download/v1.2.4/xq_1.2.4_darwin_amd64.tar.gz": "4d964edd5c7426da7131dac8532cba93a900514e70e1819db8ffc9f5995aa2b5",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.5/xq_1.2.5_darwin_amd64.tar.gz": "0c367c9f5c8790969251d709be77755778209d3072694ae4769bdc43cb4319e9",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.5/xq_1.2.5_linux_amd64.tar.gz": "7aad6e08108318dbb2b8f3029f6145fce758e903a1513d9f1aeb090ab212ec8d",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.5/xq_1.2.5_darwin_arm64.tar.gz": "ff9cd46a6a244931eef362770e6e3cb9f9cf081ab97b234810c6c43572a1def3",
 }
