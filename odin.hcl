@@ -16,7 +16,7 @@ on "unpack" {
   }
 }
 
-version "2024-04" "2024-04a" "2024-05" "2024-06" "2024-07" "2024-08" {
+version "2024-04" "2024-04a" "2024-05" "2024-06" "2024-07" "2024-08" "2024-09" {
   auto-version {
     github-release = "odin-lang/Odin"
     version-pattern = "dev-(.*)"
@@ -42,4 +42,7 @@ sha256sums = {
   "https://github.com/odin-lang/Odin/releases/download/dev-2024-08/odin-macos-arm64-dev-2024-08.zip": "8c343aa30c0370c98c651ea50bd28a76c8e9fff80f6055eb6802777a817eaf94",
   "https://github.com/odin-lang/Odin/releases/download/dev-2024-08/odin-ubuntu-amd64-dev-2024-08.zip": "542af04240c5702a1b42e0c43fda1ca44c2d73e93b599f9d924b1d28d44eb81a",
   "https://github.com/odin-lang/Odin/releases/download/dev-2024-08/odin-macos-amd64-dev-2024-08.zip": "33d5440ceade4194c8d0edc0120c713ceef02b4d4394aea2f249dd0af841d662",
+  "https://github.com/odin-lang/Odin/releases/download/dev-2024-09/odin-macos-amd64-dev-2024-09.zip": "184a5345d8716a7400f903eb6dbb4af0ac0d896a9926ce7257e812c5fb92bdf0",
+  "https://github.com/odin-lang/Odin/releases/download/dev-2024-09/odin-ubuntu-amd64-dev-2024-09.zip": "a2e29c1232400d831ef2568c4072c9e9bbaddf85f7f925e0bd777f41d70d1f66",
+  "https://github.com/odin-lang/Odin/releases/download/dev-2024-09/odin-macos-arm64-dev-2024-09.zip": "bc2a6f8c1ab9965c1f0b03547c29a780920fa547e473cfa740960bd016dbb714",
 }
