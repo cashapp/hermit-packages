@@ -1,5 +1,5 @@
 description = "An extremely fast Python package installer and resolver, written in Rust."
-binaries = ["uv"]
+binaries = ["*"]
 homepage = "https://astral.sh/"
 strip = 1
 
