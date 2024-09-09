@@ -2,7 +2,7 @@ description = "Database migrations written in Go. Migrate reads migrations from 
 test = "migrate --version"
 binaries = ["migrate"]
 
-version "4.15.2" "4.16.0" "4.16.1" "4.16.2" "4.17.0" "4.17.1" {
+version "4.15.2" "4.16.0" "4.16.1" "4.16.2" "4.17.0" "4.17.1" "4.18.1" {
   auto-version {
     github-release = "golang-migrate/migrate"
   }
@@ -33,4 +33,6 @@ sha256sums = {
   "https://github.com/golang-migrate/migrate/releases/download/v4.17.0/migrate.linux-amd64.tar.gz": "26c53c9162c9c4aaa84c47cd12455d4a9ac725befbe82850a5937b5ec1e7b8e6",
   "https://github.com/golang-migrate/migrate/releases/download/v4.17.1/migrate.linux-amd64.tar.gz": "ddb3fe2c5f7a3a87b0fbcd451f56b5630208dc0a897ea3c73b2084431f166112",
   "https://github.com/golang-migrate/migrate/releases/download/v4.17.1/migrate.darwin-amd64.tar.gz": "21d185f93e39929fa8ea33f43af74dfc781a1849565c2c3e44bbc702cd6d3c7c",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.linux-amd64.tar.gz": "2a08137b4720aa457bc760540723e313783f1fab27473463bdcc5fc2e9252959",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.darwin-amd64.tar.gz": "17104632ce506de052d8db498197a659405157e2412d84fb32e3d6f88d56b7dd",
 }
