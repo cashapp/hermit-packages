@@ -19,7 +19,7 @@ platform "darwin" "amd64" {
   source = "https://github.com/WasmEdge/WasmEdge/releases/download/${version}/WasmEdge-${version}-darwin_x86_64.tar.gz"
 }
 
-version "0.13.5" "0.14.0" {
+version "0.13.5" "0.14.0" "0.14.1" {
   auto-version {
     github-release = "WasmEdge/WasmEdge"
   }
@@ -32,4 +32,7 @@ sha256sums = {
   "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.0/WasmEdge-0.14.0-darwin_x86_64.tar.gz": "03c5d77be63ecad54ed33a1885f170bc854246ed8f9ae8e366b114bc8c0c2422",
   "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.0/WasmEdge-0.14.0-darwin_arm64.tar.gz": "4f2f34545a97768e28700099ac9cbb18e7b434779d237de860324de400922546",
   "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.0/WasmEdge-0.14.0-manylinux2014_x86_64.tar.gz": "73b3892f94c143dc09d53415c6848bb8e87206a1f614fd0edfc89957a0f1b027",
+  "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.1/WasmEdge-0.14.1-manylinux2014_x86_64.tar.gz": "a82f9fb01a6a6f1dfbd1cb069dc96d116f22c15cdb01207a5d0e65096055d092",
+  "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.1/WasmEdge-0.14.1-darwin_x86_64.tar.gz": "96d01cf083d4f7e1c55683dc4b60acca6d8517ad901e2d7b4b5d64ca9a6532e0",
+  "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.1/WasmEdge-0.14.1-darwin_arm64.tar.gz": "38dd10f4e78d339be91e0c3501055d4dad9bf08c3dc648e07a30df9bea2d6c4a",
 }
