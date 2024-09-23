@@ -3,7 +3,7 @@ source = "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v${ve
 binaries = ["kubebuilder"]
 strip = 2
 test = "kubebuilder version"
-requires = ["envtest"]
+requires = []
 
 version "3.7.0" "3.8.0" "3.9.0" "3.9.1" "3.10.0" "3.11.0" "3.11.1" "3.12.0" "3.13.0"
         "3.14.0" "3.14.1" "3.14.2" "3.15.0" "3.15.1" "4.0.0" "4.1.0" "4.1.1" "4.2.0" {
