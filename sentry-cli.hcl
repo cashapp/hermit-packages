@@ -43,7 +43,8 @@ version "2.0.2" "2.0.3" "2.0.4" "2.1.0" "2.2.0" "2.3.0" "2.3.1" "2.4.0" "2.4.1" 
         "2.21.1" "2.21.2" "1.76.0" "2.21.3" "2.21.4" "2.21.5" "2.22.2" "2.22.3" "2.23.0"
         "2.23.1" "2.23.2" "2.24.1" "2.25.0" "2.25.2" "2.25.3" "2.26.0" "2.27.0" "2.28.0"
         "2.28.5" "2.28.6" "2.29.1" "2.30.0" "2.30.1" "2.30.2" "2.30.4" "2.31.0" "2.31.1"
-        "2.31.2" "2.32.1" "2.32.2" "2.33.0" "2.33.1" "2.34.1" "2.35.0" "2.36.0" "2.36.1" {
+        "2.31.2" "2.32.1" "2.32.2" "2.33.0" "2.33.1" "2.34.1" "2.35.0" "2.36.0" "2.36.1"
+        "2.36.2" {
   auto-version {
     github-release = "getsentry/sentry-cli"
   }
@@ -299,4 +300,7 @@ sha256sums = {
   "https://github.com/getsentry/sentry-cli/releases/download/2.36.1/sentry-cli-Linux-x86_64": "4c3ff70421eecf5c4dbc6d15256a9c7eb28d6804d3e1b6717edf3a1a8b7a05c3",
   "https://github.com/getsentry/sentry-cli/releases/download/2.36.1/sentry-cli-Darwin-x86_64": "06efaf6b2c617dbefdb787e0a92ec9a029ef0afbeb808f1865f97e4201d61488",
   "https://github.com/getsentry/sentry-cli/releases/download/2.36.1/sentry-cli-Darwin-arm64": "b840504663e5e4c9cbc0e71f9d43081cc85504cfd70c1db01e73b170c4467204",
+  "https://github.com/getsentry/sentry-cli/releases/download/2.36.2/sentry-cli-Linux-x86_64": "f19511e24fda6c44b62da3fd8d5d7193eada4fa885626b275b930b3cd435435b",
+  "https://github.com/getsentry/sentry-cli/releases/download/2.36.2/sentry-cli-Darwin-x86_64": "301b46354c428d523c8c87b9c5fac52eb14b3bb7bcde912c58d498e170f1b1e4",
+  "https://github.com/getsentry/sentry-cli/releases/download/2.36.2/sentry-cli-Darwin-arm64": "decbca422a4801e390a034f79da236d3f3c658b7ff765a717e67173c0f7b40de",
 }
