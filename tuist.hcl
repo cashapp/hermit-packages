@@ -17,7 +17,7 @@ version "2.7.2" "3.0.1" "3.1.0" "3.2.0" "3.3.0" "3.4.0" "3.5.0" "3.6.0" "3.7.0" 
         "4.6.0" "4.7.0" "4.8.0" "4.8.1" "4.9.0" "4.10.1" "4.10.2" "4.11.0" "4.12.0" "4.12.1"
         "4.13.0" "4.14.0" "4.15.0" "4.16.0" "4.16.1" "4.17.0" "4.18.0" "4.19.0" "4.20.0"
         "4.21.0" "4.21.1" "4.21.2" "4.22.0" "4.23.0" "4.24.0" "4.25.0" "4.26.0" "4.27.0"
-        "4.28.0" {
+        "4.28.0" "4.28.1" {
   auto-version {
     github-release = "tuist/tuist"
   }
@@ -128,4 +128,5 @@ sha256sums = {
   "https://github.com/tuist/tuist/releases/download/4.26.0/tuist.zip": "141f7f77a96e4c3537a0065cea5f27eaa026d897a05f21f5d7bdcc5b401d0b7a",
   "https://github.com/tuist/tuist/releases/download/4.27.0/tuist.zip": "b96761836fabd2fd1793a77fde1a9109d3c71e47189d97f63438f2122c17131d",
   "https://github.com/tuist/tuist/releases/download/4.28.0/tuist.zip": "a691898eedb82ff74a8ffa570458d6c62ce3e65a115242e4bb5393edeb46e1fd",
+  "https://github.com/tuist/tuist/releases/download/4.28.1/tuist.zip": "f906487923538832a627e20dfd08fbf2552730c5eb6c7d1bc396c3a0b45a162e",
 }

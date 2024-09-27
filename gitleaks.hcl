@@ -19,7 +19,7 @@ platform "linux" "amd64" {
 }
 
 version "8.16.4" "8.17.0" "8.18.0" "8.18.1" "8.18.2" "8.18.3" "8.18.4" "8.19.0"
-        "8.19.1" "8.19.2" {
+        "8.19.1" "8.19.2" "8.19.3" {
   auto-version {
     github-release = "gitleaks/gitleaks"
   }
@@ -56,4 +56,7 @@ sha256sums = {
   "https://github.com/gitleaks/gitleaks/releases/download/v8.19.2/gitleaks_8.19.2_darwin_arm64.tar.gz": "050321b9c0d5e00f6d74fc9aa112c8b174c63919465adb21a504ba84dbcc6411",
   "https://github.com/gitleaks/gitleaks/releases/download/v8.19.2/gitleaks_8.19.2_linux_x64.tar.gz": "0810616ec7e5ea25409c0ca9ef513a6230c72f8a1edf018fd0ed41520c513e1f",
   "https://github.com/gitleaks/gitleaks/releases/download/v8.19.2/gitleaks_8.19.2_darwin_x64.tar.gz": "7e9b0c9284387db6d65827365f721c5f20855b8f69a0ae7548887b634f6e20f2",
+  "https://github.com/gitleaks/gitleaks/releases/download/v8.19.3/gitleaks_8.19.3_darwin_x64.tar.gz": "a321ce1cde223202723d97db0d6c3838f613237293fd7a46135c8bb7f2f1f89f",
+  "https://github.com/gitleaks/gitleaks/releases/download/v8.19.3/gitleaks_8.19.3_linux_x64.tar.gz": "b5bf51b2655f53e5e5fc81523bd7f0f9c27fcb7acbfa3ee23f97f8ac82f3e7f3",
+  "https://github.com/gitleaks/gitleaks/releases/download/v8.19.3/gitleaks_8.19.3_darwin_arm64.tar.gz": "fae173b5808b8d743b280910ca1b8f2c47b663b7ba818bc1ace513c7855c030c",
 }
