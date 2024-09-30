@@ -12,7 +12,7 @@ platform "linux" {
 }
 
 version "1.27.1" "1.28.0" "1.29.0" "1.29.1" "1.29.2" "1.30.0" "1.30.1" "1.30.2"
-        "1.31.0" "1.32.0" "1.32.1" "1.32.2" "1.33.0" "1.33.1" "1.33.2" {
+        "1.31.0" "1.32.0" "1.32.1" "1.32.2" "1.33.0" "1.33.1" "1.33.2" "1.33.3" {
   auto-version {
     github-release = "tidwall/tile38"
   }
@@ -49,4 +49,6 @@ sha256sums = {
   "https://github.com/tidwall/tile38/releases/download/1.33.1/tile38-1.33.1-linux-amd64.tar.gz": "64189061e956c2dc0b366b45cc316a48c4259d18c742d57c665a5ab640f457df",
   "https://github.com/tidwall/tile38/releases/download/1.33.2/tile38-1.33.2-darwin-amd64.zip": "517cc26232a1a520db065576ac74bd9aeadb5a1af3c0f91a6ea8052c11d5085b",
   "https://github.com/tidwall/tile38/releases/download/1.33.2/tile38-1.33.2-linux-amd64.tar.gz": "f472f945788b95f85252e6d182cf5b17ffd077b48de952333430b0f63a8fda04",
+  "https://github.com/tidwall/tile38/releases/download/1.33.3/tile38-1.33.3-linux-amd64.tar.gz": "677e805e9243661d30073af252fa44aad33746ec61a77f09e53a800d9aa0ea74",
+  "https://github.com/tidwall/tile38/releases/download/1.33.3/tile38-1.33.3-darwin-amd64.zip": "f93e5e982470c22480d06668be564fb9897df475541bbc9026427c4518408d11",
 }
