@@ -2,6 +2,11 @@ description = "pnpm is a package manager for JavaScript and Node.js projects. It
 test = "pnpm --version"
 binaries = ["pnpm"]
 
+env = {
+  "PNPM_HOME": "${HERMIT_ENV}/.hermit/pnpm",
+  "PATH": "${HERMIT_ENV}/.hermit/pnpm:${PATH}",
+}
+
 platform "linux" "amd64" {
   source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64"
 
