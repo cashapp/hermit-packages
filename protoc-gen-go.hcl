@@ -8,7 +8,7 @@ version "1.25.0" "1.26.0" "1.27.1" "1.28.0" {
 }
 
 version "1.28.1" "1.29.0" "1.29.1" "1.30.0" "1.31.0" "1.32.0" "1.33.0" "1.34.0"
-        "1.34.1" "1.34.2" {
+        "1.34.1" "1.34.2" "1.35.1" {
   auto-version {
     github-release = "protocolbuffers/protobuf-go"
   }
@@ -53,4 +53,7 @@ sha256sums = {
   "https://github.com/protocolbuffers/protobuf-go/releases/download/v1.34.2/protoc-gen-go.v1.34.2.linux.amd64.tar.gz": "b87bc134dee55576a842141bf0ed27761c635d746780fce5dee038c6dd16554f",
   "https://github.com/protocolbuffers/protobuf-go/releases/download/v1.34.2/protoc-gen-go.v1.34.2.darwin.amd64.tar.gz": "9b48d8f90add02e8e94e14962fed74e7ce2b2d6bda4dd42f1f4fbccf0f766f1a",
   "https://github.com/protocolbuffers/protobuf-go/releases/download/v1.34.2/protoc-gen-go.v1.34.2.darwin.arm64.tar.gz": "17aca7f948dbb624049030cf841e35895cf34183ba006e721247fdeb95ff2780",
+  "https://github.com/protocolbuffers/protobuf-go/releases/download/v1.35.1/protoc-gen-go.v1.35.1.linux.amd64.tar.gz": "b9415563e9e147b95f5d3573c92f9e25117a1ad0123cd0b6bd5e8590ea26bd7d",
+  "https://github.com/protocolbuffers/protobuf-go/releases/download/v1.35.1/protoc-gen-go.v1.35.1.darwin.amd64.tar.gz": "bf2ae6b0cefe860882aa71b409220a4159a349b25734b1f00ec310e9016ba6c4",
+  "https://github.com/protocolbuffers/protobuf-go/releases/download/v1.35.1/protoc-gen-go.v1.35.1.darwin.arm64.tar.gz": "e33fd29aa756dfcfab7f3d109023be871470ed4d2b220dbc397f674ca49505d9",
 }
