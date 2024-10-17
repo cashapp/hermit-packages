@@ -3,7 +3,7 @@ homepage = "http://toxiproxy.io"
 binaries = ["toxiproxy-*"]
 source = "https://github.com/Shopify/toxiproxy/releases/download/v${version}/toxiproxy_${version}_${os}_${arch}.tar.gz"
 
-version "2.4.0" "2.5.0" "2.6.0" "2.7.0" "2.8.0" "2.9.0" "2.10.0" {
+version "2.4.0" "2.5.0" "2.6.0" "2.7.0" "2.8.0" "2.9.0" "2.10.0" "2.11.0" {
   auto-version {
     github-release = "Shopify/toxiproxy"
   }
@@ -31,4 +31,7 @@ sha256sums = {
   "https://github.com/Shopify/toxiproxy/releases/download/v2.10.0/toxiproxy_2.10.0_linux_amd64.tar.gz": "7a655141ad565fa58c3ad7c8f47d10a97459782e319eadc4b21bc62d48980b18",
   "https://github.com/Shopify/toxiproxy/releases/download/v2.10.0/toxiproxy_2.10.0_darwin_amd64.tar.gz": "290a31f7486405228843662317d957f50abdbafb45dc37936b140d7d066f8410",
   "https://github.com/Shopify/toxiproxy/releases/download/v2.10.0/toxiproxy_2.10.0_darwin_arm64.tar.gz": "9b70c1e6b56927682b99481f1ac41da592801fedd9003ccb1c8d5717a171d198",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.11.0/toxiproxy_2.11.0_darwin_arm64.tar.gz": "8907aa2f8125dd49c0bc50ca162952bbea668123b9162a3204af3252e2246503",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.11.0/toxiproxy_2.11.0_linux_amd64.tar.gz": "4ead80247dd7b17d3575f59f05141dce3c44f7873ce9bd4a815bc33efac14c5e",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.11.0/toxiproxy_2.11.0_darwin_amd64.tar.gz": "786485ce922bbf57a10dfddbb3541c067bb42b198b296933afc925b189d55138",
 }
