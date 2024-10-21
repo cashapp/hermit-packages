@@ -16,7 +16,7 @@ linux {
 version "2.0.40" "2.1.26" "2.2.4" "2.4.2" "2.4.4" "2.4.7" "2.5.8" "2.6.4" "2.7.35"
         "2.13.26" "2.17.51" {
   auto-version {
-    git-tags = "git@github.com:aws/aws-cli.git"
+    git-tags = "https://github.com/aws/aws-cli.git"
   }
 }
 
