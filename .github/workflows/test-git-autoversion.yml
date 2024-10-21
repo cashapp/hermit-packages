@@ -1,0 +1,18 @@
+on:
+  workflow_dispatch:
+  push:
+name: Test Auto-version
+jobs:
+  auto-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Init Hermit
+        run: ./bin/hermit env -r >> $GITHUB_ENV
+      - name: Auto-version
+        env:
+          GITHUB_TOKEN: ${{ secrets.AUTO_VERSIONING }}
+        run: |
+          set -xe
+          git ls-remote --refs --tags git@github.com:aws/aws-cli.git
+
