@@ -14,5 +14,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.AUTO_VERSIONING }}
         run: |
           set -xe
-          git ls-remote --refs --tags git@github.com:aws/aws-cli.git
+          # ssh-keygen -o -t rsa -C "ssh-keygen@cashapp.github.io" -N "" -f ~/.ssh/id_rsa
+          git ls-remote --refs --tags https://github.com/aws/aws-cli.git
 
