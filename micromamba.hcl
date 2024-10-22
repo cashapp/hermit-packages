@@ -8,7 +8,7 @@ env = {
 }
 
 version "1.5.3-0" "1.5.5-0" "1.5.6-0" "1.5.7-0" "1.5.8-0" "1.5.9-0" "1.5.9-1"
-        "1.5.10-0" "2.0.0-0" "2.0.0-1" "2.0.1-0" "2.0.2-0" "2.0.2-1" {
+        "1.5.10-0" "2.0.0-0" "2.0.0-1" "2.0.1-0" "2.0.2-0" "2.0.2-1" "2.0.2-2" {
   auto-version {
     github-release = "mamba-org/micromamba-releases"
   }
@@ -90,4 +90,7 @@ sha256sums = {
   "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.2-1/micromamba-osx-arm64": "025adeb5cafbfda6aa92ab5bff40f03205ca80be99d2e467560d6542a479f2c2",
   "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.2-1/micromamba-osx-64": "f4343f359ad3b0e21c7d1ee7f1e416be13185e6b0dc17443eca68c000b6a5d76",
   "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.2-1/micromamba-linux-64": "37593d70b319947e6bb281a6a8bb7854c6808d6da53efa1c968da856a5e0b46e",
+  "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.2-2/micromamba-linux-64": "6e23e6f4c3d2257d2b8e6488a173f0b3f87190db3b32eb44cd3f26d78d89e922",
+  "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.2-2/micromamba-osx-arm64": "96862fab37f21c1656726a4675b69086f216b838ca094b3d2c567c2effe5477c",
+  "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.2-2/micromamba-osx-64": "c0bc38e61000e55435615a0b4d6a3a7ddd769f000081c8d17d61b02a0da88044",
 }
