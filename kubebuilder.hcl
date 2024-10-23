@@ -6,7 +6,7 @@ test = "kubebuilder version"
 requires = []
 
 version "3.7.0" "3.8.0" "3.9.0" "3.9.1" "3.10.0" "3.11.0" "3.11.1" "3.12.0" "3.13.0"
-        "3.14.0" "3.14.1" "3.14.2" "3.15.0" "3.15.1" "4.0.0" "4.1.0" "4.1.1" "4.2.0" {
+        "3.14.0" "3.14.1" "3.14.2" "3.15.0" "3.15.1" "4.0.0" "4.1.0" "4.1.1" "4.2.0" "4.3.0" {
   source = "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v${version}/kubebuilder_${os}_${arch}"
 
   on "unpack" {
@@ -76,4 +76,7 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.2.0/kubebuilder_linux_amd64": "287abc072ecbdf6387d98b7c0695bcbadc91996fe577b70b529de1a4089b46ae",
   "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.2.0/kubebuilder_darwin_amd64": "8834d5703befb83cb128661dba611e11b2df450fb2ff006f16951657898b6e02",
   "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.2.0/kubebuilder_darwin_arm64": "b3605a198b8f647142581e42f6b42078b0a63a331b3708bd96ce819704ab81bb",
+  "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.3.0/kubebuilder_darwin_arm64": "6191dd55ca9c76fdfb14ba76fdc32672778be9b990404b4fdc5f054f151ddc63",
+  "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.3.0/kubebuilder_darwin_amd64": "413c8ff27fe4c6ecfbcec0b3503f64e85c69d7aaac2eef5771ef06c7a51af88b",
+  "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.3.0/kubebuilder_linux_amd64": "abbea590681ba05870e5f3bc0232e021577c9ebceeb46705b7d2c2023378e981",
 }
