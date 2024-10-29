@@ -47,6 +47,12 @@ version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
   }
 }
 
+version "21.0.5.11.1" "21.0.4.7.1" {
+  auto-version {
+    github-release = "corretto/corretto-21"
+  }
+}
+
 sha256sums = {
   "https://corretto.aws/downloads/resources/11.0.15.9.1/amazon-corretto-11.0.15.9.1-macosx-aarch64.tar.gz": "939f0cc40f4dd749647e352ea2759fbf73c8c59662476ca237113abf9eed0710",
   "https://corretto.aws/downloads/resources/11.0.15.9.1/amazon-corretto-11.0.15.9.1-macosx-x64.tar.gz": "36afb7f091cd9b986a50c3f878f167c59eae615f004b2cb1c5c394f9f2fc215a",
@@ -120,4 +126,10 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-macosx-aarch64.tar.gz": "33b40aee3ae3db7d298bea0bd34574e755beb2f017ce4eb323f8e28960f0324d",
   "https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-macosx-x64.tar.gz": "17fb370f6b6e4f79e6fb6ee720631d2c3fd39d90f37d079352327aef4d834689",
   "https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-linux-x64.tar.gz": "31ccb0791940add3fa49b82fff5f87a65dbea27d294f58a753b9775f9752ecc7",
+  "https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-macosx-x64.tar.gz": "244a034c10774ae51f0b5c6fceed88f4afce6d60e9c560aa8c095bb463358541",
+  "https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-macosx-aarch64.tar.gz": "d93750240e4b8a81999b32e002cb1a08e537f2fe29af16bec8229dcf3c520222",
+  "https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-linux-x64.tar.gz": "ee88014fe758f93180f34cfca2158de4e1834472136296521998f52e146afb3c",
+  "https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-macosx-aarch64.tar.gz": "4e66663ff4c4ae664a4ba87563a8a6e6f0f41bb44f62377c2a1c80efc1f62686",
+  "https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-linux-x64.tar.gz": "d5027d69a01e65d102de6a5699252447b92b5f2e5c49eb27117001004443e1ac",
+  "https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-macosx-x64.tar.gz": "4274dd18d9d563d2493e8963c2796ab159200074b663c67d7adf55aaac18d541",
 }
