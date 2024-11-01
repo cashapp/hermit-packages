@@ -18,7 +18,7 @@ platform "darwin" "arm64" {
   source = "https://github.com/GitTools/GitVersion/releases/download/${version}/gitversion-osx-${arch}-${version}.tar.gz"
 }
 
-version "5.12.0" "6.0.0-beta.7" "6.0.0" "6.0.1" "6.0.2" "6.0.3" {
+version "5.12.0" "6.0.0-beta.7" "6.0.0" "6.0.1" "6.0.2" "6.0.3" "6.0.4" {
   auto-version {
     github-release = "GitTools/GitVersion"
   }
@@ -45,4 +45,7 @@ sha256sums = {
   "https://github.com/GitTools/GitVersion/releases/download/6.0.3/gitversion-linux-x64-6.0.3.tar.gz": "3633b523db80c0412b65cded86eacd27b570f243febceb5a23c7c160242ce8f9",
   "https://github.com/GitTools/GitVersion/releases/download/6.0.3/gitversion-osx-x64-6.0.3.tar.gz": "f00c4650d6d64b9c218ef61f2c9a0185523bc6d6f593e2d9311d93f44e56cdd9",
   "https://github.com/GitTools/GitVersion/releases/download/6.0.3/gitversion-osx-arm64-6.0.3.tar.gz": "2702d0f36bc471028f31384ab7440972bcd96ee16b7416acfecd8db7fb01e30e",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.4/gitversion-linux-x64-6.0.4.tar.gz": "a9e696b354b69e9584ce5ce83788fdd62833ab71689ed835cbd2490de314ae6b",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.4/gitversion-osx-arm64-6.0.4.tar.gz": "a5bba2126045d35f85dfbe97f6c239b58d34dcd293ad2fc299eeb56b36d09a61",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.4/gitversion-osx-x64-6.0.4.tar.gz": "b82a1f0f981528926d0ae87996f66d6be0da826f1fbb8139f671c5f45a2cd4c8",
 }
