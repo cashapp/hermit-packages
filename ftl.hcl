@@ -1,5 +1,5 @@
 description = "FTL - Towards a 𝝺-calculus for large-scale systems"
-binaries = ["ftl"]
+binaries = ["ftl*"]
 source = "https://github.com/TBD54566975/ftl/releases/download/v${version}/ftl-${version}.${os}-${arch}.tar.gz"
 sha256-source = "https://github.com/TBD54566975/ftl/releases/download/v${version}/checksums.txt"
 test = "ftl --version"
