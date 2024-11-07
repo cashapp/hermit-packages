@@ -15,7 +15,7 @@ platform "linux" "amd64" {
 }
 
 version "0.3.10" "0.3.11" "0.3.12" "0.3.13" "0.3.14" "0.3.15" "0.3.16" "0.3.17"
-        "0.3.18" "0.3.19" "0.3.20" "0.3.21" "0.3.22" "0.3.23" "0.3.24" {
+        "0.3.18" "0.3.19" "0.3.20" "0.3.21" "0.3.22" "0.3.23" "0.3.24" "0.3.25" {
   auto-version {
     github-release = "minamijoyo/tfmigrate"
   }
@@ -67,4 +67,7 @@ sha256sums = {
   "https://github.com/minamijoyo/tfmigrate/releases/download/v0.3.24/tfmigrate_0.3.24_darwin_arm64.tar.gz": "ae1bbddebd4eeb9469a60cb4f0a970708cd4e5d59ed673ef2538c335b8ff5c6c",
   "https://github.com/minamijoyo/tfmigrate/releases/download/v0.3.24/tfmigrate_0.3.24_darwin_amd64.tar.gz": "1c5b0fcb714c633c391e368512023c16d81f989fa47bd3a78ab5beeaf1f8aade",
   "https://github.com/minamijoyo/tfmigrate/releases/download/v0.3.24/tfmigrate_0.3.24_linux_amd64.tar.gz": "3e6e4ba2aa80681019dd27bdd18c942cb4eba0ca2bd77699de2ef7a0eb060222",
+  "https://github.com/minamijoyo/tfmigrate/releases/download/v0.3.25/tfmigrate_0.3.25_linux_amd64.tar.gz": "01a05f606c34d4f697152285dfdf04664086e7b87f7110e1bd0e25888059fe3f",
+  "https://github.com/minamijoyo/tfmigrate/releases/download/v0.3.25/tfmigrate_0.3.25_darwin_arm64.tar.gz": "e13bd64d42db4edb6fd0288fd74d4a80877f3fbc41841c83c2b0fdd083993e6f",
+  "https://github.com/minamijoyo/tfmigrate/releases/download/v0.3.25/tfmigrate_0.3.25_darwin_amd64.tar.gz": "f62a474f77cca91d7e6a205350ce554dd5b92aee5873493d94419c1139aa62aa",
 }
