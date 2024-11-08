@@ -3,7 +3,7 @@ test = "dyff version"
 binaries = ["dyff"]
 
 version "1.4.6" "1.4.7" "1.5.0" "1.5.1" "1.5.2" "1.5.3" "1.5.4" "1.5.5" "1.5.6" "1.5.7"
-        "1.5.8" "1.6.0" "1.7.0" "1.7.1" "1.8.0" "1.8.1" "1.9.0" "1.9.1" "1.9.2" {
+        "1.5.8" "1.6.0" "1.7.0" "1.7.1" "1.8.0" "1.8.1" "1.9.0" "1.9.1" "1.9.2" "1.9.3" {
   source = "https://github.com/homeport/dyff/releases/download/v${version}/dyff_${version}_${os}_${arch}.tar.gz"
 
   auto-version {
@@ -69,4 +69,7 @@ sha256sums = {
   "https://github.com/homeport/dyff/releases/download/v1.9.2/dyff_1.9.2_darwin_amd64.tar.gz": "98dde768ed4583132e3b62a01c43908427cde15329f8ff8015649b0051d2e726",
   "https://github.com/homeport/dyff/releases/download/v1.9.2/dyff_1.9.2_linux_amd64.tar.gz": "f3a1f4c5c338e80c13cede1d698434c66180cc704f74952873473f91a11cfd75",
   "https://github.com/homeport/dyff/releases/download/v1.9.2/dyff_1.9.2_darwin_arm64.tar.gz": "42a4fda07df7b100a468518ea77485823b6f7014fb47129243fcbf13da0f1842",
+  "https://github.com/homeport/dyff/releases/download/v1.9.3/dyff_1.9.3_darwin_arm64.tar.gz": "0b70206714f5f540211a9f447a901843c455c7203d0cee9c288f84110e799989",
+  "https://github.com/homeport/dyff/releases/download/v1.9.3/dyff_1.9.3_linux_amd64.tar.gz": "403a4c3e56e98e77836a1d92cbbbc9fb2c8acd9385c793158f06735e2d9ad7d6",
+  "https://github.com/homeport/dyff/releases/download/v1.9.3/dyff_1.9.3_darwin_amd64.tar.gz": "18e30f59f9c9d3dc70db9b6f24c96fa26b07ae343e1e750e50ffb771626232ad",
 }
