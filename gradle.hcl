@@ -7,7 +7,7 @@ repository = "https://github.com/gradle/gradle"
 
 version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "7.6.2"
         "7.6.3" "8.0-rc-2" "8.0.1" "8.0.2" "8.1.1" "8.2" "8.2.1" "8.3" "8.4" "8.5" "8.6" "8.7"
-        "8.8" "8.9" "8.10" "8.10.1" "8.10.2" {
+        "8.8" "8.9" "8.10" "8.10.1" "8.10.2" "8.11" {
   auto-version {
     github-release = "gradle/gradle"
   }
@@ -43,4 +43,5 @@ sha256sums = {
   "https://services.gradle.org/distributions/gradle-8.10-bin.zip": "5b9c5eb3f9fc2c94abaea57d90bd78747ca117ddbbf96c859d3741181a12bf2a",
   "https://services.gradle.org/distributions/gradle-8.10.1-bin.zip": "1541fa36599e12857140465f3c91a97409b4512501c26f9631fb113e392c5bd1",
   "https://services.gradle.org/distributions/gradle-8.10.2-bin.zip": "31c55713e40233a8303827ceb42ca48a47267a0ad4bab9177123121e71524c26",
+  "https://services.gradle.org/distributions/gradle-8.11-bin.zip": "57dafb5c2622c6cc08b993c85b7c06956a2f53536432a30ead46166dbca0f1e9",
 }
