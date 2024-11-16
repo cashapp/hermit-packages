@@ -9,7 +9,7 @@ platform "linux" "amd64" {
   source = "https://github.com/crate-ci/cargo-release/releases/download/v${version}/cargo-release-v${version}-x86_64-unknown-linux-gnu.tar.gz"
 }
 
-version "0.25.6" "0.25.7" "0.25.8" "0.25.10" "0.25.11" "0.25.12" {
+version "0.25.6" "0.25.7" "0.25.8" "0.25.10" "0.25.11" "0.25.12" "0.25.13" {
   auto-version {
     github-release = "crate-ci/cargo-release"
   }
@@ -28,4 +28,6 @@ sha256sums = {
   "https://github.com/crate-ci/cargo-release/releases/download/v0.25.11/cargo-release-v0.25.11-x86_64-apple-darwin.tar.gz": "6919c8c37530b113f2cc911ef6d447e1997419577e19950a467d6646f302ab59",
   "https://github.com/crate-ci/cargo-release/releases/download/v0.25.12/cargo-release-v0.25.12-x86_64-apple-darwin.tar.gz": "80de66ce07e076e97cf9a878dc29b2fa8ad5335e17a680ea52fbf5c3d338a278",
   "https://github.com/crate-ci/cargo-release/releases/download/v0.25.12/cargo-release-v0.25.12-x86_64-unknown-linux-gnu.tar.gz": "46977253b459ba73be983245dc71d6187ecf2f5513d24b4591daf9edf79dee9c",
+  "https://github.com/crate-ci/cargo-release/releases/download/v0.25.13/cargo-release-v0.25.13-x86_64-unknown-linux-gnu.tar.gz": "2000ae43e0bf7d36ba21253912b05fc73138b22d88ecdd73e14a8fdca01da5c1",
+  "https://github.com/crate-ci/cargo-release/releases/download/v0.25.13/cargo-release-v0.25.13-x86_64-apple-darwin.tar.gz": "51ff475a3190e648e5c72785329833b8ae47787e380ac9d22a5b136fbdadb03b",
 }
