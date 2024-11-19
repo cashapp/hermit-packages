@@ -1,5 +1,5 @@
-// https://developer.1password.com/docs/cli/
-// https://app-updates.agilebits.com/product_history/CLI2
+// CLI Documentation: https://developer.1password.com/docs/cli/
+// CLI Release History: https://app-updates.agilebits.com/product_history/CLI2
 description = "1Password CLI allows you to automate administrative tasks, securely provision secrets across development environments, and use biometrics to authenticate in the terminal."
 binaries = ["op"]
 test = "op --version"
@@ -29,7 +29,7 @@ linux {
 
 version "2.18.0" "2.19.0" "2.29.0" "2.30.0" "2.30.3" {
   auto-version {
-    version-pattern = "([0-9]{1,3}\.){1,2}([0-9]{1,3})"
+    version-pattern = "\\d+\\.\\d+\\.\\d+"
 
     html {
       url = "https://app-updates.agilebits.com/product_history/CLI2"
