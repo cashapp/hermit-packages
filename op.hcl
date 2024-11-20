@@ -32,8 +32,8 @@ version "2.18.0" "2.19.0" "2.29.0" "2.30.0" "2.30.3" {
     version-pattern = "\\d+\\.\\d+\\.\\d+"
 
     html {
-      url = "https://app-updates.agilebits.com/product_history/CLI2"
-      xpath = "/html/body/main/article[*]/h3/text()"
+      url = "https://aur.archlinux.org/cgit/aur.git/log/?h=1password-cli"
+      xpath = "//td[starts-with(., 'bump to')]"
     }
   }
 }
