@@ -32,8 +32,8 @@ version "2.18.0" "2.19.0" "2.29.0" "2.30.0" "2.30.3" {
     version-pattern = "\\d+\\.\\d+\\.\\d+"
 
     html {
-      url = "https://aur.archlinux.org/cgit/aur.git/log/?h=1password-cli"
-      xpath = "//td[starts-with(., 'bump to')]"
+      url = "https://community.chocolatey.org/packages/op#versionhistory"
+      xpath = "//tr/td[@class='version']//span | //tr/td[@class='version']//a/text()"
     }
   }
 }
