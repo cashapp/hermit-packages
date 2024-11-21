@@ -23,7 +23,8 @@ version "1.6.3" "1.6.4" "1.6.4-nightly.a995ada" "1.6.4-nightly.abab451" "1.7.0"
         "1.7.1" "1.7.2" "1.7.3" "1.7.4-nightly.125f34b" "1.8.0" "1.8.1" "1.8.2" "1.8.3"
         "1.8.4-nightly.a579bf7" "1.8.4-nightly.bd1d0c6" "1.8.4-nightly.d079e53" "1.8.4-nightly.7aaf0ce"
         "1.9.0" "1.9.1-nightly.12688b6" "1.9.1" "1.9.2" "1.9.3-nightly.75b4387" "1.9.3"
-        "1.9.4" "1.9.5-nightly.92879ae" "1.9.5-nightly.4713c52" "1.9.5-nightly.ff02a0b" {
+        "1.9.4" "1.9.5-nightly.92879ae" "1.9.5-nightly.4713c52" "1.9.5-nightly.ff02a0b"
+        "1.9.5-nightly.c0cccb2" {
   auto-version {
     github-release = "biomejs/biome"
     version-pattern = "^cli/v(.*)"
@@ -115,4 +116,7 @@ sha256sums = {
   "https://github.com/biomejs/biome/releases/download/cli%2Fv1.9.5-nightly.ff02a0b/biome-darwin-arm64": "fce830b845aaa1908d35a0313d0a8ac360c7fb7d4c3959c624eb7a427179aad1",
   "https://github.com/biomejs/biome/releases/download/cli%2Fv1.9.5-nightly.ff02a0b/biome-linux-x64": "ecfca735337664274cde9c3f039bd98d1adf4f40b41462555865b4f49c00dee5",
   "https://github.com/biomejs/biome/releases/download/cli%2Fv1.9.5-nightly.ff02a0b/biome-darwin-x64": "d1bf1072e3dc7ee20d5b3ee8e9d14e584ce47a53b2dbd79db9ff437fccb8e9a8",
+  "https://github.com/biomejs/biome/releases/download/cli%2Fv1.9.5-nightly.c0cccb2/biome-darwin-arm64": "afc8866a53b62ddf77083d4fc7897cc3b17e19a8aec08f472dbd834e0990dd35",
+  "https://github.com/biomejs/biome/releases/download/cli%2Fv1.9.5-nightly.c0cccb2/biome-darwin-x64": "ca82637a015050cf132db4698530ee7e42657fd0091ff9df643a34313ae9e1bc",
+  "https://github.com/biomejs/biome/releases/download/cli%2Fv1.9.5-nightly.c0cccb2/biome-linux-x64": "2e487eda9a3eadce989ad1f22ffdcfb7cae48705e0105016cb8b104a4fb7cc27",
 }
