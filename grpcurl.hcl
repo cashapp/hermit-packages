@@ -10,7 +10,7 @@ linux {
   source = "https://github.com/fullstorydev/grpcurl/releases/download/v${version}/grpcurl_${version}_linux_${xarch}.tar.gz"
 }
 
-version "1.8.1" "1.8.2" "1.8.5" "1.8.6" "1.8.7" "1.8.8" "1.8.9" "1.9.1" {
+version "1.8.1" "1.8.2" "1.8.5" "1.8.6" "1.8.7" "1.8.8" "1.8.9" "1.9.1" "1.9.2" {
   auto-version {
     github-release = "fullstorydev/grpcurl"
   }
@@ -33,4 +33,6 @@ sha256sums = {
   "https://github.com/fullstorydev/grpcurl/releases/download/v1.8.9/grpcurl_1.8.9_osx_x86_64.tar.gz": "d8f854f9d04aa837c794dc87ee2291e0fbb69df7e93116781896d1459ca7ab4c",
   "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.1/grpcurl_1.9.1_linux_x86_64.tar.gz": "588c9c429476d9ed66cd3b2ae32283a6da36e0cfbb7e446f5d6a1b68dc770214",
   "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.1/grpcurl_1.9.1_osx_x86_64.tar.gz": "d2cfc0eef0a488241d5c89770ad4ed887e975b5256d4c5617822a067b3b6f0c4",
+  "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.2/grpcurl_1.9.2_linux_x86_64.tar.gz": "1c7caf2628d8607d8a3bbee5ce7786bba4879abe566b075a4f129a97ccfa8465",
+  "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.2/grpcurl_1.9.2_osx_x86_64.tar.gz": "a8362532b4fda02e685d9769ba7442ce6891cc20aa69f74de4f83a7f7e8ead74",
 }
