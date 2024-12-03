@@ -1,5 +1,5 @@
 description = "Scripting extensions for kotlin (inclusions and dependencies)"
-requires = ["jre", "kotlin"]
+requires = ["jre", "kotlin-1.9.25"]
 source = "https://github.com/kscripting/kscript/releases/download/v${version}/kscript-${version}-bin.zip"
 binaries = ["bin/kscript"]
 strip = 1
