@@ -1,5 +1,6 @@
 description = "Create book from markdown files. Like Gitbook but implemented in Rust."
 binaries = ["mdbook"]
+test = "mdbook --version"
 
 linux {
   source = "https://github.com/rust-lang/mdBook/releases/download/v${version}/mdbook-v${version}-${xarch}-unknown-linux-musl.tar.gz"
