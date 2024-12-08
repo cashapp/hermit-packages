@@ -2,17 +2,21 @@ description = "Statically typed programming language (for JS and the JVM)"
 requires = ["jre"]
 source = "https://github.com/JetBrains/kotlin/releases/download/v${version}/kotlin-compiler-${version}.zip"
 // Do not expose "kotlinc" to prevent a conflict with "kotlin-native"
-binaries = ["bin/kapt", "bin/kotlin", "bin/kotlin-dce-js", "bin/kotlinc-js", "bin/kotlinc-jvm"]
+binaries = ["bin/kapt", "bin/kotlin", "bin/kotlinc-js", "bin/kotlinc-jvm"]
 strip = 1
 test = "kotlinc-jvm -version"
+
+version "2.1.0" {
+  auto-version {
+    github-release = "JetBrains/kotlin"
+  }
+}
 
 version "1.5.0" "1.5.20" "1.5.21" "1.5.30" "1.5.31" "1.6.0" "1.5.32" "1.6.10" "1.6.20"
         "1.6.21" "1.7.0" "1.7.10" "1.7.20" "1.7.21" "1.8.0" "1.8.10" "1.8.20" "1.8.21" "1.8.22"
         "1.9.0" "1.9.10" "1.9.20" "1.9.21" "1.9.22" "1.9.23" "1.9.24" "2.0.0" "1.9.25"
         "2.0.10" "2.0.20" "2.0.21" {
-  //auto-version {
-  //  github-release = "JetBrains/kotlin"
-  //}
+  binaries = ["bin/kapt", "bin/kotlin", "bin/kotlin-dce-js", "bin/kotlinc-js", "bin/kotlinc-jvm"]
 }
 
 sha256sums = {
