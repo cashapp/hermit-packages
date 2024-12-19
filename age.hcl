@@ -4,7 +4,7 @@ binaries = ["age", "age-keygen"]
 strip = 1
 source = "https://github.com/FiloSottile/age/releases/download/v${version}/age-v${version}-${os}-${arch}.tar.gz"
 
-version "1.0.0" "1.1.1" "1.2.0" {
+version "1.0.0" "1.1.1" "1.2.0" "1.2.1" {
   auto-version {
     github-release = "FiloSottile/age"
   }
@@ -20,4 +20,7 @@ sha256sums = {
   "https://github.com/FiloSottile/age/releases/download/v1.2.0/age-v1.2.0-darwin-amd64.tar.gz": "d1a2277615e974be710f1a2e3c5be070bfc030d91b381ed04f41cae1a5fc2efb",
   "https://github.com/FiloSottile/age/releases/download/v1.2.0/age-v1.2.0-darwin-arm64.tar.gz": "f9dbc0726394f509e3d515a0bef5ffc02d8e59a818bfffc0f4acd826405af292",
   "https://github.com/FiloSottile/age/releases/download/v1.2.0/age-v1.2.0-linux-amd64.tar.gz": "2ae71cb3ea761118937a944083f057cfd42f0ef11d197ce72fc2b8780d50c4ef",
+  "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-linux-amd64.tar.gz": "7df45a6cc87d4da11cc03a539a7470c15b1041ab2b396af088fe9990f7c79d50",
+  "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-arm64.tar.gz": "cf79875bd5970dc2dac60c87fa50cee1ff1f9a41b0eb273f65e174aff37c367a",
+  "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz": "424e1d64438a730626540b2e01e98d132a64214442ca9465b3e82336d12e633e",
 }
