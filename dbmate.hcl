@@ -24,7 +24,7 @@ on "unpack" {
 
 version "2.2.0" "2.3.0" "2.4.0" "2.5.0" "2.6.0" "2.7.0" "2.8.0" "2.9.0" "2.10.0"
         "2.11.0" "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.16.0" "2.17.0" "2.18.0" "2.19.0"
-        "2.20.0" "2.21.0" "2.22.0" "2.23.0" "2.24.0" {
+        "2.20.0" "2.21.0" "2.22.0" "2.23.0" "2.24.0" "2.24.2" {
   auto-version {
     github-release = "amacneil/dbmate"
   }
@@ -100,4 +100,7 @@ sha256sums = {
   "https://github.com/amacneil/dbmate/releases/download/v2.24.0/dbmate-linux-amd64": "6423e40c66838d434eb5bda183917405d133dd729ec91276311341d96dad4c58",
   "https://github.com/amacneil/dbmate/releases/download/v2.24.0/dbmate-macos-amd64": "50c13caf4545578d5eea8d27b58b1bbe61864758dc4f1e91eb4f3e30ea77697f",
   "https://github.com/amacneil/dbmate/releases/download/v2.24.0/dbmate-macos-arm64": "bebc6c868825717ee667f9c09b0e1f5a94b79e7200046c3ece20d73a1794b73f",
+  "https://github.com/amacneil/dbmate/releases/download/v2.24.2/dbmate-macos-arm64": "d94529bc2e6599d43e17a0359b45f0a346ce518fe78261799e00560e0c98d0cb",
+  "https://github.com/amacneil/dbmate/releases/download/v2.24.2/dbmate-linux-amd64": "a9ec135df5bb94b2c0ab4a44b2cc34c874a6e99329fccc0a0a0f00f495de4680",
+  "https://github.com/amacneil/dbmate/releases/download/v2.24.2/dbmate-macos-amd64": "04d8c032b822572d9d30805232aa394ec33b8143031c7c95b7cc05cb50a11c89",
 }
