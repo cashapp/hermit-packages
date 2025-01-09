@@ -1,5 +1,5 @@
 description = "A command-line tool designed to enforce consistent code formatting for Kotlin."
-runtime-dependencies = ["openjdk@17"]
+runtime-dependencies = ["openjre-17.0.4.1_1"]
 binaries = ["kotlin-format"]
 source = "https://repo1.maven.org/maven2/xyz/block/kotlin-formatter/kotlin-formatter/${version}/kotlin-formatter-${version}-all.jar"
 dont-extract = true
