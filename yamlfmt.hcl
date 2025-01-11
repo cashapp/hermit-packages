@@ -8,7 +8,8 @@ platform "amd64" {
   source = "https://github.com/google/yamlfmt/releases/download/v${version}/yamlfmt_${version}_${os}_x86_64.tar.gz"
 }
 
-version "0.7.1" "0.8.0" "0.9.0" "0.10.0" "0.11.0" "0.12.0" "0.12.1" "0.13.0" "0.14.0" {
+version "0.7.1" "0.8.0" "0.9.0" "0.10.0" "0.11.0" "0.12.0" "0.12.1" "0.13.0" "0.14.0"
+        "0.15.0" {
   auto-version {
     github-release = "google/yamlfmt"
   }
@@ -42,4 +43,7 @@ sha256sums = {
   "https://github.com/google/yamlfmt/releases/download/v0.14.0/yamlfmt_0.14.0_darwin_arm64.tar.gz": "3ba8e7b3311bed78c18db75449a861bd32e5ff002c1e839e861ac5a025909434",
   "https://github.com/google/yamlfmt/releases/download/v0.14.0/yamlfmt_0.14.0_linux_x86_64.tar.gz": "9bef16ce258a6d7e9ad93bb373d85af19624339308e24d3e491305bd95529ff8",
   "https://github.com/google/yamlfmt/releases/download/v0.14.0/yamlfmt_0.14.0_darwin_x86_64.tar.gz": "55584952ebf88406ebfe6e47e9df270209b68e77dcd1ff16932f6a097239f200",
+  "https://github.com/google/yamlfmt/releases/download/v0.15.0/yamlfmt_0.15.0_darwin_x86_64.tar.gz": "2de58a20e5ab85380acbb614dd17093ae52638a03e5a09b5c6be0a423a819831",
+  "https://github.com/google/yamlfmt/releases/download/v0.15.0/yamlfmt_0.15.0_darwin_arm64.tar.gz": "b14e25138b02de46a83773a82a7cad5972db99fc4878952db1ce3ae8cb0a0d37",
+  "https://github.com/google/yamlfmt/releases/download/v0.15.0/yamlfmt_0.15.0_linux_x86_64.tar.gz": "0696f84c34ec6a104633dc5f5897e67a3e3e34caa362739d5e9c2d5c70ada109",
 }

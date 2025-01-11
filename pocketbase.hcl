@@ -12,7 +12,7 @@ version "0.16.5" "0.16.6" "0.16.7" "0.16.8" "0.16.9" "0.16.10" "0.17.0" "0.17.1"
         "0.22.15" "0.22.16" "0.22.17" "0.22.18" "0.22.19" "0.22.20" "0.22.21" "0.22.22"
         "0.22.23" "0.22.24" "0.22.25" "0.22.26" "0.22.27" "0.23.0" "0.23.1" "0.23.2" "0.23.3"
         "0.23.4" "0.23.5" "0.23.6" "0.23.7" "0.23.8" "0.23.10" "0.23.11" "0.23.12" "0.24.0"
-        "0.24.1" {
+        "0.24.1" "0.24.2" {
   auto-version {
     github-release = "pocketbase/pocketbase"
   }
@@ -259,4 +259,7 @@ sha256sums = {
   "https://github.com/pocketbase/pocketbase/releases/download/v0.24.1/pocketbase_0.24.1_darwin_arm64.zip": "d6c4fc025ae2b7370ea7932db43ac7c946c9d164bf4a9a7b3a99c0939fe673b8",
   "https://github.com/pocketbase/pocketbase/releases/download/v0.24.1/pocketbase_0.24.1_darwin_amd64.zip": "0146bfa1cf2c8dc513d525e2608045ee9b5eb07d0b3ff49e239899e1575ba6d0",
   "https://github.com/pocketbase/pocketbase/releases/download/v0.24.1/pocketbase_0.24.1_linux_amd64.zip": "cb23ee65c86d90ff7147f0ab264f681412f7ef505bbf21a96979ab5cbdc46614",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.24.2/pocketbase_0.24.2_darwin_arm64.zip": "b98089c3399b396f67cf6f280f14cb0bc4da9d95e468fcc214f69a40909b6c9c",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.24.2/pocketbase_0.24.2_linux_amd64.zip": "8d634caf9f8d83a36ef09261a727bf610e7de17ef58070321f4f7562ba2c1646",
+  "https://github.com/pocketbase/pocketbase/releases/download/v0.24.2/pocketbase_0.24.2_darwin_amd64.zip": "4f77924a9be05df9dd107c6a7e8a3124611b5a3e33ef78f394c8cdf7a38e9be4",
 }
