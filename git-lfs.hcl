@@ -15,7 +15,7 @@ platform "linux" {
   source = "https://github.com/git-lfs/git-lfs/releases/download/v${version}/git-lfs-${os}-${arch}-v${version}.tar.gz"
 }
 
-version "3.3.0" "3.4.0" "3.4.1" "3.5.1" "3.6.0" {
+version "3.3.0" "3.4.0" "3.4.1" "3.5.1" "3.6.0" "3.6.1" {
   auto-version {
     github-release = "git-lfs/git-lfs"
   }
@@ -37,4 +37,7 @@ sha256sums = {
   "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-darwin-amd64-v3.6.0.zip": "80db8e51418816a1d44859b39678c1722b2e3d52894623d6a138b67d52d0ee5c",
   "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-darwin-arm64-v3.6.0.zip": "6d602e04f307f4129d7a4dd8c199c06d53d77555e08164297d943a9acc4afe02",
   "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-amd64-v3.6.0.tar.gz": "fff4746159aa7a7b42ef1aa30fed03b534df48a7dbe116d65296c0f0c43c594d",
+  "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-darwin-amd64-v3.6.1.zip": "b53c361e6c85479507ed39ba99b87ec0888ac52f5afd2084fc68af4103081391",
+  "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz": "2138d2e405a12f1a088272e06790b76699b79cb90d0317b77aafaf35de908d76",
+  "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-darwin-arm64-v3.6.1.zip": "83b4ea3b0c72ba19e3bc46e47e92476f4505cc96693333b9fa0a314dddacc4ba",
 }
