@@ -18,7 +18,7 @@ on "unpack" {
 }
 
 version "0.41" "0.40" "0.39" "0.42" "0.43" "0.44" "0.45" "0.46" "0.47" "0.49" "0.50"
-        "0.51" "0.52" "0.53" {
+        "0.51" "0.52" "0.53" "0.54" {
   auto-version {
     github-release = "facebook/ktfmt"
   }
@@ -39,4 +39,5 @@ sha256sums = {
   "https://repo1.maven.org/maven2/com/facebook/ktfmt/0.51/ktfmt-0.51-jar-with-dependencies.jar": "e9582bd1a032845cb712df55fa11f95b38dad8813bee378c21cca9eb521780c4",
   "https://repo1.maven.org/maven2/com/facebook/ktfmt/0.52/ktfmt-0.52-jar-with-dependencies.jar": "8fcdfb08a4b94741eb3cbb698d54eeee06661bd9447f90c7bc950ff4e750ebf9",
   "https://repo1.maven.org/maven2/com/facebook/ktfmt/0.53/ktfmt-0.53-jar-with-dependencies.jar": "76d05c614fe1864788557170fe89410f75134866a9f84011f9bd570ca12526b1",
+  "https://repo1.maven.org/maven2/com/facebook/ktfmt/0.54/ktfmt-0.54-jar-with-dependencies.jar": "5e7eb28a0b2006d1cefbc9213bfc73a8191ec2f85d639ec4fc4ec0cd04212e82",
 }
