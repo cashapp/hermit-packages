@@ -101,7 +101,7 @@ sha256sums = {
   "https://download.docker.com/mac/static/stable/x86_64/docker-27.4.1.tgz": "f32785ea4b5afa321116e65b554d79e96037b524b77a688c20c53b74358c940b",
   "https://download.docker.com/mac/static/stable/aarch64/docker-27.4.1.tgz": "29197da09ad014aa601d6669cef8cbc7ce0267feb18baf9c1c86d82a2213457f",
   "https://download.docker.com/linux/static/stable/x86_64/docker-27.4.1.tgz": "9dc39fa726db525f22bd6861308a09f6c31a14de3e512ba1576a329b833798f5",
-  "https://download.docker.com/mac/static/stable/x86_64/docker-27.5.0.tgz": "acba6a8091f2964c06ecc94881659bba0f9cb363952f86cfb37be6408c6e7566",
-  "https://download.docker.com/linux/static/stable/x86_64/docker-27.5.0.tgz": "c5417d206b8b59a53d70b0ea19b29813fd64a22459d9743f318b36936aff597a",
-  "https://download.docker.com/mac/static/stable/aarch64/docker-27.5.0.tgz": "e937f65df15da948e476be5be30d52855d265e9854cc328906d744730926634e",
+  "https://download.docker.com/mac/static/stable/x86_64/docker-27.5.0.tgz": "02bc9c8a9f56124cc04e006703e137f494a60541e4749d4007de9762aae57fc4",
+  "https://download.docker.com/linux/static/stable/x86_64/docker-27.5.0.tgz": "4fca6bb9a3f4e13c50dea35aeef57aad735aed8e7eff67ef3741f777ce2c2eb7",
+  "https://download.docker.com/mac/static/stable/aarch64/docker-27.5.0.tgz": "268d04a2622579a611fc873e44b49de2ee3e0f0ad874b712160300fb60b9aba7",
 }
