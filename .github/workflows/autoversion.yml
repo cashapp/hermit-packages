@@ -28,7 +28,7 @@ jobs:
           # done
 
           hermit -d manifest auto-version --continue-on-error --update-digests $(ls -1 *.hcl | shuf)
-          curl https://api.github.com/rate_limit
+          curl --header "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/rate_limit
           if git diff --exit-code HEAD; then
             echo "No change"
             exit 0
