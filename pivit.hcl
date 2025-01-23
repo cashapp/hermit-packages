@@ -9,7 +9,7 @@ on "unpack" {
   }
 }
 
-version "0.1.0" "0.2.0" "0.3.0" "0.4.0" "0.5.0" "0.6.0" "0.7.0" "0.9.0" "0.9.1" {
+version "0.1.0" "0.2.0" "0.3.0" "0.4.0" "0.5.0" "0.6.0" "0.7.0" "0.9.0" "0.9.1" "0.9.2" {
   auto-version {
     github-release = "cashapp/pivit"
   }
@@ -43,4 +43,7 @@ sha256sums = {
   "https://github.com/cashapp/pivit/releases/download/v0.9.1/pivit-darwin-amd64.gz": "1b95f1961be546f898cb18615da54e4c817c35ef9ccc9b5899b6d7894e480d4b",
   "https://github.com/cashapp/pivit/releases/download/v0.9.1/pivit-darwin-arm64.gz": "822b2a28a81e385595109718c324090bd0b2ca887d50ae4fbe2b47b0f13464b7",
   "https://github.com/cashapp/pivit/releases/download/v0.9.1/pivit-linux-amd64.gz": "31797ded7d76e9d802da361afa0b8becc92a3cf8e6433865d575dcb4368b7552",
+  "https://github.com/cashapp/pivit/releases/download/v0.9.2/pivit-darwin-arm64.gz": "1aec61352efebda1d82ff23644ed3a0372249992cf34daa0b0f263087761ce52",
+  "https://github.com/cashapp/pivit/releases/download/v0.9.2/pivit-linux-amd64.gz": "1da159b4f2ecad09bba5ea05ef23f208c55afea01674184c9f380023e3822a76",
+  "https://github.com/cashapp/pivit/releases/download/v0.9.2/pivit-darwin-amd64.gz": "e7e61c9347f54e6f0362b2a2e19d5bff5ec1d3627750c797da5f0bbf6c12d193",
 }
