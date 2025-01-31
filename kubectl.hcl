@@ -62,6 +62,15 @@ version "1.31.0" "1.31.1" "1.31.2" "1.31.3" "1.31.4" "1.31.5" {
   }
 }
 
+version "1.32.0" "1.32.1" {
+  auto-version {
+    html {
+      url = "https://kubernetes.io/releases/"
+      xpath = "//h3[contains(@id, 'release-v1-32')]/following-sibling::div//span[contains(@class, 'release-prevpatches')]/a[last()]/text()"
+    }
+  }
+}
+
 sha256sums = {
   "https://amazon-eks.s3-us-west-2.amazonaws.com/1.13.7/2019-06-11/bin/darwin/amd64/kubectl": "779c49d6bfe548a3792cf0c69b635c2c604ec62ed788e080efd904772c75b44d",
   "https://amazon-eks.s3-us-west-2.amazonaws.com/1.13.7/2019-06-11/bin/linux/amd64/kubectl": "183e76989c95b4512054a73130617d2e852a4b990e579a6d6b1d110b6bc6e6ac",
@@ -192,4 +201,10 @@ sha256sums = {
   "https://dl.k8s.io/release/v1.31.2/bin/darwin/arm64/kubectl": "0792d570d20fc495ea64baec26cd6bde961434b900038f2952f3334501872e80",
   "https://dl.k8s.io/release/v1.31.3/bin/darwin/amd64/kubectl": "66f49bbb19869f0735517a331c946fe1296d2f0f8cb5e7e7fb6ba33a8cee113c",
   "https://dl.k8s.io/release/v1.31.5/bin/darwin/arm64/kubectl": "96e50f591db5212b50fde1f77b2c0f73c936340d83c92d2c412f0e8379e70079",
+  "https://dl.k8s.io/release/v1.32.0/bin/linux/amd64/kubectl": "646d58f6d98ee670a71d9cdffbf6625aeea2849d567f214bc43a35f8ccb7bf70",
+  "https://dl.k8s.io/release/v1.32.0/bin/darwin/amd64/kubectl": "516585916f499077fac8c2fdd2a382818683f831020277472e6bcf8d1a6f9be4",
+  "https://dl.k8s.io/release/v1.32.0/bin/darwin/arm64/kubectl": "5bfd5de53a054b4ef614c60748e28bf47441c7ed4db47ec3c19a3e2fa0eb5555",
+  "https://dl.k8s.io/release/v1.32.1/bin/darwin/arm64/kubectl": "5b89f9598e2e7da04cc0b5dd6e8daca01d23855fd00c8ea259fd2aab993114db",
+  "https://dl.k8s.io/release/v1.32.1/bin/linux/amd64/kubectl": "e16c80f1a9f94db31063477eb9e61a2e24c1a4eee09ba776b029048f5369db0c",
+  "https://dl.k8s.io/release/v1.32.1/bin/darwin/amd64/kubectl": "8bffe90f5a034d392a0ba6fd7ee16c0d40b1dba1ccc4350821102c5d5c56d846",
 }
