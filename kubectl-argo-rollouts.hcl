@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "1.7.2" "1.7.1" {
+version "1.7.2" "1.7.1" "1.8.0" {
   auto-version {
     github-release = "argoproj/argo-rollouts"
   }
@@ -24,4 +24,7 @@ sha256sums = {
   "https://github.com/argoproj/argo-rollouts/releases/download/v1.7.1/kubectl-argo-rollouts-darwin-amd64": "173f56252e6d08fe564638a0e28360994430e4ca444713bd5ccfe6392d4a02fa",
   "https://github.com/argoproj/argo-rollouts/releases/download/v1.7.1/kubectl-argo-rollouts-darwin-arm64": "ff1bd9c502408431d96a053e5db4e2b9561c21060ef6ba66b9ca6aa0a21ed80a",
   "https://github.com/argoproj/argo-rollouts/releases/download/v1.7.1/kubectl-argo-rollouts-linux-amd64": "b42859a4ead2b02dc1a53a101490f60adc9915b602e033ddc49e78e74a20895b",
+  "https://github.com/argoproj/argo-rollouts/releases/download/v1.8.0/kubectl-argo-rollouts-darwin-amd64": "1bbdfeb40ad8e2f4d27b37725fe730860f88b723e33b155aac462172a0c93b15",
+  "https://github.com/argoproj/argo-rollouts/releases/download/v1.8.0/kubectl-argo-rollouts-linux-amd64": "d27e53ad67f0a74a09229dbbbbd7e55c359891387d689c67a7b79f7e191d804f",
+  "https://github.com/argoproj/argo-rollouts/releases/download/v1.8.0/kubectl-argo-rollouts-darwin-arm64": "cb0d372e8b7be01951d4f54dfcaffced281c68620e422065516c1f896a80bd6a",
 }
