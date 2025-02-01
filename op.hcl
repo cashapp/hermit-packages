@@ -5,7 +5,7 @@ source = "https://cache.agilebits.com/dist/1P/op2/pkg/v${version}/op_${os}_${arc
 binaries = ["op"]
 test = "op --version"
 
-version "2.30.3" {
+version "2.20.0" "2.21.0" "2.22.0" "2.23.0" "2.24.0" "2.25.0" "2.25.1" "2.26.0" "2.26.1" "2.27.0" "2.28.0" "2.28.0" "2.29.0" "2.30.3" {
   auto-version {
     html {
       url = "https://app-updates.agilebits.com/product_history/CLI2"
