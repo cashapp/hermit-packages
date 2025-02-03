@@ -10,6 +10,13 @@ platform "amd64" {
     "arch_": "x86_64",
   }
 }
+
+platform "arm64" {
+  vars = {
+    "arch_": "x86_64",
+  }
+}
+
 on "unpack" {
   rename {
     from = "${root}/hadolint-${os}-${arch_}"
