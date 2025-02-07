@@ -10,7 +10,7 @@ platform "linux" {
   source = "https://github.com/taiki-e/parse-changelog/releases/download/v${version}/parse-changelog-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
-version "0.6.8" "0.6.9" "0.6.10" "0.6.11" {
+version "0.6.8" "0.6.9" "0.6.10" "0.6.11" "0.6.12" {
   auto-version {
     github-release = "taiki-e/parse-changelog"
   }
@@ -29,4 +29,7 @@ sha256sums = {
   "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.11/parse-changelog-x86_64-unknown-linux-gnu.tar.gz": "a22035399734add1d950f7e13017e512589a84c61647d0d927ae7034ad24068e",
   "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.11/parse-changelog-x86_64-apple-darwin.tar.gz": "9176db18ab6adc3bb1d4302eb52c83a9d46319df2b4671fccc4669dd8ce36fc6",
   "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.11/parse-changelog-aarch64-apple-darwin.tar.gz": "e4e841ba10e7a0e314ec192142c016974f4999a03fc0f37c8803708654098c91",
+  "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.12/parse-changelog-aarch64-apple-darwin.tar.gz": "cad9f0ced004adf49f217da98a28e0a2e8aa720ad082f1a64fa9b3b507405b78",
+  "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.12/parse-changelog-x86_64-unknown-linux-gnu.tar.gz": "c92e35a8b86d662c6d08038791e3bb4702e626162792013c979f33f8b11551ff",
+  "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.12/parse-changelog-x86_64-apple-darwin.tar.gz": "d88b967f24eee717a34126bd1104a8eeeb561894693d9a2e760b6cf1c0edfbc9",
 }
