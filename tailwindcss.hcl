@@ -37,7 +37,7 @@ platform "windows" {
   }
 }
 
-version "3.4.16" "3.4.17" "4.0.0" "4.0.1" "4.0.2" "4.0.3" "4.0.4" "4.0.5" {
+version "3.4.16" "3.4.17" "4.0.0" "4.0.1" "4.0.2" "4.0.3" "4.0.4" "4.0.5" "4.0.6" {
   auto-version {
     github-release = "tailwindlabs/tailwindcss"
   }
@@ -72,4 +72,7 @@ sha256sums = {
   "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.0.5/tailwindcss-macos-x64": "40d9012162c7abd7e2a7ec9a1e03d082c280848b189cf9898f786787a490dcd3",
   "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.0.5/tailwindcss-linux-x64": "44e5cd56d4de6242a4e02b8b3353678e14f5504b484285b3055e8981726bda9f",
   "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.0.5/tailwindcss-macos-arm64": "9c5900cb0dfa544a6c326b82ea51ff8467b6bbe2841c8ddf6981def15abbd6be",
+  "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.0.6/tailwindcss-linux-x64": "d7810c5de9e9bcfb0a967bb991e6cdbb73267d6c1aed461f0201248791305513",
+  "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.0.6/tailwindcss-macos-arm64": "168a677ee1980638d091f3c774859a729a26f56b00551c073d0ff5e3069647bb",
+  "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.0.6/tailwindcss-macos-x64": "ac58da0ed3e324ef56e86fffed4bb908913ea41d2ca8bacc0720b9a6fe050381",
 }
