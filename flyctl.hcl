@@ -1,6 +1,13 @@
 description = "Command line tools for fly.io services"
-binaries = ["flyctl"]
+binaries = ["flyctl", "fly"]
 test = "flyctl version"
+
+on "unpack" {
+  symlink {
+    from = "${root}/flyctl"
+    to = "${root}/fly"
+  }
+}
 
 platform "darwin" "arm64" {
   source = "https://github.com/superfly/flyctl/releases/download/v${version}/flyctl_${version}_macOS_arm64.tar.gz"
