@@ -39,7 +39,7 @@ version "0.4.0" "0.5.0" "0.6.0" "0.7.0" "0.8.0" "0.9.0" "0.10.0" "0.10.1" "0.11.
         "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" "0.18.0" "0.19.0" "0.20.0"
         "0.20.1" "0.21.0" "0.21.1" "0.21.2" "0.21.3" "0.22.0" "0.23.0" "0.23.1" "0.24.0"
         "0.25.0" "0.26.0" "0.26.1" "0.26.2" "0.27.0" "0.28.0" "0.29.0" "0.29.1" "0.29.2"
-        "0.30.0" "0.30.2" {
+        "0.30.0" "0.30.2" "0.31.0" {
   auto-version {
     github-release = "StyraInc/regal"
   }
@@ -161,4 +161,7 @@ sha256sums = {
   "https://github.com/StyraInc/regal/releases/download/v0.30.2/regal_Darwin_x86_64": "88354ac5a0ad5985357efd8ce113427f83b2926d05ab310eea71fc22438d1e62",
   "https://github.com/StyraInc/regal/releases/download/v0.30.2/regal_Darwin_arm64": "bf062631699c49df1e53e242eb1de659dfe8cc2157774079b327aed30d237fa7",
   "https://github.com/StyraInc/regal/releases/download/v0.30.2/regal_Linux_x86_64": "9f1dfb2ddccea4f8fdf31c7f64959b15239649d6d918938e0d564ea37dc97412",
+  "https://github.com/StyraInc/regal/releases/download/v0.31.0/regal_Linux_x86_64": "76959391d89fa1e998b8e58b1a75c12d5710137fc0c662958a86470f5dadfdc1",
+  "https://github.com/StyraInc/regal/releases/download/v0.31.0/regal_Darwin_arm64": "94fc7e317934dc407a75560929cf7d723c8e032a8bfce2ade7019c71f2aa07bb",
+  "https://github.com/StyraInc/regal/releases/download/v0.31.0/regal_Darwin_x86_64": "28b072fafb97a2ded32285af11b5dd630d2fb56ba2f768caa3ac1d4f6fe88bb3",
 }
