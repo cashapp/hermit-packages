@@ -1,13 +1,6 @@
 description = "Command line tools for fly.io services"
-binaries = ["flyctl", "fly"]
+binaries = ["flyctl"]
 test = "flyctl version"
-
-on "unpack" {
-  symlink {
-    from = "${root}/flyctl"
-    to = "${root}/fly"
-  }
-}
 
 platform "darwin" "arm64" {
   source = "https://github.com/superfly/flyctl/releases/download/v${version}/flyctl_${version}_macOS_arm64.tar.gz"
@@ -19,6 +12,21 @@ platform "darwin" "amd64" {
 
 platform "linux" "amd64" {
   source = "https://github.com/superfly/flyctl/releases/download/v${version}/flyctl_${version}_Linux_x86_64.tar.gz"
+}
+
+version "0.3.77" {
+  binaries = ["flyctl", "fly"]
+
+  on "unpack" {
+    symlink {
+      from = "${root}/flyctl"
+      to = "${root}/fly"
+      }
+  }
+
+  auto-version {
+    github-release = "superfly/flyctl"
+  }
 }
 
 version "0.0.260" "0.0.271" "0.0.272" "0.0.275" "0.0.276" "0.0.277" "0.0.278"
@@ -70,11 +78,7 @@ version "0.0.260" "0.0.271" "0.0.272" "0.0.275" "0.0.276" "0.0.277" "0.0.278"
         "0.3.46" "0.3.47" "0.3.48" "0.3.49" "0.3.50" "0.3.51" "0.3.53" "0.3.54" "0.3.55"
         "0.3.56" "0.3.57" "0.3.58" "0.3.59" "0.3.60" "0.3.61" "0.3.62" "0.3.63" "0.3.64"
         "0.3.65" "0.3.66" "0.3.67" "0.3.68" "0.3.69" "0.3.70" "0.3.71" "0.3.72" "0.3.73"
-        "0.3.74" "0.3.75" "0.3.77" {
-  auto-version {
-    github-release = "superfly/flyctl"
-  }
-}
+        "0.3.74" "0.3.75" {}
 
 sha256sums = {
   "https://github.com/superfly/flyctl/releases/download/v0.0.260/flyctl_0.0.260_macOS_arm64.tar.gz": "49a958fbe312cad20984d847a825c15ad7dbdb0f9fd8ebb0f23a37d5661f8188",
