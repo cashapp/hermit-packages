@@ -2,7 +2,8 @@ description = "Semantic Version Util is a tool to manage semantic versions at ea
 test = "svu --version"
 binaries = ["svu"]
 
-version "1.9.0" "1.10.1" "1.10.2" "1.11.0" "1.12.0" "2.0.1" "2.1.0" "2.1.1" "2.2.0" {
+version "1.9.0" "1.10.1" "1.10.2" "1.11.0" "1.12.0" "2.0.1" "2.1.0" "2.1.1" "2.2.0"
+        "3.0.0" {
   source = "https://github.com/caarlos0/svu/releases/download/v${version}/svu_${version}_${os}_${arch}.tar.gz"
 
   platform "darwin" {
@@ -40,4 +41,6 @@ sha256sums = {
   "https://github.com/caarlos0/svu/releases/download/v2.1.1/svu_2.1.1_linux_amd64.tar.gz": "5da10d8fb1a0bb27a18504d6ad7d7ec9935db0cf49f0f71534563885c464ccfd",
   "https://github.com/caarlos0/svu/releases/download/v2.2.0/svu_2.2.0_linux_amd64.tar.gz": "55bd4579323ec589c1e96d0242295e231c526abb1ae8726945c60385510d96b5",
   "https://github.com/caarlos0/svu/releases/download/v2.2.0/svu_2.2.0_darwin_all.tar.gz": "c8e5511b57a5ea1f9eed6d0430f27ad67b8438e1459b9915217dae96772df11e",
+  "https://github.com/caarlos0/svu/releases/download/v3.0.0/svu_3.0.0_linux_amd64.tar.gz": "44eb2f3bbda854e715c992237be3e87e7d05c08b25be5d8d1379a52c0116c4ec",
+  "https://github.com/caarlos0/svu/releases/download/v3.0.0/svu_3.0.0_darwin_all.tar.gz": "8ec9971a66e8cb66f4fedd3448584fd49f03e8b0d63d9e1abb81225e7e5ba672",
 }
