@@ -3,7 +3,7 @@ binaries = ["civo"]
 source = "https://github.com/civo/cli/releases/download/v${version}/civo-${version}-${os}-${arch}.tar.gz"
 test = "civo --version"
 
-version "1.1.92" "1.1.93" "1.1.95" {
+version "1.1.92" "1.1.93" "1.1.95" "1.1.97" {
   auto-version {
     github-release = "civo/cli"
   }
@@ -19,4 +19,7 @@ sha256sums = {
   "https://github.com/civo/cli/releases/download/v1.1.95/civo-1.1.95-darwin-arm64.tar.gz": "29324e1db1267ac6a9aa2311e02478598e2748faad31dcc5ed05f02865708b35",
   "https://github.com/civo/cli/releases/download/v1.1.95/civo-1.1.95-linux-amd64.tar.gz": "de600e214c0bf4ac2b881b8140d8f6ab77ffee639874cf31f70937a4ff1ba5f8",
   "https://github.com/civo/cli/releases/download/v1.1.95/civo-1.1.95-darwin-amd64.tar.gz": "1bbcb4387a7c9dd0ebdb8e57bc49f34a06ea272f5b05dcb84065d16a4013ca37",
+  "https://github.com/civo/cli/releases/download/v1.1.97/civo-1.1.97-linux-amd64.tar.gz": "d8ac54ee6c1b8edadf17c2a10ffb8020ca605220fea488ec1735694a3715ece4",
+  "https://github.com/civo/cli/releases/download/v1.1.97/civo-1.1.97-darwin-amd64.tar.gz": "6577d4302095b8ffd0060d8c54e0dcad13b08986b775ab229038e3dc8d80d465",
+  "https://github.com/civo/cli/releases/download/v1.1.97/civo-1.1.97-darwin-arm64.tar.gz": "06fb0ec245eb7d4f3911704ca0fec4ef5d7c11392bb6dab337cf0684445a1152",
 }
