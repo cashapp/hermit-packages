@@ -1,5 +1,6 @@
 description = "like jq but for Markdown: find specific elements in a md doc"
 binaries = ["mdq"]
+test = "mdq --version"
 
 platform "darwin" {
   source = "https://github.com/yshavit/mdq/releases/download/v${version}/mdq-macos.zip"
