@@ -6,39 +6,24 @@ vars = {
   "arch_": "${arch}",
 }
 
-platform "darwin" {
-  source = "https://github.com/goss-org/goss/releases/download/v${version}/goss-alpha-${os}-${arch_}"
+version "0.4.9" {
+  auto-version {
+    github-release = "goss-org/goss"
+  }
 
   on "unpack" {
     rename {
-      from = "${root}/goss-alpha-${os}-${arch_}"
+      from = "${root}/goss-${os}-${arch}"
       to = "${root}/goss"
     }
   }
-}
 
-platform "darwin" "arm64" {
-  vars = {
-    "arch_": "amd64",
-  }
-}
-
-platform "windows" {
-  source = "https://github.com/goss-org/goss/releases/download/v${version}/goss-alpha-${os}-${arch_}"
-
-  on "unpack" {
-    rename {
-      from = "${root}/goss-alpha-${os}-${arch_}.exe"
-      to = "${root}/goss.exe"
-    }
-  }
-}
-
-platform "linux" {
-  on "unpack" {
-    rename {
-      from = "${root}/goss-${os}-${arch_}"
-      to = "${root}/goss"
+  platform "windows" {
+    on "unpack" {
+      rename {
+        from = "${root}/goss-${os}-${arch}.exe"
+        to = "${root}/goss.exe"
+      }
     }
   }
 }
@@ -46,6 +31,43 @@ platform "linux" {
 version "0.3.21" "0.3.22" "0.3.23" {
   auto-version {
     github-release = "goss-org/goss"
+  }
+
+  platform "darwin" "arm64" {
+    vars = {
+      "arch_": "amd64",
+    }
+  }
+
+  platform "linux" {
+    on "unpack" {
+      rename {
+        from = "${root}/goss-${os}-${arch_}"
+        to = "${root}/goss"
+      }
+    }
+  }
+
+  platform "darwin" {
+    source = "https://github.com/goss-org/goss/releases/download/v${version}/goss-alpha-${os}-${arch_}"
+
+    on "unpack" {
+      rename {
+        from = "${root}/goss-alpha-${os}-${arch_}"
+        to = "${root}/goss"
+      }
+    }
+  }
+
+  platform "windows" {
+    source = "https://github.com/goss-org/goss/releases/download/v${version}/goss-alpha-${os}-${arch_}"
+
+    on "unpack" {
+      rename {
+        from = "${root}/goss-alpha-${os}-${arch_}.exe"
+        to = "${root}/goss.exe"
+      }
+    }
   }
 }
 
@@ -56,4 +78,7 @@ sha256sums = {
   "https://github.com/goss-org/goss/releases/download/v0.3.22/goss-alpha-darwin-amd64": "33a20909779e1e9dd21e4076f8e03856c571174a5e517918b2489821573062de",
   "https://github.com/goss-org/goss/releases/download/v0.3.23/goss-linux-amd64": "9e9f24e25f86d6adf2e669a9ffbe8c3d7b9b439f5f877500dea02ba837e10e4d",
   "https://github.com/goss-org/goss/releases/download/v0.3.23/goss-alpha-darwin-amd64": "e155386cff97900b75e8ec1bf6d1f0c77431aa7daa6255ab8a93dbd6057ed323",
+  "https://github.com/goss-org/goss/releases/download/v0.4.9/goss-linux-amd64": "87dd36cfa1b8b50554e6e2ca29168272e26755b19ba5438341f7c66b36decc19",
+  "https://github.com/goss-org/goss/releases/download/v0.4.9/goss-darwin-amd64": "e0c1b22360ced9f5394e64244877dfe1d3488aee9de75c56b9e02ae72c3fe4ff",
+  "https://github.com/goss-org/goss/releases/download/v0.4.9/goss-darwin-arm64": "111d2ada89f8787838d176011de2fd0cfe8959c64c2698ce28feb587337d01fc",
 }

@@ -25,7 +25,7 @@ version "3.33.2" "3.34.0" "3.34.1" "3.35.0" "3.35.1" "3.35.2" "3.35.3" "3.36.0"
         "3.128.0" "3.129.0" "3.130.0" "3.131.0" "3.132.0" "3.133.0" "3.134.0" "3.134.1"
         "3.135.0" "3.135.1" "3.136.0" "3.136.1" "3.137.0" "3.138.0" "3.139.0" "3.140.0"
         "3.141.0" "3.142.0" "3.143.0" "3.144.1" "3.145.0" "3.146.0" "3.147.0" "3.148.0"
-        "3.149.0" "3.150.0" {
+        "3.149.0" "3.150.0" "3.152.0" "3.153.0" "3.153.1" {
   auto-version {
     github-release = "pulumi/pulumi"
   }
@@ -500,4 +500,13 @@ sha256sums = {
   "https://github.com/pulumi/pulumi/releases/download/v3.150.0/pulumi-v3.150.0-darwin-arm64.tar.gz": "83f6ed39fcee13bd2b73816d794993836a16677879a02d5c4af5c013e7306c41",
   "https://github.com/pulumi/pulumi/releases/download/v3.150.0/pulumi-v3.150.0-darwin-x64.tar.gz": "a9975792e50961d779c5322ebfd900c09f3580067bce689b3c1969cf7ad007b0",
   "https://github.com/pulumi/pulumi/releases/download/v3.150.0/pulumi-v3.150.0-linux-x64.tar.gz": "6b285a4dd404287aa875b1758677ab9a960ea0decc79461808794dfef325b95d",
+  "https://github.com/pulumi/pulumi/releases/download/v3.152.0/pulumi-v3.152.0-darwin-arm64.tar.gz": "f7a1592d1bc2a6cda237aa722eb9a554b6fadc0986d145283613adf349457746",
+  "https://github.com/pulumi/pulumi/releases/download/v3.152.0/pulumi-v3.152.0-linux-x64.tar.gz": "028fbc8c9114494fd3cae8e91c63f89c9bd262acd5d249aa8e6573c81ae5a37d",
+  "https://github.com/pulumi/pulumi/releases/download/v3.152.0/pulumi-v3.152.0-darwin-x64.tar.gz": "22af51e63e120f4f7f4147ec5b129cc5766b9f7a633e19e7f9097f4e7d82931c",
+  "https://github.com/pulumi/pulumi/releases/download/v3.153.0/pulumi-v3.153.0-darwin-x64.tar.gz": "f0bb5b3837487196db1ccade26ad4fd2b97dcfce4f80ebc855ab4132cf30100f",
+  "https://github.com/pulumi/pulumi/releases/download/v3.153.0/pulumi-v3.153.0-darwin-arm64.tar.gz": "411ca385009b95bd9605707c4eef3ab7498c69dff56b8f316bce27c00366aa33",
+  "https://github.com/pulumi/pulumi/releases/download/v3.153.0/pulumi-v3.153.0-linux-x64.tar.gz": "1e70b75294dd2b2936b6faa5dbc911f91a8d0aef3644d29d6bb37ce43d14b023",
+  "https://github.com/pulumi/pulumi/releases/download/v3.153.1/pulumi-v3.153.1-darwin-x64.tar.gz": "0b2ab5b5153e50cab2bdc956bb2a048db941bbd63428477a1f17b0b1f3bdeadb",
+  "https://github.com/pulumi/pulumi/releases/download/v3.153.1/pulumi-v3.153.1-linux-x64.tar.gz": "515ad3482823ea2c3d25b7e9b5e6c700c5cb519337405e4b3fc9cce811bf7705",
+  "https://github.com/pulumi/pulumi/releases/download/v3.153.1/pulumi-v3.153.1-darwin-arm64.tar.gz": "d4ca4199674141cdecbf2b5e46d76cd166e71410dac166514274eb8ff76c1c2e",
 }
