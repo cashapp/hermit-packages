@@ -80,10 +80,48 @@ version "1.20" "1.20.1" "1.20.2" "1.20.3" "1.20.4" "1.20.5" "1.20.6" "1.20.7" "1
   }
 }
 
-// All other versions
 version "1.21.0" "1.21.1" "1.21.2" "1.21.3" "1.21.4" "1.21.5" "1.21.6" "1.21.7"
-        "1.21.8" "1.22.0" "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.23.0"
-        "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.24.0" "1.24.1" {
+        "1.21.8" "1.21.13" {
+  auto-version {
+    version-pattern = "go([^\\s]+)"
+
+    html {
+      url = "https://go.dev/dl/"
+      // this XPath will match all versions starting with "go1", i.e. all future versions.
+      // Once there is a new minor version, we'll need to update this, like in the previous sections.
+      xpath = "//span[starts-with(., 'go1.21')]"
+    }
+  }
+}
+
+version "1.22.0" "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.12" {
+  auto-version {
+    version-pattern = "go([^\\s]+)"
+
+    html {
+      url = "https://go.dev/dl/"
+      // this XPath will match all versions starting with "go1", i.e. all future versions.
+      // Once there is a new minor version, we'll need to update this, like in the previous sections.
+      xpath = "//span[starts-with(., 'go1.22')]"
+    }
+  }
+}
+
+version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7" {
+  auto-version {
+    version-pattern = "go([^\\s]+)"
+
+    html {
+      url = "https://go.dev/dl/"
+      // this XPath will match all versions starting with "go1", i.e. all future versions.
+      // Once there is a new minor version, we'll need to update this, like in the previous sections.
+      xpath = "//span[starts-with(., 'go1.23')]"
+    }
+  }
+}
+
+// All other versions
+version "1.24.0" "1.24.1" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -370,6 +408,15 @@ sha256sums = {
   "https://golang.org/dl/go1.24.0.linux-amd64.tar.gz": "dea9ca38a0b852a74e81c26134671af7c0fbe65d81b0dc1c5bfe22cf7d4c8858",
   "https://golang.org/dl/go1.24.0.darwin-amd64.tar.gz": "7af054e5088b68c24b3d6e135e5ca8d91bbd5a05cb7f7f0187367b3e6e9e05ee",
   "https://golang.org/dl/go1.24.0.darwin-arm64.tar.gz": "fd9cfb5dd6c75a347cfc641a253f0db1cebaca16b0dd37965351c6184ba595e4",
+  "https://golang.org/dl/go1.21.13.linux-amd64.tar.gz": "502fc16d5910562461e6a6631fb6377de2322aad7304bf2bcd23500ba9dab4a7",
+  "https://golang.org/dl/go1.21.13.darwin-arm64.tar.gz": "c04ee7bdc0e65cf17133994c40ee9bdfa1b1dc9587b3baedaea39affdb8e5b49",
+  "https://golang.org/dl/go1.21.13.darwin-amd64.tar.gz": "796fd05e8741f6776c505eb201922864f2e32991679b639d9fcb524dbe300c0d",
+  "https://golang.org/dl/go1.22.12.darwin-amd64.tar.gz": "e7bbe07e96f0bd3df04225090fe1e7852ed33af37c43a23e16edbbb3b90a5b7c",
+  "https://golang.org/dl/go1.22.12.linux-amd64.tar.gz": "4fa4f869b0f7fc6bb1eb2660e74657fbf04cdd290b5aef905585c86051b34d43",
+  "https://golang.org/dl/go1.22.12.darwin-arm64.tar.gz": "416c35218edb9d20990b5d8fc87be655d8b39926f15524ea35c66ee70273050d",
+  "https://golang.org/dl/go1.23.7.darwin-arm64.tar.gz": "a08a77374a4a8ab25568cddd9dad5ba7bb6d21e04c650dc2af3def6c9115ebba",
+  "https://golang.org/dl/go1.23.7.linux-amd64.tar.gz": "4741525e69841f2e22f9992af25df0c1112b07501f61f741c12c6389fcb119f3",
+  "https://golang.org/dl/go1.23.7.darwin-amd64.tar.gz": "3a3d6745286297cd011d2ab071998a85fe82714bf178dc3cd6ecd3d043a59270",
   "https://golang.org/dl/go1.24.1.darwin-amd64.tar.gz": "addbfce2056744962e2d7436313ab93486660cf7a2e066d171b9d6f2da7c7abe",
   "https://golang.org/dl/go1.24.1.darwin-arm64.tar.gz": "295581b5619acc92f5106e5bcb05c51869337eb19742fdfa6c8346c18e78ff88",
   "https://golang.org/dl/go1.24.1.linux-amd64.tar.gz": "cb2396bae64183cdccf81a9a6df0aea3bce9511fc21469fb89a0c00470088073",
