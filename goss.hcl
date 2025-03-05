@@ -28,7 +28,7 @@ version "0.4.9" {
   }
 }
 
-version "0.3.21" "0.3.22" "0.3.23" {
+version "0.3.21" "0.3.22" "0.3.23" "0.4.9" {
   auto-version {
     github-release = "goss-org/goss"
   }
