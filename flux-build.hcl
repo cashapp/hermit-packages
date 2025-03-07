@@ -1,5 +1,6 @@
 description = "Build and test kustomize overlays with flux2 HelmRelease support"
 repository = "https://github.com/DoodleScheduling/flux-build"
+
 test = "flux-build --allow-failure ."
 binaries = ["flux-build"]
 source = "https://github.com/DoodleScheduling/flux-build/releases/download/v${version}/flux-build_${version}_${os}_${arch}.tar.gz"
