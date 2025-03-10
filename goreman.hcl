@@ -38,4 +38,7 @@ sha256sums = {
   "https://github.com/mattn/goreman/releases/download/v0.3.16/goreman_v0.3.16_linux_amd64.tar.gz": "7f0a65cf33540ff20b0a4bea712fa7d86525127b9dbf9b1a66c95b3c1d1ab84e",
   "https://github.com/mattn/goreman/releases/download/v0.3.16/goreman_v0.3.16_darwin_arm64.zip": "66577197505c3864721d274252266f836bae514160b3e2758f29a8413ceaf235",
   "https://github.com/mattn/goreman/releases/download/v0.3.16/goreman_v0.3.16_darwin_amd64.zip": "3b465dcba00d1dc2f63e22e7d7cb4d8ee0515a204c46ae98c7344cb693110443",
+  "https://github.com/mattn/goreman/releases/download/v0.3.8/goreman_v0.3.8_linux_arm64.tar.gz": "2c32dd9b47733823560d59fb9410392ce722f384897c5a042869287a4de7bf37",
+  "https://github.com/mattn/goreman/releases/download/v0.3.15/goreman_v0.3.15_linux_arm64.tar.gz": "1b83b17c5179c55e1d8f9cb122925a72c2054756ab2ba21660a7ef0fdaabc461",
+  "https://github.com/mattn/goreman/releases/download/v0.3.16/goreman_v0.3.16_linux_arm64.tar.gz": "23ba81b247470c2d4fed17df90a8f2c3d5edf251960e4fc066edf6d8c68fb1c8",
 }

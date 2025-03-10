@@ -57,4 +57,12 @@ sha256sums = {
   "https://github.com/tinygo-org/tinygo/releases/download/v0.36.0/tinygo0.36.0.linux-amd64.tar.gz": "a593f4930d54ae0f6ed47cfc5804e30e50862dc9d3e3f4fc38b93f2ed65380b5",
   "https://github.com/tinygo-org/tinygo/releases/download/v0.36.0/tinygo0.36.0.darwin-arm64.tar.gz": "6386ddcdfafd4bd24175b9264764c98683281932e5a41171cde16730eadb015c",
   "https://github.com/tinygo-org/tinygo/releases/download/v0.36.0/tinygo0.36.0.darwin-amd64.tar.gz": "b8696bef1c75730210a867d7c83cff3d4cea153a2cef7026be79df2fa0a0055d",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-arm64.tar.gz": "5131fe28e2b319f716614e5ea82a0a4c45248b376e70049e8e533499adfb9417",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-arm64.tar.gz": "548194ca23a1dbe821166a79fa8a7ac85500c07648d2da90d0f87fbead912fa2",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-arm64.tar.gz": "b4eb0b8a994ed9bd1505fb6df087686a38933ae0f581a5babc17b7c20128c261",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.32.0/tinygo0.32.0.linux-arm64.tar.gz": "6875f14dfa1b50d9211672d8fa37f488a98ad8935a0acd095da19bb20c8350cc",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.33.0/tinygo0.33.0.linux-arm64.tar.gz": "0b59b0910db468d4a255cbc452c5f9e740903c670486f2865120a415c558ea5d",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.34.0/tinygo0.34.0.linux-arm64.tar.gz": "a84b5134dc5144a494e3b7e78579536aca34c77951ddd0b19c300209d8b541e1",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.35.0/tinygo0.35.0.linux-arm64.tar.gz": "1fcf322942b5a293079af36cdfac29d545fcd341541424de82a05225b6c77803",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.36.0/tinygo0.36.0.linux-arm64.tar.gz": "cfda7c99030e0ef6f9d1a25be476044703b45980e6269a24add2139de24ec0fd",
 }

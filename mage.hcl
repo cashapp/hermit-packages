@@ -41,4 +41,8 @@ sha256sums = {
   "https://github.com/magefile/mage/releases/download/v1.14.0/mage_1.14.0_Linux-64bit.tar.gz": "a9eb55344ccf6728ab40fe55f809fb7cc0f1085858afd9e594753ed82e59b73f",
   "https://github.com/magefile/mage/releases/download/v1.14.0/mage_1.14.0_macOS-64bit.tar.gz": "f7f4feb2971742caf77fe77553817c2eb9c448422b15a97cc6ab821ce683d610",
   "https://github.com/magefile/mage/releases/download/v1.14.0/mage_1.14.0_macOS-ARM64.tar.gz": "4ff2119161d70c94bca2d5f870f566b5cd7f4ed73c94c92c96f83ed650a7c849",
+  "https://github.com/magefile/mage/releases/download/v1.11.0/mage_1.11.0_Linux-ARM64.tar.gz": "a6720eac18b4b1b19441beb904d0eb7a3c560839f18953bc2c4dedd46619d9fe",
+  "https://github.com/magefile/mage/releases/download/v1.12.1/mage_1.12.1_Linux-ARM64.tar.gz": "99efc867a6b5eace7e39658e5aaa81dcf516d00210e693ed2549de3656971699",
+  "https://github.com/magefile/mage/releases/download/v1.13.0/mage_1.13.0_Linux-ARM64.tar.gz": "4e385b3e26d46d5aedbc6c01cee0e1023e615e382e875b261fc527c99a7d507d",
+  "https://github.com/magefile/mage/releases/download/v1.14.0/mage_1.14.0_Linux-ARM64.tar.gz": "f9ad70938fbaf15233a574b89f7fa41566102f18114eab9b2aa37d64ad7f21de",
 }

@@ -110,4 +110,6 @@ sha256sums = {
   "https://static.rust-lang.org/rustup/archive/1.25.2/x86_64-unknown-linux-gnu/rustup-init": "bb31eaf643926b2ee9f4d8d6fc0e2835e03c0a60f34d324048aa194f0b29a71c",
   "https://static.rust-lang.org/rustup/archive/1.25.2/x86_64-apple-darwin/rustup-init": "203dcef5a2fb0238ac5ac93edea8207eb63ef9823a150789a97f86965c4518f2",
   "https://static.rust-lang.org/rustup/archive/1.25.2/aarch64-apple-darwin/rustup-init": "7231db07136f6ed06af12c591a37be7e395ebc16cfa239dbc151b9016efc68d2",
+  "https://static.rust-lang.org/rustup/archive/1.25.1/aarch64-unknown-linux-gnu/rustup-init": "e189948e396d47254103a49c987e7fb0e5dd8e34b200aa4481ecc4b8e41fb929",
+  "https://static.rust-lang.org/rustup/archive/1.25.2/aarch64-unknown-linux-gnu/rustup-init": "4ccaa7de6b8be1569f6b764acc28e84f5eca342f5162cd5c810891bff7ed7f74",
 }

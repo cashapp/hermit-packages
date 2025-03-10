@@ -31,4 +31,6 @@ sha256sums = {
   "https://github.com/buchgr/bazel-remote/releases/download/v2.5.0/bazel-remote-2.5.0-linux-x86_64": "0e3ccc67bced00bc783ee395160092c107a4699e06586a68dcd53fcfa7d8063e",
   "https://github.com/buchgr/bazel-remote/releases/download/v2.5.0/bazel-remote-2.5.0-darwin-amd64": "cbf978407840fd762a042fea563ebc1d90c901235dee2334e6f5890e77c02793",
   "https://github.com/buchgr/bazel-remote/releases/download/v2.5.0/bazel-remote-2.5.0-darwin-arm64": "05c08ec80d483c7a7bebbc5fecd1f7b9c9a6e6ea0a9e8d2e104874ebd6d7c155",
+  "https://github.com/buchgr/bazel-remote/releases/download/v2.4.4/bazel-remote-2.4.4-linux-arm64": "ed88b72ee394bc0d971f8cecac932e0faa791978691cde843fd8421ef6a01de9",
+  "https://github.com/buchgr/bazel-remote/releases/download/v2.5.0/bazel-remote-2.5.0-linux-arm64": "a08cae80a214ae64a878a2c14bdd3f646bbe7a1108b77f65b0dcd2ace0d24739",
 }

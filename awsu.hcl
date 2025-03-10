@@ -21,4 +21,8 @@ sha256sums = {
   "https://github.com/cashapp/awsu/releases/download/v0.1.0/awsu_0.1.0_darwin_amd64.tar.gz": "83016cfbf891d197b74b01fc1978e9352d0e0edd13133e0eb24cf70ebf5a0cab",
   "https://github.com/cashapp/awsu/releases/download/v0.1.0/awsu_0.1.0_darwin_arm64.tar.gz": "61840645e38c099112bc50add825087ce034ef6e0c1054955197e72f17be7ea2",
   "https://github.com/cashapp/awsu/releases/download/v0.1.0/awsu_0.1.0_linux_amd64.tar.gz": "48a65f2eea7e40a458f74ecb2e173ce03bb13a072f201ef0243934335f1a7f71",
+  "https://github.com/cashapp/awsu/releases/download/v0.0.1/awsu_0.0.1_linux_arm64.tar.gz": "da68a222aee01ce427ba909c7c3403668dbc2cda9cf4b71530d203a7017d8915",
+  "https://github.com/cashapp/awsu/releases/download/v0.0.2/awsu_0.0.2_linux_arm64.tar.gz": "4407c8e6f118743bda5db9f6765326e2265e1021ba1b9ec9a43346de8a392055",
+  "https://github.com/cashapp/awsu/releases/download/v0.0.3/awsu_0.0.3_linux_arm64.tar.gz": "34e65e18bdff2eca496c80cd14453af52bc477ea034fada8070e504cff7f8ea7",
+  "https://github.com/cashapp/awsu/releases/download/v0.1.0/awsu_0.1.0_linux_arm64.tar.gz": "eabed1c4a191ffaad9c1d5f2e16461f7d4ae569595918d266a41ee55c85e3bf0",
 }

@@ -31,4 +31,7 @@ sha256sums = {
   "https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow_darwin_x86_64.tar.gz": "07f23d1609d502574df99259053f24372d8ba2315382528cb3be31661105ca44",
   "https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow_darwin_arm64.tar.gz": "08ed18eae66c7bba7f02952d69b0fdb8edcabb0830c85a98ad963f2422c3334e",
   "https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow_linux_x86_64.tar.gz": "d224be006fc4ee361c1d1a85dbd46c269372b76c5413e2a9bfd0f7fe52c66f78",
+  "https://github.com/charmbracelet/glow/releases/download/v1.4.1/glow_1.4.1_linux_arm64.tar.gz": "f0fd0bc75244875e0e69d1d6bc36e6988b30d90c4bd0c476a611fd8f826c1a51",
+  "https://github.com/charmbracelet/glow/releases/download/v1.5.0/glow_1.5.0_linux_arm64.tar.gz": "0581fdeaa901f06c1cdb1aa86605a52c2762ccd4d0b05aefce2ac1f44c82f4c5",
+  "https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow_linux_arm64.tar.gz": "33661a7d97925724339d4f06e633df7dbc98e8a70320668236895be1b4c8125f",
 }

@@ -43,4 +43,13 @@ sha256sums = {
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.11.2/hookdeck_0.11.2_darwin_amd64.tar.gz": "73cf131f3cd2adedda86759e77f5fbe1758a197dfb75bf62d49ce0fd74f8c5ce",
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.11.2/hookdeck_0.11.2_linux_amd64.tar.gz": "a894ff31ddde90f54dfcb34a45fc3920b68f935528e2aa71991891cda477f13c",
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.11.2/hookdeck_0.11.2_darwin_arm64.tar.gz": "19e22196078c1e114196ef8ed2d58ef9c209aad8a9dac6868b431046e567c7ee",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.2.0/hookdeck_0.2.0_linux_arm64.tar.gz": "e74d66789cce6e3c92fde1026bf5a888aefcf5b5588fbc0787adbadf8ee89618",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.8.5/hookdeck_0.8.5_linux_arm64.tar.gz": "a67d9848bf8370820b3676f90ac1bbc6e9d453c45716ccd75591b852194b5d99",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.8.6/hookdeck_0.8.6_linux_arm64.tar.gz": "47d7b32bc35feb3d040ed35ba43cded2587b04be5076e1b5e446462787798f88",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.9.2/hookdeck_0.9.2_linux_arm64.tar.gz": "599ced1bbe7a5c3295c8d2efee4628d42b550b81c0223033cd6836ff9d7227d8",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.10.0/hookdeck_0.10.0_linux_arm64.tar.gz": "67c58e2897efc63c10db656e9d34e6d059e9157665eaae29207ea0932aeab124",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.10.1/hookdeck_0.10.1_linux_arm64.tar.gz": "32b515f3c3fccdbcc7a623c51cfc05c30be75827e5e84e8ce68e62f5810e31b1",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.11.0/hookdeck_0.11.0_linux_arm64.tar.gz": "ccd1091a5d307b338bee3c60d7e9fe950bfeea471b39e575b491b287972a03b5",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.11.1/hookdeck_0.11.1_linux_arm64.tar.gz": "c6cdd247d38e50eb43c710bd1ef1fa6e3fb69582a3dbb6996c1273cab8fe671e",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.11.2/hookdeck_0.11.2_linux_arm64.tar.gz": "a66889874c33f879358f4290241791f002f6a5dc2b11d835233a3255d6c7fb22",
 }

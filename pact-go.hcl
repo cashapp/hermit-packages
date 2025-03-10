@@ -20,4 +20,7 @@ sha256sums = {
   "https://github.com/pact-foundation/pact-go/releases/download/v2.2.0/pact-go_2.2.0_darwin_arm64.tar.gz": "55d030e2ef63b1e69f26223b99fd7964379162fe775de87941f806d0bcd0b9a9",
   "https://github.com/pact-foundation/pact-go/releases/download/v2.2.0/pact-go_2.2.0_linux_amd64.tar.gz": "b0b7a1734caeacc1106453e7b8dbec06841bb694cc246b55be13102371d69da4",
   "https://github.com/pact-foundation/pact-go/releases/download/v2.2.0/pact-go_2.2.0_darwin_amd64.tar.gz": "4fa0823b8c9a9bd29395a2e0db7e16895fba382d53701ae37b69159aaa9266b7",
+  "https://github.com/pact-foundation/pact-go/releases/download/v2.0.8/pact-go_2.0.8_linux_arm64.tar.gz": "9ed6ce90ff60d22d46c96c4ff186466dd2354a959dadd246c1ae1e1460af6cd8",
+  "https://github.com/pact-foundation/pact-go/releases/download/v2.1.0/pact-go_2.1.0_linux_arm64.tar.gz": "5c692f5e2604ecf2b99c74baedba14fb2f0483259492c7eb2c117749134e21dc",
+  "https://github.com/pact-foundation/pact-go/releases/download/v2.2.0/pact-go_2.2.0_linux_arm64.tar.gz": "3c1a7996f4a9008577475498293899164ff4ed19a78153108f8f4529a63a6981",
 }

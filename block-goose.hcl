@@ -44,4 +44,13 @@ sha256sums = {
   "https://github.com/block/goose/releases/download/v1.0.12/goose-x86_64-apple-darwin.tar.bz2": "3312950a9c549993994f3fd200a07d4b3c0722cb7f978fa36cbb4b57da44eb21",
   "https://github.com/block/goose/releases/download/v1.0.12/goose-x86_64-unknown-linux-gnu.tar.bz2": "7c91075e5c6794f983049a8c1ef89a8f239da87d9c1f9eca67fb1e92eccbb83e",
   "https://github.com/block/goose/releases/download/v1.0.12/goose-aarch64-apple-darwin.tar.bz2": "0e1fce7a1f8e2e7581009cf9d087d35a0a8f6db368b2838c8b70c013d5ae93ad",
+  "https://github.com/block/goose/releases/download/v1.0.4/goose-aarch64-unknown-linux-gnu.tar.bz2": "068019504c3e801405c1fe9a1d2a883e36af5256bd3c535443a92234cda0c5cd",
+  "https://github.com/block/goose/releases/download/v1.0.5/goose-aarch64-unknown-linux-gnu.tar.bz2": "a22189722adc898f40dd9dd2011201f6ae78faa6b775d2dde27527c16fa8ba3e",
+  "https://github.com/block/goose/releases/download/v1.0.6/goose-aarch64-unknown-linux-gnu.tar.bz2": "d90436af68a2f94ed4089c7777978df52ac3371fa4530834a9c301e57a0439aa",
+  "https://github.com/block/goose/releases/download/v1.0.7/goose-aarch64-unknown-linux-gnu.tar.bz2": "8985c8ed484a0e7429855a050e927c0c2be61d190fbab7ce0e7b4623d5b6bbeb",
+  "https://github.com/block/goose/releases/download/v1.0.8/goose-aarch64-unknown-linux-gnu.tar.bz2": "c0aa83fa3c4ba9ba10261a92f7b1f3c62ac57b5c6ab1a84ab3b98d752537dd0d",
+  "https://github.com/block/goose/releases/download/v1.0.9/goose-aarch64-unknown-linux-gnu.tar.bz2": "4f86a6984a3030b53766e665b959c73c921248649af3b4900558a4fb818631ff",
+  "https://github.com/block/goose/releases/download/v1.0.10/goose-aarch64-unknown-linux-gnu.tar.bz2": "217f1dce9981a503d892d80abf8de0b2c99783d50669a4748880e320b64f99d1",
+  "https://github.com/block/goose/releases/download/v1.0.11/goose-aarch64-unknown-linux-gnu.tar.bz2": "8c55c0e14f443693910159d3fab3017f1a241aa4ece59cd314b652ff968e7b79",
+  "https://github.com/block/goose/releases/download/v1.0.12/goose-aarch64-unknown-linux-gnu.tar.bz2": "f06d5a25e686b1d17c978813845e1b38576593ddba95c78211766a930bf96e1b",
 }

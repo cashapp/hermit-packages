@@ -18,4 +18,7 @@ sha256sums = {
   "https://github.com/alecthomas/participle/releases/download/v2.1.1/participle-2.1.1-darwin-amd64.tar.gz": "e753d835de2365572d45f10956ba349ce87b3d3ea1185a64da102fefafb25980",
   "https://github.com/alecthomas/participle/releases/download/v2.1.1/participle-2.1.1-darwin-arm64.tar.gz": "e32c04d3975a11331e66461ebda386f6531c9e6ab79ae56a35683cbdf3254ffa",
   "https://github.com/alecthomas/participle/releases/download/v2.1.1/participle-2.1.1-linux-amd64.tar.gz": "c64aa145f9da07901e49afdd7f02c229e7aba2d137c8f5f085c76a5a30537cf6",
+  "https://github.com/alecthomas/participle/releases/download/v2.0.0/participle-2.0.0-linux-arm64.tar.gz": "caf6dcb99c8c75dee83b5c15743c5e01bf4b9ce0772c9fb878a09de493e4e399",
+  "https://github.com/alecthomas/participle/releases/download/v2.1.0/participle-2.1.0-linux-arm64.tar.gz": "95d5139c51a991605341a0ae3668fc451d2cbebfe229220828e3786e06d6e3ad",
+  "https://github.com/alecthomas/participle/releases/download/v2.1.1/participle-2.1.1-linux-arm64.tar.gz": "4e32880fca7d5e056f5381c74629ff42184edc56a96fa14b8a63403ce16411f4",
 }

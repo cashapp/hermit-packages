@@ -7,7 +7,7 @@ env = {
 on "unpack" {
   rename {
     from = "${root}/krew-${os}_${arch}"
-    to   = "${root}/kubectl-krew"
+    to = "${root}/kubectl-krew"
   }
 }
 
@@ -32,3 +32,8 @@ version "0.4.4" {
   }
 }
 
+sha256sums = {
+  "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew-linux_amd64.tar.gz": "e471396b0ed4f2be092b4854cc030dfcbb12b86197972e7bef0cb89ad9c72477",
+  "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew-darwin_amd64.tar.gz": "5f4d2f34868a87cf1188212cf7cb598e76a32f389054089aad1fa46e6daf1e1b",
+  "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew-darwin_arm64.tar.gz": "e6ac776140b228d6bdfda11247baf4e9b11068f42005d0975fc260c629954464",
+}

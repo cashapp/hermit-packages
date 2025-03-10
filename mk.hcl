@@ -88,4 +88,7 @@ sha256sums = {
   "https://github.com/alecthomas/mk/releases/download/v0.10.1/mk-x86_64-apple-darwin.bz2": "9bb99f5829d416ffc14b8eb53f6241dcd29f3062954a855170676c9da711e76a",
   "https://github.com/alecthomas/mk/releases/download/v0.10.1/mk-aarch64-apple-darwin.bz2": "b05ecff7e76890768360027b22eb05077ef6a08fdc15a6959b76456641ee173b",
   "https://github.com/alecthomas/mk/releases/download/v0.10.1/mk-x86_64-unknown-linux-gnu.bz2": "a45f1f80b40d7d27e066dab4b9c32e0ee40be723884e5caf6fe081a2e56f6c50",
+  "https://github.com/alecthomas/mk/releases/download/v0.9.2/mk-aarch64-unknown-linux-gnu.bz2": "f5a3da04c916d31b225ab99787d15cdbf72a0c86509db0232c0f2b54c60528e2",
+  "https://github.com/alecthomas/mk/releases/download/v0.10.0/mk-aarch64-unknown-linux-gnu.bz2": "0e8863b704efae94fedb0e34dae1ca6410017ab6346f37f009439abbe870935f",
+  "https://github.com/alecthomas/mk/releases/download/v0.10.1/mk-aarch64-unknown-linux-gnu.bz2": "f716624daa818b9fc4a56b5dea1807c67d04633e4b4b7619841f102bdbf849f3",
 }

@@ -22,4 +22,8 @@ sha256sums = {
   "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.5/otel-cli_0.4.5_darwin_arm64.tar.gz": "809cb66161bea682c7f98f43d36fe0be82e88e85c597194b5b81e3676dbf0fde",
   "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.5/otel-cli_0.4.5_linux_amd64.tar.gz": "2f192fadfb2107a92ae617ca93fd7c0b532fa618a5ebc3917e641c6a9fbaeb45",
   "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.5/otel-cli_0.4.5_darwin_amd64.tar.gz": "d8d63bfbbfc18f2cd2f95777d40e063bcd34fcb554bcdfb7d3e636cc54c1eaa3",
+  "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.0/otel-cli_0.4.0_linux_arm64.tar.gz": "8018b200c80e6a3ea0f3448a6adab7c59e1067f3863e2c014889b4bf4792eea4",
+  "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.1/otel-cli_0.4.1_linux_arm64.tar.gz": "4278094460f6ed38e44281dc00c097411920bae6d604bb95112aac8c922c0552",
+  "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.4/otel-cli_0.4.4_linux_arm64.tar.gz": "9025cc20f4021889717b97dfb2d48f02d2f69b645e34a477ee6678226bf6288e",
+  "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.5/otel-cli_0.4.5_linux_arm64.tar.gz": "f8f27f1289850983f86beaf62968ab65e3491207291d0cdb68247826cc21e695",
 }

@@ -35,4 +35,7 @@ sha256sums = {
   "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.1/WasmEdge-0.14.1-manylinux2014_x86_64.tar.gz": "a82f9fb01a6a6f1dfbd1cb069dc96d116f22c15cdb01207a5d0e65096055d092",
   "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.1/WasmEdge-0.14.1-darwin_x86_64.tar.gz": "96d01cf083d4f7e1c55683dc4b60acca6d8517ad901e2d7b4b5d64ca9a6532e0",
   "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.1/WasmEdge-0.14.1-darwin_arm64.tar.gz": "38dd10f4e78d339be91e0c3501055d4dad9bf08c3dc648e07a30df9bea2d6c4a",
+  "https://github.com/WasmEdge/WasmEdge/releases/download/0.13.5/WasmEdge-0.13.5-manylinux2014_aarch64.tar.gz": "472de88e0257c539c120b33fdd1805e1e95063121acc2df1d5626e4676b93529",
+  "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.0/WasmEdge-0.14.0-manylinux2014_aarch64.tar.gz": "6136c42066cdd9a96170285af2613dc00f262f5758a03d7afb3ab12a36363c79",
+  "https://github.com/WasmEdge/WasmEdge/releases/download/0.14.1/WasmEdge-0.14.1-manylinux2014_aarch64.tar.gz": "d5ac5c2405ff8a878558379740498e5fe4b126fe746eac585f7efa9bb7f32e28",
 }

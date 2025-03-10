@@ -7,7 +7,6 @@ env = {
 test = "java -version"
 strip = 1
 source = "https://cdn.azul.com/zulu/bin/zulu${zulu}-ca-jre${jre}-${os_}_${arch_}.tar.gz"
-
 vars = {
   "arch_": "${xarch}",
   "os_": "${os}",
@@ -68,4 +67,6 @@ sha256sums = {
   "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-linux_x64.tar.gz": "6f10fd0b9112846405627cac67901df7b6601fc59ef2624c32ffba9f9ab3e1a9",
   "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-macosx_x64.tar.gz": "00149f62ccf0e51e8d61de240df5ece38ac4e0e9f2bd8320aaa2e69a1e3d61f8",
   "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-macosx_aarch64.tar.gz": "2bde489cd895e23f47f4998a1fa26061311bfcd661c8eb0cf08ac7a7f0ce4a61",
+  "https://cdn.azul.com/zulu/bin/zulu17.36.17-ca-jre17.0.4.1-linux_aarch64.tar.gz": "22c426e8065185d62d6a7113c49d43ed23cd612353265a8c6d39e61107c9605c",
+  "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-linux_aarch64.tar.gz": "a47cb569cc138996fb55ea3bd964c2a4f11363014aef353fea52865a91e10ebf",
 }

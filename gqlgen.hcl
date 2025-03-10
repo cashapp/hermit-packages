@@ -45,4 +45,13 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.66-darwin-arm64.bz2": "68f02ab01129ea3b0c3ba9409981ef1a73fff2d4420d3b235cfb7b6d1fc52e43",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.66-darwin-amd64.bz2": "8b8f778d1fbc4bd49e6f18fcc195f4bb89cc28ea8d1c06c621534c0e169fedc8",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.66-linux-amd64.bz2": "43fcb04a0f59781ebe54cb42b607682d7682d372fc48b36d28d90f15034ddbb0",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.55-linux-arm64.bz2": "bd081525a07109e2e8d6e1190500d3c6f659374552eb4ba106e6e33e39d8c1a5",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.56-linux-arm64.bz2": "a8ae265f37e8b17d49c44cfe99c12d506f717362ad2834faef6c8710117c1902",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.57-linux-arm64.bz2": "bf61bf5f5f5e90665191e144cdbd21542a269c26e592706e351524caae399196",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.60-linux-arm64.bz2": "34cd222c7a4b332586bd7a736f9b355259e66c836010acd78dc509acf332488e",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.61-linux-arm64.bz2": "e2643c902045483a8682b1794640b1252fd4247ce023b74d94fc099dc60c1c05",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.62-linux-arm64.bz2": "6dc5cf5d23283956264d342b36ab6ec42d395a2d5600bb594d9ab16923c701a9",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.63-linux-arm64.bz2": "ce7b472a993db0fc747b8ec050166d98c6e0a4f118d9429576dbc5b37279af31",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.64-linux-arm64.bz2": "0a054235f47e6b3996f3875dae1867d7bdec47208b3c41e9383a32f83da6e921",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/gqlgen-v0.17.66-linux-arm64.bz2": "40f3f0ab88b83270008a697761dab271084009100d6aa65b7be79f021861be38",
 }

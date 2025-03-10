@@ -35,4 +35,8 @@ sha256sums = {
   "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.18.0/downloads/bin/release-cli-darwin-arm64": "03adeb4ece1fa0b9516f227c677e5c2699bd55c83a35621e8b3c8f2f8ee2a497",
   "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.18.0/downloads/bin/release-cli-linux-amd64": "a6c688e1f246d392c18ef9c979b6be7145a64bfd1f5ba0a575c4a2fad0a9df3f",
   "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.18.0/downloads/bin/release-cli-darwin-amd64": "a016511a9eb9f36bb92b09691b6c5edac69bd5dce1d7186cd11304dac76db638",
+  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.15.0/downloads/bin/release-cli-linux-arm64": "e902833857935f5220fd3422f9d6ce2ca88552eeb729e2d314a6cac62d862b82",
+  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.16.0/downloads/bin/release-cli-linux-arm64": "eb3dcae5e34a194c0a7785787857ba9058c01ad099fbcc24e239637eae42b242",
+  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.17.0/downloads/bin/release-cli-linux-arm64": "f7b0de967104300e50d14ad9b99696036fa62469ce9bdda513612d17de7939b6",
+  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.18.0/downloads/bin/release-cli-linux-arm64": "04c2e012fa936dcad708cc2ce99de396bd09d4ce7db3c8fe1e2cd763d7be9a96",
 }

@@ -27,4 +27,7 @@ sha256sums = {
   "https://github.com/tamasfe/taplo/releases/download/0.9.3/taplo-darwin-aarch64.gz": "39b84d62d6a47855b2c64148cde9c9ca5721bf422b8c9fe9c92776860badde5f",
   "https://github.com/tamasfe/taplo/releases/download/0.9.3/taplo-linux-x86_64.gz": "889efcfa067b179fda488427d3b13ce2d679537da8b9ed8138ba415db7da2a5e",
   "https://github.com/tamasfe/taplo/releases/download/0.9.3/taplo-darwin-x86_64.gz": "6b4180fe0518e3e68b9a421dbe50f62ede308767972c4c70c6bbe6651ea98641",
+  "https://github.com/tamasfe/taplo/releases/download/0.8.1/taplo-linux-aarch64.gz": "fbd6fb9b4726f12498d3c3cae6bbf37a50ae8dff471a7e8dd01f1f9b21389d9c",
+  "https://github.com/tamasfe/taplo/releases/download/0.9.2/taplo-linux-aarch64.gz": "f2b2964ce3a7e1d72cd52685eceb5e6b155275a79c80a6d9ebdd4f4e6a4586e3",
+  "https://github.com/tamasfe/taplo/releases/download/0.9.3/taplo-linux-aarch64.gz": "7c07379d3288fb5c26b1c29bbedec4f8d8f602d776bcc3a1578176733b6a857c",
 }

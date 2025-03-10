@@ -19,4 +19,7 @@ sha256sums = {
   "https://github.com/alecthomas/wit-go/releases/download/v0.0.3/wit-go-0.0.3-linux-amd64.tar.gz": "a447ab8c7784bc57379600a06cc286a9e50d2bafc67dc73d338599974c03c533",
   "https://github.com/alecthomas/wit-go/releases/download/v0.0.3/wit-go-0.0.3-darwin-amd64.tar.gz": "f4f15455835855a7cea1b48b3b44031990d261aee2135206c195c2b148029901",
   "https://github.com/alecthomas/wit-go/releases/download/v0.0.3/wit-go-0.0.3-darwin-arm64.tar.gz": "6e93393f950847ca7f9ac1fad5d0aee22e5e6ba9b33b92786b87a6843cb16118",
+  "https://github.com/alecthomas/wit-go/releases/download/v0.0.1/wit-go-0.0.1-linux-arm64.tar.gz": "e0d193c80a8b57df9a64e6f40b4efc6a58e62f2502355c97000924730f5bc760",
+  "https://github.com/alecthomas/wit-go/releases/download/v0.0.2/wit-go-0.0.2-linux-arm64.tar.gz": "424a542422e1343ab665acf0bc00d6dd00da4c1c24f956e0ba8712b29949e112",
+  "https://github.com/alecthomas/wit-go/releases/download/v0.0.3/wit-go-0.0.3-linux-arm64.tar.gz": "0268420c3dbd494b42c3135302e08168a26e79d88641fa33d8ae39018bc5d5a2",
 }

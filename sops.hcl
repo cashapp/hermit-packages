@@ -53,4 +53,12 @@ sha256sums = {
   "https://github.com/mozilla/sops/releases/download/v3.9.4/sops-v3.9.4.linux.amd64": "5488e32bc471de7982ad895dd054bbab3ab91c417a118426134551e9626e4e85",
   "https://github.com/mozilla/sops/releases/download/v3.9.4/sops-v3.9.4.darwin.amd64": "f48d73efc278326e54d0e6a056b285fd8f5f28549b19aff9b0fedbbdd846b20c",
   "https://github.com/mozilla/sops/releases/download/v3.9.4/sops-v3.9.4.darwin.arm64": "51ee2c3ec2c4331cfe1c0c25168e1c4c8036900842700b9bb074dda92a6017f2",
+  "https://github.com/mozilla/sops/releases/download/v3.7.3/sops-v3.7.3.linux.arm64": "4945313ed0dfddba52a12ab460d750c91ead725d734039493da0285ad6c5f032",
+  "https://github.com/mozilla/sops/releases/download/v3.8.0/sops-v3.8.0.linux.arm64": "5ec31eaed635e154b59ff4b7c9b311b6e616bd4818a68899c2f9db00c81e3a63",
+  "https://github.com/mozilla/sops/releases/download/v3.8.1/sops-v3.8.1.linux.arm64": "15b8e90ca80dc23125cd2925731035fdef20c749ba259df477d1dd103a06d621",
+  "https://github.com/mozilla/sops/releases/download/v3.9.0/sops-v3.9.0.linux.arm64": "596f26de6d4f7d1cc44f9e27bfea3192ef77f810f31f3f4132a417860ab91ebc",
+  "https://github.com/mozilla/sops/releases/download/v3.9.1/sops-v3.9.1.linux.arm64": "bc946fef11dbe199587adac567037b69374c4202f928ca138443539efc85b357",
+  "https://github.com/mozilla/sops/releases/download/v3.9.2/sops-v3.9.2.linux.arm64": "07ff67d6ec28b2660c6bc2b065fa8f949dd51f15522e0770ebea781a0df00faf",
+  "https://github.com/mozilla/sops/releases/download/v3.9.3/sops-v3.9.3.linux.arm64": "49515aba9264e507eab884ebf902098046b8922d32f588f9a2beecb4a601d2ef",
+  "https://github.com/mozilla/sops/releases/download/v3.9.4/sops-v3.9.4.linux.arm64": "16564c6b181d88505d9e0dfef62771894293d85cde5884d9b1a843859eee174b",
 }

@@ -32,4 +32,6 @@ sha256sums = {
   "https://github.com/a8m/envsubst/releases/download/v1.4.3/envsubst-linux-x86_64": "b6d2f0718a2de6b2108af40ded031ef664bb9e41e35a3b90864a7b436ea30650",
   "https://github.com/a8m/envsubst/releases/download/v1.4.3/envsubst-darwin-x86_64": "9e2ca77e16231f20162ecd0c0eed57e5056e036cfcf6f42289ab2b57b51547bf",
   "https://github.com/a8m/envsubst/releases/download/v1.4.3/envsubst-darwin-arm64": "4a80df19bec14addab95e7bf93faee4e08094707bb160bb235ee1046f748650e",
+  "https://github.com/a8m/envsubst/releases/download/v1.4.2/envsubst-linux-arm64": "701b940247ab3b6f99d1de0b2199ec80828f90922d467b36f98ba8af4c998e48",
+  "https://github.com/a8m/envsubst/releases/download/v1.4.3/envsubst-linux-arm64": "a0fa73ec3ff689fa522252fc6f23080566918b6dd3eb84252c4adf595a98c511",
 }

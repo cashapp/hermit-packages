@@ -152,4 +152,5 @@ sha256sums = {
   "https://github.com/railwayapp/cli/releases/download/v3.21.0/railway-v3.21.0-x86_64-unknown-linux-gnu.tar.gz": "74abfde93909087c640e8479d96fdcd607b95e652c569172ca61165199281085",
   "https://github.com/railwayapp/cli/releases/download/v3.21.0/railway-v3.21.0-aarch64-apple-darwin.tar.gz": "50f1d3374eed07d3a296dce383b72ecd524e7cff8b8d8865b7e06f4025e34b1a",
   "https://github.com/railwayapp/cli/releases/download/v3.21.0/railway-v3.21.0-x86_64-apple-darwin.tar.gz": "1b7ce4103232daf7ce5339d201fbaa44d5c3fced80ae97fdbb555c6d8f34b96c",
+  "https://github.com/railwayapp/cli/releases/download/v2.1.0/railway_2.1.0_linux_arm64.tar.gz": "31b5d93fc3cc3514919b34d207ec5b95e34b3dd0a91b0394080c4059bf31f029",
 }

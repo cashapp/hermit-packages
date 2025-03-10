@@ -45,4 +45,8 @@ sha256sums = {
   "https://github.com/Hakky54/certificate-ripper/releases/download/2.4.0/crip-macos-aarch64.tar.gz": "a0cec58a545461e61004a756bd2f1a8caf27d597db0e8ea9dd328ed31827de3c",
   "https://github.com/Hakky54/certificate-ripper/releases/download/2.4.0/crip-linux-amd64.tar.gz": "ddef084e5f8c59a5436f91db5aba08057e9cb02923e2376f45c593e73cadf6f4",
   "https://github.com/Hakky54/certificate-ripper/releases/download/2.4.0/crip-macos-amd64.tar.gz": "d2bad0697da026118b67d4aae202b6eaf3cf07b527d552e3f6f1ea79cf66a7c3",
+  "https://github.com/Hakky54/certificate-ripper/releases/download/2.1.0/crip-linux-aarch64.tar.gz": "b72867b24d3d2c7fd9811c7d7486a1a43334412339f004eac52ebc2dc5b93509",
+  "https://github.com/Hakky54/certificate-ripper/releases/download/2.2.0/crip-linux-aarch64.tar.gz": "070889cfb0ed802a962567765a9ff208980f327d0ed7140a583fca4c4f2242d8",
+  "https://github.com/Hakky54/certificate-ripper/releases/download/2.3.0/crip-linux-aarch64.tar.gz": "7b4e776d5bd55e6982972a6fee90471992100161b4f324832330c4e996ceaee9",
+  "https://github.com/Hakky54/certificate-ripper/releases/download/2.4.0/crip-linux-aarch64.tar.gz": "48f9e679e4fecbc81c303072248d32968b6a1f7ae2a67afb09f1e9fe486cd007",
 }

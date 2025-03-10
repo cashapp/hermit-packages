@@ -46,4 +46,11 @@ sha256sums = {
   "https://github.com/norwoodj/helm-docs/releases/download/v1.14.2/helm-docs_1.14.2_Darwin_x86_64.tar.gz": "b2f1ffd0feef8dc0901a38a2053481d1d67b63ca30da4ac774166c6b52fa2245",
   "https://github.com/norwoodj/helm-docs/releases/download/v1.14.2/helm-docs_1.14.2_Darwin_arm64.tar.gz": "2d8399db5b33d240d5f8985241bcf5483563150b968e3229823822979f3e4b8b",
   "https://github.com/norwoodj/helm-docs/releases/download/v1.14.2/helm-docs_1.14.2_Linux_x86_64.tar.gz": "a8cf72ada34fad93285ba2a452b38bdc5bd52cc9a571236244ec31022928d6cc",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.10.0/helm-docs_1.10.0_Linux_arm64.tar.gz": "b7d6a079a74890965b4eabca42b3040560cbcef0e0baa929aa86050fd9b69404",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.11.0/helm-docs_1.11.0_Linux_arm64.tar.gz": "1f8e4593f23067d53a37c44086763395b7abf8e1694939cabaa28b074ee057b7",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.11.3/helm-docs_1.11.3_Linux_arm64.tar.gz": "24b6734a8f979bc7674195e306c5dd9ffa62113fed86f2ce407fcd29013cfd2f",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.12.0/helm-docs_1.12.0_Linux_arm64.tar.gz": "bbcb514f7b48ddaa930339f15682e7abb6af66cd6773dd8fd564cbacf5d8cd94",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.13.0/helm-docs_1.13.0_Linux_arm64.tar.gz": "8cfffc0339c91486e1b8afd4f1bd83cc3fa9cccb5721750f835c731a3615ba1f",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.13.1/helm-docs_1.13.1_Linux_arm64.tar.gz": "4dfa9fe4f069ce5975b772ee4f43416316a6e579b1574bd640be460f553c3f71",
+  "https://github.com/norwoodj/helm-docs/releases/download/v1.14.2/helm-docs_1.14.2_Linux_arm64.tar.gz": "c3787212332386dcd122debef7848feb165aa701467ae3e3442df7638f3ac4e4",
 }

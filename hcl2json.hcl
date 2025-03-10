@@ -50,4 +50,12 @@ sha256sums = {
   "https://github.com/tmccombs/hcl2json/releases/download/v0.6.5/hcl2json_linux_amd64": "05637e9f08ddaa15fd2c75ef8c73d2f28bbeb6d1b510b7421270ec3d7c9c3fd0",
   "https://github.com/tmccombs/hcl2json/releases/download/v0.6.5/hcl2json_darwin_arm64": "17d8eaa2496cf3c62a21480cac934ccc311c6e1146b1aad5c274183e02482007",
   "https://github.com/tmccombs/hcl2json/releases/download/v0.6.5/hcl2json_darwin_amd64": "3a8d73f383c7d3c1f2ae72bf0b0fc644fb4c86866e9dec0cab344da70f1e8f42",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.3.6/hcl2json_linux_arm64": "ca48bd89bebe566b60148ae8ba05fe6d3a3bc558b319305493bc928bd88b67d7",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.5.0/hcl2json_linux_arm64": "a9dd2b9d35a493fd359be3a6896e62ed79f4e91fd120428b82bacd8b20b3f042",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.0/hcl2json_linux_arm64": "3220bf582fcbda1d9495d62d75b48ef174434fb17b547661405abdc7f31f3a34",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.1/hcl2json_linux_arm64": "2361b2d30bf2241b428cc97b33dc9e2470c55c0057f60dae740073f1782e08a6",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.2/hcl2json_linux_arm64": "2fa6ad8a77e4608cdf0e3aaa61ec3abbd52d0d1a20d60dcb4098777bab6492e2",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.3/hcl2json_linux_arm64": "de533ec776a91c857fb6cbc556802355ba138d1c76c9c6819500a50c6ffde85b",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.4/hcl2json_linux_arm64": "05bbd136ae347065a0571bf32364809356cec8365a97fc86b905c270c174b1e6",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.5/hcl2json_linux_arm64": "659bda917649d0105c42dbfd00bbe8eac2e4c728fe675d2685d6b748769fed3a",
 }

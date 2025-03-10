@@ -24,4 +24,7 @@ sha256sums = {
   "https://github.com/johnkerl/miller/releases/download/v6.8.0/miller-6.8.0-macos-amd64.tar.gz": "08c704378446141027e14950ab2a6b3c5fc2addc68d05f3af2f548c864ee164a",
   "https://github.com/johnkerl/miller/releases/download/v6.8.0/miller-6.8.0-linux-amd64.tar.gz": "2c4d3dda545a5124f71a3e17dda47e168e6035e02668015327f9efc8b66ad667",
   "https://github.com/johnkerl/miller/releases/download/v6.8.0/miller-6.8.0-macos-arm64.tar.gz": "c35508a5cccf759d768f2ff08cd8d98be0789b88003cfd9a078d69514466b0c4",
+  "https://github.com/johnkerl/miller/releases/download/v6.6.0/miller-6.6.0-linux-arm64.tar.gz": "2aeb0d10a441882fadfd0a7faf2a13dd8db72c0316f114a75acfab69fcfc1923",
+  "https://github.com/johnkerl/miller/releases/download/v6.7.0/miller-6.7.0-linux-arm64.tar.gz": "ac4eb6f294c04c3e0304315e6b3a128f78e201d1b01e49e842eb10d6099e8abb",
+  "https://github.com/johnkerl/miller/releases/download/v6.8.0/miller-6.8.0-linux-arm64.tar.gz": "73b0a5c6d2a7959feb78dd1b23d3ed9fb40f8c7254dfd8e54f3949fbc93b57ee",
 }

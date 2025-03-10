@@ -22,4 +22,6 @@ sha256sums = {
   "https://github.com/mpalmer/action-validator/releases/download/v0.6.0/action-validator_linux_amd64": "fa61521913ee4cf5de7e4d5b803741b2c60ebde447ee38e2b71abbd213d3354a",
   "https://github.com/mpalmer/action-validator/releases/download/v0.6.0/action-validator_darwin_amd64": "10f453ad4ed011eb3866bd35c25311bd2fe1fbf353cbe64793115de2348f8ddb",
   "https://github.com/mpalmer/action-validator/releases/download/v0.6.0/action-validator_darwin_arm64": "68e09e0793cf958daf0aebe69fb2bf858232fb9c4f74f913dab02db67d32224d",
+  "https://github.com/mpalmer/action-validator/releases/download/v0.5.4/action-validator_linux_arm64": "3a90a9b0762e258ff392034759634972c8d2e79866fc3c9b336d31a2e83a1ab5",
+  "https://github.com/mpalmer/action-validator/releases/download/v0.6.0/action-validator_linux_arm64": "38a582690ab7e64ba33b4c29eaf16979ed116d4daf40fde39ec18992c475c0b1",
 }

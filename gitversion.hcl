@@ -55,4 +55,11 @@ sha256sums = {
   "https://github.com/GitTools/GitVersion/releases/download/6.1.0/gitversion-linux-x64-6.1.0.tar.gz": "800c0706108e20f768247c9a241d21476a9690cdafbbf4468c60af608c755644",
   "https://github.com/GitTools/GitVersion/releases/download/6.1.0/gitversion-osx-x64-6.1.0.tar.gz": "a679e1a9c9aeb601124a776623e36e1cf3e2214e379e57904ce8ad7e742f3879",
   "https://github.com/GitTools/GitVersion/releases/download/6.1.0/gitversion-osx-arm64-6.1.0.tar.gz": "235ef5588a888aeae3fd6ccfb6e84a2e0da6482b1d121b4c8ec0f156fc229ab8",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.0/gitversion-linux-arm64-6.0.0.tar.gz": "5fb42c20729a3a4c0ecb0b84a70d1f4a01b89f76d7e1bc39e0b86e3da7ccc868",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.1/gitversion-linux-arm64-6.0.1.tar.gz": "66a02fe38519204203a23bbc07f4071a8de0add32f1598f58a2c3d899126bea3",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.2/gitversion-linux-arm64-6.0.2.tar.gz": "3ebe826cf258c70f17c5e6213a42c410dabe373f7aec7f6a3359e714d7733c70",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.3/gitversion-linux-arm64-6.0.3.tar.gz": "156f12880e13beec58cac3a2b10c695c81bc608facc94e246914369a5ad07061",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.4/gitversion-linux-arm64-6.0.4.tar.gz": "1da9499b4a6333954fc9a39e84720a29ab6164e27a6041a28bc7aef2e3d79a0a",
+  "https://github.com/GitTools/GitVersion/releases/download/6.0.5/gitversion-linux-arm64-6.0.5.tar.gz": "0b4186c884bc4859a44f633141d2492838ad631e49b18aca2e5422d8b5f1fecf",
+  "https://github.com/GitTools/GitVersion/releases/download/6.1.0/gitversion-linux-arm64-6.1.0.tar.gz": "bb7187dee5aeb00a43fc2542ff9f7caee78329867202f0317da27efd5c52ab7b",
 }

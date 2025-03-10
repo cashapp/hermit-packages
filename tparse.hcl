@@ -24,10 +24,6 @@ platform "arm64" {
 }
 
 version "0.9.0" "0.10.3" "0.11.0" "0.11.1" {
-  // https://github.com/mfridman/tparse/commit/6030ec89747e88ad7cc8bb29f8eb644c0baa9f64 ??
-  //auto-version {
-  //  github-release = "mfridman/tparse"
-  //}
 }
 
 sha256sums = {
@@ -43,4 +39,8 @@ sha256sums = {
   "https://github.com/mfridman/tparse/releases/download/v0.11.1/tparse_linux_x86_64": "f73d9d2c1604e79c85f103dad27592d28d4a98fe7ee47d30497d697a433c3a6f",
   "https://github.com/mfridman/tparse/releases/download/v0.11.1/tparse_darwin_arm64": "9408aa5ed2d57cc7e4afa773187ee56158fe7743e28b6782dfc68848c67a674f",
   "https://github.com/mfridman/tparse/releases/download/v0.11.1/tparse_darwin_x86_64": "212c8eb6845fd096a99f7ea8c065c518dad37d0185b4e12509c725e4d792b85c",
+  "https://github.com/mfridman/tparse/releases/download/v0.9.0/tparse_linux_arm64": "5e99baa0feb11e6613b218dc7435933ece6f504074bc706253185723948e90c5",
+  "https://github.com/mfridman/tparse/releases/download/v0.10.3/tparse_linux_arm64": "061b036f9ee6e3371601009d0c4b99eaeacb0c060d06679268c119b02c993206",
+  "https://github.com/mfridman/tparse/releases/download/v0.11.0/tparse_linux_arm64": "777cfe7cbc7dfbc9ed4f2329034aa228a016fea45799260e090e80e9fd9c81a6",
+  "https://github.com/mfridman/tparse/releases/download/v0.11.1/tparse_linux_arm64": "5f70c1f71b292965f4fd5f0d5feea89041137468cd20c67691ffc80951f19c7f",
 }

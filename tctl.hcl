@@ -19,4 +19,5 @@ sha256sums = {
   "https://github.com/temporalio/tctl/releases/download/v1.18.1/tctl_1.18.1_linux_amd64.tar.gz": "6c19195f493062221d4a7132d8f326888a3a7c4e8f868867113b6ffbbabf0714",
   "https://github.com/temporalio/tctl/releases/download/v1.18.1/tctl_1.18.1_darwin_amd64.tar.gz": "ec0eb863c86252ab2c63c9477267c5bb18ba8831acd364a60b6e1ac4891f7f10",
   "https://github.com/temporalio/tctl/releases/download/v1.18.1/tctl_1.18.1_darwin_arm64.tar.gz": "bed198a161c0681d932b3e144671bcf014d2fd83a20fa04d34b28dac80b26f1d",
+  "https://github.com/temporalio/tctl/releases/download/v1.18.1/tctl_1.18.1_linux_arm64.tar.gz": "c277efc28e1d57bf89b214f1f3776c5b61e161a8b4eb601bceff4924eb810d3c",
 }

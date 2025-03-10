@@ -42,4 +42,6 @@ sha256sums = {
   "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.2/jira_1.5.2_linux_x86_64.tar.gz": "a0b3dbfd1eb64e217a2a74a3f79179328b5debf61d6be8a3ed0d0014bd51512a",
   "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.2/jira_1.5.2_macOS_x86_64.tar.gz": "d1158338225b263c40fb4c60835e9241c135af1049e9dc35061f5a19db9c03f4",
   "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.2/jira_1.5.2_macOS_arm64.tar.gz": "47654bd51faad87a7679a90f627824b95faa16b116dc2ea074cd4f1640bfdbbc",
+  "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.1/jira_1.5.1_linux_arm64.tar.gz": "d1c8173b18fdbcbe5d5acb10a6781f40f9b439ff7061f2d7b0c71d0ac0858eed",
+  "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.2/jira_1.5.2_linux_arm64.tar.gz": "72b488f8c635fd74f377d155646eacb24f700820274a9dba248f62aad69bfc7a",
 }

@@ -49,4 +49,13 @@ sha256sums = {
   "https://github.com/mvdan/gofumpt/releases/download/v0.6.0/gofumpt_v0.6.0_linux_amd64": "bdb57c353e2bbc43d2b097bb7289a6e65ef2526787f89316b4b452a9e5086be4",
   "https://github.com/mvdan/gofumpt/releases/download/v0.7.0/gofumpt_v0.7.0_linux_amd64": "6ff459c1dcae3b0b00844c1a5a4a5b0f547237d8a4f3624aaea8d424aeef24c6",
   "https://github.com/mvdan/gofumpt/releases/download/v0.7.0/gofumpt_v0.7.0_darwin_amd64": "b7d05e092da45c5ec96344ab635b1d6547c3e27c840ba39bc76989934efd7ce3",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.1.1/gofumpt_v0.1.1_linux_arm64": "c681c1e1101d43231388290fcfe2052ff6a412687de3ae0455b784d52c687484",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.2.0/gofumpt_v0.2.0_linux_arm64": "887c98ec5f71f9c7126a994286dad361b1a76a1196ebee9bd9820e84ba234fe2",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.2.1/gofumpt_v0.2.1_linux_arm64": "c1a2a9042ce8807075129c173ddb3e87d59d5f30cffd9eab89958532928491f0",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.3.0/gofumpt_v0.3.0_linux_arm64": "6358f1620488d4141e08efadd883e6ffaaeb68064c2cb31ab4185df6364e1105",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.3.1/gofumpt_v0.3.1_linux_arm64": "3d18194b117dc42925433a873576892c1f66604afd6d4e49c7f467b45093090b",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.4.0/gofumpt_v0.4.0_linux_arm64": "186faa7b7562cc4c1a34f2cb89f9b09d9fad949bc2f3ce293ea2726b23c28695",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.5.0/gofumpt_v0.5.0_linux_arm64": "fba20ffd06606c89a500e3cc836408a09e4767e2f117c97724237ae4ecadf82e",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.6.0/gofumpt_v0.6.0_linux_arm64": "10ff2643b7b4b9425bda7f0ca2d4e54d85b09024fbfd9c21dbfd55017b907965",
+  "https://github.com/mvdan/gofumpt/releases/download/v0.7.0/gofumpt_v0.7.0_linux_arm64": "00c18c88ef50437629626ba20d677f4648684cb280952814cdd887677d42cbd3",
 }

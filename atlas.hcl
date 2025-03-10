@@ -118,4 +118,12 @@ sha256sums = {
   "https://release.ariga.io/atlas/atlas-darwin-amd64-v0.31.0": "94876bf45d201d054936903c11df98974b2e632bbf8885cf2239d1fdb2a5eb7d",
   "https://release.ariga.io/atlas/atlas-linux-amd64-v0.31.0": "f821bbd466ed77f69814b3f5627ffe5458a43acd28c05c3f27bb4f3267dd042a",
   "https://release.ariga.io/atlas/atlas-darwin-arm64-v0.31.0": "69203828b55996c06784d46ef1737132489a1794fb459ba2a663a51f5a740caa",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.24.0": "44f7ec339c171b3b7aaae4ce59e4517512d27a60dc1563dc6b4715b3825f492d",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.25.0": "a512d9a3b6f0149d57c65c3601f8bfb404fa1d212f43f07cdd9cc71b308a5d3f",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.26.0": "6d0082245dad6240008306c1735fa791d36d733994f9e449957469a6e945bef7",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.27.0": "3227734b9f05064f4eeb09bd7a15d1d42dd3ed64023a8755e7449aef793cddfd",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.28.0": "7be67f247a96ef8238cb7b53e5a5da7fda6dc5149eaee09d508ef441060d0a35",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.29.0": "dd8d3627f7353f40e115f91bad0a375bd1feecd0f4a03152d5662625aed1eda1",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.30.0": "d7380d5e4715878c44108abe6a1391bc38735319299f0af3658bd5a78aa03b10",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.31.0": "b10c02b0610720ff4f601b77a8c1f5521e89f5a14a6e7e0cc7887fb244e0473d",
 }

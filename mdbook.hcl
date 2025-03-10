@@ -23,4 +23,7 @@ sha256sums = {
   "https://github.com/rust-lang/mdBook/releases/download/v0.4.44/mdbook-v0.4.44-x86_64-apple-darwin.tar.gz": "416cd7f2d83194259a103746c2f35aef87427d9e48541397695929162e9d0557",
   "https://github.com/rust-lang/mdBook/releases/download/v0.4.45/mdbook-v0.4.45-x86_64-unknown-linux-musl.tar.gz": "1b7ff6c18d20f367d97978d82273b5a5b343ef8e2300118c7d7f13d780619609",
   "https://github.com/rust-lang/mdBook/releases/download/v0.4.45/mdbook-v0.4.45-x86_64-apple-darwin.tar.gz": "085256959b89a90d476203720e3a9527f49509158f4afd218a532525711164d5",
+  "https://github.com/rust-lang/mdBook/releases/download/v0.4.43/mdbook-v0.4.43-aarch64-unknown-linux-musl.tar.gz": "647d71951fc696adc8c499a4363bb1a21045a0c734818f077add8ec4477ad814",
+  "https://github.com/rust-lang/mdBook/releases/download/v0.4.44/mdbook-v0.4.44-aarch64-unknown-linux-musl.tar.gz": "6e03ca8a5e72518128cd86a9b99bf8e1b29fa90dcfbd6bf5d9bcffd2e34cb4d7",
+  "https://github.com/rust-lang/mdBook/releases/download/v0.4.45/mdbook-v0.4.45-aarch64-unknown-linux-musl.tar.gz": "8de76e084888803af4b2b710ac8e874107bbd5686f59323776defb8faa837818",
 }

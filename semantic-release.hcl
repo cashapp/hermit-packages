@@ -28,4 +28,7 @@ sha256sums = {
   "https://github.com/go-semantic-release/semantic-release/releases/download/v2.31.0/semantic-release_v2.31.0_linux_amd64": "b8f518b1aeb1d1742f4e6e91a179b707cea4309a64fe3854f465bf724f04f6d3",
   "https://github.com/go-semantic-release/semantic-release/releases/download/v2.31.0/semantic-release_v2.31.0_darwin_amd64": "c9d7e58105ea182e65493a2a27df1fb60d98f74614025c985e66db58757a5217",
   "https://github.com/go-semantic-release/semantic-release/releases/download/v2.31.0/semantic-release_v2.31.0_darwin_arm64": "4a3a5e196b3effbe9e16402b9ab3f4fcb4139d7d6201f707cb45b0d442d31109",
+  "https://github.com/go-semantic-release/semantic-release/releases/download/v2.29.0/semantic-release_v2.29.0_linux_arm64": "e62f9ebbc73ac7f334f1563ad3470eacb39bf859e2dc3a419a700105b3b705e4",
+  "https://github.com/go-semantic-release/semantic-release/releases/download/v2.30.0/semantic-release_v2.30.0_linux_arm64": "f30a03b26f4a8035f245b7d54b62cb8f933cda2d9c1076f66fe1c0620576137a",
+  "https://github.com/go-semantic-release/semantic-release/releases/download/v2.31.0/semantic-release_v2.31.0_linux_arm64": "74fb627a2ec43a97986bcae43830b146c24c711b15e5db7cc2f89e205548045c",
 }

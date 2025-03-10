@@ -21,4 +21,8 @@ sha256sums = {
   "https://github.com/grpc-ecosystem/protoc-gen-grpc-gateway-ts/releases/download/v1.1.2/protoc-gen-grpc-gateway-ts_1.1.2_darwin_amd64.tar.gz": "32ccc4ac6ec42b183a4ae806dac628daa47e1eb9dd35356f72f07ffc12967357",
   "https://github.com/grpc-ecosystem/protoc-gen-grpc-gateway-ts/releases/download/v1.1.2/protoc-gen-grpc-gateway-ts_1.1.2_linux_amd64.tar.gz": "94c348e2554d8c76d10bb48439e5e015c0da54aae46a87adca44527c737ea341",
   "https://github.com/grpc-ecosystem/protoc-gen-grpc-gateway-ts/releases/download/v1.1.2/protoc-gen-grpc-gateway-ts_1.1.2_darwin_arm64.tar.gz": "de4aa0ae3734ac62737a982b39a7194f7ca4925c49f282e7570f0ab6597ba532",
+  "https://github.com/grpc-ecosystem/protoc-gen-grpc-gateway-ts/releases/download/v1.0.0/protoc-gen-grpc-gateway-ts_1.0.0_linux_arm64.tar.gz": "ad447839e92dbc5ff5a04765b37372186f73b9c587f174b9cf18e9b5ec316873",
+  "https://github.com/grpc-ecosystem/protoc-gen-grpc-gateway-ts/releases/download/v1.1.0/protoc-gen-grpc-gateway-ts_1.1.0_linux_arm64.tar.gz": "cde20ef35892dba6724f2177b8e8f8427f31ea195159c3707dbdc6a12a5c065c",
+  "https://github.com/grpc-ecosystem/protoc-gen-grpc-gateway-ts/releases/download/v1.1.1/protoc-gen-grpc-gateway-ts_1.1.1_linux_arm64.tar.gz": "d3ea2a9df52d2db49b5cbd234c232b4cd03408c775db30cb9f701e11913bf4ac",
+  "https://github.com/grpc-ecosystem/protoc-gen-grpc-gateway-ts/releases/download/v1.1.2/protoc-gen-grpc-gateway-ts_1.1.2_linux_arm64.tar.gz": "f4a0f1f2e6cf3c92b14e5f92af3a3774e752f9ade76831a3f02568f037746042",
 }

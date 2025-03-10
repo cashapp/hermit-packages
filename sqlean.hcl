@@ -114,4 +114,13 @@ sha256sums = {
   "https://github.com/nalgeon/sqlean/releases/download/0.27.1/sqlean-macos-arm64.zip": "2bcdee4821402107eb97461b80aa142b34073f94249b46a7305217fe3087b7af",
   "https://github.com/nalgeon/sqlean/releases/download/0.27.1/sqlean-linux-x86.zip": "adad63aa07459d3985ba6b649fb8d2ea8c700f3807ffb9b9283e08b68ea20727",
   "https://github.com/nalgeon/sqlean/releases/download/0.27.1/sqlean-macos-x86.zip": "3905016dd47db5fef379e4627c9d6d248045778ae6c3a824daa6fdcd0b4317d4",
+  "https://github.com/nalgeon/sqlean/releases/download/0.22.0/sqlean-linux-arm64.zip": "0a265a88c4808ad051539708ee6e4c7bbd032797c2a19d71a5bed835a667613b",
+  "https://github.com/nalgeon/sqlean/releases/download/0.23.0/sqlean-linux-arm64.zip": "bc35913bbd282d0632cece75359a133d309a50ab27fc5c3c741fc38c539569d0",
+  "https://github.com/nalgeon/sqlean/releases/download/0.24.0/sqlean-linux-arm64.zip": "fe7ae60599a2803576e69e3563ba87fb9165999d30a526cfbd9b5015216fcc38",
+  "https://github.com/nalgeon/sqlean/releases/download/0.24.1/sqlean-linux-arm64.zip": "91784cf1c213fc07ac10b8694ff967dbd8fa0a2676ad01cda641770c8b43d9bd",
+  "https://github.com/nalgeon/sqlean/releases/download/0.24.2/sqlean-linux-arm64.zip": "54297c9f37767783a5139061b453908117d64ae5887deb96c68670623b8310f7",
+  "https://github.com/nalgeon/sqlean/releases/download/0.25.0/sqlean-linux-arm64.zip": "898e083c601f2364665d9930630ca7f24a42658c7a9bf1eb6296a8111c38f891",
+  "https://github.com/nalgeon/sqlean/releases/download/0.26.0/sqlean-linux-arm64.zip": "75f7f99363d39b005f184e5c38386f315e6daf3386fc89d5a844d27d77d1c24e",
+  "https://github.com/nalgeon/sqlean/releases/download/0.27.0/sqlean-linux-arm64.zip": "c5e299ca6924d672d1045c24742a97dde33d087f3714e662b350ac4216c2f944",
+  "https://github.com/nalgeon/sqlean/releases/download/0.27.1/sqlean-linux-arm64.zip": "3de10694f085a25108cfce87f411172135ee414a77d24a6ff642233f6909d06d",
 }

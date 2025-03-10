@@ -27,4 +27,7 @@ sha256sums = {
   "https://github.com/mozilla/grcov/releases/download/v0.8.20/grcov-aarch64-apple-darwin.tar.bz2": "4921f30488cd3a4d5feb094cb132addbcd073eb67a87d6bde95f5827e6bd54ab",
   "https://github.com/mozilla/grcov/releases/download/v0.8.20/grcov-x86_64-unknown-linux-gnu.tar.bz2": "8cd600a22353464f187ed505e08db38221d7cf40160078871095d339ad7b0261",
   "https://github.com/mozilla/grcov/releases/download/v0.8.20/grcov-x86_64-apple-darwin.tar.bz2": "4e11796998e8f71e409355b5023350ef260cab1913ef6a44c5af8e12613153d7",
+  "https://github.com/mozilla/grcov/releases/download/v0.8.18/grcov-aarch64-unknown-linux-gnu.tar.bz2": "c0f83cc45f7b266f08b54d38619f5541625a4a14ced5f02dd18a5f0882ad6bae",
+  "https://github.com/mozilla/grcov/releases/download/v0.8.19/grcov-aarch64-unknown-linux-gnu.tar.bz2": "5393abe72fe842c784d86d4833fdf3516232daf76f3481e3a9f3a528e779ff13",
+  "https://github.com/mozilla/grcov/releases/download/v0.8.20/grcov-aarch64-unknown-linux-gnu.tar.bz2": "5b0e64c291ae1783bd5cb99aa4eb86759e96894df14fac6dca2fa2748164d845",
 }

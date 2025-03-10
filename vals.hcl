@@ -23,4 +23,8 @@ sha256sums = {
   "https://github.com/helmfile/vals/releases/download/v0.39.3/vals_0.39.3_linux_amd64.tar.gz": "326eb4c686057740a46c651669fd71d7b6708109f0c1c525ddfc343e147ff6c2",
   "https://github.com/helmfile/vals/releases/download/v0.39.3/vals_0.39.3_darwin_amd64.tar.gz": "25493516d7d007c29f830a7217a23e2cc82a5f0c511b76c10fc1d4fdc420a293",
   "https://github.com/helmfile/vals/releases/download/v0.39.3/vals_0.39.3_darwin_arm64.tar.gz": "befd57dabb07a4b55e1b48a73fe3e9f1ae5de2e5564e522d0a1abe50d519e950",
+  "https://github.com/helmfile/vals/releases/download/v0.39.0/vals_0.39.0_linux_arm64.tar.gz": "d3efd292331dc8164859e20457449bc1b628dec9c54bc4beffcbd26cd8522a4a",
+  "https://github.com/helmfile/vals/releases/download/v0.39.1/vals_0.39.1_linux_arm64.tar.gz": "4b28d381d78a58cce5b4b6c9d2344eeb1a978ea5f5816369b9795e0c60f273b6",
+  "https://github.com/helmfile/vals/releases/download/v0.39.2/vals_0.39.2_linux_arm64.tar.gz": "f39f1ac55079403f98e96c3d38bd43cc20d29db8502b25a3b764240a1a35fd8e",
+  "https://github.com/helmfile/vals/releases/download/v0.39.3/vals_0.39.3_linux_arm64.tar.gz": "0d48c011499c4dea19bf909b56ea31bf8612a243c2b39d5f0c8e1be451e213f3",
 }

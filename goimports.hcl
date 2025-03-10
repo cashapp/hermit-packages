@@ -26,4 +26,6 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.3.0-linux-amd64.bz2": "f4f791de98aa01df4f044bc48c5a303d47818880ef0728559cfb2c4ebbb81dab",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.3.0-darwin-amd64.bz2": "aed19b6f540c1ef251986a7256807bb3ec246a68362ef6acf6d4159c8ce5e804",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.3.0-darwin-arm64.bz2": "4f0325890a2ea82f1d037fe693b442f1e1bca0e3b2bba0f733e15bd36113ce60",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.2.0-linux-arm64.bz2": "516f54513246ab1e49848f91f161073deb8794796b0229e37176b2c6d0262385",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.3.0-linux-arm64.bz2": "fc13d4e4098d0604c84ac24df05f9d5e83a7ffbafac4657ba26105e14f06e884",
 }

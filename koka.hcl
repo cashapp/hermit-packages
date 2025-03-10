@@ -57,4 +57,5 @@ sha256sums = {
   "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-linux-x64.tar.gz": "a62f81b5147c1cd1c41b17ef9a986282839f78d1a4e22baedfbcffc211b3b3a6",
   "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-x64.tar.gz": "93ec2965cfb054d2b8a3b01c9ca25b163c8b0a52836a883449b250ef5761b424",
   "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-arm64.tar.gz": "e20467f2652267962e04e4665df547f9e207111539eb4223c3d3e8008be03b6f",
+  "https://github.com/koka-lang/koka/releases/download/v2.4.0/koka-v2.4.0-alpine-arm64.tar.gz": "76f00cffef501bd2a5e2187cd626674c9b4395d0d8eba39928039a88e813a9b1",
 }

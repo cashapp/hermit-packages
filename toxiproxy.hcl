@@ -34,4 +34,12 @@ sha256sums = {
   "https://github.com/Shopify/toxiproxy/releases/download/v2.11.0/toxiproxy_2.11.0_darwin_arm64.tar.gz": "8907aa2f8125dd49c0bc50ca162952bbea668123b9162a3204af3252e2246503",
   "https://github.com/Shopify/toxiproxy/releases/download/v2.11.0/toxiproxy_2.11.0_linux_amd64.tar.gz": "4ead80247dd7b17d3575f59f05141dce3c44f7873ce9bd4a815bc33efac14c5e",
   "https://github.com/Shopify/toxiproxy/releases/download/v2.11.0/toxiproxy_2.11.0_darwin_amd64.tar.gz": "786485ce922bbf57a10dfddbb3541c067bb42b198b296933afc925b189d55138",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.4.0/toxiproxy_2.4.0_linux_arm64.tar.gz": "1f5d8b05c144d49c6b680f44878c4f0b5b21389170b06a1ad9823488d846c117",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.5.0/toxiproxy_2.5.0_linux_arm64.tar.gz": "63a33453dcdabab33c07bc234af164d2031f5418132ca15f949d0ede9a3a6f98",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.6.0/toxiproxy_2.6.0_linux_arm64.tar.gz": "cc1b27d83e752afbfb1dec585564019c543b961ae87f6bc77d6f8cd89761fc2f",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.7.0/toxiproxy_2.7.0_linux_arm64.tar.gz": "7675a0b598e02c542a8818eacd7e300505b682ad257edfdbe05c5a11350ba050",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.8.0/toxiproxy_2.8.0_linux_arm64.tar.gz": "b88670b16f3a194ffdbf8d06c96fc5dd474670f97eba5f4f2949233a9525aaee",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.9.0/toxiproxy_2.9.0_linux_arm64.tar.gz": "63c921c879f3e29002dd9392f5019a1bc0217e584812b94aa7042088e45bf108",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.10.0/toxiproxy_2.10.0_linux_arm64.tar.gz": "f7f693af9847be8799ef3897b7c0e3475f349cd754919e526ea0709e61099f70",
+  "https://github.com/Shopify/toxiproxy/releases/download/v2.11.0/toxiproxy_2.11.0_linux_arm64.tar.gz": "c7478f7038ddc3d7d82f619ffbd10c506b4d9f2873beb87e55c22f9b84ac40f5",
 }

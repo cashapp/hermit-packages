@@ -38,4 +38,13 @@ sha256sums = {
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.0/gotestsum_1.12.0_linux_amd64.tar.gz": "a50939fcfdfbc052bf97ff074c7fd8bcde1745be4a365d12d79311c293f12ae7",
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.0/gotestsum_1.12.0_darwin_arm64.tar.gz": "c5ffdc9054644c4db365de2197a12d21eff48b88a9ad20e3e0c29346802d0b41",
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.0/gotestsum_1.12.0_darwin_amd64.tar.gz": "6aadbf46e0faba9e025fdf2726cbf660f5975fe7a8d4e57977f0e85212d5bdc9",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.7.0/gotestsum_1.7.0_linux_arm64.tar.gz": "ee57c91abadc464a7cd9f8abbffe94a673aab7deeb9af8c17b96de4bb8f37e41",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.8.0/gotestsum_1.8.0_linux_arm64.tar.gz": "ab1da46295518c487d5d6543e0cb58153d405f8b69914c3e22e73a20eae28a51",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.8.1/gotestsum_1.8.1_linux_arm64.tar.gz": "6dfdf23fd134c936ddbaf34bb037153dcfd547f5693d59c263523b9a60ba7d8d",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.8.2/gotestsum_1.8.2_linux_arm64.tar.gz": "c11c7ffbb81b36828160b11fc8d2ba20b2c004b9e39d103d7b8c70c92e1ad500",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.9.0/gotestsum_1.9.0_linux_arm64.tar.gz": "9c8da1d4f4118da436705f2365cfd99c4f516cd1c91b19acc03a1cd47efb382f",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.10.0/gotestsum_1.10.0_linux_arm64.tar.gz": "5c4b7a8c1ee77717bda640a03108731255ab1ae137939f1f8f3dc7c8bad8e371",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.10.1/gotestsum_1.10.1_linux_arm64.tar.gz": "4a253212ca28577ba8051d1a48ea14feeebaddd1fb8f8695c790e2e61084b760",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.11.0/gotestsum_1.11.0_linux_arm64.tar.gz": "51c7fe29216678edaaa96bb67e38d58437fd54a83468f58a32513995f575dcc3",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.0/gotestsum_1.12.0_linux_arm64.tar.gz": "b8b33c5b5b8fc7c358eb91f131d99f7feb2f1cf5a6ef28ab887367342dd59e83",
 }

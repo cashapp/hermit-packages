@@ -23,4 +23,8 @@ sha256sums = {
   "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-linux-amd64.tar.gz": "7df45a6cc87d4da11cc03a539a7470c15b1041ab2b396af088fe9990f7c79d50",
   "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-arm64.tar.gz": "cf79875bd5970dc2dac60c87fa50cee1ff1f9a41b0eb273f65e174aff37c367a",
   "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz": "424e1d64438a730626540b2e01e98d132a64214442ca9465b3e82336d12e633e",
+  "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-arm64.tar.gz": "6c82aa1d406e5a401ec3bb344cd406626478be74d5ae628f192d907cd78af981",
+  "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-arm64.tar.gz": "f0dbf4364f5ba44e37ad85af9fdd3716bd410018ce344d317b174d206b03e6fc",
+  "https://github.com/FiloSottile/age/releases/download/v1.2.0/age-v1.2.0-linux-arm64.tar.gz": "d25a81f3ac011884009d18362eeb8154ce1bca4d151834c35c718654bd6c6353",
+  "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-linux-arm64.tar.gz": "57fd79a7ece5fe501f351b9dd51a82fbee1ea8db65a8839db17f5c080245e99f",
 }
