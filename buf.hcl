@@ -2,6 +2,7 @@ description = "Buf makes Protocol Buffer APIs easy to create, maintain, and cons
 test = "buf --version"
 binaries = ["bin/*"]
 strip = 1
+sha256-source = "https://github.com/bufbuild/buf/releases/download/v${version}/sha256.txt"
 
 platform "darwin" "amd64" {
   source = "https://github.com/bufbuild/buf/releases/download/v${version}/buf-Darwin-x86_64.tar.gz"
@@ -13,6 +14,10 @@ platform "darwin" "arm64" {
 
 platform "linux" "amd64" {
   source = "https://github.com/bufbuild/buf/releases/download/v${version}/buf-Linux-x86_64.tar.gz"
+}
+
+platform "linux" "arm64" {
+  source = "https://github.com/bufbuild/buf/releases/download/v${version}/buf-Linux-aarch64.tar.gz"
 }
 
 version "0.43.2" "0.44.0" "0.56.0" "1.0.0-rc8" "1.8.0" "1.9.0" "1.10.0" "1.11.0"
@@ -205,4 +210,63 @@ sha256sums = {
   "https://github.com/bufbuild/buf/releases/download/v1.50.0/buf-Darwin-x86_64.tar.gz": "fc64b4a16964d7ec49fb2d245159d57dbfb3dac947e2a86413f9685cf8de2ac5",
   "https://github.com/bufbuild/buf/releases/download/v1.50.0/buf-Darwin-arm64.tar.gz": "c80f7f8a1d8ffd36c5db31a360c7e0b65c8cf671d60bd3c34e1558e54f84f4cc",
   "https://github.com/bufbuild/buf/releases/download/v1.50.0/buf-Linux-x86_64.tar.gz": "80c1211dfc4844499c6ddad341bb21206579883fd33cea0a2c40c82befd70602",
+  "https://github.com/bufbuild/buf/releases/download/v1.0.0-rc8/buf-Linux-aarch64.tar.gz": "000c127e6e5b6601d035814fb67b725de7d6332f88a8c44528b39997b147cb29",
+  "https://github.com/bufbuild/buf/releases/download/v1.15.0/buf-Linux-aarch64.tar.gz": "2c497a130446ef197335ffaeccb88c6ba755cc1ab93b055980334383b9e59d6e",
+  "https://github.com/bufbuild/buf/releases/download/v1.15.1/buf-Linux-aarch64.tar.gz": "90d8caa85b4cff1cdb6e96ee01e3f4f1a12135be3834ffd41c486f1cc03213ef",
+  "https://github.com/bufbuild/buf/releases/download/v1.16.0/buf-Linux-aarch64.tar.gz": "94e69825a99e6b7e0270882789014080ee511afd88ba9f1ee82c03f648c66872",
+  "https://github.com/bufbuild/buf/releases/download/v1.27.2/buf-Linux-aarch64.tar.gz": "472f3ffc6240e0cb24f1cf31a6ed15591d14564161094e9131f98ed77cbf2a1c",
+  "https://github.com/bufbuild/buf/releases/download/v1.28.1/buf-Linux-aarch64.tar.gz": "6a09d29c5e2bab54e68ee9c30ff9293cba76ed0bb48de1bbce69a1ed1d8047bd",
+  "https://github.com/bufbuild/buf/releases/download/v1.32.0/buf-Linux-aarch64.tar.gz": "4aa96dc83f0eec5fe584647149ecabc094dabdd67da2c132da6d8c1e32c4f52c",
+  "https://github.com/bufbuild/buf/releases/download/v1.35.0/buf-Linux-aarch64.tar.gz": "2b7d2e1062540128f298a56f7372cf0b6ba495c06ca96d8fcfbca129f319f9c7",
+  "https://github.com/bufbuild/buf/releases/download/v1.36.0/buf-Linux-aarch64.tar.gz": "b71f79c5057bdf733d39ab5cbf05eaba172e5fbfcead2629a3eaf3d24d9afab9",
+  "https://github.com/bufbuild/buf/releases/download/v1.37.0/buf-Linux-aarch64.tar.gz": "827920149050f4890baf2708098957576a25bdc782d0c179a09cebc18738685b",
+  "https://github.com/bufbuild/buf/releases/download/v1.45.0/buf-Linux-aarch64.tar.gz": "2d3ebfed036881d0615e5b24288cf788791b45848f26e915e3efe7ee9c10735d",
+  "https://github.com/bufbuild/buf/releases/download/v1.9.0/buf-Linux-aarch64.tar.gz": "46c64043b308a23b1e50a5daacc74e3895ffbc8ca2258c9c84b5ffd23c4419d7",
+  "https://github.com/bufbuild/buf/releases/download/v1.10.0/buf-Linux-aarch64.tar.gz": "3d3ed45132af93107921585ecf0edc6e948b426ac2e08bf34b87d0c9c9a3cb72",
+  "https://github.com/bufbuild/buf/releases/download/v1.14.0/buf-Linux-aarch64.tar.gz": "1dd008e681006259d7ce3275fb49c7df45d2f9ea0fb3346980a8763ea1f06599",
+  "https://github.com/bufbuild/buf/releases/download/v1.21.0/buf-Linux-aarch64.tar.gz": "25771076a40744840dcf23b7fc95b50c84687492e5730fbea1330d33693f55cf",
+  "https://github.com/bufbuild/buf/releases/download/v1.25.1/buf-Linux-aarch64.tar.gz": "6940331d4b7c852da959513680b2249a0754484711a14ab9e8e3c1042f463749",
+  "https://github.com/bufbuild/buf/releases/download/v1.31.0/buf-Linux-aarch64.tar.gz": "ed435fe40a8b719354f746261cf9dbfcbfa4165fdb600e2f324ad8f6fe488dd2",
+  "https://github.com/bufbuild/buf/releases/download/v1.33.0/buf-Linux-aarch64.tar.gz": "db0b37f14c3ac0dc0150ea510218b1a3fdf593c96682183027e34c28d128b931",
+  "https://github.com/bufbuild/buf/releases/download/v1.35.1/buf-Linux-aarch64.tar.gz": "c4615de9d5ce05f230a5cc07af5e895fba791f24b49716d95e348d791616a136",
+  "https://github.com/bufbuild/buf/releases/download/v1.38.0/buf-Linux-aarch64.tar.gz": "c7dd46bcc5761b1e390cf4ed5247dad02475991242a9f815d5c1e2c530ae14c4",
+  "https://github.com/bufbuild/buf/releases/download/v1.40.1/buf-Linux-aarch64.tar.gz": "7619086bb1f2683e63d9eb7ce48f107a2680f60a16bab7a43e444eb7d7606810",
+  "https://github.com/bufbuild/buf/releases/download/v1.47.0/buf-Linux-aarch64.tar.gz": "cab6a31d8529bf4ce5af602c2ddde9bfc23dc3484c376467c5c9e86de5752149",
+  "https://github.com/bufbuild/buf/releases/download/v1.12.0/buf-Linux-aarch64.tar.gz": "a05b94278dca31cd052ecbff618022e5b77446cfd485cb6fa5781c3b7d1a67a7",
+  "https://github.com/bufbuild/buf/releases/download/v1.22.0/buf-Linux-aarch64.tar.gz": "22eddaca531b50117c677665250d36ffa2894abb799f8757ebf72c2f442468c4",
+  "https://github.com/bufbuild/buf/releases/download/v1.27.1/buf-Linux-aarch64.tar.gz": "4c21c73d94c4c16791e48460ce81f21ec580f6e35ef3a4ebad8ea681c8f5e18d",
+  "https://github.com/bufbuild/buf/releases/download/v1.28.0/buf-Linux-aarch64.tar.gz": "6a7211c3142205458f331b6fda7abd0bd78749af016beb301647aa66708c71a8",
+  "https://github.com/bufbuild/buf/releases/download/v1.30.1/buf-Linux-aarch64.tar.gz": "25d9b73c364e4b07961d0d162a7727b1179bdaf554a3dc9c74fad24920e0a058",
+  "https://github.com/bufbuild/buf/releases/download/v1.32.2/buf-Linux-aarch64.tar.gz": "de7ba2aaa882de949b0609d4e9a40ceb48c5757b890433789aec14152a574601",
+  "https://github.com/bufbuild/buf/releases/download/v1.39.0/buf-Linux-aarch64.tar.gz": "2bab71a68bba9b93a6692ed7c2d904d8676bb3c48865ebdd8c1a163410fc2b3c",
+  "https://github.com/bufbuild/buf/releases/download/v1.40.0/buf-Linux-aarch64.tar.gz": "ae53c829263bd7e776bcc2f004e280422c11ac2e71b462f3a820425c10a93870",
+  "https://github.com/bufbuild/buf/releases/download/v1.47.2/buf-Linux-aarch64.tar.gz": "e7188833039d4e7736de517eba6141b9306f4b60b00974392dac7ce38627321e",
+  "https://github.com/bufbuild/buf/releases/download/v1.49.0/buf-Linux-aarch64.tar.gz": "fd54cbe4ab0ef43dc5e6f2154328d5fed3bd9ad6a984a1387cc5749f40227606",
+  "https://github.com/bufbuild/buf/releases/download/v1.50.0/buf-Linux-aarch64.tar.gz": "4c920c5f96eb99ad13eb6f25cf740fdb42963401faa267bee03fbd3e163730b2",
+  "https://github.com/bufbuild/buf/releases/download/v0.43.2/buf-Linux-aarch64.tar.gz": "8d0ec8b281851711e8e95837b6a44e82072610c2ad86fedcb547d6dc089da8a8",
+  "https://github.com/bufbuild/buf/releases/download/v0.56.0/buf-Linux-aarch64.tar.gz": "e8033603e32bb2162276191494b035acda6e50d79f1039e0473084bcccf5fc93",
+  "https://github.com/bufbuild/buf/releases/download/v1.13.1/buf-Linux-aarch64.tar.gz": "7489339e713238c608d128b8ebdd91ce424f8f0acc961eabd15ef1bdf531cc9d",
+  "https://github.com/bufbuild/buf/releases/download/v1.23.0/buf-Linux-aarch64.tar.gz": "70cfd33d85a7c6108e3ddaf8b3ef86bbda2f0ebab2fdd2869436a4338e35cfea",
+  "https://github.com/bufbuild/buf/releases/download/v1.23.1/buf-Linux-aarch64.tar.gz": "f883236f84253a34fa0817ae645a82f0ead7499e9ed9996ca19fb15ab79fedf3",
+  "https://github.com/bufbuild/buf/releases/download/v1.29.0/buf-Linux-aarch64.tar.gz": "a725e0ab1c6b1e97b31f9d1d946f8b1d56586a96715fae4a7ecc88b6cf601cea",
+  "https://github.com/bufbuild/buf/releases/download/v1.30.0/buf-Linux-aarch64.tar.gz": "70efa6f5379dbe44297f0efac8fdd5e4ea90389330555a23e317f968b51a307c",
+  "https://github.com/bufbuild/buf/releases/download/v1.32.1/buf-Linux-aarch64.tar.gz": "f2f5c4234985c09c1793f020177fd62a14b0b509f92849732ddabfa4ecb2ac39",
+  "https://github.com/bufbuild/buf/releases/download/v1.34.0/buf-Linux-aarch64.tar.gz": "564d3ee76d93940addc15ba99b6ccc08b199c345800947a6d7f92e123aa62343",
+  "https://github.com/bufbuild/buf/releases/download/v1.44.0/buf-Linux-aarch64.tar.gz": "83913a5dbb861b9c91fd82ba93b6f17bef54f43c6f2e43abe0b63464edb7de8f",
+  "https://github.com/bufbuild/buf/releases/download/v1.46.0/buf-Linux-aarch64.tar.gz": "143d7552800be99976cfa1bd3c482608268e2682737129df3ac60886ac69d735",
+  "https://github.com/bufbuild/buf/releases/download/v0.44.0/buf-Linux-aarch64.tar.gz": "2a1adfb733e49a54d12eae8cb872a1fe01fc22723015b4d932f8f5d853c5ea9f",
+  "https://github.com/bufbuild/buf/releases/download/v1.11.0/buf-Linux-aarch64.tar.gz": "49b0debfcd917f90bda9f5f6b36bd34dde8fc222ee303a7ec431d159d06329c7",
+  "https://github.com/bufbuild/buf/releases/download/v1.18.0/buf-Linux-aarch64.tar.gz": "86bae0bcf59b951be60fb1cde607dabbdc324db1710722d1e39141dfd4d80bd8",
+  "https://github.com/bufbuild/buf/releases/download/v1.19.0/buf-Linux-aarch64.tar.gz": "09897525efcdf8a3d068687b5d512e06fe2bf6aea84ba54a2939f89d14f6f756",
+  "https://github.com/bufbuild/buf/releases/download/v1.20.0/buf-Linux-aarch64.tar.gz": "4538a2c96aea26285c0711f8eb9b34d755cea02264c5bd1d5ca5213deba642c1",
+  "https://github.com/bufbuild/buf/releases/download/v1.24.0/buf-Linux-aarch64.tar.gz": "5782dbfab986be75ce6e81c6b58559a34c93c265db81d5a66d9daa2523491061",
+  "https://github.com/bufbuild/buf/releases/download/v1.25.0/buf-Linux-aarch64.tar.gz": "003fe80309125c621c8675074d0e65498d2c973446b81aa761da93df6f636156",
+  "https://github.com/bufbuild/buf/releases/download/v1.26.1/buf-Linux-aarch64.tar.gz": "939ed1b101a4919d86176750c146807e0e3a5f4d15611b11d3e126322eac6d9a",
+  "https://github.com/bufbuild/buf/releases/download/v1.27.0/buf-Linux-aarch64.tar.gz": "e347edc0591374c08783609d73abae42e67ba45ea4bdcb23c3434f1ab8b57d4c",
+  "https://github.com/bufbuild/buf/releases/download/v1.41.0/buf-Linux-aarch64.tar.gz": "5e65cc95befa531232769815bb69e697b07dff2f3fd38227512f55a9b390d012",
+  "https://github.com/bufbuild/buf/releases/download/v1.42.0/buf-Linux-aarch64.tar.gz": "ce56c5bc20bd74b572289a4d8f82732ed7098961fdf5a82242b9c90c30e9db60",
+  "https://github.com/bufbuild/buf/releases/download/v1.8.0/buf-Linux-aarch64.tar.gz": "8351fc0256b8bccc83f21826e875e07a00b562829c686f6929a4812dd7c85bbd",
+  "https://github.com/bufbuild/buf/releases/download/v1.17.0/buf-Linux-aarch64.tar.gz": "7ae3d4bf6ff121172dd949bd4d25342e03a0b7f10cf8e8ccdc8f98a664b79794",
+  "https://github.com/bufbuild/buf/releases/download/v1.43.0/buf-Linux-aarch64.tar.gz": "1b0aecb5565a4c828171a89ade7b4f6d2ba77a018a2174a5e6f73e8e82133376",
+  "https://github.com/bufbuild/buf/releases/download/v1.48.0/buf-Linux-aarch64.tar.gz": "e65b434cbf201d039400ddce55773d2b60a2846db4187ef1e9cd331ade40a2e1",
 }
