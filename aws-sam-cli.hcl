@@ -1,19 +1,23 @@
 description = "The AWS Serverless Application Model (SAM) CLI is an open-source CLI tool that helps you develop serverless applications containing Lambda functions, Step Functions, API Gateway, EventBridge, SQS, SNS and more."
 test = "sam --version"
 repository = "https://github.com/aws/aws-sam-cli"
+vars = {
+  "arch_": "${arch}",
+}
 
-platform "darwin" "arm64" {
-  source = "https://github.com/aws/aws-sam-cli/releases/download/v${version}/aws-sam-cli-macos-arm64.pkg"
+platform "amd64" {
+  vars = {
+    "arch_": "x86_64",
+  }
+}
+
+platform "darwin" {
+  source = "https://github.com/aws/aws-sam-cli/releases/download/v${version}/aws-sam-cli-macos-${arch_}.pkg"
   binaries = ["aws-sam-cli/sam"]
 }
 
-platform "darwin" "amd64" {
-  source = "https://github.com/aws/aws-sam-cli/releases/download/v${version}/aws-sam-cli-macos-x86_64.pkg"
-  binaries = ["aws-sam-cli/sam"]
-}
-
-platform "linux" "amd64" {
-  source = "https://github.com/aws/aws-sam-cli/releases/download/v${version}/aws-sam-cli-linux-x86_64.zip"
+platform "linux" {
+  source = "https://github.com/aws/aws-sam-cli/releases/download/v${version}/aws-sam-cli-linux-${arch_}.zip"
   binaries = ["dist/sam"]
 }
 
@@ -86,4 +90,24 @@ sha256sums = {
   "https://github.com/aws/aws-sam-cli/releases/download/v1.134.0/aws-sam-cli-macos-arm64.pkg": "cc2c7d7bc61eb86314f06419c8b0587971ca023e7686e760bbdfccf03016a2c1",
   "https://github.com/aws/aws-sam-cli/releases/download/v1.134.0/aws-sam-cli-linux-x86_64.zip": "d04bf1b736b7b8112673e7aff072401ec482b6e2adea641ecaf791bdd0337478",
   "https://github.com/aws/aws-sam-cli/releases/download/v1.134.0/aws-sam-cli-macos-x86_64.pkg": "4d12d459295bfa0d78e6484aa9062dec57ab67eefbcde9c148ea8210c9f6b47e",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.117.0/aws-sam-cli-linux-arm64.zip": "3d27c31b672d77ec986153bf6f49914bdbac94a7f02faad1eb8e76c8264d0484",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.118.0/aws-sam-cli-linux-arm64.zip": "c250857044863e39b01db9db6332081f9a2c431d2bef30c4ea42bee39a8c6547",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.119.0/aws-sam-cli-linux-arm64.zip": "ecfcb25313fa09a24bdd8e8faf735ebbc53b157427075324429c0fe9ea1b2305",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.124.0/aws-sam-cli-linux-arm64.zip": "d14fc8ffa901083bdc774beed31284e63a67cdd05798ec4ac64e1280b0fb876a",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.125.0/aws-sam-cli-linux-arm64.zip": "44918468ea738b65928495a1f450507c96cc36b62679aa34d303d613abb61fe1",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.126.0/aws-sam-cli-linux-arm64.zip": "1ccf389c4bd99e7f0aa960b4f8ee7459419c3a34316e06b86d940e68c604dc52",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.130.0/aws-sam-cli-linux-arm64.zip": "3db0ec98fa560d2dfc442b2d996ef7e1cdfa05d51a398f5ab405a753d68b2c86",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.131.0/aws-sam-cli-linux-arm64.zip": "0d1c66955d1b413d85ccd9826b390f169204f68ae3194040a2449652e6a6f35e",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.132.0/aws-sam-cli-linux-arm64.zip": "28f7082a5d349cacf6934d8dbf90c224aab97e9593ada68539a7351b21d1ee4c",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.133.0/aws-sam-cli-linux-arm64.zip": "4a099f42b407df39345588366fe9d3c57027e3efc4e962381822fcd7e2aa9930",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.134.0/aws-sam-cli-linux-arm64.zip": "6f6ff2d809e54a4bc375f3b614d36fb82a8b6627baf398c41d2b98c160328d6d",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.115.0/aws-sam-cli-linux-arm64.zip": "ecc8c2d37bb3a6c4517a386c1e6615228059cb74a10b81b3cd92ed0e615f5a46",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.116.0/aws-sam-cli-linux-arm64.zip": "8b008bc5a7b512a1296c3374646913ee5454650173ea583de1b982db00ad47f9",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.120.0/aws-sam-cli-linux-arm64.zip": "8091118dff98b3a3c58b85e45eb84eddd45aafb23f547641ce08fe1a4333c554",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.121.0/aws-sam-cli-linux-arm64.zip": "4e0a9585764f70e09655baa8a4db91ef837672cf8c918473e652d22e6ec8bf2a",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.122.0/aws-sam-cli-linux-arm64.zip": "9ec61cc7522f1d5c8a8fd71dc0e7f4df193dcba1d4785d28fe9377d75e2b6265",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.123.0/aws-sam-cli-linux-arm64.zip": "5ee4ab0f4e544a30443afa0fcbc8eb001021e27468472a8d97e1da916cc4f715",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.127.0/aws-sam-cli-linux-arm64.zip": "048e2402996af77d44897a80ee77a5c3012e4047bcb282a6b90622155cd35b87",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.128.0/aws-sam-cli-linux-arm64.zip": "ef4f95ade5feff8a31b0abff672f5d44629d711bafaf8b01fa421d25b841042c",
+  "https://github.com/aws/aws-sam-cli/releases/download/v1.129.0/aws-sam-cli-linux-arm64.zip": "c55ecf4dd37689fd33528638ee756af5960dd8e530edd7f11791488cec18c1e3",
 }
