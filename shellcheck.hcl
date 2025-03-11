@@ -2,9 +2,13 @@ description = "A static analysis tool for shell scripts"
 test = "shellcheck --version"
 binaries = ["shellcheck"]
 strip = 1
-source = "https://github.com/koalaman/shellcheck/releases/download/v${version}/shellcheck-v${version}.${os}.x86_64.tar.xz"
+source = "https://github.com/koalaman/shellcheck/releases/download/v${version}/shellcheck-v${version}.${os}.${xarch}.tar.xz"
 
-version "0.7.1" "0.7.2" "0.8.0" "0.9.0" "0.10.0" {
+version "0.7.1" "0.7.2" "0.8.0" "0.9.0" {
+  source = "https://github.com/koalaman/shellcheck/releases/download/v${version}/shellcheck-v${version}.${os}.x86_64.tar.xz"
+}
+
+version "0.10.0" {
   auto-version {
     github-release = "koalaman/shellcheck"
   }
@@ -21,4 +25,6 @@ sha256sums = {
   "https://github.com/koalaman/shellcheck/releases/download/v0.9.0/shellcheck-v0.9.0.linux.x86_64.tar.xz": "700324c6dd0ebea0117591c6cc9d7350d9c7c5c287acbad7630fa17b1d4d9e2f",
   "https://github.com/koalaman/shellcheck/releases/download/v0.10.0/shellcheck-v0.10.0.linux.x86_64.tar.xz": "6c881ab0698e4e6ea235245f22832860544f17ba386442fe7e9d629f8cbedf87",
   "https://github.com/koalaman/shellcheck/releases/download/v0.10.0/shellcheck-v0.10.0.darwin.x86_64.tar.xz": "ef27684f23279d112d8ad84e0823642e43f838993bbb8c0963db9b58a90464c2",
+  "https://github.com/koalaman/shellcheck/releases/download/v0.10.0/shellcheck-v0.10.0.darwin.aarch64.tar.xz": "bbd2f14826328eee7679da7221f2bc3afb011f6a928b848c80c321f6046ddf81",
+  "https://github.com/koalaman/shellcheck/releases/download/v0.10.0/shellcheck-v0.10.0.linux.aarch64.tar.xz": "324a7e89de8fa2aed0d0c28f3dab59cf84c6d74264022c00c22af665ed1a09bb",
 }
