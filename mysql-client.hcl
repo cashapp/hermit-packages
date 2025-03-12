@@ -92,4 +92,7 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-8.0.36-macos14-x86_64.tar.gz": "3527178b9f810d2d8ef879961cdc379544805beea81f934b44c604ad99e689d9",
   "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-8.0.36-macos14-arm64.tar.gz": "cc10da4f6466ecdda778cb62efd07b62da9303e5c524f1ad42e3f91c09ec9e71",
   "https://github.com/cashapp/hermit-build/releases/download/mysql-client/percona-mysql-8.0.40-31-1-ubuntu_multirelease-arm64.tar.gz": "be64154aca01978c676c6329cc0a944484da5d5426c3c575b38dc2afdeb79e6d",
+  "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-8.0.40-macos14-arm64.tar.gz": "22dbaab42f193bb469381bb5bcfd5c5267fa9fc4192578bda4c99a70cab4391a",
+  "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-8.0.40-ubuntu_multirelease-amd64.tar.gz": "7df46d76d0e0281456fa24c8ce95c5cf954ffd77e4d9fc1735b4d41bfb441c8c",
+  "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysql-8.0.40-macos14-x86_64.tar.gz": "a8b9e08a22b5d5388993de4dd8404e950e358993170e97452334c556b5671623",
 }

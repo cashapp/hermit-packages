@@ -80,4 +80,7 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysqladmin-8.0.36-macos14-x86_64.tar.gz": "9de2a1d3911b6383ab125832883aa0cd9fe2f92b70ec89a8f7a5ec6dea5640a1",
   "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysqladmin-8.0.36-macos14-arm64.tar.gz": "fa28a2c6c6fdb9acc849df0de4de1be4c86fbdbd9e050a9f3f27b08f3f544ac1",
   "https://github.com/cashapp/hermit-build/releases/download/mysql-client/percona-mysqladmin-8.0.40-31-1-ubuntu_multirelease-arm64.tar.gz": "2e2614be794645926f32c87e3641bcadaf38442713d698e5f936c86b5809b641",
+  "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysqladmin-8.0.40-ubuntu_multirelease-amd64.tar.gz": "3c148aad3b8d1705b8533e7ed40b07eaaef9133a147225a10dcce1fb8cfb8cd5",
+  "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysqladmin-8.0.40-macos14-x86_64.tar.gz": "3e29ec303ca01d9b34ea78886ca901896f7b443027e193ffaaaa00c8f2822930",
+  "https://github.com/cashapp/hermit-build/releases/download/mysql-client/mysqladmin-8.0.40-macos14-arm64.tar.gz": "9dc359ccf33a2e218f4c5215ca00e113da0bfd61521811ee864f20039ddf40c9",
 }
