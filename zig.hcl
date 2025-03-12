@@ -19,7 +19,8 @@ version "0.7.1" {
   }
 }
 
-version "0.8.0" "0.8.1" "0.9.0" "0.9.1" "0.10.0" "0.10.1" "0.11.0" "0.12.0" "0.13.0" {
+version "0.8.0" "0.8.1" "0.9.0" "0.9.1" "0.10.0" "0.10.1" "0.11.0" "0.12.0" "0.13.0"
+        "0.14.0" {
   auto-version {
     html {
       url = "https://ziglang.org/download/"
@@ -68,4 +69,8 @@ sha256sums = {
   "https://ziglang.org/download/0.11.0/zig-linux-aarch64-0.11.0.tar.xz": "956eb095d8ba44ac6ebd27f7c9956e47d92937c103bf754745d0a39cdaa5d4c6",
   "https://ziglang.org/download/0.12.0/zig-linux-aarch64-0.12.0.tar.xz": "754f1029484079b7e0ca3b913a0a2f2a6afd5a28990cb224fe8845e72f09de63",
   "https://ziglang.org/download/0.13.0/zig-linux-aarch64-0.13.0.tar.xz": "041ac42323837eb5624068acd8b00cd5777dac4cf91179e8dad7a7e90dd0c556",
+  "https://ziglang.org/download/0.14.0/zig-macos-x86_64-0.14.0.tar.xz": "685816166f21f0b8d6fc7aa6a36e91396dcd82ca6556dfbe3e329deffc01fec3",
+  "https://ziglang.org/download/0.14.0/zig-linux-x86_64-0.14.0.tar.xz": "473ec26806133cf4d1918caf1a410f8403a13d979726a9045b421b685031a982",
+  "https://ziglang.org/download/0.14.0/zig-linux-aarch64-0.14.0.tar.xz": "ab64e3ea277f6fc5f3d723dcd95d9ce1ab282c8ed0f431b4de880d30df891e4f",
+  "https://ziglang.org/download/0.14.0/zig-macos-aarch64-0.14.0.tar.xz": "b71e4b7c4b4be9953657877f7f9e6f7ee89114c716da7c070f4a238220e95d7e",
 }

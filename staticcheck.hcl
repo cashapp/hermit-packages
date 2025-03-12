@@ -7,7 +7,7 @@ sha256-source = "https://github.com/dominikh/go-tools/releases/download/${versio
 test = "staticcheck --version"
 
 version "2023.1.2" "2023.1.3" "2023.1.4" "2023.1.5" "2023.1.6" "2023.1.7" "2024.1"
-        "2024.1.1" "2025.1" {
+        "2024.1.1" "2025.1" "2025.1.1" {
   auto-version {
     github-release = "dominikh/go-tools"
   }
@@ -50,4 +50,8 @@ sha256sums = {
   "https://github.com/dominikh/go-tools/releases/download/2024.1/staticcheck_linux_arm64.tar.gz": "aeaed9d99b358411bbd5bbfb8d289add800943648aacd497b8e5c1ea34777a8e",
   "https://github.com/dominikh/go-tools/releases/download/2024.1.1/staticcheck_linux_arm64.tar.gz": "4cf69c1f5cdd86810a07d830ff90c253e8da8a5817bb57caee8c9807493fc557",
   "https://github.com/dominikh/go-tools/releases/download/2025.1/staticcheck_linux_arm64.tar.gz": "932839164cc03296f22674255f4ceef8024705f84251eff32502c07dcad71634",
+  "https://github.com/dominikh/go-tools/releases/download/2025.1.1/staticcheck_darwin_amd64.tar.gz": "d66e2d65efc02c314b578b28a8db3008f82f8fc1c8eb6edcbe04b3c3444a1f8a",
+  "https://github.com/dominikh/go-tools/releases/download/2025.1.1/staticcheck_linux_amd64.tar.gz": "ae320e410225295ecb2a2cd406113e3c2fe40521aaed984dd11dc41a0a50b253",
+  "https://github.com/dominikh/go-tools/releases/download/2025.1.1/staticcheck_darwin_arm64.tar.gz": "ce1911c11ec2c079936a80163dba10156c7c79fd1423d432b2a24825a22f5e8d",
+  "https://github.com/dominikh/go-tools/releases/download/2025.1.1/staticcheck_linux_arm64.tar.gz": "b135fd89dbc875f20d83e66948fff256af738b33b48a64024c0752f29ea1eb13",
 }
