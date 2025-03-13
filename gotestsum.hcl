@@ -2,7 +2,8 @@ description = "'go test' runner with output optimized for humans, JUnit XML for 
 test = "gotestsum --version"
 binaries = ["gotestsum"]
 
-version "1.7.0" "1.8.0" "1.8.1" "1.8.2" "1.9.0" "1.10.0" "1.10.1" "1.11.0" "1.12.0" {
+version "1.7.0" "1.8.0" "1.8.1" "1.8.2" "1.9.0" "1.10.0" "1.10.1" "1.11.0" "1.12.0"
+        "1.12.1" {
   source = "https://github.com/gotestyourself/gotestsum/releases/download/v${version}/gotestsum_${version}_${os}_${arch}.tar.gz"
 
   auto-version {
@@ -47,4 +48,8 @@ sha256sums = {
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.10.1/gotestsum_1.10.1_linux_arm64.tar.gz": "4a253212ca28577ba8051d1a48ea14feeebaddd1fb8f8695c790e2e61084b760",
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.11.0/gotestsum_1.11.0_linux_arm64.tar.gz": "51c7fe29216678edaaa96bb67e38d58437fd54a83468f58a32513995f575dcc3",
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.0/gotestsum_1.12.0_linux_arm64.tar.gz": "b8b33c5b5b8fc7c358eb91f131d99f7feb2f1cf5a6ef28ab887367342dd59e83",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.1/gotestsum_1.12.1_darwin_amd64.tar.gz": "682c0c6794e77821c8ce39396698053aab26a6110e5ac19089f1bcc9825f8116",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.1/gotestsum_1.12.1_linux_arm64.tar.gz": "e3cdc0adb3cec174b6bd84a4de0bd51f1ef3cb540e72e22722afe6227b460f09",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.1/gotestsum_1.12.1_linux_amd64.tar.gz": "488e645b87169935095980d89c133c9d9b246196ac25c70099614694c0fb6d39",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.1/gotestsum_1.12.1_darwin_arm64.tar.gz": "db1cc59e8c7dedbf2d8b1427b451e4445d4467207a99e534b5b6b6aca8ddb9ed",
 }
