@@ -2,7 +2,7 @@ description = "A parser library for Go"
 binaries = ["participle"]
 source = "https://github.com/alecthomas/participle/releases/download/v${version}/participle-${version}-${os}-${arch}.tar.gz"
 
-version "2.0.0" "2.1.0" "2.1.1" {
+version "2.0.0" "2.1.0" "2.1.1" "2.1.2" {
   auto-version {
     github-release = "alecthomas/participle"
   }
@@ -21,4 +21,8 @@ sha256sums = {
   "https://github.com/alecthomas/participle/releases/download/v2.0.0/participle-2.0.0-linux-arm64.tar.gz": "caf6dcb99c8c75dee83b5c15743c5e01bf4b9ce0772c9fb878a09de493e4e399",
   "https://github.com/alecthomas/participle/releases/download/v2.1.0/participle-2.1.0-linux-arm64.tar.gz": "95d5139c51a991605341a0ae3668fc451d2cbebfe229220828e3786e06d6e3ad",
   "https://github.com/alecthomas/participle/releases/download/v2.1.1/participle-2.1.1-linux-arm64.tar.gz": "4e32880fca7d5e056f5381c74629ff42184edc56a96fa14b8a63403ce16411f4",
+  "https://github.com/alecthomas/participle/releases/download/v2.1.2/participle-2.1.2-darwin-arm64.tar.gz": "5a437e290e34037cc58ae021952084d7dbfad24ae1d9fb7a1fa87cdd6de888c4",
+  "https://github.com/alecthomas/participle/releases/download/v2.1.2/participle-2.1.2-linux-amd64.tar.gz": "c53159b749073bd8edaf42c67c5c7508ee3a18acdf722fdc469eccb8feebbe2f",
+  "https://github.com/alecthomas/participle/releases/download/v2.1.2/participle-2.1.2-linux-arm64.tar.gz": "2c0555fc00bc93d8aa3d34f917951baaaaff13a62bc0135c6c203e0a71a90fc0",
+  "https://github.com/alecthomas/participle/releases/download/v2.1.2/participle-2.1.2-darwin-amd64.tar.gz": "bb27c7607b44aea3168c97afbcdd166bb68f69acbd84cef03e5af906738bcd42",
 }
