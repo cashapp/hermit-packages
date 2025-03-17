@@ -7,7 +7,7 @@ platform "darwin" {
   source = "https://github.com/EmbarkStudios/cargo-deny/releases/download/${version}/cargo-deny-${version}-${xarch}-apple-darwin.tar.gz"
 }
 
-platform "linux" "amd64" {
+platform "linux" {
   source = "https://github.com/EmbarkStudios/cargo-deny/releases/download/${version}/cargo-deny-${version}-${xarch}-unknown-linux-musl.tar.gz"
 }
 
