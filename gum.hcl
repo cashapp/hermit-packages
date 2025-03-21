@@ -7,8 +7,13 @@ platform "amd64" {
   source = "https://github.com/charmbracelet/gum/releases/download/v${version}/gum_${version}_${os}_x86_64.tar.gz"
 }
 
-version "0.1.0" "0.10.0" "0.11.0" "0.12.0" "0.13.0" "0.14.0" "0.14.1" "0.14.3"
-        "0.14.4" "0.14.5" "0.15.0" "0.15.1" "0.15.2" "0.16.0" {
+version "0.1.0" "0.10.0" "0.11.0" "0.12.0" "0.13.0" {
+}
+
+version "0.14.0" "0.14.1" "0.14.3" "0.14.4" "0.14.5" "0.15.0" "0.15.1" "0.15.2"
+        "0.16.0" {
+  strip = 1
+
   auto-version {
     github-release = "charmbracelet/gum"
   }
