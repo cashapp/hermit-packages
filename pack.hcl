@@ -23,7 +23,7 @@ platform "arm64" {
 
 version "0.27.0" "0.28.0" "0.29.0" "0.30.0" "0.31.0" "0.32.0" "0.32.1" "0.33.0"
         "0.33.1" "0.33.2" "0.34.1" "0.34.2" "0.35.0" "0.35.1" "0.36.0" "0.36.1" "0.36.2"
-        "0.36.3" "0.36.4" {
+        "0.36.3" "0.36.4" "0.37.0" {
   auto-version {
     github-release = "buildpacks/pack"
   }
@@ -106,4 +106,8 @@ sha256sums = {
   "https://github.com/buildpacks/pack/releases/download/v0.35.0/pack-v0.35.0-linux-arm64.tgz": "81cb6bea276a0edfe9c799800b3f286af2e85f2c6d548536ca6fdaf7d65d9e1a",
   "https://github.com/buildpacks/pack/releases/download/v0.35.1/pack-v0.35.1-linux-arm64.tgz": "9d226ea5d008e476af903bc6f490c56ed8a6454ec21625ee07d2bc93467786c6",
   "https://github.com/buildpacks/pack/releases/download/v0.36.3/pack-v0.36.3-linux-arm64.tgz": "e8dc1b701539fc7a3392202eec1942a63dbd85cd01e728d71d5beb62e81daa48",
+  "https://github.com/buildpacks/pack/releases/download/v0.37.0/pack-v0.37.0-macos.tgz": "1ffbe0ce9c2d1a95474447d9d8b58e13a2c1293cd86fde3f76ad638f9c57b27c",
+  "https://github.com/buildpacks/pack/releases/download/v0.37.0/pack-v0.37.0-linux.tgz": "07785c68ade572211cf5b32be585d5119a8fff256ea2b46dcae69871dcca517f",
+  "https://github.com/buildpacks/pack/releases/download/v0.37.0/pack-v0.37.0-linux-arm64.tgz": "d897f1ff846d5657c8ac4120c345fc10fcabd2fcba7a371a30b9620ab39a5a46",
+  "https://github.com/buildpacks/pack/releases/download/v0.37.0/pack-v0.37.0-macos-arm64.tgz": "59aa47a6b76b322d3b065a08c74211f0c1788f9213e28cc81da9965c41ac66f5",
 }
