@@ -3,7 +3,7 @@ test = "svu --version"
 binaries = ["svu"]
 
 version "1.9.0" "1.10.1" "1.10.2" "1.11.0" "1.12.0" "2.0.1" "2.1.0" "2.1.1" "2.2.0"
-        "3.0.0" "3.1.0" "3.2.2" {
+        "3.0.0" "3.1.0" "3.2.2" "3.2.3" {
   source = "https://github.com/caarlos0/svu/releases/download/v${version}/svu_${version}_${os}_${arch}.tar.gz"
 
   platform "darwin" {
@@ -60,4 +60,7 @@ sha256sums = {
   "https://github.com/caarlos0/svu/releases/download/v3.2.2/svu_3.2.2_darwin_all.tar.gz": "68f23764049839e00b229d909c8026acc1241cea0600213840b42ee762d1225a",
   "https://github.com/caarlos0/svu/releases/download/v3.2.2/svu_3.2.2_linux_arm64.tar.gz": "615c64453789db511b969ec36d5202d975dd4a075719990a6cc11daa80b21078",
   "https://github.com/caarlos0/svu/releases/download/v3.2.2/svu_3.2.2_linux_amd64.tar.gz": "3887a0a95e7438226501590cf325289e97129dc3e2c9713950d76508f8acfbde",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.3/svu_3.2.3_linux_arm64.tar.gz": "25489d476893908c79c168b241d0c1cecbb8e749556bb4b54adf3222488aa72b",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.3/svu_3.2.3_darwin_all.tar.gz": "3e62d42a0eae1a6d7da28ccccff1757958cbb72fd42b0d52a772475b845c9446",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.3/svu_3.2.3_linux_amd64.tar.gz": "2509db2b9a5d97a212efb8e242e5782a1a62459ac516b3663c525db6b8474c02",
 }
