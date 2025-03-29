@@ -35,7 +35,7 @@ platform "windows" {
 
 version "2.31.0" "2.32.0" "2.33.0" "2.33.1" "2.34.0" "2.35.0" "2.35.1" "2.35.2"
         "2.35.3" "2.36.1" "2.37.0" "2.37.1" "2.38.0" "2.39.0" "2.40.0" "2.41.0" "2.41.1"
-        "2.41.2" "2.41.3" {
+        "2.41.2" "2.41.3" "2.42.0" {
   auto-version {
     github-release = "goreleaser/nfpm"
   }
@@ -118,4 +118,8 @@ sha256sums = {
   "https://github.com/goreleaser/nfpm/releases/download/v2.39.0/nfpm_2.39.0_Linux_arm64.tar.gz": "44de547a0903435d6a50be4cc6a79cf434f3a549a3002e724807d172da9d753e",
   "https://github.com/goreleaser/nfpm/releases/download/v2.41.2/nfpm_2.41.2_Linux_arm64.tar.gz": "985496acee0bc6d7fdb2a41f94208120a7cf025e37446286c4aaa0988a18f268",
   "https://github.com/goreleaser/nfpm/releases/download/v2.41.3/nfpm_2.41.3_Linux_arm64.tar.gz": "f20852f79109c8a77cb19150d26fc5c5a0d3bbde33bf46a76341e434ea411225",
+  "https://github.com/goreleaser/nfpm/releases/download/v2.42.0/nfpm_2.42.0_Linux_arm64.tar.gz": "3ee9f8754aead2dd3e2470510b154e7e45f5d0c921c617949f5e6deedc8e3265",
+  "https://github.com/goreleaser/nfpm/releases/download/v2.42.0/nfpm_2.42.0_Darwin_x86_64.tar.gz": "d3dacc5531e597ec065160de1080abe65e907d3f41f1f6e1b4176068f65d979f",
+  "https://github.com/goreleaser/nfpm/releases/download/v2.42.0/nfpm_2.42.0_Darwin_arm64.tar.gz": "a44315b8c64cc0d897ae2dc98137abbf50b603abc001cc3b3d96c07e29785214",
+  "https://github.com/goreleaser/nfpm/releases/download/v2.42.0/nfpm_2.42.0_Linux_x86_64.tar.gz": "b4d7b186fadb562a8d24a650f8f9930f00f6a39808de2514136edac77d5faf87",
 }
