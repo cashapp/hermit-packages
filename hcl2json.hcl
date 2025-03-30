@@ -13,7 +13,7 @@ version "0.3.5" {
   source = "https://github.com/tmccombs/hcl2json/releases/download/${version}/hcl2json_${os}_${arch}"
 }
 
-version "0.3.6" "0.5.0" "0.6.0" "0.6.1" "0.6.2" "0.6.3" "0.6.4" "0.6.5" {
+version "0.3.6" "0.5.0" "0.6.0" "0.6.1" "0.6.2" "0.6.3" "0.6.4" "0.6.5" "0.6.7" {
   auto-version {
     github-release = "tmccombs/hcl2json"
   }
@@ -58,4 +58,8 @@ sha256sums = {
   "https://github.com/tmccombs/hcl2json/releases/download/v0.6.3/hcl2json_linux_arm64": "de533ec776a91c857fb6cbc556802355ba138d1c76c9c6819500a50c6ffde85b",
   "https://github.com/tmccombs/hcl2json/releases/download/v0.6.4/hcl2json_linux_arm64": "05bbd136ae347065a0571bf32364809356cec8365a97fc86b905c270c174b1e6",
   "https://github.com/tmccombs/hcl2json/releases/download/v0.6.5/hcl2json_linux_arm64": "659bda917649d0105c42dbfd00bbe8eac2e4c728fe675d2685d6b748769fed3a",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.7/hcl2json_darwin_arm64": "3a1b0f977bd2bd721cfc45fb4e305f0069b94ebdd0431cef8f8b8ecb50764cf7",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.7/hcl2json_linux_arm64": "52041f82e92e1cfb94a593157f3bb41f4e521d028fb56b0afcdda8ffbfb04f1e",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.7/hcl2json_linux_amd64": "8d651137abe4b78fba0266deed10534431ff463055925929248c9c09b6e408fd",
+  "https://github.com/tmccombs/hcl2json/releases/download/v0.6.7/hcl2json_darwin_amd64": "c349604346a28203f91ce209317380ff4757374ea88fc5a3119014e5f132ca07",
 }
