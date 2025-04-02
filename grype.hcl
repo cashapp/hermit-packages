@@ -31,7 +31,8 @@ version "0.32.0" "0.33.0" "0.33.1" "0.34.1" "0.34.3" "0.34.4" "0.34.6" "0.34.7"
         "0.74.3" "0.74.4" "0.74.5" "0.74.6" "0.74.7" "0.75.0" "0.76.0" "0.77.0" "0.77.1"
         "0.77.2" "0.77.3" "0.77.4" "0.78.0" "0.79.0" "0.79.1" "0.79.2" "0.79.3" "0.79.4"
         "0.79.5" "0.79.6" "0.80.0" "0.80.1" "0.80.2" "0.81.0" "0.82.0" "0.82.1" "0.82.2"
-        "0.83.0" "0.84.0" "0.85.0" "0.86.0" "0.86.1" "0.87.0" "0.89.0" "0.89.1" "0.90.0" {
+        "0.83.0" "0.84.0" "0.85.0" "0.86.0" "0.86.1" "0.87.0" "0.89.0" "0.89.1" "0.90.0"
+        "0.91.0" {
   auto-version {
     github-release = "anchore/grype"
   }
@@ -510,4 +511,8 @@ sha256sums = {
   "https://github.com/anchore/grype/releases/download/v0.90.0/grype_0.90.0_darwin_amd64.tar.gz": "67d9543dc8680a0d9f1df35b6188512dacf5c65717f7d1e16ad2f3efd9eefea3",
   "https://github.com/anchore/grype/releases/download/v0.90.0/grype_0.90.0_darwin_arm64.tar.gz": "403edc0f9c3e75cf1da92d4bec911baf8bbd4d86e134fcb7f054962f5dddbbc2",
   "https://github.com/anchore/grype/releases/download/v0.90.0/grype_0.90.0_linux_arm64.tar.gz": "7e50a4eb0ef5eae6b19106eeceaa0a521bac9d55dce736fc1946ee21023781d9",
+  "https://github.com/anchore/grype/releases/download/v0.91.0/grype_0.91.0_linux_amd64.tar.gz": "b60cbf3f224cc532129779c0c7f6b82369e532e50873dbd7443dd2e08e50ca47",
+  "https://github.com/anchore/grype/releases/download/v0.91.0/grype_0.91.0_darwin_arm64.tar.gz": "e09fc9875aa4d4a06282ec9689c3a0d192b28979dbe888aa5b1cd09e4a1a9e99",
+  "https://github.com/anchore/grype/releases/download/v0.91.0/grype_0.91.0_linux_arm64.tar.gz": "40687a9eb8b4f04a6a1614366b4a0004c8afa104e098d7678c1dbe8f77b893cd",
+  "https://github.com/anchore/grype/releases/download/v0.91.0/grype_0.91.0_darwin_amd64.tar.gz": "6bdec9a0bde3a740fd361bb20ad071afed4c6cbd04a20266410f9ab8d983b394",
 }
