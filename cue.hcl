@@ -10,7 +10,7 @@ version "0.4.0" {
 }
 
 version "0.4.1" "0.4.2" "0.4.3" "0.5.0" "0.6.0" "0.7.0" "0.7.1" "0.8.0" "0.8.1" "0.8.2"
-        "0.9.0" "0.9.1" "0.9.2" "0.10.0" "0.10.1" "0.11.0" "0.11.1" "0.11.2" "0.12.0" {
+        "0.9.0" "0.9.1" "0.9.2" "0.10.0" "0.10.1" "0.11.0" "0.11.1" "0.11.2" "0.12.0" "0.12.1" {
   auto-version {
     github-release = "cue-lang/cue"
   }
@@ -96,4 +96,8 @@ sha256sums = {
   "https://github.com/cue-lang/cue/releases/download/v0.9.1/cue_v0.9.1_linux_arm64.tar.gz": "68f4b42c3af26d0d159ed452a2f45537800213ac8552f54027333ceebc5bd7b1",
   "https://github.com/cue-lang/cue/releases/download/v0.10.0/cue_v0.10.0_linux_arm64.tar.gz": "49369a3566af3117712a7a91dc2ec924cb5c4128385ab2edd877d9997e761312",
   "https://github.com/cue-lang/cue/releases/download/v0.11.1/cue_v0.11.1_linux_arm64.tar.gz": "2734671d7bb4bb4916ddd96bf0cd7c9e10f645f7f654d7684e79b68cb88afb93",
+  "https://github.com/cue-lang/cue/releases/download/v0.12.1/cue_v0.12.1_linux_amd64.tar.gz": "40ef0a84594494c953945fb297842d3168c92170694928c9565cc0b581235ac5",
+  "https://github.com/cue-lang/cue/releases/download/v0.12.1/cue_v0.12.1_darwin_amd64.tar.gz": "a39201b519d26388074fdb5aaafc653e98bade9e3d4472d4044f75a6888bfcba",
+  "https://github.com/cue-lang/cue/releases/download/v0.12.1/cue_v0.12.1_darwin_arm64.tar.gz": "3eb7180adc231503b519cfa0934c0f856a2ad850d84ad3f6988bf86f6b2ace9f",
+  "https://github.com/cue-lang/cue/releases/download/v0.12.1/cue_v0.12.1_linux_arm64.tar.gz": "ee296a58a17cc9141ad9abfd25e33faefd3fdb376e27fe6e599ceadb12fd0901",
 }
