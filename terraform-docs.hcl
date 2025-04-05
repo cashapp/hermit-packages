@@ -3,7 +3,7 @@ source = "https://github.com/terraform-docs/terraform-docs/releases/download/v${
 binaries = ["terraform-docs"]
 test = "terraform-docs --version"
 
-version "0.15.0" "0.16.0" "0.17.0" "0.18.0" "0.19.0" {
+version "0.15.0" "0.16.0" "0.17.0" "0.18.0" "0.19.0" "0.20.0" {
   auto-version {
     github-release = "terraform-docs/terraform-docs"
   }
@@ -30,4 +30,8 @@ sha256sums = {
   "https://github.com/terraform-docs/terraform-docs/releases/download/v0.17.0/terraform-docs-v0.17.0-linux-arm64.tar.gz": "4189c4d0b418e5bcc642836b7f73e80d5d4d82b75ada73a7b78f923588d5f765",
   "https://github.com/terraform-docs/terraform-docs/releases/download/v0.18.0/terraform-docs-v0.18.0-linux-arm64.tar.gz": "c131bbe493cd97ee67a9b523264cc6bb4bb25aa506d65249cfb5913c5f64e772",
   "https://github.com/terraform-docs/terraform-docs/releases/download/v0.19.0/terraform-docs-v0.19.0-linux-arm64.tar.gz": "ebda7dda3a1f678e9e3ef2f091c97b43f34a5a1b52fb9b1d3f44a003f481e8b5",
+  "https://github.com/terraform-docs/terraform-docs/releases/download/v0.20.0/terraform-docs-v0.20.0-darwin-arm64.tar.gz": "8723013cfe0369c389f4e6cb6e3cfca1aebaefd67871e349e7547f2201564dad",
+  "https://github.com/terraform-docs/terraform-docs/releases/download/v0.20.0/terraform-docs-v0.20.0-linux-amd64.tar.gz": "34ae01772412bb11474e6718ea62113e38ff5964ee570a98c69fafe3a6dff286",
+  "https://github.com/terraform-docs/terraform-docs/releases/download/v0.20.0/terraform-docs-v0.20.0-darwin-amd64.tar.gz": "8c7ea42429d7f5e3dae3de32f3873fde0419332932549147f40916d3f613b8f7",
+  "https://github.com/terraform-docs/terraform-docs/releases/download/v0.20.0/terraform-docs-v0.20.0-linux-arm64.tar.gz": "371b4ed983781d1efdd8f7de06264baac41b1d80927f7fd718c405a303d863a0",
 }
