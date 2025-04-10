@@ -4,7 +4,7 @@ homepage = "https://nats.io/"
 strip = 1
 source = "https://github.com/nats-io/natscli/releases/download/v${version}/nats-${version}-${os}-${arch}.zip"
 
-version "0.0.34" "0.0.35" "0.1.1" "0.1.3" "0.1.4" "0.1.5" "0.1.6" "0.2.0" {
+version "0.0.34" "0.0.35" "0.1.1" "0.1.3" "0.1.4" "0.1.5" "0.1.6" "0.2.0" "0.2.1" {
   auto-version {
     github-release = "nats-io/natscli"
   }
@@ -43,4 +43,8 @@ sha256sums = {
   "https://github.com/nats-io/natscli/releases/download/v0.2.0/nats-0.2.0-linux-amd64.zip": "d603c2ab08c8a7bdfdffa07acaf07f076bc08a5966a8df3495d01cd4fd031126",
   "https://github.com/nats-io/natscli/releases/download/v0.2.0/nats-0.2.0-darwin-amd64.zip": "9e2e7e2e3bde69088349a02a5e07c777fe1693869651982f65d0ce94345f5d66",
   "https://github.com/nats-io/natscli/releases/download/v0.2.0/nats-0.2.0-darwin-arm64.zip": "3ba4276f74e958b139ea583c9a0432ef2644ac64304ff2bba0277acd7bdf29ab",
+  "https://github.com/nats-io/natscli/releases/download/v0.2.1/nats-0.2.1-linux-amd64.zip": "726d69bdb5f75d55f1062afc3d59171ed50f0e5dbc9fe69690d3c80a847297c4",
+  "https://github.com/nats-io/natscli/releases/download/v0.2.1/nats-0.2.1-darwin-amd64.zip": "60263c2e96026dda9974a3a75bc74c13e9a167dbffa8239e89b4f9f3f3af58f6",
+  "https://github.com/nats-io/natscli/releases/download/v0.2.1/nats-0.2.1-linux-arm64.zip": "ac8c5c790cf1ae9797b00ccfbf4e5c95942da7008daa72ee78dbf7dd1e1fb14d",
+  "https://github.com/nats-io/natscli/releases/download/v0.2.1/nats-0.2.1-darwin-arm64.zip": "e70eba07a0029a3df33cd9819c194fb1ff7f35e39f2da0229e8243fa0eafd99e",
 }

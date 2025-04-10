@@ -23,7 +23,7 @@ version "0.27.0" "0.27.2" "0.27.3" "0.27.4" "0.28.0" "0.28.1" "0.28.2" "0.29.1"
         "0.30.0" "0.30.1" "0.30.3" "0.30.4" "0.30.5" "0.30.6" "0.30.8" "0.31.0" "0.31.2"
         "0.31.4" "0.31.5" "0.31.7" "0.31.8" "0.31.9" "0.32.0" "0.32.2" "0.32.3" "0.32.4"
         "0.32.5" "0.32.6" "0.32.7" "0.40.0" "0.40.1" "0.40.2" "0.40.3" "0.40.5" "0.40.8"
-        "0.40.9" "0.40.10" {
+        "0.40.9" "0.40.10" "0.50.0" {
   auto-version {
     github-release = "derailed/k9s"
   }
@@ -270,4 +270,8 @@ sha256sums = {
   "https://github.com/derailed/k9s/releases/download/v0.40.10/k9s_darwin_amd64.tar.gz": "8206f9ec553f6656b25004d875b66b136eb8afdebe477b2cf87c016e676898fe",
   "https://github.com/derailed/k9s/releases/download/v0.40.10/k9s_linux_arm64.tar.gz": "b1f12af342fbd21d466463132fd57eb9175b40ab98b5c711d3b249d3f507fc91",
   "https://github.com/derailed/k9s/releases/download/v0.40.10/k9s_linux_amd64.tar.gz": "490bbfcb9314e59c0b1396e1d896786dc944fa9f83062296f454fef97aee0a54",
+  "https://github.com/derailed/k9s/releases/download/v0.50.0/k9s_linux_amd64.tar.gz": "63eb225a3da358245d37e7f79904d62c1d5361e4faa9275c43fb3cdbb053dde9",
+  "https://github.com/derailed/k9s/releases/download/v0.50.0/k9s_linux_arm64.tar.gz": "2a068382b89d3c8ca49c3b0593b50601ba0d0c057bee2433d71d3aa983e69325",
+  "https://github.com/derailed/k9s/releases/download/v0.50.0/k9s_darwin_arm64.tar.gz": "8243765730c34ace6c1d5024e832670ae513aeb9e613362e9a718be1739980da",
+  "https://github.com/derailed/k9s/releases/download/v0.50.0/k9s_darwin_amd64.tar.gz": "e47ebbab6b5454d39288456347e303706200babe0167c6ac1315b7c03caf45c2",
 }
