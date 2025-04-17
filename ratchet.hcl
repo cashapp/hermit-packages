@@ -2,7 +2,7 @@ description = "A tool for securing CI/CD workflows with version pinning."
 binaries = ["ratchet"]
 source = "https://github.com/sethvargo/ratchet/releases/download/v${version}/ratchet_${version}_${os}_${arch}.tar.gz"
 
-version "0.10.2" "0.11.0" "0.11.1" {
+version "0.10.2" "0.11.0" "0.11.1" "0.11.2" {
   auto-version {
     github-release = "sethvargo/ratchet"
   }
@@ -21,4 +21,8 @@ sha256sums = {
   "https://github.com/sethvargo/ratchet/releases/download/v0.11.1/ratchet_0.11.1_darwin_amd64.tar.gz": "c7448cfcf564dab6e613c0877e140cc3fbef708a52148891af4364a0d7aba82f",
   "https://github.com/sethvargo/ratchet/releases/download/v0.11.1/ratchet_0.11.1_darwin_arm64.tar.gz": "ceef084dcb7be4c7b6017946a268daa4a13ce14c4542a2c3e92f0714b8c68449",
   "https://github.com/sethvargo/ratchet/releases/download/v0.11.1/ratchet_0.11.1_linux_arm64.tar.gz": "147c97b38f0ced1c7505333272f12d617436975e0bc595ec74e280a6d22a1a88",
+  "https://github.com/sethvargo/ratchet/releases/download/v0.11.2/ratchet_0.11.2_darwin_amd64.tar.gz": "64ae16062b4a1f013516db941b4cfa9d7c62b32e7bf569797bcb46f3fcd04c43",
+  "https://github.com/sethvargo/ratchet/releases/download/v0.11.2/ratchet_0.11.2_linux_arm64.tar.gz": "3281ca88158a9e148b86a7ad43bab5db6bb75a10373184cc6dbf3204cadd2751",
+  "https://github.com/sethvargo/ratchet/releases/download/v0.11.2/ratchet_0.11.2_darwin_arm64.tar.gz": "3938819279924a2273bdadc11a52e3255831e0ea286369b6fb0862a71874dade",
+  "https://github.com/sethvargo/ratchet/releases/download/v0.11.2/ratchet_0.11.2_linux_amd64.tar.gz": "daa18848b095d87fe5304b4eb878f165514693569fea6fec0dfa91b4e0c7fd8b",
 }
