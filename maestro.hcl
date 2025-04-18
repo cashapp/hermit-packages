@@ -4,7 +4,7 @@ source = "https://github.com/mobile-dev-inc/maestro/releases/download/cli-${vers
 test = "maestro --version"
 repository = "https://github.com/mobile-dev-inc/maestro"
 
-version "1.36.0" "cli-1.39.13" {
+version "1.36.0" "cli-1.39.13" "cli-1.40.0" {
   auto-version {
     github-release = "mobile-dev-inc/maestro"
   }

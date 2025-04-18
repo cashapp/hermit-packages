@@ -18,7 +18,7 @@ version "0.4.0" "0.5.3" {
 
 version "0.5.5" "0.5.6" "0.5.7" "0.5.9" "0.5.11" "0.5.10" "0.5.12" "0.6.2" "0.6.10"
         "0.6.11" "0.6.14" "0.6.21" "0.6.22" "0.6.23" "0.6.24" "0.6.25" "0.6.26" "0.6.27"
-        "0.6.28" "0.6.29" "0.6.30" "0.6.31" {
+        "0.6.28" "0.6.29" "0.6.30" "0.6.31" "0.7.1" {
   auto-version {
     github-release = "kubernetes-sigs/aws-iam-authenticator"
   }
@@ -124,4 +124,8 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.6.31/aws-iam-authenticator_0.6.31_darwin_arm64": "45e9e8d522830b79610b52b73141cc5bb2a7c40f76df05353aabcd3afa179d4a",
   "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.6.31/aws-iam-authenticator_0.6.31_linux_arm64": "a38e26787110fecc1104d346a23f9864070f7c4a29aea09d41e3a280d2bde53c",
   "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.6.31/aws-iam-authenticator_0.6.31_darwin_amd64": "6110608fc410a722706f7684b25499f87edee211ad68a21884db90cbaa3d5f64",
+  "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.7.1/aws-iam-authenticator_0.7.1_linux_arm64": "f23a69dd275bcca4b79c53683e78f60ccfa361503d5d1048c4ac735640deeebd",
+  "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.7.1/aws-iam-authenticator_0.7.1_darwin_amd64": "af3e943067e71cbc5841c9e4d5f41fb2e06cde2e4fba1691c75b2cd1da893f66",
+  "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.7.1/aws-iam-authenticator_0.7.1_darwin_arm64": "7099842e404ecc1c7a54d261600268f19085c72582685826676e7cbb0cb0ea8e",
+  "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.7.1/aws-iam-authenticator_0.7.1_linux_amd64": "4b33629b01051671d72aa4e98d96709f9653d80f45c33988e9ce12c7be2c508a",
 }
