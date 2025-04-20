@@ -29,7 +29,7 @@ on "unpack" {
   }
 }
 
-version "1.5.1" "1.5.2" {
+version "1.5.1" "1.5.2" "1.6.0" {
   auto-version {
     github-release = "ankitpokhrel/jira-cli"
   }
@@ -44,4 +44,8 @@ sha256sums = {
   "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.2/jira_1.5.2_macOS_arm64.tar.gz": "47654bd51faad87a7679a90f627824b95faa16b116dc2ea074cd4f1640bfdbbc",
   "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.1/jira_1.5.1_linux_arm64.tar.gz": "d1c8173b18fdbcbe5d5acb10a6781f40f9b439ff7061f2d7b0c71d0ac0858eed",
   "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.5.2/jira_1.5.2_linux_arm64.tar.gz": "72b488f8c635fd74f377d155646eacb24f700820274a9dba248f62aad69bfc7a",
+  "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.6.0/jira_1.6.0_linux_x86_64.tar.gz": "9702ac03198fc389aa92b2500ee278ffdecb7064f2accca7aea4086323ad5352",
+  "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.6.0/jira_1.6.0_linux_arm64.tar.gz": "a68070e2461ac672fbc9284736db9f3fbf40e52f695dfb96be1fe10c5c1fba48",
+  "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.6.0/jira_1.6.0_macOS_x86_64.tar.gz": "8c6b20d1c3b4a8a09ef85347d8de656ce38da26170727a15660951011487a6ca",
+  "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.6.0/jira_1.6.0_macOS_arm64.tar.gz": "83fa573be5721755f11bbeeb78a4a55d439b983d4d6ddb367eb6652c48842ba6",
 }
