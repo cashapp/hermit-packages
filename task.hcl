@@ -14,7 +14,7 @@ version "3.7.3" "3.8.0" "3.9.2" "3.10.0" "3.11.0" "3.12.0" "3.12.1" "3.13.0" "3.
         "3.21.0" "3.22.0" "3.23.0" "3.24.0" "3.25.0" "3.26.0" "3.27.0" "3.27.1" "3.28.0"
         "3.29.1" "3.30.0" "3.30.1" "3.31.0" "3.32.0" "3.33.0" "3.33.1" "3.34.0" "3.34.1"
         "3.35.0" "3.35.1" "3.36.0" "3.37.0" "3.37.1" "3.37.2" "3.38.0" "3.39.0" "3.39.1"
-        "3.39.2" "3.40.0" "3.40.1" "3.41.0" "3.42.1" {
+        "3.39.2" "3.40.0" "3.40.1" "3.41.0" "3.42.1" "3.43.2" {
   auto-version {
     github-release = "go-task/task"
   }
@@ -232,4 +232,8 @@ sha256sums = {
   "https://github.com/go-task/task/releases/download/v3.42.1/task_linux_amd64.tar.gz": "05b41f97e655f56cc8a7617106622dbfb5f647d13ec6013ff7719bc80b52746c",
   "https://github.com/go-task/task/releases/download/v3.42.1/task_darwin_amd64.tar.gz": "07073067fc3312d5f6cb3a24a496ec49aaa978dbdcfa7b5cdb694840c78440bd",
   "https://github.com/go-task/task/releases/download/v3.42.1/task_linux_arm64.tar.gz": "3019dd489ec70a56498ceb919aca06ff46ccf8e7fdd0c99913c9bb27dbd7a44d",
+  "https://github.com/go-task/task/releases/download/v3.43.2/task_darwin_amd64.tar.gz": "cbdb9edbd64d6ebfb9b27a01303e7ff988cd592f25cf08317cbf3c96a186cca1",
+  "https://github.com/go-task/task/releases/download/v3.43.2/task_linux_arm64.tar.gz": "d8e14c97a114e381c5fd029486b503c843ca110dff83cc1b2ef3da842878791e",
+  "https://github.com/go-task/task/releases/download/v3.43.2/task_linux_amd64.tar.gz": "084e493dba4892572f235bf418ce8cfaed698b1f6f828da42c51c209930635db",
+  "https://github.com/go-task/task/releases/download/v3.43.2/task_darwin_arm64.tar.gz": "78e25158f28144e2c64b5f0cb4e1643c5f98e4e56c35e5070038f67cf8b3642b",
 }

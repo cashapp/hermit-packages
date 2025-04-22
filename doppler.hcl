@@ -16,7 +16,7 @@ platform "linux" {
 
 source = "https://github.com/DopplerHQ/cli/releases/download/${version}/${artefact}.tar.gz"
 
-version "3.72.0" "3.72.1" "3.73.0" "3.73.1" {
+version "3.72.0" "3.72.1" "3.73.0" "3.73.1" "3.73.2" {
   auto-version {
     github-release = "DopplerHQ/cli"
   }
@@ -39,4 +39,8 @@ sha256sums = {
   "https://github.com/DopplerHQ/cli/releases/download/3.73.1/doppler_3.73.1_macOS_amd64.tar.gz": "4ae370c2f13380b1564ad0bac71b488413253df924692d95664f660582ba89c1",
   "https://github.com/DopplerHQ/cli/releases/download/3.73.1/doppler_3.73.1_macOS_arm64.tar.gz": "bfdbd3e0a87394f593935d217c0c9cf1e7f70221ebe8ecf3837351fce4cc8624",
   "https://github.com/DopplerHQ/cli/releases/download/3.73.1/doppler_3.73.1_linux_arm64.tar.gz": "4ec60a57252503a275932040859d4c389fd5a97ec9e2c386d35c6bced5aca07a",
+  "https://github.com/DopplerHQ/cli/releases/download/3.73.2/doppler_3.73.2_macOS_arm64.tar.gz": "f602c190d1f5bda228b6de15db8425c63fe9962e022b2507093abee45db73ace",
+  "https://github.com/DopplerHQ/cli/releases/download/3.73.2/doppler_3.73.2_linux_amd64.tar.gz": "5e042f4ce0574fe90729d391f1cd44b2295435381204a69990fa7d1ca08dc870",
+  "https://github.com/DopplerHQ/cli/releases/download/3.73.2/doppler_3.73.2_linux_arm64.tar.gz": "ede09ced5af2735c36feebc8be224767ce522849a9cbdacec26878870d450842",
+  "https://github.com/DopplerHQ/cli/releases/download/3.73.2/doppler_3.73.2_macOS_amd64.tar.gz": "9bb2b8d8cd7c1b9231f114559141b7a239f67ed1d809c4868494bb4b0cd1771e",
 }
