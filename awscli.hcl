@@ -27,7 +27,7 @@ version "2.0.40" "2.1.26" "2.2.4" "2.4.2" "2.4.4" "2.4.7" "2.5.8" "2.6.4" "2.7.3
         "2.24.17" "2.24.20" "2.24.22" "2.24.23" "2.24.24" "2.24.25" "2.24.26" "2.24.27"
         "2.25.0" "2.25.1" "2.25.2" "2.25.3" "2.25.4" "2.25.5" "2.25.6" "2.25.7" "2.25.8"
         "2.25.9" "2.25.10" "2.25.11" "2.25.12" "2.25.13" "2.25.14" "2.26.0" "2.26.1" "2.26.2"
-        "2.26.3" "2.26.4" "2.26.5" "2.26.6" "2.26.7" {
+        "2.26.3" "2.26.4" "2.26.5" "2.26.6" "2.26.7" "2.27.0" {
   auto-version {
     git-tags = "https://github.com/aws/aws-cli.git"
   }
@@ -412,4 +412,7 @@ sha256sums = {
   "https://awscli.amazonaws.com/AWSCLIV2-2.26.7.pkg": "292c60340726adb561dabf7474c84ba8945f41aaa0b66a1e8db8bf22b84b13c6",
   "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.26.7.zip": "36da8568b14af990966f7c0fab40ad559c6f6cb3042ae2fccd0d61a505acf7c4",
   "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.26.7.zip": "bb1fcbbdaffc006dce62827083605b9953d23a1b42b3a7375733d9a6d7c94b8d",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.27.0.pkg": "d47f73d5efb2775394e02e7e59fafd6374200aed09a482af7a2bdc456b719acf",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.27.0.zip": "aa0626465ecaeeac9e23f39ca97308331a0393d93de820aa70118e7f02b72d4c",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.27.0.zip": "13b4a15795b818ef837464f40e0902bfca7ce785597fd53e6d2ecbc2598d9a38",
 }
