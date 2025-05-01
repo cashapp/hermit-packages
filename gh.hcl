@@ -37,7 +37,7 @@ version "2.28.0" "2.29.0" "2.30.0" "2.31.0" "2.32.0" "2.32.1" "2.33.0" "2.34.0"
         "2.49.0" "2.49.1" "2.49.2" "2.50.0" "2.51.0" "2.52.0" "2.53.0" "2.54.0" "2.55.0"
         "2.56.0" "2.57.0" "2.58.0" "2.59.0" "2.60.0" "2.60.1" "2.61.0" "2.62.0" "2.63.0"
         "2.63.1" "2.63.2" "2.64.0" "2.65.0" "2.66.0" "2.66.1" "2.67.0" "2.68.1" "2.69.0"
-        "2.70.0" "2.71.0" "2.71.2" {
+        "2.70.0" "2.71.0" "2.71.2" "2.72.0" {
   auto-version {
     github-release = "cli/cli"
   }
@@ -310,4 +310,7 @@ sha256sums = {
   "https://github.com/cli/cli/releases/download/v2.71.2/gh_2.71.2_macOS_amd64.zip": "0992682581ce7e0d07f967f8f91482abdb7c516efa874242f39519f14279567e",
   "https://github.com/cli/cli/releases/download/v2.71.2/gh_2.71.2_linux_amd64.tar.gz": "6e52767d7ab14f6849c38b9da1daade4c674f3fde75e0434ede33d921bb75d35",
   "https://github.com/cli/cli/releases/download/v2.71.2/gh_2.71.2_macOS_arm64.zip": "95e4d3bf841ef8448f6ac828d89de3d49bd994f063f0d1566becbe1aa8c98a81",
+  "https://github.com/cli/cli/releases/download/v2.72.0/gh_2.72.0_linux_amd64.tar.gz": "ffd3a9791075cf6119531302b06554e658f38ed12675a7fbfbf4d6b114c77f38",
+  "https://github.com/cli/cli/releases/download/v2.72.0/gh_2.72.0_macOS_amd64.zip": "46a85db5ad8141dade7476c0d44ed0b1c7ac86efb5f9fe8a7ad2002a03a2853f",
+  "https://github.com/cli/cli/releases/download/v2.72.0/gh_2.72.0_macOS_arm64.zip": "adf08dc15504ef74fbd37bc1a9abf2ef2b19d5e0db332a39877532b350b1f1d7",
 }
