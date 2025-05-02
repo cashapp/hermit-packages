@@ -52,4 +52,5 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/make-4.4/make-4.4-linux-amd64.tar.xz": "b2c077192050998b7b20e0dde519435d06567cab80fb0afe6c8330a98959ba99",
   "https://github.com/cashapp/hermit-build/releases/download/make-4.4/make-4.4-darwin-amd64.tar.xz": "4552b929d5d587fbe646112e362cf6d91499aa1a4e0814e8a4276c5ff36762c7",
   "https://github.com/cashapp/hermit-build/releases/download/make-4.4/make-4.4-darwin-arm64.tar.xz": "ed1cb39f6bc13eecc217d916ac8974f8f999cb5ac872322e267b1b9fb5291304",
+  "https://github.com/cashapp/hermit-build/releases/download/make-4.4/make-4.4-linux-arm64.tar.xz": "d4d56ec78ccf2a0f47e55aa3001b5d88351095b5f3d3c489d0d47a84fa818203",
 }
