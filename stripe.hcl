@@ -16,7 +16,7 @@ platform "linux" "amd64" {
 
 version "1.19.4" "1.19.5" "1.20.0" "1.21.0" "1.21.2" "1.21.3" "1.21.5" "1.21.7"
         "1.21.8" "1.21.9" "1.21.10" "1.21.11" "1.22.0" "1.23.3" "1.23.8" "1.23.9" "1.23.10"
-        "1.24.0" "1.25.0" "1.25.1" "1.26.0" "1.26.1" {
+        "1.24.0" "1.25.0" "1.25.1" "1.26.0" "1.26.1" "1.27.0" {
   auto-version {
     github-release = "stripe/stripe-cli"
   }
@@ -89,4 +89,7 @@ sha256sums = {
   "https://github.com/stripe/stripe-cli/releases/download/v1.26.1/stripe_1.26.1_mac-os_arm64.tar.gz": "5c5115ba47fb2ee3f33dc03028739956170c987e475f29ed166b0f8a3f2f7c71",
   "https://github.com/stripe/stripe-cli/releases/download/v1.26.1/stripe_1.26.1_linux_arm64.tar.gz": "c11a495d98881c4b5faca580876230f53cd19fd8cc0c5926d36e101ca54170df",
   "https://github.com/stripe/stripe-cli/releases/download/v1.26.1/stripe_1.26.1_linux_x86_64.tar.gz": "4c1dcb1aa59556f9a5457c3188121349cb5732b4dafe689845aaf47d86fff8d5",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.27.0/stripe_1.27.0_linux_x86_64.tar.gz": "260582d77ab29ceca2a700c86736387ba5fda2660c908f0a5ed6b6287b3bc619",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.27.0/stripe_1.27.0_linux_arm64.tar.gz": "4889a74e5759a7acf827c42e7c2649f83e8f86ff05a082932da7781d842589f7",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.27.0/stripe_1.27.0_mac-os_arm64.tar.gz": "13c74f5baad54709edfa999a4ee1eb95244b1c655b597c316ea595494f789c68",
 }

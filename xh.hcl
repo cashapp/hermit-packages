@@ -24,7 +24,7 @@ darwin {
   }
 }
 
-version "0.22.2" "0.23.0" "0.23.1" "0.24.0" {
+version "0.22.2" "0.23.0" "0.23.1" "0.24.0" "0.24.1" {
   auto-version {
     github-release = "ducaale/xh"
   }
@@ -47,4 +47,8 @@ sha256sums = {
   "https://github.com/ducaale/xh/releases/download/v0.23.1/xh-v0.23.1-aarch64-unknown-linux-musl.tar.gz": "52654b727a7a9dd712afaa40f4b6d3127079b9d95c24ee7a96e477941e5ca751",
   "https://github.com/ducaale/xh/releases/download/v0.24.0/xh-v0.24.0-x86_64-apple-darwin.tar.gz": "9a16febb0eb25a0c226dbb889985f2cce1b4f3808a18113742f82f93e5a1290b",
   "https://github.com/ducaale/xh/releases/download/v0.24.0/xh-v0.24.0-aarch64-unknown-linux-musl.tar.gz": "e32e714a5babf1196d20c46b198af3083576cd0ffc94e593fc263239f14bfe8d",
+  "https://github.com/ducaale/xh/releases/download/v0.24.1/xh-v0.24.1-aarch64-apple-darwin.tar.gz": "9dfb6451c83cac377af9c155822c4ef6c61a1409cb0266580def052291846f58",
+  "https://github.com/ducaale/xh/releases/download/v0.24.1/xh-v0.24.1-x86_64-apple-darwin.tar.gz": "aab25dba4f763a5489cdea3ad156cdef051b8b9c4205beaaa832f8b59f9657ce",
+  "https://github.com/ducaale/xh/releases/download/v0.24.1/xh-v0.24.1-aarch64-unknown-linux-musl.tar.gz": "bc565c017fca0553c20e8f0a0b22f867481d74d7ea6c245c1a504e9382568b2c",
+  "https://github.com/ducaale/xh/releases/download/v0.24.1/xh-v0.24.1-x86_64-unknown-linux-musl.tar.gz": "6b4438c23d16155bb5c6b08fc3cb6ce729c638f3f793e015b6215def1cfe2a90",
 }
