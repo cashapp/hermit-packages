@@ -72,6 +72,20 @@ version "12.0.0-20210518+a37b22cd" {
   }
 }
 
+version "19.0.0-20250417+2da3e7b" {
+  vars = {
+    "hash": "2da3e7b",
+    "release": "19",
+  }
+}
+
+version "20.0.0-20250417+2da3e7b" {
+  vars = {
+    "hash": "2da3e7b",
+    "release": "20",
+  }
+}
+
 sha256sums = {
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-a37b22cd/clang-tidy-10_macosx-amd64": "4dd35b6357efef77ab1f818cde2145d8ccae875f8b3ad326f05c8c799bf48fa0",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-a37b22cd/clang-tidy-10_linux-amd64": "30a09279ab1f93d0a2024b571324d74fcac2986cf469d0111dc9189b7373e252",
@@ -87,4 +101,8 @@ sha256sums = {
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-a37b22cd/clang-tidy-11_macosx-amd64": "270e3bb78bd32befff6939e180082e36397e453fd4bb86bfc178cbaeeebddc8e",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-f3a37dd2/clang-tidy-11_macosx-amd64": "6b38f9eff46d915f74433170ea2bded9aeb639ce71306eef25f3558bd5249589",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-f3a37dd2/clang-tidy-12_linux-amd64": "968580c8bf3cbfbb7dadd333a47673d1f4e6f39ca04b421850cd346f3223c4d6",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-tidy-19_linux-amd64": "ec33b68fea64e731f9629349b3c0191f513641b912769985e49876124c2f8300",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-tidy-19_macosx-amd64": "9616daeb95f8c5b51e4a15605a37957bfafd3c6c3af463a9ea4f844a121a1189",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-tidy-20_linux-amd64": "b3497e8fbb158e11f17b19eac954355cdbda91b75c2572c1fcfc32b15de7d51b",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-tidy-20_macosx-amd64": "0bbf1fbed68ec4af613b682bcd1e03f623ec99265c38cd8076f25d3ebd83c0b0",
 }
