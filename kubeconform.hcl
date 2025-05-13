@@ -3,7 +3,7 @@ binaries = ["kubeconform"]
 source = "https://github.com/yannh/kubeconform/releases/download/v${version}/kubeconform-${os}-${arch}.tar.gz"
 sha256-source = "https://github.com/yannh/kubeconform/releases/download/v${version}/CHECKSUMS"
 
-version "0.6.3" "0.6.4" "0.6.6" "0.6.7" {
+version "0.6.3" "0.6.4" "0.6.6" "0.6.7" "0.7.0" {
   auto-version {
     github-release = "yannh/kubeconform"
   }
@@ -26,4 +26,8 @@ sha256sums = {
   "https://github.com/yannh/kubeconform/releases/download/v0.6.4/kubeconform-linux-arm64.tar.gz": "582a8a3eb3c33feb065928728ddac6e544c4f0b1234fd78fc1e4c4175a422b22",
   "https://github.com/yannh/kubeconform/releases/download/v0.6.6/kubeconform-linux-arm64.tar.gz": "a3dd9645a0cf2f5e9a116a98149bca964149271ec7cd6651ffb403dfb292a376",
   "https://github.com/yannh/kubeconform/releases/download/v0.6.7/kubeconform-linux-arm64.tar.gz": "dc82f79bb03c5479b1ae5fd4af221e4b5a3111f62bf01a2795d9c5c20fa96644",
+  "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-darwin-amd64.tar.gz": "c6771cc894d82e1b12f35ee797dcda1f7da6a3787aa30902a15c264056dd40d4",
+  "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-linux-amd64.tar.gz": "c31518ddd122663b3f3aa874cfe8178cb0988de944f29c74a0b9260920d115d3",
+  "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-darwin-arm64.tar.gz": "b5d32b2cb77f9c781c976b20a85e2d0bc8f9184d5d1cfe665a2f31a19f99eeb9",
+  "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-linux-arm64.tar.gz": "cc907ccf9e3c34523f0f32b69745265e0a6908ca85b92f41931d4537860eb83c",
 }
