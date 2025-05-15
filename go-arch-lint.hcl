@@ -2,7 +2,7 @@ description = "GoLang architecture linter (checker) tool. Will check all project
 binaries = ["go-arch-lint"]
 source = "https://github.com/fe3dback/go-arch-lint/releases/download/v${version}/go-arch-lint_${version}_${os}_${arch}.tar.gz"
 
-version "1.11.4" "1.11.5" "1.11.6" "1.11.7" "1.11.9" {
+version "1.11.4" "1.11.5" "1.11.6" "1.11.7" "1.11.9" "1.12.0" {
   auto-version {
     github-release = "fe3dback/go-arch-lint"
   }
@@ -29,4 +29,8 @@ sha256sums = {
   "https://github.com/fe3dback/go-arch-lint/releases/download/v1.11.9/go-arch-lint_1.11.9_linux_arm64.tar.gz": "625d469b7dad42ca52b3eb03e51c6f0f9bbe0ef98fe8b1c07a56341a5cd14abf",
   "https://github.com/fe3dback/go-arch-lint/releases/download/v1.11.9/go-arch-lint_1.11.9_darwin_arm64.tar.gz": "149a6e8cd898c2a6de8db6e2c2fef7a136538390522ca7b01fa6bd9a441415a7",
   "https://github.com/fe3dback/go-arch-lint/releases/download/v1.11.9/go-arch-lint_1.11.9_darwin_amd64.tar.gz": "10a33ef66aaf9fdb07aa470201c1094ad0d40d352f40c3914a31b752dcf1bef7",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.12.0/go-arch-lint_1.12.0_linux_amd64.tar.gz": "bb3caf069ac89e1605975b78bde1fe37664ff26c5d91c8e8285ea002a4cf627d",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.12.0/go-arch-lint_1.12.0_darwin_amd64.tar.gz": "1b7cd302b44333473962f4eb56f4009158a77007fd4d8ad37f37da1e0b921cbf",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.12.0/go-arch-lint_1.12.0_darwin_arm64.tar.gz": "a0e21d58575229d8315d8e3d0982c6273b87a374d0ce0957461ca50facf27593",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.12.0/go-arch-lint_1.12.0_linux_arm64.tar.gz": "a33d491fc52eabe5e9ae494fb476258790b78b749f1d4671832023a3d08a8c12",
 }
