@@ -48,6 +48,7 @@ platform "linux" "arm64" {
 }
 
 version "1.2.2" {
+  auto-version { github-release = "opengrep/opengrep" }
 }
 
 sha256sums = {
