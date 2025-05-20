@@ -4,12 +4,20 @@ requires = ["jre"]
 binaries = ["copybara"]
 dont-extract = true
 
-on unpack {
-  copy { from = "copybara/copybara.sh" to = "${root}/copybara" mode = 448 }
+on "unpack" {
+  copy {
+    from = "copybara/copybara.sh"
+    to = "${root}/copybara"
+    mode = 448
+  }
 }
 
-version "20250512" {
+version "20250512" "20250519" {
   auto-version {
     github-release = "google/copybara"
   }
+}
+
+sha256sums = {
+  "https://github.com/google/copybara/releases/download/v20250512/copybara_deploy.jar": "eca165363687326bdf1bf77132977aa70a22fd87f400e3b7339999aaa86ddaa3",
 }

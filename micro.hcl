@@ -5,7 +5,7 @@ source = "https://github.com/micro/micro/releases/download/v${version}/micro-v${
 
 version "3.13.0" "3.14.0" "3.15.0" "3.15.1" "3.16.0" "3.18.0" "3.18.2" "3.18.5"
         "3.19.0" "4.0.0-alpha" "4.1.0-alpha" "4.2.0-alpha" "4.3.0" "4.3.1" "4.4.0" "4.5.0"
-        "4.6.0" "5.0.0" "5.1.2" "5.6.1" {
+        "4.6.0" "5.0.0" "5.1.2" "5.6.1" "5.7.0" {
   auto-version {
     github-release = "micro/micro"
   }
@@ -92,4 +92,8 @@ sha256sums = {
   "https://github.com/micro/micro/releases/download/v5.6.1/micro-v5.6.1-linux-amd64.tar.gz": "82fd000fe90c1fd00edf459b237444cf21a73752a50d21d86e15e1ebdd573c7a",
   "https://github.com/micro/micro/releases/download/v5.6.1/micro-v5.6.1-linux-arm64.tar.gz": "8283575468e9f57ea3ff1b9b0d32b7ac198ed4dc82baaf9153a7873390c42929",
   "https://github.com/micro/micro/releases/download/v5.6.1/micro-v5.6.1-darwin-amd64.tar.gz": "4f9db172b1bea2006ef41bc6ff9d6750dbcfd04d5eb95053c0650fb8f9e308d9",
+  "https://github.com/micro/micro/releases/download/v5.7.0/micro-v5.7.0-linux-arm64.tar.gz": "ef7474a46cce7c1489a81e93639f993df5fb72fd0530c26bebb7b3b58e3f6e4e",
+  "https://github.com/micro/micro/releases/download/v5.7.0/micro-v5.7.0-darwin-amd64.tar.gz": "3b73f84d0a57f9aa8b935388f375123bbcb09d33444b6d0578a9aa4f4d4e5e57",
+  "https://github.com/micro/micro/releases/download/v5.7.0/micro-v5.7.0-darwin-arm64.tar.gz": "6d9c638f62b0374c84876d84f9f28814a8632687a1949cb7a1887aead4ed178f",
+  "https://github.com/micro/micro/releases/download/v5.7.0/micro-v5.7.0-linux-amd64.tar.gz": "e959e3362944a2366e51618c24c99374f48e8c3a3c5a55f892aaabd7331c5d37",
 }
