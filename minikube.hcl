@@ -12,7 +12,7 @@ on "unpack" {
 }
 
 version "1.26.0" "1.26.1" "1.27.0" "1.27.1" "1.28.0" "1.29.0" "1.30.0" "1.30.1"
-        "1.31.0" "1.31.1" "1.31.2" "1.32.0" "1.33.0" "1.33.1" "1.34.0" "1.35.0" {
+        "1.31.0" "1.31.1" "1.31.2" "1.32.0" "1.33.0" "1.33.1" "1.34.0" "1.35.0" "1.36.0" {
   auto-version {
     github-release = "kubernetes/minikube"
   }
@@ -83,4 +83,8 @@ sha256sums = {
   "https://github.com/kubernetes/minikube/releases/download/v1.31.0/minikube-linux-arm64.tar.gz": "58d697c1a463ea265d8c1d20843d4949d8af163af134ec0dad8e9be70f2c43b1",
   "https://github.com/kubernetes/minikube/releases/download/v1.34.0/minikube-linux-arm64.tar.gz": "c7f2d00f2131547fec853658aa7faa8d93964a02fc20778fee693c149c9ed1f9",
   "https://github.com/kubernetes/minikube/releases/download/v1.35.0/minikube-linux-arm64.tar.gz": "c87e39b6e408c9b156bdd87f64a4d83c0d7c3901ddf1fc5cbced60a9c203fbf7",
+  "https://github.com/kubernetes/minikube/releases/download/v1.36.0/minikube-darwin-arm64.tar.gz": "8695e30eb40710fcf363b2c832a4f0de3f1ecb75a3a7a2d190c4817ad48cee4d",
+  "https://github.com/kubernetes/minikube/releases/download/v1.36.0/minikube-linux-arm64.tar.gz": "fe28cc4191276001fa2f1739b69143c5186358309c76f1482d80ef09ba980656",
+  "https://github.com/kubernetes/minikube/releases/download/v1.36.0/minikube-darwin-amd64.tar.gz": "35878123b7df09573052e18e3798080ac2bde23f39999331da51149da474c20a",
+  "https://github.com/kubernetes/minikube/releases/download/v1.36.0/minikube-linux-amd64.tar.gz": "9a0613dea85f0084231f1f6310811c1a9fcb32fbf8d0865f5e8711d0d22fcdfe",
 }
