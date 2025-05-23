@@ -1,5 +1,4 @@
 description = "Get up and running with Llama 3, Mistral, Gemma, and other large language models."
-binaries = ["ollama"]
 test = "ollama --version"
 sha256-source = "https://github.com/ollama/ollama/releases/download/v${version}/sha256sum.txt"
 
@@ -9,17 +8,20 @@ version "0.6.0" "0.6.1" "0.6.2" "0.6.3" "0.6.4" "0.6.5" "0.6.6" "0.6.7" "0.6.8" 
   }
 
   platform "darwin" {
+    binaries = ["ollama"]
     source = "https://github.com/ollama/ollama/releases/download/v${version}/ollama-darwin.tgz"
   }
 
   platform "linux" {
     source = "https://github.com/ollama/ollama/releases/download/v${version}/ollama-linux-${arch}.tgz"
+    binaries = ["bin/ollama"]
   }
 }
 
 version "0.1.38" "0.1.39" "0.1.40" "0.1.41" "0.1.42" "0.1.43" "0.1.44" "0.1.45"
         "0.1.46" "0.1.47" "0.1.48" "0.2.0" "0.2.1" "0.2.2" "0.2.5" "0.2.7" "0.2.8" "0.3.0"
         "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" "0.3.6" {
+  binaries = ["ollama"]
   platform "darwin" {
     source = "https://github.com/ollama/ollama/releases/download/v${version}/ollama-darwin"
 
