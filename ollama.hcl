@@ -2,7 +2,8 @@ description = "Get up and running with Llama 3, Mistral, Gemma, and other large 
 test = "ollama --version"
 sha256-source = "https://github.com/ollama/ollama/releases/download/v${version}/sha256sum.txt"
 
-version "0.6.0" "0.6.1" "0.6.2" "0.6.3" "0.6.4" "0.6.5" "0.6.6" "0.6.7" "0.6.8" "0.7.0" {
+version "0.6.0" "0.6.1" "0.6.2" "0.6.3" "0.6.4" "0.6.5" "0.6.6" "0.6.7" "0.6.8" "0.7.0"
+        "0.7.1" {
   auto-version {
     github-release = "ollama/ollama"
   }
@@ -22,6 +23,7 @@ version "0.1.38" "0.1.39" "0.1.40" "0.1.41" "0.1.42" "0.1.43" "0.1.44" "0.1.45"
         "0.1.46" "0.1.47" "0.1.48" "0.2.0" "0.2.1" "0.2.2" "0.2.5" "0.2.7" "0.2.8" "0.3.0"
         "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" "0.3.6" {
   binaries = ["ollama"]
+
   platform "darwin" {
     source = "https://github.com/ollama/ollama/releases/download/v${version}/ollama-darwin"
 
@@ -158,4 +160,7 @@ sha256sums = {
   "https://github.com/ollama/ollama/releases/download/v0.6.5/ollama-darwin.tgz": "67cba56a2087ecb9284b6fe5a484d58e49736ca816a05c3a0ffcbd61c8cb8ea4",
   "https://github.com/ollama/ollama/releases/download/v0.6.8/ollama-linux-arm64.tgz": "cd5849a12c20ab5e363f57a09ceabd2c388f1bd71391a1336033fd067da51788",
   "https://github.com/ollama/ollama/releases/download/v0.7.0/ollama-darwin.tgz": "1184fd8f67a5e53a82ca70ca8e3a2254acf385ed895dd7210149bd5a5972fe02",
+  "https://github.com/ollama/ollama/releases/download/v0.7.1/ollama-darwin.tgz": "f9ebf759ac71068bba072082f1086afe50f509b5bcb545a7d85110d429d7403c",
+  "https://github.com/ollama/ollama/releases/download/v0.7.1/ollama-linux-arm64.tgz": "2dda5456268ddbf14efc2a47e739540fa2447b5336fe3f2c4f5447a5c780ac1e",
+  "https://github.com/ollama/ollama/releases/download/v0.7.1/ollama-linux-amd64.tgz": "7648707e5e78a4f5aeef3177e0e4bdbf59ff3c2499cb5553d648defaf39c8ea4",
 }
