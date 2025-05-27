@@ -12,7 +12,7 @@ linux {
   source = "https://github.com/sirwart/ripsecrets/releases/download/v${version}/ripsecrets-${version}-${xarch}-unknown-${os}-gnu.tar.gz"
 }
 
-version "0.1.3" "0.1.4" "0.1.5" "0.1.6" "0.1.7" "0.1.8" {
+version "0.1.3" "0.1.4" "0.1.5" "0.1.6" "0.1.7" "0.1.8" "0.1.10" {
   auto-version {
     github-release = "sirwart/ripsecrets"
   }
@@ -37,4 +37,7 @@ sha256sums = {
   "https://github.com/sirwart/ripsecrets/releases/download/v0.1.8/ripsecrets-0.1.8-x86_64-unknown-linux-gnu.tar.gz": "726bc64d6a06651f068ceba1ea09e727e12e0d2857dfc132d6838b8b958f5c0b",
   "https://github.com/sirwart/ripsecrets/releases/download/v0.1.8/ripsecrets-0.1.8-x86_64-apple-darwin.tar.gz": "7c33a07023c7607ed2c77469d05c12bc5766f1b5a79278d0cbf137b627908fc1",
   "https://github.com/sirwart/ripsecrets/releases/download/v0.1.8/ripsecrets-0.1.8-aarch64-apple-darwin.tar.gz": "66fe459c893229e66b70c01897986d48528e4c093379efcbdfcde1ceff6a6120",
+  "https://github.com/sirwart/ripsecrets/releases/download/v0.1.10/ripsecrets-0.1.10-aarch64-apple-darwin.tar.gz": "6b927730209b8284df0114603aa0888b404b6003fa0cd8f1b09544685ec2998f",
+  "https://github.com/sirwart/ripsecrets/releases/download/v0.1.10/ripsecrets-0.1.10-x86_64-unknown-linux-gnu.tar.gz": "de9c1219104fd005feacd3d9a946657c8dedf43756fed0744d6ce44af8312704",
+  "https://github.com/sirwart/ripsecrets/releases/download/v0.1.10/ripsecrets-0.1.10-x86_64-apple-darwin.tar.gz": "ad0fe3aedc3fdaf7714f35d08a9345bc0f10eb16b71dad78c848b22047bca477",
 }
