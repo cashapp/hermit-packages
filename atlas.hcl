@@ -26,7 +26,7 @@ version "0.9.0" "0.10.0" "0.10.1" "0.11.0" "0.12.0" "0.13.0" "0.14.0" {
 // atlas ships darwin-arm64 binaries after 0.15.0
 version "0.15.0" "0.16.0" "0.17.0" "0.18.0" "0.19.0" "0.20.0" "0.21.0" "0.22.0"
         "0.23.0" "0.24.0" "0.25.0" "0.26.0" "0.27.0" "0.28.0" "0.29.0" "0.30.0" "0.31.0"
-        "0.32.0" "0.33.0" {
+        "0.32.0" "0.33.0" "0.34.0" {
   source = "https://release.ariga.io/atlas/atlas-${os}-${arch_}-v${version}"
 
   auto-version {
@@ -135,4 +135,8 @@ sha256sums = {
   "https://release.ariga.io/atlas/atlas-darwin-arm64-v0.33.0": "63e906298cd31e6b03b947a03c8cee652d66078f3c4d27efc81a23b82ac7c991",
   "https://release.ariga.io/atlas/atlas-darwin-amd64-v0.33.0": "75ebd4bb8745bb4c735996e91187c5f9ce9dacbe42b984ebb21dae0ac976756c",
   "https://release.ariga.io/atlas/atlas-linux-amd64-v0.33.0": "42ac6afdec41e2f48e2b1146df715b19e3f75c7e9c0c19f2f587b3e8ae126eae",
+  "https://release.ariga.io/atlas/atlas-linux-amd64-v0.34.0": "582993cb06d1a8bc43b508fa8bc2d459c0e15ab378fc3fbea1e42118febbbfaf",
+  "https://release.ariga.io/atlas/atlas-darwin-amd64-v0.34.0": "c391ad32f54912a20a186d98085c48903a25b70309ddff57244dbfed602ecd6c",
+  "https://release.ariga.io/atlas/atlas-linux-arm64-v0.34.0": "99781e74c12b391e4e40f5bdb33a9232a7076dcb55f8ec0fa3883fe57fb34ab4",
+  "https://release.ariga.io/atlas/atlas-darwin-arm64-v0.34.0": "b9c86668441c60e81a360f9ebc3abd93868133a0bfddebaf2969c11027d99cc9",
 }
