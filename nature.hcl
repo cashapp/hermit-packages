@@ -4,6 +4,10 @@ strip = 1
 binaries = ["bin/*"]
 source = "https://github.com/nature-lang/nature/releases/download/v${version}/nature-v${version}-${os}-${arch}.tar.gz"
 
+env = {
+  "NATURE_ROOT": "${root}"
+}
+
 version "0.5.0" {
   auto-version {
     github-release = "nature-lang/nature"
