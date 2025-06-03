@@ -12,7 +12,7 @@ on "unpack" {
   }
 }
 
-version "20250512" "20250519" "20250526" {
+version "20250512" "20250519" "20250526" "20250602" {
   auto-version {
     github-release = "google/copybara"
   }
