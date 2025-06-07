@@ -1,20 +1,39 @@
 description = "A high-performance observability data pipeline."
 homepage = "https://vector.dev/"
 binaries = ["vector"]
-
-platform "darwin" "amd64" {
-  source = "https://github.com/vectordotdev/vector/releases/download/v${version}/vector-${version}-${xarch}-apple-darwin.tar.gz"
+test = "vector --version"
+source = "https://github.com/vectordotdev/vector/releases/download/v${version}/vector-${version}-${arch_}-${platform}.tar.gz"
+vars = {
+  "arch_": "${xarch}",
+  "platform": "apple-darwin",
 }
 
 platform "darwin" "arm64" {
-  source = "https://github.com/vectordotdev/vector/releases/download/v${version}/vector-${version}-${arch}-apple-darwin.tar.gz"
+  vars = {
+    "arch_": "${arch}",
+  }
 }
 
 platform "linux" {
-  source = "https://github.com/vectordotdev/vector/releases/download/v${version}/vector-${version}-${xarch}-unknown-linux-gnu.tar.gz"
+  vars = {
+    "platform": "unknown-linux-gnu",
+  }
 }
 
-version "0.47.0" {
+platform "darwin" {
+  vars = {
+    "platform": "apple-darwin",
+  }
+}
+
+on "unpack" {
+  rename {
+    from = "${root}/vector-${arch_}-${platform}/bin/vector"
+    to = "${root}/vector"
+  }
+}
+
+version "0.47.0" "0.46.1" {
   auto-version {
     github-release = "vectordotdev/vector"
   }
@@ -25,4 +44,8 @@ sha256sums = {
   "https://github.com/vectordotdev/vector/releases/download/v0.47.0/vector-0.47.0-x86_64-apple-darwin.tar.gz": "7d2fc26bad9e6e728f3a353b2c32112316b625f5b550a3e70ff8e3775b6986ec",
   "https://github.com/vectordotdev/vector/releases/download/v0.47.0/vector-0.47.0-arm64-apple-darwin.tar.gz": "e0cf42aa49cfc2052ef5a149af9cd7520b57f1521c8e216692eb15408922499a",
   "https://github.com/vectordotdev/vector/releases/download/v0.47.0/vector-0.47.0-aarch64-unknown-linux-gnu.tar.gz": "614ff0481a901ece8634e734c94c318bf63fca34d00d0605e456dbfa3b5f80b8",
+  "https://github.com/vectordotdev/vector/releases/download/v0.46.1/vector-0.46.1-arm64-apple-darwin.tar.gz": "9a198d7a50029e7ef0d850bf2f0970a0cf54f1e8de5b9c0070bc1f56188a0ce6",
+  "https://github.com/vectordotdev/vector/releases/download/v0.46.1/vector-0.46.1-aarch64-unknown-linux-gnu.tar.gz": "d42dd6231f3194d3b345ecebb0f7348fb67ac957f35af98450fac000a195f9c7",
+  "https://github.com/vectordotdev/vector/releases/download/v0.46.1/vector-0.46.1-x86_64-unknown-linux-gnu.tar.gz": "a82b5a35fa76d35a3c9882fa8fe81aaae295394f20f5f4b868cfeada616e05d9",
+  "https://github.com/vectordotdev/vector/releases/download/v0.46.1/vector-0.46.1-x86_64-apple-darwin.tar.gz": "6d8ba3fb2e0a71911549b27ee62f4ecb34a0e1314d15e1147f546e3b3a5f72be",
 }
