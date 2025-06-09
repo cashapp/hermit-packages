@@ -33,7 +33,7 @@ version "0.182.0" "0.182.1" "0.183.0" "0.184.0" "1.0.0" "1.1.0" "1.2.2" "1.2.3"
 
 version "2.0.0" "2.0.1" "2.1.0" "2.2.0" "2.3.0" "2.3.1" "2.3.2" "2.4.1" "2.4.3" "2.4.4"
         "2.4.5" "2.4.6" "2.4.7" "2.4.8" "2.5.0" "2.5.1" "2.6.0" "2.6.1" "2.7.0" "2.8.1" "2.8.2"
-        "2.9.0" {
+        "2.9.0" "2.10.2" {
   platform "amd64" {
     source = "https://github.com/goreleaser/goreleaser/releases/download/v${version}/goreleaser_${os}_x86_64.tar.gz"
   }
@@ -338,4 +338,8 @@ sha256sums = {
   "https://github.com/goreleaser/goreleaser/releases/download/v2.7.0/goreleaser_darwin_x86_64.tar.gz": "0f8c8aa5d13032dcda05bbbb0d09a48eb6b80015e5cb7a23d6dfa3fc44c81d66",
   "https://github.com/goreleaser/goreleaser/releases/download/v2.7.0/goreleaser_linux_arm64.tar.gz": "5b3646cef976ea610019d4ee5523e4fb1b243e4e89a416ff9b9ac645c7e26342",
   "https://github.com/goreleaser/goreleaser/releases/download/v2.8.2/goreleaser_linux_arm64.tar.gz": "ebf55249a59a4073b89379316953b3ce2e7505e5980f9c22e23399aa4679be69",
+  "https://github.com/goreleaser/goreleaser/releases/download/v2.10.2/goreleaser_darwin_x86_64.tar.gz": "26cd36d449f126ff7dbfc04111f402ce82b7867c424f90a2c9a0e22177da4a88",
+  "https://github.com/goreleaser/goreleaser/releases/download/v2.10.2/goreleaser_darwin_arm64.tar.gz": "4fe676f4d7d9cddf4930b40e1701318943ec473c54bbd40e252b17b6c2419246",
+  "https://github.com/goreleaser/goreleaser/releases/download/v2.10.2/goreleaser_linux_x86_64.tar.gz": "7557d103d66efad2cc3c61c458b6ec948d8cb0c49f734fbb94075e9f774076df",
+  "https://github.com/goreleaser/goreleaser/releases/download/v2.10.2/goreleaser_linux_arm64.tar.gz": "708050ebcf0a60d3007317920e1851f168dff7ba0a8388437acb016d3b0dbe61",
 }
