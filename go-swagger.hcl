@@ -9,7 +9,8 @@ on "unpack" {
   }
 }
 
-version "0.28.0" "0.29.0" "0.30.0" "0.30.2" "0.30.3" "0.30.4" "0.30.5" "0.31.0" {
+version "0.28.0" "0.29.0" "0.30.0" "0.30.2" "0.30.3" "0.30.4" "0.30.5" "0.31.0"
+        "0.32.3" {
   auto-version {
     github-release = "go-swagger/go-swagger"
   }
@@ -32,4 +33,6 @@ sha256sums = {
   "https://github.com/go-swagger/go-swagger/releases/download/v0.30.5/swagger_linux_amd64": "90cf1b1520bbc5599f98c266edb92c4b46737261b24dd01e8076401237ba64b2",
   "https://github.com/go-swagger/go-swagger/releases/download/v0.31.0/swagger_linux_amd64": "94d63ada4aad825d75ead80c8dba048dbd4c4a013376df9f5b848a41899e9b04",
   "https://github.com/go-swagger/go-swagger/releases/download/v0.31.0/swagger_darwin_amd64": "68bada2e087bc82e160a08a8a8182de1a8b4cd2df74c4e5fc9f05253991cd491",
+  "https://github.com/go-swagger/go-swagger/releases/download/v0.32.3/swagger_darwin_amd64": "714d404e6ab433b41484a293f19b8320a36c65b24b79d3aac4547747a96557fe",
+  "https://github.com/go-swagger/go-swagger/releases/download/v0.32.3/swagger_linux_amd64": "53e7362b2064b3bef23fdfed00d4be46041b005b4be41baec84f9adbee460c30",
 }
