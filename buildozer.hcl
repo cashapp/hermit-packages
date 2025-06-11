@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "6.4.0" "8.0.3" "8.2.0" {
+version "6.4.0" "8.0.3" "8.2.0" "8.2.1" {
   auto-version {
     github-release = "bazelbuild/buildtools"
   }
@@ -29,4 +29,8 @@ sha256sums = {
   "https://github.com/bazelbuild/buildtools/releases/download/v8.2.0/buildozer-linux-amd64": "0e54770aa6148384d1edde39ef20e10d2c57e8c09dd42f525e100f51b0b77ae1",
   "https://github.com/bazelbuild/buildtools/releases/download/v8.2.0/buildozer-darwin-amd64": "b7bd7189a9d4de22c10fd94b7d1d77c68712db9bdd27150187bc677e8c22960e",
   "https://github.com/bazelbuild/buildtools/releases/download/v8.2.0/buildozer-darwin-arm64": "781527c5337dadba5a0611c01409c669852b73b72458650cc7c5f31473f7ae3f",
+  "https://github.com/bazelbuild/buildtools/releases/download/v8.2.1/buildozer-darwin-amd64": "1284b7416d9ebbb50033645fc648985f9b2e0f38e7f22f79c0398c97d38d146c",
+  "https://github.com/bazelbuild/buildtools/releases/download/v8.2.1/buildozer-darwin-arm64": "a981182561f67ed697b0e810714307c8475bce68c069f819212fe36f12d77872",
+  "https://github.com/bazelbuild/buildtools/releases/download/v8.2.1/buildozer-linux-amd64": "04454a6a89c64c603027cc3371eb1c36e48727e04558e077c20ec37c9c2f831a",
+  "https://github.com/bazelbuild/buildtools/releases/download/v8.2.1/buildozer-linux-arm64": "e55b56861a390cc993402d2974d5b74a097694f64eb08599dc704bdd7dde6484",
 }
