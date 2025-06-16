@@ -8,7 +8,10 @@ env = {
   "USE_GKE_GCLOUD_AUTH_PLUGIN": "True"
 }
 
-version "526.0.0" {
+version "0.5.10" {
+  // Auto-versioning is challenging because the component uses JSON manifest
+  // at https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json
+  // but Hermit only supports HTML/XPath. Manual updates needed for now.
   platform "linux" "amd64" {
     source = "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-linux-x86_64-20250117151628.tar.gz"
 
