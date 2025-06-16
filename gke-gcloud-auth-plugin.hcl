@@ -1,58 +1,31 @@
 description = "Official Google Cloud gke-gcloud-auth-plugin extracted from component archives."
 binaries = ["bin/gke-gcloud-auth-plugin"]
 test = "gke-gcloud-auth-plugin --version"
-
 requires = ["gcloud"]
-
 env = {
-  "USE_GKE_GCLOUD_AUTH_PLUGIN": "True"
+  "USE_GKE_GCLOUD_AUTH_PLUGIN": "True",
+}
+
+vars = {
+  "arch_": "${xarch}",
+}
+
+platform arm64 {
+  vars = {
+    "arch_": "arm",
+  }
 }
 
 version "0.5.10" {
   // Auto-versioning is challenging because the component uses JSON manifest
   // at https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json
   // but Hermit only supports HTML/XPath. Manual updates needed for now.
-  platform "linux" "amd64" {
-    source = "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-linux-x86_64-20250117151628.tar.gz"
+  source = "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-${os}-${arch_}-20250117151628.tar.gz"
 
-    on "unpack" {
-      chmod {
-        file = "${root}/bin/gke-gcloud-auth-plugin"
-        mode = 0755
-      }
-    }
-  }
-
-  platform "darwin" "amd64" {
-    source = "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-darwin-x86_64-20250117151628.tar.gz"
-
-    on "unpack" {
-      chmod {
-        file = "${root}/bin/gke-gcloud-auth-plugin"
-        mode = 0755
-      }
-    }
-  }
-
-  platform "darwin" "arm64" {
-    source = "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-darwin-arm-20250117151628.tar.gz"
-
-    on "unpack" {
-      chmod {
-        file = "${root}/bin/gke-gcloud-auth-plugin"
-        mode = 0755
-      }
-    }
-  }
-
-  platform "linux" "arm64" {
-    source = "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-linux-arm-20250117151628.tar.gz"
-
-    on "unpack" {
-      chmod {
-        file = "${root}/bin/gke-gcloud-auth-plugin"
-        mode = 0755
-      }
+  on "unpack" {
+    chmod {
+      file = "${root}/bin/gke-gcloud-auth-plugin"
+      mode = 0755
     }
   }
 }
