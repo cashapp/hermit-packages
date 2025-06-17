@@ -3,7 +3,7 @@ test = "ollama --version"
 sha256-source = "https://github.com/ollama/ollama/releases/download/v${version}/sha256sum.txt"
 
 version "0.6.0" "0.6.1" "0.6.2" "0.6.3" "0.6.4" "0.6.5" "0.6.6" "0.6.7" "0.6.8" "0.7.0"
-        "0.7.1" "0.8.0" "0.9.0" {
+        "0.7.1" "0.8.0" "0.9.0" "0.9.1" {
   auto-version {
     github-release = "ollama/ollama"
   }
@@ -169,4 +169,7 @@ sha256sums = {
   "https://github.com/ollama/ollama/releases/download/v0.9.0/ollama-darwin.tgz": "51db4cdea2c434eb35ce0b3e11d0ce1b8a5e2dffcb049dd41a0a7c676e66ac37",
   "https://github.com/ollama/ollama/releases/download/v0.9.0/ollama-linux-amd64.tgz": "ae9cebd61552d6cf3c527cb88e3a4865a25f22950aa8bb5328887ffd96cfd22a",
   "https://github.com/ollama/ollama/releases/download/v0.9.0/ollama-linux-arm64.tgz": "288b6f7ed9175476943c0c01f21df1de21df590b0b3ed5dee16a5285d5da84e4",
+  "https://github.com/ollama/ollama/releases/download/v0.9.1/ollama-linux-arm64.tgz": "2a50582d171a7de82dba478fc68459730e884b935dd8eed6cf8e1e027c84782e",
+  "https://github.com/ollama/ollama/releases/download/v0.9.1/ollama-darwin.tgz": "b104ced685e83b2f15aa44a19ca21c8fc77045704c2cc741e8f045033e5e355c",
+  "https://github.com/ollama/ollama/releases/download/v0.9.1/ollama-linux-amd64.tgz": "ef2aba89fc7a94f6b6c5e30227eacbd0fac29504733cd6fb3478a93336c70dbc",
 }

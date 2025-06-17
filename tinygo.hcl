@@ -11,7 +11,7 @@ version "0.23.0" "0.24.0" "0.25.0" "0.26.0" "0.27.0" "0.28.1" "0.29.0" "0.30.0" 
 }
 
 version "0.31.0" "0.31.1" "0.31.2" "0.32.0" "0.33.0" "0.34.0" "0.35.0" "0.36.0"
-        "0.37.0" {
+        "0.37.0" "0.38.0" {
   auto-version {
     github-release = "tinygo-org/tinygo"
   }
@@ -70,4 +70,8 @@ sha256sums = {
   "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.linux-amd64.tar.gz": "ff3680acc0e2295db453e8e241a0cab5ea44f84586f4c5c00860822380713397",
   "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.darwin-amd64.tar.gz": "90961d9302e147ccb296d0afb800f4fe3c65df9dcc08b470003f6bf130870508",
   "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.linux-arm64.tar.gz": "dece4264cef3f553636482c2ba15e04ac4e1597dafc092b27c6e3da3acc4ad73",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.38.0/tinygo0.38.0.linux-amd64.tar.gz": "edc3476ec69e309f0fd4afc1ec79c34e00a14bc3848a7133ac53f814e72faebd",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.38.0/tinygo0.38.0.darwin-amd64.tar.gz": "1af16189f0c077de26acde4dc54200f45457b49b88443ec147af457bf3c47b39",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.38.0/tinygo0.38.0.linux-arm64.tar.gz": "96db59432bfeb2e7d52c57c10724809adf806ef8b6e31ac841dc1427ad63a187",
+  "https://github.com/tinygo-org/tinygo/releases/download/v0.38.0/tinygo0.38.0.darwin-arm64.tar.gz": "465a472fb5b1bcc1fb993985960ba3a822e0dfac8d365e533087272d9e0df4c8",
 }
