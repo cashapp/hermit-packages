@@ -3,7 +3,8 @@ binaries = ["nelm"]
 test = "nelm version"
 source = "https://storage.googleapis.com/nelm-tuf/targets/releases/${version}/${os}-${arch}/bin/nelm"
 
-version "1.1.1" "1.1.5" "1.2.0" "1.2.1" "1.2.2" "1.3.0" "1.4.0" "1.4.1" "1.5.0" "1.6.0" {
+version "1.1.1" "1.1.5" "1.2.0" "1.2.1" "1.2.2" "1.3.0" "1.4.0" "1.4.1" "1.5.0" "1.6.0"
+        "1.7.0" {
   auto-version {
     github-release = "werf/nelm"
   }
@@ -50,4 +51,8 @@ sha256sums = {
   "https://storage.googleapis.com/nelm-tuf/targets/releases/1.6.0/linux-arm64/bin/nelm": "5500548830b4ca873c690459e087887686e2f46fdf21829b01faa01fc9aaf6f0",
   "https://storage.googleapis.com/nelm-tuf/targets/releases/1.6.0/linux-amd64/bin/nelm": "9b5a67a031c201a2023509723954d6f1d55c3647801415b56aa06a9d29352a87",
   "https://storage.googleapis.com/nelm-tuf/targets/releases/1.6.0/darwin-amd64/bin/nelm": "8b2562a8c86df4a3425ee6df67c7ff92e40ef726bdc1f33364f98d3918315b0c",
+  "https://storage.googleapis.com/nelm-tuf/targets/releases/1.7.0/linux-amd64/bin/nelm": "1c246ce726e7639283e7d888940a944e3a5fb97ec79ff29961448af1294910f2",
+  "https://storage.googleapis.com/nelm-tuf/targets/releases/1.7.0/darwin-amd64/bin/nelm": "531c97b7c1a0a9920fb416a4dd975f2f0cf81d5a9c9e3636c1d7dff42a751594",
+  "https://storage.googleapis.com/nelm-tuf/targets/releases/1.7.0/linux-arm64/bin/nelm": "2d0785c7e9b60254d6d5f011ec39d11c6ed0124766cad99a16a6a3cc04698d38",
+  "https://storage.googleapis.com/nelm-tuf/targets/releases/1.7.0/darwin-arm64/bin/nelm": "8ce532a773d65fc2e829ff330844f89954d48fe3f93dc708d12b5eba906d8ef7",
 }

@@ -19,7 +19,7 @@ version "1.10.2" "1.11.0" "1.11.1" {
   }
 }
 
-version "1.12.0" "1.12.1" {
+version "1.12.0" "1.12.1" "1.13.0" {
   auto-version {
     github-release = "ninja-build/ninja"
   }
@@ -38,4 +38,7 @@ sha256sums = {
   "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-mac.zip": "89a287444b5b3e98f88a945afa50ce937b8ffd1dcc59c555ad9b1baf855298c9",
   "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-linux-aarch64.zip": "375a49c79095334c88338ff15f90730e08a4d03997ef660f48f11ee7e450db7a",
   "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-linux-aarch64.zip": "5c25c6570b0155e95fce5918cb95f1ad9870df5768653afe128db822301a05a1",
+  "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-linux.zip": "46aa8ad0a431e9b6e39f6ca0abc47bf8b13be094e3ac7d0f6d39e94bbdc746f9",
+  "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-mac.zip": "229314c7ef65e9c11d19f84e5f4bb374105a4f21f64ed55e8f403df765ab52a7",
+  "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-linux-aarch64.zip": "b2b2f956963ef6300841c253a7aa81c3e9e5dbd2ed059bee6f8bcd851b5bb096",
 }
