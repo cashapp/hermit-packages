@@ -5,7 +5,7 @@ binaries = ["tofu"]
 source = "https://github.com/opentofu/opentofu/releases/download/v${version}/tofu_${version}_${os}_${arch}.zip"
 
 version "1.6.1" "1.6.0" "1.6.2" "1.7.0" "1.7.1" "1.7.2" "1.7.3" "1.8.0" "1.8.1" "1.8.2"
-        "1.8.3" "1.8.4" "1.8.5" "1.8.6" "1.8.7" "1.8.8" "1.9.0" "1.9.1" "1.10.0" {
+        "1.8.3" "1.8.4" "1.8.5" "1.8.6" "1.8.7" "1.8.8" "1.9.0" "1.9.1" "1.10.0" "1.10.1" {
   auto-version {
     github-release = "opentofu/opentofu"
   }
@@ -88,4 +88,8 @@ sha256sums = {
   "https://github.com/opentofu/opentofu/releases/download/v1.10.0/tofu_1.10.0_linux_arm64.zip": "289e7264c747845c07d7700c72b32c78180fb6bd1182b8a8557b2ab5567cca26",
   "https://github.com/opentofu/opentofu/releases/download/v1.10.0/tofu_1.10.0_linux_amd64.zip": "ff8aebfd069f15f3f9ba7814444c8cae05428314c2ded0faedb9d040f6936cdb",
   "https://github.com/opentofu/opentofu/releases/download/v1.10.0/tofu_1.10.0_darwin_arm64.zip": "570137ff829eefd761df3631a09fe91032a477f425172eb61d8e4bb31978a277",
+  "https://github.com/opentofu/opentofu/releases/download/v1.10.1/tofu_1.10.1_linux_amd64.zip": "e90b948d2606d7c69653ddbb9319c2edb8c229f091950a21f3e198f621d888a9",
+  "https://github.com/opentofu/opentofu/releases/download/v1.10.1/tofu_1.10.1_linux_arm64.zip": "102ca3c409da379f13baf272d0301afcd4f5e4a558970b7bc4473f2f286d4598",
+  "https://github.com/opentofu/opentofu/releases/download/v1.10.1/tofu_1.10.1_darwin_amd64.zip": "646a94eb690a060122571d13c51003499001e56dbe3f3e8d8c0a1e84a3297dd4",
+  "https://github.com/opentofu/opentofu/releases/download/v1.10.1/tofu_1.10.1_darwin_arm64.zip": "6938e34be3b1097c2588eeca5676be80c6760a71007e224111db6fc3c78106e4",
 }
