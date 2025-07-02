@@ -26,7 +26,7 @@ version "1.5" "1.6" {
   }
 }
 
-version "1.7" "1.7.1" "1.8.0" {
+version "1.7" "1.7.1" "1.8.0" "1.8.1" {
   auto-version {
     github-release = "jqlang/jq"
     version-pattern = "jq-(.*)"
@@ -72,4 +72,8 @@ sha256sums = {
   "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-macos-arm64": "aaf1efbb376d6e3eaf61f63807c32c1df519f5857dfc4f581826fa2df4b715ae",
   "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-amd64": "8926c33326111bcd67a47a970b5a5db933ef9194ad925994934c639c76a0605c",
   "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-arm64": "1084e6bf5060a463daf77193888d326c83e56bcfbc18a52e6eaa99dbe82a8b54",
+  "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64": "020468de7539ce70ef1bceaf7cde2e8c4f2ca6c3afb84642aabc5c97d9fc2a0d",
+  "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-amd64": "e80dbe0d2a2597e3c11c404f03337b981d74b4a8504b70586c354b7697a7c27f",
+  "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-arm64": "a9fe3ea2f86dfc72f6728417521ec9067b343277152b114f4e98d8cb0e263603",
+  "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64": "6bc62f25981328edd3cfcfe6fe51b073f2d7e7710d7ef7fcdac28d4e384fc3d4",
 }
