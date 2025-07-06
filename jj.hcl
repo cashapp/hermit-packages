@@ -1,5 +1,6 @@
 description = "A Git-compatible VCS that is both simple and powerful"
 binaries = ["jj"]
+test = "jj --version"
 
 platform "darwin" {
   source = "https://github.com/jj-vcs/jj/releases/download/v${version}/jj-v${version}-${xarch}-apple-darwin.tar.gz"
