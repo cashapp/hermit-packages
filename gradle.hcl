@@ -12,7 +12,7 @@ version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "7.6
   auto-version {
     html {
       url = "https://gradle.org/releases/"
-      css = "div.resources-contents h3 span:last-child"
+      css = "div.resources-contents h3 span:nth-child(2)"
     }
   }
 }
