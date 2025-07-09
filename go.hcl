@@ -108,7 +108,7 @@ version "1.22.0" "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.12"
 }
 
 version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
-        "1.23.8" "1.23.9" "1.23.10" {
+        "1.23.8" "1.23.9" "1.23.10" "1.23.11" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -122,7 +122,7 @@ version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
 }
 
 // All other versions
-version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" {
+version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -541,4 +541,12 @@ sha256sums = {
   "https://golang.org/dl/go1.24.4.darwin-amd64.tar.gz": "69bef555e114b4a2252452b6e7049afc31fbdf2d39790b669165e89525cd3f5c",
   "https://golang.org/dl/go1.24.4.linux-arm64.tar.gz": "d5501ee5aca0f258d5fe9bfaed401958445014495dc115f202d43d5210b45241",
   "https://golang.org/dl/go1.24.4.linux-amd64.tar.gz": "77e5da33bb72aeaef1ba4418b6fe511bc4d041873cbf82e5aa6318740df98717",
+  "https://golang.org/dl/go1.23.11.linux-amd64.tar.gz": "80899df77459e0b551d2eb8800ad6eb47023b99cccbf8129e7b5786770b948c5",
+  "https://golang.org/dl/go1.23.11.darwin-amd64.tar.gz": "804538b068ebf449789e060d221c7be94d92d5f3e86842071cc70148d677f84d",
+  "https://golang.org/dl/go1.23.11.darwin-arm64.tar.gz": "d3c2c69a79eb3e2a06e5d8bbca692c9166b27421f7251ccbafcada0ba35a05ee",
+  "https://golang.org/dl/go1.23.11.linux-arm64.tar.gz": "1085c6ff805ec1f4893fa92013d16e58f74aeac830b1b9919b6908f3ed1a85c5",
+  "https://golang.org/dl/go1.24.5.linux-arm64.tar.gz": "0df02e6aeb3d3c06c95ff201d575907c736d6c62cfa4b6934c11203f1d600ffa",
+  "https://golang.org/dl/go1.24.5.linux-amd64.tar.gz": "10ad9e86233e74c0f6590fe5426895de6bf388964210eac34a6d83f38918ecdc",
+  "https://golang.org/dl/go1.24.5.darwin-arm64.tar.gz": "92d30a678f306c327c544758f2d2fa5515aa60abe9dba4ca35fbf9b8bfc53212",
+  "https://golang.org/dl/go1.24.5.darwin-amd64.tar.gz": "2fe5f3866b8fbcd20625d531f81019e574376b8a840b0a096d8a2180308b1672",
 }

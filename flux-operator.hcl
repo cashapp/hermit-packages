@@ -4,7 +4,7 @@ binaries = ["flux-operator"]
 repository = "https://github.com/controlplaneio-fluxcd/flux-operator"
 source = "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v${version}/flux-operator_${version}_${os}_${arch}.tar.gz"
 
-version "0.19.0" "0.20.0" "0.21.0" "0.22.0" "0.23.0" {
+version "0.19.0" "0.20.0" "0.21.0" "0.22.0" "0.23.0" "0.24.0" {
   auto-version {
     github-release = "controlplaneio-fluxcd/flux-operator"
   }
@@ -31,4 +31,8 @@ sha256sums = {
   "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.23.0/flux-operator_0.23.0_darwin_arm64.tar.gz": "4825f320a1272deab4f8d40157cd71d76ee29941436f36acf495ac316c75d339",
   "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.23.0/flux-operator_0.23.0_linux_amd64.tar.gz": "de9bba9efbbcb64eb731348ab1753b1e3b607c99e538b8e1c6456428eed99a90",
   "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.23.0/flux-operator_0.23.0_linux_arm64.tar.gz": "ca381325b8218d3a4f825fe4e17afbda450ae1afa661d93db71a55177e201ec0",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.24.0/flux-operator_0.24.0_linux_arm64.tar.gz": "b8244a3a5e40b70d9505f93e0ee607cac23e1ed8261e68ec5083c003fc22fa3f",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.24.0/flux-operator_0.24.0_linux_amd64.tar.gz": "e2e68787c23ddf677aadc8d36da3b62d068d4e862ee3a9da7c50af1246c63a1f",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.24.0/flux-operator_0.24.0_darwin_amd64.tar.gz": "7ec14e71c01211c191087990fad436d9a935bbd65151ada58f00e36f03429a41",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.24.0/flux-operator_0.24.0_darwin_arm64.tar.gz": "1e64b8a26aa087fe7403a63b582722e713d058417157c3bc6d8e790976fcd04d",
 }
