@@ -11,6 +11,12 @@ platform "linux" {
   source = "https://github.com/amber-lang/amber/releases/download/${version}/amber-${xarch}-unknown-linux-gnu.tar.xz"
 }
 
+// Override "latest" channel
+channel "latest" {
+  update = "24h"
+  version = "0.*"
+}
+
 version "0.3.5-alpha" "0.4.0-alpha" {
   auto-version {
     github-release = "amber-lang/amber"
