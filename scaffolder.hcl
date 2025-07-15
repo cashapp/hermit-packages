@@ -3,7 +3,7 @@ binaries = ["scaffolder"]
 source = "https://github.com/TBD54566975/scaffolder/releases/download/v${version}/scaffolder-${version}-${os}-${arch}.tar.gz"
 sha256-source = "https://github.com/TBD54566975/scaffolder/releases/download/v${version}/scaffolder-${version}-checksums.txt"
 
-version "1.1.0" "1.4.0" "1.5.0" "1.5.1" "1.6.0" {
+version "1.1.0" "1.4.0" "1.5.0" "1.5.1" "1.6.0" "1.7.0" {
   auto-version {
     github-release = "TBD54566975/scaffolder"
   }
@@ -30,4 +30,8 @@ sha256sums = {
   "https://github.com/TBD54566975/scaffolder/releases/download/v1.6.0/scaffolder-1.6.0-linux-amd64.tar.gz": "73a4efe23c15d7f16394f8eccdbe010abdd2df12f130ddd882d6d5abe0fa9e56",
   "https://github.com/TBD54566975/scaffolder/releases/download/v1.6.0/scaffolder-1.6.0-darwin-arm64.tar.gz": "76e9fe82ad6fc5135f11e0926804a75a5b8e408ea7984bba84979e1377d42170",
   "https://github.com/TBD54566975/scaffolder/releases/download/v1.6.0/scaffolder-1.6.0-darwin-amd64.tar.gz": "a82dce01c2fc8821c43a27cb79caf42d58b0032002d5a3349a942275e3a682bb",
+  "https://github.com/TBD54566975/scaffolder/releases/download/v1.7.0/scaffolder-1.7.0-darwin-amd64.tar.gz": "95f8b6430b27f6c111869ccdea474f77e554e59afdcc5f325e2ee4dce900ffbf",
+  "https://github.com/TBD54566975/scaffolder/releases/download/v1.7.0/scaffolder-1.7.0-darwin-arm64.tar.gz": "5947b05a04458d35fdaef4fc56514b9d830c022410a18d9811e903ed2a5047d4",
+  "https://github.com/TBD54566975/scaffolder/releases/download/v1.7.0/scaffolder-1.7.0-linux-amd64.tar.gz": "43ac9bf1feb60b55172b2a125f4771b65d81b6c7a5605965950bc95a4cc81a86",
+  "https://github.com/TBD54566975/scaffolder/releases/download/v1.7.0/scaffolder-1.7.0-linux-arm64.tar.gz": "3154285ed46c89cea103e6a692a91e995e9cb62a4919be2a127f5214faa8bb79",
 }
