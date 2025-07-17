@@ -4,7 +4,7 @@ binaries = ["tctl"]
 test = "tctl --version"
 source = "https://github.com/temporalio/tctl/releases/download/v${version}/tctl_${version}_${os}_${arch}.tar.gz"
 
-version "1.18.0" "1.18.1" {
+version "1.18.0" "1.18.1" "1.18.4" {
   auto-version {
     github-release = "temporalio/tctl"
   }
@@ -20,4 +20,8 @@ sha256sums = {
   "https://github.com/temporalio/tctl/releases/download/v1.18.1/tctl_1.18.1_darwin_amd64.tar.gz": "ec0eb863c86252ab2c63c9477267c5bb18ba8831acd364a60b6e1ac4891f7f10",
   "https://github.com/temporalio/tctl/releases/download/v1.18.1/tctl_1.18.1_darwin_arm64.tar.gz": "bed198a161c0681d932b3e144671bcf014d2fd83a20fa04d34b28dac80b26f1d",
   "https://github.com/temporalio/tctl/releases/download/v1.18.1/tctl_1.18.1_linux_arm64.tar.gz": "c277efc28e1d57bf89b214f1f3776c5b61e161a8b4eb601bceff4924eb810d3c",
+  "https://github.com/temporalio/tctl/releases/download/v1.18.4/tctl_1.18.4_linux_amd64.tar.gz": "f43ca9a2bf67e0aaec5061430084bee15c7ba9d70e6bd731a963d71527914227",
+  "https://github.com/temporalio/tctl/releases/download/v1.18.4/tctl_1.18.4_darwin_amd64.tar.gz": "0af51d39e0411c96ea7e78316138a35056860eabf6e04fd2ec5818ef917861fc",
+  "https://github.com/temporalio/tctl/releases/download/v1.18.4/tctl_1.18.4_darwin_arm64.tar.gz": "87532c7e9946f368653507ee78ed309019f3a29ef68194d847eb3447e4ac17f0",
+  "https://github.com/temporalio/tctl/releases/download/v1.18.4/tctl_1.18.4_linux_arm64.tar.gz": "97a376df4bd44516e46cf80e28832567366f572790ba0aff5324661a310bc4d4",
 }
