@@ -27,7 +27,7 @@ platform "windows" {
   }
 }
 
-version "1.0.0" "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.9.0"
+version "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.9.0"
         "1.10.0" "1.11.0" "1.12.0" "1.12.1" "1.13.0" "1.14.0" "1.15.0" "1.16.0" "1.17.0"
         "1.18.0" "1.19.0" "1.20.0" "1.20.1" "1.21.0" "1.21.1" "1.22.0" "1.23.0" {
   auto-version {
@@ -47,8 +47,6 @@ sha256sums = {
   "https://github.com/sigoden/argc/releases/download/v1.20.0/argc-v1.20.0-x86_64-unknown-linux-musl.tar.gz": "7455c36916ed99a7f3b0b7bfdbae80bce2f94b8b348de5dcf4789c5813b058e0",
   "https://github.com/sigoden/argc/releases/download/v1.20.1/argc-v1.20.1-x86_64-apple-darwin.tar.gz": "60c85b6b326f0405b3341573c05c87ab08c529d631dc62535f9f7aaf3a9fced1",
   "https://github.com/sigoden/argc/releases/download/v1.22.0/argc-v1.22.0-x86_64-unknown-linux-musl.tar.gz": "d8f76693655ac28daf7577dc5323841119374b313a26ca1e53f5971bfcf8c7dd",
-  "https://github.com/sigoden/argc/releases/download/v1.0.0/argc-v1.0.0-x86_64-unknown-linux-musl.tar.gz": "df53f9b45306b5b777c8fb215dd327a17497c336a2de10fa62c9dd659d41e3d7",
-  "https://github.com/sigoden/argc/releases/download/v1.0.0/argc-v1.0.0-aarch64-apple-darwin.tar.gz": "5260f534a9b72c97d7eb4ce95e407caddcaa519bdd4dfdf2530b066bf51a42e1",
   "https://github.com/sigoden/argc/releases/download/v1.1.0/argc-v1.1.0-x86_64-unknown-linux-musl.tar.gz": "6835d09dc8e4ddf2fd7402fed65a1de0a72b2113b54a4971195f88361c2258ad",
   "https://github.com/sigoden/argc/releases/download/v1.4.0/argc-v1.4.0-aarch64-unknown-linux-musl.tar.gz": "43753a183f646d4010a28854fa75fc47f0b3d8a4fbd9211d9b15443ce16c1fe2",
   "https://github.com/sigoden/argc/releases/download/v1.10.0/argc-v1.10.0-aarch64-unknown-linux-musl.tar.gz": "10768f53dd713f2ad32f8db1723670053a37caf46a7bf315110106de19243a7c",
@@ -58,7 +56,6 @@ sha256sums = {
   "https://github.com/sigoden/argc/releases/download/v1.19.0/argc-v1.19.0-aarch64-apple-darwin.tar.gz": "a65f27bdc6355fd19e3e092b4d43e3e6cbe37d2d9a5d53ec8e33b86daf4b4943",
   "https://github.com/sigoden/argc/releases/download/v1.21.1/argc-v1.21.1-x86_64-unknown-linux-musl.tar.gz": "4db795dfccda9d8eca782a7f2cf4df88abc3c866b680eaa75b2754a402b0b408",
   "https://github.com/sigoden/argc/releases/download/v1.22.0/argc-v1.22.0-x86_64-apple-darwin.tar.gz": "cd8f1e4dd013fecbe88be3ef7f2140ef0b7aa555714f6c40ebda0442015195e4",
-  "https://github.com/sigoden/argc/releases/download/v1.0.0/argc-v1.0.0-x86_64-apple-darwin.tar.gz": "0636ed8342e77e01ab3c3f848b1ee74f15ffe415e90f3cead2e19a8de92afc79",
   "https://github.com/sigoden/argc/releases/download/v1.5.0/argc-v1.5.0-x86_64-unknown-linux-musl.tar.gz": "f58d9f8c976f1d060649d1512d4dcbc845873d4ad76455439b1446e1b8aaa87b",
   "https://github.com/sigoden/argc/releases/download/v1.5.0/argc-v1.5.0-aarch64-apple-darwin.tar.gz": "c9dfda2e3d0a0bd589d65ea541469dafea95e674a7e1b95ae67896cd0097992c",
   "https://github.com/sigoden/argc/releases/download/v1.8.0/argc-v1.8.0-aarch64-apple-darwin.tar.gz": "7ee647335cdac6c1e4742e2f27e24886da56a1821427178814d68d01ec90f144",
@@ -102,7 +99,6 @@ sha256sums = {
   "https://github.com/sigoden/argc/releases/download/v1.20.0/argc-v1.20.0-x86_64-apple-darwin.tar.gz": "24cbf25bd75999cd990e2559b275dc69ed9c296abbaec5dab898d87b23d394a1",
   "https://github.com/sigoden/argc/releases/download/v1.20.1/argc-v1.20.1-aarch64-unknown-linux-musl.tar.gz": "b71ae9ba36cb63f16eb512706fc76baba3ac20836d7b884cff1b065c6210d050",
   "https://github.com/sigoden/argc/releases/download/v1.21.0/argc-v1.21.0-x86_64-apple-darwin.tar.gz": "73cd0ac9213926104b011b02db9c2434876237c6d46eb6ac63a7bd3ed8ca122c",
-  "https://github.com/sigoden/argc/releases/download/v1.0.0/argc-v1.0.0-aarch64-unknown-linux-musl.tar.gz": "060193d6da2b69e70cdfe87fc730a219706490c736be6a3f4f7e621a672e89f6",
   "https://github.com/sigoden/argc/releases/download/v1.1.0/argc-v1.1.0-aarch64-unknown-linux-musl.tar.gz": "9f54408b54847e66d4eaf4dbfcdc83ac90510320be9dcaaa337d8cfcd05a72d5",
   "https://github.com/sigoden/argc/releases/download/v1.3.0/argc-v1.3.0-x86_64-apple-darwin.tar.gz": "93ac0ccd3da89b3f88571a9d6a4397e65a3f64bf9427fd2b910da7a7764e5186",
   "https://github.com/sigoden/argc/releases/download/v1.8.0/argc-v1.8.0-x86_64-apple-darwin.tar.gz": "ba428c98f16134f4f3cc051b62c9c7a80a638aeac6f32af1eb6f71f64511287c",
