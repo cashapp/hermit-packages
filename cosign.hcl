@@ -27,7 +27,7 @@ darwin {
 version "1.0.0" "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.1" "1.8.0" "1.9.0"
         "1.10.0" "1.10.1" "1.11.0" "1.11.1" "1.12.0" "1.12.1" "1.13.0" "1.13.1" "2.0.0" "2.0.1"
         "2.0.2" "2.1.0" "2.1.1" "2.2.0" "2.2.1" "2.2.2" "2.2.3" "2.2.4" "2.3.0" "2.4.0" "2.4.1"
-        "2.4.2" "2.4.3" "2.5.0" "2.5.1" "2.5.2" {
+        "2.4.2" "2.4.3" "2.5.0" "2.5.1" "2.5.2" "2.5.3" {
   auto-version {
     github-release = "sigstore/cosign"
   }
@@ -142,4 +142,7 @@ sha256sums = {
   "https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-amd64": "bcfeae05557a9f313ee4392d2f335d0ff69ebbfd232019e3736fb04999fe1734",
   "https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-darwin-amd64": "0681abe20a482f4b9b3ed65b3debb8c6346591f2dc484b6bfa79609ff1318de4",
   "https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-darwin-arm64": "51fdc6d8da8310d72df10065a52247b6bebfe990d4c946dd9f71e17588256011",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-darwin-amd64": "172731b1c2575dd76069a87d4d17312fd027fe0947e45e4a9ba9b915877e0ed0",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-amd64": "783b5d6c74105401c63946c68d9b2a4e1aab3c8abce043e06b8510b02b623ec9",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-darwin-arm64": "86e0cad94d0da4c0dab5e26672ede71447a08a0f0d8495b9381c117df27d7d09",
 }

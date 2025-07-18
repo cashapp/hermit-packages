@@ -19,16 +19,15 @@ on "unpack" {
   }
 }
 
-version "1.6.3" "1.6.4" "1.7.0"
-        "1.7.1" "1.7.2" "1.7.3" "1.7.4-nightly.125f34b" "1.8.0" "1.8.1" "1.8.2" "1.8.3"
-        "1.8.4-nightly.bd1d0c6" "1.8.4-nightly.7aaf0ce"
+version "1.6.3" "1.6.4" "1.7.0" "1.7.1" "1.7.2" "1.7.3" "1.7.4-nightly.125f34b"
+        "1.8.0" "1.8.1" "1.8.2" "1.8.3" "1.8.4-nightly.bd1d0c6" "1.8.4-nightly.7aaf0ce"
         "1.9.0" "1.9.1-nightly.12688b6" "1.9.1" "1.9.2" "1.9.3-nightly.75b4387" "1.9.3"
         "1.9.4" "1.9.5-nightly.92879ae" "1.9.5-nightly.4713c52" "1.9.5-nightly.ff02a0b"
         "1.9.5-nightly.c0cccb2" "1.9.5-nightly.81fdedb" {
   source = "https://github.com/biomejs/biome/releases/download/cli%2Fv${version}/biome-${os}-${arch_}"
 }
 
-version "2.0.4" "2.0.5" "2.0.6" "2.1.0" "2.1.1" {
+version "2.0.4" "2.0.5" "2.0.6" "2.1.0" "2.1.1" "2.1.2" {
   auto-version {
     github-release = "biomejs/biome"
     version-pattern = "^@biomejs/biome@(.*)"
@@ -159,4 +158,8 @@ sha256sums = {
   "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.1.1/biome-linux-x64": "15e771e423fd92922de94f03645f018173d3aca43b16eb48295f152fd2e9a301",
   "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.1.1/biome-darwin-arm64": "c3f15797cbe1189823e91f5b7d7d55665bee924f468779ce5267ed9c591f5375",
   "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.1.1/biome-darwin-x64": "b845e7023c23f3309f2064dea0dda73905b5553ca0824d08ae4d59a39c5d9d24",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.1.2/biome-darwin-x64": "6c61a0cbe1079fdf4c9e4632640ef02a43367107850ac995c4ebc69bf5ca69cb",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.1.2/biome-darwin-arm64": "e514794b0b541b75453c2b00a2f9fe0e3c10f34df4e6c448abdbb344314e6f69",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.1.2/biome-linux-x64": "8faa379a2350f3324a866b9a0f183125eeef9f7dffd87d41498c2fbcc8fe4cad",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.1.2/biome-linux-arm64": "7852c4b007543e613bae565eccb1e17d529c26c573f00d6a014ce691386512de",
 }
