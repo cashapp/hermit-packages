@@ -12,6 +12,9 @@ on "unpack" {
 }
 
 version "0.6.0" {
+  auto-version {
+    github-release = "google/wire"
+  }
 }
 
 sha256sums = {

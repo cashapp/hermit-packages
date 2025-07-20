@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.2.0" "0.3.0" {
+version "0.2.0" "0.3.0" "0.35.0" {
   auto-version {
     html {
       url = "https://github.com/cashapp/hermit-build/releases/tag/go-tools"
@@ -28,4 +28,8 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.3.0-darwin-arm64.bz2": "4f0325890a2ea82f1d037fe693b442f1e1bca0e3b2bba0f733e15bd36113ce60",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.2.0-linux-arm64.bz2": "516f54513246ab1e49848f91f161073deb8794796b0229e37176b2c6d0262385",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.3.0-linux-arm64.bz2": "fc13d4e4098d0604c84ac24df05f9d5e83a7ffbafac4657ba26105e14f06e884",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.35.0-darwin-arm64.bz2": "277bb5649c7fb0051954f8da2175e35a1c5db5bca0e129fea85aa0018370196b",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.35.0-linux-amd64.bz2": "a0e683ffc2100b61cf13e4fa163a7d401bc53b490715eaf80aa5b364c3f309c3",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.35.0-darwin-amd64.bz2": "0fd9aba9b5053d396aec38e3e72533d43757a88015f09e2bbbc6650d2eceb570",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/goimports-v0.35.0-linux-arm64.bz2": "0e8313bf8561a7dd1105f03b63b772a58a04760608070b52918af9036bdd9ebc",
 }
