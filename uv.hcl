@@ -3,6 +3,10 @@ binaries = ["*"]
 homepage = "https://astral.sh/"
 strip = 1
 
+env = {
+  "PYTHONUSERBASE": "${HERMIT_ENV}/.hermit/python",
+}
+
 platform "darwin" {
   source = "https://github.com/astral-sh/uv/releases/download/${version}/uv-${xarch}-apple-darwin.tar.gz"
   sha256-source = "https://github.com/astral-sh/uv/releases/download/${version}/uv-${xarch}-apple-darwin.tar.gz.sha256"
@@ -35,10 +39,6 @@ version "0.1.1" "0.1.3" "0.1.4" "0.1.5" "0.1.6" "0.1.8" "0.1.10" "0.1.11" "0.1.1
   auto-version {
     github-release = "astral-sh/uv"
   }
-}
-
-env = {
-  "PYTHONUSERBASE": "${HERMIT_ENV}/.hermit/python",
 }
 
 sha256sums = {
