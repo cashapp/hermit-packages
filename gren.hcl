@@ -23,7 +23,7 @@ on "unpack" {
 }
 
 version "0.2.1" "0.3.0" "0.4.0" "0.4.3" "0.4.4" "0.4.5" "0.5.0" "blob-0.5.2"
-        "blob-0.5.3" {
+        "blob-0.5.3" "blob-0.6.0" {
   auto-version {
     github-release = "gren-lang/compiler"
   }
@@ -48,4 +48,6 @@ sha256sums = {
   "https://github.com/gren-lang/compiler/releases/download/blob-0.5.2/gren_mac": "edabd4c2004d17dc7cd5f2c7176d44b1d5b5a2962a7f4bfc85b34b7acc63b509",
   "https://github.com/gren-lang/compiler/releases/download/blob-0.5.3/gren_linux": "8ec510090a4729272cf9026a6f28e8b579f1181c6f4c5b5d5deb33183f432af2",
   "https://github.com/gren-lang/compiler/releases/download/blob-0.5.3/gren_mac": "1789a5fab5a4b30c0987e9e565380b99b3c1a6bba3a5b2947a2835a4825d4121",
+  "https://github.com/gren-lang/compiler/releases/download/blob-0.6.0/gren_linux": "7560d04e97d2c1e30c535d95ca831e17e6532ab62bb8266e5f0331fde16c30d9",
+  "https://github.com/gren-lang/compiler/releases/download/blob-0.6.0/gren_mac": "06e729daa33a8dfc7790fe34d33f985693d21c7434795e1db110c2b4d135beab",
 }
