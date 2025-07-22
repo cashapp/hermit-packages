@@ -1,6 +1,6 @@
 description = "jsonschema – The CLI for working with JSON Schema"
 homepage = "https://github.com/sourcemeta/jsonschema"
-binaries = ["bin/jsonschema"]
+binaries = ["jsonschema"]
 test = "jsonschema --version"
 source = "https://github.com/sourcemeta/jsonschema/releases/download/v${version}/jsonschema-${version}-${os}-${arch_}.zip"
 vars = {
