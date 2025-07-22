@@ -2,6 +2,9 @@ description = "An extremely fast Python package installer and resolver, written 
 binaries = ["*"]
 homepage = "https://astral.sh/"
 strip = 1
+env = {
+  "PYTHONUSERBASE": "${HERMIT_ENV}/.hermit/python",
+}
 
 platform "darwin" {
   source = "https://github.com/astral-sh/uv/releases/download/${version}/uv-${xarch}-apple-darwin.tar.gz"
