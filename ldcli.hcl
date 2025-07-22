@@ -1,7 +1,7 @@
 description = "The LaunchDarkly CLI helps you manage your feature flags from your terminal or your IDE"
 test = "ldcli --help"
 sha256-source = "https://github.com/launchdarkly/ldcli/releases/download/v${version}/ldcli_${version}_checksums.txt"
-source = "https://github.com/thnxdev/ldcli/releases/download/v${version}/ldcli_${version}_${os}_${arch}.tar.gz"
+source = "https://github.com/launchdarkly/ldcli/releases/download/v${version}/ldcli_${version}_${os}_${arch}.tar.gz"
 binaries = ["ldcli"]
 
 version "1.16.0" {
