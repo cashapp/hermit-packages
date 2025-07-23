@@ -3,6 +3,10 @@ binaries = ["*"]
 homepage = "https://astral.sh/"
 strip = 1
 
+env = {
+  "PYTHONUSERBASE": "${HERMIT_ENV}/.hermit/python",
+}
+
 platform "darwin" {
   source = "https://github.com/astral-sh/uv/releases/download/${version}/uv-${xarch}-apple-darwin.tar.gz"
   sha256-source = "https://github.com/astral-sh/uv/releases/download/${version}/uv-${xarch}-apple-darwin.tar.gz.sha256"
