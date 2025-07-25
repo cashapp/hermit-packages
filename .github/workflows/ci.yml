@@ -28,4 +28,7 @@ jobs:
           ~/bin/hermit validate "file://$PWD"
           ~/bin/hermit init --sources="file://$PWD" ./testenv
           . ./testenv/bin/activate-hermit
-          for pkg in $(git diff --name-only $(git merge-base origin/master HEAD) | fgrep .hcl | cut -d. -f1 | xargs -I{} -n1 hermit search -s '^{}$' | grep -v '@'); do echo $pkg; hermit test -t $pkg; hermit clean -tp; done
+          for pkg in $(git diff --name-only $(git merge-base origin/master HEAD) | fgrep .hcl | cut -d. -f1); do
+            hermit test -t "$pkg"
+            hermit clean -tp
+          done
