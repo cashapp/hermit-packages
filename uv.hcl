@@ -2,7 +2,6 @@ description = "An extremely fast Python package installer and resolver, written 
 binaries = ["*"]
 homepage = "https://astral.sh/"
 strip = 1
-
 env = {
   "PYTHONUSERBASE": "${HERMIT_ENV}/.hermit/python",
 }
@@ -35,7 +34,7 @@ version "0.1.1" "0.1.3" "0.1.4" "0.1.5" "0.1.6" "0.1.8" "0.1.10" "0.1.11" "0.1.1
         "0.6.9" "0.6.10" "0.6.11" "0.6.12" "0.6.13" "0.6.14" "0.6.15" "0.6.16" "0.6.17"
         "0.7.0" "0.7.2" "0.7.3" "0.7.4" "0.7.5" "0.7.6" "0.7.7" "0.7.8" "0.7.9" "0.7.10"
         "0.7.11" "0.7.12" "0.7.13" "0.7.14" "0.7.15" "0.7.16" "0.7.17" "0.7.18" "0.7.19"
-        "0.7.20" "0.7.21" "0.8.0" "0.8.2" {
+        "0.7.20" "0.7.21" "0.8.0" "0.8.2" "0.8.3" {
   auto-version {
     github-release = "astral-sh/uv"
   }
@@ -727,4 +726,8 @@ sha256sums = {
   "https://github.com/astral-sh/uv/releases/download/0.8.2/uv-aarch64-unknown-linux-gnu.tar.gz": "27da35ef54e9131c2e305de67dd59a07c19257882c6b1f3cf4d8d5fbb8eaf4ca",
   "https://github.com/astral-sh/uv/releases/download/0.8.2/uv-x86_64-unknown-linux-gnu.tar.gz": "6dcb28a541868a455aefb2e8d4a1283dd6bf888605a2db710f0530cec888b0ad",
   "https://github.com/astral-sh/uv/releases/download/0.8.2/uv-aarch64-apple-darwin.tar.gz": "954d24634d5f37fa26c7af75eb79893d11623fc81b4de4b82d60d1ade4bfca22",
+  "https://github.com/astral-sh/uv/releases/download/0.8.3/uv-x86_64-unknown-linux-gnu.tar.gz": "427c27ed5f87bf91aa045cf459ea34d348ed6377c62c3c054f1b4046b2f83fe2",
+  "https://github.com/astral-sh/uv/releases/download/0.8.3/uv-aarch64-apple-darwin.tar.gz": "9ebfe9f3b51187932ef97270b689da48261acacadd6ea7018d2cc62719c86ffe",
+  "https://github.com/astral-sh/uv/releases/download/0.8.3/uv-x86_64-apple-darwin.tar.gz": "77eac9622f76ad89a8c59b31a96277aa61eb290d2949c69ab2061076471aeda2",
+  "https://github.com/astral-sh/uv/releases/download/0.8.3/uv-aarch64-unknown-linux-gnu.tar.gz": "e82b5a3eb19e5087a6ea92800b0402f60378bd395e3483acd0b46124128ab71f",
 }
