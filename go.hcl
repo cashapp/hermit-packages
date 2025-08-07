@@ -108,7 +108,7 @@ version "1.22.0" "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.12"
 }
 
 version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
-        "1.23.8" "1.23.9" "1.23.10" "1.23.11" {
+        "1.23.8" "1.23.9" "1.23.10" "1.23.11" "1.23.12" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -122,7 +122,7 @@ version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
 }
 
 // All other versions
-version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" {
+version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -549,4 +549,12 @@ sha256sums = {
   "https://golang.org/dl/go1.24.5.linux-amd64.tar.gz": "10ad9e86233e74c0f6590fe5426895de6bf388964210eac34a6d83f38918ecdc",
   "https://golang.org/dl/go1.24.5.darwin-arm64.tar.gz": "92d30a678f306c327c544758f2d2fa5515aa60abe9dba4ca35fbf9b8bfc53212",
   "https://golang.org/dl/go1.24.5.darwin-amd64.tar.gz": "2fe5f3866b8fbcd20625d531f81019e574376b8a840b0a096d8a2180308b1672",
+  "https://golang.org/dl/go1.23.12.darwin-amd64.tar.gz": "0f6efdc3ffc6f03b230016acca0aef43c229de022d0ff401e7aa4ad4862eca8e",
+  "https://golang.org/dl/go1.23.12.darwin-arm64.tar.gz": "5bfa117e401ae64e7ffb960243c448b535fe007e682a13ff6c7371f4a6f0ccaa",
+  "https://golang.org/dl/go1.23.12.linux-amd64.tar.gz": "d3847fef834e9db11bf64e3fb34db9c04db14e068eeb064f49af747010454f90",
+  "https://golang.org/dl/go1.23.12.linux-arm64.tar.gz": "52ce172f96e21da53b1ae9079808560d49b02ac86cecfa457217597f9bc28ab3",
+  "https://golang.org/dl/go1.24.6.darwin-arm64.tar.gz": "4e29202c49573b953be7cc3500e1f8d9e66ddd12faa8cf0939a4951411e09a2a",
+  "https://golang.org/dl/go1.24.6.linux-arm64.tar.gz": "124ea6033a8bf98aa9fbab53e58d134905262d45a022af3a90b73320f3c3afd5",
+  "https://golang.org/dl/go1.24.6.linux-amd64.tar.gz": "bbca37cc395c974ffa4893ee35819ad23ebb27426df87af92e93a9ec66ef8712",
+  "https://golang.org/dl/go1.24.6.darwin-amd64.tar.gz": "4a8d7a32052f223e71faab424a69430455b27b3fff5f4e651f9d97c3e51a8746",
 }
