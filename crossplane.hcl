@@ -12,7 +12,7 @@ on "unpack" {
 }
 
 version "1.14.5" "1.15.0" "1.14.6" "1.15.1" "1.15.2" "1.16.0" "1.17.0" "1.17.1"
-        "1.17.2" "1.18.0" "1.18.1" "1.18.2" "1.19.0" "1.19.1" "1.20.0" {
+        "1.17.2" "1.18.0" "1.18.1" "1.18.2" "1.19.0" "1.19.1" "1.20.0" "1.20.1" {
   auto-version {
     github-release = "crossplane/crossplane"
   }
@@ -79,4 +79,8 @@ sha256sums = {
   "https://releases.crossplane.io/stable/v1.20.0/bin/linux_amd64/crank": "b99f504e3f6513889da2b7ea818ce8446d3d1ee71fd7a17ddfe297b3f0e372e3",
   "https://releases.crossplane.io/stable/v1.20.0/bin/linux_arm64/crank": "543ba691802191f21ed3bd37675ac122418100a5ce3cca400caf7910c375635d",
   "https://releases.crossplane.io/stable/v1.20.0/bin/darwin_arm64/crank": "8ea4ee891e3f76db262c10964dfe539026975af47511f1c1ac92cb812072ee4d",
+  "https://releases.crossplane.io/stable/v1.20.1/bin/darwin_arm64/crank": "87dafc67bc387957c93780e48b3f6c4d73438f36a51bee6cb0ebf014239b66ab",
+  "https://releases.crossplane.io/stable/v1.20.1/bin/linux_amd64/crank": "38c50193b2e97692de494a6fd98467183a3bf764a908761fc30ad4a7db37b016",
+  "https://releases.crossplane.io/stable/v1.20.1/bin/darwin_amd64/crank": "c6e0dd92855dc2fca110a74832538b2c9f55a88107a68fd71f9c3a9b4d050a2c",
+  "https://releases.crossplane.io/stable/v1.20.1/bin/linux_arm64/crank": "6916b0546284b1b5f33864330569aa796dd6af62bfd88397246d03452b7501dd",
 }
