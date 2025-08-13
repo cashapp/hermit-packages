@@ -7,13 +7,14 @@ on "unpack" {
     from = "${root}/bazelisk-${os}-${arch}"
     to = "${root}/bazelisk"
   }
+
   symlink {
     from = "${root}/bazelisk"
     to = "${root}/bazel"
   }
 }
 
-version "1.24.0" "1.24.1" "1.25.0" "1.26.0" {
+version "1.24.0" "1.24.1" "1.25.0" "1.26.0" "1.27.0" {
   auto-version {
     github-release = "bazelbuild/bazelisk"
   }
@@ -36,4 +37,8 @@ sha256sums = {
   "https://github.com/bazelbuild/bazelisk/releases/download/v1.26.0/bazelisk-darwin-arm64": "d1ca9911cc19e1f17483f93956908334f2b7f3dd13f20853417b68fc3c3eb370",
   "https://github.com/bazelbuild/bazelisk/releases/download/v1.26.0/bazelisk-linux-amd64": "6539c12842ad76966f3d493e8f80d67caa84ec4a000e220d5459833c967c12bc",
   "https://github.com/bazelbuild/bazelisk/releases/download/v1.26.0/bazelisk-linux-arm64": "54f85ef4c23393f835252cc882e5fea596e8ef3c4c2056b059f8067cd19f0351",
+  "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-linux-amd64": "e1508323f347ad1465a887bc5d2bfb91cffc232d11e8e997b623227c6b32fb76",
+  "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-darwin-amd64": "8fcd7ba828f673ba4b1529425e01e15ac42599ef566c17f320d8cbfe7b96a167",
+  "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-darwin-arm64": "8bf08c894ccc19ef37f286e58184c3942c58cb08da955e990522703526ddb720",
+  "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-linux-arm64": "bb608519a440d45d10304eb684a73a2b6bb7699c5b0e5434361661b25f113a5d",
 }
