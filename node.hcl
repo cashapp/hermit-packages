@@ -106,7 +106,7 @@ version "21.0.0" "21.1.0" "21.2.0" "21.3.0" "21.4.0" "21.5.0" "21.6.0" "21.6.1"
 
 version "22.0.0" "22.1.0" "22.2.0" "22.3.0" "22.4.0" "22.4.1" "22.5.0" "22.5.1"
         "22.6.0" "22.7.0" "22.8.0" "22.9.0" "22.10.0" "22.11.0" "22.12.0" "22.13.0" "22.13.1"
-        "22.14.0" "22.15.0" "22.15.1" "22.16.0" "22.17.0" "22.17.1" "22.18.0" {
+        "22.14.0" "22.15.0" "22.15.1" "22.16.0" "22.17.0" "22.17.1" "22.18.0" "22.19.0" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -820,4 +820,8 @@ sha256sums = {
   "https://nodejs.org/dist/v22.18.0/node-v22.18.0-linux-x64.tar.gz": "a2e703725d8683be86bb5da967bf8272f4518bdaf10f21389e2b2c9eaeae8c8a",
   "https://nodejs.org/dist/v22.18.0/node-v22.18.0-darwin-x64.tar.gz": "9c8aa1e5ff5780b38cc1134e2263d84e2f4308eb84c02515e3af33936ca02cdc",
   "https://nodejs.org/dist/v22.18.0/node-v22.18.0-linux-arm64.tar.gz": "d415eeea90a2fdb60c66dd386b258acbfc4d1fa4720a8df5dea7369fbdbcddee",
+  "https://nodejs.org/dist/v22.19.0/node-v22.19.0-linux-x64.tar.gz": "d36e56998220085782c0ca965f9d51b7726335aed2f5fc7321c6c0ad233aa96d",
+  "https://nodejs.org/dist/v22.19.0/node-v22.19.0-darwin-x64.tar.gz": "3cfed4795cd97277559763c5f56e711852d2cc2420bda1cea30c8aa9ac77ce0c",
+  "https://nodejs.org/dist/v22.19.0/node-v22.19.0-darwin-arm64.tar.gz": "c59006db713c770d6ec63ae16cb3edc11f49ee093b5c415d667bb4f436c6526d",
+  "https://nodejs.org/dist/v22.19.0/node-v22.19.0-linux-arm64.tar.gz": "d32817b937219b8f131a28546035183d79e7fd17a86e38ccb8772901a7cd9009",
 }
