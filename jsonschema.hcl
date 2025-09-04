@@ -14,7 +14,7 @@ platform "amd64" {
 }
 
 version "10.0.0" "9.6.1" "11.0.0" "11.0.2" "11.1.0" "11.1.1" "11.2.0" "11.3.0"
-        "11.4.0" "11.5.0" "11.5.1" "11.6.0" {
+        "11.4.0" "11.5.0" "11.5.1" "11.6.0" "11.7.0" {
   auto-version {
     github-release = "sourcemeta/jsonschema"
   }
@@ -69,4 +69,8 @@ sha256sums = {
   "https://github.com/sourcemeta/jsonschema/releases/download/v11.6.0/jsonschema-11.6.0-darwin-arm64.zip": "1c464431bf3f45ddb331b1bb0187d6cddf5facb56227d01ef994810e2abf148f",
   "https://github.com/sourcemeta/jsonschema/releases/download/v11.6.0/jsonschema-11.6.0-linux-arm64.zip": "d9d30c7f249d7023ffa5cdc58cc22cc6fa54aeacb59df11a12b706e40712316c",
   "https://github.com/sourcemeta/jsonschema/releases/download/v11.6.0/jsonschema-11.6.0-linux-x86_64.zip": "bac013a718ef3ddd0396bc4febdd146967a227cc6053ca9198cb0369a260cce2",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v11.7.0/jsonschema-11.7.0-linux-arm64.zip": "2adfb7d7748e99e7b7e910b36d0842142ad22ffd4955276bae0dfaee9d102a03",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v11.7.0/jsonschema-11.7.0-linux-x86_64.zip": "fea7e410499fc7a7af219df588fac61ca65a7ce3f7af5c1c12fe311171c994ea",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v11.7.0/jsonschema-11.7.0-darwin-x86_64.zip": "e509ccce08c8a0a668a05b8ce6f5c7577020f53fd9afe9104a3ea431f7260aee",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v11.7.0/jsonschema-11.7.0-darwin-arm64.zip": "f303f79e009f71f3a086c3ef3be3c40470cf1d21278c250292121ef1c30f6e23",
 }
