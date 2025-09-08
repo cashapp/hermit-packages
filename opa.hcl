@@ -31,7 +31,7 @@ version "0.38.1" "0.43.0" "0.44.0" "0.45.0" "0.46.1" "0.47.0" "0.47.3" "0.47.4"
         "0.53.0" "0.53.1" "0.54.0" "0.55.0" "0.56.0" "0.57.0" "0.57.1" "0.58.0" "0.59.0"
         "0.60.0" "0.61.0" "0.62.0" "0.62.1" "0.63.0" "0.64.1" "0.65.0" "0.66.0" "0.67.0"
         "0.67.1" "0.68.0" "0.69.0" "0.70.0" "1.0.0" "1.0.1" "1.1.0" "1.2.0" "1.3.0" "1.4.0"
-        "1.4.2" "1.5.0" "1.5.1" {
+        "1.4.2" "1.5.0" "1.5.1" "1.8.0" {
   source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_${os}_${arch}${suffix}"
 
   on "unpack" {
@@ -260,4 +260,8 @@ sha256sums = {
   "https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_linux_amd64_static": "dcc6dff710524f394a71ec7d8e93353ea1c04426e12be37f814f5b47c9c947cb",
   "https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_darwin_amd64": "60176684cddd9f30099b40c2e6d40a7131e3d25ae8d78970536c15aafeff5c97",
   "https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_linux_arm64_static": "d2ee9a5653a875f1b956eda86a5dd77988a241ff0521b9b9a28bb7ce7ef0aa89",
+  "https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_linux_amd64_static": "1359b1bff233fc0a290066e864c75b8158e52756319757b6854df467fe7fc146",
+  "https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_darwin_amd64": "7690c21fbcd2ed99606b5423002597a5c147330c8b276a020ac7aff263768248",
+  "https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_darwin_arm64_static": "43033787fb29f6cb4c90dd7afb552883ac9d1bf2a652f9d4b694ecf73738fd7e",
+  "https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_linux_arm64_static": "bfa757971d62cbd5c35322dff2b837a2ef03ee587af34e999e03fdd903d586e4",
 }

@@ -12,7 +12,7 @@ on "unpack" {
 
 version "0.20.0" "0.21.0" "0.22.0" "0.22.1" "0.23.0" "0.23.1" "0.24.0" "0.25.0"
         "0.26.0" "0.27.1" "0.28.0" "0.28.1" "0.28.2" "0.28.3" "0.28.4" "0.29.0" "0.30.0"
-        "0.30.1" "0.30.2" "0.31.0" "0.31.1" "0.31.2" "0.31.3" "0.32.0" "0.33.0" {
+        "0.30.1" "0.30.2" "0.31.0" "0.31.1" "0.31.2" "0.31.3" "0.32.0" "0.33.0" "0.34.1" {
   auto-version {
     github-release = "grafana/tanka"
   }
@@ -69,4 +69,6 @@ sha256sums = {
   "https://github.com/grafana/tanka/releases/download/v0.32.0/tk-linux-amd64": "4d54e8be608f4a224d6cafab84488bb4f048abd8227e9ac5390017364a9e81fe",
   "https://github.com/grafana/tanka/releases/download/v0.33.0/tk-linux-amd64": "5147ed8fcf6176bc01b424411d1019f938cc5c555fb9150608079836af31c0b9",
   "https://github.com/grafana/tanka/releases/download/v0.33.0/tk-darwin-amd64": "9fe4029bcaf483a058b10a263526f9406a7086269d0a45dcfdfbb73cb2da87f2",
+  "https://github.com/grafana/tanka/releases/download/v0.34.1/tk-darwin-amd64": "cd6e70c8c9680747d3acb17bba54473581df8f8c2ca6bf166cee95caae1fa0f4",
+  "https://github.com/grafana/tanka/releases/download/v0.34.1/tk-linux-amd64": "dd4bdf619b4e1fc61172c390b12f6a7503d9e936b957d69c8bcebbf7285e299c",
 }
