@@ -16,7 +16,7 @@ platform "darwin" {
   }
 }
 
-version "0.3.6" "0.3.7" "0.4.0" {
+version "0.3.6" "0.3.7" "0.4.0" "0.5.0" {
   auto-version {
     github-release = "groq/kustomize-lint"
   }
@@ -32,4 +32,7 @@ sha256sums = {
   "https://github.com/groq/kustomize-lint/releases/download/v0.4.0/kustomize-lint_0.4.0_linux_amd64.tar.gz": "926dd634682f3595d0fb0d4da2bd3f31a767833f15bb64ed22310f323d859324",
   "https://github.com/groq/kustomize-lint/releases/download/v0.4.0/kustomize-lint_0.4.0_darwin_all.tar.gz": "f62ee7980e28aa5d1dd67dc16f1c1ecfe8949eb3c790a3ac03f8246839969f19",
   "https://github.com/groq/kustomize-lint/releases/download/v0.4.0/kustomize-lint_0.4.0_linux_arm64.tar.gz": "7cb5c1de6bdf144ea82d08fc58c805b045d3d002189c23e186e6f358e565b3a3",
+  "https://github.com/groq/kustomize-lint/releases/download/v0.5.0/kustomize-lint_0.5.0_linux_amd64.tar.gz": "c7dc8861611b919c0b069fd21c225b467da8fb7fc11b5c371db2d91eb80c0788",
+  "https://github.com/groq/kustomize-lint/releases/download/v0.5.0/kustomize-lint_0.5.0_darwin_all.tar.gz": "a58f1eba3b5291b7d2572e6fc2822e9a464363efae871cb5b633f8388aabba6b",
+  "https://github.com/groq/kustomize-lint/releases/download/v0.5.0/kustomize-lint_0.5.0_linux_arm64.tar.gz": "fd5503b9554284403f905b8214a0e6e05353274aa8102748785f2986e97225d3",
 }
