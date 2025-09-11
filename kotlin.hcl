@@ -6,7 +6,7 @@ binaries = ["bin/kapt", "bin/kotlin", "bin/kotlinc-js", "bin/kotlinc-jvm"]
 strip = 1
 test = "kotlinc-jvm -version"
 
-version "2.1.0" "2.1.10" "2.1.20" "2.1.21" "2.2.0" "2.2.10" {
+version "2.1.0" "2.1.10" "2.1.20" "2.1.21" "2.2.0" "2.2.10" "2.2.20" {
   auto-version {
     github-release = "JetBrains/kotlin"
   }
@@ -57,4 +57,5 @@ sha256sums = {
   "https://github.com/JetBrains/kotlin/releases/download/v2.1.21/kotlin-compiler-2.1.21.zip": "1ba08a8b45da99339a0601134cc037b54cf85e9bc0edbe76dcbd27c2d684a977",
   "https://github.com/JetBrains/kotlin/releases/download/v2.2.0/kotlin-compiler-2.2.0.zip": "1adb6f1a5845ba0aa5a59e412e44c8e405236b957de1a9683619f1dca3b16932",
   "https://github.com/JetBrains/kotlin/releases/download/v2.2.10/kotlin-compiler-2.2.10.zip": "302d1d8e671e5c3207e6ed62ff11fb555462a628e22a1158254dcaaf7e7394bc",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.2.20/kotlin-compiler-2.2.20.zip": "81f0264c9073b5cbbdb3ff8418cf2c5dac076879fc156fa1a6462f5a5acc4420",
 }

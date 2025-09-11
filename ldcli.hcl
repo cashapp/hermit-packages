@@ -4,7 +4,7 @@ sha256-source = "https://github.com/launchdarkly/ldcli/releases/download/v${vers
 source = "https://github.com/launchdarkly/ldcli/releases/download/v${version}/ldcli_${version}_${os}_${arch}.tar.gz"
 binaries = ["ldcli"]
 
-version "1.16.0" "1.16.1" "1.16.2" "1.16.3" {
+version "1.16.0" "1.16.1" "1.16.2" "1.16.3" "1.16.4" {
   auto-version {
     github-release = "launchdarkly/ldcli"
   }
@@ -27,4 +27,8 @@ sha256sums = {
   "https://github.com/launchdarkly/ldcli/releases/download/v1.16.3/ldcli_1.16.3_darwin_amd64.tar.gz": "cca3c64598abdc8eee92a9ced661b7bed762949ab0e0de9355a0bca9137d4bd1",
   "https://github.com/launchdarkly/ldcli/releases/download/v1.16.3/ldcli_1.16.3_darwin_arm64.tar.gz": "83599372c86c8e780f89302d3ebc5e1051c4061192f2c295f527396c87eaf0f3",
   "https://github.com/launchdarkly/ldcli/releases/download/v1.16.3/ldcli_1.16.3_linux_arm64.tar.gz": "6cc29e7410215461b5ae91a0b86d98b6371dbde0e24707d10857fe7df254ea35",
+  "https://github.com/launchdarkly/ldcli/releases/download/v1.16.4/ldcli_1.16.4_linux_amd64.tar.gz": "0bb2e32dedd6833a1f8d3bb4ee0d5e8c8faa79b2b0a368e04c70108076b91737",
+  "https://github.com/launchdarkly/ldcli/releases/download/v1.16.4/ldcli_1.16.4_darwin_arm64.tar.gz": "2fc7a28cd149f0cc68551b10f7ae8bd0fe83af6abae426580c8d80d74608eac7",
+  "https://github.com/launchdarkly/ldcli/releases/download/v1.16.4/ldcli_1.16.4_darwin_amd64.tar.gz": "26349d41224b8b195fded9c2e04c117f75aec433c51319b40597b767d638d591",
+  "https://github.com/launchdarkly/ldcli/releases/download/v1.16.4/ldcli_1.16.4_linux_arm64.tar.gz": "973a11c3b72518bbfdb774a6ce56a2d7d89c84a5f51bad726289559f6ba1c58a",
 }
