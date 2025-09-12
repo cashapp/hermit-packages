@@ -3,7 +3,7 @@ test = "gotestsum --version"
 binaries = ["gotestsum"]
 
 version "1.7.0" "1.8.0" "1.8.1" "1.8.2" "1.9.0" "1.10.0" "1.10.1" "1.11.0" "1.12.0"
-        "1.12.1" "1.12.2" "1.12.3" {
+        "1.12.1" "1.12.2" "1.12.3" "1.13.0" {
   source = "https://github.com/gotestyourself/gotestsum/releases/download/v${version}/gotestsum_${version}_${os}_${arch}.tar.gz"
 
   auto-version {
@@ -60,4 +60,8 @@ sha256sums = {
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.3/gotestsum_1.12.3_darwin_arm64.tar.gz": "a2cdc441a1355c8cfe35f4deaa0d6c8b73a9530f8c8d02e2c00fe4fae7aa5c45",
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.3/gotestsum_1.12.3_linux_arm64.tar.gz": "b698b00e63b3c7d5add9587af360fd44ad83551fc1d9a0dde332bc11014683c4",
   "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.3/gotestsum_1.12.3_darwin_amd64.tar.gz": "8407af41db2ab450dbf64671e1d5cf59a0a7e2ae5880b7dea465d70ee5f72cc6",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.13.0/gotestsum_1.13.0_linux_amd64.tar.gz": "11ccddeaf708ef228889f9fe2f68291a75b27013ddfc3b18156e094f5f40e8ee",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.13.0/gotestsum_1.13.0_linux_arm64.tar.gz": "7644a4c5cd1bb978d56245aeab25a586ac5ac62adebed20a399548867c13499d",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.13.0/gotestsum_1.13.0_darwin_arm64.tar.gz": "509cb27aef747f48faf9bce424f59dcf79572c905204b990ee935bbfcc7fa0e9",
+  "https://github.com/gotestyourself/gotestsum/releases/download/v1.13.0/gotestsum_1.13.0_darwin_amd64.tar.gz": "99529350f4c7b780b1efc543ca0d9721b09f0a4228f0efa9281261f58fefa05a",
 }
