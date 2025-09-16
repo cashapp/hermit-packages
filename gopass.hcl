@@ -4,7 +4,7 @@ binaries = ["gopass"]
 source = "https://github.com/gopasspw/gopass/releases/download/v${version}/gopass-${version}-${os}-${arch}.tar.gz"
 sha256-source = "https://github.com/gopasspw/gopass/releases/download/v${version}/gopass_${version}_SHA256SUMS"
 
-version "1.15.15" "1.15.16" {
+version "1.15.15" "1.15.16" "1.15.17" {
   auto-version {
     github-release = "gopasspw/gopass"
   }
@@ -19,4 +19,8 @@ sha256sums = {
   "https://github.com/gopasspw/gopass/releases/download/v1.15.16/gopass-1.15.16-darwin-amd64.tar.gz": "d827f1876b4fe8ce9acb74939e6628cc7e5e621db10bef286ad44c324a7d06fb",
   "https://github.com/gopasspw/gopass/releases/download/v1.15.16/gopass-1.15.16-darwin-arm64.tar.gz": "d9b18e23969d0508f671ead56ab647e03ee868fd643ff20326d2ebb9966d9000",
   "https://github.com/gopasspw/gopass/releases/download/v1.15.16/gopass-1.15.16-linux-arm64.tar.gz": "55969408d8ba71e059e02264e459dba65a3419b4f5768062505139756fc1c061",
+  "https://github.com/gopasspw/gopass/releases/download/v1.15.17/gopass-1.15.17-linux-amd64.tar.gz": "eb1f1738167ee42c942d44be20b24a50ca457b6ee22fbca8ded8ed347a9aa870",
+  "https://github.com/gopasspw/gopass/releases/download/v1.15.17/gopass-1.15.17-darwin-amd64.tar.gz": "fe9f5500df1e3a56d96bce8130d307b1dc6381ca7aad78537d6ca32dde7f35dc",
+  "https://github.com/gopasspw/gopass/releases/download/v1.15.17/gopass-1.15.17-darwin-arm64.tar.gz": "d83ee39c3344ec3441748fc5d91949f9bed5f97d14ecb2bf94e5de37079f27ff",
+  "https://github.com/gopasspw/gopass/releases/download/v1.15.17/gopass-1.15.17-linux-arm64.tar.gz": "bffda4028a96ae6668b890115ff1f7bbc38a0c4f8c08c60c82024f6d47270d4b",
 }

@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "0.6.0" {
+version "0.6.0" "0.7.0" {
   auto-version {
     github-release = "google/wire"
   }
@@ -22,4 +22,8 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/wire-v0.6.0-darwin-amd64.bz2": "55e752d14e597b7b4439264c8c4eceb528e7db7ebaa588854b2d1f81809408dc",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/wire-v0.6.0-darwin-arm64.bz2": "4fabc8b4e9bf8fa305656e615665a4468c0950ed727fdb5541c940ac988fdab9",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/wire-v0.6.0-linux-arm64.bz2": "33d751bee0343c9c95da446f89b7fdef10b60c6905a8407d35a69f2a67a00cbc",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/wire-v0.7.0-linux-arm64.bz2": "54b133072d5a7a5245b470b9505eb55ead7a47012351f32f9efe61e37e274522",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/wire-v0.7.0-linux-amd64.bz2": "5e2df17bcd4a22351ad35cd1aaca73bce91079877e4386c66e969c3e8d085730",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/wire-v0.7.0-darwin-amd64.bz2": "0e1a16c346aafd738713863c53244cae06dc3f634b6271846ff804aa802075c5",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/wire-v0.7.0-darwin-arm64.bz2": "894d9084e8a4b8bd550ed102d9a5f4ff6df35cba95f8bd88ea5aff017564e1c4",
 }

@@ -8,7 +8,7 @@ version "0.17.5" "0.18.0" "0.18.1" "0.18.2" "0.18.4" "0.18.5" "0.19.0" "0.19.1"
         "0.19.2" "0.19.3" "0.19.4" "0.19.5" "0.20.1" "0.20.2" "0.20.5" "0.21.0" "0.22.0"
         "0.23.0" "0.23.1" "0.24.0" "0.24.1" "0.24.2" "0.24.3" "0.24.4" "0.24.5" "0.25.0"
         "0.26.0" "0.26.1" "0.26.2" "0.26.3" "0.27.0" "0.27.1" "0.27.2" "0.27.3" "0.28.0"
-        "0.29.0" "0.30.0" "0.31.0" "0.32.1" {
+        "0.29.0" "0.30.0" "0.31.0" "0.32.1" "0.32.2" {
   auto-version {
     github-release = "bitnami-labs/sealed-secrets"
     version-pattern = "^v(.*)"
@@ -173,4 +173,8 @@ sha256sums = {
   "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.32.1/kubeseal-0.32.1-darwin-arm64.tar.gz": "8a0a28b3859595a7b38a93195e7bfdb31d6b14519c910d18ca670ac489f676fc",
   "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.32.1/kubeseal-0.32.1-linux-arm64.tar.gz": "ff137dbb8bbf69afcd331c0f552b2b2a9945077865e0a0c77966ea0483c78ce5",
   "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.32.1/kubeseal-0.32.1-linux-amd64.tar.gz": "1bc2a530d96e06af33bc27630e6eac72ff5f56a948958bfefa1d4380b5ce886a",
+  "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.32.2/kubeseal-0.32.2-darwin-amd64.tar.gz": "c14d0e07de5da9fe3aa30fae4682d792f18a5c21015ed5f02289266c074f2f7f",
+  "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.32.2/kubeseal-0.32.2-linux-amd64.tar.gz": "e2949865cac9a8bf14ea43a39a1c3c5695b4870c1b453ef80ce05eeac23a4f59",
+  "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.32.2/kubeseal-0.32.2-linux-arm64.tar.gz": "7c165dd0ddcae5c659f9949b811a20567bab2385fecdc95c6e7e9610a39b9d02",
+  "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.32.2/kubeseal-0.32.2-darwin-arm64.tar.gz": "9b77a55c4052e3dddaab71f11839827517966cf4ae730fb87f8dfff7198f527d",
 }
