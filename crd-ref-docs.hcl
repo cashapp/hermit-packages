@@ -2,6 +2,7 @@ description = "Generates Kubernetes CRD API reference documentation"
 homepage = "https://github.com/elastic/crd-ref-docs"
 source = "https://github.com/elastic/crd-ref-docs/releases/download/v${version}/crd-ref-docs_${version}_${_os}_${_arch}.tar.gz"
 binaries = ["crd-ref-docs"]
+test = "crd-ref-docs --version"
 
 platform "linux" "amd64" {
   vars = {
