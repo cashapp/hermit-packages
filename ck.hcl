@@ -27,7 +27,7 @@ platform "windows" {
 
 source = "https://github.com/BeaconBay/ck/releases/download/${version}/ck-${version}-${xarch}-${platform}.${ext}"
 
-version "0.4.5" "0.4.6" {
+version "0.4.5" "0.4.6" "0.4.7" {
   auto-version {
     github-release = "BeaconBay/ck"
   }
@@ -40,4 +40,7 @@ sha256sums = {
   "https://github.com/BeaconBay/ck/releases/download/0.4.6/ck-0.4.6-x86_64-unknown-linux-gnu.tar.gz": "5fc4a5ef01a16f5e39db530d7c07c45af537c8608f041f4938677a9703c818b1",
   "https://github.com/BeaconBay/ck/releases/download/0.4.6/ck-0.4.6-x86_64-apple-darwin.tar.gz": "2244185ddf3b550bd600879c04e83edf8efe57789a09f74042528869c24a6edc",
   "https://github.com/BeaconBay/ck/releases/download/0.4.6/ck-0.4.6-aarch64-apple-darwin.tar.gz": "fae87c159b1cf0318e7caffe510c7c86a84b72865971cee948be528c76a626b9",
+  "https://github.com/BeaconBay/ck/releases/download/0.4.7/ck-0.4.7-x86_64-unknown-linux-gnu.tar.gz": "f929ebd9532fd0a4ab34f017408d0bfa829218616f27f079a3deb676d493b6a2",
+  "https://github.com/BeaconBay/ck/releases/download/0.4.7/ck-0.4.7-x86_64-apple-darwin.tar.gz": "9e1379413660c3d8d1a1f2c85039cc9da672cf7f0e38ff7c5c09a7aace722fbd",
+  "https://github.com/BeaconBay/ck/releases/download/0.4.7/ck-0.4.7-aarch64-apple-darwin.tar.gz": "bb1415a81631d0cbafd5148657717a08e5da19ada6829750665999dc9fd88dfc",
 }
