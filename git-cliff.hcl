@@ -38,7 +38,7 @@ platform "windows" {
 version "0.9.2" "0.9.1" "0.9.0" "0.8.1" "0.7.0" "0.6.1" "0.6.0" "0.5.0" "0.4.2" "0.4.1"
         "0.4.0" "1.1.2" "1.2.0" "1.3.0" "1.3.1" "1.4.0" "2.0.2" "2.0.3" "2.0.4" "2.1.2" "2.2.0"
         "2.2.1" "2.2.2" "2.3.0" "2.4.0" "2.5.0" "2.6.0" "2.6.1" "2.7.0" "2.8.0" "2.9.0" "2.9.1"
-        "2.10.0" {
+        "2.10.0" "2.10.1" {
   auto-version {
     github-release = "orhun/git-cliff"
   }
@@ -111,4 +111,6 @@ sha256sums = {
   "https://github.com/orhun/git-cliff/releases/download/v2.9.1/git-cliff-2.9.1-x86_64-unknown-linux-gnu.tar.gz": "532a89577230128d7df74d912843d561aea2660e280ebd0ed92f24c972438f1c",
   "https://github.com/orhun/git-cliff/releases/download/v2.10.0/git-cliff-2.10.0-x86_64-apple-darwin.tar.gz": "bc03321d61383241003c6bc983f3010c88eedad4b2807c35a3f2f314e34e831b",
   "https://github.com/orhun/git-cliff/releases/download/v2.10.0/git-cliff-2.10.0-x86_64-unknown-linux-gnu.tar.gz": "26b33340c253c567e40a79a5cfab176d682dc3bfdb40136c7ba2d7321796c8b3",
+  "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-apple-darwin.tar.gz": "c3111dddaf866a986085f22ff22fa3003645fc69a3b9302c4e1352c4676c398a",
+  "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-unknown-linux-gnu.tar.gz": "6abe8a3e112b266dd00abf9089a8052ddf7314f39e1c53e192edf0652abca4eb",
 }
