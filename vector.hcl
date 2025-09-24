@@ -33,7 +33,7 @@ on "unpack" {
   }
 }
 
-version "0.47.0" "0.46.1" "0.48.0" "0.49.0" {
+version "0.47.0" "0.46.1" "0.48.0" "0.49.0" "0.50.0" {
   auto-version {
     github-release = "vectordotdev/vector"
   }
@@ -56,4 +56,8 @@ sha256sums = {
   "https://github.com/vectordotdev/vector/releases/download/v0.49.0/vector-0.49.0-x86_64-apple-darwin.tar.gz": "ab8f5be475648fe14e17c392525dca596ab35fd927e92c058970b1ea635f57ee",
   "https://github.com/vectordotdev/vector/releases/download/v0.49.0/vector-0.49.0-arm64-apple-darwin.tar.gz": "07a5122d0c82dd5961750338c4f10f53bcbc3744e11904a5026511647028032d",
   "https://github.com/vectordotdev/vector/releases/download/v0.49.0/vector-0.49.0-aarch64-unknown-linux-gnu.tar.gz": "efb48cc6220231591da9154fa99573588acf488a127ce0e65621be336c9385d8",
+  "https://github.com/vectordotdev/vector/releases/download/v0.50.0/vector-0.50.0-arm64-apple-darwin.tar.gz": "16f2b428368f4a160db4b8bf319210a6d950b5cda8bbc02ce859c9fbfc6ca9f0",
+  "https://github.com/vectordotdev/vector/releases/download/v0.50.0/vector-0.50.0-x86_64-unknown-linux-gnu.tar.gz": "951ceb14f2382c1438696552745221c5584d6895f9aa2b0e12ff0e30271d4b0e",
+  "https://github.com/vectordotdev/vector/releases/download/v0.50.0/vector-0.50.0-x86_64-apple-darwin.tar.gz": "14b7525b9fda86856e24ac9f52035852ae4168511709080d8081ad9f01f3dec4",
+  "https://github.com/vectordotdev/vector/releases/download/v0.50.0/vector-0.50.0-aarch64-unknown-linux-gnu.tar.gz": "ed73245a88638962093b9b5eb92ba3e17681a7b641e26eac674d07b137a605b8",
 }
