@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "2.1.3" "2.1.4" "2.1.5" "2.1.6" "2.1.7" "2.1.8" "2.1.9" "2.2.0" {
+version "2.1.3" "2.1.4" "2.1.5" "2.1.6" "2.1.7" "2.1.8" "2.1.9" "2.2.0" "2.2.1" {
   auto-version {
     github-release = "estesp/manifest-tool"
   }
@@ -26,4 +26,5 @@ sha256sums = {
   "https://github.com/estesp/manifest-tool/releases/download/v2.1.8/binaries-manifest-tool-2.1.8.tar.gz": "a3c6906c71d1eb29f013516094ca07cea6d60e0a5acc71ba6b8299d5740bcd23",
   "https://github.com/estesp/manifest-tool/releases/download/v2.1.9/binaries-manifest-tool-2.1.9.tar.gz": "f891ad4dd4f75736959aad95c4a601404d0dae003c394c023c1fdeb2cf46ed92",
   "https://github.com/estesp/manifest-tool/releases/download/v2.2.0/binaries-manifest-tool-2.2.0.tar.gz": "64600fe0cb9cd26fe50a63e4ad53f39f36b60384ce8426ec3990a5ebd9f8267f",
+  "https://github.com/estesp/manifest-tool/releases/download/v2.2.1/binaries-manifest-tool-2.2.1.tar.gz": "4e26a0fff398f376dcecbcf83955c4cc3a0be2c7396faa5eefd9464df249231a",
 }
