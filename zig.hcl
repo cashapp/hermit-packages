@@ -21,11 +21,27 @@ version "0.7.1" {
 
 version "0.8.0" "0.8.1" "0.9.0" "0.9.1" "0.10.0" "0.10.1" "0.11.0" "0.12.0" "0.13.0"
         "0.14.0" {
+  // # Older versions use different URL format
+  linux {
+    source = "https://ziglang.org/download/${version}/zig-linux-${xarch}-${version}.tar.xz"
+  }
+
+  darwin {
+    source = "https://ziglang.org/download/${version}/zig-macos-${xarch}-${version}.tar.xz"
+  }
+}
+
+version "0.15.1" "0.14.1" {
   auto-version {
-    html {
-      url = "https://ziglang.org/download/"
-      xpath = "//h2[contains(@id, \".\")]/text()"
-    }
+    github-release = "ziglang/zig"
+  }
+
+  linux {
+    source = "https://ziglang.org/download/${version}/zig-${xarch}-linux-${version}.tar.xz"
+  }
+
+  darwin {
+    source = "https://ziglang.org/download/${version}/zig-${xarch}-macos-${version}.tar.xz"
   }
 }
 
@@ -73,4 +89,12 @@ sha256sums = {
   "https://ziglang.org/download/0.14.0/zig-linux-x86_64-0.14.0.tar.xz": "473ec26806133cf4d1918caf1a410f8403a13d979726a9045b421b685031a982",
   "https://ziglang.org/download/0.14.0/zig-linux-aarch64-0.14.0.tar.xz": "ab64e3ea277f6fc5f3d723dcd95d9ce1ab282c8ed0f431b4de880d30df891e4f",
   "https://ziglang.org/download/0.14.0/zig-macos-aarch64-0.14.0.tar.xz": "b71e4b7c4b4be9953657877f7f9e6f7ee89114c716da7c070f4a238220e95d7e",
+  "https://ziglang.org/download/0.14.1/zig-x86_64-linux-0.14.1.tar.xz": "24aeeec8af16c381934a6cd7d95c807a8cb2cf7df9fa40d359aa884195c4716c",
+  "https://ziglang.org/download/0.14.1/zig-aarch64-linux-0.14.1.tar.xz": "f7a654acc967864f7a050ddacfaa778c7504a0eca8d2b678839c21eea47c992b",
+  "https://ziglang.org/download/0.14.1/zig-x86_64-macos-0.14.1.tar.xz": "b0f8bdfb9035783db58dd6c19d7dea89892acc3814421853e5752fe4573e5f43",
+  "https://ziglang.org/download/0.14.1/zig-aarch64-macos-0.14.1.tar.xz": "39f3dc5e79c22088ce878edc821dedb4ca5a1cd9f5ef915e9b3cc3053e8faefa",
+  "https://ziglang.org/download/0.15.1/zig-x86_64-macos-0.15.1.tar.xz": "9919392e0287cccc106dfbcbb46c7c1c3fa05d919567bb58d7eb16bca4116184",
+  "https://ziglang.org/download/0.15.1/zig-x86_64-linux-0.15.1.tar.xz": "c61c5da6edeea14ca51ecd5e4520c6f4189ef5250383db33d01848293bfafe05",
+  "https://ziglang.org/download/0.15.1/zig-aarch64-linux-0.15.1.tar.xz": "bb4a8d2ad735e7fba764c497ddf4243cb129fece4148da3222a7046d3f1f19fe",
+  "https://ziglang.org/download/0.15.1/zig-aarch64-macos-0.15.1.tar.xz": "c4bd624d901c1268f2deb9d8eb2d86a2f8b97bafa3f118025344242da2c54d7b",
 }
