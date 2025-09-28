@@ -1,8 +1,9 @@
 description = "Dockerfile linter, validate inline bash, written in Haskell"
 binaries = ["hadolint"]
-source = "https://github.com/hadolint/hadolint/releases/download/v${version}/hadolint-${os}-${arch_}"
+source = "https://github.com/hadolint/hadolint/releases/download/v${version}/hadolint-${os_}-${arch_}"
 vars = {
   "arch_": "${arch}",
+  "os_": "${os}",
 }
 
 platform "amd64" {
@@ -11,20 +12,28 @@ platform "amd64" {
   }
 }
 
-platform "arm64" {
-  vars = {
-    "arch_": "x86_64",
-  }
-}
-
 on "unpack" {
   rename {
-    from = "${root}/hadolint-${os}-${arch_}"
+    from = "${root}/hadolint-${os_}-${arch_}"
     to = "${root}/hadolint"
   }
 }
 
 version "2.7.0" "2.8.0" "2.9.1" "2.9.2" "2.9.3" "2.10.0" "2.12.0" {
+  platform "arm64" {
+    vars = {
+      "arch_": "x86_64",
+    }
+  }
+}
+
+version "2.13.1" "2.14.0" {
+  platform "darwin" {
+    vars = {
+      "os_": "macos",
+    }
+  }
+
   auto-version {
     github-release = "hadolint/hadolint"
   }
@@ -45,4 +54,12 @@ sha256sums = {
   "https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-linux-x86_64": "8ee6ff537341681f9e91bae2d5da451b15c575691e33980893732d866d3cefc4",
   "https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-linux-x86_64": "56de6d5e5ec427e17b74fa48d51271c7fc0d61244bf5c90e828aab8362d55010",
   "https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-darwin-x86_64": "2a5b7afcab91645c39a7cebefcd835b865f7488e69be24567f433dfc3d41cd27",
+  "https://github.com/hadolint/hadolint/releases/download/v2.13.1/hadolint-linux-x86_64": "f8b05e4c724cdeb84c0dca07e40936c3d875c0af5d120a27c94026a0f370b2cf",
+  "https://github.com/hadolint/hadolint/releases/download/v2.13.1/hadolint-macos-arm64": "0a3eb44bb5e496184dbea71be142a9be8d70c11b48302ae851e6274ef09ae407",
+  "https://github.com/hadolint/hadolint/releases/download/v2.13.1/hadolint-macos-x86_64": "d39de79513b8be68bd807664f1fc9fe328d95977eba996e2d7bda2bfeeae753a",
+  "https://github.com/hadolint/hadolint/releases/download/v2.13.1/hadolint-linux-arm64": "ca77a6010454826ab90335095add1b9b84f2d72d44581b6c2dbe08cec46b0165",
+  "https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-linux-x86_64": "6bf226944684f56c84dd014e8b979d27425c0148f61b3bd99bcc6f39e9dc5a47",
+  "https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-linux-arm64": "331f1d3511b84a4f1e3d18d52fec284723e4019552f4f47b19322a53ce9a40ed",
+  "https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-macos-x86_64": "2b69a853433f1eca522ffb921cd490bd1321424d03331fd8390f93b7fb4a02e9",
+  "https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-macos-arm64": "3625e2e9f43dcfe7bd38738a5f5520ed50ce39ed28485266e6803dd7bc197b10",
 }
