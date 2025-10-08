@@ -33,7 +33,7 @@ version "2021.33.2" "2022.03" "2022.04" "2022.05" "2022.06" "2022.07" "2022.09"
 
 version "2025.21" "2025.22" "2025.23" "2025.24" "2025.25" "2025.26" "2025.27"
         "2025.28" "2025.29" "2025.30" "2025.31" "2025.32" "2025.33" "2025.34" "2025.35"
-        "2025.36" "2025.37" "2025.38" "2025.39" "2025.40" {
+        "2025.36" "2025.37" "2025.38" "2025.39" "2025.40" "2025.41" {
   auto-version {
     github-release = "vlang/v"
     version-pattern = "weekly\\.(.*)"
@@ -259,4 +259,7 @@ sha256sums = {
   "https://github.com/vlang/v/releases/download/weekly.2025.40/v_macos_x86_64.zip": "fda24cc0a30616f6682d42425fe89088e131fad0b57c07ae2e72e3bed7911b2b",
   "https://github.com/vlang/v/releases/download/weekly.2025.40/v_macos_arm64.zip": "481f92bb55fd3b01a0ac1e66a31f29733344b1711154defd5f40e5f4e003e781",
   "https://github.com/vlang/v/releases/download/weekly.2025.40/v_linux.zip": "759de5c21b7bdbae32389213a142453b4a26340e32b7ba8dfbe11713a6648d1f",
+  "https://github.com/vlang/v/releases/download/weekly.2025.41/v_macos_arm64.zip": "b0297999d313ddad5af495a30fce15990f2da4d11970822303a3e376d9037d63",
+  "https://github.com/vlang/v/releases/download/weekly.2025.41/v_linux.zip": "dcda911cbc05d26ff255343b60a89c1fb0d08cc1d663bd06f41c434b0224bf6f",
+  "https://github.com/vlang/v/releases/download/weekly.2025.41/v_macos_x86_64.zip": "229ce76e5c8b8ec68980c72a09c50c534052de7b2bc008625c80ae0bb4b2d969",
 }
