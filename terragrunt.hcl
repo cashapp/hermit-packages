@@ -51,7 +51,7 @@ version "0.28.20" "0.29.5" "0.31.0" "0.31.1" "0.31.2" "0.31.3" "0.31.4" "0.31.5"
         "0.81.6" "0.81.7" "0.81.8" "0.81.10" "0.82.0" "0.82.2" "0.82.3" "0.82.4" "0.83.0"
         "0.83.1" "0.83.2" "0.84.0" "0.84.1" "0.85.0" "0.85.1" "0.86.0" "0.86.1" "0.86.2"
         "0.87.0" "0.87.1" "0.87.2" "0.87.3" "0.87.4" "0.87.5" "0.87.6" "0.87.7" "0.88.0"
-        "0.88.1" "0.89.0" "0.89.2" {
+        "0.88.1" "0.89.0" "0.89.2" "0.89.3" {
   auto-version {
     github-release = "gruntwork-io/terragrunt"
   }
@@ -1502,4 +1502,8 @@ sha256sums = {
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.89.2/terragrunt_darwin_amd64": "60073040e0a701846538cca5923edab2f2adc0b8116163186f96ac237d47aee0",
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.89.2/terragrunt_linux_arm64": "48ec0e6d48dd246813730338e344fb9bc46525530068d658879a508e23abf357",
   "https://github.com/gruntwork-io/terragrunt/releases/download/v0.89.2/terragrunt_darwin_arm64": "a455d4398006860730563f8bf4ca127f9fe04ba2890bf7330580f72fc04ae0cd",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.89.3/terragrunt_darwin_arm64": "6f9efaa11e22a7b07882321f34582dc5a130062e79e8e5a850168c9e8d0eb9ad",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.89.3/terragrunt_linux_amd64": "738c3094442d72ca4bd0cf0eaef097f2f4c0bfd0e6f742597318257c3e95fef0",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.89.3/terragrunt_darwin_amd64": "f47880d75609c66cf413945c58042d4229d6bf582784d6189bb526555f08bd3d",
+  "https://github.com/gruntwork-io/terragrunt/releases/download/v0.89.3/terragrunt_linux_arm64": "d3b7d6cd91a32e06d628c2aea2bd6f1fd9e8f378cddd7b6ccecca083685b0db1",
 }
