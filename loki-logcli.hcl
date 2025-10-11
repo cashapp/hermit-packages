@@ -12,7 +12,7 @@ on "unpack" {
 
 version "2.4.2" "2.7.3" "2.7.4" "2.7.5" "2.8.0" "2.8.2" "2.8.3" "2.8.4" "2.9.0" "2.9.1"
         "2.9.2" "2.9.3" "2.9.4" "2.9.5" "2.9.6" "3.0.0" "3.1.0" "3.1.1" "3.2.0" "3.2.1" "3.3.0"
-        "3.3.2" "3.4.1" "3.4.2" "3.4.3" "3.5.0" "3.5.1" "3.5.2" "3.5.3" "3.5.4" "3.5.5" {
+        "3.3.2" "3.4.1" "3.4.2" "3.4.3" "3.5.0" "3.5.1" "3.5.2" "3.5.3" "3.5.4" "3.5.5" "3.5.6" {
   auto-version {
     github-release = "grafana/loki"
   }
@@ -143,4 +143,8 @@ sha256sums = {
   "https://github.com/grafana/loki/releases/download/v3.5.5/logcli-linux-amd64.zip": "397df8d17633de6f6e931d62d3e6d5504428b006fe0a9cd499fe31a44127b106",
   "https://github.com/grafana/loki/releases/download/v3.5.5/logcli-darwin-arm64.zip": "617ffc83e3749744cd3fb0b19c645d38649fc461776d8076a25c99ca2d3b2af1",
   "https://github.com/grafana/loki/releases/download/v3.5.5/logcli-darwin-amd64.zip": "7d3431391572f2341a3c51077cd99ca3f43549f501991dadfc5128f870f6e6d1",
+  "https://github.com/grafana/loki/releases/download/v3.5.6/logcli-darwin-arm64.zip": "ebb9680bdcdcddd6d8659b1a61f077e34ceb16f8e43c03ffbf7dc762f16e9ccb",
+  "https://github.com/grafana/loki/releases/download/v3.5.6/logcli-darwin-amd64.zip": "86bf3d611a2523e3ef08c657d52af1baca7ec7f4be658f6274443703a4e9e880",
+  "https://github.com/grafana/loki/releases/download/v3.5.6/logcli-linux-amd64.zip": "59d86a6ef47ac9ff9b8afe52235d4fb646157498e46cace1d176630bf132be73",
+  "https://github.com/grafana/loki/releases/download/v3.5.6/logcli-linux-arm64.zip": "255f0a8ea69361c18e24478a254ea029d8775242ae36e31e80d6b60d786f966f",
 }
