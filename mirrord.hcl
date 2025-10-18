@@ -20,7 +20,7 @@ on "unpack" {
 }
 
 version "3.156.0" "3.157.0" "3.157.1" "3.157.2" "3.158.0" "3.159.0" "3.159.1"
-        "3.161.0" "3.162.0" "3.163.0" "3.164.0" "3.165.0" "3.166.0" {
+        "3.161.0" "3.162.0" "3.163.0" "3.164.0" "3.165.0" "3.166.0" "3.167.0" {
   auto-version {
     github-release = "metalbear-co/mirrord"
   }
@@ -66,4 +66,7 @@ sha256sums = {
   "https://github.com/metalbear-co/mirrord/releases/download/3.166.0/mirrord_linux_x86_64": "db7f6fada8666efc00e1fa542a8000aefa51b8f56480119413bea95c31d0343a",
   "https://github.com/metalbear-co/mirrord/releases/download/3.166.0/mirrord_linux_aarch64": "52c87a81d77b2c9683675676a07491bd904de18f3a2f43cc2918a87bd655806b",
   "https://github.com/metalbear-co/mirrord/releases/download/3.166.0/mirrord_mac_universal.zip": "fb987260924886a4ab13ddd590d376dadb529e2c02fc9cfbaac0b3c57062b724",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.167.0/mirrord_linux_x86_64": "eafefdded5183f5b07aff9152571a16931d400b4de03b3c4d1db4a2191737847",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.167.0/mirrord_mac_universal.zip": "4719d2c30c4571d785f20908ce410c7fab365eec9439fd10c007035deaffa98c",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.167.0/mirrord_linux_aarch64": "b19d891b719ff689060033e127a3cf787858dfd36e5b721c03405730bdcd98cd",
 }

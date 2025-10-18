@@ -20,7 +20,7 @@ version "1.2.0" "1.2.1" "1.2.2" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.5.0" 
         "1.6.0" "1.6.1" "1.6.2" "1.7.0" "1.7.2" "1.7.3" "1.8.0" "1.8.1" "1.8.2" "1.9.0" "1.9.1"
         "1.9.2" "1.10.0" "1.10.1" "1.11.0" "1.11.1" "1.11.2" "1.12.0" "1.12.1" "1.12.2"
         "1.13.0" "1.13.1" "1.13.2" "1.13.3" "1.14.0" "1.15.0" "1.15.1" "1.16.0" "1.16.1"
-        "1.16.2" "1.16.3" "1.17.0" "1.17.1" "1.18.0" {
+        "1.16.2" "1.16.3" "1.17.0" "1.17.1" "1.18.0" "1.18.1" {
   auto-version {
     github-release = "crystal-lang/crystal"
   }
@@ -123,4 +123,6 @@ sha256sums = {
   "https://github.com/crystal-lang/crystal/releases/download/1.17.1/crystal-1.17.1-1-linux-x86_64.tar.gz": "0348317f19e924c954e14f2a0ddf2341b66dc207316b69197192fdb73abd581e",
   "https://github.com/crystal-lang/crystal/releases/download/1.18.0/crystal-1.18.0-1-linux-x86_64.tar.gz": "799863dc1ac04d09e48747709c8dd6b5de53aa581814f8be784d36bef0bed97a",
   "https://github.com/crystal-lang/crystal/releases/download/1.18.0/crystal-1.18.0-1-darwin-universal.tar.gz": "caba2d21dc6f7310ac8e358e1faa22ea61fe7a76b832d6146eec2c69d689c529",
+  "https://github.com/crystal-lang/crystal/releases/download/1.18.1/crystal-1.18.1-1-darwin-universal.tar.gz": "b200173ccdcefbb174bcccebaf7f083c38da4b0c8a17c56f522cea54348634b4",
+  "https://github.com/crystal-lang/crystal/releases/download/1.18.1/crystal-1.18.1-1-linux-x86_64.tar.gz": "ae9e585371731836fc6780cd99c695947da1e089facfb50dadb41e392f8811f7",
 }
