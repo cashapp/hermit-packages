@@ -4,7 +4,6 @@ homepage = "https://astral.sh/"
 strip = 1
 env = {
   "PYTHONUSERBASE": "${HERMIT_ENV}/.hermit/python",
-  "VIRTUAL_ENV": "${HERMIT_ENV}/.hermit/python",
 }
 
 platform "darwin" {
