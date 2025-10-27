@@ -2,9 +2,7 @@ description = "Beads is a lightweight memory management system for AI coding age
 binaries = ["bd"]
 test = "bd version"
 
-platform "darwin" "arm64" {
-  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
-}
+source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
 
 version "0.17.7" {
   auto-version {
