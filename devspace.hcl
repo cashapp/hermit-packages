@@ -11,7 +11,8 @@ on "unpack" {
 }
 
 version "5.18.5" "6.0.1" "6.1.1" "6.2.5" "6.3.2" "6.3.3" "6.3.4" "6.3.5" "6.3.6"
-        "6.3.7" "6.3.8" "6.3.9" "6.3.10" "6.3.11" "6.3.12" {
+        "6.3.7" "6.3.8" "6.3.9" "6.3.10" "6.3.11" "6.3.12" "6.3.13" "6.3.14" "6.3.15" "6.3.16"
+        "6.3.17" "6.3.18" {
   source = "https://github.com/devspace-sh/devspace/releases/download/v${version}/devspace-${os}-${arch}"
 
   auto-version {
@@ -65,4 +66,43 @@ sha256sums = {
   "https://github.com/devspace-sh/devspace/releases/download/v6.3.12/devspace-darwin-arm64": "0d983e4ef91687d25fd372f1434b1f85d2e50f3e3aba4ffc92bfdcb167ed132f",
   "https://github.com/devspace-sh/devspace/releases/download/v6.3.12/devspace-darwin-amd64": "b6c4f551d500dcb316783d9ceceb088c68889f466796faf29705c6a32c8adfcc",
   "https://github.com/devspace-sh/devspace/releases/download/v6.3.12/devspace-linux-amd64": "163b4159cb0ef1c832c74b8da5ed6adb834ccffc87e57cb7fc8ffc4fb4912c62",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.13/devspace-linux-amd64": "2d680fa3e39ec51a998631b929424d3b1dd64dcab5d01a54584690897b912684",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.13/devspace-darwin-arm64": "e9174ddf9b1451908ad0c4c1c93e055b3d1cd452fbf0265567c77445b41ad5bf",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.13/devspace-darwin-amd64": "e8cd86ed812ba3670e842de144e7f8765783028e142bd050e25db5fe77f40647",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.14/devspace-darwin-arm64": "f857f0ecc444f7ec9dc1902a5dad5d27a136e0a33874104b31a3544ffc71cc8e",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.14/devspace-linux-amd64": "c4fa5764c9fbe1fea7eb1a793a047816faf930b363882b140b0033343fbc09c8",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.14/devspace-darwin-amd64": "f4d23918d27ca367b8a41ea4040ec7acafa4b6684eb0806780cd0e95917807c7",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.2/devspace-linux-arm64": "c801b5455ed57c71ec631b8299ed953054cadb7ffdb07f6a72ae7a5f9aea60ab",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.3/devspace-linux-arm64": "8263d2819cf8b48a6328cbcf7c24d0b8460cf8dfe1e2fb749b7221629137d722",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.4/devspace-linux-arm64": "3ceb9afc954d71d06eb5adddd63a8cd67caa906d469b68adec8618262628e956",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.5/devspace-linux-arm64": "2ddd739fdb6545dcc18200bed3e0baa2152315abb7fb8029994ba175a9c609c4",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.7/devspace-linux-arm64": "d07d4ff570cc6dfb67e7dfdcd76d7851374b3fdcc0e6131e9566f6532203cd0b",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.8/devspace-linux-arm64": "2b0016b3fb46e6e8e90594ddd636eeec8ef28fc9d416bd87b5066d9492099f37",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.9/devspace-linux-arm64": "1b8d7295f0faf6f9a13e8971116f8a674520120cdc7b10cd50ca27021d09f58c",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.10/devspace-linux-arm64": "0d8b970b23d4195be102134accd1ae255dde3c6830638db654782ab103dc26c4",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.11/devspace-linux-arm64": "4e90a14e2b5051f6b4d585a04c9f468ce75c4aed769f188ac7cfc3cac308d861",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.12/devspace-linux-arm64": "0c01a97d84d5a8aab193a13adf23184cfa33a2315860c10540e74822b148ab1d",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.14/devspace-linux-arm64": "3e4496a380daf16379a4e2b171bedc036e6462fca10fbb752e56cea5b3ff77bb",
+  "https://github.com/devspace-sh/devspace/releases/download/v5.18.5/devspace-linux-arm64": "4026b52a0ea657ec4e8435d46a88688df284763c4f36b2bd20d60a123e18f010",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.0.1/devspace-linux-arm64": "bc7dec7ee699a65602ae90e616a8fe490b7fea39f5c22a69b96f3b80fbcd96af",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.1.1/devspace-linux-arm64": "a82e2646b30c41988118c81de5ca91dea2a14aa4e3e3bc551198fa6da79ff830",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.2.5/devspace-linux-arm64": "7e2c476efa1eadf8df6ad1cb4b86ff2a795a63972d0a90234b44302b7ae6163c",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.6/devspace-linux-arm64": "aad912bb8067b454957b285abfc3aecff26141d1b959f905abfb3ca2c5463989",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.13/devspace-linux-arm64": "30ad3bec167f4d85991c31b375958dd4ef9ac2c891c8bdc2c9a9dfaff4dafe93",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.15/devspace-darwin-amd64": "1cd77917cc261529dfbac55a42d5149d8a41a311e59dc23d413b1e017df60f6a",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.15/devspace-linux-amd64": "853031cc199a1b1dc5a766a43011a71d95385ef5ba12b1d3cd70ca79b86e1f1f",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.15/devspace-linux-arm64": "923f345145d3582d2e8e6e85900eb9562c7a630883b32040dfc8e23e2a5f41e9",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.15/devspace-darwin-arm64": "6f22332b3325280f846a724d7c717b2ee9f56bcc053896279f3a389d17c1a555",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.16/devspace-linux-amd64": "346e1c23dcaff1795b75eec92d85dc7e2c4a879fd4961526d208d50c92daaa11",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.16/devspace-linux-arm64": "e4e831f8237cd66469728d212e4bf688a9d36b676dc46473693db3f317328557",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.16/devspace-darwin-amd64": "bf73420aea83105bd476c820c064ca6e675f92c3c862e21f0c81e3bf1df7b70b",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.16/devspace-darwin-arm64": "7cb0f278c5d2fa6c6ffa79e5aab3180313fee24d5331287eeac087407695e1fe",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.17/devspace-linux-amd64": "86e812fa7a62e1afe940d564afb8ce06aeb3a9dc165389c0f8bd3fa6aee86d3b",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.17/devspace-linux-arm64": "12dbd48bb857ff177de75ea3c57b94c66204713de4c9b4c33feca3ab04eb36db",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.17/devspace-darwin-amd64": "8b86b4348a4e70597941434cdb06537777331e714b3da709450080ca89a4aef4",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.17/devspace-darwin-arm64": "472f23b5f64bd3a0717c89c71ecafd3b674235bc1667fcf9b5b919233b9e38a9",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.18/devspace-darwin-arm64": "0ede8d8b3025d14356bca07670b513eb6bf60d09054fbf70c889c47071e8ed07",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.18/devspace-darwin-amd64": "c4c8cd9218227d8a4175f286f45166be0c9ad3fa7c7f19afaced30433e0cbf65",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.18/devspace-linux-amd64": "f36a08b8aad2500d26d23ceb2079df514a83799c12a143bfc08a0295c84feac7",
+  "https://github.com/devspace-sh/devspace/releases/download/v6.3.18/devspace-linux-arm64": "8566a649b3171338e3e2d3557db96c406f68403a5eea5470d36335a54d6c7412",
 }

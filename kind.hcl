@@ -12,7 +12,8 @@ on "unpack" {
 }
 
 version "0.11.1" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" "0.18.0"
-        "0.19.0" "0.20.0" "0.21.0" "0.22.0" {
+        "0.19.0" "0.20.0" "0.21.0" "0.22.0" "0.23.0" "0.24.0" "0.25.0" "0.26.0" "0.27.0"
+        "0.28.0" "0.29.0" "0.30.0" {
   auto-version {
     github-release = "kubernetes-sigs/kind"
   }
@@ -60,4 +61,48 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-linux-amd64": "e4264d7ee07ca642fe52818d7c0ed188b193c214889dd055c929dbcb968d1f62",
   "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-darwin-arm64": "c8dd3b287965150ae4db668294edc48229116e95d94620c306d8fae932ee633f",
   "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-darwin-amd64": "28a9f7ad7fd77922c639e21c034d0f989b33402693f4f842099cd9185b144d20",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-darwin-arm64": "68ec87c1e1ea2a708df883f4b94091150d19552d7b344e80ca59f449b301c2a0",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-linux-amd64": "1d86e3069ffbe3da9f1a918618aecbc778e00c75f838882d0dfa2d363bc4a68c",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-darwin-amd64": "81c77f104b4b668812f7930659dc01ad88fa4d1cfc56900863eacdfb2731c457",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-darwin-amd64": "6cf7ba50b37d3446153bbfb8990f03fb8102778898c84502cdb841710b499ed5",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-linux-amd64": "b89aada5a39d620da3fcd16435b7f28d858927dd53f92cbac77686b0588b600d",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-darwin-arm64": "8e34f2edc7efc5c7c160487251848a954cd60ccd52b56a3fc360eaab33543fc0",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-amd64": "180404ae1c0de8d333583d2958cdfac5338ec3e32cd765a158cfd6d09eb8cd7d",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-arm64": "222701bb72ff596928c57b3c64ca3e0b969d593ef24ccc790f9c17904e7b63ea",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-amd64": "b22ff7e5c02b8011e82cc3223d069d178b9e1543f1deb21e936d11764780a3d8",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-amd64": "a2c30525db86a7807ad4bba0094437406518f41d8a2882e6ea659d94099adcc4",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-arm64": "e5bf92d8d46017e23482bfe266929d4d82e6f8c754e216c105cb7fbea937bea2",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-amd64": "d445b44c28297bc23fd67e51cc24bb294ae7b977712be2d4d312883d0835829b",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-amd64": "a6875aaea358acf0ac07786b1a6755d08fd640f4c79b7a2e46681cc13f49a04b",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-arm64": "5240ca1acb587e1d0386532dd8c3373d81f5173b5af322919fc56f0cdd646596",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-amd64": "3435134325b6b9406ccfec417b13bb46a808fc74e9a2ebb0ca31b379c8293863",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.11.1/kind-linux-arm64": "320c992ada56292ec5e12b0b85f5dfc60045a6ffcdfaf6ad3f5a554e40ef0235",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.12.0/kind-linux-arm64": "26c16a8ec90e2a3a42f2f8e1c7139b69769ce1011e7a314cb4ae86345e6363bd",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.14.0/kind-linux-arm64": "95c9601f21fdb2c286442339d5e370149b4fe2fc7c49f615647e4e27bdfb17e2",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.15.0/kind-linux-arm64": "ef5d60cc030f113b926d7caf323a43d804e62b3f20e546b59cf615e2571c4868",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.16.0/kind-linux-arm64": "d40e33e9bc4b14796029aaa1e5773511dfb48b728d34f8676c52e0e8c2ceaf88",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.17.0/kind-linux-arm64": "24ae8c7ef46c3c1ec7167a8c210979233b42dacd2426f1e86fc89021632333e6",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.19.0/kind-linux-arm64": "1326f87d766e6108c4e140238b55a588721ea612c3ab2c242ed291da3d9f7608",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-linux-arm64": "4431805115da3b54290e3e976fe2db9a7e703f116177aace6735dfa1d8a4f3fe",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-linux-arm64": "2968808d916e12d0a25c56d07c9a1c987163f972513fa8a94a2125a69f9c50eb",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-arm64": "06e544e3f12ea54de5962ceaecd97513a25dbab4168a44f03f01833349afdda3",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-arm64": "5e4507a41c69679562610b1be82ba4f80693a7826f4e9c6e39236169a3e4f9d0",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.13.0/kind-linux-arm64": "b66c2b74470c9d5a41a99a9a37fee522073236178064284b6401bdf79a6e90dc",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.18.0/kind-linux-arm64": "9c0320ac39b1f82f1011ae4e4ceb9c9865b528f59839b4d4eff7ab2804fac5f2",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.20.0/kind-linux-arm64": "639f7808443559aa30c3642d9913b1615d611a071e34f122340afeda97b8f422",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.21.0/kind-linux-arm64": "d56d98fe8a22b5a9a12e35d5ff7be254ae419b0cfe93b6241d0d14ece8f5adc8",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-linux-arm64": "a416d6c311882337f0e56910e4a2e1f8c106ec70c22cbf0ac1dd8f33c1e284fe",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-arm64": "53fffdc37bd7149ccea440b1bdde2464f517d2c462dc8913ad37e7939e7f422d",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-arm64": "9fc6fbcdddbfdd1d1648a8da0d1f9e09dbd772f01ba815403a2641920db2620f",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-amd64": "d7413a42ca28b4afc14c7125a18f386e4e7f007241f776434a93b65c95807b65",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-amd64": "f8cdb6938b66d7149518d9edb04b9ac6cb80f50f60ab717d406c396c857e7d8a",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-arm64": "e32f3b56e80ba0da0d3eec56ac9865ca64326c28e2fdbb5424e263baff8bced9",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-arm64": "03d45095dbd9cc1689f179a3e5e5da24b77c2d1b257d7645abf1b4174bebcf2a",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-arm64": "314d8f1428842fd1ba2110fd0052a0f0b3ab5773ab1bdcdad1ff036e913310c9",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-amd64": "3eb0d4de25b854f34ea8ce8a3cbe15054fc03bc962b03e96fd10664b829fb6ed",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-amd64": "c72eda46430f065fb45c5f70e7c957cc9209402ef309294821978677c8fb3284",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-arm64": "7ea2de9d2d190022ed4a8a4e3ac0636c8a455e460b9a13ccf19f15d07f4f00eb",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-arm64": "ceaf40df1d1551c481fb50e3deb5c3deecad5fd599df5469626b70ddf52a1518",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-amd64": "517ab7fc89ddeed5fa65abf71530d90648d9638ef0c4cde22c2c11f8097b8889",
+  "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-amd64": "4f0b6e3b88bdc66d922c08469f05ef507d4903dd236e6319199bb9c868eed274",
 }

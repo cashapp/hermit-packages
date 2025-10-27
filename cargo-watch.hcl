@@ -12,7 +12,7 @@ linux {
   source = "https://github.com/watchexec/cargo-watch/releases/download/v${version}/cargo-watch-v${version}-${xarch}-unknown-linux-gnu.tar.xz"
 }
 
-version "8.4.0" "8.4.1" "8.5.1" "8.5.2" {
+version "8.4.0" "8.4.1" "8.5.1" "8.5.2" "8.5.3" {
   auto-version {
     github-release = "watchexec/cargo-watch"
   }
@@ -31,4 +31,12 @@ sha256sums = {
   "https://github.com/watchexec/cargo-watch/releases/download/v8.5.2/cargo-watch-v8.5.2-x86_64-apple-darwin.tar.xz": "53860f471b5808e17dada3faeb7fa3be2eeaea94c176a2d90c9f9d310a71e166",
   "https://github.com/watchexec/cargo-watch/releases/download/v8.5.2/cargo-watch-v8.5.2-x86_64-unknown-linux-gnu.tar.xz": "b600cd294a2142da12d61ab02bd1fe3b83bac4bca8ca07019e2bb61385580527",
   "https://github.com/watchexec/cargo-watch/releases/download/v8.5.2/cargo-watch-v8.5.2-aarch64-apple-darwin.tar.xz": "f13e847a82c85203c50c22d03d60df3fdbd84e17ca6d803c4b4910586627e971",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-aarch64-apple-darwin.tar.xz": "26a0d42948ded089ae13f5ea73ec1588b53d23dadd7b2df2d870af0b5e28d744",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-x86_64-unknown-linux-gnu.tar.xz": "b4366577bd16763c86820a750ead8a7bc5b838914b75ace05dc9896552e04e57",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-x86_64-apple-darwin.tar.xz": "4bfe373725969b2492f06c4a75e03dae5fccf96ab1388f3f5c2f5907113833e2",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.4.0/cargo-watch-v8.4.0-aarch64-unknown-linux-gnu.tar.xz": "aa3b2f693d48f48939badcb509ac55a25fbd2bbad511a04ee68d87f6578510b7",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.4.1/cargo-watch-v8.4.1-aarch64-unknown-linux-gnu.tar.xz": "dcb71fb01259e0fa98f3de7ce89b91d00e78f55147ac6b8955127a5f5563ee3f",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.1/cargo-watch-v8.5.1-aarch64-unknown-linux-gnu.tar.xz": "0c40170a6170e9013f62a01d9140fcdcb10a92f9cc0ef9ef5186beede58aefec",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.2/cargo-watch-v8.5.2-aarch64-unknown-linux-gnu.tar.xz": "138a9afb1430c54d6f1235eb368bb8dae80bcadc3b79f25e6959d31466fc5806",
+  "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-aarch64-unknown-linux-gnu.tar.xz": "a0dadc7b83e37e320a61d27d2a2c4c693f1ec737795805ed9d2960bc9462d7e7",
 }

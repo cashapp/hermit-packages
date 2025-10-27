@@ -13,7 +13,7 @@ darwin {
 }
 
 version "0.12.5" "0.12.6" "0.12.7" "0.12.8" "0.12.9" "0.12.10" "0.12.11" "0.12.12"
-        "0.12.13" "0.12.14" "0.12.15" {
+        "0.12.13" "0.12.14" "0.12.15" "0.12.16" "0.12.17" {
   auto-version {
     github-release = "itchyny/gojq"
   }
@@ -53,4 +53,23 @@ sha256sums = {
   "https://github.com/itchyny/gojq/releases/download/v0.12.15/gojq_v0.12.15_darwin_amd64.zip": "1818bb13af2a5ef570b2fc653b8b991439d3889022bc4b9defa3adf2dc475d2f",
   "https://github.com/itchyny/gojq/releases/download/v0.12.15/gojq_v0.12.15_darwin_arm64.zip": "67d372b3a23ffc7f19553268b6a5c0fd5643b84e517e5de0e6fee3d5a92e9258",
   "https://github.com/itchyny/gojq/releases/download/v0.12.15/gojq_v0.12.15_linux_amd64.tar.gz": "ed105868b6bbb40b721fae9d7ebe18b14551e8f30b3edd6cb7e79fa5088b5604",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.16/gojq_v0.12.16_linux_amd64.tar.gz": "03a940f0584174afe3c50174b249067ffac93afbaa160844facda02b1b249b96",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.16/gojq_v0.12.16_darwin_amd64.zip": "88d4ae4a16493f63b869c05bd3a8fcae0dd015de2a11baa19d3ca452fb0e3118",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.16/gojq_v0.12.16_darwin_arm64.zip": "6cf136c9a4f8c14ac49a88a294aa5a877650a444b52f1b9f94555c93a20af940",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_linux_amd64.tar.gz": "cd876631b9b3368dd98ad1ccb361474387de03e0925ea26d73539dd054aa39cb",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_darwin_arm64.zip": "435491a0899bd1f89a9e441529d7dd2099aa41d533d13cbfe534b59a8e0948d5",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_darwin_amd64.zip": "cb1ea2394acba162aaf5d8bc735151696746d616cc1fc142bd6e9258d48a4d7e",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.5/gojq_v0.12.5_linux_arm64.tar.gz": "74b7cc5969057a9e95c3bf0e45b3bf445de02279b1ee3e176d7180c4430aec61",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.6/gojq_v0.12.6_linux_arm64.tar.gz": "cd22c8156ed06af29003218d0ffd9201977f0f7eed2928d614fd321f046eca43",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.7/gojq_v0.12.7_linux_arm64.tar.gz": "ef5b56c916674363e3f35cc792f35e574bdc27a19323b2eedc54af3401de8c32",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.8/gojq_v0.12.8_linux_arm64.tar.gz": "512f1eac0f8cecbddf4e637f8cf9420c3dbc27faf53328c3382c0bb5a53125e3",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.10/gojq_v0.12.10_linux_arm64.tar.gz": "584e078468b150ff5584fc6943fc8bce43d0a6060fd5505a2d64ed6db27b2a73",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.11/gojq_v0.12.11_linux_arm64.tar.gz": "30f4b33c4912d4908d8bdf7e5d1f95b806b22e76ab88b1d9e9792e5f52668ab3",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.12/gojq_v0.12.12_linux_arm64.tar.gz": "c343d3858143883995a6caed2ec1e5b6c8b8e02fd89510bbac0ebbae4fd06225",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.13/gojq_v0.12.13_linux_arm64.tar.gz": "b5bc78c45170b50f5b6479c38c3f2624f0f15c6663de0ccedf798676a536aa9c",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.14/gojq_v0.12.14_linux_arm64.tar.gz": "cba5b496f087e8e963984340d2cf5753b28b46b0ce6eba9eb2e407591562b973",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.16/gojq_v0.12.16_linux_arm64.tar.gz": "7bbe143f142792d0974b7051a56f5e3d14ffcf00ecc21d7b194f129368ea52df",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_linux_arm64.tar.gz": "12e9de5dd1c8665f67afe17bc93f433554c38eb50cd66ce945aea1e9e98c7ed4",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.9/gojq_v0.12.9_linux_arm64.tar.gz": "6c5c1bee0c30520436abeff0188e1992123c74f3d1268903d38246c7b18b2517",
+  "https://github.com/itchyny/gojq/releases/download/v0.12.15/gojq_v0.12.15_linux_arm64.tar.gz": "786c4ad77c89330db15841d7ba7d04cf7fdeaaf5fa2b0a059e14053a53c4cf99",
 }

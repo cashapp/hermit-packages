@@ -17,7 +17,8 @@ version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" "1.58.0"
         "1.58.1" "1.59.0" "1.60.0" "1.61.0" "1.62.0" "1.62.1" "1.63.0" "1.64.0" "1.65.0"
         "1.66.0" "1.66.1" "1.67.0" "1.67.1" "1.68.0" "1.68.2" "1.69.0" "1.70.0" "1.71.0"
         "1.72.0" "1.71.1" "1.72.1" "1.73.0" "1.74.0" "1.74.1" "1.75.0" "1.76.0" "1.77.0"
-        "1.77.1" "1.77.2" {
+        "1.77.1" "1.77.2" "1.78.0" "1.79.0" "1.80.0" "1.80.1" "1.81.0" "1.82.0" "1.83.0"
+        "1.84.0" "1.84.1" "1.85.0" "1.85.1" "1.86.0" "1.87.0" "1.88.0" "1.89.0" "1.90.0" {
   auto-version {
     github-release = "rust-lang/rust"
   }
@@ -66,4 +67,20 @@ sha256sums = {
   "https://static.rust-lang.org/dist/rustc-1.77.0-src.tar.gz": "0d6ccd1fa845fe3456b9ed4d483fc06acf9bbae9417e396b5144488c1a522d87",
   "https://static.rust-lang.org/dist/rustc-1.77.1-src.tar.gz": "ee106e4c569f52dba3b5b282b105820f86bd8f6b3d09c06b8dce82fb1bb3a4a1",
   "https://static.rust-lang.org/dist/rustc-1.77.2-src.tar.gz": "c61457ef8f596638fddbc7716778b2f6b99ff12513a3b0f13994c3bc521638c3",
+  "https://static.rust-lang.org/dist/rustc-1.78.0-src.tar.gz": "ff544823a5cb27f2738128577f1e7e00ee8f4c83f2a348781ae4fc355e91d5a9",
+  "https://static.rust-lang.org/dist/rustc-1.79.0-src.tar.gz": "172ecf3c7d1f9d9fb16cd2a628869782670416ded0129e524a86751f961448c0",
+  "https://static.rust-lang.org/dist/rustc-1.80.0-src.tar.gz": "6f606c193f230f6b2cae4576f7b24d50f5f9b25dff11dbf9b22f787d3521d672",
+  "https://static.rust-lang.org/dist/rustc-1.80.1-src.tar.gz": "2c0b8f643942dcb810cbcc50f292564b1b6e44db5d5f45091153996df95d2dc4",
+  "https://static.rust-lang.org/dist/rustc-1.81.0-src.tar.gz": "872448febdff32e50c3c90a7e15f9bb2db131d13c588fe9071b0ed88837ccfa7",
+  "https://static.rust-lang.org/dist/rustc-1.82.0-src.tar.gz": "7c53f4509eda184e174efa6ba7d5eeb586585686ce8edefc781a2b11a7cf512a",
+  "https://static.rust-lang.org/dist/rustc-1.83.0-src.tar.gz": "722d773bd4eab2d828d7dd35b59f0b017ddf9a97ee2b46c1b7f7fac5c8841c6e",
+  "https://static.rust-lang.org/dist/rustc-1.84.0-src.tar.gz": "15cee7395b07ffde022060455b3140366ec3a12cbbea8f1ef2ff371a9cca51bf",
+  "https://static.rust-lang.org/dist/rustc-1.84.1-src.tar.gz": "5e2fb5d49628a549f7671b2ccf9855ab379fd442831a7c2af16e0cdcc31bb375",
+  "https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.gz": "2f4f3142ffb7c8402139cfa0796e24baaac8b9fd3f96b2deec3b94b4045c6a8a",
+  "https://static.rust-lang.org/dist/rustc-1.85.1-src.tar.gz": "0f2995ca083598757a8d9a293939e569b035799e070f419a686b0996fb94238a",
+  "https://static.rust-lang.org/dist/rustc-1.86.0-src.tar.gz": "022a27286df67900a044d227d9db69d4732ec3d833e4ffc259c4425ed71eed80",
+  "https://static.rust-lang.org/dist/rustc-1.87.0-src.tar.gz": "149bb9fd29be592da4e87900fc68f0629a37bf6850b46339dd44434c04fd8e76",
+  "https://static.rust-lang.org/dist/rustc-1.88.0-src.tar.gz": "3a97544434848ae3d193d1d6bc83d6f24cb85c261ad95f955fde47ec64cfcfbe",
+  "https://static.rust-lang.org/dist/rustc-1.89.0-src.tar.gz": "2576f9f440dd99b0151bd28f59aa0ac6102d5c4f3ed4ef8a810c8dd05057250d",
+  "https://static.rust-lang.org/dist/rustc-1.90.0-src.tar.gz": "799a9f9cba4ed5351e071048bcf6b5560755d9009648def33a407dd4961f9b7e",
 }

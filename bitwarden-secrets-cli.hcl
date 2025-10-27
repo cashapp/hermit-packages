@@ -19,7 +19,7 @@ platform "darwin" {
   }
 }
 
-platform "darwin" "arm64" {
+platform "arm64" {
   vars = {
     "arch_": "aarch64",
   }
@@ -37,9 +37,9 @@ platform "windows" {
   }
 }
 
-version "0.3.0" "0.4.0" {
+version "0.3.0" "0.4.0" "0.5.0" "1.0.0" {
   auto-version {
-    github-release = "bitwarden/sdk"
+    github-release = "bitwarden/sdk-sm"
     ignore-invalid-versions = true
     version-pattern = "bws-v(.*)"
   }
@@ -52,4 +52,13 @@ sha256sums = {
   "https://github.com/bitwarden/sdk/releases/download/bws-v0.4.0/bws-x86_64-unknown-linux-gnu-0.4.0.zip": "3b9514050e680c0bb2497f8bc6d1cd90e6a00c81db69867af251fab6c142814d",
   "https://github.com/bitwarden/sdk/releases/download/bws-v0.4.0/bws-x86_64-apple-darwin-0.4.0.zip": "db5fa8fccbfc3427ab30ec71ac2236fed812c464a3475f21353e1a3a3e41802f",
   "https://github.com/bitwarden/sdk/releases/download/bws-v0.4.0/bws-aarch64-apple-darwin-0.4.0.zip": "a151439b32761451b646afb88638c2b5ca593cea28ffaef422e27f4e982e0852",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v0.5.0/bws-x86_64-unknown-linux-gnu-0.5.0.zip": "b9296341549d9ba6922da6692b24c4d81d14dc3992597d5a777692aee73b10b2",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v0.5.0/bws-aarch64-apple-darwin-0.5.0.zip": "aeac01edbd7cdfb8e75e9143d13d69221e6e0bff0fd9f8de69b85c3108a4e986",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v0.5.0/bws-x86_64-apple-darwin-0.5.0.zip": "8063440f3b7af43710fcec9b35cbf2f0005c1002107d13c59b01fb2bf416b445",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v1.0.0/bws-x86_64-unknown-linux-gnu-1.0.0.zip": "9077fb7b336a62abc8194728fea8753afad8b0baa3a18723fc05fc02fdb53568",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v1.0.0/bws-aarch64-apple-darwin-1.0.0.zip": "5dd716878e5627220aa254cbe4e41e978f226f72d9117fc195046709db363e20",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v1.0.0/bws-x86_64-apple-darwin-1.0.0.zip": "7e06cbc0f3543dd68585a22bf1ce09eca1d413322aa22554a713cf97de60495a",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v0.4.0/bws-aarch64-unknown-linux-gnu-0.4.0.zip": "4f7a0ea96078d8158350c92cdfc1b8466e782cf330a03884748af375c9eac79f",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v0.5.0/bws-aarch64-unknown-linux-gnu-0.5.0.zip": "984da63ebbf2b7345c319b0b11ff8788b7dee07b80bef5fe8057f9bcec165635",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v1.0.0/bws-aarch64-unknown-linux-gnu-1.0.0.zip": "20a3dcb9e3ce7716a1dc3c0e1c76cea9d5e2bf75094cbb5aad54ced4304929cb",
 }

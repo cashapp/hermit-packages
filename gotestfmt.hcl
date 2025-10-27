@@ -19,4 +19,7 @@ sha256sums = {
   "https://github.com/GoTestTools/gotestfmt/releases/download/v2.5.0/gotestfmt_2.5.0_linux_amd64.tar.gz": "ec7763e6fe2696e5a5dd395743df561fe8f4f035cc44b756078d0498ae583e69",
   "https://github.com/GoTestTools/gotestfmt/releases/download/v2.5.0/gotestfmt_2.5.0_darwin_arm64.tar.gz": "7fdd242fe1fffcd3782893a2e44fe938b02ffb4fc560f8c2bbb544e5b542fda3",
   "https://github.com/GoTestTools/gotestfmt/releases/download/v2.5.0/gotestfmt_2.5.0_darwin_amd64.tar.gz": "b99d47c6f7dac12e588abce61ae52bb51894ca7a9e1b48e71d498ae5d8f387b8",
+  "https://github.com/GoTestTools/gotestfmt/releases/download/v2.3.2/gotestfmt_2.3.2_linux_arm64.tar.gz": "1feb7575f2e695f48978867256f68094665a3f0a14ac6227dae03328096004a2",
+  "https://github.com/GoTestTools/gotestfmt/releases/download/v2.4.1/gotestfmt_2.4.1_linux_arm64.tar.gz": "3b6f52164df711ecfe9efe2ec0469239cf9af865041eb4368b77649c99468b04",
+  "https://github.com/GoTestTools/gotestfmt/releases/download/v2.5.0/gotestfmt_2.5.0_linux_arm64.tar.gz": "fc8856720700d8abd715d4a9ae6da48f578b5ef75352df0482a9a22ea283e239",
 }

@@ -11,7 +11,6 @@ platform "arm64" {
 }
 
 version "0.2.8" "0.2.9" "0.3.0" "0.3.1" "0.3.2" "0.3.3" "0.3.4" "0.3.5" "0.3.6" {
-  // Renamed to "zincsearch" since 0.4.0
 }
 
 sha256sums = {
@@ -42,4 +41,13 @@ sha256sums = {
   "https://github.com/zinclabs/zinc/releases/download/v0.3.6/zinc_0.3.6_linux_x86_64.tar.gz": "b454236f5f509ad706fe48fe69b99420dafc80615bcb13de13365ffe6411245b",
   "https://github.com/zinclabs/zinc/releases/download/v0.3.6/zinc_0.3.6_darwin_arm64.tar.gz": "7bc4695ebcbc5da2118b0442eabee00c37ef56e166248de774b3f72088e83a60",
   "https://github.com/zinclabs/zinc/releases/download/v0.3.6/zinc_0.3.6_darwin_x86_64.tar.gz": "cee57641cd75c6132938633e9aa2d0e416b966e387ee87c146d06b1388d628ae",
+  "https://github.com/zinclabs/zinc/releases/download/v0.2.8/zinc_0.2.8_linux_arm64.tar.gz": "3d5181164653167cdaf6824f57a17ace682cec1030dbbf59fae2a3feaff66dd3",
+  "https://github.com/zinclabs/zinc/releases/download/v0.2.9/zinc_0.2.9_linux_arm64.tar.gz": "765828af1149244345a0c16759e73b13b2e15c07dfbdcc3db94b49f8deb227fd",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.0/zinc_0.3.0_linux_arm64.tar.gz": "1ae25649ab36b4c3744ea7adf438ed4e78d8a0433593dd4d3d65eae183fa01ab",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.1/zinc_0.3.1_linux_arm64.tar.gz": "768658de9363529a01ac2db65750b8b09464d2def048d4a20a0bf79266e0711e",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.2/zinc_0.3.2_linux_arm64.tar.gz": "e0fdd2b1b928014e3a80df2bd2f72919a6642da3606c1aa125166bdfc9cb49a0",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.3/zinc_0.3.3_linux_arm64.tar.gz": "9be18f586c1824c9b03b70dbb3f516fd3d07fedc0b46b2d65433a895c714913f",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.4/zinc_0.3.4_linux_arm64.tar.gz": "8275085272a3ab0caccf3b6b90751ed0a84c6b4fc80825648397e688632df7d4",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.5/zinc_0.3.5_linux_arm64.tar.gz": "7ae2fd45cab4a25a36caac1d1460f794560719e63efa4dfc8f07a01664c7d67b",
+  "https://github.com/zinclabs/zinc/releases/download/v0.3.6/zinc_0.3.6_linux_arm64.tar.gz": "b4e3059babbbbc21c302b826275b4450353327aacc6353eb4882379c05cdff05",
 }

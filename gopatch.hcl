@@ -38,4 +38,6 @@ sha256sums = {
   "https://github.com/uber-go/gopatch/releases/download/v0.2.0/gopatch_0.2.0_Linux_x86_64.tar.gz": "021b9acf28472121c1451f2081a88a0e875c34039c22666c91ee2e832b4a8d73",
   "https://github.com/uber-go/gopatch/releases/download/v0.2.0/gopatch_0.2.0_Darwin_x86_64.tar.gz": "69f32a05169d0589617e13acb2ddf98ffdf9e4551d808b27b9f1fc03a21bf418",
   "https://github.com/uber-go/gopatch/releases/download/v0.2.0/gopatch_0.2.0_Darwin_arm64.tar.gz": "0aeec85bf785f3942acfaf37c4922d9f0a1d388b8ca2ed392c65cb4f13c2a395",
+  "https://github.com/uber-go/gopatch/releases/download/v0.1.1/gopatch_0.1.1_Linux_arm64.tar.gz": "657371b6eb606211932121f2b1553a6911030d8ab50d220e7ba870ba64fa34a4",
+  "https://github.com/uber-go/gopatch/releases/download/v0.2.0/gopatch_0.2.0_Linux_arm64.tar.gz": "815d7f333990d06e3f7dd03b94ab9ecc21078624a2a3f25ad02a5f4b8b7233c7",
 }

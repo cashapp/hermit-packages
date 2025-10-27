@@ -16,4 +16,6 @@ sha256sums = {
   "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_linux_amd64.tar.gz": "37fe60a8b799896714d72442dd3df154fc4f286aec225206f423ec71295b25cc",
   "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_darwin_amd64.tar.gz": "8892317fe2042abd78934bf871f9872cff7130b1938976cf854552934b9b8c34",
   "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_darwin_arm64.tar.gz": "15eae540d7688c03adf9ac3dd5bfb3159179bd08a78b86dbeb4603326b3fd602",
+  "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.44/kubectl-whoami_v0.0.44_linux_arm64.tar.gz": "1b99f8ef4df1c1429eed273cfffef0e2977337a91a23aa6e69d58c3684d319d2",
+  "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_linux_arm64.tar.gz": "214b099f628949a92c0ebc5535139c306e69f9fb5c4e2e980d2c29ad2e40ab1e",
 }

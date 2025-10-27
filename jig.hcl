@@ -5,7 +5,7 @@ test = "jig --version"
 
 version "0.0.11" "0.0.12" "0.0.16" "0.0.17" "0.0.18" "0.0.20" "0.0.21" "0.0.22"
         "0.0.23" "0.0.25" "0.0.26" "0.0.27" "0.0.28" "0.0.29" "0.0.30" "0.0.31" "0.0.32"
-        "0.0.33" "0.0.34" "0.0.35" "0.0.36" {
+        "0.0.33" "0.0.34" "0.0.35" "0.0.36" "0.0.37" "0.0.39" "0.0.41" "0.0.43" {
   auto-version {
     github-release = "foxygoat/jig"
   }
@@ -75,4 +75,41 @@ sha256sums = {
   "https://github.com/foxygoat/jig/releases/download/v0.0.36/jig_0.0.36_darwin_amd64.tar.gz": "729178df01ca41a3cbf78eae5114d931b5478e3e6cf65f7e7a46b3a2aeebacb9",
   "https://github.com/foxygoat/jig/releases/download/v0.0.36/jig_0.0.36_darwin_arm64.tar.gz": "cfed9d25138a4d9bbf8754cbd414c3b9283770321877d2c70efa69fddad1dea3",
   "https://github.com/foxygoat/jig/releases/download/v0.0.36/jig_0.0.36_linux_amd64.tar.gz": "9b69f46ba0fad5cdf32fd7969a03f1faea5fa0d3e31daa8b690cb0f7d92cbe1c",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.37/jig_0.0.37_linux_amd64.tar.gz": "165217892ca5444facf693ce5690c9d721c295b9a79aad1a02257df7a49a06aa",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.37/jig_0.0.37_darwin_arm64.tar.gz": "059d35a976039ccce65efdfc4d86a81ded126154da38c92ef50843c3b0f35345",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.37/jig_0.0.37_darwin_amd64.tar.gz": "5f9649040407af3f491f2087d8e615e0b0f3cc2363df172591da1c083468b9a7",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.39/jig_0.0.39_linux_amd64.tar.gz": "946e4f15db807270587b700853a9b4de60b94ac155c56fe1afc35bb842f049ed",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.39/jig_0.0.39_darwin_amd64.tar.gz": "dfcfa424efbf00372a451f850aa08d793102da1def694a76ef5aff5ea4b71efc",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.39/jig_0.0.39_darwin_arm64.tar.gz": "b51bb6c1f82bd81d5f13e006138a66ff28c50f9aaff91e04d5d58c6f62b1f6e1",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.41/jig_0.0.41_linux_amd64.tar.gz": "8f7af21b1572a32ec867529e179822243372d9e252ad699ba53d8766aef134d3",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.41/jig_0.0.41_darwin_arm64.tar.gz": "5707a6a547fd941be72a5251f9f968e4d378ab2ec901a7595310bca15252e924",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.41/jig_0.0.41_darwin_amd64.tar.gz": "5f0914390b0a48414ad7df6af7828e0185007ce48b7ff7b0379ee03bcc7ec91c",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.11/jig_0.0.11_linux_arm64.tar.gz": "8c19c44f2991d487b5621c11763b871a74b419600c422e3a7695047c0315e3c4",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.21/jig_0.0.21_linux_arm64.tar.gz": "cee22e4dbdc3dfe828a2407dcfa16ed692ea1f79dfabca78d25f0e3f6090ff67",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.23/jig_0.0.23_linux_arm64.tar.gz": "704cec503d55045d5c9372a6016dceac62a9b587704665ebac159d0b6a8ddcef",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.25/jig_0.0.25_linux_arm64.tar.gz": "c68bc85faf54420a1455f4df0d841685768e6289c134b4173bf5d5598b1db304",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.31/jig_0.0.31_linux_arm64.tar.gz": "5d208a0b9bce5abdbda0c1fed64090b7aec635b86bb2abde69072795f817f9af",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.32/jig_0.0.32_linux_arm64.tar.gz": "49695aac9acdddee92d77667f0bf35d580faa2174c3d24109e3f6d0ebd3821aa",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.34/jig_0.0.34_linux_arm64.tar.gz": "0960d7974bf7cca2f5c6f73704a691029f76a6b9a642198f2a9ef3ba14390035",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.35/jig_0.0.35_linux_arm64.tar.gz": "527c2c58578aa3afd01c872bb155b43751e4d02159676058ef25d6972b4b6be6",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.36/jig_0.0.36_linux_arm64.tar.gz": "f87db91cc2031d6b1d656c2efb336e0f58dac4dab008ca9ad9f84a9624eea90a",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.37/jig_0.0.37_linux_arm64.tar.gz": "57f476151362c444958d8fb4d6888bebbd2896e4b3e2e58b28e827ce82aea48c",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.41/jig_0.0.41_linux_arm64.tar.gz": "3959e34c405a780dd0a86e5eb32864b060d2e262f61a23b241f4ef7647cdfb2b",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.12/jig_0.0.12_linux_arm64.tar.gz": "f9be7d7f517c7dc1831059a328639430317a040644a5f6d697839d85caba3787",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.16/jig_0.0.16_linux_arm64.tar.gz": "5edafc8534513a30896bcf097b14b8066f7c75573b48d5540e1191e3c0d61aaf",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.17/jig_0.0.17_linux_arm64.tar.gz": "c2d9bc5df28f47128065ecf03de0b1927ddb4a9ebc2218c88d1952d81426b709",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.20/jig_0.0.20_linux_arm64.tar.gz": "d12e2f88bc89d71d17d10e26b5976a0f04df510cd78108061d1ec97cf6824170",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.22/jig_0.0.22_linux_arm64.tar.gz": "3ac7e5cb9c68368d366d5ed1b3457169155d0a920c67c29bc761071c9be2be0e",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.27/jig_0.0.27_linux_arm64.tar.gz": "c9079e9984477adf578faf27309eac1296b4e87931dde92a44405dbbd3d3c54b",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.28/jig_0.0.28_linux_arm64.tar.gz": "d7d0967c8ea4797edf4236fdee0c0137872b8337dafb926ffaecfcaf2090e43e",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.29/jig_0.0.29_linux_arm64.tar.gz": "e9a2796910c00d0e6d7fa1690872d1d0d85b05b808a15fd0393f7695c069798b",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.30/jig_0.0.30_linux_arm64.tar.gz": "579b68abd2880c70c09408b0d65f481e0945da9446111a06a8bb5a8fb83ad3f9",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.33/jig_0.0.33_linux_arm64.tar.gz": "4644e6c07ab65f9cc11ab39b6fcf3ea203f0104d2f16443e4f2b758767c5b501",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.39/jig_0.0.39_linux_arm64.tar.gz": "1862e9a95a181486a52537f6e18067f63cb916ada324e8b657474914412d0450",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.18/jig_0.0.18_linux_arm64.tar.gz": "5cf049906d8b3a77105b575d897ff7b6f2ffc689aa2efa2d1dd571a0f0e28dcb",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.26/jig_0.0.26_linux_arm64.tar.gz": "56da3bd1335a966f08fd08ae3efe5fdd2624939a325de1767ed1677b43549f81",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.43/jig_0.0.43_darwin_arm64.tar.gz": "331fc19d228948d20d2267919fc74083945578cd9ce013d50d01ab1ab4eef838",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.43/jig_0.0.43_linux_amd64.tar.gz": "a25f61b3f632f552f6b37627207dc074412e3ef07e5ae145cc77cfdcada7e950",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.43/jig_0.0.43_darwin_amd64.tar.gz": "bef97495e14fdacd171e37f7944df6b01c9dfd9c77f630102bb4b1bff7eacf7c",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.43/jig_0.0.43_linux_arm64.tar.gz": "dc1b2b0e6c1ecd860b969674b4b70a10700bf3ba67b6027e55efe8ffb1b105dd",
 }

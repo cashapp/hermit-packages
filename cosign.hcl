@@ -26,7 +26,8 @@ darwin {
 
 version "1.0.0" "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.1" "1.8.0" "1.9.0"
         "1.10.0" "1.10.1" "1.11.0" "1.11.1" "1.12.0" "1.12.1" "1.13.0" "1.13.1" "2.0.0" "2.0.1"
-        "2.0.2" "2.1.0" "2.1.1" "2.2.0" "2.2.1" "2.2.2" "2.2.3" "2.2.4" {
+        "2.0.2" "2.1.0" "2.1.1" "2.2.0" "2.2.1" "2.2.2" "2.2.3" "2.2.4" "2.3.0" "2.4.0" "2.4.1"
+        "2.4.2" "2.4.3" "2.5.0" "2.5.1" "2.5.2" "2.5.3" "2.6.0" "2.6.1" "3.0.1" "3.0.2" {
   auto-version {
     github-release = "sigstore/cosign"
   }
@@ -117,4 +118,43 @@ sha256sums = {
   "https://github.com/sigstore/cosign/releases/download/v2.2.4/cosign-darwin-amd64": "0e5a77a86115e4c00ba4243db01abceacb13cc06981c45e53ee71f2e1db8ce25",
   "https://github.com/sigstore/cosign/releases/download/v2.2.4/cosign-linux-amd64": "97a6a1e15668a75fc4ff7a4dc4cb2f098f929cbea2f12faa9de31db6b42b17d7",
   "https://github.com/sigstore/cosign/releases/download/v2.2.4/cosign-darwin-arm64": "fcd310e64ecddc1eaa13fe814ac1c9fc02f6f9eacd9a58480ab8160eb8ca381e",
+  "https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-amd64": "5985b6ebbda2dd5aec4bd8c49e084393147d19170e7f7f4c30e664939e6972bf",
+  "https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-darwin-amd64": "e27ab52f5aec186e3b9665e9af40aa3dbf9c5a637ef1b6f763020c684f90b0dd",
+  "https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-darwin-arm64": "4b2d7970ebcdb64f635641063ca35f981887b7718161d80b63dcd8072184d269",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-darwin-arm64": "779f57759a9863dacea1256fa7f116319790dfcd4f9f8b33abc30251b1f4a883",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-darwin-amd64": "4d568e3bf56d254948a749d1442eedb6dc624af0a1acea082e260ba66b9feb08",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-amd64": "cd7636b3586a3bdac2d9c8f3b421ed119edcb20499107887fd929211110e8418",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-linux-amd64": "8b24b946dd5809c6bd93de08033bcf6bc0ed7d336b7785787c080f574b89249b",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-darwin-arm64": "13343856b69f70388c4fe0b986a31dde5958e444b41be22d785d3dc5e1a9cc62",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-darwin-amd64": "666032ca283da92b6f7953965688fd51200fdc891a86c19e05c98b898ea0af4e",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-amd64": "e7f5bd99a790703333e8f8e8e6c91d5e646f3d7041e4cf935b56587de20cec3f",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-darwin-arm64": "f9a574c1ab208918a0d96ffca7a105dfb32792f6c33e0da2dbefb76e25600ab8",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-darwin-amd64": "2697aba2d9ea5159b8f209025cfc392a8a25ce177c8d3b0e07afd4e1db3b163c",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-darwin-amd64": "98a3bfd691f42c6a5b721880116f89210d8fdff61cc0224cd3ef2f8e55a466fb",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-amd64": "caaad125acef1cb81d58dcdc454a1e429d09a750d1e9e2b3ed1aed8964454708",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-darwin-arm64": "edfc761b27ced77f0f9ca288ff4fac7caa898e1e9db38f4dfdf72160cdf8e638",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.0/cosign-linux-amd64": "1f6c194dd0891eb345b436bb71ff9f996768355f5e0ce02dde88567029ac2188",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.0/cosign-darwin-amd64": "d61cc50f6f32c2b63cb81cd8a935e5dd1be8520d639242031a1102092bee44d4",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.0/cosign-darwin-arm64": "780da3654d9601367b0d54686ac65cb9716578610cabe292d725c7008de4db85",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-amd64": "d86013612a132b67a2b60bc4ae4a09dbb1cd7ddcb7491dfd54ef2cdb7cb9180c",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-darwin-amd64": "4f66548db844c467b8dd75e94d74530f01e0e7e6ae9cd10994ff1377dc935572",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-darwin-arm64": "62cb81ea728acb426efb9345a9b0fca0168d85c67631dd74792441daaa0cb71a",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-amd64": "bcfeae05557a9f313ee4392d2f335d0ff69ebbfd232019e3736fb04999fe1734",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-darwin-amd64": "0681abe20a482f4b9b3ed65b3debb8c6346591f2dc484b6bfa79609ff1318de4",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-darwin-arm64": "51fdc6d8da8310d72df10065a52247b6bebfe990d4c946dd9f71e17588256011",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-darwin-amd64": "172731b1c2575dd76069a87d4d17312fd027fe0947e45e4a9ba9b915877e0ed0",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-amd64": "783b5d6c74105401c63946c68d9b2a4e1aab3c8abce043e06b8510b02b623ec9",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-darwin-arm64": "86e0cad94d0da4c0dab5e26672ede71447a08a0f0d8495b9381c117df27d7d09",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-amd64": "ea5c65f99425d6cfbb5c4b5de5dac035f14d09131c1a0ea7c7fc32eab39364f9",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-darwin-amd64": "83b0fb42bc265e62aef7de49f4979b7957c9b7320d362a9f20046b2f823330f3",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-darwin-arm64": "dea5b83b8b375b99ac803c7bdb1f798963dbeb47789ceb72153202e7f20e8d07",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-amd64": "064954c5d8c7e3b28188eee5b1727b31c411550bc5fefd41aa672d3c761d103a",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-darwin-arm64": "54047052cf46f40a5c3c95a510db276e164ba77e096aea1ca1b733f770359689",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-darwin-amd64": "f1ed2787cc9648fd3c644fcb279e43f3f55da63b788d69a527aa14ad97ffdca1",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-darwin-arm64": "dad2a161d91fba199d1ebae7e5652a4c2dd412cbb1ab6b4cc8ad6a15378319fe",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-amd64": "23c9ff889672f03676b673539de07d5ad4e8efc8247a3ad55c9bc00169aa2305",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-darwin-amd64": "260c174b80d6401a7d2703109eb32f6a0bdbddd2ac91d3268dc96a51238d96ab",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-amd64": "46dbdcb5467a3dfec2526923d0b3365e40c8d9dc00ec23d5aca3437449e8cbfd",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-darwin-arm64": "3823b044de184da21e300bc5e20dd29d3fa9243af3ba70c4a5da1712f3385d46",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-darwin-amd64": "0fc2b6f16b900abdfda3153b11fc435a8cbe3830e8e820fe8ad5fe4149a5b472",
 }

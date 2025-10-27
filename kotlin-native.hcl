@@ -17,7 +17,7 @@ version "1.5.0" "1.5.20" "1.5.21" {
 
 version "1.5.30" "1.5.31" "1.6.0" "1.6.10" "1.6.20" "1.6.21" "1.7.0" "1.7.10" "1.7.20"
         "1.7.21" "1.8.0" "1.8.10" "1.8.20" "1.8.21" "1.8.22" "1.9.0" "1.9.10" "1.9.20" "1.9.21"
-        "1.9.22" "1.9.23" {
+        "1.9.22" "1.9.23" "1.9.24" "1.9.25" {
   platform "linux" {
     source = "https://github.com/JetBrains/kotlin/releases/download/v${version}/kotlin-native-linux-x86_64-${version}.tar.gz"
   }
@@ -101,4 +101,10 @@ sha256sums = {
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-native-macos-x86_64-1.9.23.tar.gz": "0eed7cce2e4323b6f9c58e9e76fcd4be2534e5d324355db8921f0ff9146cdc17",
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-native-linux-x86_64-1.9.23.tar.gz": "2d1a8b0599064af2016297e3b1384a59673c6c122a9a96d56b60e49303bd54c8",
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-native-macos-aarch64-1.9.23.tar.gz": "27a3560dc9b79c58420ea0015c97838f44a49380854bf26397fb1cd52d6934ec",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.24/kotlin-native-macos-x86_64-1.9.24.tar.gz": "783c1b9955748cb3794446f70f925f0db8f352e66e8f1036a6ec3be537b5685b",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.24/kotlin-native-linux-x86_64-1.9.24.tar.gz": "b04be58c0c0b4b3071531c694403f1b650e72a5c07e051904c369023e5dc19a1",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.24/kotlin-native-macos-aarch64-1.9.24.tar.gz": "4465e2d92c94be21fd1dd300a52a0125f11d78e7e7b2c6939d695dbc627acac6",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.25/kotlin-native-linux-x86_64-1.9.25.tar.gz": "c1fc64184ba99159455b77790966fda826639387b7426b47524aa00d7744c33d",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.25/kotlin-native-macos-x86_64-1.9.25.tar.gz": "eb1edc363e44e8ab44b46b9dfc2109a45b2921686f03bfa3904b775708df4e8d",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.25/kotlin-native-macos-aarch64-1.9.25.tar.gz": "c384c6d21787e3bfad6dfc4c53f5e0821e9a8e02931a158394595a632788113f",
 }

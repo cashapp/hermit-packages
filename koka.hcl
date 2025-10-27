@@ -26,7 +26,7 @@ version "2.4.0" {
   }
 }
 
-version "2.4.2" "2.6.0" "3.0.1" "3.0.4" "3.1.0" "3.1.1" {
+version "2.4.2" "2.6.0" "3.0.1" "3.0.4" "3.1.0" "3.1.1" "3.1.2" "3.1.3" "3.2.0" "3.2.2" {
   auto-version {
     github-release = "koka-lang/koka"
   }
@@ -54,4 +54,20 @@ sha256sums = {
   "https://github.com/koka-lang/koka/releases/download/v3.1.1/koka-v3.1.1-linux-x64.tar.gz": "3c00088edcf085b9d26eba668f170b2411bea7f9d31aea6090a06533fcfc1373",
   "https://github.com/koka-lang/koka/releases/download/v3.1.1/koka-v3.1.1-macos-arm64.tar.gz": "64436b907ad0d2f6cb44d1f220592179981d63d63a703bd5d77c9df73a744b8a",
   "https://github.com/koka-lang/koka/releases/download/v3.1.1/koka-v3.1.1-macos-x64.tar.gz": "56d07fe094c17a4ad1620bbef26e99fb3164984471fc71b282adb680e690390d",
+  "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-linux-x64.tar.gz": "a62f81b5147c1cd1c41b17ef9a986282839f78d1a4e22baedfbcffc211b3b3a6",
+  "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-x64.tar.gz": "93ec2965cfb054d2b8a3b01c9ca25b163c8b0a52836a883449b250ef5761b424",
+  "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-arm64.tar.gz": "e20467f2652267962e04e4665df547f9e207111539eb4223c3d3e8008be03b6f",
+  "https://github.com/koka-lang/koka/releases/download/v2.4.0/koka-v2.4.0-alpine-arm64.tar.gz": "76f00cffef501bd2a5e2187cd626674c9b4395d0d8eba39928039a88e813a9b1",
+  "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-macos-arm64.tar.gz": "7864893d2bcb72c2cb3aaa82589d7d261f91aa7e4f549279cda1244e34d7cc30",
+  "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-linux-x64.tar.gz": "95316ddc8cfbe3baa66d9c9793da72d03a45dab07e3cfc5b5a2a56add4ea56f1",
+  "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-linux-arm64.tar.gz": "08f8eedd058dcbd2f964625948c31ebcc5fcdceddb639cdf2eccdb283dd94a3c",
+  "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-macos-x64.tar.gz": "43931f5b3a4fd6a9f0fc57ecf7aae9b130d7831cd0688b79fca09f617b4f284e",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.0/koka-v3.2.0-linux-arm64.tar.gz": "11896940c295390777287170652ddae8978ed22c0960a99f90860f40c7c99880",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.0/koka-v3.2.0-linux-x64.tar.gz": "2103f763d707d9abdb40efe27de1106edb5671fca83b4d27ae1dc5a123129237",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.0/koka-v3.2.0-macos-x64.tar.gz": "562e124dcebf3c3a4b63b1a174cd8c9c20bf72d72b4534114b0f815c62c0a25c",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.0/koka-v3.2.0-macos-arm64.tar.gz": "5f5d8623218c1ad2057ffc1a250ebd74c5122ffd95c3c463c7a851977214eeb9",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.2/koka-v3.2.2-linux-x64.tar.gz": "484c56fdf4c1b4b3fd1dc7711f39141f1b3892d2f93e414d1d066887e7d0b3e2",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.2/koka-v3.2.2-macos-x64.tar.gz": "26d1f1fe4b6f4e628763058ba0e50a2f4b913c1df3cf2c1d07e8800deb2c7fac",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.2/koka-v3.2.2-macos-arm64.tar.gz": "e7ee1b42fdafa7c3c08e29eb65f61c69f7d906141998e0e7e6a6b9e232441018",
+  "https://github.com/koka-lang/koka/releases/download/v3.2.2/koka-v3.2.2-linux-arm64.tar.gz": "8a5be24d591097bf71405f068b9bb4e1a9e94a71004d2ef63c8fef892d8b2ec0",
 }

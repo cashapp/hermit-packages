@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.2.0" "0.3.0" {
+version "0.2.0" "0.3.0" "0.4.0" {
   auto-version {
     github-release = "bracesdev/errtrace"
   }
@@ -23,4 +23,10 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.3.0-linux-amd64.bz2": "0fbca7bf1561da9e4cb3bf82a6fb3af196ed2183e8f86f1910bab089b5d25326",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.3.0-darwin-amd64.bz2": "52440d3ebc059b3dc72b89249022022c67ba3a263564496f903a8e6c517e9e81",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.3.0-darwin-arm64.bz2": "04b06fdb799bf60461b63f8710e1cfd080a21a9e059d6f8398f683cdfa37871e",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.2.0-linux-arm64.bz2": "1560d80a30a5e7cb0f01753c990d9ce6b22fb3e9fb8c85f8a47be75700b24c77",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.3.0-linux-arm64.bz2": "c1214cd6fcfb42e9cccec43ae4649058af8e315de9bd314149423e35dde308d8",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.4.0-darwin-amd64.bz2": "60b879ac840cf577a3932bb6ea930df05dd000428673eb79ada9f2544e23dbe4",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.4.0-linux-arm64.bz2": "204cf58eeae01e3961f1bb040043fe6a0321d5f707964156c14d8e83df2108e0",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.4.0-linux-amd64.bz2": "e246af6e4a5fab4a67b1fe5abc474f57566736e4e04b6f73380441a1982592fa",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/errtrace-v0.4.0-darwin-arm64.bz2": "53618c944a40612779cb29aab37135ab33e65ef975a2fb526fc2ddcce9cf25ca",
 }

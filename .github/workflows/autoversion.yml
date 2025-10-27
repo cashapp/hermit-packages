@@ -7,12 +7,12 @@ jobs:
   auto-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # ratchet:actions/checkout@v2
       - name: Init Hermit
         run: ./bin/hermit env -r >> $GITHUB_ENV
       - name: Auto-version
         env:
-          GITHUB_TOKEN: ${{ secrets.AUTO_VERSIONING }}
+          GITHUB_TOKEN: ${{ secrets.HERMIT_AUTOVERSION_TOKEN }}
         run: |
           set -xe
 
@@ -27,7 +27,8 @@ jobs:
           #   hermit manifest add-digests $file
           # done
 
-          hermit -d manifest auto-version --continue-on-error --update-digests *.hcl
+          hermit -d manifest auto-version --continue-on-error --update-digests $(ls -1 *.hcl | shuf)
+          curl --header "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/rate_limit
           if git diff --exit-code HEAD; then
             echo "No change"
             exit 0

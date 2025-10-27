@@ -3,7 +3,7 @@ binaries = ["mutagen"]
 source = "https://github.com/mutagen-io/mutagen/releases/download/v${version}/mutagen_${os}_${arch}_v${version}.tar.gz"
 
 version "0.16.0" "0.16.1" "0.16.2" "0.16.3" "0.16.4" "0.16.5" "0.17.0" "0.17.1"
-        "0.17.2" "0.17.3" "0.17.4" "0.17.5" {
+        "0.17.2" "0.17.3" "0.17.4" "0.17.5" "0.17.6" "0.18.0" "0.18.1" {
   auto-version {
     github-release = "mutagen-io/mutagen"
   }
@@ -46,4 +46,28 @@ sha256sums = {
   "https://github.com/mutagen-io/mutagen/releases/download/v0.17.5/mutagen_darwin_amd64_v0.17.5.tar.gz": "5b963b3dab36ac8a3d2a87ca162717bf2172fd8ca7410d477a78affd7631a45d",
   "https://github.com/mutagen-io/mutagen/releases/download/v0.17.5/mutagen_darwin_arm64_v0.17.5.tar.gz": "4dbbbc222a3986705a998343ff23d69e62bfe1c4e341ef9f1cdf39d25a37c324",
   "https://github.com/mutagen-io/mutagen/releases/download/v0.17.5/mutagen_linux_amd64_v0.17.5.tar.gz": "cabee0af590faf822cb5542437e254406b0f037df43781c02bf6eeac267911f6",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.6/mutagen_linux_amd64_v0.17.6.tar.gz": "1b826e121be59506e133d90dc2b8a0c820b92f480d9b2b230d8b389d6178a6cf",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.6/mutagen_darwin_arm64_v0.17.6.tar.gz": "b6c35942ca9cbbbf726bfa249da554d829a8a28cad620a55e02d098d692121d1",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.6/mutagen_darwin_amd64_v0.17.6.tar.gz": "f082eef2ae405a6bf5effdbcd000bb5fe2bc7b0968f86b2b54d9d3260c48c739",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.0/mutagen_linux_amd64_v0.18.0.tar.gz": "c82bde0ecd3810650087a8fd99e8baf4a3119b85a9cb14155a0d9209600374d4",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.0/mutagen_darwin_amd64_v0.18.0.tar.gz": "2df8723bce8e7721e6aef576b0025f12205acbe699bdb90d84dbd53e658f57be",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.0/mutagen_darwin_arm64_v0.18.0.tar.gz": "0f0959f12b1a767bffa5ee40c6a255b77758d049c36ed0d6a1ad6830ac7f78a3",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.1/mutagen_darwin_arm64_v0.18.1.tar.gz": "6f810416d9e5fc4fd5e18431146f8b3c5a2056ba5a24f76c1e66da86eb3257e2",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.1/mutagen_darwin_amd64_v0.18.1.tar.gz": "7d06f7d8fcfe90bc7e55cc834a2f2f20c2e0af9ea9bc35911fc4341ad56a9bbf",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.1/mutagen_linux_amd64_v0.18.1.tar.gz": "7735286c778cc438418209f24d03a64f3a0151c8065ef0fe079cfaf093af6f8f",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.0/mutagen_linux_arm64_v0.16.0.tar.gz": "9f6270c4ca5dd11f90ae1b3fc067dece36ebc10581ff09fb5bcf6c2ee3f9e817",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.1/mutagen_linux_arm64_v0.16.1.tar.gz": "0b46218eb230d5b29e95debed6808f0b2ee77b139b9e0c2a0905127fee5b9e2c",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.2/mutagen_linux_arm64_v0.16.2.tar.gz": "42bb682fe2fec5f6c6d4173a953b6776e8712a644e0832540e6bfbb1c46b284f",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.3/mutagen_linux_arm64_v0.16.3.tar.gz": "7dc8ea368f9bccf1d656ab7fb9ccca56c8e695670d85521526410fac5dcfc3b1",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.4/mutagen_linux_arm64_v0.16.4.tar.gz": "f684f7cf6c1177a0d8abecf1914bed246b1e5e9bdb4a9d93d7398e7fb36648d9",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.16.5/mutagen_linux_arm64_v0.16.5.tar.gz": "06707c0f90a6f015203247b37f5f7389a6b10c58889201f6abe32eb489a393e9",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.2/mutagen_linux_arm64_v0.17.2.tar.gz": "60fdd4f2abe68d3c23b22e48be556038a29175a65877dd43128d56319a6bcae0",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.3/mutagen_linux_arm64_v0.17.3.tar.gz": "2b8c729556d8ece7731131a31b9a0c90cc889e4fca37a36106e79b581eafd94d",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.6/mutagen_linux_arm64_v0.17.6.tar.gz": "2a383cb572a1bdad83f7c4be3cc4a541a58e6c9e11e326ee4cc2d0e14f9d003a",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.0/mutagen_linux_arm64_v0.18.0.tar.gz": "c1621eede2cd9d36cd98d3fa419c843ecc1fb27e854103c754fcad50f4f4bb02",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.1/mutagen_linux_arm64_v0.18.1.tar.gz": "bcba735aebf8cbc11da9b3742118a665599ac697fa06bc5751cac8dcd540db8a",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.0/mutagen_linux_arm64_v0.17.0.tar.gz": "64b47de97e2ad9504f65679bfe45cbbc193a1a8bfaf9d4f7269ac9b3512c2716",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.1/mutagen_linux_arm64_v0.17.1.tar.gz": "e6d81a109f3eee07493b35439e7f3c3b8b3b2dfef6951f48f4aa260049bf9b44",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.4/mutagen_linux_arm64_v0.17.4.tar.gz": "e11cd46a9a3adbe50214120c209d3a7f32361d1c2c0ecfe5366d79d42569cb24",
+  "https://github.com/mutagen-io/mutagen/releases/download/v0.17.5/mutagen_linux_arm64_v0.17.5.tar.gz": "bbe92496c2bad6424a879490ca5b49da36c80e28e7b866201fcaf7a959037237",
 }

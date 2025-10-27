@@ -38,4 +38,13 @@ sha256sums = {
   "https://github.com/thnxdev/happy/releases/download/v0.1.5/happy-0.1.5-darwin-amd64.tar.gz": "d34d8f6cb40f4815afea381434821f22e86ec06915fd097c5d8e65d74d7a33b0",
   "https://github.com/thnxdev/happy/releases/download/v0.1.5/happy-0.1.5-darwin-arm64.tar.gz": "ca4a392ba286cc2f3a8136a39eda65ae5ab19e60702b71043fce7dadef96d514",
   "https://github.com/thnxdev/happy/releases/download/v0.1.5/happy-0.1.5-linux-amd64.tar.gz": "dadeeab745c68c28e7f567779fe3c7abc0ab7a316dac0d02f8ef5e28b280411a",
+  "https://github.com/thnxdev/happy/releases/download/v0.0.1/happy-0.0.1-linux-arm64.tar.gz": "72a050a99ccdd0171503999a8ccebfaadf838158de03025a074085c311b4c7d0",
+  "https://github.com/thnxdev/happy/releases/download/v0.0.2/happy-0.0.2-linux-arm64.tar.gz": "8789895adc988fc0f1bf1822919c1983ac770b2aae17221c3f5736418f4cb336",
+  "https://github.com/thnxdev/happy/releases/download/v0.0.3/happy-0.0.3-linux-arm64.tar.gz": "4c06ee893536938fed26c0dfa73241201bd19784643f2e71dcd4efe7be43abd3",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.0/happy-0.1.0-linux-arm64.tar.gz": "bd47668b4d2b9def5f42a4ed2b6d0bc874236f7990141c0e2ee4657f77ba4d60",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.1/happy-0.1.1-linux-arm64.tar.gz": "2b3d7062106e0d739ded7e93351668588c82baa426d48bff95743053909bf2bf",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.2/happy-0.1.2-linux-arm64.tar.gz": "e6163985a1cbac1400ae3395a2c8a47762e733215254a9e541f931f2ec13cae6",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.3/happy-0.1.3-linux-arm64.tar.gz": "f2f7a81f053795d21fa0d1b68dd217d9b537f07c999a82afdbb3626037446415",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.4/happy-0.1.4-linux-arm64.tar.gz": "cf43da019b1b2174f6e2a5d90e95afff67110e6f5e903b0ed4a66deec134497b",
+  "https://github.com/thnxdev/happy/releases/download/v0.1.5/happy-0.1.5-linux-arm64.tar.gz": "53659819b522facfea6e541006fc7fb18ba0b138ab3eef07ffe58b11b162e35a",
 }

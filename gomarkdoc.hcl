@@ -19,4 +19,7 @@ sha256sums = {
   "https://github.com/princjef/gomarkdoc/releases/download/v1.1.0/gomarkdoc_1.1.0_linux_amd64.tar.gz": "d2259bd92f434c60a90633bca336aed169f17b96d0bb078f408bc68349bf348a",
   "https://github.com/princjef/gomarkdoc/releases/download/v1.1.0/gomarkdoc_1.1.0_darwin_amd64.tar.gz": "0e729f634fe0a943ee5cc0dc30b5293019c4ac6ef80c31a255a8a0154f7e492c",
   "https://github.com/princjef/gomarkdoc/releases/download/v1.1.0/gomarkdoc_1.1.0_darwin_arm64.tar.gz": "27b12364b525524f07b588986d0ad58f87fb2b484eff8a2af0b01332c339e073",
+  "https://github.com/princjef/gomarkdoc/releases/download/v0.4.1/gomarkdoc_0.4.1_linux_arm64.tar.gz": "5d1788494b48dcc6da3e7991379fd4f56ca75b26ded1a291ac3cd6ddf18aa3a1",
+  "https://github.com/princjef/gomarkdoc/releases/download/v1.0.0/gomarkdoc_1.0.0_linux_arm64.tar.gz": "eba8aa78884d7f854f99a932a7820ebe5e4fb3dd97c2e19179092512aa302e8c",
+  "https://github.com/princjef/gomarkdoc/releases/download/v1.1.0/gomarkdoc_1.1.0_linux_arm64.tar.gz": "0457468f63b95ba4b37ef7c15e7778b2354eec2028c68389a9d3066b4391fa2c",
 }

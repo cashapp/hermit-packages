@@ -13,7 +13,8 @@ on "unpack" {
 
 version "0.61.3" "0.62.0" "0.61.4" "0.62.1" "0.62.2" "0.61.5" "0.63.0" "0.63.1"
         "0.63.2" "0.63.3" "0.64.0" "0.64.1" "1.0.0" "1.0.1" "1.1.0" "1.1.1" "1.2.0" "1.2.1"
-        "1.2.2" "1.2.3" "1.3.0" "1.3.1" "1.3.2" "1.4.0" {
+        "1.2.2" "1.2.3" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.5.0" "1.5.1" "1.5.2" "1.6.0"
+        "1.6.1" "1.7.0" "1.7.1" "1.7.2" "1.8.0" "1.8.1" "1.8.2" "1.8.3" "1.8.4" "1.9.0" "1.9.1" {
   auto-version {
     github-release = "mesonbuild/meson"
   }
@@ -44,4 +45,20 @@ sha256sums = {
   "https://github.com/mesonbuild/meson/releases/download/1.3.1/meson-1.3.1.tar.gz": "6020568bdede1643d4fb41e28215be38eff5d52da28ac7d125457c59e0032ad7",
   "https://github.com/mesonbuild/meson/releases/download/1.3.2/meson-1.3.2.tar.gz": "492eb450c8b073024276f916f5adbb3c4bb7e90e9e6ec124efda064f3d9b5baa",
   "https://github.com/mesonbuild/meson/releases/download/1.4.0/meson-1.4.0.tar.gz": "8fd6630c25c27f1489a8a0392b311a60481a3c161aa699b330e25935b750138d",
+  "https://github.com/mesonbuild/meson/releases/download/1.4.1/meson-1.4.1.tar.gz": "1b8aad738a5f6ae64294cc8eaba9a82988c1c420204484ac02ef782e5bba5f49",
+  "https://github.com/mesonbuild/meson/releases/download/1.5.0/meson-1.5.0.tar.gz": "45d7b8653c1e5139df35b33be2dd5b2d040c5b2c6129f9a7c890d507e33312b8",
+  "https://github.com/mesonbuild/meson/releases/download/1.5.1/meson-1.5.1.tar.gz": "567e533adf255de73a2de35049b99923caf872a455af9ce03e01077e0d384bed",
+  "https://github.com/mesonbuild/meson/releases/download/1.5.2/meson-1.5.2.tar.gz": "f955e09ab0d71ef180ae85df65991d58ed8430323de7d77a37e11c9ea630910b",
+  "https://github.com/mesonbuild/meson/releases/download/1.6.0/meson-1.6.0.tar.gz": "999b65f21c03541cf11365489c1fad22e2418bb0c3d50ca61139f2eec09d5496",
+  "https://github.com/mesonbuild/meson/releases/download/1.6.1/meson-1.6.1.tar.gz": "1eca49eb6c26d58bbee67fd3337d8ef557c0804e30a6d16bfdf269db997464de",
+  "https://github.com/mesonbuild/meson/releases/download/1.7.0/meson-1.7.0.tar.gz": "08efbe84803eed07f863b05092d653a9d348f7038761d900412fddf56deb0284",
+  "https://github.com/mesonbuild/meson/releases/download/1.7.1/meson-1.7.1.tar.gz": "155780a5be87f6dd7f427ad8bcbf0f2b2c5f62ee5fdacca7caa9de8439a24b89",
+  "https://github.com/mesonbuild/meson/releases/download/1.7.2/meson-1.7.2.tar.gz": "4d40d63aa748a9c139cc41ab9bffe43edd113c5639d78bde81544ca955aea890",
+  "https://github.com/mesonbuild/meson/releases/download/1.8.0/meson-1.8.0.tar.gz": "0a9b23311271519bd03dca12d7d8b0eab582c3a2c5da433d465b6e519dc88e2f",
+  "https://github.com/mesonbuild/meson/releases/download/1.8.1/meson-1.8.1.tar.gz": "b4e3b80e8fa633555abf447a95a700aba1585419467b2710d5e5bf88df0a7011",
+  "https://github.com/mesonbuild/meson/releases/download/1.8.2/meson-1.8.2.tar.gz": "c105816d8158c76b72adcb9ff60297719096da7d07f6b1f000fd8c013cd387af",
+  "https://github.com/mesonbuild/meson/releases/download/1.8.3/meson-1.8.3.tar.gz": "f118aa910fc0a137cc2dd0122232dbf82153d9a12fb5b0f5bb64896f6a157abf",
+  "https://github.com/mesonbuild/meson/releases/download/1.8.4/meson-1.8.4.tar.gz": "5fabf143f58e6636c8ff41ae489bbd5d5d86f881f0a1ef1726cfaf703116e071",
+  "https://github.com/mesonbuild/meson/releases/download/1.9.0/meson-1.9.0.tar.gz": "cd27277649b5ed50d19875031de516e270b22e890d9db65ed9af57d18ebc498d",
+  "https://github.com/mesonbuild/meson/releases/download/1.9.1/meson-1.9.1.tar.gz": "4e076606f2afff7881d195574bddcd8d89286f35a17b4977a216f535dc0c74ac",
 }

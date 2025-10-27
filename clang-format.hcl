@@ -72,6 +72,20 @@ version "12.0.0-20210518+a37b22cd" {
   }
 }
 
+version "19.0.0-20250417+2da3e7b" {
+  vars = {
+    "hash": "2da3e7b",
+    "release": "19",
+  }
+}
+
+version "20.0.0-20250417+2da3e7b" {
+  vars = {
+    "hash": "2da3e7b",
+    "release": "20",
+  }
+}
+
 sha256sums = {
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-a37b22cd/clang-format-10_macosx-amd64": "0d1bc8b91435996909ff93f113dc39d102e604f790379756de4a0b2efd7fa426",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-a37b22cd/clang-format-10_linux-amd64": "28fdc0753750d70ab4055ef49645da714ee5eb0e5de417941ebac2513306d046",
@@ -87,4 +101,8 @@ sha256sums = {
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-f3a37dd2/clang-format-12_macosx-amd64": "60c55c59825e3860e336818259240a10feec1e68600b6346274f00946adaf0f5",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-f3a37dd2/clang-format-13_macosx-amd64": "f10cc41f3a1a0c4c7f93a0cb5a6bf90d6e2c56b057f93383833bce28dcdb2ea9",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-f3a37dd2/clang-format-13_linux-amd64": "591e640090bd5a9ec8ff9f36c5bc3f6328b1d279dc32b9d6b62771d5d895637f",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-format-19_linux-amd64": "2e3ea58345e20a028b8c35aff964f74df14e4cd17e2d524a8efc1ba9eced7da2",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-format-19_macosx-amd64": "ef150af911f628894bfbb9fc86e9c3ccba042f436dc83577877143c50b388b00",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-format-20_linux-amd64": "0320a8f7cfdbbe5306846ea79dad54e8559057d7ac9a957608527057d9996601",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-format-20_macosx-amd64": "9647c9d25472ce5b1be324e4c0264d653230023314589bd05a16af5334c98016",
 }

@@ -2,16 +2,21 @@ description = "Statically typed programming language (for JS and the JVM)"
 requires = ["jre"]
 source = "https://github.com/JetBrains/kotlin/releases/download/v${version}/kotlin-compiler-${version}.zip"
 // Do not expose "kotlinc" to prevent a conflict with "kotlin-native"
-binaries = ["bin/kapt", "bin/kotlin", "bin/kotlin-dce-js", "bin/kotlinc-js", "bin/kotlinc-jvm"]
+binaries = ["bin/kapt", "bin/kotlin", "bin/kotlinc-js", "bin/kotlinc-jvm"]
 strip = 1
 test = "kotlinc-jvm -version"
 
-version "1.5.0" "1.5.20" "1.5.21" "1.5.30" "1.5.31" "1.6.0" "1.5.32" "1.6.10" "1.6.20"
-        "1.6.21" "1.7.0" "1.7.10" "1.7.20" "1.7.21" "1.8.0" "1.8.10" "1.8.20" "1.8.21" "1.8.22"
-        "1.9.0" "1.9.10" "1.9.20" "1.9.21" "1.9.22" "1.9.23" {
+version "2.1.0" "2.1.10" "2.1.20" "2.1.21" "2.2.0" "2.2.10" "2.2.20" "2.2.21" {
   auto-version {
     github-release = "JetBrains/kotlin"
   }
+}
+
+version "1.5.0" "1.5.20" "1.5.21" "1.5.30" "1.5.31" "1.6.0" "1.5.32" "1.6.10" "1.6.20"
+        "1.6.21" "1.7.0" "1.7.10" "1.7.20" "1.7.21" "1.8.0" "1.8.10" "1.8.20" "1.8.21" "1.8.22"
+        "1.9.0" "1.9.10" "1.9.20" "1.9.21" "1.9.22" "1.9.23" "1.9.24" "2.0.0" "1.9.25"
+        "2.0.10" "2.0.20" "2.0.21" {
+  binaries = ["bin/kapt", "bin/kotlin", "bin/kotlin-dce-js", "bin/kotlinc-js", "bin/kotlinc-jvm"]
 }
 
 sha256sums = {
@@ -40,4 +45,18 @@ sha256sums = {
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.21/kotlin-compiler-1.9.21.zip": "cf17e0272bc065d49e64a86953b73af06065370629f090d5b7c2fe353ccf9c1a",
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.22/kotlin-compiler-1.9.22.zip": "88b39213506532c816ff56348c07bbeefe0c8d18943bffbad11063cf97cac3e6",
   "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-compiler-1.9.23.zip": "93137d3aab9afa9b27cb06a824c2324195c6b6f6179d8a8653f440f5bd58be88",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.24/kotlin-compiler-1.9.24.zip": "eb7b68e01029fa67bc8d060ee54c12018f2c60ddc438cf21db14517229aa693b",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.0.0/kotlin-compiler-2.0.0.zip": "ef578730976154fd2c5968d75af8c2703b3de84a78dffe913f670326e149da3b",
+  "https://github.com/JetBrains/kotlin/releases/download/v1.9.25/kotlin-compiler-1.9.25.zip": "6ab72d6144e71cbbc380b770c2ad380972548c63ab6ed4c79f11c88f2967332e",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.0.10/kotlin-compiler-2.0.10.zip": "88d7d8bad362ae4e114a8b9668c6887b8c85f48e340883db0e317e47c8dc2f4f",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.0.20/kotlin-compiler-2.0.20.zip": "5f5d2a8ad6a718a002acd0775b67a9e27035872fdbd4b0791e3cb3ea00095931",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.0.21/kotlin-compiler-2.0.21.zip": "0352c0a45bd22f80f6b26e485cd04da8047baa5de54865281fb9f89a4a7bcf2a",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.1.0/kotlin-compiler-2.1.0.zip": "b6698d5728ad8f9edcdd01617d638073191d8a03139cc538a391b4e3759ad297",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.1.10/kotlin-compiler-2.1.10.zip": "c6e9e2636889828e19c8811d5ab890862538c89dc2a3101956dfee3c2a8ba6b1",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.1.20/kotlin-compiler-2.1.20.zip": "a118197b0de55ffab2bc8d5cd03a5e39033cfb53383d6931bc761dec0784891a",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.1.21/kotlin-compiler-2.1.21.zip": "1ba08a8b45da99339a0601134cc037b54cf85e9bc0edbe76dcbd27c2d684a977",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.2.0/kotlin-compiler-2.2.0.zip": "1adb6f1a5845ba0aa5a59e412e44c8e405236b957de1a9683619f1dca3b16932",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.2.10/kotlin-compiler-2.2.10.zip": "302d1d8e671e5c3207e6ed62ff11fb555462a628e22a1158254dcaaf7e7394bc",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.2.20/kotlin-compiler-2.2.20.zip": "81f0264c9073b5cbbdb3ff8418cf2c5dac076879fc156fa1a6462f5a5acc4420",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.2.21/kotlin-compiler-2.2.21.zip": "a623871f1cd9c938946948b70ef9170879f0758043885bbd30c32f024e511714",
 }

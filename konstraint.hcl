@@ -11,7 +11,8 @@ on "unpack" {
 }
 
 version "0.23.0" "0.24.0" "0.25.0" "0.25.1" "0.26.0" "0.26.1" "0.27.0" "0.27.1"
-        "0.28.0" "0.29.0" "0.29.1" "0.30.0" "0.31.0" "0.33.0" "0.34.0" "0.35.0" "0.36.0" {
+        "0.28.0" "0.29.0" "0.29.1" "0.30.0" "0.31.0" "0.33.0" "0.34.0" "0.35.0" "0.36.0"
+        "0.37.0" "0.38.0" "0.39.0" {
   auto-version {
     github-release = "plexsystems/konstraint"
   }
@@ -69,4 +70,26 @@ sha256sums = {
   "https://github.com/plexsystems/konstraint/releases/download/v0.36.0/konstraint-darwin-amd64": "a73e2efd811ff048c7beb075f58243dab0b699289992a674d18ac589bb031be6",
   "https://github.com/plexsystems/konstraint/releases/download/v0.36.0/konstraint-darwin-arm64": "c39a626bae2d6e387f8e8075d81a6cc7c2a325ad31021739b0c9fa11e72437a8",
   "https://github.com/plexsystems/konstraint/releases/download/v0.36.0/konstraint-linux-amd64": "b76a7f877eb15a4a5257c764e705c534fa90d22e1a4dfec89b6e27f99603e94f",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.37.0/konstraint-linux-amd64": "4d09f01fd2c6412a293cb57256092368bb41231caa99c129b04fd5a077b8cf16",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.37.0/konstraint-darwin-arm64": "8762844a6d0664e339cb9963eea7a71a7f1552748a59609afdb59949928d65d7",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.37.0/konstraint-darwin-amd64": "ebcd68458cee6d954fc5227bd82f0aee35199ac61db8412b5b917fd3035ff3e1",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.38.0/konstraint-darwin-amd64": "f8293ab443bf5305deaf45b64ee3332628a239e95bb1122c2d5d484cfa49fd91",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.38.0/konstraint-linux-amd64": "0d2d5bdfe246d965094cea59590bd9c660758ab431a1dbb6b4ce8ccc0ce0f85f",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.38.0/konstraint-darwin-arm64": "d352995ee7b62632781ca3ae58632b11362f2be29362515e97da84c612d11b55",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.39.0/konstraint-darwin-arm64": "ec374ea10d490042e722bc78b1c723c2572acc7e5c92100071b89d6dddf69161",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.39.0/konstraint-darwin-amd64": "ba49bfff7d67f4508511436ea90fb7b408aed801e3c50331b8f6960a9fd29d08",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.39.0/konstraint-linux-amd64": "0a8f32c9e37a334ff6475fadee2e9e4fa6def23805173523a4b4b1454a632b73",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.27.1/konstraint-linux-arm64": "15104100b59dc9f91bcb262203884315cef24a85f4420ae5885695643d4b81e2",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.28.0/konstraint-linux-arm64": "b8f836db3536c96b7bc1907f573e0b4df190d3aa0c9aefe3861afc5198d431a6",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.29.0/konstraint-linux-arm64": "de6cd4ec8d330108be8a3141d6f4e07136c4708a6a47ea1db0045e2d1d8ffa38",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.30.0/konstraint-linux-arm64": "305cfbf62220d8d946edfcab25cc8ea02415f54d882b3b2aea21b7e5b23b7990",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.31.0/konstraint-linux-arm64": "0960f344a36b2bcb0209945ae92cc5deeade59ccdfbbe12d4c6615f22d299fe7",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.33.0/konstraint-linux-arm64": "a49c0a5be55137d94be0c62baf766f155679e46fad9b8452da3c698318f4374a",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.34.0/konstraint-linux-arm64": "54dc9ac3f86fc7965498f7dc75468c3af594f7da469a77433589faa3b17e68da",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.35.0/konstraint-linux-arm64": "12f3af99bc246d6cf35323301979e6b38c3164feac57d2acb83289b92c9e699c",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.36.0/konstraint-linux-arm64": "94d8389667cbe3a0c6cf14ff955d2d4e6b383083e7b1f43746081d815735a7d4",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.38.0/konstraint-linux-arm64": "94ce2c2e0c631d27112e6f5376df79994c71631bdebf13e903ea31d87e0b96fc",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.39.0/konstraint-linux-arm64": "397cd2f1e0288867f3808fd8b3c1dc73035d634bfe6a6ef5435ad2dbc3a2c207",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.29.1/konstraint-linux-arm64": "72802039a6526f4a488bae6f36917d92b116b82c87b7555806d2b7280de06a98",
+  "https://github.com/plexsystems/konstraint/releases/download/v0.37.0/konstraint-linux-arm64": "2a117c79dd7f1a515ebf599c40a677fde6c6eb76717a0f8eee78ba4b75f301b4",
 }

@@ -5,7 +5,7 @@ source = "https://github.com/square/certstrap/releases/download/v${version}/cert
 
 on "unpack" {
   rename {
-    from = "${root}/certstrap--${os}-amd64"
+    from = "${root}/certstrap-${os}-amd64"
     to = "${root}/certstrap"
   }
 }

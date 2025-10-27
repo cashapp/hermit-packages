@@ -66,4 +66,13 @@ sha256sums = {
   "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.4c8cf32/rome-linux-x64": "c2534c05e214f91b0183bbb34906f721cb6baf562ab3ef213c36b2dd14a6a400",
   "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.4c8cf32/rome-darwin-x64": "75e2b24aeaa8edc2214f61f67f173f8de59a316daf99ab1c2c631ef0e73fffbf",
   "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.4c8cf32/rome-darwin-arm64": "876c0f64b6e14cd5127884f6d3a10d6d94c322e0dd2c31c3733de85605c18e95",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.3de5a1a/rome-linux-arm64": "81274c52c12f7d97ab2f628c3917edae17036cdc4784ad0a777a6b7bc557b470",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.4c8cf32/rome-linux-arm64": "0574828a04950c994de4480ecfdabfc5a7afd9d7387e3c479e1ba0a71cbdb83b",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.50eb45f/rome-linux-arm64": "61a364ef39d5d1f29dfcd9b65004ac12768ef08743f6b404e3229e7bb86dbd23",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.af25635/rome-linux-arm64": "d18d9317e54d1f9e27505c797e899d3476637e757342a26f9071547cda1136cc",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3-nightly.f65b0d9/rome-linux-arm64": "2ea6120549e755be28cc4a04a8a8d241ad589d41ca0505b1ca4f9e54d5e065b1",
+  "https://github.com/rome/tools/releases/download/v0.4.2/rome-linux-arm64": "fbdf89d1062b378f748dff6b95c144e5f51305f3ee069b1afb3981f87baa5d91",
+  "https://github.com/rome/tools/releases/download/cli%2Fv0.8.0-next/rome-linux-arm64": "5a1685a202dafb5df967ea70315df7717725f624bab747c45c3ecb31101e57e1",
+  "https://github.com/rome/tools/releases/download/cli%2Fv0.10.1-next/rome-linux-arm64": "0c54f062c2e64c11769dfb9f24e3de6641ee26cb08a3a76ce0d9ffe9d78335e8",
+  "https://github.com/rome/tools/releases/download/cli%2Fv12.1.3/rome-linux-arm64": "c52e63dd88b28f9c9ad23f499eaec0f00830b4f0e331b99bef56607135fb6e16",
 }

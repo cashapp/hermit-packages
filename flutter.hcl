@@ -30,11 +30,13 @@ version "2.0.1" "2.2.3" "3.0.0" {
 
 version "3.7.12" "3.10.5" "3.13.8" "3.13.0" "3.13.9" "3.16.0" "3.16.1" "3.16.2"
         "3.16.3" "3.16.4" "3.16.5" "3.16.6" "3.16.7" "3.16.8" "3.16.9" "3.19.1" "3.19.2"
-        "3.19.3" "3.19.4" "3.19.5" "3.19.6" {
+        "3.19.3" "3.19.4" "3.19.5" "3.19.6" "3.22.0" "3.22.3" "3.24.0" "3.24.1" "3.24.2"
+        "3.24.3" "3.24.4" "3.27.0" "3.27.1" "3.27.2" "3.27.3" "3.27.4" "3.29.1" "3.29.2"
+        "3.29.3" {
   auto-version {
     html {
-      url = "https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel"
-      xpath = "(//h3/a[contains(@href, 'https:')]/text())[1]"
+      url = "https://github.com/flutter/flutter/blob/master/CHANGELOG.md"
+      xpath = "(//h3/a[contains(@href, 'https://github.com/flutter/flutter/releases')]/text())[1]"
     }
   }
 }
@@ -109,4 +111,49 @@ sha256sums = {
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.19.6-stable.zip": "383d018cac3decb07a314ccdc028e4f0e01d2d57ee6bee0f2469f9db73d5aa31",
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.19.6-stable.tar.xz": "db6742a20626d0d2a089eb41ad61b9b2138b996679911e9c8268c1f896191f97",
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.19.6-stable.zip": "4e61140df49652bf8fc1e31752a6fa8518fa4f05bc6e4c6bcb01c8dff6d9bf8f",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.22.0-stable.zip": "8b38bde9ab877e1dfef115f5b753b92982b7e74589e24bc27bbaab84c2c53029",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.22.0-stable.tar.xz": "de78685478b224caf2c5b4e508892a0d6ddea70777efcac139a59b5588558299",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.22.0-stable.zip": "efa17ae1415387091867f34e268c1d1aaa71ffd8754fea088e8d956a398dbff1",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.22.3-stable.zip": "b30b28ad6dd5ae1a6aefa23ff72d2418ef5e378a79bc55f7d8d5ba241416acbf",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.22.3-stable.tar.xz": "9c5f70ba118b9163552144901a2efd91d40b22a68a04e67271d6a5ad936e8368",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.22.3-stable.zip": "130f14d063e7cbe3fb7e982f6726a9a4cfa19164850119fa6bdd2875589ba70e",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.24.0-stable.zip": "94ab73b88a4a996c4eb930644838d0863918cbc4a039a8144ccafe2e1cacd304",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.0-stable.tar.xz": "d52a5d12f17d8bcf868d1ccc01fe0f7ffb05b53d9628aa21b07a18f9d33621f2",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.24.0-stable.zip": "3c443985c9cda5f6959a274caddfeb38e11777fc8ed8a69ae700a1485e6dd258",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.24.1-stable.zip": "8475e6b64c0f4847a6285476d3b3fcb6bd972915d1eadef58ff769bfad86166f",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.24.1-stable.zip": "6ad307c7d780ff5003f205687892abb7c0b4d06b07be85b20d347aa006fadb9b",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.1-stable.tar.xz": "32daf9d5a8e430f57fb139921400c7ecf34e4e7e404818ac55658a5a0eaa28f0",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.24.2-stable.zip": "ce69bd4f24763338becc6725d1eda4a8d9c53e1bebc12974e32d2abb9a23c676",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.2-stable.tar.xz": "143f77340401e7f147a380ba18112445ed017c1d187fb4d20e40bb6ea1f13aa5",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.24.2-stable.zip": "6a569f2ed3eff90fe5b83cee184dfdc2a8d8c2b72a590de896cb7553c18e339c",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.24.3-stable.zip": "be1619663d4af3527164114bdb31fa67f84d572f453dc928b5d33959d47ddbcc",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.24.3-stable.zip": "c7947ac3162acc580d9ba55d16ce4a3e51966f5b8799bf0344f455e8ec3df242",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.3-stable.tar.xz": "f4e2369afaf38a8e381c9243fad2ca04b8514194c40ec946825d1f4c5539a095",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.24.4-stable.zip": "7fe3afdcbd374baa3ca4eaeba677cdae74ba91b4ed414a5833b7b7e908b394df",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.4-stable.tar.xz": "2ce78d4a51f063efa7f04666ae010d026d119eea6bdea7e08b736840fe88ddb4",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.24.4-stable.zip": "4a87c4b8ccc330a12f4921fd458ef1ab9c24af72621d0cbbf3e651cf9ac36246",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.27.0-stable.zip": "3e7c1d25408d9ed81785555847459eee98b0b664faea60f773bd1078622988f8",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.27.0-stable.tar.xz": "c0592133cc61d7c4d42762287de84b7e0bafdd3fd62eb26eaadb342c4309d541",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.27.0-stable.zip": "da548f105beaf36812aa485f21cb140294040909a76182a5256085d196abab15",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.27.1-stable.zip": "b59580cdb3fe18e60c88eac17bc9a59cfe3c7acbc9efd83f041f0776421737ee",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.27.1-stable.zip": "3a2e792c4014be62df9d8dfd9cdf1b8e180a10cac11144310f3d2ee149810cf5",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.27.1-stable.tar.xz": "61497eb64cd7b3aa99ca9911ccd921c8dab79afd909ca1c9ff9546067ebcf6ca",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.27.2-stable.zip": "e8333d7f7d3718d80b50445017a426fda3ffa1936dfed7753ec74e43c90becd4",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.27.2-stable.zip": "26c96cd7e4682ffc15a741d2963b15b87123875cb2fbb8ac5dbdc1aee41f5388",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.27.2-stable.tar.xz": "5ba77ace2b2748a251473a89785e8b8305cefd3e9dafafd7a197cda0b803c55a",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.27.3-stable.zip": "b1117c4e1a80ae13a1ba6281b8141e429cb62fc5382386e2a78e00d12a423706",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.27.3-stable.tar.xz": "b5b60424c51ff11b62cc2fad44cdb334c7ac49cb737ae87451c9c09e13aa01d6",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.27.3-stable.zip": "20d1ca79dad65f9f9fcd4c31bdbbbcc2237aa0cd384a83d6dff795d44fe1039a",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.27.4-stable.zip": "4e10b748a01599a79ce414a6257e6465dc71befa128f3868d659d0fca983a485",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.27.4-stable.zip": "cc4d6e6c5b1049e9ca8c7e6444430d916ef08eaf2fd8bca059fa79e424051990",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.27.4-stable.tar.xz": "64df4273de625433c7ba41967932b782f5f9abf3199db8330782d64508379344",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.29.1-stable.tar.xz": "65b1c8d82ee0e7cfa072ece60dac7b7e67f2d476deb3a804a3a57526fefcc027",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.29.1-stable.zip": "be8a4c911e9b7d87483104d1977289de8840fddb61828a7ff4fe7fa885df0476",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.29.1-stable.zip": "2c940958cbc4800ca3e3ac5e5221741d1ae4cccfd2d8b2567ed74e2728e6f03f",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.29.2-stable.tar.xz": "6096f21370773093ec19240e133664c1c12eb8b5a85605a92d16ce462a18eac4",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.29.2-stable.zip": "72e1ce7aa3eacf3f8554ba9995cccd732253737cf9cf010c7d8e55f7a0a2a5c2",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.29.2-stable.zip": "1b6e7179dd69d08ec791df6dc18c4c9a99e4e0a9ee202ed2f2aa7627871e0967",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.29.3-stable.tar.xz": "8a908a5add53c1dfc2031da29e58daefd59a6d1d52fb5cb61f5ee52c73e36e15",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.29.3-stable.zip": "bc3ae28ac1ba131787f99dc40d3bf9362f43e411ce8aab48c7443bacdf03c4b4",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.29.3-stable.zip": "d9626a2920a6d6c08b02dbc362ad6dc20eabe477f06e8683242ba2e5b6a1ae72",
 }

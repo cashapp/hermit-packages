@@ -2,7 +2,8 @@ source = "https://github.com/sibprogrammer/xq/releases/download/v${version}/xq_$
 description = "Command-line XML and HTML beautifier and content extractor"
 binaries = ["xq"]
 
-version "1.0.0" "1.1.0" "1.1.1" "1.1.2" "1.1.3" "1.1.4" "1.2.1" "1.2.2" "1.2.3" "1.2.4" {
+version "1.0.0" "1.1.0" "1.1.1" "1.1.2" "1.1.3" "1.1.4" "1.2.1" "1.2.2" "1.2.3" "1.2.4"
+        "1.2.5" "1.3.0" {
   auto-version {
     github-release = "sibprogrammer/xq"
   }
@@ -39,4 +40,22 @@ sha256sums = {
   "https://github.com/sibprogrammer/xq/releases/download/v1.2.4/xq_1.2.4_linux_amd64.tar.gz": "96148dc3ce4fede9ab47b26fa07f1ada950dfd61ae54db7013c76a410945302f",
   "https://github.com/sibprogrammer/xq/releases/download/v1.2.4/xq_1.2.4_darwin_arm64.tar.gz": "a5621cdf04d51688f7e512776ad9cc27e5be7d97fb3bbdf6ed82becd689b7115",
   "https://github.com/sibprogrammer/xq/releases/download/v1.2.4/xq_1.2.4_darwin_amd64.tar.gz": "4d964edd5c7426da7131dac8532cba93a900514e70e1819db8ffc9f5995aa2b5",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.5/xq_1.2.5_darwin_amd64.tar.gz": "0c367c9f5c8790969251d709be77755778209d3072694ae4769bdc43cb4319e9",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.5/xq_1.2.5_linux_amd64.tar.gz": "7aad6e08108318dbb2b8f3029f6145fce758e903a1513d9f1aeb090ab212ec8d",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.5/xq_1.2.5_darwin_arm64.tar.gz": "ff9cd46a6a244931eef362770e6e3cb9f9cf081ab97b234810c6c43572a1def3",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.3.0/xq_1.3.0_darwin_arm64.tar.gz": "9f55e3a15480ba2678747c8c73294885a3433cdc3d8813788c0accbd4ec62034",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.3.0/xq_1.3.0_darwin_amd64.tar.gz": "b63582e3c04bcb83eeffa4c22c019b8fa61b6d731d634c97dedb9b2e5fc97a27",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.3.0/xq_1.3.0_linux_amd64.tar.gz": "8328bf901a44c2e7fb13c06ab7987ab8a0057e5bc55c4ff9a4ea0d83ec52e417",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.0.0/xq_1.0.0_linux_arm64.tar.gz": "c849b9c9bd48f27914d14b79f6594cb8ed625682174ea85b5cb8725c7a22a910",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.1.0/xq_1.1.0_linux_arm64.tar.gz": "68f089442065fecfb787bf176cae2edba586070b4775e8b42f9a4e8f7aa6e26e",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.1.1/xq_1.1.1_linux_arm64.tar.gz": "4c755fb031cc376f4790cc34167eccd217a9072f9630301a3f4d14ac5da505cf",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.1.2/xq_1.1.2_linux_arm64.tar.gz": "36060f8842c5469bc30520f84d396164d958a305d47b0c2154fe5fd9e1b26f75",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.1.3/xq_1.1.3_linux_arm64.tar.gz": "0f69b7f3d4d801b86e2c43860faea94d508140ab570c0defc082f04901423b24",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.1.4/xq_1.1.4_linux_arm64.tar.gz": "fc50346a22c7c9f6408acfa33335506a904fca7d8a79b3cfb16f2b7a9a3812fd",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.1/xq_1.2.1_linux_arm64.tar.gz": "09e3b2306a6708991f1ce1c726773d3ce7b423d61b1f5b5ac6d3633e6278c53b",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.2/xq_1.2.2_linux_arm64.tar.gz": "ab519e7c0928d461510f4214351896ab073a960b1bf49fe06d54d3119793a1ab",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.3/xq_1.2.3_linux_arm64.tar.gz": "a8989b2b1a5254033aebacb72ffea77964d6903d809361001dbf1ed09a0c6550",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.4/xq_1.2.4_linux_arm64.tar.gz": "414ea9fde3c6e669f034465c21aa095bc3c10a3e3dd8c2989ee8073605274bf9",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.2.5/xq_1.2.5_linux_arm64.tar.gz": "11633a9c98d6c8841dbe1db62ce649c7c8b9aeabd3fb0f63484a0dcc23f26566",
+  "https://github.com/sibprogrammer/xq/releases/download/v1.3.0/xq_1.3.0_linux_arm64.tar.gz": "264928277ca1b77f93e778b2e62c5b6bb8bf573f6c11f0466e7c565184f61dd0",
 }

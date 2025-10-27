@@ -22,4 +22,8 @@ sha256sums = {
   "https://github.com/alecthomas/gptcc/releases/download/v0.0.4/gptcc-0.0.4-linux-amd64.tar.gz": "6d504226b2a77505990fc013959cfb3e87e04fa2862d1d518cb9847be0d9f97b",
   "https://github.com/alecthomas/gptcc/releases/download/v0.0.4/gptcc-0.0.4-darwin-arm64.tar.gz": "2da370f882d91e73458b0f12c95b6facdcca0bffd90b26a006411ea81f0e4a0b",
   "https://github.com/alecthomas/gptcc/releases/download/v0.0.4/gptcc-0.0.4-darwin-amd64.tar.gz": "f71c02a6df0a11010969e44cbdb13cba0778abdf4bca97b30ad7c3942aa7bf0e",
+  "https://github.com/alecthomas/gptcc/releases/download/v0.0.1/gptcc-0.0.1-linux-arm64.tar.gz": "6cd8871c477dfa180974c4bbed57e994116a3e5a2030c2c2637f8185201ee9bb",
+  "https://github.com/alecthomas/gptcc/releases/download/v0.0.2/gptcc-0.0.2-linux-arm64.tar.gz": "986af15335e11440e4b6e917f8c536827c632163717a81949f2d456d831bf2d8",
+  "https://github.com/alecthomas/gptcc/releases/download/v0.0.3/gptcc-0.0.3-linux-arm64.tar.gz": "ffce11d9026080eb47e7a2dd6684d7bb4cc07c464740a065cca60c5459862899",
+  "https://github.com/alecthomas/gptcc/releases/download/v0.0.4/gptcc-0.0.4-linux-arm64.tar.gz": "aef0489080c44095275e605157d2897b79be0d0f173d42c96ae237c004349822",
 }

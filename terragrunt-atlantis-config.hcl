@@ -50,4 +50,8 @@ sha256sums = {
   "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.17.3/terragrunt-atlantis-config_1.17.3_darwin_amd64.zip": "dd31b3eb9912cb8a949af86d009bf7b7316ac5542901ad724302381944116e34",
   "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.17.4/terragrunt-atlantis-config_1.17.4_linux_amd64.tar.gz": "06fbd1a3f482d048cd8e177f7e20f7d8d1b6b66190e64d707e55034ccaaafe64",
   "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.17.4/terragrunt-atlantis-config_1.17.4_darwin_amd64.zip": "19c45bcb43c7107766123d75bef3e44782e60ce0ee537cbaaa52113b1210e4ed",
+  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.15.0/terragrunt-atlantis-config_1.15.0_linux_arm.tar.gz": "a370603593b925eec238540ef59dfb452ede20ac16ef31e14c9937d0a682ff42",
+  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.16.0/terragrunt-atlantis-config_1.16.0_linux_arm.tar.gz": "b37fa0f2e504d026438f03d9a3768ce3c6c4491cec6d1c5547db9a60bf2de9b3",
+  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.17.3/terragrunt-atlantis-config_1.17.3_linux_arm.tar.gz": "b8dcae8c979ef1ad88010877ecf03a8a0a5dc2676cda6bbdef4f5116f9884a4d",
+  "https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v1.17.4/terragrunt-atlantis-config_1.17.4_linux_arm.tar.gz": "72704aaf1668b8c55ffe71bc2c16177a15014d071db590b5e49449b8bd55b6a1",
 }

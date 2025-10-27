@@ -4,7 +4,8 @@ binaries = ["zed"]
 source = "https://github.com/brimdata/zed/releases/download/v${version}/zed-v${version}.${os}-${arch}.tar.gz"
 
 version "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.8.1" "1.9.0"
-        "1.10.0" "1.11.0" "1.11.1" "1.12.0" "1.13.0" "1.14.0" "1.15.0" {
+        "1.10.0" "1.11.0" "1.11.1" "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0" "1.17.0"
+        "1.18.0" {
   auto-version {
     github-release = "brimdata/zed"
   }
@@ -62,4 +63,33 @@ sha256sums = {
   "https://github.com/brimdata/zed/releases/download/v1.15.0/zed-v1.15.0.darwin-amd64.tar.gz": "e16b13114882014bea15f268ddd2c994f73a77aca4265d8292293c688baf5bdc",
   "https://github.com/brimdata/zed/releases/download/v1.15.0/zed-v1.15.0.darwin-arm64.tar.gz": "a4988534da4c87cbd05fd3c2c31b72f1d7a867ce1f43bfa96f36733a017bbe11",
   "https://github.com/brimdata/zed/releases/download/v1.15.0/zed-v1.15.0.linux-amd64.tar.gz": "8193d01c4050e4a22979f7da70faa6b5e5fb3ae959132248ae07c29aa206e2cd",
+  "https://github.com/brimdata/zed/releases/download/v1.16.0/zed-v1.16.0.darwin-arm64.tar.gz": "4ce2cc17bea9990fc5aa2ac6bebf42f6bcd81fedc6262496ec8bc8d06c3424c5",
+  "https://github.com/brimdata/zed/releases/download/v1.16.0/zed-v1.16.0.linux-amd64.tar.gz": "3ef0c59e1d14c83464ec05174109f7ff6a0a0c1cba36f8703036b3e76b9769e2",
+  "https://github.com/brimdata/zed/releases/download/v1.16.0/zed-v1.16.0.darwin-amd64.tar.gz": "6a6c00b9b4639dec5400105551ccd2c5a681379a7be0d370cd4609043c45c952",
+  "https://github.com/brimdata/zed/releases/download/v1.17.0/zed-v1.17.0.linux-amd64.tar.gz": "c179da8afbe70eb37fa0018e77f43cc39e734879803c0fb30e120b928b102138",
+  "https://github.com/brimdata/zed/releases/download/v1.17.0/zed-v1.17.0.darwin-arm64.tar.gz": "28b932891d7d90b9336be7de4d7b4f0dbf280b652f96a48b9d3f6074d29b40ed",
+  "https://github.com/brimdata/zed/releases/download/v1.17.0/zed-v1.17.0.darwin-amd64.tar.gz": "f48e4ef4982264d18a00d2dabf49d270e9ebe9d61da0f110175f55283e325a21",
+  "https://github.com/brimdata/zed/releases/download/v1.18.0/zed-v1.18.0.darwin-arm64.tar.gz": "b7af92d873f6486b2dab852093e0a94b4250dead5cf072dede098acbe1765b14",
+  "https://github.com/brimdata/zed/releases/download/v1.18.0/zed-v1.18.0.linux-amd64.tar.gz": "3f9c61d28e08aaff03cbeaadceb08da36296055b835182d1a6c50c401271060f",
+  "https://github.com/brimdata/zed/releases/download/v1.18.0/zed-v1.18.0.darwin-amd64.tar.gz": "3cfb3c37edf0793ca75a47df73f4be77ce6e534bfe7d103283b9391c279df2cd",
+  "https://github.com/brimdata/zed/releases/download/v1.2.0/zed-v1.2.0.linux-arm64.tar.gz": "8e9df697db06238f2239162c8595838e9436eda80fb403c35d9543c1a3c669a2",
+  "https://github.com/brimdata/zed/releases/download/v1.4.0/zed-v1.4.0.linux-arm64.tar.gz": "fe1df843588d0f14789822f8217bbee639113857c7cf82a718e79f28723eb754",
+  "https://github.com/brimdata/zed/releases/download/v1.5.0/zed-v1.5.0.linux-arm64.tar.gz": "d3778f106cf25726c1fdca30d28a232cf843838cad80fb987e832aabd8f18022",
+  "https://github.com/brimdata/zed/releases/download/v1.6.0/zed-v1.6.0.linux-arm64.tar.gz": "4b9fd153d34af6f16bba1149177e2c3e31a3898984549a6314226e8d120f455d",
+  "https://github.com/brimdata/zed/releases/download/v1.8.1/zed-v1.8.1.linux-arm64.tar.gz": "7237a7d0bff936a977807ff6fbe4305ab979655454684339522c4a6ed7cb645c",
+  "https://github.com/brimdata/zed/releases/download/v1.9.0/zed-v1.9.0.linux-arm64.tar.gz": "c63e2382f6ae34c896048191796037dfe5a39191251f522943a78e59eb1c2d15",
+  "https://github.com/brimdata/zed/releases/download/v1.11.0/zed-v1.11.0.linux-arm64.tar.gz": "d86c525892d0f5541f69e2096234451b4d6df36fcaa9081871425b85580a30b2",
+  "https://github.com/brimdata/zed/releases/download/v1.13.0/zed-v1.13.0.linux-arm64.tar.gz": "a7d6832a71919fc0e8a6f0953a9e08a5c7e0c84c5bc618b98bff79cc09d506a4",
+  "https://github.com/brimdata/zed/releases/download/v1.15.0/zed-v1.15.0.linux-arm64.tar.gz": "99ebc13d6a4e716277dd08b55eaf5f32aa5dd6c2dcaec09d85bc75fbbadb1b34",
+  "https://github.com/brimdata/zed/releases/download/v1.16.0/zed-v1.16.0.linux-arm64.tar.gz": "444cd69779ed20a3badf722524d359457f1bfc7e7e198c761383d35af1f2f789",
+  "https://github.com/brimdata/zed/releases/download/v1.18.0/zed-v1.18.0.linux-arm64.tar.gz": "dfa109865e2d5d7c2b6c6b36b2b763bd3e2e34f74ea6cbcf7fc18c266a48f88a",
+  "https://github.com/brimdata/zed/releases/download/v1.1.0/zed-v1.1.0.linux-arm64.tar.gz": "4d2cf61d30b5d9f4913736504aab0b89f5bb7bf89341353d5d5e5a1256279ada",
+  "https://github.com/brimdata/zed/releases/download/v1.3.0/zed-v1.3.0.linux-arm64.tar.gz": "3a6a152063f053fc4d8ed6b8c79e3d804eb8b5e330974506f1ff1380b80632e0",
+  "https://github.com/brimdata/zed/releases/download/v1.7.0/zed-v1.7.0.linux-arm64.tar.gz": "e71c22a8599c988c9be0288513f52f2847994344761a8959a4292dfbd40a3617",
+  "https://github.com/brimdata/zed/releases/download/v1.8.0/zed-v1.8.0.linux-arm64.tar.gz": "0bf6ed7adaa5828379d2284900d59fb5b42cd7fb96c791be3b410cf46b25134f",
+  "https://github.com/brimdata/zed/releases/download/v1.10.0/zed-v1.10.0.linux-arm64.tar.gz": "297be19d23805f012c7b186790b91b856efd7f7f56d381f0452c2983b681d124",
+  "https://github.com/brimdata/zed/releases/download/v1.11.1/zed-v1.11.1.linux-arm64.tar.gz": "013f0232bd1411965f1bede88b46cdc7191f97cb3d8313f6f4f499188d2e8458",
+  "https://github.com/brimdata/zed/releases/download/v1.12.0/zed-v1.12.0.linux-arm64.tar.gz": "988642d743c1fa0d0b5c6321c3ea663f45486ed87b2df81ca8e43079ce9c9d83",
+  "https://github.com/brimdata/zed/releases/download/v1.14.0/zed-v1.14.0.linux-arm64.tar.gz": "4fe1e3284b620f3a0d0f0f92fad4e75aa59324cd372d4bac0336e21dc8d57cba",
+  "https://github.com/brimdata/zed/releases/download/v1.17.0/zed-v1.17.0.linux-arm64.tar.gz": "3480900fd8d33e0d20bdb82e3f2d9d89d66e472de76b2c7424aa903783e3fbeb",
 }
