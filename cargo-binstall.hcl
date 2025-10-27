@@ -19,7 +19,7 @@ version "1.6.4" "1.6.5" "1.6.6" "1.6.7" "1.6.8" "1.6.9" "1.7.0" "1.7.1" "1.7.2" 
         "1.10.16" "1.10.17" "1.10.18" "1.10.19" "1.10.20" "1.10.21" "1.10.22" "1.10.23"
         "1.11.0" "1.11.1" "1.11.2" "1.12.0" "1.12.1" "1.12.2" "1.12.3" "1.12.4" "1.12.5"
         "1.12.6" "1.12.7" "1.13.0" "1.14.0" "1.14.1" "1.14.2" "1.14.3" "1.14.4" "1.15.0"
-        "1.15.1" "1.15.3" "1.15.4" "1.15.5" "1.15.6" "1.15.7" "1.15.8" {
+        "1.15.1" "1.15.3" "1.15.4" "1.15.5" "1.15.6" "1.15.7" "1.15.8" "1.15.9" {
   auto-version {
     github-release = "cargo-bins/cargo-binstall"
   }
@@ -209,4 +209,7 @@ sha256sums = {
   "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.15.8/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "53b5277c42bd7eb922b2005072999dddb760635656c3fcc4dabd331fe9efe0c5",
   "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.15.8/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "440c211ad0d3fb80e4627a2fe24c4d5ace0780406018b59ef9a9af7ed503ee10",
   "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.15.8/cargo-binstall-universal-apple-darwin.zip": "8bbb76396ed5625314cd23bab52c73f24f332ba0e9086081b2cc96b5822decc6",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.15.9/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "ee4223c340587744677faa974896789bbd14cb36e88787fa097ea617d33f6a4e",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.15.9/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "d3cfb1ef39e6f7f6205196a571788432c6182311eb7d35ec59bd7fc12b4919e4",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.15.9/cargo-binstall-universal-apple-darwin.zip": "a0457614712f171a74dc736a9154f291a2a5ff81c7722ca28ae57ce9cf03dad1",
 }
