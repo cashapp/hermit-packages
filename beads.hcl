@@ -3,23 +3,23 @@ binaries = ["bd"]
 test = "bd version"
 
 platform "darwin" "arm64" {
-  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version#v}_darwin_arm64.tar.gz"
+  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_darwin_arm64.tar.gz"
 }
 
 platform "darwin" "amd64" {
-  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version#v}_darwin_amd64.tar.gz"
+  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_darwin_amd64.tar.gz"
 }
 
 platform "linux" "amd64" {
-  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version#v}_linux_amd64.tar.gz"
+  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_linux_amd64.tar.gz"
 }
 
 platform "linux" "arm64" {
-  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version#v}_linux_arm64.tar.gz"
+  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_linux_arm64.tar.gz"
 }
 
 platform "windows" "amd64" {
-  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version#v}_windows_amd64.zip"
+  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_windows_amd64.zip"
 }
 
 version "0.17.7" {
