@@ -4,7 +4,7 @@ binaries = ["summon"]
 source = "https://github.com/cyberark/summon/releases/download/v${version}/summon-${os}-${arch}.tar.gz"
 
 version "0.9.3" "0.9.4" "0.9.5" "0.9.6" "0.10.0" "0.10.1" "0.10.2" "0.10.3" "0.10.4"
-        "0.10.5" "0.10.6" {
+        "0.10.5" "0.10.6" "0.10.7" {
   auto-version {
     github-release = "cyberark/summon"
   }
@@ -51,4 +51,8 @@ sha256sums = {
   "https://github.com/cyberark/summon/releases/download/v0.10.6/summon-linux-amd64.tar.gz": "f5ef3fe8c1e3869e94429774ae0ccfd0b3cb29b05dc700205e07fbfc60de1259",
   "https://github.com/cyberark/summon/releases/download/v0.10.6/summon-darwin-arm64.tar.gz": "f3591952528cea11abe06ff825e7b3d458e036661950e03437e28e3b9c1864f5",
   "https://github.com/cyberark/summon/releases/download/v0.10.6/summon-linux-arm64.tar.gz": "33a5301acfc4241d33d6f397b3118a4ed70eca72209ab7e818464b03af859711",
+  "https://github.com/cyberark/summon/releases/download/v0.10.7/summon-darwin-amd64.tar.gz": "bc8684463393cf47696d32a5ae288c02402093ba5644116ee9d0373db9d711b9",
+  "https://github.com/cyberark/summon/releases/download/v0.10.7/summon-darwin-arm64.tar.gz": "e82c98ff054b3e177cea10dfdb99fdd9bb0995db61c2afaa3c629c2dc74829ae",
+  "https://github.com/cyberark/summon/releases/download/v0.10.7/summon-linux-amd64.tar.gz": "c4c3f59c5df68cb135376fab13e00b7b8e835505ba81567c79c708195ac185ee",
+  "https://github.com/cyberark/summon/releases/download/v0.10.7/summon-linux-arm64.tar.gz": "3d5901cb1da2555c26a7f624066c22f77a80dfdc8175c5db89523ebd773b932d",
 }
