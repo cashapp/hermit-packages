@@ -3,29 +3,7 @@ homepage = "https://github.com/gzuidhof/tygo"
 binaries = ["tygo"]
 test = "tygo --version"
 
-platform "darwin" "amd64" {
-  source = "https://github.com/gzuidhof/tygo/releases/download/v${version}/tygo_v${version}_darwin_amd64.tar.gz"
-}
-
-platform "darwin" "arm64" {
-  source = "https://github.com/gzuidhof/tygo/releases/download/v${version}/tygo_v${version}_darwin_arm64.tar.gz"
-}
-
-platform "linux" "amd64" {
-  source = "https://github.com/gzuidhof/tygo/releases/download/v${version}/tygo_v${version}_linux_amd64.tar.gz"
-}
-
-platform "linux" "arm64" {
-  source = "https://github.com/gzuidhof/tygo/releases/download/v${version}/tygo_v${version}_linux_arm64.tar.gz"
-}
-
-platform "windows" "amd64" {
-  source = "https://github.com/gzuidhof/tygo/releases/download/v${version}/tygo_v${version}_windows_amd64.zip"
-}
-
-platform "windows" "arm64" {
-  source = "https://github.com/gzuidhof/tygo/releases/download/v${version}/tygo_v${version}_windows_arm64.zip"
-}
+source = "https://github.com/gzuidhof/tygo/releases/download/v${version}/tygo_v${version}_${os}_${arch}.tar.gz"
 
 version "0.2.19" {
   auto-version {
