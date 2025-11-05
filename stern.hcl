@@ -14,7 +14,7 @@ platform "linux" "amd64" {
   source = "https://github.com/stern/stern/releases/download/v${version}/stern_${version}_${os}_${arch}.tar.gz"
 }
 
-version "1.32.0" "1.33.0" {
+version "1.32.0" "1.33.0" "1.33.1" {
   auto-version {
     github-release = "stern/stern"
   }
@@ -27,4 +27,7 @@ sha256sums = {
   "https://github.com/stern/stern/releases/download/v1.33.0/stern_1.33.0_linux_amd64.tar.gz": "87b5b8926a9b49202fddef1b509f72b4961ae777cd1d33a73924841765855084",
   "https://github.com/stern/stern/releases/download/v1.33.0/stern_1.33.0_darwin_amd64.tar.gz": "0bd8921d580d8ad0d6e0379e7ce1eb8b8e850608b9ca4b8432cb982ffabf980b",
   "https://github.com/stern/stern/releases/download/v1.33.0/stern_1.33.0_darwin_arm64.tar.gz": "e6bd1b294384b1e40c23d9238de08f118d331bb1b93be19d1c10d5345a47dded",
+  "https://github.com/stern/stern/releases/download/v1.33.1/stern_1.33.1_linux_amd64.tar.gz": "185be29c6a22bd07c0791ec697900943c0cc27292e5a5640a07a543886f1bfc9",
+  "https://github.com/stern/stern/releases/download/v1.33.1/stern_1.33.1_darwin_amd64.tar.gz": "6dc34102318ef012a4cb16f786c5930240b202b33c20666399230826e857107e",
+  "https://github.com/stern/stern/releases/download/v1.33.1/stern_1.33.1_darwin_arm64.tar.gz": "bdca897b9bd5a0ee8b4d1f4e00c8e63cf503d2f85abceab4ae6a276a7d232d95",
 }

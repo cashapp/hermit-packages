@@ -19,7 +19,8 @@ on "unpack" {
 }
 
 version "1.2024.2" "1.2024.3" "1.2024.4" "1.2024.5" "1.2024.6" "1.2024.7" "1.2024.8"
-        "1.2025.0" "1.2025.1" "1.2025.2" "1.2025.3" "1.2025.4" "1.2025.7" "1.2025.8" "1.2025.9" {
+        "1.2025.0" "1.2025.1" "1.2025.2" "1.2025.3" "1.2025.4" "1.2025.7" "1.2025.8" "1.2025.9"
+        "1.2025.10" {
   auto-version {
     github-release = "plantuml/plantuml"
     version-pattern = "v(.*)"
@@ -42,4 +43,5 @@ sha256sums = {
   "https://github.com/plantuml/plantuml/releases/download/v1.2025.7/plantuml-1.2025.7.jar": "4edcdda164a4be2f8f954f82868795500ebd49f42306236bf88eac41f7e217a8",
   "https://github.com/plantuml/plantuml/releases/download/v1.2025.8/plantuml-1.2025.8.jar": "9662925aea230f963115ab59078955084a765f1f2002e0679337d6ab36e8c70d",
   "https://github.com/plantuml/plantuml/releases/download/v1.2025.9/plantuml-1.2025.9.jar": "280f4aa97f4f3b7af39358dd0d79f65e353b54a1630b5f121a13b1651162185d",
+  "https://github.com/plantuml/plantuml/releases/download/v1.2025.10/plantuml-1.2025.10.jar": "4a01ea09b317180fb8e7eef712dfdca725409d2ee1919e4b5adfe9d8362b6fe5",
 }
