@@ -7,7 +7,7 @@ test = "bats --version"
 
 version "1.0.0" "1.0.1" "1.0.2" "1.1.0" "1.2.0" "1.2.1" "1.3.0" "1.4.0" "1.4.1" "1.5.0"
         "1.6.0" "1.6.1" "1.7.0" "1.8.0" "1.8.1" "1.8.2" "1.9.0" "1.10.0" "1.11.0" "1.11.1"
-        "1.12.0" {
+        "1.12.0" "1.13.0" {
   auto-version {
     github-release = "bats-core/bats-core"
   }
@@ -35,4 +35,5 @@ sha256sums = {
   "https://github.com/bats-core/bats-core/archive/refs/tags/v1.8.2.zip": "4a78963c3cf339ff007833d6c52e504e512b2cffc97cd06d17413e3fc3a3a6c4",
   "https://github.com/bats-core/bats-core/archive/refs/tags/v1.9.0.zip": "5045b4548c612e0222928013f064b9b8b4037c9dad17c544a48d4b84e2cc9b16",
   "https://github.com/bats-core/bats-core/archive/refs/tags/v1.10.0.zip": "c22184cc5b56c71aa8f0147b577adce03b52b6b4c2bc032a9c75dcc30362c34c",
+  "https://github.com/bats-core/bats-core/archive/refs/tags/v1.13.0.zip": "e7da1327c00de5a889293c04e22a26f1e05493eec46478f4c64442e3d8f7586d",
 }
