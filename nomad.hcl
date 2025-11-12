@@ -1,11 +1,10 @@
 description = "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations."
 binaries = ["nomad"]
 test = "nomad --version"
-
 source = "https://releases.hashicorp.com/nomad/${version}/nomad_${version}_${os}_${arch}.zip"
 sha256-source = "https://releases.hashicorp.com/nomad/${version}/nomad_${version}_SHA256SUMS"
 
-version "1.9.7" "1.10.0" "1.10.1" "1.10.2" "1.10.3" "1.10.4" "1.10.5" {
+version "1.9.7" "1.10.0" "1.10.1" "1.10.2" "1.10.3" "1.10.4" "1.10.5" "1.11.0" {
   auto-version {
     github-release = "hashicorp/nomad"
   }
@@ -40,4 +39,8 @@ sha256sums = {
   "https://releases.hashicorp.com/nomad/1.9.7/nomad_1.9.7_linux_amd64.zip": "e9c7337893eceb549557ef9ad341b3ae64f5f43e29ff1fb167b70cfd16748d2d",
   "https://releases.hashicorp.com/nomad/1.9.7/nomad_1.9.7_darwin_arm64.zip": "90f87dffb3669a842a8428899088f3a0ec5a0d204e5278dbb0c1ac16ab295935",
   "https://releases.hashicorp.com/nomad/1.9.7/nomad_1.9.7_linux_arm64.zip": "30984d4d51a484995d9cdb5089a5a209b3332e11ab08caf179a32b9ba2e4227e",
+  "https://releases.hashicorp.com/nomad/1.11.0/nomad_1.11.0_linux_arm64.zip": "f6ea3bb94bdee15bd0d853a68d6212dc7aa42b78476ddee33667205378edae99",
+  "https://releases.hashicorp.com/nomad/1.11.0/nomad_1.11.0_linux_amd64.zip": "ea4beab31494b810f40e8b2ed5fd74950348546879570780406e6647363e32ba",
+  "https://releases.hashicorp.com/nomad/1.11.0/nomad_1.11.0_darwin_arm64.zip": "ff710bea95bf294167cdf0e1ae4a1ec6d4283a1f35abef544b4b708eb12d5b42",
+  "https://releases.hashicorp.com/nomad/1.11.0/nomad_1.11.0_darwin_amd64.zip": "a9f92b7b624a518382f2c492c1b299ba219a2afe955b88fa1e383f788e598978",
 }
