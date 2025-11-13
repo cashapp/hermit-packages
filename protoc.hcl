@@ -17,7 +17,8 @@ platform "linux" "arm64" {
 version "22.1" "22.2" "22.3" "22.4" "23.0" "22.5" "23.1" "23.2" "23.3" "23.4" "24.0"
         "24.1" "24.2" "24.3" "24.4" "25.0" "25.1" "25.2" "25.3" "26.0" "26.1" "27.0" "27.1"
         "27.2" "25.4" "27.3" "27.4" "28.0" "28.1" "28.2" "28.3" "29.0" "29.1" "29.2" "29.3"
-        "25.6" "30.0" "30.1" "29.4" "30.2" "25.7" "31.0" "25.8" "31.1" "32.0" "32.1" "33.0" {
+        "25.6" "30.0" "30.1" "29.4" "30.2" "25.7" "31.0" "25.8" "31.1" "32.0" "32.1" "33.0"
+        "33.1" {
   auto-version {
     github-release = "protocolbuffers/protobuf"
     version-pattern = "v(\\d+\\.\\d+)$"
@@ -240,4 +241,7 @@ sha256sums = {
   "https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-linux-x86_64.zip": "d99c011b799e9e412064244f0be417e5d76c9b6ace13a2ac735330fa7d57ad8f",
   "https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-osx-universal_binary.zip": "88c0a52f048827d6892cd3403e3ae4181208ab261f93428c86d1736f536a60ec",
   "https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-linux-aarch_64.zip": "4b96bc91f8b54d829b8c3ca2207ff1ceb774843321e4fa5a68502faece584272",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-aarch_64.zip": "6018147740548e0e0f764408c87f4cd040e6e1c1203e13aeacaf811892b604f3",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-x86_64.zip": "f3340e28a83d1c637d8bafdeed92b9f7db6a384c26bca880a6e5217b40a4328b",
+  "https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-osx-universal_binary.zip": "58b485f719987cd541bd68b123f9fac47704ed36f410a4f70074e7bf2059d6b7",
 }
