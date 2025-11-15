@@ -10,7 +10,7 @@ platform "amd64" {
   }
 }
 
-version "6.0" {
+version "6.0" "6.1.1" {
   source = "https://github.com/eugeneware/ffmpeg-static/releases/download/b${version}/ffmpeg-${os}-${arch_}.gz"
 
   auto-version {
@@ -51,4 +51,8 @@ sha256sums = {
   "https://github.com/eugeneware/ffmpeg-static/releases/download/b6.0/ffmpeg-linux-x64.gz": "17c1ae10b52ac499180679fe6ba77e17642390c4eedb0f1e3b0ac045da55128f",
   "https://github.com/eugeneware/ffmpeg-static/releases/download/b6.0/ffmpeg-darwin-x64.gz": "a12354fce7eb62361473bbe10d53a1893695babd35869ec8e92e5dfea8d0440b",
   "https://github.com/eugeneware/ffmpeg-static/releases/download/b6.0/ffmpeg-darwin-arm64.gz": "6be74d6f449889c2e87a75873894f8520cad56c08ac76f2a628d85b0519daaca",
+  "https://github.com/eugeneware/ffmpeg-static/releases/download/b6.1.1/ffmpeg-linux-x64.gz": "bfe8a8fc511530457b528c48d77b5737527b504a3797a9bc4866aeca69c2dffa",
+  "https://github.com/eugeneware/ffmpeg-static/releases/download/b6.1.1/ffmpeg-darwin-arm64.gz": "8923876afa8db5585022d7860ec7e589af192f441c56793971276d450ed3bbfa",
+  "https://github.com/eugeneware/ffmpeg-static/releases/download/b6.1.1/ffmpeg-linux-arm64.gz": "754a678672298bc68156adff58aa7385a592c2b30b1d0ae8750c45c915c4bac0",
+  "https://github.com/eugeneware/ffmpeg-static/releases/download/b6.1.1/ffmpeg-darwin-x64.gz": "929b375c1182d956c51f7ac25e0b2b0411fb01f6f407aa15c9758efeb4242106",
 }
