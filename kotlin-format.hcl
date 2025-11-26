@@ -8,6 +8,12 @@ binaries = ["kotlin-format"]
 source = "https://github.com/block/kotlin-formatter/releases/download/${version}/kotlin-formatter-${version}-all.jar"
 dont-extract = true
 
+on "install" {
+  message {
+    text = "!!!!!! IMPORTANT !!!!!! \nThe kotlin-format package is deprecated! Please `hermit install kotlin-formatter` instead."
+  }
+}
+
 on "unpack" {
   rename {
     from = "${root}/kotlin-formatter-${version}-all.jar"
