@@ -1,11 +1,22 @@
 description = "Beads is a lightweight memory management system for AI coding agents"
 binaries = ["bd"]
 test = "bd version"
-source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
 
-version "0.17.7" "0.19.0" "0.20.1" "0.21.2" "0.21.5" "0.21.7" "0.21.9" "0.22.0"
-        "0.22.1" "0.23.0" "0.23.1" "0.24.0" "0.24.2" "0.24.3" "0.25.1" "0.26.0" "0.26.1"
-        "0.27.0" {
+// For some inexplicable reason these versions don't have linux/arm64 binaries
+version "0.22.0" "0.22.1" "0.23.0" "0.23.1" "0.24.0" "0.24.2" "0.24.3" {
+  platform "darwin" {
+    source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
+  }
+
+  platform "linux" "amd64" {
+    source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
+  }
+}
+
+version "0.17.7" "0.19.0" "0.20.1" "0.21.2" "0.21.5" "0.21.7" "0.21.9" "0.25.1"
+        "0.26.0" "0.26.1" "0.27.0" "0.27.2" {
+  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
+
   auto-version {
     github-release = "steveyegge/beads"
   }
@@ -78,4 +89,8 @@ sha256sums = {
   "https://github.com/steveyegge/beads/releases/download/v0.27.0/beads_0.27.0_linux_arm64.tar.gz": "b9418ec58a8d9d1dac10b9df9ebb1db73424a87c3e4d9681910ae8436d0b9398",
   "https://github.com/steveyegge/beads/releases/download/v0.27.0/beads_0.27.0_linux_amd64.tar.gz": "9f0f50c3a4a93a50aba38f8f1d53d9b6d4d422e54480965e51de6aba7453c621",
   "https://github.com/steveyegge/beads/releases/download/v0.27.0/beads_0.27.0_darwin_amd64.tar.gz": "bdbe6ded2d1c8db072dfed631fe0f3a56ae853234c1f03afbe4949e2fcae99e9",
+  "https://github.com/steveyegge/beads/releases/download/v0.27.2/beads_0.27.2_linux_arm64.tar.gz": "7b1bf57bb96fad4f727b34ba677121d2604c9fa9163734c54378faca89065a05",
+  "https://github.com/steveyegge/beads/releases/download/v0.27.2/beads_0.27.2_darwin_amd64.tar.gz": "98fe7cc2ffcbc22a2febe571930b98942c795171d19f331891df914fde50bc0d",
+  "https://github.com/steveyegge/beads/releases/download/v0.27.2/beads_0.27.2_linux_amd64.tar.gz": "ebd72969db4aaf4159134bae5d0f186f443362da272bd9856904fcbbe1a2f4bb",
+  "https://github.com/steveyegge/beads/releases/download/v0.27.2/beads_0.27.2_darwin_arm64.tar.gz": "b589f0791cf67dc6109c3a1ef9bf66037e649800835c8c8f36035910f9694479",
 }
