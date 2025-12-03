@@ -49,7 +49,7 @@ platform "linux" "arm64" {
 
 version "1.2.2" "1.3.0" "1.3.1" "1.4.0" "1.4.1" "1.4.2" "1.5.0" "1.6.0" "1.7.0" "1.8.0"
         "1.8.1" "1.8.2" "1.8.3" "1.8.4" "1.8.5" "1.8.6" "1.10.0" "1.10.2" "1.11.1" "1.11.2"
-        "1.11.3" "1.11.4" "1.11.5" "1.12.0" {
+        "1.11.3" "1.11.4" "1.11.5" "1.12.0" "1.12.1" {
   auto-version {
     github-release = "opengrep/opengrep"
   }
@@ -152,4 +152,8 @@ sha256sums = {
   "https://github.com/opengrep/opengrep/releases/download/v1.12.0/opengrep_manylinux_aarch64": "ca51d9dd71968df7028475c0ae3e406df92278d576a6e5a662e449957bbf466e",
   "https://github.com/opengrep/opengrep/releases/download/v1.12.0/opengrep_osx_x86": "292070db425ebc196b271b08542b6f8db0f8b947f0b8933137d8ea5b9ec2ef98",
   "https://github.com/opengrep/opengrep/releases/download/v1.12.0/opengrep_osx_arm64": "ce2796727033ec7eb15b1cfb17c02849d28b80b8f0f62e8f37c3b1c97bb9a7e1",
+  "https://github.com/opengrep/opengrep/releases/download/v1.12.1/opengrep_manylinux_aarch64": "078d7b69b04e416ed4f2ebf59bdb7dae17e744e0a3af380f9f392af219aec8b8",
+  "https://github.com/opengrep/opengrep/releases/download/v1.12.1/opengrep_manylinux_x86": "f18f3c7012070dec9ac612e1d6715a3d9d34e966e8c5f67c190c5f6ac8d63963",
+  "https://github.com/opengrep/opengrep/releases/download/v1.12.1/opengrep_osx_x86": "7595409c21135349e99f68efac605defdb62944b181d5d7f6e5c4d1822090fc3",
+  "https://github.com/opengrep/opengrep/releases/download/v1.12.1/opengrep_osx_arm64": "542ee85211a2828729349d7c672ed90ad432e9b6397fada96d92b0c0e6df269f",
 }

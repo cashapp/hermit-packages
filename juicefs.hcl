@@ -4,7 +4,7 @@ binaries = ["juicefs"]
 test = "juicefs version"
 source = "https://github.com/juicedata/juicefs/releases/download/v${version}/juicefs-${version}-${os}-${arch}.tar.gz"
 
-version "1.2.4" "1.3.0" {
+version "1.2.4" "1.3.0" "1.3.1" {
   auto-version {
     github-release = "juicedata/juicefs"
   }
@@ -19,4 +19,8 @@ sha256sums = {
   "https://github.com/juicedata/juicefs/releases/download/v1.3.0/juicefs-1.3.0-linux-arm64.tar.gz": "11e29017b1c8c41966eb56feb182b75cece7a6ede764b6147e911655190c8320",
   "https://github.com/juicedata/juicefs/releases/download/v1.3.0/juicefs-1.3.0-linux-amd64.tar.gz": "53cbdc9e6736e576108aadeb5d10cccba4bbb44c50b0d48e0497a3f25d567153",
   "https://github.com/juicedata/juicefs/releases/download/v1.3.0/juicefs-1.3.0-darwin-amd64.tar.gz": "b0e01640d8ac887f8193390f8e5041cc806b7e9b6054fae074f2556c5a059b24",
+  "https://github.com/juicedata/juicefs/releases/download/v1.3.1/juicefs-1.3.1-darwin-amd64.tar.gz": "f1d0dfa7d4bdf51e3e06525da593dd4750470c104cac4fc17baeaa6c0829860d",
+  "https://github.com/juicedata/juicefs/releases/download/v1.3.1/juicefs-1.3.1-darwin-arm64.tar.gz": "565fad233fbd4a2262fdc248c4d4aee0c0a18f3ce04168804f42d0d40dd292d5",
+  "https://github.com/juicedata/juicefs/releases/download/v1.3.1/juicefs-1.3.1-linux-amd64.tar.gz": "eb67a7be5d174b420cb3734d441971b3a462ab522b78ad2a6ed993e7deddcd44",
+  "https://github.com/juicedata/juicefs/releases/download/v1.3.1/juicefs-1.3.1-linux-arm64.tar.gz": "c29bff8f609366011cee03b9abcc76c11a06308b2c314364b8c340a2bfbc6c48",
 }
