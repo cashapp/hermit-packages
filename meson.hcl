@@ -14,7 +14,8 @@ on "unpack" {
 version "0.61.3" "0.62.0" "0.61.4" "0.62.1" "0.62.2" "0.61.5" "0.63.0" "0.63.1"
         "0.63.2" "0.63.3" "0.64.0" "0.64.1" "1.0.0" "1.0.1" "1.1.0" "1.1.1" "1.2.0" "1.2.1"
         "1.2.2" "1.2.3" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.5.0" "1.5.1" "1.5.2" "1.6.0"
-        "1.6.1" "1.7.0" "1.7.1" "1.7.2" "1.8.0" "1.8.1" "1.8.2" "1.8.3" "1.8.4" "1.9.0" "1.9.1" {
+        "1.6.1" "1.7.0" "1.7.1" "1.7.2" "1.8.0" "1.8.1" "1.8.2" "1.8.3" "1.8.4" "1.9.0" "1.9.1"
+        "1.9.2" {
   auto-version {
     github-release = "mesonbuild/meson"
   }
@@ -61,4 +62,5 @@ sha256sums = {
   "https://github.com/mesonbuild/meson/releases/download/1.8.4/meson-1.8.4.tar.gz": "5fabf143f58e6636c8ff41ae489bbd5d5d86f881f0a1ef1726cfaf703116e071",
   "https://github.com/mesonbuild/meson/releases/download/1.9.0/meson-1.9.0.tar.gz": "cd27277649b5ed50d19875031de516e270b22e890d9db65ed9af57d18ebc498d",
   "https://github.com/mesonbuild/meson/releases/download/1.9.1/meson-1.9.1.tar.gz": "4e076606f2afff7881d195574bddcd8d89286f35a17b4977a216f535dc0c74ac",
+  "https://github.com/mesonbuild/meson/releases/download/1.9.2/meson-1.9.2.tar.gz": "3499b59bb23982496e01e57b4103ac2f826f9c3a3f59e507a0a832487fe55e3d",
 }
