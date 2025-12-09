@@ -5,7 +5,7 @@ binaries = ["chainsaw"]
 test = "chainsaw version"
 
 version "0.2.4" "0.2.5" "0.2.6" "0.2.7" "0.2.8" "0.2.9" "0.2.10" "0.2.11" "0.2.12"
-        "0.2.13" {
+        "0.2.13" "0.2.14" {
   auto-version {
     github-release = "kyverno/chainsaw"
   }
@@ -52,4 +52,8 @@ sha256sums = {
   "https://github.com/kyverno/chainsaw/releases/download/v0.2.13/chainsaw_darwin_arm64.tar.gz": "45ce392cece57a7db28760d5c73243acd59090805eb013a304e4ac9e52217092",
   "https://github.com/kyverno/chainsaw/releases/download/v0.2.13/chainsaw_linux_arm64.tar.gz": "f0bbbd1d4b6090bec8ad82305251098b7e9e5069dc67b328d68aeb57dc2974f7",
   "https://github.com/kyverno/chainsaw/releases/download/v0.2.13/chainsaw_linux_amd64.tar.gz": "6c8d4cdccacbea7100a8354893b3176d874eecfe70c930fbe0496b7967d61ca4",
+  "https://github.com/kyverno/chainsaw/releases/download/v0.2.14/chainsaw_darwin_amd64.tar.gz": "983ce0e4ff32a2112481833d7be4e0a0f0530fadba630fa93d3a635539bc1db0",
+  "https://github.com/kyverno/chainsaw/releases/download/v0.2.14/chainsaw_darwin_arm64.tar.gz": "ff806554a15e12faca08b54d373a61e27808f40c34208248924f7b71a301f786",
+  "https://github.com/kyverno/chainsaw/releases/download/v0.2.14/chainsaw_linux_amd64.tar.gz": "f2f4a3f9a541d65db12f5c910950758f7d56fae20ad5b1272cdc271c9568443e",
+  "https://github.com/kyverno/chainsaw/releases/download/v0.2.14/chainsaw_linux_arm64.tar.gz": "b6494b71e490ab825890fc12cc575de7f59bfa637d5cfe73c66987e4454e397c",
 }
