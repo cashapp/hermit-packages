@@ -12,7 +12,7 @@ platform "linux" "amd64" {
 
 on "unpack" {
   run {
-    cmd = "/bin/bash -c 'unzip dist.zip && mv dist/* .'"
+    cmd = "bash -c 'unzip dist.zip && mv dist/* .'"
   }
 }
 
