@@ -3,7 +3,7 @@ binaries = ["ko"]
 test = "ko --help"
 
 version "0.9.3" "0.10.0" "0.11.0" "0.11.1" "0.11.2" "0.12.0" "0.13.0" "0.14.1"
-        "0.15.0" "0.15.1" "0.15.2" "0.15.3" "0.15.4" "0.16.0" "0.17.1" "0.18.0" {
+        "0.15.0" "0.15.1" "0.15.2" "0.15.3" "0.15.4" "0.16.0" "0.17.1" "0.18.0" "0.18.1" {
   auto-version {
     github-release = "google/ko"
   }
@@ -52,4 +52,6 @@ sha256sums = {
   "https://github.com/google/ko/releases/download/v0.17.1/ko_0.17.1_Darwin_x86_64.tar.gz": "888656c3f0028d4211654a9df57b003fe26f874b092776c83acace7aca8a73a4",
   "https://github.com/google/ko/releases/download/v0.18.0/ko_0.18.0_Darwin_x86_64.tar.gz": "066013c67e6e4b7c5f7c1a6b3c93ba66989e47de435558ff7edb875608028668",
   "https://github.com/google/ko/releases/download/v0.18.0/ko_0.18.0_Linux_x86_64.tar.gz": "ce8c8776b243357e0a822c279b06c34302460221e834765dee5f4e9e2c0b7b38",
+  "https://github.com/google/ko/releases/download/v0.18.1/ko_0.18.1_Linux_x86_64.tar.gz": "048ab11818089a43b7b74bc554494a79a3fd0d9822c061142e5cd3cf8b30cb27",
+  "https://github.com/google/ko/releases/download/v0.18.1/ko_0.18.1_Darwin_x86_64.tar.gz": "0e0dd8fddbefebb8572ece4dca8f07a7472de862fedd7e9845fd9d651e0d5dbe",
 }
