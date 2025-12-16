@@ -26,7 +26,8 @@ platform "darwin" {
 version "1.16.1" "1.17.0" "1.18.0" "1.19.0" "1.20.0" "1.20.1" "1.21.0" "1.21.1"
         "1.21.2" "1.22.1" "1.23.0" "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.25.0" "1.26.0"
         "1.26.1" "1.27.0" "1.27.1" "1.27.3" "2.0.0" "2.0.2" "2.1.0" "2.1.1" "2.1.2" "2.2.0"
-        "2.3.1" "2.3.3" "2.3.4" "2.3.5" "2.3.6" "2.4.1" "2.5.0" "2.6.0" "2.7.0" "2.8.0" "2.8.1" {
+        "2.3.1" "2.3.3" "2.3.4" "2.3.5" "2.3.6" "2.4.1" "2.5.0" "2.6.0" "2.7.0" "2.8.0" "2.8.1"
+        "3.0.0" {
   auto-version {
     github-release = "TomWright/dasel"
   }
@@ -147,4 +148,7 @@ sha256sums = {
   "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_linux_arm64": "7da843ff0e043e893a78c489f9e97e9332339816dec642ee90d60b3b08980e89",
   "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_linux_arm64": "92b83f30949679197403ff7a7e0f9ef3e458c1c55031d9c1bc112364e487d57d",
   "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_linux_arm64": "0cc16ce50437a9e47c1aa9ae4d2242e1bb5031a3805082be610ba466f5b7fee2",
+  "https://github.com/TomWright/dasel/releases/download/v3.0.0/dasel_linux_arm64": "c4ae3853bba683eb582021d11c4cb455c43db2322423cdaa35fb92e417295a8f",
+  "https://github.com/TomWright/dasel/releases/download/v3.0.0/dasel_linux_amd64": "13db7dc6bd170890880c031978726da01b00292d405ea4e0b685fb1de43ecb08",
+  "https://github.com/TomWright/dasel/releases/download/v3.0.0/dasel_darwin_amd64": "6ea60174f277abc3a8459e562371a0acd79548b5fc5bf7fd2d8c9a31c1fd3fd6",
 }

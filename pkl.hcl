@@ -27,7 +27,8 @@ on "unpack" {
 }
 
 version "0.25.1" "0.25.2" "0.25.3" "0.26.0" "0.26.1" "0.26.2" "0.26.3" "0.27.0"
-        "0.27.1" "0.27.2" "0.28.0" "0.28.1" "0.28.2" "0.29.0" "0.29.1" "0.30.0" "0.30.1" {
+        "0.27.1" "0.27.2" "0.28.0" "0.28.1" "0.28.2" "0.29.0" "0.29.1" "0.30.0" "0.30.1"
+        "0.30.2" {
   auto-version {
     github-release = "apple/pkl"
   }
@@ -102,4 +103,8 @@ sha256sums = {
   "https://github.com/apple/pkl/releases/download/0.30.1/pkl-macos-amd64": "a0e0d8444015c542e44a86032ae2854be03cb89a6848465860ea83fdb82f2307",
   "https://github.com/apple/pkl/releases/download/0.30.1/pkl-linux-aarch64": "fe128f0deae07d8917a1589c86cb7e74477bdf1f8ee0a8e2a574b9c3ffd4554d",
   "https://github.com/apple/pkl/releases/download/0.30.1/pkl-macos-aarch64": "9eb599df76dfe80b0f813180ed73f76a5feb316f2f8816714700ba5b6ab995c0",
+  "https://github.com/apple/pkl/releases/download/0.30.2/pkl-macos-aarch64": "f1db44c0f6f859aee88c9d7d272f2371ae40ac95ec9957ae78eff51665158e04",
+  "https://github.com/apple/pkl/releases/download/0.30.2/pkl-linux-aarch64": "8da3ae65104eb7058e35dc4a9fe46bd8ece2b6faf4b65d0b1054cadb2ede0246",
+  "https://github.com/apple/pkl/releases/download/0.30.2/pkl-linux-amd64": "474e5137d60a9e2320fde19a526f42c36d8e9d3b245139d59a9b8dff85283c76",
+  "https://github.com/apple/pkl/releases/download/0.30.2/pkl-macos-amd64": "5f62ae7a7a34c15b3a83af17bda8e6b98516953f383a492340d4aa090caaa6d9",
 }

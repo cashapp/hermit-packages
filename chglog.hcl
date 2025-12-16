@@ -31,7 +31,7 @@ platform "windows" {
   }
 }
 
-version "0.6.1" "0.6.2" "0.7.0" "0.7.3" {
+version "0.6.1" "0.6.2" "0.7.0" "0.7.3" "0.7.4" {
   auto-version {
     github-release = "goreleaser/chglog"
   }
@@ -54,4 +54,8 @@ sha256sums = {
   "https://github.com/goreleaser/chglog/releases/download/v0.7.3/chglog_Linux_arm64.tar.gz": "1ce12e183748d0238dbef3c753c14223ffad8adb0ae95f02bc56337bd68207c9",
   "https://github.com/goreleaser/chglog/releases/download/v0.7.3/chglog_Darwin_x86_64.tar.gz": "78f2375f99f63d25ac3f8250db96cbf6538062ac617311e9284b390bac84f9f9",
   "https://github.com/goreleaser/chglog/releases/download/v0.7.3/chglog_Darwin_arm64.tar.gz": "cd8d1c186a2fbb788435a4027a59ebc0b42a7dc7633610d468d7acd05f616535",
+  "https://github.com/goreleaser/chglog/releases/download/v0.7.4/chglog_Darwin_x86_64.tar.gz": "f9ebddecc6e08800116501c8509b766df289596d9bd1ec6ba5f045e901ef2918",
+  "https://github.com/goreleaser/chglog/releases/download/v0.7.4/chglog_Linux_x86_64.tar.gz": "0e56c4911b1d3f81e0fc44dcaeda286bb837dfc70bff2e9c7dca7d5cea8bd363",
+  "https://github.com/goreleaser/chglog/releases/download/v0.7.4/chglog_Darwin_arm64.tar.gz": "2eadef30625a609ea4b77c8d724fe00e4595c8dac7cc07c3a4ee2e247048d7a3",
+  "https://github.com/goreleaser/chglog/releases/download/v0.7.4/chglog_Linux_arm64.tar.gz": "b31a4ec9db6343ceb6e82224f89e7a782ce0ff9a62bd250febede56afd831fdb",
 }
