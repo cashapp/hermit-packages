@@ -17,7 +17,7 @@ version "1.62.3" "1.62.4" "1.62.5" "1.63.1" "1.63.2" "1.64.2" "1.64.3" "1.64.8"
         "2.20.12" "2.22.4" "2.22.6" "2.22.12" "2.23.4" "2.24.3" "2.26.9" "2.30.4" "2.31.4"
         "2.31.8" "2.33.5" "2.33.7" "2.33.9" "2.34.3" "2.39.2" "2.40.6" "2.40.7" "2.45.5"
         "2.47.2" "2.48.3" "2.51.0" "2.53.6" "2.54.11" "2.58.5" "2.61.2" "2.62.5" "2.62.10"
-        "2.65.2" "2.65.5" {
+        "2.65.2" "2.65.5" "2.67.1" {
   auto-version {
     github-release = "supabase/cli"
   }
@@ -508,4 +508,8 @@ sha256sums = {
   "https://github.com/supabase/cli/releases/download/v2.65.5/supabase_darwin_amd64.tar.gz": "6a6c3e440b759c95be55b46d694f298361381cf4d199233ea5bc0ec4a2b1651a",
   "https://github.com/supabase/cli/releases/download/v2.65.5/supabase_linux_amd64.tar.gz": "5fd9dec86b5a5f59f129a57e69b80e11511636d7736755bf3f5225bc76dad723",
   "https://github.com/supabase/cli/releases/download/v2.65.5/supabase_linux_arm64.tar.gz": "40a256f73e541aded7d95557c7c0e72e2891a7acd9b94e3baba7dda7c0139adc",
+  "https://github.com/supabase/cli/releases/download/v2.67.1/supabase_linux_arm64.tar.gz": "a8ff29cf0acfda38f1da39bfd860f239dc4cee7bd91cac332380f62a88e438c5",
+  "https://github.com/supabase/cli/releases/download/v2.67.1/supabase_darwin_arm64.tar.gz": "f9e713c69879c862f9449cee5000cd5036b3e0e53f9dde6699ced9577d28f292",
+  "https://github.com/supabase/cli/releases/download/v2.67.1/supabase_darwin_amd64.tar.gz": "aa1d7d8287e592c01ed0d7af363959ca866a24e3ed39b2617d02c4e871317623",
+  "https://github.com/supabase/cli/releases/download/v2.67.1/supabase_linux_amd64.tar.gz": "7326f45a3354b6e44d948e4c6500ea9813247268887403ddfe9691ac2033f80e",
 }
