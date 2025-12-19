@@ -1,6 +1,9 @@
 description = "A markdown table of content generator written in Rust"
 
 version "4.0.0" {
+    auto-version {
+        github-release = "KevinGimbel/mktoc"
+    }
 }
 
 binaries = ["mktoc"]
