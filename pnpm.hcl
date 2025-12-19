@@ -60,7 +60,7 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
         "10.11.0" "10.11.1" "10.12.1" "10.12.2" "10.12.3" "10.12.4" "10.13.1" "10.14.0"
         "10.15.0" "10.15.1" "10.16.0" "10.16.1" "10.17.0" "10.17.1" "10.18.0" "10.18.1"
         "10.18.2" "10.18.3" "10.19.0" "10.20.0" "10.21.0" "10.22.0" "10.23.0" "10.24.0"
-        "10.25.0" "10.26.0" {
+        "10.25.0" "10.26.0" "10.26.1" {
   auto-version {
     github-release = "pnpm/pnpm"
   }
@@ -431,4 +431,8 @@ sha256sums = {
   "https://github.com/pnpm/pnpm/releases/download/v10.26.0/pnpm-linux-arm64": "57567a0cf9e7b3b8f067435b56651a0fb7ae9f44e1062764885d90aa79b09645",
   "https://github.com/pnpm/pnpm/releases/download/v10.26.0/pnpm-macos-x64": "67e07f68710e379172f902652273d197232b1860ca3821b1dbe05a097735de3a",
   "https://github.com/pnpm/pnpm/releases/download/v10.26.0/pnpm-linux-x64": "9610a7389ed89c1bea815e273a754fadb236d259f4ff7c7f3ac4d7f1922c2791",
+  "https://github.com/pnpm/pnpm/releases/download/v10.26.1/pnpm-macos-arm64": "ec940bcd51a34276cbf2176bcf0b1c77345d406898dc45b7e48be7be571454b3",
+  "https://github.com/pnpm/pnpm/releases/download/v10.26.1/pnpm-linux-x64": "1e79584ec70e1b9a34e744ac53943f7dd9d83256af0a1136d4c93fdcf5fb3bb3",
+  "https://github.com/pnpm/pnpm/releases/download/v10.26.1/pnpm-macos-x64": "aa70e8aa32150ac449c52dcebff84335b51771b18a4bba07b23b31d831a4ed65",
+  "https://github.com/pnpm/pnpm/releases/download/v10.26.1/pnpm-linux-arm64": "d87da2120c356a210fea325e7333b5f8a22c3bac652203cd4d2492fcc8cb49f3",
 }
