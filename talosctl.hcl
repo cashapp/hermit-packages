@@ -14,7 +14,7 @@ on "unpack" {
 version "1.7.0" "1.7.1" "1.7.2" "1.7.3" "1.7.4" "1.7.5" "1.7.6" "1.7.7" "1.8.0" "1.8.1"
         "1.8.2" "1.8.3" "1.8.4" "1.9.0" "1.9.1" "1.9.2" "1.9.3" "1.9.4" "1.9.5" "1.10.0"
         "1.10.1" "1.10.2" "1.10.3" "1.10.4" "1.10.5" "1.10.6" "1.10.7" "1.11.0" "1.11.1"
-        "1.11.2" "1.11.3" "1.11.5" "1.10.8" "1.11.6" {
+        "1.11.2" "1.11.3" "1.11.5" "1.10.8" "1.11.6" "1.12.0" {
   auto-version {
     github-release = "siderolabs/talos"
   }
@@ -157,4 +157,8 @@ sha256sums = {
   "https://github.com/siderolabs/talos/releases/download/v1.11.6/talosctl-darwin-amd64": "cf2fb9d1fbd42a09386de19d6dbb766e0a532209b001dfe2ac5e7d471f967b63",
   "https://github.com/siderolabs/talos/releases/download/v1.11.6/talosctl-linux-arm64": "39c4e3d1bda2870a2de5a4f30a6f728914d3d27da5bf75380387717d75ed694a",
   "https://github.com/siderolabs/talos/releases/download/v1.11.6/talosctl-darwin-arm64": "72f77fbc522ddb215df7c262d0f65b2074cf3874f233f29e952694b32da06dd3",
+  "https://github.com/siderolabs/talos/releases/download/v1.12.0/talosctl-linux-arm64": "4dbba7abca4fc16d022b13a8eb3b80d2513827cfedeb1a1b0b54df48dad68e66",
+  "https://github.com/siderolabs/talos/releases/download/v1.12.0/talosctl-darwin-arm64": "5a7736453c9652c1e1899df9eb905a3e640edeecfc513b9e606e44c2c3ec0531",
+  "https://github.com/siderolabs/talos/releases/download/v1.12.0/talosctl-darwin-amd64": "5f28272b77fc94e0f314506263305051846cdc464cf33a97fd109028e2afb549",
+  "https://github.com/siderolabs/talos/releases/download/v1.12.0/talosctl-linux-amd64": "11a2745cf92b016b4783acf5eb56bfc394aede61a976dd17b5e8f6d09397e22a",
 }
