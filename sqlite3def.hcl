@@ -22,7 +22,7 @@ version "0.15.22" "0.15.23" "0.15.24" "0.15.25" "0.15.26" "0.15.27" "0.16.0" "0.
         "3.1.3" "3.1.5" "3.1.7" "3.1.8" "3.1.10" "3.1.12" "3.1.15" "3.1.16" "3.1.17" "3.1.18"
         "3.2.0" "3.2.1" "3.2.2" "3.3.0" "3.4.0" "3.5.0" "3.6.0" "3.6.1" "3.6.2" "3.6.4" "3.6.5"
         "3.6.6" "3.6.7" "3.7.1" "3.7.3" "3.7.4" "3.7.5" "3.7.7" "3.7.9" "3.8.1" "3.8.4" "3.8.7"
-        "3.8.10" "3.8.12" "3.8.13" {
+        "3.8.10" "3.8.12" "3.8.13" "3.8.14" {
   auto-version {
     github-release = "sqldef/sqldef"
   }
@@ -501,4 +501,8 @@ sha256sums = {
   "https://github.com/sqldef/sqldef/releases/download/v3.8.13/sqlite3def_linux_amd64.tar.gz": "8bacee470c18035d1fb4326a5419817cb7315949b0903a3951b02f55d645be0a",
   "https://github.com/sqldef/sqldef/releases/download/v3.8.13/sqlite3def_darwin_arm64.zip": "f2a2f098f29f9b3e644e073e88c6c83a15ce8d99699fac8bdd7374df32b0ac7b",
   "https://github.com/sqldef/sqldef/releases/download/v3.8.13/sqlite3def_darwin_amd64.zip": "fe91d309312ae0feba3ecf02eb1478f834e1b254c5e95d8cf19e8ba193867647",
+  "https://github.com/sqldef/sqldef/releases/download/v3.8.14/sqlite3def_darwin_arm64.zip": "14eacab5aed3354a647532e3aea9e46d8e50362c37ac5a0090c374c768fe020e",
+  "https://github.com/sqldef/sqldef/releases/download/v3.8.14/sqlite3def_linux_arm64.tar.gz": "054054a51ec567566ca3fa02d6f41e06cef20b418459ec2b58129f1301a6508a",
+  "https://github.com/sqldef/sqldef/releases/download/v3.8.14/sqlite3def_linux_amd64.tar.gz": "fae34a068fc0c6bd04ca7c5a8b8eea85ddd69346175080e77b408b015fe97bba",
+  "https://github.com/sqldef/sqldef/releases/download/v3.8.14/sqlite3def_darwin_amd64.zip": "2e09c9ced03f00c429150a078090dcc0c14e42b591a07cf3cd39eec56aca8661",
 }
