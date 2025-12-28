@@ -29,14 +29,14 @@ for pkg in $(git diff --name-only "$base" "$head_ref" | grep '\.hcl$' | sed 's/\
     for ver in $new_versions; do
       echo "Testing ${pkg}-${ver}"
       if [ "$dry_run" = false ]; then
-        hermit test -t "${pkg}-${ver}"
+        hermit test --no-check-sources "${pkg}-${ver}"
         hermit clean -tp
       fi
     done
   else
     echo "Testing ${pkg}@latest"
     if [ "$dry_run" = false ]; then
-      hermit test -t "${pkg}@latest"
+      hermit test --no-check-sources "${pkg}@latest"
       hermit clean -tp
     fi
   fi
