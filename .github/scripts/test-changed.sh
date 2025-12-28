@@ -14,6 +14,12 @@ head_ref="${1:-HEAD}"
 base=$(git merge-base origin/master "$head_ref")
 script_dir="$(dirname "$0")"
 
+# Create and activate a hermit environment for testing
+test_env=$(mktemp -d)
+trap "rm -rf '$test_env'" EXIT
+~/bin/hermit init --sources="file://$PWD" "$test_env" >/dev/null 2>&1
+source "$test_env/bin/activate-hermit" >/dev/null 2>&1
+
 for pkg in $(git diff --name-only "$base" "$head_ref" | grep '\.hcl$' | sed 's/\.hcl$//'); do
   base_versions=$("$script_dir/get-versions.sh" "$pkg" "$base")
   head_versions=$("$script_dir/get-versions.sh" "$pkg" "$head_ref")

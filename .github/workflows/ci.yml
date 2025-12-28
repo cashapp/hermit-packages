@@ -24,8 +24,5 @@ jobs:
       - name: Test packages
         run: |
           set -xe -o pipefail
-          mkdir build testenv
           ~/bin/hermit validate "file://$PWD"
-          ~/bin/hermit init --sources="file://$PWD" ./testenv
-          . ./testenv/bin/activate-hermit
           .github/scripts/test-changed.sh
