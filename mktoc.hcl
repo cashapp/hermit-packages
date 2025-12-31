@@ -1,6 +1,6 @@
 description = "A markdown table of content generator written in Rust"
 
-version "4.0.0" "5.0.0" {
+version "4.0.0" "5.0.0" "5.1.1" {
   auto-version {
     github-release = "KevinGimbel/mktoc"
   }
@@ -26,4 +26,8 @@ sha256sums = {
   "https://github.com/KevinGimbel/mktoc/releases/download/v5.0.0/mktoc-x86_64-apple-darwin.tar.gz": "0a8a163c87a95a46db7b6516acdacca642c53a804670d866705617340d03fedb",
   "https://github.com/KevinGimbel/mktoc/releases/download/v5.0.0/mktoc-aarch64-apple-darwin.tar.gz": "40d2a41ee814f05babdb556078673f264db11a2e19f190c8ecec827f89f93104",
   "https://github.com/KevinGimbel/mktoc/releases/download/v5.0.0/mktoc-aarch64-unknown-linux-gnu.tar.gz": "c1ea911d6b8a4f8aea5dc9196743484eebd8b1eb75272de9d3751f1fbe120986",
+  "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-apple-darwin.tar.gz": "56306101e9a24d5cb47d64e320b6af8203ea6f7134cd4f369e13cde3d3ff4c57",
+  "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-apple-darwin.tar.gz": "0e17561184de84218197be9856c5f4af905d77a652330ef583e948b1194fb0d2",
+  "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-unknown-linux-gnu.tar.gz": "95cf8abf7447566baf225fb4baefdb6a2bed6b3440519fd02449b5a4bdf14c48",
+  "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-unknown-linux-gnu.tar.gz": "ae800cf945cb59c75ba0df87df62651bd9d91cc70e826012dd732eba94606802",
 }
