@@ -3,7 +3,7 @@ homepage = "https://chezmoi.io"
 binaries = ["chezmoi"]
 source = "https://github.com/twpayne/chezmoi/releases/download/v${version}/chezmoi_${version}_${os}_${arch}.tar.gz"
 
-version "2.66.1" "2.67.0" "2.67.1" "2.68.0" "2.68.1" {
+version "2.66.1" "2.67.0" "2.67.1" "2.68.0" "2.68.1" "2.69.0" {
   auto-version {
     github-release = "twpayne/chezmoi"
   }
@@ -30,4 +30,8 @@ sha256sums = {
   "https://github.com/twpayne/chezmoi/releases/download/v2.68.1/chezmoi_2.68.1_linux_amd64.tar.gz": "3013e9d8d5eeab832b28bc87c8666efddecfc0fe9a1c6597368d940498022fe1",
   "https://github.com/twpayne/chezmoi/releases/download/v2.68.1/chezmoi_2.68.1_darwin_arm64.tar.gz": "4d5f98464382a29cb717b9fc39fce720d451f996181a15dd0dc6ca16305dacef",
   "https://github.com/twpayne/chezmoi/releases/download/v2.68.1/chezmoi_2.68.1_linux_arm64.tar.gz": "2196eca79d295e14eaf07cf691bdbc1fffa286d9ef7f2d70cd98ce0d7859b69f",
+  "https://github.com/twpayne/chezmoi/releases/download/v2.69.0/chezmoi_2.69.0_linux_amd64.tar.gz": "31aa8af7a0f4763406c3277270a76c134516caf0c679bee7a492e1ee3b3e5c0f",
+  "https://github.com/twpayne/chezmoi/releases/download/v2.69.0/chezmoi_2.69.0_darwin_amd64.tar.gz": "55370eaeac082e4515b6f354ace53739bb3ad230117598b3a8fed81712e4b2db",
+  "https://github.com/twpayne/chezmoi/releases/download/v2.69.0/chezmoi_2.69.0_darwin_arm64.tar.gz": "8a306b47a03cf5f17fb78c4617b19ae75b5481b29391fc6ca310ab0b10fd3ed3",
+  "https://github.com/twpayne/chezmoi/releases/download/v2.69.0/chezmoi_2.69.0_linux_arm64.tar.gz": "7465f6d07278e6b4c6fe2d63283fa0f74f30ae702ef1edfbd9ab5cda7596fb00",
 }
