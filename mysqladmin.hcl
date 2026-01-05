@@ -33,7 +33,7 @@ version "8.0.36" {
 
     on "unpack" {
       run {
-        cmd = "bash"
+        cmd = "/usr/bin/env bash"
         args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
       }
     }
@@ -54,7 +54,7 @@ version "8.0.40" {
 
     on "unpack" {
       run {
-        cmd = "bash"
+        cmd = "/usr/bin/env bash"
         args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
       }
     }
@@ -65,7 +65,7 @@ version "8.0.40" {
 
     on "unpack" {
       run {
-        cmd = "bash"
+        cmd = "/usr/bin/env bash"
         args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
       }
     }

@@ -21,62 +21,62 @@ on "unpack" {
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "cargo"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "cargo-clippy"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "cargo-fmt"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "cargo-miri"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "clippy-driver"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "rls"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "rust-gdb"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "rust-gdbgui"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "rust-lldb"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "rustc"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "rustdoc"]
   }
 
   run {
-    cmd = "ln"
+    cmd = "/usr/bin/env ln"
     args = ["rustup", "rustfmt"]
   }
 }
@@ -93,7 +93,7 @@ version "1.25.2" "1.26.0" "1.27.0" "1.27.1" "1.28.0" "1.28.1" "1.28.2" {
 
   on "unpack" {
     run {
-      cmd = "ln"
+      cmd = "/usr/bin/env ln"
       args = ["rustup", "rust-analyzer"]
     }
   }
