@@ -34,10 +34,10 @@ version "3.7.12" "3.10.5" "3.13.8" "3.13.0" "3.13.9" "3.16.0" "3.16.1" "3.16.2"
         "3.24.3" "3.24.4" "3.27.0" "3.27.1" "3.27.2" "3.27.3" "3.27.4" "3.29.1" "3.29.2"
         "3.29.3" "3.32.8" {
   auto-version {
-    html {
-      url = "https://github.com/flutter/flutter/blob/master/CHANGELOG.md"
-      xpath = "(//h3/a[contains(@href, 'https://github.com/flutter/flutter/releases')]/text())[1]"
-    }
+    git-tags = "https://github.com/flutter/flutter.git"
+    // Match stable release tags (X.Y.Z format without v prefix)
+    version-pattern = "^(\\d+\\.\\d+\\.\\d+)$"
+    ignore-invalid-versions = true
   }
 }
 
