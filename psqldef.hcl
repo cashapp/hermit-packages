@@ -22,7 +22,7 @@ version "0.15.22" "0.15.23" "0.15.24" "0.15.25" "0.15.26" "0.15.27" "0.16.0" "0.
         "3.1.3" "3.1.5" "3.1.7" "3.1.8" "3.1.10" "3.1.12" "3.1.15" "3.1.16" "3.1.17" "3.1.18"
         "3.2.0" "3.2.1" "3.2.2" "3.3.0" "3.4.0" "3.5.0" "3.6.0" "3.6.1" "3.6.2" "3.6.4" "3.6.5"
         "3.6.6" "3.6.7" "3.7.1" "3.7.3" "3.7.4" "3.7.5" "3.7.7" "3.7.9" "3.8.1" "3.8.4" "3.8.7"
-        "3.8.10" "3.8.12" "3.8.13" "3.8.14" "3.9.0" "3.9.2" {
+        "3.8.10" "3.8.12" "3.8.13" "3.8.14" "3.9.0" "3.9.2" "3.9.3" {
   auto-version {
     github-release = "sqldef/sqldef"
   }
@@ -513,4 +513,8 @@ sha256sums = {
   "https://github.com/sqldef/sqldef/releases/download/v3.9.2/psqldef_darwin_arm64.zip": "6e0146467c29b3ef541f1fd8b5116a6b7cbb45aee770f81baaae89a2b61f5439",
   "https://github.com/sqldef/sqldef/releases/download/v3.9.2/psqldef_darwin_amd64.zip": "bfa6eae4cc6c119b444a94bbb040851e3cd4d40fd345ff965faa78ad3195df09",
   "https://github.com/sqldef/sqldef/releases/download/v3.9.2/psqldef_linux_amd64.tar.gz": "ea8f6f491eb1d94d5682d659c129485a7496a8bc994176c212bd5c92470d4429",
+  "https://github.com/sqldef/sqldef/releases/download/v3.9.3/psqldef_darwin_arm64.zip": "1a26f8013c4407586791950fa6fa7c3e2bbab8bcf6c168a1a53137f003f44d03",
+  "https://github.com/sqldef/sqldef/releases/download/v3.9.3/psqldef_linux_arm64.tar.gz": "b8323c256331bc0340e78d54c29dcc166359f4543634c21bb7ff65203f69a35d",
+  "https://github.com/sqldef/sqldef/releases/download/v3.9.3/psqldef_linux_amd64.tar.gz": "c4e9645a313b938decbb4257b951eae4c0634cc810ca1715d48f5e5e8ada0d4a",
+  "https://github.com/sqldef/sqldef/releases/download/v3.9.3/psqldef_darwin_amd64.zip": "a9f8ec0a0744a22fd4f0f305c98ffde3ff558332cafedd9381e3995a530af08e",
 }
