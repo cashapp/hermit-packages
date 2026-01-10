@@ -19,7 +19,7 @@ version "4.2" "4.3" {
 version "4.4-temporary" {
   on "unpack" {
     run {
-      cmd = "/bin/ln -s ${root}/bin/make ${root}/make"
+      cmd = "/usr/bin/env ln -s ${root}/bin/make ${root}/make"
     }
   }
 
@@ -33,7 +33,7 @@ version "4.4-temporary" {
 version "4.4" {
   on "unpack" {
     run {
-      cmd = "/bin/ln -s ${root}/bin/make ${root}/make"
+      cmd = "/usr/bin/env ln -s ${root}/bin/make ${root}/make"
     }
   }
 
