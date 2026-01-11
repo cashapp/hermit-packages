@@ -3,7 +3,7 @@ binaries = ["usql"]
 test = "usql --version"
 source = "https://github.com/xo/usql/releases/download/v${version}/usql-${version}-${os}-${arch}.tar.bz2"
 
-version "0.19.26" "0.20.0" "0.20.4" "0.20.6" {
+version "0.19.26" "0.20.0" "0.20.4" "0.20.6" "0.20.8" {
   auto-version {
     github-release = "xo/usql"
   }
@@ -26,4 +26,8 @@ sha256sums = {
   "https://github.com/xo/usql/releases/download/v0.20.6/usql-0.20.6-linux-arm64.tar.bz2": "14453bbf2aa42bca419ad5ddacc1aa210a7073cc1b5ef52188c4a79847e19fab",
   "https://github.com/xo/usql/releases/download/v0.20.6/usql-0.20.6-darwin-arm64.tar.bz2": "10b3910a9ca6852dad102059e9f1849c84c7093326d89e5badc02ea238ad9d7a",
   "https://github.com/xo/usql/releases/download/v0.20.6/usql-0.20.6-linux-amd64.tar.bz2": "12aaf45ec011d4ddf3e573f352b2a3f76b963b9e3be868b2bb53d94a0adebf55",
+  "https://github.com/xo/usql/releases/download/v0.20.8/usql-0.20.8-darwin-arm64.tar.bz2": "f6cd8463c639835b7a7c6cd2e05232814f98e5a2e9081975bb48a7a2ae83dc94",
+  "https://github.com/xo/usql/releases/download/v0.20.8/usql-0.20.8-linux-arm64.tar.bz2": "a853eff601d06e4a0339d30181560ce014ef4067dab1e12f104ec8caee1eddc0",
+  "https://github.com/xo/usql/releases/download/v0.20.8/usql-0.20.8-linux-amd64.tar.bz2": "ba471bf26cfe1017601dabe1309be44f4a5fbda9c2ef49838473eb98cdd84100",
+  "https://github.com/xo/usql/releases/download/v0.20.8/usql-0.20.8-darwin-amd64.tar.bz2": "55aec7193d3776621b8fef7785c241b268a766cf3e23742ec9e0368c6b54170b",
 }
