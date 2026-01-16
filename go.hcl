@@ -123,7 +123,7 @@ version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
 
 // All other versions
 version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
-        "1.24.8" "1.24.9" "1.24.10" "1.24.11" {
+        "1.24.8" "1.24.9" "1.24.10" "1.24.11" "1.24.12" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -137,7 +137,7 @@ version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
 }
 
 // All other versions
-version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" {
+version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" "1.25.6" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -616,4 +616,12 @@ sha256sums = {
   "https://golang.org/dl/go1.25.5.darwin-arm64.tar.gz": "bed8ebe824e3d3b27e8471d1307f803fc6ab8e1d0eb7a4ae196979bd9b801dd3",
   "https://golang.org/dl/go1.25.5.darwin-amd64.tar.gz": "b69d51bce599e5381a94ce15263ae644ec84667a5ce23d58dc2e63e2c12a9f56",
   "https://golang.org/dl/go1.25.5.linux-arm64.tar.gz": "b00b694903d126c588c378e72d3545549935d3982635ba3f7a964c9fa23fe3b9",
+  "https://golang.org/dl/go1.24.12.darwin-arm64.tar.gz": "098d0c039357c3652ec6c97d5451bc4dc24f7cf30ed902373ed9a8134aab2d29",
+  "https://golang.org/dl/go1.24.12.linux-amd64.tar.gz": "bddf8e653c82429aea7aec2520774e79925d4bb929fe20e67ecc00dd5af44c50",
+  "https://golang.org/dl/go1.24.12.darwin-amd64.tar.gz": "4b9cc6771b56645da35a83a5424ae507f3250829b0d227e75f57b73e72da1f76",
+  "https://golang.org/dl/go1.24.12.linux-arm64.tar.gz": "4e02e2979e53b40f3666bba9f7e5ea0b99ea5156e0824b343fd054742c25498d",
+  "https://golang.org/dl/go1.25.6.linux-amd64.tar.gz": "f022b6aad78e362bcba9b0b94d09ad58c5a70c6ba3b7582905fababf5fe0181a",
+  "https://golang.org/dl/go1.25.6.darwin-amd64.tar.gz": "e2b5b237f5c262931b8e280ac4b8363f156e19bfad5270c099998932819670b7",
+  "https://golang.org/dl/go1.25.6.darwin-arm64.tar.gz": "984521ae978a5377c7d782fd2dd953291840d7d3d0bd95781a1f32f16d94a006",
+  "https://golang.org/dl/go1.25.6.linux-arm64.tar.gz": "738ef87d79c34272424ccdf83302b7b0300b8b096ed443896089306117943dd5",
 }
