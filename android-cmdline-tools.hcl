@@ -11,7 +11,7 @@ env = {
 // #  /YOURPATH/cmdline-tools/SOMETHING/bin but unpacks to /YOURPATH/cmdline-tools/bin for Linux anyway.
 on "unpack" {
   run {
-    cmd = "/bin/bash"
+    cmd = "/usr/bin/env bash"
     args = ["-c", "set -euxo pipefail; mkdir -p ${root}/cmdline-tools/latest; mv ${root}/cmdline-tools/{bin,lib,NOTICE.txt,source.properties} ${root}/cmdline-tools/latest/"]
   }
 }
