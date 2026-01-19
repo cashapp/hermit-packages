@@ -15,7 +15,7 @@ version "0.61.3" "0.62.0" "0.61.4" "0.62.1" "0.62.2" "0.61.5" "0.63.0" "0.63.1"
         "0.63.2" "0.63.3" "0.64.0" "0.64.1" "1.0.0" "1.0.1" "1.1.0" "1.1.1" "1.2.0" "1.2.1"
         "1.2.2" "1.2.3" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.5.0" "1.5.1" "1.5.2" "1.6.0"
         "1.6.1" "1.7.0" "1.7.1" "1.7.2" "1.8.0" "1.8.1" "1.8.2" "1.8.3" "1.8.4" "1.9.0" "1.9.1"
-        "1.9.2" "1.10.0" {
+        "1.9.2" "1.10.0" "1.10.1" {
   auto-version {
     github-release = "mesonbuild/meson"
   }
@@ -64,4 +64,5 @@ sha256sums = {
   "https://github.com/mesonbuild/meson/releases/download/1.9.1/meson-1.9.1.tar.gz": "4e076606f2afff7881d195574bddcd8d89286f35a17b4977a216f535dc0c74ac",
   "https://github.com/mesonbuild/meson/releases/download/1.9.2/meson-1.9.2.tar.gz": "3499b59bb23982496e01e57b4103ac2f826f9c3a3f59e507a0a832487fe55e3d",
   "https://github.com/mesonbuild/meson/releases/download/1.10.0/meson-1.10.0.tar.gz": "8071860c1f46a75ea34801490fd1c445c9d75147a65508cd3a10366a7006cc1c",
+  "https://github.com/mesonbuild/meson/releases/download/1.10.1/meson-1.10.1.tar.gz": "c42296f12db316a4515b9375a5df330f2e751ccdd4f608430d41d7d6210e4317",
 }
