@@ -11,7 +11,8 @@ on "unpack" {
   }
 }
 
-version "0.21.0" "0.20.4" "0.19.7" "0.22.0" "0.22.1" "0.22.2" "0.22.3" "0.22.4" {
+version "0.21.0" "0.20.4" "0.19.7" "0.22.0" "0.22.1" "0.22.2" "0.22.3" "0.22.4"
+        "0.23.0" {
   auto-version {
     github-release = "kubernetes-sigs/controller-runtime"
   }
@@ -50,4 +51,8 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/controller-runtime/releases/download/v0.22.4/setup-envtest-linux-amd64": "5dc40730fcbc3ea390135f7f241e559fec2ba523091b0ec7ee29f49544454081",
   "https://github.com/kubernetes-sigs/controller-runtime/releases/download/v0.22.4/setup-envtest-darwin-amd64": "d55de41eda9325b39153bbf394c27bf304bc7f7c23ab36977046698885257304",
   "https://github.com/kubernetes-sigs/controller-runtime/releases/download/v0.22.4/setup-envtest-darwin-arm64": "f35ab6a7815910d9b5ce6f25c2b51365552522c90d434ce0edfbcf4e82bca009",
+  "https://github.com/kubernetes-sigs/controller-runtime/releases/download/v0.23.0/setup-envtest-linux-amd64": "87c314bcd6f537a7d5a06f51909bb934b4c6a516ea0cffd74b4056576caf3994",
+  "https://github.com/kubernetes-sigs/controller-runtime/releases/download/v0.23.0/setup-envtest-linux-arm64": "de38b810fad32ae3e3e9af910c9b2e36320157dc0a61d445ba86629fc071fe6b",
+  "https://github.com/kubernetes-sigs/controller-runtime/releases/download/v0.23.0/setup-envtest-darwin-amd64": "94ad867aefac89c7a818aa43cfd61bd391ac00ab5a374771437eae28633daa1a",
+  "https://github.com/kubernetes-sigs/controller-runtime/releases/download/v0.23.0/setup-envtest-darwin-arm64": "f88a8126ad8cdff041d1ed27267d910c7743e58c3de2b3ffb3091991e2c114bf",
 }
