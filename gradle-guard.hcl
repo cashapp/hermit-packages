@@ -19,6 +19,10 @@ on "unpack" {
 
 version "0.1" {
   auto-version {
+    github-release = "cashapp/kotlin-editor"
+    ignore-invalid-versions = true
+    version-pattern = "gradle-guard-v(.*)"
+
     git-tags = "https://github.com/cashapp/kotlin-editor.git"
   }
 }
