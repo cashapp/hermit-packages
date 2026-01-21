@@ -1,28 +1,13 @@
 description = "A command-line tool to define and enforce 'guardrails' for Gradle Kotlin DSL scripts."
 runtime-dependencies = ["openjre-17.0.4.1_1"]
-binaries = ["gradle-guard"]
-source = "https://repo1.maven.org/maven2/app/cash/gradle-guard/gradle-guard/${version}/gradle-guard-${version}-all.jar"
-dont-extract = true
+binaries = ["bin/gradle-guard"]
+source = "https://github.com/cashapp/kotlin-editor/releases/download/gradle-guard-v${version}/gradle-guard-${version}.zip"
+strip = 1
 
-on "unpack" {
-  rename {
-    from = "${root}/gradle-guard-${version}-all.jar"
-    to = "${root}/gradle-guard.jar"
-  }
-
-  copy {
-    from = "gradle-guard/gradle-guard.sh"
-    to = "${root}/gradle-guard"
-    mode = 448
-  }
-}
-
-version "0.1" {
+version "0.1.2" {
   auto-version {
     github-release = "cashapp/kotlin-editor"
     ignore-invalid-versions = true
     version-pattern = "gradle-guard-v(.*)"
-
-    git-tags = "https://github.com/cashapp/kotlin-editor.git"
   }
 }
