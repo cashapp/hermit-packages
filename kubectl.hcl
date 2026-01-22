@@ -59,7 +59,7 @@ version "1.34.0" "1.34.3" {
   }
 }
 
-version "1.35.0" {
+version "1.35.0" "1.34.3" {
   auto-version {
     html {
       url = "https://kubernetes.io/releases/"

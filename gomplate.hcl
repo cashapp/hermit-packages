@@ -25,7 +25,8 @@ darwin {
 }
 
 version "3.10.0" "3.11.0" "3.11.1" "3.11.2" "3.11.3" "3.11.4" "3.11.5" "3.11.6"
-        "3.11.7" "3.11.8" "4.0.0" "4.0.1" "4.1.0" "4.2.0" "4.3.0" "4.3.1" "4.3.2" "4.3.3" {
+        "3.11.7" "3.11.8" "4.0.0" "4.0.1" "4.1.0" "4.2.0" "4.3.0" "4.3.1" "4.3.2" "4.3.3"
+        "5.0.0" {
   auto-version {
     github-release = "hairyhenderson/gomplate"
   }
@@ -104,4 +105,8 @@ sha256sums = {
   "https://github.com/hairyhenderson/gomplate/releases/download/v4.3.3/gomplate_darwin-arm64": "a3f6dd646d73840737e98fec6296e5c9ca95fcdd21fbdd0f4591aceab06f926d",
   "https://github.com/hairyhenderson/gomplate/releases/download/v4.3.3/gomplate_darwin-amd64": "3bd05501b63c407d7647a14cc1e37bf04f8bb40de90e9d5ac80598e45a658235",
   "https://github.com/hairyhenderson/gomplate/releases/download/v4.3.3/gomplate_linux-arm64": "25bd73720ff470cec0dfaa31ca2c436b30f86142db9af68382ce64e0f3e7b9c5",
+  "https://github.com/hairyhenderson/gomplate/releases/download/v5.0.0/gomplate_linux-amd64": "084469b46bd5d7da3acd7a8255fac1fb31d3fe054d717c3d4850f14624fbb177",
+  "https://github.com/hairyhenderson/gomplate/releases/download/v5.0.0/gomplate_darwin-arm64": "89187f06c3d4cf6af7ae764a9efd37c5749f77bf1238435083215f9924fa9b02",
+  "https://github.com/hairyhenderson/gomplate/releases/download/v5.0.0/gomplate_darwin-amd64": "eb885d994eb63170fe1e3c58e022df40e86eb342f24c910df6d0f58dff39610e",
+  "https://github.com/hairyhenderson/gomplate/releases/download/v5.0.0/gomplate_linux-arm64": "a5759bf822b9b350e31633481af63d0fedcfc6f8837470abd9bf0223729b8a51",
 }

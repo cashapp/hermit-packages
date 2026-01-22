@@ -7,7 +7,7 @@ sha256-source = "https://github.com/hookdeck/hookdeck-cli/releases/download/v${v
 
 version "0.8.5" "0.8.6" "0.9.2" "0.10.0" "0.9.3" "0.10.1" "0.2.0" "0.11.0" "0.11.1"
         "0.11.2" "0.11.3" "1.0.0-beta.3" "1.0.1" "1.0.2" "1.0.3" "1.0.4" "1.1.0" "1.2.0"
-        "1.3.0" "1.4.0" "1.4.1" "1.5.0" {
+        "1.3.0" "1.4.0" "1.4.1" "1.5.0" "1.6.0" {
   auto-version {
     github-release = "hookdeck/hookdeck-cli"
   }
@@ -101,4 +101,8 @@ sha256sums = {
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.5.0/hookdeck_1.5.0_darwin_arm64.tar.gz": "c17d15fb8024b10cb8afbc9f209b455dc0dcdffee540e19fa6d4ed049036131c",
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.5.0/hookdeck_1.5.0_linux_amd64.tar.gz": "9263f8dbaa51679fec74cad2fefca4a2a0277874908594aadb16f92ac7a1d1c4",
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.5.0/hookdeck_1.5.0_linux_arm64.tar.gz": "9d117911951b5e58d90b0e4cc58a4564e10183d1b212981f387763726dfeb10c",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.6.0/hookdeck_1.6.0_linux_arm64.tar.gz": "562d3159440ef17cd1e983f066ac841c13bd9fb09cd2b0bc54152a3a8d4c0f26",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.6.0/hookdeck_1.6.0_darwin_arm64.tar.gz": "376eb788c3c180fb536e0fd2676466ee59b6d182d4500e8609faf58eb80fe452",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.6.0/hookdeck_1.6.0_linux_amd64.tar.gz": "5e69bfcb340bada6aad7c987f931021beb35f9fd6f21a15e27102a06352e32de",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.6.0/hookdeck_1.6.0_darwin_amd64.tar.gz": "f70f2abe880d7c7006a2b15b29810798fa2bb7119dd938a344918477c74f06e7",
 }
