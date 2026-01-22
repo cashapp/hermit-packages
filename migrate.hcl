@@ -10,15 +10,15 @@ version "4.15.2" "4.16.0" "4.16.1" "4.16.2" "4.17.0" "4.17.1" "4.18.1" "4.18.2"
 }
 
 platform "linux" {
-  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-amd64.tar.gz"
+  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-${arch}.tar.gz"
 }
 
 platform "darwin" {
-  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-amd64.tar.gz"
+  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-${arch}.tar.gz"
 }
 
 platform "windows" {
-  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-amd64.zip"
+  source = "https://github.com/golang-migrate/migrate/releases/download/v${version}/migrate.${os}-${arch}.zip"
 }
 
 sha256sums = {
@@ -44,4 +44,26 @@ sha256sums = {
   "https://github.com/golang-migrate/migrate/releases/download/v4.19.0/migrate.darwin-amd64.tar.gz": "92185c295ab735eb1ca9d9c7c6360f14d4d73fbf7b90bc9fd724dc77e2e1cbc8",
   "https://github.com/golang-migrate/migrate/releases/download/v4.19.1/migrate.linux-amd64.tar.gz": "2ac648fbd1b127b69ab5a7b33cf96212178f71e22379fc50573630c6f4c7ce18",
   "https://github.com/golang-migrate/migrate/releases/download/v4.19.1/migrate.darwin-amd64.tar.gz": "e010d5d1792fa9b368c846f0aa297982322aa5739e784608d3cea653d297e0f4",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.darwin-arm64.tar.gz": "f3a0173c532d3db680bd916a5da0f92e3d95c7d13451ad4ccf433edbfdcd0a44",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.16.0/migrate.darwin-arm64.tar.gz": "0ed27c9d82beec40df6c981ba075e52b1e1f60ef591843cb3559a848d32127ef",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.16.0/migrate.linux-arm64.tar.gz": "fcd50659375889475f5def8ead8db52bf682e98f5d5691986131e43b48e479b0",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.16.1/migrate.darwin-arm64.tar.gz": "d9e9d88708c163c7c542892493f21bbf90ad7f4e761ff09df99ba476d10ffe1c",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.17.0/migrate.darwin-arm64.tar.gz": "4ee3ee5cd90365a5a953d685f00d53427fa00c6fab8b05250f20e474adcc3980",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.17.0/migrate.linux-arm64.tar.gz": "9c95441cc430ffdac89276d14de5e2f18bfafca00796c2895490d62e3776d104",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.17.1/migrate.linux-arm64.tar.gz": "a8dea925d9a59361a63062a3220885cf91b9a9c9dff5b14073bd7d49985c2a43",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.2/migrate.linux-arm64.tar.gz": "acb12655bb7472ee9061bac0b5c6cf14b7448ad089b96793b91d485e88f2a713",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.3/migrate.darwin-arm64.tar.gz": "c6e3cb3dcd7354e05b1800b1c532af7bcc7a043121e4fa377b8a4b0b5bcc1b58",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.3/migrate.linux-arm64.tar.gz": "4a94c63259006ffd4e24c311c7118d85687dbeb4f310fadd66d796173c8768d9",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.19.0/migrate.linux-arm64.tar.gz": "4d9993b487d650e121b657edfdeeecc562becb0f90a7a3d338946b7cad50f844",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-arm64.tar.gz": "a9bea77f6ac2fd6c5c003cc95600231610093061f26a563f1fd8381414265240",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.16.1/migrate.linux-arm64.tar.gz": "d0993ff1c8fddeebd59d41c2083473776812229e6dd55ffb85475c8451e2ed2b",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-arm64.tar.gz": "c4616197168564feedfcc731512b1e4dbefd1a6966f07993597632caea7a83ad",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.darwin-arm64.tar.gz": "9e8f9f57a5230557fb9fd93dfd070b3e10616cb8d24c4dbdced05b61552f50c3",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.17.1/migrate.darwin-arm64.tar.gz": "850a6494327842cdf64608c7289553ba826db6d878ef29610bc191e2bbc8118d",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.darwin-arm64.tar.gz": "5858e7107c19639a982da05f96cad4cc6b008f63acb1a7ac7f9ddf77f98e6651",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.linux-arm64.tar.gz": "56110625dbd272965837e551bf7401b7ae64336d060f8bf13e65b1f8b13ac14e",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.18.2/migrate.darwin-arm64.tar.gz": "e09cb9b7e06d2c051fda0fd9bcc8d7578489b7ba9472eccca656c3420a167e71",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.19.0/migrate.darwin-arm64.tar.gz": "f21cdd83cb95bcc009c4b0fbbbd17c04fcf372fae897d17153f9084bb76f0202",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.19.1/migrate.linux-arm64.tar.gz": "2fea2455c0f3f07cc3f4b98471c951ad1a716059574b20b6416bd1e9058751c5",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.19.1/migrate.darwin-arm64.tar.gz": "a8cc8657afd1c2c93c78e8b77fd2275d150c29ebc1fff0e8fe0be68751503468",
 }
