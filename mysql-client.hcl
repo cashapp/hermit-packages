@@ -44,7 +44,7 @@ version "8.0.36" {
     on "unpack" {
       run {
         cmd = "/bin/bash"
-        args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysql-22.04 bin/mysql; else mv mysql-20.04 bin/mysql; fi"]
+        args = ["-c", "mkdir bin; if [ -f /etc/lsb-release ] && grep -qE 'DISTRIB_RELEASE=(2[2-9]|[3-9][0-9])' /etc/lsb-release 2>/dev/null; then mv mysql-22.04 bin/mysql; else mv mysql-20.04 bin/mysql; fi"]
       }
     }
   }
@@ -65,7 +65,7 @@ version "8.0.40" {
     on "unpack" {
       run {
         cmd = "/bin/bash"
-        args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysql-22.04 bin/mysql; else mv mysql-20.04 bin/mysql; fi"]
+        args = ["-c", "mkdir bin; if [ -f /etc/lsb-release ] && grep -qE 'DISTRIB_RELEASE=(2[2-9]|[3-9][0-9])' /etc/lsb-release 2>/dev/null; then mv mysql-22.04 bin/mysql; else mv mysql-20.04 bin/mysql; fi"]
       }
     }
   }
@@ -76,7 +76,7 @@ version "8.0.40" {
     on "unpack" {
       run {
         cmd = "/bin/bash"
-        args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysql-22.04 bin/mysql; else mv mysql-20.04 bin/mysql; fi"]
+        args = ["-c", "mkdir bin; if [ -f /etc/lsb-release ] && grep -qE 'DISTRIB_RELEASE=(2[2-9]|[3-9][0-9])' /etc/lsb-release 2>/dev/null; then mv mysql-22.04 bin/mysql; else mv mysql-20.04 bin/mysql; fi"]
       }
     }
   }
