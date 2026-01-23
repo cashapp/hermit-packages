@@ -4,7 +4,7 @@ binaries = ["bin/gradle-guard"]
 source = "https://github.com/cashapp/kotlin-editor/releases/download/gradle-guard-v${version}/gradle-guard-${version}.zip"
 strip = 1
 
-version "0.1.2" "0.2.0" {
+version "0.1.2" "0.2.0" "0.2.1" {
   auto-version {
     github-release = "cashapp/kotlin-editor"
     ignore-invalid-versions = true
@@ -15,4 +15,5 @@ version "0.1.2" "0.2.0" {
 sha256sums = {
   "https://github.com/cashapp/kotlin-editor/releases/download/gradle-guard-v0.1.2/gradle-guard-0.1.2.zip": "c4f6dc3c1cb428c5c60b0b5df5cbe36e5fcbda10e9ff49c598e31970f745bab9",
   "https://github.com/cashapp/kotlin-editor/releases/download/gradle-guard-v0.2.0/gradle-guard-0.2.0.zip": "b05c121e37fbabb0bf857577879103d944953abfe2b14ac6c595ed5f8de8fca5",
+  "https://github.com/cashapp/kotlin-editor/releases/download/gradle-guard-v0.2.1/gradle-guard-0.2.1.zip": "91717e598a53e1cb1c31865d6c310d783be58e90ef5220c32d376589a6aeb05d",
 }
