@@ -34,7 +34,7 @@ version "8.0.36" {
     on "unpack" {
       run {
         cmd = "/bin/bash"
-        args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
+        args = ["-c", "mkdir bin; if [ $(grep DISTRIB_RELEASE= /etc/lsb-release | cut -d= -f2 | cut -d. -f1) -ge 22 ]; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
       }
     }
   }
@@ -55,7 +55,7 @@ version "8.0.40" {
     on "unpack" {
       run {
         cmd = "/bin/bash"
-        args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
+        args = ["-c", "mkdir bin; if [ $(grep DISTRIB_RELEASE= /etc/lsb-release | cut -d= -f2 | cut -d. -f1) -ge 22 ]; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
       }
     }
   }
@@ -66,7 +66,7 @@ version "8.0.40" {
     on "unpack" {
       run {
         cmd = "/bin/bash"
-        args = ["-c", "mkdir bin; if grep -q 22.04 /etc/lsb-release; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
+        args = ["-c", "mkdir bin; if [ $(grep DISTRIB_RELEASE= /etc/lsb-release | cut -d= -f2 | cut -d. -f1) -ge 22 ]; then mv mysqladmin-22.04 bin/mysqladmin; else mv mysqladmin-20.04 bin/mysqladmin; fi"]
       }
     }
   }
