@@ -18,7 +18,7 @@ version "10.0.0" "9.6.1" "11.0.0" "11.0.2" "11.1.0" "11.1.1" "11.2.0" "11.3.0"
         "11.9.0" "11.10.0" "11.11.0" "11.11.1" "12.0.0" "12.1.0" "12.2.0" "12.2.1" "12.3.0"
         "12.5.0" "12.6.0" "12.7.1" "12.8.1" "12.9.3" "12.10.0" "12.10.1" "13.0.0" "13.1.0"
         "13.2.0" "13.2.1" "13.3.0" "13.4.0" "13.5.0" "13.6.0" "14.0.1" "14.0.2" "14.0.3"
-        "14.0.4" "14.1.0" "14.2.0" {
+        "14.0.4" "14.1.0" "14.2.0" "14.4.0" {
   auto-version {
     github-release = "sourcemeta/jsonschema"
   }
@@ -213,4 +213,8 @@ sha256sums = {
   "https://github.com/sourcemeta/jsonschema/releases/download/v14.2.0/jsonschema-14.2.0-linux-arm64.zip": "baf86c468156de293e9ef3137dab7273f5b6b4229b704851103af91f047aac60",
   "https://github.com/sourcemeta/jsonschema/releases/download/v14.2.0/jsonschema-14.2.0-darwin-x86_64.zip": "0e6735d27023c0b285ed3ed6539a586208603c022dd5ac626eed22ff7ee1f174",
   "https://github.com/sourcemeta/jsonschema/releases/download/v14.2.0/jsonschema-14.2.0-linux-x86_64.zip": "28f48c78e3ba0bbcee0b5a8bfb8a23626d45af80ea4e07d72f58f79ec6bbfc8c",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v14.4.0/jsonschema-14.4.0-darwin-arm64.zip": "736fb1f4dd5df2c104b6db3b60ff7fbb713abaa60624f0d38a60ab6ca73ccd7f",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v14.4.0/jsonschema-14.4.0-darwin-x86_64.zip": "a7ae56b8925ba424c54ec2a2f8c3732ba676a2ee78c09a7ef6f55af35aae282e",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v14.4.0/jsonschema-14.4.0-linux-x86_64.zip": "ac7e290ef77c51709d53cc74bf0e69db37ef66a52cb4a37499fb6451ad17500a",
+  "https://github.com/sourcemeta/jsonschema/releases/download/v14.4.0/jsonschema-14.4.0-linux-arm64.zip": "a67a3443e0e5c0f71c3d1ff1db2f7fa4943d68fe71ad724594871a57b0943f51",
 }

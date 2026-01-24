@@ -3,7 +3,7 @@ binaries = ["jpm", "jpx"]
 strip = 2
 source = "https://github.com/jpm-hub/jpm/releases/download/v${version}/jpm-${version}-${os}-${arch}.zip"
 
-version "1.2.0" "1.2.2" "1.2.3" {
+version "1.2.0" "1.2.2" "1.2.3" "1.2.4" {
   auto-version {
     github-release = "jpm-hub/jpm"
   }
@@ -22,4 +22,8 @@ sha256sums = {
   "https://github.com/jpm-hub/jpm/releases/download/v1.2.3/jpm-1.2.3-linux-arm64.zip": "fe3c4d94db4e1d6595ecdd685e408212ff84b65c3b80f409f98649cfc51d0aba",
   "https://github.com/jpm-hub/jpm/releases/download/v1.2.3/jpm-1.2.3-linux-amd64.zip": "99af149be4e6b7018a98f38bdee8c90b33c23f6312a9e5f6e8dfde70f0ff92b8",
   "https://github.com/jpm-hub/jpm/releases/download/v1.2.3/jpm-1.2.3-darwin-amd64.zip": "78a9f86abb357b742bf947df5ca1d5cb2fc652445c24429236779ef4366ec942",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.4/jpm-1.2.4-linux-amd64.zip": "2bc295438eeadaa96be60e328eae283a34e72569648614b5722a8dc4e5251953",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.4/jpm-1.2.4-darwin-arm64.zip": "0fc143a0f419b2f4d5810e509eed3b8d3be47a44c620e683d7c4aa22d18c8a8a",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.4/jpm-1.2.4-darwin-amd64.zip": "28bf7e266178bc1e84d470434e3e0e47a5398915133ee81cb5f32b84bce553c9",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.4/jpm-1.2.4-linux-arm64.zip": "8c6f8efc0fb2f74592d1b30b25f2a7fffc530dbe32b5c04be5704eb43a8a5cb1",
 }

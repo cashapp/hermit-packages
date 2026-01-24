@@ -7,7 +7,7 @@ env = {
   "NATURE_ROOT": "${root}",
 }
 
-version "0.5.0" "0.6.0" "0.7.0" "0.7.1" "0.7.2" {
+version "0.5.0" "0.6.0" "0.7.0" "0.7.1" "0.7.2" "0.7.3" {
   auto-version {
     github-release = "nature-lang/nature"
   }
@@ -34,4 +34,8 @@ sha256sums = {
   "https://github.com/nature-lang/nature/releases/download/v0.7.2/nature-v0.7.2-linux-amd64.tar.gz": "ecc7939c1a2dd077759a2690d57507dd7e4008176b731d1f9636cb556387dc56",
   "https://github.com/nature-lang/nature/releases/download/v0.7.2/nature-v0.7.2-darwin-arm64.tar.gz": "1467b6ad646a0a994795e7c6a026766f2ff51347d5d3910768c082732dd61c2d",
   "https://github.com/nature-lang/nature/releases/download/v0.7.2/nature-v0.7.2-linux-arm64.tar.gz": "83fb969f8f1ff024f6ca433d6626370fee9662a1224b1c63d7b3d26ac7362a3e",
+  "https://github.com/nature-lang/nature/releases/download/v0.7.3/nature-v0.7.3-darwin-arm64.tar.gz": "3bb1417d014230cf083ada1022ef463e99c4121f70e8b532ca751836909611c8",
+  "https://github.com/nature-lang/nature/releases/download/v0.7.3/nature-v0.7.3-linux-amd64.tar.gz": "4cb9dd8f3ecc719ad9566c54baa5f534f5e70a996808e6a182c5e2504f4a5db0",
+  "https://github.com/nature-lang/nature/releases/download/v0.7.3/nature-v0.7.3-darwin-amd64.tar.gz": "2a488c9732ffa051fa000998d02b58e416844ba8a76fb37936744da09ce8bb63",
+  "https://github.com/nature-lang/nature/releases/download/v0.7.3/nature-v0.7.3-linux-arm64.tar.gz": "2f4fc0961bc03c0c5265b39264847afae8841338262ad196fc1b9a5d2e85497a",
 }
