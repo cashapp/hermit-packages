@@ -10,7 +10,7 @@ platform "linux" {
   source = "https://github.com/block/ai-rules/releases/download/v${version}/ai-rules-v${version}-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
-version "1.0.0" "1.0.1" "1.1.0" "1.2.0" "1.3.0" {
+version "1.0.0" "1.0.1" "1.1.0" "1.2.0" "1.3.0" "1.4.0" {
   auto-version {
     github-release = "block/ai-rules"
   }
@@ -37,4 +37,8 @@ sha256sums = {
   "https://github.com/block/ai-rules/releases/download/v1.3.0/ai-rules-v1.3.0-aarch64-apple-darwin.tar.gz": "265d169322b003841c1d13cc89a99212f685d5e18a5c5546b971288529fca939",
   "https://github.com/block/ai-rules/releases/download/v1.3.0/ai-rules-v1.3.0-x86_64-unknown-linux-gnu.tar.gz": "5c11209534d979b2af746b40474ad65a5b62389b02195130780efc4502455e5e",
   "https://github.com/block/ai-rules/releases/download/v1.3.0/ai-rules-v1.3.0-aarch64-unknown-linux-gnu.tar.gz": "0d1ca80a473beb8b3559901e392a291da23caf077d3ab5246c3d12fb5aaac4fd",
+  "https://github.com/block/ai-rules/releases/download/v1.4.0/ai-rules-v1.4.0-x86_64-apple-darwin.tar.gz": "c828e47853a2e6f017adbe2138a0ce017295c3f973b2993a999645f96a05e28d",
+  "https://github.com/block/ai-rules/releases/download/v1.4.0/ai-rules-v1.4.0-aarch64-apple-darwin.tar.gz": "85a42c02287041e504edce8371060dc12a4f181789b8ecf4b367bcbb70ed8c99",
+  "https://github.com/block/ai-rules/releases/download/v1.4.0/ai-rules-v1.4.0-aarch64-unknown-linux-gnu.tar.gz": "671d0ca8f39f47bb53a2a1f2eaa4e10cae36eb71cd961f8ba260bc0d8662fa17",
+  "https://github.com/block/ai-rules/releases/download/v1.4.0/ai-rules-v1.4.0-x86_64-unknown-linux-gnu.tar.gz": "12db2a0a223b81ac6bb32732bcb89eb5e222b905d37599ffcc32131ec590df64",
 }
