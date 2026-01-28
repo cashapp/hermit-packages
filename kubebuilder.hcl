@@ -8,7 +8,7 @@ requires = []
 version "3.7.0" "3.8.0" "3.9.0" "3.9.1" "3.10.0" "3.11.0" "3.11.1" "3.12.0" "3.13.0"
         "3.14.0" "3.14.1" "3.14.2" "3.15.0" "3.15.1" "4.0.0" "4.1.0" "4.1.1" "4.2.0" "4.3.0"
         "4.3.1" "4.4.0" "4.5.0" "4.5.1" "4.5.2" "4.6.0" "4.7.0" "4.7.1" "4.8.0" "4.9.0"
-        "4.10.0" "4.10.1" "4.11.0" {
+        "4.10.0" "4.10.1" "4.11.0" "4.11.1" {
   source = "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v${version}/kubebuilder_${os}_${arch}"
 
   on "unpack" {
@@ -152,4 +152,8 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.11.0/kubebuilder_darwin_arm64": "6ef7cc1c9c5d04942156714a3756781f3c66f042f1578b6595077a0a5579b59e",
   "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.11.0/kubebuilder_linux_arm64": "f3d6876037e02d6b76eddc362e7c1baab74c08e183ef36364784ed57cda9e1ae",
   "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.11.0/kubebuilder_darwin_amd64": "7448140db33ab16750043569846d4e2c0b0802edb0db8486a8b670d72320262b",
+  "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.11.1/kubebuilder_linux_amd64": "834d26c233881ee1f0bb73a7fdcfa3ef8b264892827c50ee51a7653fac70e4f6",
+  "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.11.1/kubebuilder_darwin_amd64": "20afe0a4e11e44515a03d9bb7230e8f044190bb9a16d7a1cddcd8c10d19a0f3b",
+  "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.11.1/kubebuilder_darwin_arm64": "501372d81715661049ea162343138aa9f601b3aeb50fbeb594278292650c76f4",
+  "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v4.11.1/kubebuilder_linux_arm64": "cba576bd94cb1f49049d585732245b89b70d9622923f6492fa45a94720d0d781",
 }
