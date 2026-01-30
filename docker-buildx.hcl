@@ -14,7 +14,7 @@ on "unpack" {
 version "0.13.1" "0.14.0" "0.14.1" "0.15.0" "0.15.1" "0.16.0" "0.16.1" "0.16.2"
         "0.17.0" "0.17.1" "0.18.0" "0.19.0" "0.19.1" "0.19.2" "0.19.3" "0.20.0" "0.20.1"
         "0.21.0" "0.21.1" "0.21.2" "0.21.3" "0.22.0" "0.23.0" "0.24.0" "0.25.0" "0.26.0"
-        "0.26.1" "0.27.0" "0.28.0" "0.29.0" "0.29.1" "0.30.0" "0.30.1" "0.31.0" {
+        "0.26.1" "0.27.0" "0.28.0" "0.29.0" "0.29.1" "0.30.0" "0.30.1" "0.31.0" "0.31.1" {
   auto-version {
     github-release = "docker/buildx"
   }
@@ -157,4 +157,8 @@ sha256sums = {
   "https://github.com/docker/buildx/releases/download/v0.31.0/buildx-v0.31.0.darwin-arm64": "624fd4ea2ec80c98a8f4e00cb56cdb23626775a0cfb58260e6147e6bc6cdc880",
   "https://github.com/docker/buildx/releases/download/v0.31.0/buildx-v0.31.0.darwin-amd64": "2888de649b1558e4982d00ac5049ee0ff8e291d9b9ab2104e18ba15f9e0120b0",
   "https://github.com/docker/buildx/releases/download/v0.31.0/buildx-v0.31.0.linux-amd64": "39cc424a730d8b7364c23a137582cb29e7f024b175bb595001ff6f90121b005b",
+  "https://github.com/docker/buildx/releases/download/v0.31.1/buildx-v0.31.1.darwin-amd64": "add7f9b18c4208af34c29a1f90318f302356fdc017a92b20c1966c3e14ddb3c4",
+  "https://github.com/docker/buildx/releases/download/v0.31.1/buildx-v0.31.1.darwin-arm64": "a354afe6a1ad3c639f8372d3b3e7ad83de6f85386115b82014a44c07c24c93df",
+  "https://github.com/docker/buildx/releases/download/v0.31.1/buildx-v0.31.1.linux-arm64": "963c674c558dad2eefd42304a09020329a196ed16819b72396e7657eb69f031b",
+  "https://github.com/docker/buildx/releases/download/v0.31.1/buildx-v0.31.1.linux-amd64": "dc8eaffbf29138123b4874d852522b12303c61246a5073fa0f025e4220317b1e",
 }

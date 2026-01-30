@@ -32,7 +32,7 @@ version "3.7.12" "3.10.5" "3.13.8" "3.13.0" "3.13.9" "3.16.0" "3.16.1" "3.16.2"
         "3.16.3" "3.16.4" "3.16.5" "3.16.6" "3.16.7" "3.16.8" "3.16.9" "3.19.1" "3.19.2"
         "3.19.3" "3.19.4" "3.19.5" "3.19.6" "3.22.0" "3.22.3" "3.24.0" "3.24.1" "3.24.2"
         "3.24.3" "3.24.4" "3.27.0" "3.27.1" "3.27.2" "3.27.3" "3.27.4" "3.29.1" "3.29.2"
-        "3.29.3" "3.32.8" "3.38.5" "3.38.6" "3.38.7" "3.38.8" {
+        "3.29.3" "3.32.8" "3.38.5" "3.38.6" "3.38.7" "3.38.8" "3.38.9" {
   auto-version {
     git-tags = "https://github.com/flutter/flutter.git"
     // Match stable release tags (X.Y.Z format without v prefix)
@@ -171,4 +171,7 @@ sha256sums = {
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.38.8-stable.zip": "a381191900f9ba5cf54b6ed397685b4cb9cdb8e48223ad72844b26ddc80cbff3",
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.38.8-stable.zip": "e9446175fdcc227c8dc0616810ce0ffaeac00bdd766325c6819beece688a3564",
   "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.38.8-stable.tar.xz": "68f702b9ea9b63259924bf6cb2330e0f6e076898958709dd28571f27bcf12fba",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.38.9-stable.zip": "5a9f29d40d5b932ff495d568125b1b22814920003e6c4be7f89ee7e652936098",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.38.9-stable.tar.xz": "cb39eeb717c7d7dce95736b862cada2fdedeebcbb0107c44a346659c77031003",
+  "https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.38.9-stable.zip": "ab8b66c8a95ffb7c52cd21bb7fd79dfeba6904c1353cff0a2637782fd970c1d4",
 }
