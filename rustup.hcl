@@ -3,7 +3,6 @@ test = "rustup --version"
 env = {
   "CARGO_HOME": "${HERMIT_ENV}/.hermit/rust",
   "PATH": "${HERMIT_ENV}/.hermit/rust/bin:${PATH}",
-  "RUSTUP_HOME": "${HERMIT_ENV}/.hermit/rustup",
 }
 
 darwin {
