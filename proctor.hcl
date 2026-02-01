@@ -1,4 +1,4 @@
-description = "A simple process manager with hot reload, readiness probes and dependencies"
+description = "A Procfile-compatible process manager with hot reload, readiness probes, dependencies, and more"
 binaries = ["proctor"]
 
 platform "darwin" {
@@ -13,17 +13,28 @@ platform "linux" {
   }
 }
 
-source = "https://github.com/alecthomas/proctor/releases/download/v${version}/t-${platform}.bz2"
+source = "https://github.com/alecthomas/proctor/releases/download/v${version}/proctor-${platform}.bz2"
 
 on "unpack" {
   rename {
-    from = "${root}/t-${platform}"
-    to = "${root}/t"
+    from = "${root}/proctor-${platform}"
+    to = "${root}/proctor"
   }
 }
 
-version "0.0.1" "0.0.4" "0.1.0" "0.3.0" {
+version "0.0.1" "0.2.0" {
   auto-version {
     github-release = "alecthomas/proctor"
   }
+}
+
+sha256sums = {
+  "https://github.com/alecthomas/proctor/releases/download/v0.0.1/proctor-x86_64-unknown-linux-gnu.bz2": "aaa547947fcfd89dfe470192a8897d47265c73511406102fac2dd5b3252018c9",
+  "https://github.com/alecthomas/proctor/releases/download/v0.0.1/proctor-x86_64-apple-darwin.bz2": "5467673a9c3607e803204bd12b0308ccd4865edef2121749cc4770ba4fa81822",
+  "https://github.com/alecthomas/proctor/releases/download/v0.0.1/proctor-aarch64-apple-darwin.bz2": "585a8c48115373a36d098b5ff023f085d9af550628f3418987bd33249a3c7dc2",
+  "https://github.com/alecthomas/proctor/releases/download/v0.0.1/proctor-aarch64-unknown-linux-gnu.bz2": "41c58ccaa2346d499b12d2ada0fbafa43ee5d886018d4ad1acd2c98dfdff53d1",
+  "https://github.com/alecthomas/proctor/releases/download/v0.2.0/proctor-aarch64-apple-darwin.bz2": "cf04997bd6b733a4638e5382fbbe71c64f26da150fe23bf6d30dee83de67aa83",
+  "https://github.com/alecthomas/proctor/releases/download/v0.2.0/proctor-aarch64-unknown-linux-gnu.bz2": "4190715476f7d2f4141d18734d15b41ca06d0b5a5f6c99b1ab88d184092930b1",
+  "https://github.com/alecthomas/proctor/releases/download/v0.2.0/proctor-x86_64-unknown-linux-gnu.bz2": "294081747a1f7b0b3c461b04345328702bc315f8f1a4827159681cd4a1727110",
+  "https://github.com/alecthomas/proctor/releases/download/v0.2.0/proctor-x86_64-apple-darwin.bz2": "e100801bacc10342bfdfa2af7dfa16d74548990e51117a7966905d042f113c75",
 }
