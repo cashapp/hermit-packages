@@ -4,7 +4,7 @@ requires = ["beads"]
 source = "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v${version}/bv_${version}_${os}_${arch}.tar.gz"
 sha256-source = "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v${version}/checksums.txt"
 
-version "0.12.0" "0.12.1" "0.13.0" "0.14.0" "0.14.3" {
+version "0.12.0" "0.12.1" "0.13.0" "0.14.0" "0.14.3" "0.14.4" {
   auto-version {
     github-release = "Dicklesworthstone/beads_viewer"
   }
@@ -31,4 +31,8 @@ sha256sums = {
   "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.14.3/bv_0.14.3_linux_arm64.tar.gz": "9698e64c7982b3e1c868c6697c1799efadc02c87501d46c13eed9a3bb7ac8304",
   "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.14.3/bv_0.14.3_linux_amd64.tar.gz": "3c69fdfd2152a959443e8bf2c1ffdb8f0e1b01509408c530db6bf0fd601a9d91",
   "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.14.3/bv_0.14.3_darwin_amd64.tar.gz": "b4ede04476d8b3eb9555b0afe1b25008a1a12e6ba0e6c93bf5b60ad149bb5191",
+  "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.14.4/bv_0.14.4_darwin_amd64.tar.gz": "0a938c563baad7bd1f50c0b44505c863afd6695eefab503cf554a65233a49c39",
+  "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.14.4/bv_0.14.4_linux_amd64.tar.gz": "a2561c0c79f6559dac4ac0a0c71e2a20cdd6b6db46e8848d39c58a0a822c406f",
+  "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.14.4/bv_0.14.4_linux_arm64.tar.gz": "aa82889d81b4a730abe571a61d538b51735601c58aebda6231ff91d1a2951b58",
+  "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.14.4/bv_0.14.4_darwin_arm64.tar.gz": "d7ce34e5b4a4031811fe4f2e2e1f7fb8afad942ed6e782d2e6230010621dd8e4",
 }
