@@ -123,7 +123,7 @@ version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
 
 // All other versions
 version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
-        "1.24.8" "1.24.9" "1.24.10" "1.24.11" "1.24.12" {
+        "1.24.8" "1.24.9" "1.24.10" "1.24.11" "1.24.12" "1.24.13" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -137,7 +137,7 @@ version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
 }
 
 // All other versions
-version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" "1.25.6" {
+version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" "1.25.6" "1.25.7" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -624,4 +624,12 @@ sha256sums = {
   "https://golang.org/dl/go1.25.6.darwin-amd64.tar.gz": "e2b5b237f5c262931b8e280ac4b8363f156e19bfad5270c099998932819670b7",
   "https://golang.org/dl/go1.25.6.darwin-arm64.tar.gz": "984521ae978a5377c7d782fd2dd953291840d7d3d0bd95781a1f32f16d94a006",
   "https://golang.org/dl/go1.25.6.linux-arm64.tar.gz": "738ef87d79c34272424ccdf83302b7b0300b8b096ed443896089306117943dd5",
+  "https://golang.org/dl/go1.24.13.linux-arm64.tar.gz": "74d97be1cc3a474129590c67ebf748a96e72d9f3a2b6fef3ed3275de591d49b3",
+  "https://golang.org/dl/go1.24.13.linux-amd64.tar.gz": "1fc94b57134d51669c72173ad5d49fd62afb0f1db9bf3f798fd98ee423f8d730",
+  "https://golang.org/dl/go1.24.13.darwin-amd64.tar.gz": "6cc6549b06725220b342b740497ffd24e0ebdcef75781a77931ca199f46ad781",
+  "https://golang.org/dl/go1.24.13.darwin-arm64.tar.gz": "f282d882c3353485e2fc6c634606d85caf36e855167d59b996dbeae19fa7629a",
+  "https://golang.org/dl/go1.25.7.linux-amd64.tar.gz": "12e6d6a191091ae27dc31f6efc630e3a3b8ba409baf3573d955b196fdf086005",
+  "https://golang.org/dl/go1.25.7.darwin-arm64.tar.gz": "ff18369ffad05c57d5bed888b660b31385f3c913670a83ef557cdfd98ea9ae1b",
+  "https://golang.org/dl/go1.25.7.darwin-amd64.tar.gz": "bf5050a2152f4053837b886e8d9640c829dbacbc3370f913351eb0904cb706f5",
+  "https://golang.org/dl/go1.25.7.linux-arm64.tar.gz": "ba611a53534135a81067240eff9508cd7e256c560edd5d8c2fef54f083c07129",
 }
