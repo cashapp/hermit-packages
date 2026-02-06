@@ -22,7 +22,7 @@ on "unpack" {
   }
 }
 
-version "0.0.1" "0.1.2" {
+version "0.0.1" "0.1.2" "0.2.0" {
   auto-version {
     github-release = "block/aittributor"
   }
@@ -37,4 +37,8 @@ sha256sums = {
   "https://github.com/block/aittributor/releases/download/v0.1.2/aittributor-x86_64-unknown-linux-gnu.bz2": "39f32a5fd581537b125711d23021f01889dc1aad198e3c38fc791fedd74c5965",
   "https://github.com/block/aittributor/releases/download/v0.1.2/aittributor-x86_64-apple-darwin.bz2": "8cfbfd671b03d4e33f3804bf6c40c0beb18c835ff9bbbb35359bfb0c79b24da4",
   "https://github.com/block/aittributor/releases/download/v0.1.2/aittributor-aarch64-apple-darwin.bz2": "5950389f285f19fcd7204c222ec4ac24d0ca0faa5e3dc88325c6522377154640",
+  "https://github.com/block/aittributor/releases/download/v0.2.0/aittributor-aarch64-apple-darwin.bz2": "b07e3311859fe68e59c4536b4262c2f14d6f2d51fdf1ba08e30b231c72721450",
+  "https://github.com/block/aittributor/releases/download/v0.2.0/aittributor-x86_64-unknown-linux-gnu.bz2": "d87536d6a31ef14febc0cbec408f172ef23c1e820c7aad9d81b23f2b3c6c7247",
+  "https://github.com/block/aittributor/releases/download/v0.2.0/aittributor-x86_64-apple-darwin.bz2": "3421ce1410c58b15b498c1d4f259a6477af7fe0d4dd1158e373d41a5467c1d59",
+  "https://github.com/block/aittributor/releases/download/v0.2.0/aittributor-aarch64-unknown-linux-gnu.bz2": "552231dcf276ece57cac98dbc68c4c702a5827402305c772e8dbf80dcf87c7b6",
 }
