@@ -15,7 +15,7 @@ platform "linux" "amd64" {
 
 description = "A command-line utility to print the summary of the terraform plan"
 
-version "0.3.10" "0.3.11" "0.3.12" "0.3.13" "0.3.14" {
+version "0.3.10" "0.3.11" "0.3.12" "0.3.13" "0.3.14" "0.3.15" {
   auto-version {
     github-release = "dineshba/tf-summarize"
   }
@@ -37,4 +37,7 @@ sha256sums = {
   "https://github.com/dineshba/tf-summarize/releases/download/v0.3.14/tf-summarize_darwin_arm64.tar.gz": "ca2e8fcdcfa58d7deca3b5272f93ac02c4fe68ef6c1c9c3406642469965eadbb",
   "https://github.com/dineshba/tf-summarize/releases/download/v0.3.14/tf-summarize_darwin_amd64.tar.gz": "12803651e01dc0a6292e5187cbcca60ac3ce2d442662e213eb813ff6703e3cc3",
   "https://github.com/dineshba/tf-summarize/releases/download/v0.3.14/tf-summarize_linux_amd64.tar.gz": "c73f97456631cd39bed706adb6c90a77b242fbed474c708376d7a3b5f52379d1",
+  "https://github.com/dineshba/tf-summarize/releases/download/v0.3.15/tf-summarize_linux_amd64.tar.gz": "a5e90cd69d43fb81b2f1222886f4183fdd5b0cb17e6068b60a559c37d9534d44",
+  "https://github.com/dineshba/tf-summarize/releases/download/v0.3.15/tf-summarize_darwin_amd64.tar.gz": "de1e21419642764bcf8c10807ee86658f5def1111dc777a650303e9dce649ef1",
+  "https://github.com/dineshba/tf-summarize/releases/download/v0.3.15/tf-summarize_darwin_arm64.tar.gz": "79f5e319d8c9f87ac9aca1ab990eef5b8cc3c2eee2f4b96d966b48c24a057613",
 }
