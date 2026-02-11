@@ -7,7 +7,7 @@ platform "windows" {
   source = "https://github.com/Boeing/config-file-validator/releases/download/v${version}/validator-v${version}-${os}-${arch}.zip"
 }
 
-version "1.7.1" "1.8.0" "1.8.1" "1.9.0" {
+version "1.7.1" "1.8.0" "1.8.1" "1.9.0" "1.10.0" {
   auto-version {
     github-release = "Boeing/config-file-validator"
   }
@@ -30,4 +30,8 @@ sha256sums = {
   "https://github.com/Boeing/config-file-validator/releases/download/v1.9.0/validator-v1.9.0-darwin-amd64.tar.gz": "e970c8400e9c1e1778406dc50c95fb513644d2a505f633b8a2d31bd5f11b4906",
   "https://github.com/Boeing/config-file-validator/releases/download/v1.9.0/validator-v1.9.0-darwin-arm64.tar.gz": "eef9a7a42e1f56b2b83559c277f2b464b3177997da0e52ae611921c3fb456221",
   "https://github.com/Boeing/config-file-validator/releases/download/v1.9.0/validator-v1.9.0-linux-arm64.tar.gz": "74565ae48299cbe337e30d9997708a26161fd6de9de822d9cab96a5e45334268",
+  "https://github.com/Boeing/config-file-validator/releases/download/v1.10.0/validator-v1.10.0-darwin-arm64.tar.gz": "7735bfab9b56ad6946c0a493e1c9c641b1ffeefd010bbcdabd6c3bdb3e1e3cad",
+  "https://github.com/Boeing/config-file-validator/releases/download/v1.10.0/validator-v1.10.0-darwin-amd64.tar.gz": "d79c0c39c1d62734f57ef4cec89583c49222cbc9c6a4a4f03f010e6bcca1cf05",
+  "https://github.com/Boeing/config-file-validator/releases/download/v1.10.0/validator-v1.10.0-linux-arm64.tar.gz": "4a86373160d3024be29af226238b8ae31ed565a64cb4a76e8d3ae3a70e64e117",
+  "https://github.com/Boeing/config-file-validator/releases/download/v1.10.0/validator-v1.10.0-linux-amd64.tar.gz": "d9b5165dc2f3a082108068bb79ad6b924c403545397b0928edc6777324b0e193",
 }
