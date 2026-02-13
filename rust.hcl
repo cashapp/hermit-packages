@@ -38,7 +38,7 @@ version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" "1.58.0"
         "1.72.0" "1.71.1" "1.72.1" "1.73.0" "1.74.0" "1.74.1" "1.75.0" "1.76.0" "1.77.0"
         "1.77.1" "1.77.2" "1.78.0" "1.79.0" "1.80.0" "1.80.1" "1.81.0" "1.82.0" "1.83.0"
         "1.84.0" "1.84.1" "1.85.0" "1.85.1" "1.86.0" "1.87.0" "1.88.0" "1.89.0" "1.90.0"
-        "1.91.0" "1.91.1" "1.92.0" "1.93.0" {
+        "1.91.0" "1.91.1" "1.92.0" "1.93.0" "1.93.1" {
   auto-version {
     github-release = "rust-lang/rust"
   }
@@ -273,4 +273,8 @@ sha256sums = {
   "https://static.rust-lang.org/dist/rust-1.93.0-x86_64-unknown-linux-gnu.tar.xz": "b9d9f01a96a2542852ccfddd82194276ba1c86bc76353309ff636b737fc0a772",
   "https://static.rust-lang.org/dist/rust-1.93.0-aarch64-apple-darwin.tar.xz": "80a6abf8402c566fc9df56f633bfb41ee7209283fe581ab7e77d0b1432724990",
   "https://static.rust-lang.org/dist/rust-1.93.0-x86_64-apple-darwin.tar.xz": "a65959c488fd0a0e60c6f53a99085ab3c2624ebe2688a117e90d768150c0ed35",
+  "https://static.rust-lang.org/dist/rust-1.93.1-x86_64-apple-darwin.tar.xz": "3121c47ef68e46f1bb6040822abc1a4937cd1ab44e99af19b4b32677aba40a2f",
+  "https://static.rust-lang.org/dist/rust-1.93.1-aarch64-unknown-linux-gnu.tar.xz": "701d55b62286bed013ceb2393ff7687d0953205605afaa15c62e2cd18024c32c",
+  "https://static.rust-lang.org/dist/rust-1.93.1-x86_64-unknown-linux-gnu.tar.xz": "518872275a3648f735471d7add854d39171c5a6b17f423c4d7f931f52120c2af",
+  "https://static.rust-lang.org/dist/rust-1.93.1-aarch64-apple-darwin.tar.xz": "29777f1324ed63c0f7b1701b0977269980427119cb22fd097dc0a614996d9c60",
 }
