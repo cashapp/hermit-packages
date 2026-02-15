@@ -12,7 +12,8 @@ platform "linux" {
   source = "https://github.com/tummychow/git-absorb/releases/download/${version}/git-absorb-${version}-x86_64-unknown-linux-musl.tar.gz"
 }
 
-version "0.6.10" "0.6.11" "0.6.12" "0.6.13" "0.6.15" "0.6.16" "0.6.17" "0.7.0" "0.8.0" {
+version "0.6.10" "0.6.11" "0.6.12" "0.6.13" "0.6.15" "0.6.16" "0.6.17" "0.7.0" "0.8.0"
+        "0.9.0" {
   auto-version {
     github-release = "tummychow/git-absorb"
   }
@@ -37,4 +38,6 @@ sha256sums = {
   "https://github.com/tummychow/git-absorb/releases/download/0.7.0/git-absorb-0.7.0-x86_64-unknown-linux-musl.tar.gz": "9332809782a2bbf4b2d3510f06a7c77e36a5bbc727b94a51046055df173fc2c9",
   "https://github.com/tummychow/git-absorb/releases/download/0.8.0/git-absorb-0.8.0-x86_64-unknown-linux-musl.tar.gz": "3aa7d1235fcf385dd5e37f16dcc42ea1dff939bebaea4931bd2df52721ec63ad",
   "https://github.com/tummychow/git-absorb/releases/download/0.8.0/git-absorb-0.8.0-x86_64-apple-darwin.tar.gz": "5be3fa7cf36b6cba8d2134f57f042bc96747b61a467fd0b112c3ec41627428f0",
+  "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-unknown-linux-musl.tar.gz": "517b442260a38617b05df0078b9e659b95068fabe8d0a83a33589d15f198d9a7",
+  "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-apple-darwin.tar.gz": "1df9ad9206b2a2f0ce312a89188f80d3bace8471ca2799533beec6d83371f760",
 }
