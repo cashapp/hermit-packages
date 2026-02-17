@@ -20,7 +20,7 @@ on "unpack" {
   }
 }
 
-version "1.5.1" "1.6.0" "1.6.1" "1.6.2" {
+version "1.5.1" "1.6.0" "1.6.1" "1.6.2" "1.7.0" {
   auto-version {
     github-release = "pgschema/pgschema"
   }
@@ -48,4 +48,8 @@ sha256sums = {
   "https://github.com/pgschema/pgschema/releases/download/v1.6.2/pgschema-1.6.2-linux-arm64": "4f4dc62f759968b20389072efaa1a8a0eb8317ea54c890c61f71bd3fa346cbb9",
   "https://github.com/pgschema/pgschema/releases/download/v1.6.2/pgschema-1.6.2-linux-amd64": "bf61ea59f2c4c04da7f87c3af87578bde37ef0bca70d933b845f338cf1c09f49",
   "https://github.com/pgschema/pgschema/releases/download/v1.6.2/pgschema-1.6.2-darwin-arm64": "0d489d39493728ba96fd96fe8397758265b19ff23badf136f2aa96fa5694ee85",
+  "https://github.com/pgschema/pgschema/releases/download/v1.7.0/pgschema-1.7.0-linux-amd64": "910a20f0ec379c465e125c18b6d7b6cf59ce9074538408371edf376ec1f832d5",
+  "https://github.com/pgschema/pgschema/releases/download/v1.7.0/pgschema-1.7.0-linux-arm64": "fc5d6c81e0218d115da3a0791764ded4cb23622b26b83ee430d0db9bca482374",
+  "https://github.com/pgschema/pgschema/releases/download/v1.7.0/pgschema-1.7.0-darwin-amd64": "e2ab190975fa2d88e5db747b5888c03f13b9a8f73b39d3fd8df83e94c22b8a5e",
+  "https://github.com/pgschema/pgschema/releases/download/v1.7.0/pgschema-1.7.0-darwin-arm64": "73ededb92fbb152155a161d7e514167280e9f8043e5529b74d79010c9703bbf3",
 }
