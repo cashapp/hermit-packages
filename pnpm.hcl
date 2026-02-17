@@ -2,7 +2,7 @@ description = "pnpm is a package manager for JavaScript and Node.js projects. It
 test = "pnpm --version"
 binaries = ["pnpm"]
 env = {
-  "PNPM_HOME": "${HERMIT_ENV}/.hermit/pnpm",
+  "PNPM_HOME": "${HOME}/.local/share/pnpm",
   "PATH": "${HERMIT_ENV}/.hermit/pnpm:${PATH}",
 }
 
