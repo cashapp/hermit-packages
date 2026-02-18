@@ -37,7 +37,7 @@ version "1.18.0" "1.18.1" "1.18.2" "1.19.0" "1.19.1" "1.19.2" "1.19.3" "1.20.1"
         "2.2.8" "2.2.9" "2.2.10" "2.2.11" "2.2.12" "2.3.1" "2.3.2" "2.3.3" "2.3.4" "2.3.5"
         "2.3.6" "2.3.7" "2.4.0" "2.4.1" "2.4.2" "2.4.3" "2.4.4" "2.4.5" "2.5.0" "2.5.1" "2.5.2"
         "2.5.3" "2.5.4" "2.5.5" "2.5.6" "2.6.0" "2.6.1" "2.6.2" "2.6.3" "2.6.4" "2.6.5" "2.6.6"
-        "2.6.7" "2.6.8" "2.6.9" {
+        "2.6.7" "2.6.8" "2.6.9" "2.6.10" {
   auto-version {
     github-release = "denoland/deno"
   }
@@ -590,4 +590,7 @@ sha256sums = {
   "https://github.com/denoland/deno/releases/download/v2.6.9/deno-aarch64-apple-darwin.zip": "81f8da15540aa7cdcb1e37c13ee15e919b2aa26b65157c2aa69fed7c037dbfa5",
   "https://github.com/denoland/deno/releases/download/v2.6.9/deno-x86_64-unknown-linux-gnu.zip": "8a677a4b0cea1a25aaecfc70d6c6a288f9ad69af0a92e9e9d513cabaaf3c688f",
   "https://github.com/denoland/deno/releases/download/v2.6.9/deno-x86_64-apple-darwin.zip": "ce1961bde80352d43d1967b5f5b92eb7be66afa7e942700e66b6d7474485a69a",
+  "https://github.com/denoland/deno/releases/download/v2.6.10/deno-x86_64-unknown-linux-gnu.zip": "a7c9d5c1f93bfaabe03c3c0583a8c88caf695db3cec4dea2938440038609f225",
+  "https://github.com/denoland/deno/releases/download/v2.6.10/deno-aarch64-apple-darwin.zip": "cdc880f43913f105de02a484005e5a5ed030c905e5a67e288f9ecadde6a86f62",
+  "https://github.com/denoland/deno/releases/download/v2.6.10/deno-x86_64-apple-darwin.zip": "549d631ebe2421ee5e16b7a194764ba649ce2d1f4527496c2e607e551b7979b0",
 }
