@@ -3,7 +3,7 @@ binaries = ["protoc-gen-validate"]
 sha256-source = "https://github.com/bufbuild/protoc-gen-validate/releases/download/v${version}/protoc-gen-validate_${version}_checksums.txt"
 source = "https://github.com/bufbuild/protoc-gen-validate/releases/download/v${version}/protoc-gen-validate_${version}_${os}_${arch}.tar.gz"
 
-version "1.0.1" "1.0.2" "1.2.1" "1.3.0" {
+version "1.0.1" "1.0.2" "1.2.1" "1.3.0" "1.3.3" {
   auto-version {
     github-release = "bufbuild/protoc-gen-validate"
   }
@@ -26,4 +26,8 @@ sha256sums = {
   "https://github.com/bufbuild/protoc-gen-validate/releases/download/v1.3.0/protoc-gen-validate_1.3.0_darwin_amd64.tar.gz": "65a0fea7c2e3ce246235163bcf434ebb0c1395018f2fc711da7ba26acc47334e",
   "https://github.com/bufbuild/protoc-gen-validate/releases/download/v1.3.0/protoc-gen-validate_1.3.0_linux_arm64.tar.gz": "9ead4932aefa8b9decb17486a8d2cfe04418f92a60d388dfc310615f4d7e6034",
   "https://github.com/bufbuild/protoc-gen-validate/releases/download/v1.3.0/protoc-gen-validate_1.3.0_darwin_arm64.tar.gz": "46d19f25c2d7a65440f17ad9a4c166c7ff11ae83221b0b4217c98408b96c0671",
+  "https://github.com/bufbuild/protoc-gen-validate/releases/download/v1.3.3/protoc-gen-validate_1.3.3_darwin_amd64.tar.gz": "10090dc4e2a58d9c4392482677add96a4f4273df76a536da27aec2ea5417df89",
+  "https://github.com/bufbuild/protoc-gen-validate/releases/download/v1.3.3/protoc-gen-validate_1.3.3_linux_amd64.tar.gz": "6f851d3636b0c12a9fb5f99bf5c57651319f6a4c1d695f304269f1204dc9e13c",
+  "https://github.com/bufbuild/protoc-gen-validate/releases/download/v1.3.3/protoc-gen-validate_1.3.3_darwin_arm64.tar.gz": "0ae7bb4cdc6eb357e721db8f8f9b07b10a87fcb234899704d4eab33ee2b793ee",
+  "https://github.com/bufbuild/protoc-gen-validate/releases/download/v1.3.3/protoc-gen-validate_1.3.3_linux_arm64.tar.gz": "e34b7526405741d7fafbf6f1c68cdda429b9420190b180a0b023016651215190",
 }
