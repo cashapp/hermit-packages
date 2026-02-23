@@ -3,7 +3,7 @@ binaries = ["kubectl-whoami"]
 source = "https://github.com/rajatjindal/kubectl-whoami/releases/download/v${version}/kubectl-whoami_v${version}_${os}_${arch}.tar.gz"
 sha256-source = "https://github.com/rajatjindal/kubectl-whoami/releases/download/v${version}/kubectl-whoami_v${version}_checksums.txt"
 
-version "0.0.44" "0.0.46" "0.0.47" {
+version "0.0.44" "0.0.46" "0.0.47" "0.0.48" {
   auto-version {
     github-release = "rajatjindal/kubectl-whoami"
   }
@@ -22,4 +22,8 @@ sha256sums = {
   "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.47/kubectl-whoami_v0.0.47_linux_arm64.tar.gz": "0369a403a9114418354535f4f1ecb82261f587c8b68ca07c771257e73f01a7e7",
   "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.47/kubectl-whoami_v0.0.47_darwin_amd64.tar.gz": "379ad42ece8f10e40144a85365542fad280b242d02053fa338f5896efb0ed39c",
   "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.47/kubectl-whoami_v0.0.47_linux_amd64.tar.gz": "ac3ca3613fcdf9cc4bce259bf04b1015fd882cc2c7a91fc7db1c5f799b5dc3b9",
+  "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.48/kubectl-whoami_v0.0.48_linux_amd64.tar.gz": "e4fc36490d91fb5e55b7392a4ecd4fa13cc9a50ae0d48b6a3e1f8cbef417b49e",
+  "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.48/kubectl-whoami_v0.0.48_darwin_arm64.tar.gz": "15e395eeda25e79005ffbfa55b4cbf9a1b0d344984aa5ec040ba329662d0f39e",
+  "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.48/kubectl-whoami_v0.0.48_linux_arm64.tar.gz": "8233f00a61009a92ee43d128077c5c4073163ca3558237a70d607cebc324c3b9",
+  "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.48/kubectl-whoami_v0.0.48_darwin_amd64.tar.gz": "d820589b1c97008cf554a83625ae61a5d1dc6a8f8b72ed122adce953e571d228",
 }
