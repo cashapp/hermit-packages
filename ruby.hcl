@@ -28,9 +28,27 @@ version "3.3.7" "3.3.8" "3.4.3" "3.4.4" "3.4.5" "3.4.6" {
   platform "linux" "arm64" {
     source = "https://github.com/Homebrew/homebrew-portable-ruby/releases/download/${version}/portable-ruby-${version}.arm64_linux.bottle.tar.gz"
   }
+}
 
-  auto-version {
-    github-release = "Homebrew/homebrew-portable-ruby"
+version "3.2.10" "3.3.9" "3.3.10" "3.4.7" "3.4.8" "4.0.0" "4.0.1" {
+  vars = {
+    "rv_release": "20260221",
+  }
+
+  platform "darwin" "arm64" {
+    source = "https://github.com/spinel-coop/rv-ruby/releases/download/${rv_release}/ruby-${version}.arm64_sonoma.tar.gz"
+  }
+
+  platform "darwin" "amd64" {
+    source = "https://github.com/spinel-coop/rv-ruby/releases/download/${rv_release}/ruby-${version}.ventura.tar.gz"
+  }
+
+  platform "linux" "amd64" {
+    source = "https://github.com/spinel-coop/rv-ruby/releases/download/${rv_release}/ruby-${version}.x86_64_linux.tar.gz"
+  }
+
+  platform "linux" "arm64" {
+    source = "https://github.com/spinel-coop/rv-ruby/releases/download/${rv_release}/ruby-${version}.arm64_linux.tar.gz"
   }
 }
 
@@ -92,4 +110,32 @@ sha256sums = {
   "https://github.com/Homebrew/homebrew-portable-ruby/releases/download/3.4.6/portable-ruby-3.4.6.x86_64_linux.bottle.tar.gz": "40932a3950ccc8bf9d13d98e692e5518427cc66b4f9520956cec349629d25259",
   "https://github.com/Homebrew/homebrew-portable-ruby/releases/download/3.4.6/portable-ruby-3.4.6.el_capitan.bottle.tar.gz": "99bec6d4440dc4f114754f7b9e18d79258a6dacc4089a9a50638e22a1e8665d0",
   "https://github.com/Homebrew/homebrew-portable-ruby/releases/download/3.4.6/portable-ruby-3.4.6.arm64_big_sur.bottle.tar.gz": "62fe925f284cc38aac68b9a42b02cd90de753f8832e8866be3fd60558dd70f67",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.2.10.arm64_sonoma.tar.gz": "fe9aa7baf14b33ecf039be552b1659213f5c5fb0c4a6d113d5bf504fa4393440",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.2.10.ventura.tar.gz": "cc7d6372f087c0d8df378fec5d70aa35021ab563e55912063f4a43391f73e6c5",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.2.10.x86_64_linux.tar.gz": "811354957a4b4bb479c1ff6998230cd4eb69c879ee36c77ad9c72b0580adfc5a",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.2.10.arm64_linux.tar.gz": "b7e78beb15a938ef968e9a1dff522e42d62ac1b9e617e3521eb75b3d08bdd113",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.9.arm64_sonoma.tar.gz": "a90bc0e075d99abc8acb6a3c92df93c7454f7433bd194fa4a606862f95565434",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.9.ventura.tar.gz": "f3699b9e9bd6f4b01d45fc22105d79922fdda08092585e72d9018b4f07de21d3",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.9.x86_64_linux.tar.gz": "c9184178772bf8a1063a4e25319e8820b5016baf3665cbeac75ed641b6820908",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.9.arm64_linux.tar.gz": "554a1f10849385e49a1c3b22ff9c8629f08bc4e9f40afea380d10e2682a31908",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.10.arm64_sonoma.tar.gz": "301627ed0b73092d0110b927ece6659a33720cca6026bc562c9d3fac5c859c21",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.10.ventura.tar.gz": "0bd1cb854168f99209fb66a59fd832baa45d018394bce81cb366b0fd83285391",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.10.x86_64_linux.tar.gz": "7ae863934f3adaa36b7173b01b44d474e2b48ed2e28de01a1732f25babe28e41",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.3.10.arm64_linux.tar.gz": "ff9757c448e1e6e9fbd6bc857ca7ede761598e1d9217a94cbb09d0678b434090",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.7.arm64_sonoma.tar.gz": "75d3f9fee8dcdbb5d298a14bb3c8f195660799d51bd287dc44f5683d3de46f88",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.7.ventura.tar.gz": "7983c0af41cfb352310bad644c310eed09928d5b229dc1ac7d026f4bde7ca779",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.7.x86_64_linux.tar.gz": "be944e9b006b3fe8509bc0130ee35d680642e0c0d562562bb35920ec3ff00c93",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.7.arm64_linux.tar.gz": "5fd73c04fa6d19caf1767f8c03e64a995b2fc574d42c53354c935f4516beb419",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.8.arm64_sonoma.tar.gz": "0711f823734f4afbfbebf594a8b324284740574eb4042c9833f0ae5a3b682fed",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.8.ventura.tar.gz": "79ffd1fc87d84ca5a07a41c5eefbb1667e6c15433f86798986048e628e486c61",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.8.x86_64_linux.tar.gz": "380fe8e745f47aa8c71417e40cffcf1c556b088a2743efc6fdd818a33ca7cecc",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-3.4.8.arm64_linux.tar.gz": "d1f061cdb61fd3d6c728f1fdbf2e24a2e02507e2d9d39127ff24e97cbe59c33f",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.0.arm64_sonoma.tar.gz": "9739035f4d003cf72a642025f42e9b87d7dd37803b679bd9fac195acccce924e",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.0.ventura.tar.gz": "1f09b5cdeca6eb2f24f337fd7f2dd70716a9426666f5ce5ce0be9acba28aa7d2",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.0.x86_64_linux.tar.gz": "ac033d11724a8652d57f1e3c38163f2670c031769e56ac58fb8ef21c49ba060d",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.0.arm64_linux.tar.gz": "b94911cce74540f3fd25e193224322f840a2204f256233aabcd4a97769c7b518",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.1.arm64_sonoma.tar.gz": "7ec981f5062f59db3abc0f0cd2f313743f595317d0d2171bf99e75336ccb47e4",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.1.ventura.tar.gz": "d4c3bc5ab63597a18af2c773cf2c2d9ea182bf3bb0cd1bcb020af40a979f7d66",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.1.x86_64_linux.tar.gz": "cd2683fed356333a82093f43beae3cdfee22755978f88956bfb6a9b1e9f888f9",
+  "https://github.com/spinel-coop/rv-ruby/releases/download/20260221/ruby-4.0.1.arm64_linux.tar.gz": "8fc30c107f969331ec2f1a67f80b77d977e43e255a27b2a3322fbe3268e23f52",
 }
