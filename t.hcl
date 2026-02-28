@@ -22,7 +22,7 @@ on "unpack" {
   }
 }
 
-version "0.0.1" "0.0.4" "0.1.0" "0.3.0" {
+version "0.0.1" "0.0.4" "0.1.0" "0.3.0" "0.3.1" {
   auto-version {
     github-release = "alecthomas/t"
   }
@@ -45,4 +45,8 @@ sha256sums = {
   "https://github.com/alecthomas/t/releases/download/v0.3.0/t-x86_64-unknown-linux-gnu.bz2": "323ccc168e4775387cbc69831cd394ce79471e3c7b3dc0fdabe2a6aeea4ce4e4",
   "https://github.com/alecthomas/t/releases/download/v0.3.0/t-aarch64-apple-darwin.bz2": "3299dd898395cf96e0487c76307de4c70d2f7356cfa8702137026aa0a77ad45f",
   "https://github.com/alecthomas/t/releases/download/v0.3.0/t-aarch64-unknown-linux-gnu.bz2": "7a30016a97e8f46f1c0b7fb32988fa7d8c4c4117b21ef2edb012332b027ac148",
+  "https://github.com/alecthomas/t/releases/download/v0.3.1/t-aarch64-unknown-linux-gnu.bz2": "4c55b9094c430c650caf7ea74ac0e124103e6341532b2bdea09bd7129e0cd8a1",
+  "https://github.com/alecthomas/t/releases/download/v0.3.1/t-x86_64-apple-darwin.bz2": "8869ac0c685317ad9e60e4353bf3c8a947198e7f3f635da817083a030a109c2d",
+  "https://github.com/alecthomas/t/releases/download/v0.3.1/t-aarch64-apple-darwin.bz2": "7529cf1ab1ee6221ed5ebee4ff477a8d7658f6cea2309a9646423c91b1314ef4",
+  "https://github.com/alecthomas/t/releases/download/v0.3.1/t-x86_64-unknown-linux-gnu.bz2": "34f5152780cb3074a48e20de9c8bf7bec943ccd9cd3547c874882bc1e38676e9",
 }
