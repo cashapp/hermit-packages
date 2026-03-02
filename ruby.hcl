@@ -47,7 +47,7 @@ version "3.2.10" "3.3.9" "3.3.10" "3.4.7" "3.4.8" "4.0.0" "4.0.1" {
   // extensions (e.g. the openssl gem) recompile and dynamically link against the
   // system's libssl. Ubuntu 24.04 ships OpenSSL 3.0.x which is too old for gems
   // built against rv-ruby's 3.5+ headers. Point gem compilation and runtime at
-  // linuxbrew's OpenSSL, which is present on Blox workstations.
+  // linuxbrew's OpenSSL.
   platform "linux" "amd64" {
     source = "https://github.com/spinel-coop/rv-ruby/releases/download/${rv_release}/ruby-${version}.x86_64_linux.tar.gz"
     env = {
