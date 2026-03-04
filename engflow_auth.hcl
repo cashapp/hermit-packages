@@ -28,7 +28,7 @@ on "unpack" {
   }
 }
 
-version "0.0.9" "0.0.10" "0.0.11" "0.0.12" "0.0.13" {
+version "0.0.13" {
   auto-version {
     github-release = "EngFlow/auth"
     ignore-invalid-versions = true
