@@ -8,7 +8,7 @@ version "1.15.1" "1.15.2" "1.15.3" "1.15.4" "1.15.5" "1.15.6" "1.16.0" "1.16.1"
         "1.16.2" "1.16.3" "1.17.0" "1.17.1" "1.17.2" "1.17.3" "1.17.4" "1.17.5" "1.17.6"
         "1.18.0" "1.18.1" "1.18.2" "1.18.3" "1.18.4" "1.18.5" "1.19.0" "1.19.1" "1.19.2"
         "1.19.3" "1.19.4" "1.19.5" "1.20.0" "1.20.1" "1.20.2" "1.20.3" "1.20.4" "1.21.0"
-        "1.21.1" "1.21.2" "1.21.3" {
+        "1.21.1" "1.21.2" "1.21.3" "1.21.4" {
   auto-version {
     github-release = "hashicorp/vault"
   }
@@ -167,4 +167,8 @@ sha256sums = {
   "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_linux_arm64.zip": "9aa275c7de486413a414f62201090762245723f9ec8620a3ad1c49699a9c35a2",
   "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_linux_amd64.zip": "c945e90979a7b6e4b4846285587c35b25f8191f9f70cb879132bc118ae42c368",
   "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_darwin_arm64.zip": "65a4e5b2744bece121cf07256eda9ec856f5c7a9178fbafe3dd9036b5ed7ea37",
+  "https://releases.hashicorp.com/vault/1.21.4/vault_1.21.4_linux_arm64.zip": "1104ef701aad16e104e2e7b4d2a02a6ec993237559343f3097ac63a00b42e85d",
+  "https://releases.hashicorp.com/vault/1.21.4/vault_1.21.4_linux_amd64.zip": "889b681990fe221b884b7932fa9c9dd0ee9811b9349554f1aa287ab63c9f3dae",
+  "https://releases.hashicorp.com/vault/1.21.4/vault_1.21.4_darwin_arm64.zip": "c79012c1c8aedd682c68b5d9c89149030611c82da57f45383aef004b39a640d2",
+  "https://releases.hashicorp.com/vault/1.21.4/vault_1.21.4_darwin_amd64.zip": "a667be3cf56dd0f21a23ba26b47028d1f51b3ca61e71b0e29ceafef1c2a1dc3a",
 }
