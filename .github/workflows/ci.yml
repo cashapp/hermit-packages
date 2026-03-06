@@ -22,6 +22,8 @@ jobs:
           set -o pipefail
           curl -fsSL https://github.com/cashapp/hermit/releases/download/stable/install.sh | bash
       - name: Test packages
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
         run: |
           set -xe -o pipefail
           ~/bin/hermit validate "file://$PWD"
