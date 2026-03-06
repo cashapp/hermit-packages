@@ -1,7 +1,7 @@
 description = "Online schema change tool for MySQL 8.0+"
 homepage = "https://github.com/block/spirit"
 binaries = ["spirit"]
-test = "spirit version"
+test = "spirit --version"
 
 platform "darwin" "arm64" {
   source = "https://github.com/block/spirit/releases/download/v${version}/spirit_${version}_darwin_arm64.tar.gz"
