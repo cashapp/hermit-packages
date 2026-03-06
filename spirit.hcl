@@ -1,4 +1,4 @@
-description = "Online schema change tool for MySQL 8.0+"
+description = "Online schema change and data operations for MySQL 8.0+"
 homepage = "https://github.com/block/spirit"
 binaries = ["spirit"]
 test = "spirit --version"
