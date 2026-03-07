@@ -10,7 +10,7 @@ env = {
 on "unpack" {
   chmod {
     file = "${root}/fnm"
-    mode = 0755
+    mode = 493
   }
 }
 
@@ -41,7 +41,8 @@ platform "windows" {
 version "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.7" "1.22.8" "1.22.9" "1.23.0"
         "1.23.1" "1.23.2" "1.24.0" "1.25.0" "1.26.0" "1.27.0" "1.28.0" "1.28.1" "1.28.2"
         "1.29.0" "1.29.1" "1.29.2" "1.30.0" "1.30.1" "1.31.0" "1.31.1" "1.32.0" "1.33.1"
-        "1.34.0" "1.35.0" "1.35.1" "1.36.0" "1.37.0" "1.37.1" "1.37.2" "1.38.0" "1.38.1" {
+        "1.34.0" "1.35.0" "1.35.1" "1.36.0" "1.37.0" "1.37.1" "1.37.2" "1.38.0" "1.38.1"
+        "1.39.0" {
   auto-version {
     github-release = "Schniz/fnm"
   }
@@ -153,4 +154,7 @@ sha256sums = {
   "https://github.com/Schniz/fnm/releases/download/v1.38.1/fnm-arm64.zip": "69feda9455931c26c84be9f95f5e6f69e8b64686e68069fab7cfc34756cd2944",
   "https://github.com/Schniz/fnm/releases/download/v1.38.1/fnm-linux.zip": "b69e5c9a05c1e17e4a7de9a17df14ba430d049f2591af791a6f850a170296069",
   "https://github.com/Schniz/fnm/releases/download/v1.38.1/fnm-macos.zip": "80deb3db3db45598f25aea594c10936a7658f70826104fe37e33b4072a5e11f9",
+  "https://github.com/Schniz/fnm/releases/download/v1.39.0/fnm-arm64.zip": "4eaff58b2c5bf30d0934027572dd0b5bbb60d2a1af309230b53662d4b1d45599",
+  "https://github.com/Schniz/fnm/releases/download/v1.39.0/fnm-linux.zip": "7807664f39d39fc518da1c35ba0181e4b3267603c4b1dedeb4b5fc6ae440a224",
+  "https://github.com/Schniz/fnm/releases/download/v1.39.0/fnm-macos.zip": "f046483e85c53b3278efe49a3620c8680f22efa58a8dabfd03eafc6b59b31a25",
 }
