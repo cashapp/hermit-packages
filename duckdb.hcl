@@ -21,7 +21,8 @@ version "0.4.0" {
 
 version "0.5.0" "0.5.1" "0.6.0" "0.6.1" "0.7.0" "0.7.1" "0.8.0" "0.8.1" "0.9.0" "0.9.1"
         "0.9.2" "0.10.0" "0.10.1" "0.10.2" "0.10.3" "1.0.0" "1.1.0" "1.1.1" "1.1.2" "1.1.3"
-        "1.2.0" "1.2.1" "1.2.2" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.4.2" "1.4.3" "1.4.4" {
+        "1.2.0" "1.2.1" "1.2.2" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.4.2" "1.4.3" "1.4.4"
+        "1.5.0" {
   auto-version {
     github-release = "duckdb/duckdb"
   }
@@ -115,4 +116,6 @@ sha256sums = {
   "https://github.com/duckdb/duckdb/releases/download/v1.4.3/duckdb_cli-linux-amd64.zip": "7a9e36141a71a353f54dfbeed607a5218c3425ce2d417610da08443259a12f7c",
   "https://github.com/duckdb/duckdb/releases/download/v1.4.4/duckdb_cli-osx-universal.zip": "3261e52ea423a97bb766172b584ceae20bb90b2d40552ab24c1b740ace79c972",
   "https://github.com/duckdb/duckdb/releases/download/v1.4.4/duckdb_cli-linux-amd64.zip": "ea79eae4233f1aba9a020c8a61877de38a789bc62cdd37485d3589cd77dc0d3e",
+  "https://github.com/duckdb/duckdb/releases/download/v1.5.0/duckdb_cli-linux-amd64.zip": "179a481edf048dd1fef0f097d66933b4b5f5a5737d4034c645e415ec722c0292",
+  "https://github.com/duckdb/duckdb/releases/download/v1.5.0/duckdb_cli-osx-universal.zip": "108e7a62e42286a0b6d88f49e1a792907f85c70d0ead350cc3cb69e59124038b",
 }
