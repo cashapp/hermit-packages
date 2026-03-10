@@ -2,7 +2,7 @@ description = "keep-sorted is a language-agnostic formatter that sorts lines bet
 binaries = ["keep-sorted"]
 test = "keep-sorted --version"
 
-linux {
+platform "linux" "amd64" {
   source = "https://github.com/google/keep-sorted/releases/download/v${version}/keep-sorted_linux"
 
   on "unpack" {
@@ -13,7 +13,7 @@ linux {
   }
 }
 
-darwin {
+platform "darwin" "arm64" {
   source = "https://github.com/google/keep-sorted/releases/download/v${version}/keep-sorted_darwin"
 
   on "unpack" {
