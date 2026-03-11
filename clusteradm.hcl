@@ -2,7 +2,7 @@ description = "CLI tool for managing the lifecycle of Open Cluster Management."
 homepage = "https://open-cluster-management.io"
 repository = "https://github.com/open-cluster-management-io/clusteradm"
 binaries = ["clusteradm"]
-test = "clusteradm version"
+test = "clusteradm --help"
 source = "https://github.com/open-cluster-management-io/clusteradm/releases/download/v${version}/clusteradm_${os}_${arch}.tar.gz"
 
 version "1.2.0" {
