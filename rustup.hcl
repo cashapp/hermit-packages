@@ -85,7 +85,7 @@ version "1.25.1" {
   binaries = ["cargo", "cargo-clippy", "cargo-fmt", "cargo-miri", "clippy-driver", "rls", "rust-gdb", "rust-gdbgui", "rust-lldb", "rustc", "rustdoc", "rustfmt", "rustup"]
 }
 
-version "1.25.2" "1.26.0" "1.27.0" "1.27.1" "1.28.0" "1.28.1" "1.28.2" {
+version "1.25.2" "1.26.0" "1.27.0" "1.27.1" "1.28.0" "1.28.1" "1.28.2" "1.29.0" {
   auto-version {
     git-tags = "https://github.com/rust-lang/rustup.git"
   }
@@ -135,4 +135,8 @@ sha256sums = {
   "https://static.rust-lang.org/rustup/archive/1.28.0/x86_64-unknown-linux-gnu/rustup-init": "c8d03f559a2335693379e1d3eaee76622b2a6580807e63bcd61faea709b9f664",
   "https://static.rust-lang.org/rustup/archive/1.28.0/x86_64-apple-darwin/rustup-init": "23c645448625df700e3127c100054fdd247fa00993b3f97849b5f74dfefd1051",
   "https://static.rust-lang.org/rustup/archive/1.28.1/aarch64-apple-darwin/rustup-init": "966892cda29f0152315f5b4add9b865944c97d5573ae33855b8fc2c0d592ca5a",
+  "https://static.rust-lang.org/rustup/archive/1.29.0/aarch64-apple-darwin/rustup-init": "aeb4105778ca1bd3c6b0e75768f581c656633cd51368fa61289b6a71696ac7e1",
+  "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-unknown-linux-gnu/rustup-init": "4acc9acc76d5079515b46346a485974457b5a79893cfb01112423c89aeb5aa10",
+  "https://static.rust-lang.org/rustup/archive/1.29.0/aarch64-unknown-linux-gnu/rustup-init": "9732d6c5e2a098d3521fca8145d826ae0aaa067ef2385ead08e6feac88fa5792",
+  "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-apple-darwin/rustup-init": "33cf85df9142bc6d29cbc62fa5ca1d4c29622cddb55213a4c1a43c457fb9b2d7",
 }

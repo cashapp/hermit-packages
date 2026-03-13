@@ -22,7 +22,8 @@ version "3.6.0" "3.6.1" "3.6.2" "3.6.3" "3.7.0" "3.7.1" "3.7.2" "3.8.0" "3.8.1" 
         "3.13.2" "3.13.3" "3.14.0" "3.14.1" "3.14.2" "3.14.3" "3.14.4" "3.15.0" "3.15.1"
         "3.15.2" "3.15.3" "3.15.4" "3.16.0" "3.16.1" "3.16.2" "3.16.3" "3.16.4" "3.17.0"
         "3.17.1" "3.17.2" "3.17.3" "3.18.0" "3.18.1" "3.18.2" "3.18.3" "3.18.4" "3.18.5"
-        "3.18.6" "3.19.0" "3.19.1" "4.0.0" "4.0.1" "4.0.2" "4.0.4" "4.0.5" "4.1.0" "4.1.1" {
+        "3.18.6" "3.19.0" "3.19.1" "4.0.0" "4.0.1" "4.0.2" "4.0.4" "4.0.5" "4.1.0" "4.1.1"
+        "4.1.3" {
   auto-version {
     github-release = "helm/helm"
   }
@@ -299,4 +300,8 @@ sha256sums = {
   "https://get.helm.sh/helm-v4.1.1-darwin-arm64.tar.gz": "b8f49e105b1d2fd8c8a90ba3fc9af48db91d2d1ca3b9e788352fc7c896bbb71a",
   "https://get.helm.sh/helm-v4.1.1-linux-amd64.tar.gz": "5d4c7623283e6dfb1971957f4b755468ab64917066a8567dd50464af298f4031",
   "https://get.helm.sh/helm-v4.1.1-linux-arm64.tar.gz": "02a5fb7742469d2d132e24cb7c3f52885894043576588c6788b6813297629edd",
+  "https://get.helm.sh/helm-v4.1.3-darwin-arm64.tar.gz": "21c02fe2f7e27d08e24a6bf93103f9d2b25aab6f13f91814b2cfabc99b108a5e",
+  "https://get.helm.sh/helm-v4.1.3-darwin-amd64.tar.gz": "742132e11cc08a81c97f70180cd714ae8376f8c896247a7b14ae1f51838b5a0b",
+  "https://get.helm.sh/helm-v4.1.3-linux-amd64.tar.gz": "02ce9722d541238f81459938b84cf47df2fdf1187493b4bfb2346754d82a4700",
+  "https://get.helm.sh/helm-v4.1.3-linux-arm64.tar.gz": "5db45e027cc8de4677ec869e5d803fc7631b0bab1c1eb62ac603a62d22359a43",
 }
