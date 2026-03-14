@@ -24,7 +24,8 @@ platform "linux" {
 
 description = "Semantic versioning tool for git based on conventional commits"
 
-version "2.0.0" "2.0.1" "2.0.2" "2.0.3" "2.0.4" "2.0.5" "2.0.6" "2.0.7" "2.0.8" "2.0.9" {
+version "2.0.0" "2.0.1" "2.0.2" "2.0.3" "2.0.4" "2.0.5" "2.0.6" "2.0.7" "2.0.8" "2.0.9"
+        "2.0.10" {
   auto-version {
     github-release = "thegeeklab/git-sv"
   }
@@ -71,4 +72,8 @@ sha256sums = {
   "https://github.com/thegeeklab/git-sv/releases/download/v2.0.9/git-sv-darwin-10.12-amd64": "a486dba13db3679b76842d06232b6786ceed6ab16e11c53e27c98a171afa041f",
   "https://github.com/thegeeklab/git-sv/releases/download/v2.0.9/git-sv-darwin-10.12-arm64": "1e3560be20c67c3749d5aa2d3840f7ae4f713a475761e943fd2b572745a9953f",
   "https://github.com/thegeeklab/git-sv/releases/download/v2.0.9/git-sv-linux-arm64": "bd44c09f5b4c002169d1da8cdce8804e24b9eaedcbedd645ad4e2a46e0555e98",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.10/git-sv-darwin-10.12-arm64": "aa25c7d81ef6ded57db853a7ede2ef1c61614950010cf685d8c00ff138cfdd14",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.10/git-sv-linux-arm64": "854885bd6a9b2ac776006ecf3e1935f8a6699d47e50d1e005a98ad1aebd523f6",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.10/git-sv-linux-amd64": "b160580ab9904951ccc7b52726e5dd341674991762c7004b2d51229e99d836c8",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.10/git-sv-darwin-10.12-amd64": "480d3c252a07f2a4a5fbea943ecc6580291da41d93c17a91729ff70d6fe27f4b",
 }

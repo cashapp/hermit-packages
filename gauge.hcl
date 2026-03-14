@@ -13,7 +13,7 @@ platform "amd64" {
 version "1.3.2" "1.3.3" "1.4.0" "1.4.1" "1.4.2" "1.4.3" "1.5.0" "1.5.1" "1.5.2" "1.5.3"
         "1.5.4" "1.5.6" "1.5.7" "1.6.0" "1.6.1" "1.6.2" "1.6.3" "1.6.4" "1.6.5" "1.6.6" "1.6.7"
         "1.6.8" "1.6.9" "1.6.10" "1.6.11" "1.6.12" "1.6.13" "1.6.14" "1.6.15" "1.6.16"
-        "1.6.17" "1.6.18" "1.6.19" "1.6.20" "1.6.21" "1.6.22" "1.6.25" "1.6.26" {
+        "1.6.17" "1.6.18" "1.6.19" "1.6.20" "1.6.21" "1.6.22" "1.6.25" "1.6.26" "1.6.27" {
   auto-version {
     github-release = "getgauge/gauge"
   }
@@ -172,4 +172,8 @@ sha256sums = {
   "https://github.com/getgauge/gauge/releases/download/v1.6.26/gauge-1.6.26-darwin.x86_64.zip": "032b8f1f12d4bd643a0827048494ed40b3b2406910e2e5c6002e04b0a1a4f1d8",
   "https://github.com/getgauge/gauge/releases/download/v1.6.26/gauge-1.6.26-darwin.arm64.zip": "a0edfb072274a4c287ca300e77f0d64ec2d874853dbde43cdb9d43b35c8434ec",
   "https://github.com/getgauge/gauge/releases/download/v1.6.26/gauge-1.6.26-linux.arm64.zip": "581c79d839cde6b795fa2946c71ac39f6ab00cee7cf3d1e1d49787f870d37d05",
+  "https://github.com/getgauge/gauge/releases/download/v1.6.27/gauge-1.6.27-darwin.arm64.zip": "248c8acaa42c7998f0dca8340c064dc2032c2d4728aace3d37685166b20812b5",
+  "https://github.com/getgauge/gauge/releases/download/v1.6.27/gauge-1.6.27-darwin.x86_64.zip": "f024c51193c19c82f192a37ca06c04bcac8caa1f0e1caa6ffd3612241988f86f",
+  "https://github.com/getgauge/gauge/releases/download/v1.6.27/gauge-1.6.27-linux.x86_64.zip": "25ff6f3db53bc49273792ce7938feae1c4382f4e9c2def22eb459acf8a75fbcb",
+  "https://github.com/getgauge/gauge/releases/download/v1.6.27/gauge-1.6.27-linux.arm64.zip": "e902bd5311e9c00d454ca72a34e5e5b34716156c288775f68054dcc9775962e7",
 }
