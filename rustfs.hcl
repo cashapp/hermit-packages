@@ -11,7 +11,7 @@ platform "darwin" {
 }
 
 version "1.0.0-alpha.79" "1.0.0-alpha.81" "1.0.0-alpha.82" "1.0.0-alpha.83"
-        "1.0.0-alpha.84" "1.0.0-alpha.85" {
+        "1.0.0-alpha.84" "1.0.0-alpha.85" "1.0.0-alpha.86" {
   auto-version {
     git-tags = "https://github.com/rustfs/rustfs.git"
   }
@@ -42,4 +42,8 @@ sha256sums = {
   "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.85/rustfs-macos-aarch64-latest.zip": "6a0d97e5abde54256285c133890e42c3cc600b66537bb6965b7270147412e82f",
   "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.85/rustfs-linux-aarch64-gnu-latest.zip": "4f95d21891a5802a344fdd6cb05de6da2bcc136408fb6cf92110b7b3c3a908ff",
   "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.85/rustfs-macos-x86_64-latest.zip": "62626200861f14a35b47577f955afcce97c4400b4d17bf66391b71c0b1c43764",
+  "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.86/rustfs-macos-aarch64-latest.zip": "a3bbcdc513a07af9044f74a78e3abef77b660d46397f889939d9d1b674b0b3f8",
+  "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.86/rustfs-macos-x86_64-latest.zip": "8d0a7727bbdaf0a765125f0401a3b269d28ea12bcf19d904f713f116dc375f3f",
+  "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.86/rustfs-linux-x86_64-gnu-latest.zip": "d115a39a141253d38c54e9e21c623d97915fc8daa2e48ae0296cb216c2c13c8c",
+  "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.86/rustfs-linux-aarch64-gnu-latest.zip": "9ddb203cd60cfce93158c02a8fe0ddd1c0b4715e92ef7c72330bae55ac99b909",
 }
