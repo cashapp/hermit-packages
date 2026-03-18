@@ -20,7 +20,7 @@ version "3.0.0" "3.0.1" "3.1.0" "3.1.1" "3.2.0" "3.2.1" "3.3.0" "3.4.0" "3.5.0" 
         "4.26.1" "4.27.0" "4.27.1" "4.28.0" "4.29.0" "4.30.0" "4.30.1" "4.31.0" "4.32.0"
         "4.33.0" "4.34.0" "4.35.0" "4.36.0" "4.37.0" "4.38.0" "4.39.0" "4.39.1" "4.40.0"
         "4.41.0" "4.42.0" "4.43.0" "4.44.0" "4.44.1" "4.45.1" "4.46.0" "4.47.0" "4.48.0"
-        "4.49.0" "4.50.0" "4.51.0" "4.52.0" "4.53.0" "4.54.0" {
+        "4.49.0" "4.50.0" "4.51.0" "4.52.0" "4.53.0" "4.54.0" "4.55.0" {
   auto-version {
     github-release = "confluentinc/cli"
     ignore-invalid-versions = true
@@ -609,4 +609,8 @@ sha256sums = {
   "https://github.com/confluentinc/cli/releases/download/v4.54.0/confluent_4.54.0_linux_amd64.tar.gz": "afd77e10660bdba6a775580b22a790a5685924fb0ca4007db95b396f5ad17350",
   "https://github.com/confluentinc/cli/releases/download/v4.54.0/confluent_4.54.0_linux_arm64.tar.gz": "f4baacb992fa21daeafc0fb38e7e90d1e4ec7f1a8c8b6dcfb5c867696398f115",
   "https://github.com/confluentinc/cli/releases/download/v4.54.0/confluent_4.54.0_darwin_amd64.tar.gz": "bdec281ba1aa95090b96f7c45db6b54de5048ca189c283b2e46c3219d6af525b",
+  "https://github.com/confluentinc/cli/releases/download/v4.55.0/confluent_4.55.0_darwin_arm64.tar.gz": "2e0f38847a11348cf1641c7c369ed2b2741b27548c1e9264a8a01e33147f087f",
+  "https://github.com/confluentinc/cli/releases/download/v4.55.0/confluent_4.55.0_linux_amd64.tar.gz": "13e806bc0f59882158d589a6c886f653f3e87670c048e3f7813517185e582a85",
+  "https://github.com/confluentinc/cli/releases/download/v4.55.0/confluent_4.55.0_linux_arm64.tar.gz": "6aa4e9a2371cc8e953830cf8af30ff8d825db4c9423f08281fcc700095c7fc7c",
+  "https://github.com/confluentinc/cli/releases/download/v4.55.0/confluent_4.55.0_darwin_amd64.tar.gz": "977717493e0f85ba6475975f29a806d2c14cbf45ee9c370067d0225d4b96f402",
 }

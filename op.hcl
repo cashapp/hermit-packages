@@ -7,7 +7,7 @@ test = "op --version"
 
 version "2.20.0" "2.21.0" "2.22.0" "2.23.0" "2.24.0" "2.25.0" "2.25.1" "2.26.0"
         "2.26.1" "2.27.0" "2.28.0" "2.28.0" "2.29.0" "2.30.3" "2.31.0" "2.31.1" "2.32.0"
-        "2.32.1" {
+        "2.32.1" "2.33.0" {
   auto-version {
     html {
       url = "https://app-updates.agilebits.com/product_history/CLI2"
@@ -85,4 +85,8 @@ sha256sums = {
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.1/op_linux_arm64_v2.32.1.zip": "cf6d114b12079ba5ac4f3ea6c69d331c06565c361aeae77f8c20868bd94c9885",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.1/op_darwin_amd64_v2.32.1.zip": "6469797129d9e70129aac1828893a53ef535be3c7d4bd1e235498b8d78d6a4eb",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.1/op_darwin_arm64_v2.32.1.zip": "fcf1038da5d1030c87e3382553a875638f17e19204874bed0034382ce2dfd4b8",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_darwin_amd64_v2.33.0.zip": "de0910cce4f646434ecd97c8d07e60a92b4e19f187b01698332461bdfae549b2",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_linux_arm64_v2.33.0.zip": "1d3862246186953b6d0585d17a9b5bbf5c89f2b000d21b32a4a9442ef1493c99",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_darwin_arm64_v2.33.0.zip": "e7a4fdb33254b20f6721df46bf81f25ebf6e7f190183c6830619f90655eb35cb",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_linux_amd64_v2.33.0.zip": "299f113a8591dc088b659ff1bf47252d7261856518d37999ac2440724025dce8",
 }
