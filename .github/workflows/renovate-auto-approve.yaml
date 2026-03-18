@@ -1,0 +1,67 @@
+---
+# Renovate Auto-Approve Workflow
+#
+# Keeps required human approvals for normal PRs while allowing trusted,
+# low-risk Renovate PRs to satisfy the approval gate automatically.
+# The workflow only approves PRs when Renovate itself reports that
+# automerge is enabled for that update.
+#
+# This workflow is bootstrapped from org automation managed in
+# usetero/infrastructure. Update the shared source there.
+name: renovate-auto-approve
+
+"on":
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+      - ready_for_review
+
+jobs:
+  approve:
+    if: |
+      github.actor == 'renovate[bot]' &&
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
+        with:
+          app-id: ${{ secrets.TERO_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.TERO_BOT_PRIVATE_SIGNING_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+
+      - name: Approve safe Renovate PRs
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPOSITORY: ${{ github.repository }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if ! printf '%s' "$PR_BODY" | grep -Fq '🚦 **Automerge**: Enabled.'; then
+            echo "Renovate did not mark this PR as automerge-enabled; skipping approval."
+            exit 0
+          fi
+
+          APPROVED_AT_HEAD="$(
+            gh api "repos/$REPOSITORY/pulls/$PR_NUMBER/reviews" --paginate \
+              --jq 'map(select(.user.login == "tero[bot]" and .state == "APPROVED" and .commit_id == "'"$HEAD_SHA"'")) | length'
+          )"
+
+          if [ "$APPROVED_AT_HEAD" -gt 0 ]; then
+            echo "PR already approved by tero[bot] at this head SHA."
+            exit 0
+          fi
+
+          gh api "repos/$REPOSITORY/pulls/$PR_NUMBER/reviews" \
+            -f event=APPROVE \
+            -f body='Auto-approved by tero[bot] because Renovate marked this update as automerge-enabled under the shared dependency policy.'
