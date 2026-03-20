@@ -8,7 +8,8 @@ repository = "https://github.com/gradle/gradle"
 version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "7.6.2"
         "7.6.3" "8.0-rc-2" "8.0.1" "8.0.2" "8.1.1" "8.2" "8.2.1" "8.3" "8.4" "8.5" "8.6" "8.7"
         "8.8" "8.9" "8.10" "8.10.1" "8.10.2" "8.11" "8.11.1" "8.12" "8.12.1" "8.13" "8.14"
-        "8.14.1" "8.14.2" "8.14.3" "9.0.0" "9.1.0" "9.2.0" "9.2.1" "9.3.0" "9.3.1" "9.4.0" {
+        "8.14.1" "8.14.2" "8.14.3" "9.0.0" "9.1.0" "9.2.0" "9.2.1" "9.3.0" "9.3.1" "9.4.0"
+        "9.4.1" {
   auto-version {
     html {
       url = "https://gradle.org/releases/"
@@ -63,4 +64,5 @@ sha256sums = {
   "https://services.gradle.org/distributions/gradle-9.3.0-bin.zip": "0d585f69da091fc5b2beced877feab55a3064d43b8a1d46aeb07996b0915e0e0",
   "https://services.gradle.org/distributions/gradle-9.3.1-bin.zip": "b266d5ff6b90eada6dc3b20cb090e3731302e553a27c5d3e4df1f0d76beaff06",
   "https://services.gradle.org/distributions/gradle-9.4.0-bin.zip": "60ea723356d81263e8002fec0fcf9e2b0eee0c0850c7a3d7ab0a63f2ccc601f3",
+  "https://services.gradle.org/distributions/gradle-9.4.1-bin.zip": "2ab2958f2a1e51120c326cad6f385153bb11ee93b3c216c5fccebfdfbb7ec6cb",
 }
