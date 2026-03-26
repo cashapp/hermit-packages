@@ -1,7 +1,7 @@
 description = "FFmpeg build for Jellyfin, with custom patches for hardware acceleration and media compatibility."
 homepage = "https://github.com/jellyfin/jellyfin-ffmpeg"
 binaries = ["ffmpeg", "ffprobe"]
-provides = ["ffmpeg"]
+provides = ["ffmpeg", "ffprobe"]
 test = "ffmpeg -version"
 source = "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v${version}/jellyfin-ffmpeg_${version}_portable_${platform_}-gpl.tar.xz"
 
