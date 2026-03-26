@@ -22,7 +22,8 @@ on "unpack" {
   }
 }
 
-version "0.0.1" "0.2.0" "0.4.0" "0.5.0" "0.6.0" "0.7.0" "0.8.0" "0.9.0" "0.9.1" "0.9.2" {
+version "0.0.1" "0.2.0" "0.4.0" "0.5.0" "0.6.0" "0.7.0" "0.8.0" "0.9.0" "0.9.1" "0.9.2"
+        "0.9.3" {
   auto-version {
     github-release = "alecthomas/proctor"
   }
@@ -69,4 +70,8 @@ sha256sums = {
   "https://github.com/alecthomas/proctor/releases/download/v0.9.2/proctor-x86_64-apple-darwin.bz2": "037263fb557a5129a436cc9eaf4f3098130bb031b603e9825dc26fe68a33de1d",
   "https://github.com/alecthomas/proctor/releases/download/v0.9.2/proctor-aarch64-unknown-linux-gnu.bz2": "fb5778c3fe616e25af1c405dc127c7ceb6c0499fb399935deb0891819ff0e683",
   "https://github.com/alecthomas/proctor/releases/download/v0.9.2/proctor-aarch64-apple-darwin.bz2": "c19558e2fa558d67b005242651f948293be5e4ee2d07f989aaf25b462877fe62",
+  "https://github.com/alecthomas/proctor/releases/download/v0.9.3/proctor-aarch64-unknown-linux-gnu.bz2": "c11d3c16d583a0d0dd8813d8d1c6f6580dd754b8a918a443f04766959f7a1df6",
+  "https://github.com/alecthomas/proctor/releases/download/v0.9.3/proctor-x86_64-unknown-linux-gnu.bz2": "ef6ea894b8a294cd9ff778ac29974340a68dc2926ed0f30351354be877885577",
+  "https://github.com/alecthomas/proctor/releases/download/v0.9.3/proctor-aarch64-apple-darwin.bz2": "b35e6cf39de57f97c92bd004a45f3e15ef3ed95e23c31b3c109589f9a85e30ec",
+  "https://github.com/alecthomas/proctor/releases/download/v0.9.3/proctor-x86_64-apple-darwin.bz2": "d38b1747cf61ca3578cea027eb2501e7ec91b938367a4b650139ce914955ae68",
 }
