@@ -1,5 +1,6 @@
 description = "A multimedia stream analyzer tool used to obtain detailed information about audio and video files (part of the ffmpeg project)"
 binaries = ["ffprobe"]
+provides = ["ffmpeg"]
 vars = {
   "arch_": "${arch}",
 }
