@@ -3,11 +3,11 @@ binaries = ["cosign"]
 test = "cosign version"
 
 linux {
-  source = "https://github.com/sigstore/cosign/releases/download/v${version}/cosign-linux-amd64"
+  source = "https://github.com/sigstore/cosign/releases/download/v${version}/cosign-${os}-${arch}"
 
   on "unpack" {
     rename {
-      from = "${root}/cosign-linux-amd64"
+      from = "${root}/cosign-${os}-${arch}"
       to = "${root}/cosign"
     }
   }
