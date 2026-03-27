@@ -2,7 +2,7 @@ description = "Netcat, curl and socat for WebSockets."
 binaries = ["websocat"]
 test = "websocat --version"
 
-darwin {
+platform "darwin" "amd64" {
   source = "https://github.com/vi/websocat/releases/download/v${version}/websocat.x86_64-apple-darwin"
 
   on "unpack" {
@@ -13,12 +13,34 @@ darwin {
   }
 }
 
-linux {
+platform "darwin" "arm64" {
+  source = "https://github.com/vi/websocat/releases/download/v${version}/websocat.aarch64-apple-darwin"
+
+  on "unpack" {
+    rename {
+      from = "${root}/websocat.aarch64-apple-darwin"
+      to = "${root}/websocat"
+    }
+  }
+}
+
+platform "linux" "amd64" {
   source = "https://github.com/vi/websocat/releases/download/v${version}/websocat.x86_64-unknown-linux-musl"
 
   on "unpack" {
     rename {
       from = "${root}/websocat.x86_64-unknown-linux-musl"
+      to = "${root}/websocat"
+    }
+  }
+}
+
+platform "linux" "arm64" {
+  source = "https://github.com/vi/websocat/releases/download/v${version}/websocat.aarch64-unknown-linux-musl"
+
+  on "unpack" {
+    rename {
+      from = "${root}/websocat.aarch64-unknown-linux-musl"
       to = "${root}/websocat"
     }
   }

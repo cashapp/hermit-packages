@@ -9,7 +9,7 @@ sha256-source = "https://github.com/cli/cli/releases/download/v${version}/gh_${v
 
 // Linux format is always the same
 platform "linux" {
-  source = "https://github.com/cli/cli/releases/download/v${version}/gh_${version}_linux_amd64.tar.gz"
+  source = "https://github.com/cli/cli/releases/download/v${version}/gh_${version}_linux_${arch}.tar.gz"
 }
 
 // Pre 2.24.0 there were only macOS amd64 binaries in a tar.gz format
