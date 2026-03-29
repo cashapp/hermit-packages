@@ -1,0 +1,2 @@
+#!/bin/bash
+uvx --from "shandy-sqlfmt@${SHANDY_SQLFMT_VERSION}" sqlfmt "$@"
