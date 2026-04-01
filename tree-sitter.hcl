@@ -26,7 +26,7 @@ on "unpack" {
   }
 }
 
-version "0.26.5" "0.26.6" "0.26.7" {
+version "0.26.5" "0.26.6" "0.26.7" "0.26.8" {
   auto-version {
     github-release = "tree-sitter/tree-sitter"
   }
@@ -45,4 +45,8 @@ sha256sums = {
   "https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.7/tree-sitter-macos-arm64.gz": "24162119aca35a160a2752a4457b17f3c47f7b2895ab63002c66b8dfd1bb41d1",
   "https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.7/tree-sitter-macos-x64.gz": "bbb1df269cd462393e8826bee55f2b09ccbc0d7b8b914c9827bebd6c467087ca",
   "https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.7/tree-sitter-linux-arm64.gz": "86a317732cc597e1576f8b11b4853f78fedd2a3c756923e33f323667dee6b4be",
+  "https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.8/tree-sitter-macos-arm64.gz": "024e2cee34723524d62d41bde4d2b4af23c8bbe0236e116c79c0b37d9575889e",
+  "https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.8/tree-sitter-linux-arm64.gz": "e339d6533b20830dd1666fe320aff85d301b3f59964a3836870b77f4827f9a17",
+  "https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.8/tree-sitter-linux-x64.gz": "9754a32800f0b970152782df177b4a47c711e34e651a7aceb384d8bd29fa136e",
+  "https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.8/tree-sitter-macos-x64.gz": "d0daa279054c1d1cedb08f5ca784b451ceb1f0e6b083b112d07317958ae77fe0",
 }
