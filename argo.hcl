@@ -12,7 +12,7 @@ on "unpack" {
 }
 
 version "3.6.5" "3.6.6" "3.6.7" "3.6.10" "3.7.0" "3.7.1" "3.7.2" "3.7.3" "3.7.4"
-        "3.7.6" "3.7.7" "3.7.8" "3.7.9" "4.0.0" "4.0.1" "4.0.2" "4.0.3" {
+        "3.7.6" "3.7.7" "3.7.8" "3.7.9" "4.0.0" "4.0.1" "4.0.2" "4.0.3" "4.0.4" {
   auto-version {
     github-release = "argoproj/argo-workflows"
   }
@@ -87,4 +87,8 @@ sha256sums = {
   "https://github.com/argoproj/argo-workflows/releases/download/v4.0.3/argo-linux-arm64.gz": "b20b03ca71906e4ac8d35972671f9429219dc6e419ea7bb6a9b35f4628a727d5",
   "https://github.com/argoproj/argo-workflows/releases/download/v4.0.3/argo-linux-amd64.gz": "bf80d4b408aa77fad7abb2d3974ab0f217051d55bc24284bd4d3dd3b018c028a",
   "https://github.com/argoproj/argo-workflows/releases/download/v4.0.3/argo-darwin-arm64.gz": "bc4fa143f3bcaedefc623b044a2af9a65346c2d5fa9252f5ac767b566b791e9e",
+  "https://github.com/argoproj/argo-workflows/releases/download/v4.0.4/argo-linux-arm64.gz": "6dcb96e062c57f9e325e2a281609de17c3bcc29b806a345048782580fcbafd16",
+  "https://github.com/argoproj/argo-workflows/releases/download/v4.0.4/argo-linux-amd64.gz": "f898d59b533633c3258fbedd10789b0bcb90547b25fced8801bbcd7dd5803f87",
+  "https://github.com/argoproj/argo-workflows/releases/download/v4.0.4/argo-darwin-amd64.gz": "ea6b45c20ec7bb5a1f4390f1dba09006137505b61261b807714b8e66964a8a73",
+  "https://github.com/argoproj/argo-workflows/releases/download/v4.0.4/argo-darwin-arm64.gz": "eafa0a5a1f7b2f488ac73853bc90881884ea825e5b0112d6c36256b3f1ee0c7e",
 }
