@@ -14,7 +14,7 @@ platform "darwin" {
 source = "https://github.com/bytecodealliance/wit-bindgen/releases/download/v${version}/wit-bindgen-${version}-${xarch}-${os_}.tar.gz"
 
 version "0.43.0" "0.44.0" "0.45.0" "0.45.1" "0.46.0" "0.47.0" "0.48.0" "0.48.1"
-        "0.49.0" "0.50.0" "0.51.0" "0.52.0" "0.53.0" "0.53.1" "0.54.0" {
+        "0.49.0" "0.50.0" "0.51.0" "0.52.0" "0.53.0" "0.53.1" "0.54.0" "0.55.0" {
   auto-version {
     github-release = "bytecodealliance/wit-bindgen"
   }
@@ -81,4 +81,8 @@ sha256sums = {
   "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.54.0/wit-bindgen-0.54.0-aarch64-linux.tar.gz": "b62a68fee5f68d15875988832cc26a61f0a3fdff32a3338c21caf8e61ad70808",
   "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.54.0/wit-bindgen-0.54.0-aarch64-macos.tar.gz": "5fa855483d3f81d86915d2a1fc82987d7b1eabc040a54d8f5b5f92b41c949380",
   "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.54.0/wit-bindgen-0.54.0-x86_64-macos.tar.gz": "243c1a46a0f4ea438551568c057f8d7a8995fa05c09fa582ea8aed6254ea4c28",
+  "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.55.0/wit-bindgen-0.55.0-aarch64-macos.tar.gz": "689a26b567e7f454e83bce2288f1e765cfd5813dcbefbeaf8bf187a2aa006da1",
+  "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.55.0/wit-bindgen-0.55.0-x86_64-linux.tar.gz": "bd052fef97225cc7b5a0ab272e3d6abac39f1a5572b931a877aeba074de92f82",
+  "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.55.0/wit-bindgen-0.55.0-x86_64-macos.tar.gz": "e30c0203f4a493202e4fd815da7a5ef6f1c1acbe2a6ae86f78e8c1128f8b1595",
+  "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.55.0/wit-bindgen-0.55.0-aarch64-linux.tar.gz": "d5b901a78359749c2f4e73e5d3c477057dcf1d503fe07b830474dad6687003fb",
 }
