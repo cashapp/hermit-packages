@@ -13,9 +13,11 @@ on "unpack" {
 }
 
 version "0.3.0" {
-  auto-version {
-    github-release = "open-component-model/open-component-model"
-  }
+ auto-version {
+  github-release = "open-component-model/open-component-model"
+  version-pattern = "cli/v(.*)"
+  ignore-invalid-versions = true
+}
 }
 
 sha256sums = {
