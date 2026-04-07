@@ -28,7 +28,7 @@ version "1.0.0" "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.1" "1.8.0" 
         "1.10.0" "1.10.1" "1.11.0" "1.11.1" "1.12.0" "1.12.1" "1.13.0" "1.13.1" "2.0.0" "2.0.1"
         "2.0.2" "2.1.0" "2.1.1" "2.2.0" "2.2.1" "2.2.2" "2.2.3" "2.2.4" "2.3.0" "2.4.0" "2.4.1"
         "2.4.2" "2.4.3" "2.5.0" "2.5.1" "2.5.2" "2.5.3" "2.6.0" "2.6.1" "3.0.1" "3.0.2" "3.0.3"
-        "3.0.4" "3.0.5" {
+        "3.0.4" "3.0.5" "3.0.6" {
   auto-version {
     github-release = "sigstore/cosign"
   }
@@ -167,4 +167,49 @@ sha256sums = {
   "https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-darwin-arm64": "4888c898e2901521a6bd4cf4f0383c9465588a6a46ecd2465ad34faf13f09eb7",
   "https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-amd64": "db15cc99e6e4837daabab023742aaddc3841ce57f193d11b7c3e06c8003642b2",
   "https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-darwin-amd64": "e032c44d3f7c247bbb2966b41239f88ffba002497a4516358d327ad5693c386f",
+  "https://github.com/sigstore/cosign/releases/download/v1.6.0/cosign-linux-arm64": "5f1c8bb2b30c75fb1c72c266b08d9cfc517ddb8b632e35627fd63aaf09e8f1bd",
+  "https://github.com/sigstore/cosign/releases/download/v1.9.0/cosign-linux-arm64": "abd7ec116dd7e7980f08e67d2c7478ae1cdc97adf778aff76d8a737a908670d8",
+  "https://github.com/sigstore/cosign/releases/download/v1.11.0/cosign-linux-arm64": "178e1e6610ae88e7ebc437946e0fa01282a745065709ecf93f9bb8d8bb53486a",
+  "https://github.com/sigstore/cosign/releases/download/v1.12.0/cosign-linux-arm64": "8fa9f830144c52d29cec83da88e0592ba388c06a5856f28ec4d5f474e7c41573",
+  "https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-linux-arm64": "f795a6903daadf764a5092599bfe6945cedd7656bef37884a3049ac1a529266c",
+  "https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-linux-arm64": "82eb62be7e1b7924db193d4a4a496eca94510df2961d88406ba07fb3435f6e8f",
+  "https://github.com/sigstore/cosign/releases/download/v2.2.3/cosign-linux-arm64": "b088d676f0c0123b8c348e18d421cf966020edc4977a486115a12643dea99a3f",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-arm64": "8b0acceb2dcd64eb85a90a302acf585da8734c9cf518088f2b11354012d27091",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-arm64": "bffabe4cf183122b7de3111257a863c99e7dc6cf1093bfd7bf961de1795589b8",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-arm64": "8f5bb6899118d521d7b12252f06d5808fba4e6cb0a23ff120ed6c14d7c87863a",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-arm64": "bedac92e8c3729864e13d4a17048007cfafa79d5deca993a43a90ffe018ef2b8",
+  "https://github.com/sigstore/cosign/releases/download/v1.3.0/cosign-linux-arm64": "87675ea2a887b0817a6d9f9b8b1ed4a46633d2b0574cc284d3e58ab2c1546277",
+  "https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-linux-arm64": "285da80143c84483bee92471f25b36f0310d7e28688741d37ceeec53214a183b",
+  "https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-linux-arm64": "d9ba8512d8dd6cc05b2c626d2e2ec966dd24c5f8ad3b479ae9ab6066c8d9deb7",
+  "https://github.com/sigstore/cosign/releases/download/v1.13.0/cosign-linux-arm64": "950e39dbe7e182603d5d59d9e2a76e804d5d49bb9fb1b577510cb0bc7fd5a6a9",
+  "https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-linux-arm64": "5adbb7b1d38ac19a15c6bd9a61725baa16f61e23611534eb5e6d377dc024e102",
+  "https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-arm64": "a4fae91128b136535fe3a12a7c1ccd3ce9f711d69d61ce94994ba34505ab017d",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-linux-arm64": "3b2e2e3854d0356c45fe6607047526ccd04742d20bd44afb5be91fa2a6e7cb4a",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.0/cosign-linux-arm64": "080a998f9878f22dafdb9ad54d5b2e2b8e7a38c53527250f9d89a6763a28d545",
+  "https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-arm64": "2cbcea1873ad76274c3f241ef175d204654e3aac3e73e6ec4504e5227015cb0a",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-linux-arm64": "81398231362031e3c7afd6a7508c57049460cd7e02736f1ebe89a452102253e5",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-arm64": "d098f3168ae4b3aa70b4ca78947329b953272b487727d1722cb3cb098a1a20ab",
+  "https://github.com/sigstore/cosign/releases/download/v1.4.0/cosign-linux-arm64": "74306d441ac70e36406ace160cebd539cfcd6ffb9e17d05b2969d716fd625b91",
+  "https://github.com/sigstore/cosign/releases/download/v1.5.0/cosign-linux-arm64": "0027169db9929f22a6751255828b62d024526dd9821f64e4d94404ba7a225586",
+  "https://github.com/sigstore/cosign/releases/download/v1.7.1/cosign-linux-arm64": "1caf266cf27825ea10081363746e034b6f24da0e38475d4ddad7162ecbd2069d",
+  "https://github.com/sigstore/cosign/releases/download/v1.10.0/cosign-linux-arm64": "e3b42544310c0cb7483c35dce19a503e68e62b51df11ff341451ae1f418023ad",
+  "https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-linux-arm64": "d9eea27800088c04379065d5ce5f325a3b2394c08725f379bb3ed2e38346c4b5",
+  "https://github.com/sigstore/cosign/releases/download/v1.13.1/cosign-linux-arm64": "a7a79a52c7747e2c21554cad4600e6c7130c0429017dd258f9c558d957fa9090",
+  "https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-linux-arm64": "517e96f9d036c4b77db01132cacdbef21e4266e9ad3a93e67773c590ba54e26f",
+  "https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-linux-arm64": "563ae4c2f03dd70a9b90e4058cdf14b3e33aa77d9dc6276ecb97473513c238f8",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-arm64": "9ab2a932190161d67b9fcda81777e28086b2152c7d506a0e2f83dbb3fd7e2b1c",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-linux-arm64": "c12fc6150195758ec0b1aeb1aade3381a1d3a299584982b66543f22bab04535b",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-amd64": "c956e5dfcac53d52bcf058360d579472f0c1d2d9b69f55209e256fe7783f4c74",
+  "https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-linux-arm64": "9fb8b494edb4b95caa9b822d2910460e40b16bc90b9477a2af2bcfba0bb9982f",
+  "https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-linux-arm64": "8132cb2fb99a4c60ba8e03b079e12462c27073028a5d08c07ecda67284e0c88d",
+  "https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-linux-arm64": "4a8cd49518cc667bb16e6aaf9da291b647c38baffa462fd495043ae6762f6981",
+  "https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-linux-arm64": "8c04e9877fb6e3a96a3916d4dfa855a493c418ace5d5ec4dba6a249490f888d1",
+  "https://github.com/sigstore/cosign/releases/download/v2.2.4/cosign-linux-arm64": "658087351e1d4f9c396b5f59ee5437461c06128f4ce80ba899ccaa1c0b6a8a62",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-arm64": "e9db44c01057395230d0454144c676e7231bff08249620b0170ea19ff201de94",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-arm64": "e09684650882fd721ed22b716ffc399ee11426cd4d1c9b4fec539cba8bf46b86",
+  "https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-arm64": "56a16480bdd56ec789abaa65924402f6b92c0041f06885995853c05567b76f34",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-arm64": "17fd784737ca54d7d8a343c82da6c5d6dbdee971e66644d923d1b057fb97d7ed",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-darwin-arm64": "5fadd012ae6381a6a29ff86a7d39aa873878852f1073fc90b15995961ecfb084",
+  "https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-darwin-amd64": "4c3e7af8372d3ca3296e62fa56f23fcbb5721cc6ac1827900d398f110d7cd280",
+  "https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-arm64": "bd0f9763bca54de88699c3656ade2f39c9a1c7a2916ff35601caf23a79be0629",
 }
