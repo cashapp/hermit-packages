@@ -23,8 +23,14 @@ version "0.17.7" "0.19.0" "0.20.1" "0.21.2" "0.21.5" "0.21.7" "0.21.9" "0.25.1"
 }
 
 version "1.0.0" {
-  strip = 1
-  source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
+  platform "linux" {
+    source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
+  }
+
+  platform "darwin" {
+    strip = 1
+    source = "https://github.com/steveyegge/beads/releases/download/v${version}/beads_${version}_${os}_${arch}.tar.gz"
+  }
 
   auto-version {
     github-release = "steveyegge/beads"
