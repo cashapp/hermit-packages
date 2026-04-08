@@ -1,5 +1,6 @@
 description = "A complete, cross-platform solution to record, convert and stream audio and video."
 binaries = ["ffmpeg"]
+provides = ["ffmpeg"]
 vars = {
   "arch_": "${arch}",
 }
