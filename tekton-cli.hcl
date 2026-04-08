@@ -24,7 +24,8 @@ platform "linux" "arm64" {
 
 version "0.29.0" "0.29.1" "0.30.0" "0.30.1" "0.31.0" "0.31.1" "0.31.2" "0.32.0"
         "0.32.1" "0.32.2" "0.33.0" "0.34.0" "0.35.0" "0.35.1" "0.36.0" "0.37.0" "0.38.0"
-        "0.38.1" "0.39.0" "0.39.1" "0.40.0" "0.41.0" "0.41.1" "0.42.0" "0.43.0" "0.44.0" {
+        "0.38.1" "0.39.0" "0.39.1" "0.40.0" "0.41.0" "0.41.1" "0.42.0" "0.43.0" "0.44.0"
+        "0.44.1" {
   auto-version {
     github-release = "tektoncd/cli"
   }
@@ -83,4 +84,6 @@ sha256sums = {
   "https://github.com/tektoncd/cli/releases/download/v0.43.0/tkn_0.43.0_linux_x86_64.tar.gz": "8a5cbeed07fcfd519199c84f93d08ec2c5d3ccea987b4573b1cd3b8def19ceb5",
   "https://github.com/tektoncd/cli/releases/download/v0.44.0/tkn_0.44.0_linux_x86_64.tar.gz": "ea282eeef10a886117c54ecd8f9c1cde516a4fe8c7ba05011d33515ced164ff2",
   "https://github.com/tektoncd/cli/releases/download/v0.44.0/tkn_0.44.0_darwin_all.tar.gz": "0599878f5c882d0c8179357dd647c9f41f037c7ab5f368fbdd8cc5ec06e49693",
+  "https://github.com/tektoncd/cli/releases/download/v0.44.1/tkn_0.44.1_darwin_all.tar.gz": "292a8d448f85162bc334a1e067f6f11069985b142e246f24dd5627ef7df20ac8",
+  "https://github.com/tektoncd/cli/releases/download/v0.44.1/tkn_0.44.1_linux_x86_64.tar.gz": "e18d287d9aabf6cf4e8281d2871a38e66b50ff6eb4d6d6c84d3e4d357bde1373",
 }
