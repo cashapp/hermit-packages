@@ -9,7 +9,7 @@ on "unpack" {
   }
 }
 
-version "0.5.4" "0.6.0" "0.7.0" "0.7.1" "0.8.0" {
+version "0.5.4" "0.6.0" "0.7.0" "0.7.1" "0.8.0" "0.9.0" {
   auto-version {
     github-release = "mpalmer/action-validator"
   }
@@ -36,4 +36,8 @@ sha256sums = {
   "https://github.com/mpalmer/action-validator/releases/download/v0.8.0/action-validator_darwin_amd64": "2dc6ddf1173409a64b7f0713b5312bd20e28fc2c668b6eb656b6d379c6630dcb",
   "https://github.com/mpalmer/action-validator/releases/download/v0.8.0/action-validator_darwin_arm64": "e5f67ef9fb9553bb337ce065dd0c4a29766b3c729d4036f89f3a2f876d022320",
   "https://github.com/mpalmer/action-validator/releases/download/v0.8.0/action-validator_linux_arm64": "8fa4cf983f84c12ec5426e431df5c13df8e5eb2005d4ee1a69422d80f705faa7",
+  "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_linux_arm64": "0fe137986e838c68f760d9a60569cf6749192fa6315915f19ba0c7d11d8e3d9a",
+  "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_darwin_amd64": "b64010874b70e7e65e3ccd767d6b1c6e6d3a82a5a43748ddd9be2c817970a41d",
+  "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_darwin_arm64": "1451a573f8d51ade3d21de7b02cc8a6fcc87b0936e9feb617d197f568b879f6b",
+  "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_linux_amd64": "9f42f94fca5b8d04c13bccfbb331104b37a9250650d89ae58dc888d46206f9b9",
 }

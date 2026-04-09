@@ -16,7 +16,7 @@ version "1.57.0" "1.58.0" "1.58.1" "1.59.0" "1.59.1" "1.59.2" "1.60.0" "1.60.1"
         "1.61.0" "1.61.1" "1.62.0" "1.62.1" "1.62.2" "1.63.0" "1.63.1" "1.64.0" "1.64.1"
         "1.64.2" "1.65.0" "1.65.1" "1.65.2" "1.66.0" "1.67.0" "1.68.0" "1.68.1" "1.68.2"
         "1.69.0" "1.69.1" "1.69.2" "1.69.3" "1.70.0" "1.70.1" "1.70.2" "1.70.3" "1.71.0"
-        "1.71.1" "1.71.2" "1.72.0" "1.72.1" "1.73.0" "1.73.1" "1.73.2" "1.73.3" {
+        "1.71.1" "1.71.2" "1.72.0" "1.72.1" "1.73.0" "1.73.1" "1.73.2" "1.73.3" "1.73.4" {
   auto-version {
     github-release = "rclone/rclone"
   }
@@ -195,4 +195,8 @@ sha256sums = {
   "https://github.com/rclone/rclone/releases/download/v1.73.3/rclone-v1.73.3-linux-arm64.zip": "ed2a638b4cb15abe4f01d6d9c015f3a1cb41aa7a17c96db2725542c61f353b8e",
   "https://github.com/rclone/rclone/releases/download/v1.73.3/rclone-v1.73.3-osx-amd64.zip": "aaf209187baf40a4f6b732104121f81eedc0264aaa91186952ec3e78b82025b1",
   "https://github.com/rclone/rclone/releases/download/v1.73.3/rclone-v1.73.3-linux-amd64.zip": "70278c22b98c7d02aed01828b70053904dbce4c8a1a15d7781d836c6fdb036ea",
+  "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-linux-amd64.zip": "abc0e6e0f275a469d94645f7ef92c7c7673eed20b6558acec5ff48b74641213c",
+  "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-osx-amd64.zip": "4ef15279d857372f3ff84b967ad68fc1c3b113d631effb9c09a18e40f8a78fa7",
+  "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-osx-arm64.zip": "8cfffacc3ce732b1960645a2f7d2ce97c2ac9ba4f2221c13af6378c199a078f9",
+  "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-linux-arm64.zip": "00c9e230f0004ab5e3b45c00edf7238ba5bff5fc7ea80f5a86a7da5568de6d1c",
 }
