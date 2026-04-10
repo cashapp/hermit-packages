@@ -31,7 +31,7 @@ version "5.0.0" "5.1.0" "5.1.1" "5.2.0" "5.3.0" "5.3.1" "5.3.2" "5.4.0" "6.0.0" 
         "6.1.1" "6.1.2" "6.2.0" "6.2.1" "6.3.0" "6.3.1" "6.3.2" "6.4.0" "7.0.0" "7.0.1" "7.0.2"
         "7.1.0" "7.1.1" "7.1.2" "7.2.0" "7.2.1" "7.3.0" "7.3.1" "7.3.2" "7.4.0" "7.4.1" "8.0.0"
         "8.0.1" "7.5.0" "8.1.0" "8.1.1" "8.2.0" "8.2.1" "8.3.0" "8.3.1" "8.4.0" "8.4.1" "8.4.2"
-        "7.6.2" "8.5.0" "8.5.1" "9.0.0" "8.6.0" "9.0.1" {
+        "7.6.2" "8.5.0" "8.5.1" "9.0.0" "8.6.0" "9.0.1" "9.0.2" {
   auto-version {
     github-release = "bazelbuild/bazel"
   }
@@ -252,4 +252,8 @@ sha256sums = {
   "https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-darwin-x86_64": "46af6aa5d365b8a28faa1cd7e9f01fbac7e563ce9e1405c6c4dda31812f1b964",
   "https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-darwin-arm64": "2e504b99739a1b2f04fdafed08fe89eba27c9b75f6383703310b7f7071c15841",
   "https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-linux-arm64": "f2f5277c38cc063085fc3f89afa0d23c35a0337718f945c6ed81aac44a1b8411",
+  "https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-darwin-x86_64": "982cfb5ef4fac51aca3520ce03aca19eed5492090b410d1e35cb81c4fd8a7ce8",
+  "https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-darwin-arm64": "525cfcbf9790af7319ea78c9ff2053b8a5634013c41783440b5d82433f14d280",
+  "https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-linux-arm64": "e9fc2c7b0027619058acae81c063e5ced683cb0f1598e9373b4f752820c03adb",
+  "https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-linux-x86_64": "422e7a1690b76d7e615c29091d3aca28d0bd3a93fe3c93cbefb8f72d774926d5",
 }

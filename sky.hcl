@@ -24,7 +24,7 @@ platform "amd64" {
   }
 }
 
-version "0.7.16" "0.7.19" "0.7.23" {
+version "0.7.16" "0.7.19" "0.7.23" "0.7.29" {
   auto-version {
     github-release = "anzellai/sky"
   }
@@ -43,4 +43,8 @@ sha256sums = {
   "https://github.com/anzellai/sky/releases/download/v0.7.23/sky-darwin-x64": "823da99630f5dce418f32c17fef0f7abb574db30773be922fd1d30460b40f25e",
   "https://github.com/anzellai/sky/releases/download/v0.7.23/sky-darwin-arm64": "f50b67ab04a490aa271136da7ef6c1485ae4046d0ab3aaf304315be1e433e0d6",
   "https://github.com/anzellai/sky/releases/download/v0.7.23/sky-linux-arm64": "daabf571c49beab627b5ac67c4ac7fe3ba36c29c43544b5871819cdd3fcfeaab",
+  "https://github.com/anzellai/sky/releases/download/v0.7.29/sky-darwin-x64": "f7a4ad56e989cc66388df21294de1b5860de386c4372f588d03be9f2c8e48456",
+  "https://github.com/anzellai/sky/releases/download/v0.7.29/sky-linux-x64": "adf6d0809edfd4ea83518981476819a5ae5bc730bb60e6500ea622932dc5819b",
+  "https://github.com/anzellai/sky/releases/download/v0.7.29/sky-linux-arm64": "606dc8b00340b1f813ad60a370fb2c34546809dfad4cb02fcae1b0b419748c16",
+  "https://github.com/anzellai/sky/releases/download/v0.7.29/sky-darwin-arm64": "d8fbafb6f734d4e2c6d0c4bc6a0ac75971e6762fe9af1863ad35c7579a53a120",
 }

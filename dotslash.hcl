@@ -21,7 +21,7 @@ linux {
   source = "https://github.com/facebook/dotslash/releases/download/v${version}/dotslash-linux-musl.${linux_arch}.v${version}.tar.gz"
 }
 
-version "0.5.2" "0.5.4" "0.5.5" "0.5.7" "0.5.8" {
+version "0.5.2" "0.5.4" "0.5.5" "0.5.7" "0.5.8" "0.5.9" {
   auto-version {
     github-release = "facebook/dotslash"
   }
@@ -43,4 +43,7 @@ sha256sums = {
   "https://github.com/facebook/dotslash/releases/download/v0.5.8/dotslash-macos.v0.5.8.tar.gz": "bec2cc1dc98bc8f2e710403e6d7bdefc385bd47da3dbbfa5a5e0f8927f714d5d",
   "https://github.com/facebook/dotslash/releases/download/v0.5.8/dotslash-linux-musl.x86_64.v0.5.8.tar.gz": "b28a6f7957334e54b7194e5e02db93630be63211bc1b7ab99b56c5a3bdf57888",
   "https://github.com/facebook/dotslash/releases/download/v0.5.8/dotslash-linux-musl.arm64.v0.5.8.tar.gz": "34d728ba13da862f5f82a0ec72418a39935f90784541c91ac1ca63d3aea64854",
+  "https://github.com/facebook/dotslash/releases/download/v0.5.9/dotslash-macos.v0.5.9.tar.gz": "67963df97f5ce512f900a85950add6e883722c3460ee5d752a6e62665fd2f986",
+  "https://github.com/facebook/dotslash/releases/download/v0.5.9/dotslash-linux-musl.arm64.v0.5.9.tar.gz": "e58374446dacd4a228388cd275d974bbd8f946916b513cf0eb86bdff5d9d675e",
+  "https://github.com/facebook/dotslash/releases/download/v0.5.9/dotslash-linux-musl.x86_64.v0.5.9.tar.gz": "4c75c6eb7890ae35993b962073f6d9bbe78b42b81a5691303ad70f63bfbf7196",
 }
