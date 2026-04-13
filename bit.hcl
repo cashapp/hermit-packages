@@ -15,6 +15,13 @@ platform "linux" {
   }
 }
 
+on "unpack" {
+  rename {
+    from = "${root}/bit-${platform}"
+    to = "${root}/bit"
+  }
+}
+
 version "0.1.0" "0.2.0" "0.3.0" {
   auto-version {
     github-release = "alecthomas/bit"
