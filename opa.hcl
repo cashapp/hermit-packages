@@ -3,7 +3,7 @@ binaries = ["opa"]
 test = "opa version"
 
 version "0.30.1" {
-  linux {
+  platform "linux" "amd64" {
     source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_linux_amd64"
 
     on "unpack" {
@@ -14,7 +14,7 @@ version "0.30.1" {
     }
   }
 
-  darwin {
+  platform "darwin" "amd64" {
     source = "https://github.com/open-policy-agent/opa/releases/download/v${version}/opa_darwin_amd64"
 
     on "unpack" {
