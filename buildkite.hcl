@@ -1,8 +1,8 @@
 description = "A command line interface for Buildkite."
 binaries = ["bk"]
+requires = ["buildkite-agent"]
 
 version "1.2.0" "2.0.0" {
-  requires = ["buildkite-agent"]
   source = "https://github.com/buildkite/cli/releases/download/v${version}/cli-${os}-${arch}"
 
   on "unpack" {
