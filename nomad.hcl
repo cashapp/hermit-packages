@@ -5,7 +5,7 @@ source = "https://releases.hashicorp.com/nomad/${version}/nomad_${version}_${os}
 sha256-source = "https://releases.hashicorp.com/nomad/${version}/nomad_${version}_SHA256SUMS"
 
 version "1.9.7" "1.10.0" "1.10.1" "1.10.2" "1.10.3" "1.10.4" "1.10.5" "1.11.0"
-        "1.11.1" "1.11.2" "1.11.3" {
+        "1.11.1" "1.11.2" "1.11.3" "2.0.0" {
   auto-version {
     github-release = "hashicorp/nomad"
   }
@@ -56,4 +56,8 @@ sha256sums = {
   "https://releases.hashicorp.com/nomad/1.11.3/nomad_1.11.3_linux_arm64.zip": "902e44260fcd9297af7042fb33ccd5a29cc2202b57199724f17c96fcd67414d2",
   "https://releases.hashicorp.com/nomad/1.11.3/nomad_1.11.3_linux_amd64.zip": "19dac5642a2ba5305e6ff8efee06a708d760ebe4d1cd7936bc3dc526f477dc12",
   "https://releases.hashicorp.com/nomad/1.11.3/nomad_1.11.3_darwin_arm64.zip": "8f8bbc6064a039df772fa7daa865185760111d2e2a1f2953ade2b126dff8e5dd",
+  "https://releases.hashicorp.com/nomad/2.0.0/nomad_2.0.0_darwin_amd64.zip": "b0852e390f7eaadfb08cf529b21979c6099649a9bcd847179a383f4fafd640a4",
+  "https://releases.hashicorp.com/nomad/2.0.0/nomad_2.0.0_linux_amd64.zip": "01d175b8467c2d694ab65755da4bb4d6d771bf8e38d411bf80e17a03f9b83419",
+  "https://releases.hashicorp.com/nomad/2.0.0/nomad_2.0.0_darwin_arm64.zip": "0c68df4d93aba239dd3374d08b582329da9c6a9a6c2c6606cdbc295a5660088c",
+  "https://releases.hashicorp.com/nomad/2.0.0/nomad_2.0.0_linux_arm64.zip": "cc4818a37e8fea7cb66d54f49a49b3d412c6baaa870e1b8e4c0e9f8a56f126e6",
 }

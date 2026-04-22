@@ -35,7 +35,7 @@ version "0.27.4" "0.27.5" "0.27.7" "0.27.8" "0.27.9" "0.28.0" "0.28.1" "0.28.2"
         "0.31.0" "0.31.2" "0.31.3" "0.31.4" "0.32.0" "0.32.1" "0.32.2" "0.33.0" "0.33.1"
         "0.34.1" "0.34.2" "1.0.0" "1.1.3" "1.1.4" "1.1.5" "1.1.7" "1.1.8" "1.1.11" "1.1.15"
         "1.1.16" "1.2.2" "1.3.3" "1.4.3" "1.5.4" "1.6.7" "1.6.8" "1.6.9" "1.6.12" "1.6.13"
-        "1.6.14" {
+        "1.6.14" "1.6.15" {
   auto-version {
     github-release = "openziti/ziti"
   }
@@ -183,4 +183,7 @@ sha256sums = {
   "https://github.com/openziti/ziti/releases/download/v1.6.14/ziti-linux-arm64-1.6.14.tar.gz": "5ed469ddd2a6f7229fa3abcb3d4cfb2adcc81a647df5d6e63d55398696750812",
   "https://github.com/openziti/ziti/releases/download/v1.6.14/ziti-darwin-amd64-1.6.14.tar.gz": "292d59748bdb15a9d93f9bf9bfcf29f69d752cd1201b6f415abeb1fde4e0800f",
   "https://github.com/openziti/ziti/releases/download/v1.6.14/ziti-linux-amd64-1.6.14.tar.gz": "e1e42ef42ccf1d1860e4bf8c29c08c732a27aa2209c16778cc2422e42b0dadc0",
+  "https://github.com/openziti/ziti/releases/download/v1.6.15/ziti-linux-amd64-1.6.15.tar.gz": "5c52d73d42ac7051686077ec73a150b2c7e9cce78aebeb41b39ee14ee94f1d1e",
+  "https://github.com/openziti/ziti/releases/download/v1.6.15/ziti-darwin-amd64-1.6.15.tar.gz": "298b02658a6d1cd7dad0f6cb1067312a9c1800b0355f1f2be913f38dd2b9f689",
+  "https://github.com/openziti/ziti/releases/download/v1.6.15/ziti-linux-arm64-1.6.15.tar.gz": "f004816086d98260b66f3d4b8f9a2e86af3b38eb49b4a59292adbe1582433996",
 }

@@ -19,7 +19,7 @@ on "unpack" {
 
 version "2.17.0" "2.20.0" "2.21.0" "3.0.0" "3.0.2" "3.0.4" "3.1.0" "3.1.1" "3.2.0"
         "3.2.1" "3.2.2" "3.3.1" "3.3.2" "3.3.3" "3.4.0" "3.5.0" "3.6.0" "3.6.1" "3.6.2" "3.7.0"
-        "3.7.1" "3.8.0" "4.0.0" "4.0.1" "4.1.0" "4.2.0" "4.3.0" "4.4.0" "4.5.0" "4.5.1" {
+        "3.7.1" "3.8.0" "4.0.0" "4.0.1" "4.1.0" "4.2.0" "4.3.0" "4.4.0" "4.5.0" "4.5.1" "4.6.0" {
   auto-version {
     github-release = "pre-commit/pre-commit"
   }
@@ -56,4 +56,5 @@ sha256sums = {
   "https://github.com/pre-commit/pre-commit/releases/download/v4.4.0/pre-commit-4.4.0.pyz": "9a7e1ff43020518d26698c3d1fe1dadddd161178880293333124348276ab98db",
   "https://github.com/pre-commit/pre-commit/releases/download/v4.5.0/pre-commit-4.5.0.pyz": "fbbfa47d19b98e03eb11963094ac3644a97cba105a8c660d8dab4c409c89cebe",
   "https://github.com/pre-commit/pre-commit/releases/download/v4.5.1/pre-commit-4.5.1.pyz": "19d00ba35cbf9c04dc3736cd8bb641e8633f3eddd4cedde71809574ae68a2cd1",
+  "https://github.com/pre-commit/pre-commit/releases/download/v4.6.0/pre-commit-4.6.0.pyz": "ea8a0c84902e48c1875558f2f362ed8476773aa5fc8c16c5d8f2acc2a2830a65",
 }
