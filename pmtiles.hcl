@@ -19,7 +19,7 @@ platform "linux" "arm" {
   source = "https://github.com/protomaps/go-pmtiles/releases/download/v${version}/go-pmtiles_${version}_Linux_${arch}.tar.gz"
 }
 
-version "1.28.0" "1.28.2" "1.28.3" "1.29.1" "1.30.0" "1.30.1" {
+version "1.28.0" "1.28.2" "1.28.3" "1.29.1" "1.30.0" "1.30.1" "1.30.2" {
   auto-version {
     github-release = "protomaps/go-pmtiles"
   }
@@ -50,4 +50,8 @@ sha256sums = {
   "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.1/go-pmtiles-1.30.1_Darwin_x86_64.zip": "60c84fc6213cb0f4ef39c6926bbc4dd2327e77b53d182f994c2e87e5c3cd9b4c",
   "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.1/go-pmtiles-1.30.1_Darwin_arm64.zip": "36a675972c0032064c5f7bc7a39e47d7f3a8c618de216b76d3a403d10e176acf",
   "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.1/go-pmtiles_1.30.1_Linux_arm64.tar.gz": "a1f9f42d8317ab1fadc25dd050e208547f32a3f99a4b90e7cb8fd6030f143d8e",
+  "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.2/go-pmtiles-1.30.2_Darwin_x86_64.zip": "b986a770ac3a709f55d16618120d092db99d2c41e280ec16bd67b006055b58b3",
+  "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.2/go-pmtiles_1.30.2_Linux_arm64.tar.gz": "804cdf071834e1156af554c1a26cc42b56b9cde5a2db9c6e3653d16fb846d5fa",
+  "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.2/go-pmtiles_1.30.2_Linux_x86_64.tar.gz": "2cd3aa18868297fc88425038f794efdc0995e0275f4ca16fa496dd79e245a40c",
+  "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.2/go-pmtiles-1.30.2_Darwin_arm64.zip": "a2aecc1228f4afee924fe1f396e08b39416c22399662baf52c31ac94f276416b",
 }

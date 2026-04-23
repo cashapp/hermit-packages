@@ -24,7 +24,7 @@ version "1.9.0" "1.10.0" "1.11.0" "1.12.0" "1.13.0" "1.14.0" "1.15.0" "1.16.0"
 }
 
 version "1.20.0" "1.21.0" "1.22.0" "1.23.0" "1.24.0" "1.25.0" "1.26.0" "1.27.0"
-        "1.28.0" "1.29.0" "1.30.0" "1.31.0" {
+        "1.28.0" "1.29.0" "1.30.0" "1.31.0" "1.31.1" {
   source = "https://github.com/sqlc-dev/sqlc/releases/download/v${version}/sqlc_${version}_${os}_${arch}.tar.gz"
 
   auto-version {
@@ -127,4 +127,8 @@ sha256sums = {
   "https://github.com/sqlc-dev/sqlc/releases/download/v1.31.0/sqlc_1.31.0_darwin_arm64.tar.gz": "55322a83a913fcafef8659a0a583a79f86e9c7124a6bbc21317f3288c6004b06",
   "https://github.com/sqlc-dev/sqlc/releases/download/v1.31.0/sqlc_1.31.0_linux_arm64.tar.gz": "86ff46e7b4be67720017b55a84b948ad60f32a0c02fd8e7175d9bfa8dcf972a8",
   "https://github.com/sqlc-dev/sqlc/releases/download/v1.31.0/sqlc_1.31.0_darwin_amd64.tar.gz": "bc4a0f952d7260ee038d326d902e7571a03237eabf5c45d045f83f8c3d396e57",
+  "https://github.com/sqlc-dev/sqlc/releases/download/v1.31.1/sqlc_1.31.1_linux_amd64.tar.gz": "497ae4fcdfa64c5b0c311ffe4c2bd991e43991e82e5367792ed78bc2dca27354",
+  "https://github.com/sqlc-dev/sqlc/releases/download/v1.31.1/sqlc_1.31.1_darwin_amd64.tar.gz": "c5af76772e3785d21663a62697056b383f07629979b1bd25b93872e73dbd519b",
+  "https://github.com/sqlc-dev/sqlc/releases/download/v1.31.1/sqlc_1.31.1_linux_arm64.tar.gz": "b7cae247740d0c51a1e657479e5b2d21e6fef428f596682a01bc55bf4ab8a23d",
+  "https://github.com/sqlc-dev/sqlc/releases/download/v1.31.1/sqlc_1.31.1_darwin_arm64.tar.gz": "21602158c99eb1f2bae197a66abfb1941d1e9e50b23125bb193349c6b1acc71e",
 }

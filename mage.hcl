@@ -24,7 +24,7 @@ version "1.11.0" "1.12.1" {
   }
 }
 
-version "1.13.0" "1.14.0" "1.17.1" {
+version "1.13.0" "1.14.0" "1.17.1" "1.17.2" {
   auto-version {
     github-release = "magefile/mage"
   }
@@ -49,4 +49,8 @@ sha256sums = {
   "https://github.com/magefile/mage/releases/download/v1.17.1/mage_1.17.1_macOS-64bit.tar.gz": "b2aaa888974fc2c115eeab730f4f19c7764b254372ad4a99c30f93cdf2990a78",
   "https://github.com/magefile/mage/releases/download/v1.17.1/mage_1.17.1_macOS-ARM64.tar.gz": "d8aef867548ada99160606b9ddf667ede12f83733444894f8655961254e7e775",
   "https://github.com/magefile/mage/releases/download/v1.17.1/mage_1.17.1_Linux-ARM64.tar.gz": "f3e3ad062d0c3f9d87887077adc1fd9b9d5075f91ba4c8560311f28092a56011",
+  "https://github.com/magefile/mage/releases/download/v1.17.2/mage_1.17.2_macOS-ARM64.tar.gz": "5fd6f61170bb7584a4ca3ce4fd01137fe5a8edaf6c096d9f2ad30754d1d92797",
+  "https://github.com/magefile/mage/releases/download/v1.17.2/mage_1.17.2_Linux-64bit.tar.gz": "b1dd189f5a4d38484176dd5be3b651eb7cbc0b78eaf4bb9715738aa24edec644",
+  "https://github.com/magefile/mage/releases/download/v1.17.2/mage_1.17.2_macOS-64bit.tar.gz": "bb43eec76388b1445c4ce019c5ac3bb305a56f77c5f580c5067871ff01ea7741",
+  "https://github.com/magefile/mage/releases/download/v1.17.2/mage_1.17.2_Linux-ARM64.tar.gz": "5a88f89b52a0270a60c1fd57f964d24af78ac21c6848642f05db1300fe193980",
 }
