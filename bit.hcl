@@ -23,7 +23,7 @@ on "unpack" {
 }
 
 version "0.1.0" "0.2.0" "0.3.0" "0.4.0" "0.6.0" "0.7.0" "0.8.0" "0.9.0" "0.10.1"
-        "0.14.1" "0.15.0" {
+        "0.14.1" "0.15.0" "0.16.0" {
   auto-version {
     github-release = "alecthomas/bit"
   }
@@ -74,4 +74,8 @@ sha256sums = {
   "https://github.com/alecthomas/bit/releases/download/v0.15.0/bit-x86_64-unknown-linux-gnu.bz2": "0e04cf559bed3eb93b821b47ebbc8e096bd226f6802d2086acae220ecd5c50fd",
   "https://github.com/alecthomas/bit/releases/download/v0.15.0/bit-x86_64-apple-darwin.bz2": "7a4d5ecdc935c21f9bda412c10fb046e7211a12d0a1e66c97a9972d939f48e3c",
   "https://github.com/alecthomas/bit/releases/download/v0.15.0/bit-aarch64-apple-darwin.bz2": "c1dcf2f4f1e2bb346347f86d31a3b1cdc928df8430c918a0a459663518d88125",
+  "https://github.com/alecthomas/bit/releases/download/v0.16.0/bit-x86_64-apple-darwin.bz2": "6302c192f9fcc5133f7a7dd2a682245d53e6fbfd2d90d83652ea9611161627cd",
+  "https://github.com/alecthomas/bit/releases/download/v0.16.0/bit-aarch64-unknown-linux-gnu.bz2": "eb3eb22daca13bfaacbb89c91d9c229d9a96a532d053ef4c360847bfab8a8732",
+  "https://github.com/alecthomas/bit/releases/download/v0.16.0/bit-x86_64-unknown-linux-gnu.bz2": "5309b31ed19ade16e632b5b53032297c076387b1711e3685cadeb72a50a50902",
+  "https://github.com/alecthomas/bit/releases/download/v0.16.0/bit-aarch64-apple-darwin.bz2": "10d28914b5926fe0453b9034d1e9a9e04b31f966f202cc50b41b7283c4a2b452",
 }
