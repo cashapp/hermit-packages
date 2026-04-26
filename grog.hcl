@@ -15,7 +15,7 @@ version "0.12.0" "0.13.0" "0.13.1" "0.14.1" "0.14.2" "0.14.4" "0.15.0" "0.16.0"
         "0.16.1" "0.16.2" "0.16.3" "0.17.0" "0.17.1" "0.17.2" "0.17.3" "0.17.4" "0.18.0"
         "0.19.0" "0.20.1" "0.21.0" "0.22.0" "0.23.1" "0.23.3" "0.23.4" "0.24.0" "0.25.0"
         "0.26.0" "0.27.0" "0.27.1" "0.27.2" "0.28.0" "0.28.1" "0.29.0" "0.30.0" "0.30.1"
-        "0.31.0" "0.32.0" "0.33.0" "0.34.1" "0.35.0" "0.36.1" "0.36.2" "0.36.3" {
+        "0.31.0" "0.32.0" "0.33.0" "0.34.1" "0.35.0" "0.36.1" "0.36.2" "0.36.3" "0.36.4" {
   auto-version {
     github-release = "chrismatix/grog"
   }
@@ -194,4 +194,8 @@ sha256sums = {
   "https://github.com/chrismatix/grog/releases/download/v0.36.3/grog-linux-arm64": "2ae5eb87ec6f7cdbf7e375e8be703ed39bfbeb0e21ebd6479bdf39cad93dd295",
   "https://github.com/chrismatix/grog/releases/download/v0.36.3/grog-linux-amd64": "df11b00c20f5c58b1114458d239820364ea791baf72b62f8f1dfffe1828133a4",
   "https://github.com/chrismatix/grog/releases/download/v0.36.3/grog-darwin-arm64": "24a679de702a4f2343dec24123594c9128625beb973e25a7ec59d77b9b7f20dd",
+  "https://github.com/chrismatix/grog/releases/download/v0.36.4/grog-linux-arm64": "3ca2a76b7dcb7d3b1f97ff102ced22f74278f7ac763432ede33d2013163817e2",
+  "https://github.com/chrismatix/grog/releases/download/v0.36.4/grog-darwin-arm64": "1401e15f69fa56ab58d53bb9b3ea2df7bdaccc70a506741ae73f3a6a32acbcaa",
+  "https://github.com/chrismatix/grog/releases/download/v0.36.4/grog-linux-amd64": "28238aea1c155c0c099ebabf2b594e9975a458bd26b63c48c65600d095b6dd25",
+  "https://github.com/chrismatix/grog/releases/download/v0.36.4/grog-darwin-amd64": "03ada7030499564b3971dd67b103629c05762eee6dca3fcd33dd6352697500e0",
 }
