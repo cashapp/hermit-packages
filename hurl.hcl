@@ -20,7 +20,7 @@ platform "linux" "arm64" {
   source = "https://github.com/Orange-OpenSource/hurl/releases/download/${version}/hurl-${version}-aarch64-unknown-linux-gnu.tar.gz"
 }
 
-version "7.0.0" "7.1.0" {
+version "7.0.0" "7.1.0" "8.0.0" {
   auto-version {
     github-release = "Orange-OpenSource/hurl"
   }
@@ -35,4 +35,8 @@ sha256sums = {
   "https://github.com/Orange-OpenSource/hurl/releases/download/7.1.0/hurl-7.1.0-x86_64-apple-darwin.tar.gz": "1b3f2b3893f26d186b7ec2726cbe644c3309c9abda73451b2a2e0bc07539eee8",
   "https://github.com/Orange-OpenSource/hurl/releases/download/7.1.0/hurl-7.1.0-aarch64-apple-darwin.tar.gz": "bb4103efdffeed83e96e368b7deab8bfcaff5ba7c12a8e02090e968ca9800508",
   "https://github.com/Orange-OpenSource/hurl/releases/download/7.1.0/hurl-7.1.0-aarch64-unknown-linux-gnu.tar.gz": "4c15c4fbef2aaee94d62e022623415d8148f7455c36adfa1402c645c610529b6",
+  "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.0/hurl-8.0.0-x86_64-unknown-linux-gnu.tar.gz": "6ab1d6703b94086ece6d2f994d73f8d215926997b292ba29b894799425afbf67",
+  "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.0/hurl-8.0.0-x86_64-apple-darwin.tar.gz": "506a600b196124223b195561ea1be09a96f8a39d752abed050eaa035e7cb195a",
+  "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.0/hurl-8.0.0-aarch64-apple-darwin.tar.gz": "a1cab740519aa8097462534aa512fb6c2aeae7f8990199517a8a874ca06aa2ee",
+  "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.0/hurl-8.0.0-aarch64-unknown-linux-gnu.tar.gz": "f3c39af374f0a56675989a8dca618d30a4e1550b759bfad40529f3969f2dedcd",
 }

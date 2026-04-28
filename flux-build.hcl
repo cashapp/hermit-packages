@@ -4,7 +4,7 @@ test = "flux-build --allow-failure ."
 binaries = ["flux-build"]
 source = "https://github.com/DoodleScheduling/flux-build/releases/download/v${version}/flux-build_${version}_${os}_${arch}.tar.gz"
 
-version "3.0.8" "3.0.9" "3.0.10" "3.1.0" "3.1.2" {
+version "3.0.8" "3.0.9" "3.0.10" "3.1.0" "3.1.2" "3.1.3" {
   auto-version {
     github-release = "DoodleScheduling/flux-build"
   }
@@ -31,4 +31,8 @@ sha256sums = {
   "https://github.com/DoodleScheduling/flux-build/releases/download/v3.1.2/flux-build_3.1.2_linux_amd64.tar.gz": "412487ff395ca57f9851be8ed9c6f4e706df6488b10562d382be1c74420e8c25",
   "https://github.com/DoodleScheduling/flux-build/releases/download/v3.1.2/flux-build_3.1.2_linux_arm64.tar.gz": "72d9347c178992a1a629c13629823c998fc897b3b6f407a2510e830774650db6",
   "https://github.com/DoodleScheduling/flux-build/releases/download/v3.1.2/flux-build_3.1.2_darwin_amd64.tar.gz": "b11030d745d1fdd37fffd98ac510c64e479e6924df28b0c80fd5c7e5151c2eac",
+  "https://github.com/DoodleScheduling/flux-build/releases/download/v3.1.3/flux-build_3.1.3_linux_amd64.tar.gz": "080670501fcd5040afb9e6a320c0848ffd3c3e06b59f922dc660865cc377cfeb",
+  "https://github.com/DoodleScheduling/flux-build/releases/download/v3.1.3/flux-build_3.1.3_darwin_amd64.tar.gz": "b5eb28fb9cd36285f0a7e7d44a7d38e47403e1a3eb8f66d82196f476795ab661",
+  "https://github.com/DoodleScheduling/flux-build/releases/download/v3.1.3/flux-build_3.1.3_darwin_arm64.tar.gz": "b573f835fe2e638a79dd81f4fbd5be8dd961bc18b8b09d3c683f2a595a371971",
+  "https://github.com/DoodleScheduling/flux-build/releases/download/v3.1.3/flux-build_3.1.3_linux_arm64.tar.gz": "42ec1750ba0a3506802a6d07d21499a14a1c5ea68814de996b82d758d3bc1ff7",
 }
