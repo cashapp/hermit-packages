@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "0.7.7" "0.9.0" "0.9.1" {
+version "0.7.7" "0.9.0" "0.9.1" "0.9.2" {
   auto-version {
     github-release = "mailru/easyjson"
   }
@@ -29,4 +29,8 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/easyjson-v0.9.1-darwin-amd64.bz2": "e70832b0feddc82226fd89a593c4da7aa99ea7038363936ea687844afdf38f2f",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/easyjson-v0.9.1-darwin-arm64.bz2": "113e9e4d4006ffd8f37e3ed6e2c8834336ff74c3ced2f572a1fe69a9ec7f208f",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/easyjson-v0.9.1-linux-arm64.bz2": "b35983d1b06f17ee62697ecc68004b3da74bed5e496ba8167a2399442329f688",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/easyjson-v0.9.2-linux-arm64.bz2": "905445cc3cb43a06ee168e3d81a417c0f7beaec2c1cbb744eae2da1312c63156",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/easyjson-v0.9.2-linux-amd64.bz2": "1e95ef9b4372a387a68562ca7e4ef388f6ee5c372ddef0615b2670e744d7127d",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/easyjson-v0.9.2-darwin-amd64.bz2": "6368af34017f82ade643b53458e3dc4b44d06d843eae1a8861e3fecceb1cac34",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/easyjson-v0.9.2-darwin-arm64.bz2": "ff4278eabcad98e9d546fb2735607fb99aeefab2c5fb37e27dd325e6e032d886",
 }
