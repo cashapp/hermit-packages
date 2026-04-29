@@ -64,6 +64,35 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
         "10.32.0" "10.32.1" "10.33.0" "10.33.1" "10.33.2" {
   auto-version {
     github-release = "pnpm/pnpm"
+    // Constrain to <= 10.x so v11+ tags route to the dedicated 11+ block.
+    // (Without a pattern, hermit's default `v?(.*)` would match every tag
+    // and append v11+ here too — those URLs don't exist for v11+.)
+    version-pattern         = "v([0-9]\\..*|10\\..*)"
+    ignore-invalid-versions = true
+  }
+}
+
+// pnpm 11+ ships as `.tar.gz` archives instead of bare binaries, AND
+// renames macOS assets from `macos-*` to `darwin-*` so they line up with
+// `${os}` on both Linux and Darwin (canonical write-up:
+// https://github.com/pnpm/pnpm/issues/11314, release notes:
+// https://github.com/pnpm/pnpm/releases/tag/v11.0.0).
+// The archive extracts a `pnpm` binary alongside a `dist/` directory of
+// supporting Node SEA resources, both relative to ${root}.
+version "11.0.0" {
+  platform "amd64" {
+    source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64.tar.gz"
+  }
+
+  platform "arm64" {
+    source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-${arch}.tar.gz"
+  }
+
+  auto-version {
+    github-release = "pnpm/pnpm"
+    // Match major version >= 11 (covers 11-19, 20-99, and 100+).
+    version-pattern         = "v(1[1-9]\\..*|[2-9][0-9]\\..*|[1-9][0-9]{2,}\\..*)"
+    ignore-invalid-versions = true
   }
 }
 
@@ -508,4 +537,8 @@ sha256sums = {
   "https://github.com/pnpm/pnpm/releases/download/v10.33.2/pnpm-linux-x64": "39d7b6600239712bc9581ea219b17ffef46ba60998779cb717be2e068be029ef",
   "https://github.com/pnpm/pnpm/releases/download/v10.33.2/pnpm-linux-arm64": "0828e5ee23be89d22bd53cc36e93c181ce9d5c47d75f9fe9bf4bdc7a65c66322",
   "https://github.com/pnpm/pnpm/releases/download/v10.33.2/pnpm-macos-x64": "3b66abb865f4e7a82393861f0f3784d67a704a31a4021739874d4b7910793dca",
+  "https://github.com/pnpm/pnpm/releases/download/v11.0.0/pnpm-darwin-arm64.tar.gz": "3620a0fcaf81ecd3aaeccd5965919d90dbc913f4d07a96e11e7cafc2c785054b",
+  "https://github.com/pnpm/pnpm/releases/download/v11.0.0/pnpm-darwin-x64.tar.gz": "1701748b75187f1333a9c616827943ff84ff46cc42becc156ff6864b9bd0f948",
+  "https://github.com/pnpm/pnpm/releases/download/v11.0.0/pnpm-linux-x64.tar.gz": "9b44acc77ada40fc41b665fde1d57367a5ebec31bd4b1b00598daed195da3e17",
+  "https://github.com/pnpm/pnpm/releases/download/v11.0.0/pnpm-linux-arm64.tar.gz": "1e6d87ebfd7ff169966ff5b3ad71b780b883c68d3e59987df1096dfd8853df75",
 }
