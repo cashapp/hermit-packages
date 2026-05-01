@@ -19,7 +19,7 @@ version "2.10.1" "2.9.7" "2.10.2" "2.10.3" "2.10.4" "2.10.5" "2.10.6" "2.8.16"
         "2.14.9" "2.14.10" "2.14.11" "3.0.0" "3.0.1" "3.0.2" "2.14.12" "3.0.3" "3.0.4" "3.0.5"
         "3.0.6" "3.0.11" "3.0.12" "3.1.0" "3.0.13" "3.0.16" "2.12.13" "3.1.4" "3.1.5" "3.1.6"
         "2.14.18" "3.1.7" "3.1.8" "3.1.9" "3.2.0" "3.2.1" "3.2.2" "3.2.3" "3.2.4" "3.2.5" "3.2.6"
-        "3.3.0" "3.3.1" "3.3.2" "3.3.3" "3.3.4" "3.3.5" "3.3.6" "3.3.7" "3.3.8" {
+        "3.3.0" "3.3.1" "3.3.2" "3.3.3" "3.3.4" "3.3.5" "3.3.6" "3.3.7" "3.3.8" "3.3.9" {
   auto-version {
     github-release = "argoproj/argo-cd"
   }
@@ -362,4 +362,8 @@ sha256sums = {
   "https://github.com/argoproj/argo-cd/releases/download/v3.3.8/argocd-linux-arm64": "cec49dcb3a3b9e7f4b78390af52e6890689d02c9f0a3b9a61ecd5b2edf38d49b",
   "https://github.com/argoproj/argo-cd/releases/download/v3.3.8/argocd-darwin-arm64": "1a746e3ea3a20e7685e718018cc041539b540104e36fcf91feff9f726dd7089e",
   "https://github.com/argoproj/argo-cd/releases/download/v3.3.8/argocd-linux-amd64": "11070d2502c5a51523f78388e23ddefb9151bd33f2faab955cde78a9c0d492e6",
+  "https://github.com/argoproj/argo-cd/releases/download/v3.3.9/argocd-darwin-amd64": "12e5584afbecb0515f7d8d95bc1f0757f797123109c826eaf92b3c85e3311968",
+  "https://github.com/argoproj/argo-cd/releases/download/v3.3.9/argocd-linux-arm64": "f0947a6b5604bc2a5151f3befe31f4dd18ea19208ab1d221a6ebcf831e62851b",
+  "https://github.com/argoproj/argo-cd/releases/download/v3.3.9/argocd-darwin-arm64": "ba86f163329468cdafd15a439e892ebba542286d7f248c2c2289921ca5693ae7",
+  "https://github.com/argoproj/argo-cd/releases/download/v3.3.9/argocd-linux-amd64": "c17c57a16a79a8a3e6fdf1eadcfaf475ae621bbacf89467f75a3b96a1cd460fd",
 }
