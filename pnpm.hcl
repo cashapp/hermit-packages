@@ -7,46 +7,18 @@ env = {
 
 platform "linux" "amd64" {
   source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64"
-
-  on "unpack" {
-    rename {
-      from = "${root}/pnpm-${os}-x64"
-      to = "${root}/pnpm"
-    }
-  }
 }
 
 platform "linux" "arm64" {
   source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-${arch}"
-
-  on "unpack" {
-    rename {
-      from = "${root}/pnpm-${os}-arm64"
-      to = "${root}/pnpm"
-    }
-  }
 }
 
 platform "darwin" "amd64" {
   source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-macos-x64"
-
-  on "unpack" {
-    rename {
-      from = "${root}/pnpm-macos-x64"
-      to = "${root}/pnpm"
-    }
-  }
 }
 
 platform "darwin" "arm64" {
   source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-macos-${arch}"
-
-  on "unpack" {
-    rename {
-      from = "${root}/pnpm-macos-${arch}"
-      to = "${root}/pnpm"
-    }
-  }
 }
 
 version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
@@ -62,6 +34,50 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
         "10.25.0" "10.26.0" "10.26.1" "10.26.2" "10.27.0" "10.28.0" "10.28.1" "10.28.2"
         "10.29.1" "10.29.2" "10.29.3" "10.30.0" "10.30.1" "10.30.2" "10.30.3" "10.31.0"
         "10.32.0" "10.32.1" "10.33.0" "10.33.1" "10.33.2" {
+  // pnpm <= 10.x ships as bare per-platform binaries (e.g. `pnpm-darwin-arm64`)
+  // that need to be renamed to `pnpm` after unpack. The rename rule MUST live
+  // inside this version block (rather than at top-level platform scope) because
+  // hermit's layer model APPENDS `on "unpack"` triggers from every matching
+  // layer with no suppression mechanism — see manifest/resolver.go newPackage
+  // and manifest/config.go layers(). If the rename were at top level it would
+  // also fire for the v11+ block below (which extracts a `pnpm` binary directly
+  // from a .tar.gz archive), failing with `rename ... no such file or directory`.
+  platform "linux" "amd64" {
+    on "unpack" {
+      rename {
+        from = "${root}/pnpm-${os}-x64"
+        to = "${root}/pnpm"
+      }
+    }
+  }
+
+  platform "linux" "arm64" {
+    on "unpack" {
+      rename {
+        from = "${root}/pnpm-${os}-arm64"
+        to = "${root}/pnpm"
+      }
+    }
+  }
+
+  platform "darwin" "amd64" {
+    on "unpack" {
+      rename {
+        from = "${root}/pnpm-macos-x64"
+        to = "${root}/pnpm"
+      }
+    }
+  }
+
+  platform "darwin" "arm64" {
+    on "unpack" {
+      rename {
+        from = "${root}/pnpm-macos-${arch}"
+        to = "${root}/pnpm"
+      }
+    }
+  }
+
   auto-version {
     github-release = "pnpm/pnpm"
     // Constrain to <= 10.x so v11+ tags route to the dedicated 11+ block.
