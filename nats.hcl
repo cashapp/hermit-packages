@@ -5,7 +5,7 @@ strip = 1
 source = "https://github.com/nats-io/natscli/releases/download/v${version}/nats-${version}-${os}-${arch}.zip"
 
 version "0.0.34" "0.0.35" "0.1.1" "0.1.3" "0.1.4" "0.1.5" "0.1.6" "0.2.0" "0.2.1"
-        "0.2.2" "0.2.3" "0.2.4" "0.3.0" "0.3.1" "0.3.2" {
+        "0.2.2" "0.2.3" "0.2.4" "0.3.0" "0.3.1" "0.3.2" "0.4.0" {
   auto-version {
     github-release = "nats-io/natscli"
   }
@@ -72,4 +72,8 @@ sha256sums = {
   "https://github.com/nats-io/natscli/releases/download/v0.3.2/nats-0.3.2-darwin-amd64.zip": "4702d56ff8f244eefd6382a18ac08bcba9ef9b1534a1a5a15e25695d3d8fd732",
   "https://github.com/nats-io/natscli/releases/download/v0.3.2/nats-0.3.2-linux-amd64.zip": "be942b5c3815d572b0836b1656e6c27e6306cf5633e439fbba8dd19c77288ba7",
   "https://github.com/nats-io/natscli/releases/download/v0.3.2/nats-0.3.2-darwin-arm64.zip": "f1c499fa540f4f1b530f2245d2ec2c5dd989c5176a489ba0f1ce13fff985a86d",
+  "https://github.com/nats-io/natscli/releases/download/v0.4.0/nats-0.4.0-darwin-arm64.zip": "39a68a0673f1b87d0887f48b02ca17f5d803f5689d4a9cff8e74b6411d6baef7",
+  "https://github.com/nats-io/natscli/releases/download/v0.4.0/nats-0.4.0-linux-arm64.zip": "9ce0c8a6653cd697d0b32687fcb53b59c13a2ad7a6ade7af8ad8a1c0f7357a87",
+  "https://github.com/nats-io/natscli/releases/download/v0.4.0/nats-0.4.0-linux-amd64.zip": "8dbd437c826b953dbd7432cf890ef22ba3c33dccc3dce5e71b3e8d055427849c",
+  "https://github.com/nats-io/natscli/releases/download/v0.4.0/nats-0.4.0-darwin-amd64.zip": "87cbc208a9fb1dcd3be364ab351a14901c9c29d50ef6a7a2fd897362dbb0db47",
 }
