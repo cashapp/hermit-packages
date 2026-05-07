@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "0.18.0" "0.17.2" "0.16.5" "0.19.0" "0.20.0" "0.20.1" {
+version "0.18.0" "0.17.2" "0.16.5" "0.19.0" "0.20.0" "0.20.1" "0.21.0" {
   auto-version {
     github-release = "kubernetes-sigs/controller-tools"
   }
@@ -42,4 +42,8 @@ sha256sums = {
   "https://github.com/kubernetes-sigs/controller-tools/releases/download/v0.20.1/controller-gen-darwin-arm64": "849d53472bd5c814085e689429209f42a8dfc242a91be2a0b90daec58ed360e0",
   "https://github.com/kubernetes-sigs/controller-tools/releases/download/v0.20.1/controller-gen-linux-amd64": "55ba0a1f7205cb529b03c09af0ee1d37e0ff30544b13569c0bf7873976af6ef3",
   "https://github.com/kubernetes-sigs/controller-tools/releases/download/v0.20.1/controller-gen-linux-arm64": "b6a55f1879b1be822f419efe2c1895f817f59c92703c153b48cc87cf66452d3e",
+  "https://github.com/kubernetes-sigs/controller-tools/releases/download/v0.21.0/controller-gen-darwin-arm64": "13ac7abcd90dd2129da972024bea7da5be7df2c5404c8f715010490996f4ab43",
+  "https://github.com/kubernetes-sigs/controller-tools/releases/download/v0.21.0/controller-gen-linux-arm64": "1af64bb144658c61f1b61c6392e17d56dd4f7364497625613ff435d7e468f60b",
+  "https://github.com/kubernetes-sigs/controller-tools/releases/download/v0.21.0/controller-gen-linux-amd64": "3ec7994b7a41515a7ad8aef8e517429c0a78060df59d5587ac8662db6a8b035f",
+  "https://github.com/kubernetes-sigs/controller-tools/releases/download/v0.21.0/controller-gen-darwin-amd64": "96fc4e98d7144e37bae90b73631c9dad944ccfb69002fc7c9d1ab448babb207d",
 }
