@@ -23,7 +23,8 @@ version "147.0.7710.0" "147.0.7712.0" "147.0.7714.0" "147.0.7716.0" "147.0.7718.
         "149.0.7786.0" "149.0.7788.0" "149.0.7790.0" "149.0.7792.0" "149.0.7794.0" "149.0.7796.0"
         "149.0.7798.0" "149.0.7800.0" "149.0.7801.0" "149.0.7803.0" "149.0.7805.0" "149.0.7807.0"
         "149.0.7809.0" "149.0.7811.0" "149.0.7812.3" "149.0.7814.0" "149.0.7816.0" "149.0.7818.0"
-        "149.0.7820.0" "149.0.7822.0" "149.0.7824.0" "149.0.7826.0" "149.0.7827.2" "150.0.7828.0" {
+        "149.0.7820.0" "149.0.7822.0" "149.0.7824.0" "149.0.7826.0" "149.0.7827.2" "150.0.7828.0"
+        "150.0.7831.0" {
   auto-version {
     json {
       url = "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json"
@@ -210,4 +211,7 @@ sha256sums = {
   "https://storage.googleapis.com/chrome-for-testing-public/150.0.7828.0/mac-x64/chromedriver-mac-x64.zip": "1615d50aa1ec358e5ae855696966762a74f4a0ebe2dffff7b68f0168d0295bcc",
   "https://storage.googleapis.com/chrome-for-testing-public/150.0.7828.0/mac-arm64/chromedriver-mac-arm64.zip": "acb00ab79ab8b159048bbd444045c3b2281d10a0e99f39147275988eb39b9ffe",
   "https://storage.googleapis.com/chrome-for-testing-public/150.0.7828.0/linux64/chromedriver-linux64.zip": "100ed79283bc98e25a70e436add141212bb5a5e6fe716018060e4bfe7806de28",
+  "https://storage.googleapis.com/chrome-for-testing-public/150.0.7831.0/mac-arm64/chromedriver-mac-arm64.zip": "0cdbdecf86af534552e0e211b5c5ea34bb10d5a4be9170651d51dde5c4208535",
+  "https://storage.googleapis.com/chrome-for-testing-public/150.0.7831.0/mac-x64/chromedriver-mac-x64.zip": "1e48968fc7cced1be9aa80cff75e33c15c556731e15b43720b87894bae04a5cc",
+  "https://storage.googleapis.com/chrome-for-testing-public/150.0.7831.0/linux64/chromedriver-linux64.zip": "9800f0729a6acaaf03cd8a3b892c29884afe982daec9d98c155599efc61e9dfc",
 }
