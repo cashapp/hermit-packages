@@ -5,22 +5,15 @@ env = {
   "PATH": "${HERMIT_ENV}/.hermit/pnpm:${PATH}",
 }
 
-platform "linux" "amd64" {
-  source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64"
-}
-
-platform "linux" "arm64" {
-  source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-${arch}"
-}
-
-platform "darwin" "amd64" {
-  source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-macos-x64"
-}
-
-platform "darwin" "arm64" {
-  source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-macos-${arch}"
-}
-
+// Per-version platform sources are scoped inside the v10.x and v11+ version
+// blocks below. They are NOT defined at file scope because pnpm dropped the
+// `pnpm-darwin-x64.tar.gz` asset starting v11.0.5
+// (https://github.com/pnpm/pnpm/releases/tag/v11.0.5), and a file-scope
+// `platform "darwin" "amd64"` would force `manifest auto-version
+// --update-digests` to probe a 404 URL on every v11+ release. With the
+// source omitted from the v11+ block instead, hermit's resolver returns
+// ErrNoSource for darwin/amd64 and the digest loop skips it cleanly
+// (see manifest/digest/digest.go and manifest/resolver.go in cashapp/hermit).
 version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
         "8.15.4" "8.15.5" "8.15.6" "8.15.7" "9.0.1" "9.0.2" "9.0.4" "9.0.5" "9.0.6" "9.1.0"
         "9.1.1" "9.1.2" "9.1.3" "9.1.4" "9.2.0" "9.3.0" "9.4.0" "9.5.0" "9.6.0" "9.7.0" "9.7.1"
@@ -33,16 +26,19 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
         "10.18.2" "10.18.3" "10.19.0" "10.20.0" "10.21.0" "10.22.0" "10.23.0" "10.24.0"
         "10.25.0" "10.26.0" "10.26.1" "10.26.2" "10.27.0" "10.28.0" "10.28.1" "10.28.2"
         "10.29.1" "10.29.2" "10.29.3" "10.30.0" "10.30.1" "10.30.2" "10.30.3" "10.31.0"
-        "10.32.0" "10.32.1" "10.33.0" "10.33.1" "10.33.2" {
+        "10.32.0" "10.32.1" "10.33.0" "10.33.1" "10.33.2" "10.33.4" {
   // pnpm <= 10.x ships as bare per-platform binaries (e.g. `pnpm-darwin-arm64`)
-  // that need to be renamed to `pnpm` after unpack. The rename rule MUST live
-  // inside this version block (rather than at top-level platform scope) because
-  // hermit's layer model APPENDS `on "unpack"` triggers from every matching
-  // layer with no suppression mechanism — see manifest/resolver.go newPackage
-  // and manifest/config.go layers(). If the rename were at top level it would
-  // also fire for the v11+ block below (which extracts a `pnpm` binary directly
-  // from a .tar.gz archive), failing with `rename ... no such file or directory`.
+  // that need to be renamed to `pnpm` after unpack. The source URLs and rename
+  // rules MUST live inside this version block (rather than at top-level
+  // platform scope) because hermit's layer model APPENDS `on "unpack"`
+  // triggers from every matching layer with no suppression mechanism — see
+  // manifest/resolver.go newPackage and manifest/config.go layers(). If the
+  // rename were at top level it would also fire for the v11+ block below
+  // (which extracts a `pnpm` binary directly from a .tar.gz archive), failing
+  // with `rename ... no such file or directory`.
   platform "linux" "amd64" {
+    source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64"
+
     on "unpack" {
       rename {
         from = "${root}/pnpm-${os}-x64"
@@ -52,6 +48,8 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
   }
 
   platform "linux" "arm64" {
+    source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-${arch}"
+
     on "unpack" {
       rename {
         from = "${root}/pnpm-${os}-arm64"
@@ -61,6 +59,8 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
   }
 
   platform "darwin" "amd64" {
+    source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-macos-x64"
+
     on "unpack" {
       rename {
         from = "${root}/pnpm-macos-x64"
@@ -70,6 +70,8 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
   }
 
   platform "darwin" "arm64" {
+    source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-macos-${arch}"
+
     on "unpack" {
       rename {
         from = "${root}/pnpm-macos-${arch}"
@@ -95,12 +97,21 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
 // https://github.com/pnpm/pnpm/releases/tag/v11.0.0).
 // The archive extracts a `pnpm` binary alongside a `dist/` directory of
 // supporting Node SEA resources, both relative to ${root}.
-version "11.0.0" "11.0.1" "11.0.3" "11.0.4" {
-  platform "amd64" {
+version "11.0.0" "11.0.1" "11.0.3" "11.0.4" "11.0.8" {
+  platform "linux" "amd64" {
     source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64.tar.gz"
   }
 
-  platform "arm64" {
+  platform "linux" "arm64" {
+    source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-${arch}.tar.gz"
+  }
+
+  // pnpm dropped the `pnpm-darwin-x64.tar.gz` (macOS Intel) asset starting
+  // v11.0.5 (https://github.com/pnpm/pnpm/releases/tag/v11.0.5). Omit
+  // `platform "darwin" "amd64"` here entirely so the resolver returns
+  // ErrNoSource for it and `manifest auto-version --update-digests` skips
+  // probing the missing URL.
+  platform "darwin" "arm64" {
     source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-${arch}.tar.gz"
   }
 
@@ -569,4 +580,11 @@ sha256sums = {
   "https://github.com/pnpm/pnpm/releases/download/v11.0.4/pnpm-linux-x64.tar.gz": "af148fa26d8bfc3b3e2bda40d96c79f0d449364cc7cc4530bfbb2fb2a23d983f",
   "https://github.com/pnpm/pnpm/releases/download/v11.0.4/pnpm-linux-arm64.tar.gz": "77ab05d5db4aec5bf9448a78f8dc60f0c67dca5104412aa192609fb8c1f7204f",
   "https://github.com/pnpm/pnpm/releases/download/v11.0.4/pnpm-darwin-arm64.tar.gz": "e3114eaa5c5ac6bd80e6245781200486e4f2c0a938f382048dc026b5ba113ddc",
+  "https://github.com/pnpm/pnpm/releases/download/v10.33.4/pnpm-linux-x64": "ff1795595535a10d0dfe327303f3dd02377be141190b1f5756de68edde2cf813",
+  "https://github.com/pnpm/pnpm/releases/download/v10.33.4/pnpm-linux-arm64": "d29649c7380b5cd522f574208fbd35335846686498f45004604d3f5b8658b5cb",
+  "https://github.com/pnpm/pnpm/releases/download/v10.33.4/pnpm-macos-arm64": "7aae186a04e1ffaa0047d43cd07d68a98dec303304f28be52234ba955d26c671",
+  "https://github.com/pnpm/pnpm/releases/download/v10.33.4/pnpm-macos-x64": "3b0c97b9f794cdda293949a8ee0e0151ca08f512f4a832408386221c7c73eec6",
+  "https://github.com/pnpm/pnpm/releases/download/v11.0.8/pnpm-linux-arm64.tar.gz": "4393edba64b8c874123b8fca85fa940cc5224a392650993e5e84909dfaf80f9f",
+  "https://github.com/pnpm/pnpm/releases/download/v11.0.8/pnpm-darwin-arm64.tar.gz": "d988a3824d9ffd6f74eb9d9d703d24b7a42630dacfa7de375b8becef0706295c",
+  "https://github.com/pnpm/pnpm/releases/download/v11.0.8/pnpm-linux-x64.tar.gz": "ac9fed9acf78cb9eacf3b6e7964e34dc196e93c2aad2ed3540fe5ef5c2effaeb",
 }
