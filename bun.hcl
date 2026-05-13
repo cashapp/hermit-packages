@@ -26,7 +26,7 @@ version "0.1.8" "0.1.8" "0.1.9" "0.1.10" "0.1.11" "0.1.13" "0.2.0" "0.2.1" "0.2.
         "1.2.3" "1.2.4" "1.2.5" "1.2.6" "1.2.7" "1.2.8" "1.2.9" "1.2.10" "1.2.11" "1.2.12"
         "1.2.13" "1.2.14" "1.2.15" "1.2.16" "1.2.17" "1.2.18" "1.2.19" "1.2.20" "1.2.21"
         "1.2.22" "1.2.23" "1.3.0" "1.3.1" "1.3.2" "1.3.3" "1.3.4" "1.3.5" "1.3.6" "1.3.7"
-        "1.3.8" "1.3.9" "1.3.10" "1.3.11" "1.3.12" "1.3.13" {
+        "1.3.8" "1.3.9" "1.3.10" "1.3.11" "1.3.12" "1.3.13" "1.3.14" {
   auto-version {
     github-release = "oven-sh/bun"
     version-pattern = "bun-v(.*)"
@@ -638,4 +638,8 @@ sha256sums = {
   "https://github.com/oven-sh/bun/releases/download/bun-v1.3.13/bun-darwin-aarch64.zip": "5467e3f65dba526b9fea98f0cce04efafc0c63e169733ec27b876a3ad32da190",
   "https://github.com/oven-sh/bun/releases/download/bun-v1.3.13/bun-darwin-x64.zip": "e5a6c8b64f419925232d111ecb13e25f0abf55e54f792341f987623fd0778009",
   "https://github.com/oven-sh/bun/releases/download/bun-v1.3.13/bun-linux-x64.zip": "79c0771fa8b92c33aae41e15a0e0d307ea99d0e2f00317c71c6c53237a78e25a",
+  "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-linux-x64.zip": "951ee2aee855f08595aeec6225226a298d3fea83a3dcd6465c09cbccdf7e848f",
+  "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-linux-aarch64.zip": "a27ffb63a8310375836e0d6f668ae17fa8d8d18b88c37c821c65331973a19a3b",
+  "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-darwin-aarch64.zip": "d8b96221828ad6f97ac7ac0ab7e95872341af763001e8803e8267652c2652620",
+  "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-darwin-x64.zip": "4183df3374623e5bab315c547cfa0974533cd457d86b73b639f7a87974cd6633",
 }
