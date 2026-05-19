@@ -98,7 +98,7 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
 // The archive extracts a `pnpm` binary alongside a `dist/` directory of
 // supporting Node SEA resources, both relative to ${root}.
 version "11.0.0" "11.0.1" "11.0.3" "11.0.4" "11.0.8" "11.0.9" "11.1.0" "11.1.1"
-        "11.1.2" {
+        "11.1.2" "11.1.3" {
   platform "linux" "amd64" {
     source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64.tar.gz"
   }
@@ -600,4 +600,7 @@ sha256sums = {
   "https://github.com/pnpm/pnpm/releases/download/v11.1.2/pnpm-linux-arm64.tar.gz": "a62ca954f27cb0494d29f1a632d1d7a8a06d2c3608a4645f5c0714a3204da02b",
   "https://github.com/pnpm/pnpm/releases/download/v11.1.2/pnpm-darwin-arm64.tar.gz": "2f46bcb7ac3c693af72e06e68467b3a9127cbf2a24b778382bc8beaff8463aee",
   "https://github.com/pnpm/pnpm/releases/download/v11.1.2/pnpm-linux-x64.tar.gz": "f82f761572d9621c5a646ccc00a1ecec4cf5839d66b714497e6ca10cd2e086ee",
+  "https://github.com/pnpm/pnpm/releases/download/v11.1.3/pnpm-linux-arm64.tar.gz": "35676a3dacc7e325dd6ac90db35fd425f17748ea8095c2ea6d47c2375a974fcd",
+  "https://github.com/pnpm/pnpm/releases/download/v11.1.3/pnpm-darwin-arm64.tar.gz": "c258310926cfaaa59b50296bc0defca66a466799eb045d4f76fe3fc3c5e6565d",
+  "https://github.com/pnpm/pnpm/releases/download/v11.1.3/pnpm-linux-x64.tar.gz": "8e5685c22bc05e8092adb056bb3d848c3d7926a2c909ed028052098d59db9e6e",
 }

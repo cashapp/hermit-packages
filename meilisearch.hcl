@@ -42,7 +42,7 @@ on "unpack" {
 
 version "1.31.0" "1.32.0" "1.32.1" "1.32.2" "1.33.0" "1.33.1" "1.34.0" "1.34.1"
         "1.34.3" "1.35.0" "1.35.1" "1.36.0" "1.37.0" "1.38.0" "1.38.2" "1.39.0" "1.40.0"
-        "1.41.0" "1.42.0" "1.42.1" "1.43.0" "1.43.1" {
+        "1.41.0" "1.42.0" "1.42.1" "1.43.0" "1.43.1" "1.44.0" {
   auto-version {
     github-release = "meilisearch/meilisearch"
   }
@@ -137,4 +137,8 @@ sha256sums = {
   "https://github.com/meilisearch/meilisearch/releases/download/v1.43.1/meilisearch-linux-aarch64": "6402c094f7afe43dd572af01fe5b008802c38449923392f906d19e6c1ee0fcc7",
   "https://github.com/meilisearch/meilisearch/releases/download/v1.43.1/meilisearch-macos-amd64": "503c2c67fea00cfd640e161aa342c84dcc81d690bfde55c7cfecb2ffcac50f34",
   "https://github.com/meilisearch/meilisearch/releases/download/v1.43.1/meilisearch-linux-amd64": "ee746160c8dee859250a346dd62ca789b81f88d81804102ef47672ea8b1700bf",
+  "https://github.com/meilisearch/meilisearch/releases/download/v1.44.0/meilisearch-linux-amd64": "81b2a0870d514b33bff688b046633e127185f4f84599c28279606180798da3d4",
+  "https://github.com/meilisearch/meilisearch/releases/download/v1.44.0/meilisearch-macos-apple-silicon": "f77ddb771b8cbbd9c0894793d38b7c2e1e73bf6fa57e983011bc51316e43892a",
+  "https://github.com/meilisearch/meilisearch/releases/download/v1.44.0/meilisearch-macos-amd64": "dce7e92621bcc11eef3b3bafb491843f1920fbd0f4d53a64bcc6c14626eff726",
+  "https://github.com/meilisearch/meilisearch/releases/download/v1.44.0/meilisearch-linux-aarch64": "1d428f21478654af381ebf5278f77bb4123b7e712db2441254ba9660990f8fef",
 }
