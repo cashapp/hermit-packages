@@ -29,7 +29,7 @@ platform "windows" {
 
 version "1.1.0" "1.2.0" "1.3.0" "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.9.0"
         "1.10.0" "1.11.0" "1.12.0" "1.12.1" "1.13.0" "1.14.0" "1.15.0" "1.16.0" "1.17.0"
-        "1.18.0" "1.19.0" "1.20.0" "1.20.1" "1.21.0" "1.21.1" "1.22.0" "1.23.0" {
+        "1.18.0" "1.19.0" "1.20.0" "1.20.1" "1.21.0" "1.21.1" "1.22.0" "1.23.0" "1.24.0" {
   auto-version {
     github-release = "sigoden/argc"
   }
@@ -140,4 +140,8 @@ sha256sums = {
   "https://github.com/sigoden/argc/releases/download/v1.12.1/argc-v1.12.1-aarch64-apple-darwin.tar.gz": "c8a74683a09ea20a901efc082396871129629e7e9b04016f8061857f0920e3eb",
   "https://github.com/sigoden/argc/releases/download/v1.13.0/argc-v1.13.0-x86_64-apple-darwin.tar.gz": "e8aed2c736ac33d0828bd62ec04a76f2d6b6afc4a29efe44a50861f08a1248b3",
   "https://github.com/sigoden/argc/releases/download/v1.21.0/argc-v1.21.0-x86_64-unknown-linux-musl.tar.gz": "0c10e746b8ad977c8ada16987bd565176bd6a3a8f431dcfeb1defed43ce8262a",
+  "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-x86_64-unknown-linux-musl.tar.gz": "92e2c30ef078e0a66855b5bdd389cefa7ac6ef4c1fe0b177f3f0bf639891aa72",
+  "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-aarch64-apple-darwin.tar.gz": "617e2fbca3ce0fe604b82f22cd857e3d53fa1b53dbb18d5883bb0f935c31f42e",
+  "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-x86_64-apple-darwin.tar.gz": "fc096ec0569e166856b838cc9a54a6818f3062eea87e94fd69c3452a7e2c0097",
+  "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-aarch64-unknown-linux-musl.tar.gz": "1493e522be42b83e326750bbd6bd1893b33ed4889ef6d1a03f18c57702159519",
 }
