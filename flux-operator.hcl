@@ -7,7 +7,8 @@ source = "https://github.com/controlplaneio-fluxcd/flux-operator/releases/downlo
 version "0.19.0" "0.20.0" "0.21.0" "0.22.0" "0.23.0" "0.24.0" "0.24.1" "0.25.0"
         "0.26.0" "0.27.0" "0.28.0" "0.29.0" "0.30.0" "0.31.0" "0.32.0" "0.33.0" "0.34.0"
         "0.35.0" "0.36.0" "0.37.0" "0.37.1" "0.38.1" "0.39.0" "0.40.0" "0.41.0" "0.41.1"
-        "0.42.1" "0.43.0" "0.44.0" "0.45.0" "0.45.1" "0.46.0" "0.47.0" "0.48.0" "0.49.0" {
+        "0.42.1" "0.43.0" "0.44.0" "0.45.0" "0.45.1" "0.46.0" "0.47.0" "0.48.0" "0.49.0"
+        "0.50.0" {
   auto-version {
     github-release = "controlplaneio-fluxcd/flux-operator"
   }
@@ -154,4 +155,8 @@ sha256sums = {
   "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.49.0/flux-operator_0.49.0_darwin_amd64.tar.gz": "462597b025fd014aa408f5f77aa77d59b9dbe231cbaceca3275acab9fe5d8cd8",
   "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.49.0/flux-operator_0.49.0_darwin_arm64.tar.gz": "eaac1ac89512f4f032f7fa552ae812cd030819a4ba1f28fe88ece87a351d4a56",
   "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.49.0/flux-operator_0.49.0_linux_amd64.tar.gz": "cb7d259e556c8f7a4d8d4b3620cc241f8dc828868d36795bcc01b11873a2a2d4",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.50.0/flux-operator_0.50.0_darwin_amd64.tar.gz": "c109599f64f8593a01ae029adca19c0638f116a739f0681358d4a5c5cce9be44",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.50.0/flux-operator_0.50.0_linux_arm64.tar.gz": "12f4b1d44cbc7792eaba6682fab0bd39765db8fefc4eeb57c5c4c15c95b23637",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.50.0/flux-operator_0.50.0_darwin_arm64.tar.gz": "b931f82ff8f9f7dd19c9a7df796d2e2814e30cfdce2ba1d2f14217d7a1f91ac8",
+  "https://github.com/controlplaneio-fluxcd/flux-operator/releases/download/v0.50.0/flux-operator_0.50.0_linux_amd64.tar.gz": "2b61e351a86de43bf028d1da88e15902f171649e4453e253a6f26cea1ad4aa2b",
 }
