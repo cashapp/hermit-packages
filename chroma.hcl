@@ -6,7 +6,7 @@ version "0.10.0" "2.0.0-alpha1" "2.0.0-alpha2" "2.0.0-alpha3" "2.0.0-alpha4"
         "2.0.0" "2.0.1" "2.2.0" "2.3.0" "2.4.0" "2.5.0" "2.7.0" "2.8.0" "2.9.1" "2.10.0"
         "2.11.1" "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.16.0" "2.17.0" "2.17.2" "2.18.0"
         "2.19.0" "2.20.0" "2.21.0" "2.21.1" "2.22.0" "2.23.0" "2.23.1" "2.24.0" "2.24.1"
-        "2.25.0" {
+        "2.25.0" "2.26.0" {
   auto-version {
     github-release = "alecthomas/chroma"
   }
@@ -149,4 +149,8 @@ sha256sums = {
   "https://github.com/alecthomas/chroma/releases/download/v2.25.0/chroma-2.25.0-linux-amd64.tar.gz": "b040344f3966be115acb3d548c66c4930a362797257099b3a377b5eef7af81f2",
   "https://github.com/alecthomas/chroma/releases/download/v2.25.0/chroma-2.25.0-darwin-amd64.tar.gz": "3b3091d7a2aaae71128a23ac0d883d7c279669b3d60e7b35bb81ae7d1b4b89f4",
   "https://github.com/alecthomas/chroma/releases/download/v2.25.0/chroma-2.25.0-linux-arm64.tar.gz": "9acedd11870002119890afa46cc432591e7a3643dcb199c85bcf981fd654c992",
+  "https://github.com/alecthomas/chroma/releases/download/v2.26.0/chroma-2.26.0-darwin-amd64.tar.gz": "a906ca0865b348e2a1012232f105851b753329fd3151fa01af54f110f814e13e",
+  "https://github.com/alecthomas/chroma/releases/download/v2.26.0/chroma-2.26.0-darwin-arm64.tar.gz": "225cba1f06fb23c95915dc8ea7c80d52d37e28fb0402f9916f2ae5be677eebe4",
+  "https://github.com/alecthomas/chroma/releases/download/v2.26.0/chroma-2.26.0-linux-arm64.tar.gz": "7992f88bd5a58aa5219fb6863d1c6c62d8f826cf96ea3a4d7ef07843d27f3eaf",
+  "https://github.com/alecthomas/chroma/releases/download/v2.26.0/chroma-2.26.0-linux-amd64.tar.gz": "6a8d5bbf188f526d37e567cda5dc0dc383a5acc733fbcf6c4559cdab7bd05676",
 }
