@@ -3,7 +3,7 @@ binaries = ["cascadia"]
 strip = 1
 source = "https://github.com/suntong/cascadia/releases/download/v${version}/cascadia_${version}_${os}_amd64.tar.gz"
 
-version "1.2.6" "1.2.7" "1.3.0" "1.4.0" "1.5.0" {
+version "1.2.6" "1.2.7" "1.3.0" "1.4.0" "1.5.0" "1.5.1" {
   auto-version {
     github-release = "suntong/cascadia"
   }
@@ -20,4 +20,6 @@ sha256sums = {
   "https://github.com/suntong/cascadia/releases/download/v1.4.0/cascadia_1.4.0_darwin_amd64.tar.gz": "7c950b390703d7491ea0c789898f5d19c795e2e8f4df647ecffd81a9b6b48dc0",
   "https://github.com/suntong/cascadia/releases/download/v1.5.0/cascadia_1.5.0_darwin_amd64.tar.gz": "14ac0dd6b9087b2bd47d5cd7a1dc9be5a196518354a62d837b9f9a74191c1564",
   "https://github.com/suntong/cascadia/releases/download/v1.5.0/cascadia_1.5.0_linux_amd64.tar.gz": "7881ce45443a02feec5a05f49da971565f58da5011caf4eb113a1f2b431f10de",
+  "https://github.com/suntong/cascadia/releases/download/v1.5.1/cascadia_1.5.1_darwin_amd64.tar.gz": "19e95b937e7b534f15be469eb29fc92e2bfce60ba9ee75aef8ae4aeb8b22a3d7",
+  "https://github.com/suntong/cascadia/releases/download/v1.5.1/cascadia_1.5.1_linux_amd64.tar.gz": "e2f79996fdc6a506cac77e6b35522024c8458e0e4e12d79b00b9aee44d94c644",
 }
