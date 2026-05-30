@@ -12,7 +12,7 @@ on "unpack" {
 
 version "1.2.0" "1.2.1" "1.3.0" "1.3.1" "1.3.2" "1.3.3" "1.4.0" "1.5.0" "1.6.0" "1.6.1"
         "2.0.0" "2.0.1" "2.1.0" "2.1.1" "2.1.2" "2.1.3" "2.2.0" "2.3.0" "2.3.2" "2.4.0" "2.5.0"
-        "2.5.1" "2.6.0" {
+        "2.5.1" "2.6.0" "2.7.0" {
   auto-version {
     github-release = "buildkite/test-engine-client"
   }
@@ -111,4 +111,8 @@ sha256sums = {
   "https://github.com/buildkite/test-engine-client/releases/download/v2.6.0/bktec_2.6.0_darwin_amd64": "82e590796b61d72d947135925c7f960f89305ae26686a4f3e1e8b61620d90e44",
   "https://github.com/buildkite/test-engine-client/releases/download/v2.6.0/bktec_2.6.0_darwin_arm64": "3a225aeecfa05898c5df72d38dbed8c62d1c1d4999fc5df75a74bfcb6c4434a0",
   "https://github.com/buildkite/test-engine-client/releases/download/v2.6.0/bktec_2.6.0_linux_arm64": "05acd02b587955c5113d192803887a7327adea343469841c55a668b9aaca3ec2",
+  "https://github.com/buildkite/test-engine-client/releases/download/v2.7.0/bktec_2.7.0_darwin_amd64": "c5e519c959f60b452b8e15b763093572b00d683d694786efce5b0eb1e5606672",
+  "https://github.com/buildkite/test-engine-client/releases/download/v2.7.0/bktec_2.7.0_darwin_arm64": "cde549484c21edd1fb3971bcf283156b7173371f438fbd623d9d5ddcdc834aff",
+  "https://github.com/buildkite/test-engine-client/releases/download/v2.7.0/bktec_2.7.0_linux_amd64": "94a5ed30f634a2bb1110fb920332759212c238f87db78df359253ad366ddba1e",
+  "https://github.com/buildkite/test-engine-client/releases/download/v2.7.0/bktec_2.7.0_linux_arm64": "8beb027d58bc581c7b31e46c7945240fabab4c460fe235c8af1323be3e3cb319",
 }

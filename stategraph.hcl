@@ -20,7 +20,7 @@ platform "linux" "amd64" {
 version "0.1.6" "0.1.8" "0.1.9" "0.1.10" "0.1.13" "0.1.14" "0.1.16" "0.1.17" "0.1.18"
         "0.1.22" "0.1.23" "0.1.25" "0.1.26" "0.1.27" "0.1.29" "0.1.31" "0.1.32" "0.1.35"
         "0.1.36" "0.1.37" "1.0.0" "1.0.3" "1.0.4" "1.0.5" "1.0.6" "1.0.7" "1.0.9" "1.1.0"
-        "1.2.1" "1.2.2" "2.0.0" "2.0.1" "2.0.2" "2.1.0" "2.1.1" "2.1.3" "2.2.0" "2.2.1" {
+        "1.2.1" "1.2.2" "2.0.0" "2.0.1" "2.0.2" "2.1.0" "2.1.1" "2.1.3" "2.2.0" "2.2.1" "2.2.2" {
   auto-version {
     github-release = "stategraph/releases"
   }
@@ -179,4 +179,8 @@ sha256sums = {
   "https://github.com/stategraph/releases/releases/download/2.2.1/stategraph-linux-arm64.tar.gz": "b25bf589ece7f164a3727decd886c95e76cc5a15d08ae68125e50780cd1a4313",
   "https://github.com/stategraph/releases/releases/download/2.2.1/stategraph-linux-amd64.tar.gz": "d86acc914195e6ba9df5e1ff27ed1fdcd222d7bfe69c3dba2c5a4e2b2ad97ad3",
   "https://github.com/stategraph/releases/releases/download/2.2.1/stategraph-macos-arm64.tar.gz": "f1e6a301d94b2f89b49a9107978e05d3adef7b7dc4508ba5e5baa2ccd2310906",
+  "https://github.com/stategraph/releases/releases/download/2.2.2/stategraph-linux-amd64.tar.gz": "0e23e4082011987660aae62f045f74c96e5b03739d8f8c2675387503f3aa4774",
+  "https://github.com/stategraph/releases/releases/download/2.2.2/stategraph-linux-arm64.tar.gz": "b12b9f092ca4ee0fad04c03594951d430b24aa1a81d4cff5d408d6b889fd728b",
+  "https://github.com/stategraph/releases/releases/download/2.2.2/stategraph-macos-amd64.tar.gz": "ae275b7bc53ada6c9a186f6f0b539b0199f840dc42ee8c7aa032489f4116fc2b",
+  "https://github.com/stategraph/releases/releases/download/2.2.2/stategraph-macos-arm64.tar.gz": "467c4054d2f561ab2c3f61ec4b34ec4adc7fafef958818d72b4fe1e9f5cccb61",
 }
