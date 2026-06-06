@@ -29,7 +29,7 @@ platform "darwin" "arm64" {
   }
 }
 
-version "7.1.3-3" "7.1.3-6" "7.1.4-1" {
+version "7.1.3-3" "7.1.3-6" "7.1.4-1" "7.1.4-2" {
   auto-version {
     github-release = "jellyfin/jellyfin-ffmpeg"
     version-pattern = "v(.*)"
@@ -49,4 +49,8 @@ sha256sums = {
   "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.4-1/jellyfin-ffmpeg_7.1.4-1_portable_mac64-gpl.tar.xz": "ce194315cd403c7866225ac54f350e75ffaf30bef4981a4382f747cdd3f5c28e",
   "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.4-1/jellyfin-ffmpeg_7.1.4-1_portable_macarm64-gpl.tar.xz": "2df8d70e71622ee8adbaf702a5c2158c24ecee0a9a689b096f5e7f9932aa5e3f",
   "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.4-1/jellyfin-ffmpeg_7.1.4-1_portable_linuxarm64-gpl.tar.xz": "a8567bcace6bf11bfde5449b5cf5336cb9355a14032c68ca62487ecfeb118f8b",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.4-2/jellyfin-ffmpeg_7.1.4-2_portable_mac64-gpl.tar.xz": "446676d01255a3df19efa7006df334fc2efbb677365c746aac15463700e1ddaa",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.4-2/jellyfin-ffmpeg_7.1.4-2_portable_macarm64-gpl.tar.xz": "50ca7079e5a3f6daa3a23bf102639c9f9573a314f9f20d47a37a0eaef057934c",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.4-2/jellyfin-ffmpeg_7.1.4-2_portable_linux64-gpl.tar.xz": "df1cc905d81f1e5364501f5016f5453ead824b69179fbda3df5de1fd53255028",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.4-2/jellyfin-ffmpeg_7.1.4-2_portable_linuxarm64-gpl.tar.xz": "5c473b5cc9611d4589650da089bf4799bc5c4aece2c2f9fcdb369a4f82045110",
 }
