@@ -23,7 +23,7 @@ on "unpack" {
 }
 
 version "0.1.1" "0.1.2" "0.3.0" "0.4.0" "0.6.0" "0.6.2" "0.7.0" "0.8.0" "0.8.1" "0.9.0"
-        "0.10.0" "0.11.0" {
+        "0.10.0" "0.11.0" "0.12.0" {
   auto-version {
     github-release = "alecthomas/aim"
   }
@@ -78,4 +78,8 @@ sha256sums = {
   "https://github.com/alecthomas/aim/releases/download/v0.11.0/aim-aarch64-unknown-linux-gnu.bz2": "08d676e99089fa7d1afc07e52a8f5ba9bcd6f090368c6ae9aaae0317e61aea56",
   "https://github.com/alecthomas/aim/releases/download/v0.11.0/aim-x86_64-apple-darwin.bz2": "467ad81f56e8de9d2aaf3bcfd36387bb1af52dd09baed58b340353ec4dddb864",
   "https://github.com/alecthomas/aim/releases/download/v0.11.0/aim-aarch64-apple-darwin.bz2": "37dffc22c1b5a1a1b982fa4021cb16c285fffdbfab6300c4eafc622d536fd4c1",
+  "https://github.com/alecthomas/aim/releases/download/v0.12.0/aim-x86_64-unknown-linux-gnu.bz2": "d40e98fa4f00d425ff18e21138bc339cc14d10aac9d6f6b64d975e53e7a5b7d2",
+  "https://github.com/alecthomas/aim/releases/download/v0.12.0/aim-x86_64-apple-darwin.bz2": "0fe7e04e8089f4488b5282eedaf7f8857cc91c297dfa8f948979db7747aa0248",
+  "https://github.com/alecthomas/aim/releases/download/v0.12.0/aim-aarch64-unknown-linux-gnu.bz2": "be0b92de6f70d5eb7863ca6f5d460d69c0e5e79f56bb13169c8214c4c02b4bb5",
+  "https://github.com/alecthomas/aim/releases/download/v0.12.0/aim-aarch64-apple-darwin.bz2": "a299ab1bc6d0ab18dbd57722465708e6356682493b63c2d1ab6be77a91f95b5f",
 }
