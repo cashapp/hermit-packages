@@ -5,7 +5,7 @@ sha256-source = "https://github.com/databricks/cli/releases/download/v${version}
 
 version "0.285.0" "0.286.0" "0.287.0" "0.288.0" "0.289.1" "0.290.1" "0.291.0"
         "0.292.0" "0.294.0" "0.295.0" "0.296.0" "0.297.0" "0.297.1" "0.297.2" "0.298.0"
-        "0.299.0" "0.299.1" "0.299.2" "1.0.0" "1.1.0" "1.2.1" {
+        "0.299.0" "0.299.1" "0.299.2" "1.0.0" "1.1.0" "1.2.1" "1.3.0" {
   auto-version {
     github-release = "databricks/cli"
   }
@@ -96,4 +96,8 @@ sha256sums = {
   "https://github.com/databricks/cli/releases/download/v1.2.1/databricks_cli_1.2.1_linux_amd64.tar.gz": "9321f89dc9087c6f9ee4c002e90728ba137491f80863c918465795d7c2ec3e95",
   "https://github.com/databricks/cli/releases/download/v1.2.1/databricks_cli_1.2.1_darwin_amd64.tar.gz": "b9a9dc092465292c6a7d41744383e38a9a76726c5005aa1a2cd63bfd738d529b",
   "https://github.com/databricks/cli/releases/download/v1.2.1/databricks_cli_1.2.1_darwin_arm64.tar.gz": "c816e76abdc0b395c1b06385e92add9c52bd90961bef86257a4cd4e3e7b2a3cd",
+  "https://github.com/databricks/cli/releases/download/v1.3.0/databricks_cli_1.3.0_linux_amd64.tar.gz": "b50cf994c20618e7cd1c6c8c9eee6987c6928ed5dd08c86f898e5c946aedbeff",
+  "https://github.com/databricks/cli/releases/download/v1.3.0/databricks_cli_1.3.0_darwin_amd64.tar.gz": "6be3c1c663684a686485b067d52349d4b5fb8d8d455d7cd0ea774ad482958a56",
+  "https://github.com/databricks/cli/releases/download/v1.3.0/databricks_cli_1.3.0_darwin_arm64.tar.gz": "45caa91744c6630f5ac0d567db10840d4f81d7ec9a6382b24c91d03163d1596f",
+  "https://github.com/databricks/cli/releases/download/v1.3.0/databricks_cli_1.3.0_linux_arm64.tar.gz": "d0e8f0017c04adcfbcbd31daa07f10499e48c6a109a93506e60dc3bdd0fd5c2e",
 }
