@@ -6,7 +6,8 @@ test = "trufflehog --version"
 
 version "3.90.12" "3.90.13" "3.91.0" "3.91.1" "3.91.2" "3.92.1" "3.92.2" "3.92.3"
         "3.92.4" "3.92.5" "3.93.0" "3.93.1" "3.93.2" "3.93.3" "3.93.4" "3.93.5" "3.93.6"
-        "3.93.7" "3.93.8" "3.94.0" "3.94.1" "3.94.2" "3.94.3" "3.95.2" "3.95.3" "3.95.5" {
+        "3.93.7" "3.93.8" "3.94.0" "3.94.1" "3.94.2" "3.94.3" "3.95.2" "3.95.3" "3.95.5"
+        "3.95.6" {
   auto-version {
     github-release = "trufflesecurity/trufflehog"
   }
@@ -117,4 +118,8 @@ sha256sums = {
   "https://github.com/trufflesecurity/trufflehog/releases/download/v3.95.5/trufflehog_3.95.5_darwin_arm64.tar.gz": "0a08b46f63d48ccb894689b68b5e7b91ac5efa09b9684a3457d388456887c213",
   "https://github.com/trufflesecurity/trufflehog/releases/download/v3.95.5/trufflehog_3.95.5_linux_amd64.tar.gz": "8d151a19465973bec226be5992a2a11b053f4ab92c77861f642089892ae9aa58",
   "https://github.com/trufflesecurity/trufflehog/releases/download/v3.95.5/trufflehog_3.95.5_darwin_amd64.tar.gz": "8091a92ad3ef6c46244f5b6b9683c72296381d77f63e8a979e913d8d58df595d",
+  "https://github.com/trufflesecurity/trufflehog/releases/download/v3.95.6/trufflehog_3.95.6_linux_amd64.tar.gz": "1b62ea3cbc672ed5fd36e0eebb00b1fb50bbb7ee35090f42437a5852a299e16b",
+  "https://github.com/trufflesecurity/trufflehog/releases/download/v3.95.6/trufflehog_3.95.6_linux_arm64.tar.gz": "e0d8722485bf592f9ef9a72009fb5184656cfab4864fed453bbbf694d5b9350b",
+  "https://github.com/trufflesecurity/trufflehog/releases/download/v3.95.6/trufflehog_3.95.6_darwin_arm64.tar.gz": "a31879b8fdf68e6f6b739bea1ae812660d43b11f4c980131ab6cb2b81aef3041",
+  "https://github.com/trufflesecurity/trufflehog/releases/download/v3.95.6/trufflehog_3.95.6_darwin_amd64.tar.gz": "56e1108a9f074962d85ef3e3d442d0fcac1068d038b47fee4fc8bc6a7ad82a5d",
 }
