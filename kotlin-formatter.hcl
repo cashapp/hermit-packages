@@ -20,7 +20,7 @@ on "unpack" {
   }
 }
 
-version "1.6.2" "1.6.3" "1.7.0" {
+version "1.6.2" "1.6.3" "1.7.0" "1.7.2" {
   auto-version {
     github-release = "block/kotlin-formatter"
   }
@@ -30,4 +30,5 @@ sha256sums = {
   "https://github.com/block/kotlin-formatter/releases/download/1.6.2/kotlin-formatter-dist-1.6.2.zip": "55049373d347520d066615408dacf85e31b355de3f5f9497a87ad899b3dbefd0",
   "https://github.com/block/kotlin-formatter/releases/download/1.6.3/kotlin-formatter-dist-1.6.3.zip": "ed051649f9b002301925b3b9dbaf0022534b3eb4a93f6ea9af4f00fc78f4de5b",
   "https://github.com/block/kotlin-formatter/releases/download/1.7.0/kotlin-formatter-dist-1.7.0.zip": "aa45860924a5b93d27d84831b5496304ecb9971331e4db6a95ea6094d58e562d",
+  "https://github.com/block/kotlin-formatter/releases/download/1.7.2/kotlin-formatter-dist-1.7.2.zip": "6159863935014b58465e1ffd2fa50b1f960d05bedd93651656f0606e35b0f130",
 }
