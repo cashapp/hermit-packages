@@ -20,7 +20,7 @@ version "0.5.0" "0.5.1" "0.5.2" "0.5.3" "0.5.4" "0.5.5" "0.5.6" "0.5.7" "0.6.0" 
         "0.14.6" "0.14.7" "0.14.8" "0.14.9" "0.14.10" "0.14.11" "0.14.13" "0.14.14" "0.15.0"
         "0.15.1" "0.15.2" "0.15.4" "0.15.5" "0.15.6" "0.15.7" "0.15.8" "0.15.9" "0.15.10"
         "0.15.11" "0.15.12" "0.15.13" "0.15.14" "0.15.15" "0.15.16" "0.15.17" "0.15.18"
-        "0.15.19" {
+        "0.15.19" "0.15.20" {
   platform "darwin" {
     binaries = ["ruff-${xarch}-apple-darwin/ruff"]
   }
@@ -750,4 +750,8 @@ sha256sums = {
   "https://github.com/astral-sh/ruff/releases/download/0.15.19/ruff-aarch64-unknown-linux-gnu.tar.gz": "b00f8c17424c0abea8f87ca52880b864d10ae8e5c5d09ee61730a80ee3874a97",
   "https://github.com/astral-sh/ruff/releases/download/0.15.19/ruff-aarch64-apple-darwin.tar.gz": "c7253342f2ffbe2a0eaadaacd3424c3a24331b0307e57cc54031bc7ccd35d83a",
   "https://github.com/astral-sh/ruff/releases/download/0.15.19/ruff-x86_64-unknown-linux-gnu.tar.gz": "0bfabff71f317e0e3b8c363043b888f045eff092073d5d9bd0ac7f8ede465711",
+  "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-x86_64-apple-darwin.tar.gz": "36b91219b3aae00464e2a4fa361766abd47d0402ac88fbe6da5de44285738386",
+  "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-x86_64-unknown-linux-gnu.tar.gz": "df8e74862d4cd4fdac11faf3048789896ff9898a0cacb98497df20d0a1cc7bb4",
+  "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-aarch64-unknown-linux-gnu.tar.gz": "f915de3ab6d31a49f4c57b1f97129f359f9348c162ea03acfa07011ba79e1197",
+  "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-aarch64-apple-darwin.tar.gz": "cb41c48690c113dc08470e64103ce65ca15249c6ce3495d3ac792b329a83e8c1",
 }
