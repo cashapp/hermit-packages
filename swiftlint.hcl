@@ -11,7 +11,7 @@ platform "linux" {
   source = "https://github.com/realm/SwiftLint/releases/download/${version}/swiftlint_linux_${arch}.zip"
 }
 
-version "0.60.0" "0.61.0" "0.62.2" "0.63.2" "0.63.3" "0.64.0" "0.64.1" {
+version "0.60.0" "0.61.0" "0.62.2" "0.63.2" "0.63.3" "0.64.0" "0.64.1" "0.65.0" {
   auto-version {
     github-release = "realm/SwiftLint"
   }
@@ -39,4 +39,7 @@ sha256sums = {
   "https://github.com/realm/SwiftLint/releases/download/0.64.1/swiftlint_linux_amd64.zip": "d086685c2d0a6f6e19683250b132d0b1028de2936618152a358e4646ca065857",
   "https://github.com/realm/SwiftLint/releases/download/0.64.1/portable_swiftlint.zip": "a624aa080e825b6987ff3d54505324b42ff35953ba9b824bb608d9dd5bd80c3a",
   "https://github.com/realm/SwiftLint/releases/download/0.64.1/swiftlint_linux_arm64.zip": "b0bbeb61cc2654f510ba9b0504c5682afca9a0c061a7089b4dd5c5d4d19a1fed",
+  "https://github.com/realm/SwiftLint/releases/download/0.65.0/swiftlint_linux_amd64.zip": "79306a34e5c7cc55a220cd108cbb861dcad5f10138dcdf261e2624ae8b0a486b",
+  "https://github.com/realm/SwiftLint/releases/download/0.65.0/portable_swiftlint.zip": "d6cb0aa7a2f5f1ef306fc9e37bcb54dc9a26facc8f7784ac0c3dd3eccf5c6ba6",
+  "https://github.com/realm/SwiftLint/releases/download/0.65.0/swiftlint_linux_arm64.zip": "12d3b84bc5b69ae13a99a5a5c79904f9ce25867f099f6368d0037854f9ee6c26",
 }
