@@ -23,7 +23,7 @@ platform "windows" {
 }
 
 version "3.7.3" "3.8.0" "3.8.1" "3.9.0" "3.9.1" "3.9.2" "3.9.3" "3.9.4" "3.10.0"
-        "3.10.1" "3.10.2" "3.11.0" "3.12.1" "3.12.2" "3.13.0" "3.13.1" {
+        "3.10.1" "3.10.2" "3.11.0" "3.12.1" "3.12.2" "3.13.0" "3.13.1" "3.13.2" {
   auto-version {
     github-release = "mozilla/sops"
   }
@@ -94,4 +94,8 @@ sha256sums = {
   "https://github.com/mozilla/sops/releases/download/v3.13.1/sops-v3.13.1.linux.amd64": "620a9d7e3352ababeca6908cea24a6e8b14ce89a448ddbd3f94f1ef3398f470a",
   "https://github.com/mozilla/sops/releases/download/v3.13.1/sops-v3.13.1.darwin.amd64": "dad79d1b1dea767ca38ffaa50e10330a3e807dd13c853ef9c880567acef4f1ef",
   "https://github.com/mozilla/sops/releases/download/v3.13.1/sops-v3.13.1.linux.arm64": "19576fb1734dbf8fb77eda0cf0f3a2218f99bf4d33b814318e5e10d6babb9820",
+  "https://github.com/mozilla/sops/releases/download/v3.13.2/sops-v3.13.2.linux.amd64": "154dfe4cd70554bdd82b98e4cd4acf191d43d01ead6f00a73477aa44c4ac42ef",
+  "https://github.com/mozilla/sops/releases/download/v3.13.2/sops-v3.13.2.linux.arm64": "78abf2e15c86250a1553ae6f53aba96be6b2a8126f160b1534959add3467ad76",
+  "https://github.com/mozilla/sops/releases/download/v3.13.2/sops-v3.13.2.darwin.arm64": "412c475b52f167f1facd75d564422ffd1fa5302aaa7a404bdf4e30087e04b5a8",
+  "https://github.com/mozilla/sops/releases/download/v3.13.2/sops-v3.13.2.darwin.amd64": "5a66836229ff4a73779b19644b6db28fd574a6b995c15fc333469b2f93ee2acd",
 }
