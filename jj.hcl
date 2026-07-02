@@ -11,7 +11,7 @@ platform "linux" {
 }
 
 version "0.31.0" "0.32.0" "0.33.0" "0.34.0" "0.35.0" "0.36.0" "0.37.0" "0.38.0"
-        "0.39.0" "0.40.0" "0.41.0" "0.42.0" {
+        "0.39.0" "0.40.0" "0.41.0" "0.42.0" "0.43.0" {
   auto-version {
     github-release = "jj-vcs/jj"
   }
@@ -66,4 +66,8 @@ sha256sums = {
   "https://github.com/jj-vcs/jj/releases/download/v0.42.0/jj-v0.42.0-x86_64-apple-darwin.tar.gz": "ec04669e9b8decb4b0d63dc050a4275d2b5422efea502a0c208ebd4e53e7d053",
   "https://github.com/jj-vcs/jj/releases/download/v0.42.0/jj-v0.42.0-aarch64-apple-darwin.tar.gz": "98764966f22b599dc0b19bb9bd00d21df86156aeca5827f8274900356768db08",
   "https://github.com/jj-vcs/jj/releases/download/v0.42.0/jj-v0.42.0-aarch64-unknown-linux-musl.tar.gz": "bc962ac57ec264541a62ed8492f080898380a277222b115e1ed96163196e6fc8",
+  "https://github.com/jj-vcs/jj/releases/download/v0.43.0/jj-v0.43.0-aarch64-unknown-linux-musl.tar.gz": "289197b6bec60b4e57d47260624b617716f737eb02cdfd9155791b2576aa5862",
+  "https://github.com/jj-vcs/jj/releases/download/v0.43.0/jj-v0.43.0-x86_64-unknown-linux-musl.tar.gz": "59e5588583ac82b623239929368c65b90735931c0f26b5a16c1f04d5bb97643d",
+  "https://github.com/jj-vcs/jj/releases/download/v0.43.0/jj-v0.43.0-x86_64-apple-darwin.tar.gz": "f1a7fec046b816132318c07a9c096680f7aae78b008709c7166a57efd9c579ec",
+  "https://github.com/jj-vcs/jj/releases/download/v0.43.0/jj-v0.43.0-aarch64-apple-darwin.tar.gz": "84336bbe5673a36ccc6395c494021ba632794da078eb8c8c513a60f8e1cc3083",
 }

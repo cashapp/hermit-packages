@@ -35,7 +35,7 @@ platform "linux" {
   }
 }
 
-version "0.48.0" "0.49.0" "0.50.0" "0.51.0" "0.52.0" {
+version "0.48.0" "0.49.0" "0.50.0" "0.51.0" "0.52.0" "0.53.0" {
   auto-version {
     github-release = "kivikakk/comrak"
   }
@@ -62,4 +62,8 @@ sha256sums = {
   "https://github.com/kivikakk/comrak/releases/download/v0.52.0/comrak-0.52.0-aarch64-unknown-linux-musl": "ea27f3a01feb07bc081d0c9f8107d9927cc0473886cf5cdb3b9951cc2d1bc9bb",
   "https://github.com/kivikakk/comrak/releases/download/v0.52.0/comrak-0.52.0-x86_64-unknown-linux-musl": "1ff531c6aaa5be3758d485fb89136ff87e1cbb62da49e87f67684fdc35c02e50",
   "https://github.com/kivikakk/comrak/releases/download/v0.52.0/comrak-0.52.0-x86_64-apple-darwin": "fd2895964caee099932fabb44974eb22b2d5e55230b60f18212d0aa287922550",
+  "https://github.com/kivikakk/comrak/releases/download/v0.53.0/comrak-0.53.0-aarch64-unknown-linux-musl": "aa87f1ed41140bbcb29044572a6ed72b478a12d6ef71fb0e88a13833b8c9c3bf",
+  "https://github.com/kivikakk/comrak/releases/download/v0.53.0/comrak-0.53.0-x86_64-unknown-linux-musl": "e97792187ee304a9ac8d80fb8b68895a20722141195612b862b4853d53ab18d1",
+  "https://github.com/kivikakk/comrak/releases/download/v0.53.0/comrak-0.53.0-aarch64-apple-darwin": "1f36770107cd591a915f344ef975abf458119fb9f17637e0691730da1c269da1",
+  "https://github.com/kivikakk/comrak/releases/download/v0.53.0/comrak-0.53.0-x86_64-apple-darwin": "3f4e7820ac803fcc8c38987c168a25cdf1a1b384d8745e7cdc773a27ceee1f94",
 }
