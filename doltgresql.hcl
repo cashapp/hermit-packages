@@ -10,7 +10,7 @@ version "0.50.0" "0.50.1" "0.51.0" "0.51.1" "0.51.2" "0.52.0" "0.52.1" "0.52.2"
         "0.52.3" "0.52.4" "0.53.0" "0.53.1" "0.53.4" "0.53.5" "0.53.6" "0.54.4" "0.54.5"
         "0.54.6" "0.54.7" "0.54.8" "0.54.9" "0.54.10" "0.55.0" "0.55.1" "0.55.2" "0.55.3"
         "0.55.4" "0.55.5" "0.55.6" "0.56.0" "0.56.1" "0.56.2" "0.56.3" "0.56.4" "0.56.5"
-        "0.56.7" "0.56.8" {
+        "0.56.7" "0.56.8" "0.56.9" {
   auto-version {
     github-release = "dolthub/doltgresql"
   }
@@ -165,4 +165,8 @@ sha256sums = {
   "https://github.com/dolthub/doltgresql/releases/download/v0.56.8/doltgresql-darwin-arm64.tar.gz": "7a215a4f690562f1d98d8ef75a2ba50e72e07017401a97f4260ba1da4e9f50d8",
   "https://github.com/dolthub/doltgresql/releases/download/v0.56.8/doltgresql-darwin-amd64.tar.gz": "2e9e6c760d2d35ab95bf6ac8e67813453b788b8cbbf1fbabbda48426e7410397",
   "https://github.com/dolthub/doltgresql/releases/download/v0.56.8/doltgresql-linux-arm64.tar.gz": "77bc8cc5dc28d2f6066f57e14649fc13b1e84460ab72825c8220f2a0806f6721",
+  "https://github.com/dolthub/doltgresql/releases/download/v0.56.9/doltgresql-darwin-amd64.tar.gz": "22c82116346fb28eebd45cbb3b3b1656f59c7d2edde08d18563e9eec655e82f3",
+  "https://github.com/dolthub/doltgresql/releases/download/v0.56.9/doltgresql-darwin-arm64.tar.gz": "12804a32259f07df4325e38787a037051c1077e207439ba7016fd695bcf02b74",
+  "https://github.com/dolthub/doltgresql/releases/download/v0.56.9/doltgresql-linux-amd64.tar.gz": "b61c92364cbbe0bd38e6a489d1cb9c5bc09be8075f82ba985592381b69a7b1e6",
+  "https://github.com/dolthub/doltgresql/releases/download/v0.56.9/doltgresql-linux-arm64.tar.gz": "b3bdf5290f3e26821a23e52d5bd627a4320a27853500027c55cc56658ad6b6e8",
 }
