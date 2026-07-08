@@ -138,7 +138,7 @@ version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
 
 // All other versions
 version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" "1.25.6" "1.25.7"
-        "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" {
+        "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" "1.26.5" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -653,4 +653,8 @@ sha256sums = {
   "https://golang.org/dl/go1.26.4.linux-amd64.tar.gz": "1153d3d50e0ac764b447adfe05c2bcf08e889d42a02e0fe0259bd47f6733ad7f",
   "https://golang.org/dl/go1.26.4.linux-arm64.tar.gz": "ef758ae7c6cf9267c9c0ef080b8965f453d89ab2d25d9eb22de4405925238768",
   "https://golang.org/dl/go1.26.4.darwin-amd64.tar.gz": "05dc9b5f9997744520aaebb3d5deaa7c755371aebbfb7f97c2511a9f3367538d",
+  "https://golang.org/dl/go1.26.5.darwin-amd64.tar.gz": "6231d8d3b8f5552ec6cbf6d685bdd5482e1e703214b120e89b3bf0d7bf1ef725",
+  "https://golang.org/dl/go1.26.5.linux-amd64.tar.gz": "5c2c3b16caefa1d968a94c1daca04a7ca301a496d9b086e17ad77bb81393f053",
+  "https://golang.org/dl/go1.26.5.linux-arm64.tar.gz": "fe4789e92b1f33358680864bbe8704289e7bb5fc207d80623c308935bd696d49",
+  "https://golang.org/dl/go1.26.5.darwin-arm64.tar.gz": "efb87ff28af9a188d0536ef5d42e63dd52ba8263cd7344a993cc48dd11dedb6a",
 }

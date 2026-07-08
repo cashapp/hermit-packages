@@ -10,7 +10,7 @@ platform "linux" {
   source = "https://github.com/mattn/goreman/releases/download/v${version}/goreman_v${version}_${os}_${arch}.tar.gz"
 }
 
-version "0.3.8" "0.3.15" "0.3.16" "0.3.17" {
+version "0.3.8" "0.3.15" "0.3.16" "0.3.17" "0.3.19" {
   auto-version {
     github-release = "mattn/goreman"
   }
@@ -45,4 +45,8 @@ sha256sums = {
   "https://github.com/mattn/goreman/releases/download/v0.3.17/goreman_v0.3.17_linux_amd64.tar.gz": "5e91144d6f4d26eb73c3e8cbe2a4fbe1719e71b6bb8778aeab9aae40cbb49e57",
   "https://github.com/mattn/goreman/releases/download/v0.3.17/goreman_v0.3.17_linux_arm64.tar.gz": "14b92317e603326ce9989e5f59107bfa5916ed6df114a74186e9f3d054306e69",
   "https://github.com/mattn/goreman/releases/download/v0.3.17/goreman_v0.3.17_darwin_amd64.zip": "de9829ba377e7394258121dfc9c1483ecd7648675bb92b9ad748b733135ea398",
+  "https://github.com/mattn/goreman/releases/download/v0.3.19/goreman_v0.3.19_darwin_amd64.zip": "3e2e35c4b2472b95627bb52a431fcdd30d946fa94d17eb6a0c5e418a7ab39b72",
+  "https://github.com/mattn/goreman/releases/download/v0.3.19/goreman_v0.3.19_linux_arm64.tar.gz": "c09b580cd8c1f8a3e90928e02608f3ead02c87656368261f7f0514f724507b93",
+  "https://github.com/mattn/goreman/releases/download/v0.3.19/goreman_v0.3.19_linux_amd64.tar.gz": "3a295da503fc2113620c723f2be26f1322818f53575cf85c31a605d76e97f585",
+  "https://github.com/mattn/goreman/releases/download/v0.3.19/goreman_v0.3.19_darwin_arm64.zip": "cb80f6956f9679f5d859db79c48ccd02ffbe8d6d26015e7d2cc7db50695c7d18",
 }

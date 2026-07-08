@@ -5,7 +5,7 @@ strip = 1
 binaries = ["bin/gradle-profiler"]
 repository = "https://github.com/gradle/gradle-profiler"
 
-version "0.20.0" "0.21.0" "0.22.0-alpha-1" "0.22.0" "0.23.0" "0.24.0" {
+version "0.20.0" "0.21.0" "0.22.0-alpha-1" "0.22.0" "0.23.0" "0.24.0" "0.25.0" {
   auto-version {
     github-release = "gradle/gradle-profiler"
   }
@@ -18,4 +18,5 @@ sha256sums = {
   "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/0.22.0/gradle-profiler-0.22.0.zip": "a269f05861d2682c3b98d050330764200bc322024762295713fab167d133283c",
   "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/0.23.0/gradle-profiler-0.23.0.zip": "7e4df8a4c50418ba9c6fba91fe692e2c689f5489d95cf38066b52657606cac1e",
   "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/0.24.0/gradle-profiler-0.24.0.zip": "74f39882a444d6d5616d35b3e9197f7423cd252f63f339bd3e01f662573b319c",
+  "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/0.25.0/gradle-profiler-0.25.0.zip": "911bb597e96f1e4365532820fc352726859e8b6eed85694f98d605a8fa2b4888",
 }

@@ -2,7 +2,7 @@ description = "Real-time SQL traffic viewer that acts as a transparent proxy bet
 binaries = ["sql-tap", "sql-tapd"]
 test = "sql-tap --help"
 
-version "0.2.7" "0.2.9" "0.3.0" {
+version "0.2.7" "0.2.9" "0.3.0" "0.3.2" {
   auto-version {
     github-release = "mickamy/sql-tap"
   }
@@ -23,4 +23,8 @@ sha256sums = {
   "https://github.com/mickamy/sql-tap/releases/download/v0.3.0/sql-tap_0.3.0_darwin_arm64.tar.gz": "ef85768f1310a52dcfcb8e222ad4de5e4806237e0241242541e7fd3028a5fe3d",
   "https://github.com/mickamy/sql-tap/releases/download/v0.3.0/sql-tap_0.3.0_linux_arm64.tar.gz": "35b200b8a76aed166e02633e6d4481b1d24783cac2fa20fff6e61feb3139b817",
   "https://github.com/mickamy/sql-tap/releases/download/v0.3.0/sql-tap_0.3.0_linux_amd64.tar.gz": "d108a00b3238f2539b84157ba832dab869f8fcb50d51d7449c608598c11d556e",
+  "https://github.com/mickamy/sql-tap/releases/download/v0.3.2/sql-tap_0.3.2_linux_amd64.tar.gz": "e451a4b39cf4182e7e8b85a8553b50969273a99486c41d4d61f00d3a348bebde",
+  "https://github.com/mickamy/sql-tap/releases/download/v0.3.2/sql-tap_0.3.2_linux_arm64.tar.gz": "12f62acba7c0b230736ee97c1a18cc6778f2c3df904daac8983fe1459705186b",
+  "https://github.com/mickamy/sql-tap/releases/download/v0.3.2/sql-tap_0.3.2_darwin_amd64.tar.gz": "6b38dbf5234e3b3ea53245554a3ff4aba85c0d25f821a02010bd7b41aca4df6e",
+  "https://github.com/mickamy/sql-tap/releases/download/v0.3.2/sql-tap_0.3.2_darwin_arm64.tar.gz": "d98ecb900e559d1e71a243e12c9d35b538b47a9f0bfa62db8c96a98a617dcc62",
 }
