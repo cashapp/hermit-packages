@@ -15,7 +15,7 @@ version "1.11.1" "1.11.2" "1.11.3" "1.11.4" "1.11.5" "1.12.0" "1.12.1" "1.12.2"
         "1.16.2" "1.16.3" "1.17.0" "1.15.8" "1.17.1" "1.17.2" "1.17.3" "1.18.0" "1.18.1"
         "1.18.2" "1.19.0" "1.19.1" "1.19.2" "1.20.0" "1.20.1" "1.20.2" "1.20.3" "1.20.4"
         "1.20.5" "1.20.6" "1.21.0" "1.21.1" "1.21.2" "1.21.3" "1.21.4" "1.21.5" "1.22.0"
-        "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.7" "2.0.0" "2.0.1" {
+        "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.7" "2.0.0" "2.0.1" "2.0.2" {
   auto-version {
     github-release = "hashicorp/consul"
   }
@@ -276,4 +276,8 @@ sha256sums = {
   "https://releases.hashicorp.com/consul/2.0.1/consul_2.0.1_linux_amd64.zip": "f8189736b05e3fe42d27dd83dfbd3a6d7e44b5669b2e51684362e9c1639babe0",
   "https://releases.hashicorp.com/consul/2.0.1/consul_2.0.1_linux_arm64.zip": "06a88f29c408f02a4c6388dccf30c059b8d8ce3778576701603fbb4dfc03b365",
   "https://releases.hashicorp.com/consul/2.0.1/consul_2.0.1_darwin_arm64.zip": "ab6f2baa756b7ade58b335ec98312ff8235bc3d6d520de9c7ec95bd9c8a13485",
+  "https://releases.hashicorp.com/consul/2.0.2/consul_2.0.2_darwin_amd64.zip": "4e76391b19d2e2db08cd2a910acadc6e67b9e1e9333a7434a7ea3c6c977a8889",
+  "https://releases.hashicorp.com/consul/2.0.2/consul_2.0.2_darwin_arm64.zip": "5954509aec5ed54dabc88fc8e357756c7b0dc56437bd296c1399e525e3657417",
+  "https://releases.hashicorp.com/consul/2.0.2/consul_2.0.2_linux_amd64.zip": "96e56c9d06b4a15bfa316afa39af926c1b67d189f66388dc1eecbb7c26faeed4",
+  "https://releases.hashicorp.com/consul/2.0.2/consul_2.0.2_linux_arm64.zip": "70c13b33f47da13c7c797b57d6ccc8a738ecf33c8e3aec4c268640dc17ba660c",
 }
