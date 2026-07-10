@@ -5,7 +5,7 @@ test = "pint --help"
 source = "https://github.com/cloudflare/pint/releases/download/v${version}/pint-${version}-${os}-${arch}.tar.gz"
 
 version "0.77.1" "0.78.0" "0.79.0" "0.80.0" "0.81.1" "0.82.1" "0.82.2" "0.82.3"
-        "0.83.0" "0.84.0" "0.85.0" "0.86.0" {
+        "0.83.0" "0.84.0" "0.85.0" "0.86.0" "0.87.0" {
   auto-version {
     github-release = "cloudflare/pint"
   }
@@ -67,4 +67,8 @@ sha256sums = {
   "https://github.com/cloudflare/pint/releases/download/v0.86.0/pint-0.86.0-darwin-amd64.tar.gz": "78a909e1e3e65e8c93cd7ef3a2eea30a1f0f3cffb3d27a39d66545e9540bec90",
   "https://github.com/cloudflare/pint/releases/download/v0.86.0/pint-0.86.0-linux-arm64.tar.gz": "43b5fe84e3a39b89845efd7cdb668c5005fb97b7a0078582a43cd9a89b468d4e",
   "https://github.com/cloudflare/pint/releases/download/v0.86.0/pint-0.86.0-linux-amd64.tar.gz": "6166233a8d6d726d56345cb863f749a20f398cc9ffc01cd5c36410a76afa73bc",
+  "https://github.com/cloudflare/pint/releases/download/v0.87.0/pint-0.87.0-darwin-amd64.tar.gz": "03dd3d715c63022f4f02bf3f8f164b2db193f3ebf479aa9928912ec7fef0f358",
+  "https://github.com/cloudflare/pint/releases/download/v0.87.0/pint-0.87.0-darwin-arm64.tar.gz": "6afb6c6425e8a8b4e261068083884597a70b3502e53386ccc9a7cf5fed79b843",
+  "https://github.com/cloudflare/pint/releases/download/v0.87.0/pint-0.87.0-linux-amd64.tar.gz": "f0e91491f10adbb9bf2bdefd213eb63c92685ae4565aee340b9eec6fb7ff4049",
+  "https://github.com/cloudflare/pint/releases/download/v0.87.0/pint-0.87.0-linux-arm64.tar.gz": "fd9709d755c1e1c01526c9957fb4a43d58aa1ba2f46da5ef4f83bfb05b52b6a8",
 }

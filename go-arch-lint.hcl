@@ -3,7 +3,7 @@ binaries = ["go-arch-lint"]
 source = "https://github.com/fe3dback/go-arch-lint/releases/download/v${version}/go-arch-lint_${version}_${os}_${arch}.tar.gz"
 
 version "1.11.4" "1.11.5" "1.11.6" "1.11.7" "1.11.9" "1.12.0" "1.13.0" "1.14.0"
-        "1.15.0" {
+        "1.15.0" "1.16.0" {
   auto-version {
     github-release = "fe3dback/go-arch-lint"
   }
@@ -46,4 +46,8 @@ sha256sums = {
   "https://github.com/fe3dback/go-arch-lint/releases/download/v1.15.0/go-arch-lint_1.15.0_linux_amd64.tar.gz": "b694a40d4b880b7665b164da6023775ba7461ac2110de09f0b2dddd1c58d4176",
   "https://github.com/fe3dback/go-arch-lint/releases/download/v1.15.0/go-arch-lint_1.15.0_darwin_arm64.tar.gz": "37c8ebd36bfedb97c14486ff480f91c60bf0901ccc600aee2044591c13b72922",
   "https://github.com/fe3dback/go-arch-lint/releases/download/v1.15.0/go-arch-lint_1.15.0_linux_arm64.tar.gz": "b806132ca67f98e932f84228e2bed14ee1a99abe0226dab352c63e63c2ded976",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.16.0/go-arch-lint_1.16.0_linux_amd64.tar.gz": "72815f782fb970eae8e78613b9a1ffe70566a8af7ac9bcbdd316cf68b7030937",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.16.0/go-arch-lint_1.16.0_linux_arm64.tar.gz": "d139795f5c0118e1927a35b9a8ccd92b5f5e2943ccf69004d04bd2e2b9a98885",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.16.0/go-arch-lint_1.16.0_darwin_amd64.tar.gz": "16c93739c6b7b3c0a96d052bb0bf8344ecd8033ce78cabf1262d1fe49a624953",
+  "https://github.com/fe3dback/go-arch-lint/releases/download/v1.16.0/go-arch-lint_1.16.0_darwin_arm64.tar.gz": "a6cacd74a1e5ab9383c35b5f5961dc9fdb978a9891f6bbfbf991d997dff10b38",
 }
