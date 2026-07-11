@@ -9,7 +9,7 @@ platform "linux" "amd64" {
   source = "https://github.com/ory/cli/releases/download/v${version}/ory_${version}-linux_64bit.tar.gz"
 }
 
-version "0.2.2" "0.3.1" "0.3.2" "0.3.4" "1.0.0" "1.0.1" "1.1.0" "1.2.0" "1.3.0" {
+version "0.2.2" "0.3.1" "0.3.2" "0.3.4" "1.0.0" "1.0.1" "1.1.0" "1.2.0" "1.3.0" "1.3.1" {
   auto-version {
     github-release = "ory/cli"
   }
@@ -34,4 +34,6 @@ sha256sums = {
   "https://github.com/ory/cli/releases/download/v1.2.0/ory_1.2.0-linux_64bit.tar.gz": "623df3e04b6cfd1c6d56479bacd6f68aa6e835fa8ded36a55388233d2b8c99f3",
   "https://github.com/ory/cli/releases/download/v1.3.0/ory_1.3.0-macOS_sqlite_all.tar.gz": "42f71b42ecab10bcf44399c748e50b2ea8783fb0f41a5c411e66e76321029cab",
   "https://github.com/ory/cli/releases/download/v1.3.0/ory_1.3.0-linux_64bit.tar.gz": "e6f45285fa6f749f348939007b4c9104c06f55e59c613a8466de8a4a0a283edb",
+  "https://github.com/ory/cli/releases/download/v1.3.1/ory_1.3.1-linux_64bit.tar.gz": "e6bbdda849cfa3208a0f8a70df71019d02dedc36eba43fc0143522779b0401f0",
+  "https://github.com/ory/cli/releases/download/v1.3.1/ory_1.3.1-macOS_sqlite_all.tar.gz": "bc6588d533082251b70f45fadb65f6e2c8758d5fb56476938e9dbf609a0ab9bd",
 }
