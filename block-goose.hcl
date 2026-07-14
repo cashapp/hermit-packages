@@ -20,7 +20,7 @@ version "1.0.4" "1.0.5" "1.0.6" "1.0.7" "1.0.8" "1.0.9" "1.0.10" "1.0.11" "1.0.1
         "1.21.1" "1.21.2" "1.22.0" "1.22.1" "1.22.2" "1.23.0" "1.23.2" "1.24.0" "1.25.0"
         "1.25.1" "1.26.0" "1.26.1" "1.27.0" "1.27.1" "1.27.2" "1.28.0" "1.29.0" "1.29.1"
         "1.30.0" "1.31.0" "1.31.1" "1.32.0" "1.33.1" "1.34.0" "1.34.1" "1.35.0" "1.36.0"
-        "1.37.0" "1.38.0" "1.39.0" "1.41.0" {
+        "1.37.0" "1.38.0" "1.39.0" "1.41.0" "1.42.0" {
   auto-version {
     github-release = "block/goose"
   }
@@ -411,4 +411,8 @@ sha256sums = {
   "https://github.com/block/goose/releases/download/v1.41.0/goose-aarch64-unknown-linux-gnu.tar.bz2": "01f57bbec56a62ed3903bf466d407e784c119aabface695f72d3f914dc90d410",
   "https://github.com/block/goose/releases/download/v1.41.0/goose-x86_64-apple-darwin.tar.bz2": "b039fe30eecc54e85c7dca247cd96ed3064fa123551595e07b9f83b0cb7e8c15",
   "https://github.com/block/goose/releases/download/v1.41.0/goose-aarch64-apple-darwin.tar.bz2": "84e145273dc5b6100c392cc765376ee75d1bf37a2ef9e9fd9c42fee0d2d997e8",
+  "https://github.com/block/goose/releases/download/v1.42.0/goose-x86_64-unknown-linux-gnu.tar.bz2": "6e031791f93add583308a22435eab14271e2d1e093e235587426f50c847c340f",
+  "https://github.com/block/goose/releases/download/v1.42.0/goose-x86_64-apple-darwin.tar.bz2": "f1c775dc50a05df38258e9906ea5261107d81b861c6879e4707c31393b2b8fca",
+  "https://github.com/block/goose/releases/download/v1.42.0/goose-aarch64-unknown-linux-gnu.tar.bz2": "dbbfd5d3ca0cc154478eaa51682eb60c7057be5abc5e36f2fab06af5ce337404",
+  "https://github.com/block/goose/releases/download/v1.42.0/goose-aarch64-apple-darwin.tar.bz2": "e98b2a9c2ff419516bbd10ac1e2ef5e68bf365b93f3bc03f4abbf9e1ebfd4498",
 }

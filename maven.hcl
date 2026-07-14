@@ -8,7 +8,7 @@ source = "https://downloads.apache.org/maven/maven-3/${version}/binaries/apache-
 mirrors = ["https://archive.apache.org/dist/maven/maven-3/${version}/binaries/apache-maven-${version}-bin.tar.gz"]
 
 version "3.6.3" "3.8.4" "3.8.5" "3.8.6" "3.9.5" "3.9.6" "3.9.7" "3.9.8" "3.9.9"
-        "3.9.10" "3.9.11" "3.9.12" "3.9.13" "3.9.14" "3.9.15" "3.9.16" {
+        "3.9.10" "3.9.11" "3.9.12" "3.9.13" "3.9.14" "3.9.15" "3.9.16" "3.10.0-rc-1" {
   auto-version {
     version-pattern = "maven-(.*)"
     github-release = "apache/maven"
@@ -32,4 +32,5 @@ sha256sums = {
   "https://downloads.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.tar.gz": "126ed3233e569bd0add9e889d226139acd3de9005876a01fe6108fbf4246f515",
   "https://downloads.apache.org/maven/maven-3/3.9.15/binaries/apache-maven-3.9.15-bin.tar.gz": "36182f85e91128cd5c4608462ac92194e7a30638f65034de66f4e1b00600a6fc",
   "https://downloads.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz": "80ffca22aed9e8b9713a232f3394fd81d7f20322df75efdb2b047dbd3e3a23bb",
+  "https://downloads.apache.org/maven/maven-3/3.10.0-rc-1/binaries/apache-maven-3.10.0-rc-1-bin.tar.gz": "6565e1154706c981d8a463ec658129f346b66084a401c40eefc2e3408583e766",
 }
