@@ -7,7 +7,7 @@ source = "https://github.com/helmfile/vals/releases/download/v${version}/vals_${
 version "0.39.0" "0.39.1" "0.39.2" "0.39.3" "0.39.4" "0.40.1" "0.41.0" "0.41.1"
         "0.41.2" "0.41.3" "0.42.0" "0.42.1" "0.42.2" "0.42.4" "0.42.5" "0.42.6" "0.43.0"
         "0.43.1" "0.43.3" "0.43.5" "0.43.6" "0.43.7" "0.43.8" "0.43.9" "0.44.0" "0.44.1"
-        "0.44.2" "0.44.3" "0.44.4" {
+        "0.44.2" "0.44.3" "0.44.4" "0.44.5" {
   auto-version {
     github-release = "helmfile/vals"
   }
@@ -130,4 +130,8 @@ sha256sums = {
   "https://github.com/helmfile/vals/releases/download/v0.44.4/vals_0.44.4_linux_amd64.tar.gz": "06156dc0a9235028cb858638907eb11048e798550654e076752cdf518ac67ff6",
   "https://github.com/helmfile/vals/releases/download/v0.44.4/vals_0.44.4_darwin_arm64.tar.gz": "8735da2999ad782a018bd7a7e7587d9a1fd043ab4c9b28a61a07477c25303ada",
   "https://github.com/helmfile/vals/releases/download/v0.44.4/vals_0.44.4_darwin_amd64.tar.gz": "d16adda4b2d417eaebab1f24b29b47b469f48d5aa008245d0d8033965506e073",
+  "https://github.com/helmfile/vals/releases/download/v0.44.5/vals_0.44.5_darwin_arm64.tar.gz": "bf6da0b3d4d698b5c1809e00148802c0571bf7133ad69c395ea1359846d827a1",
+  "https://github.com/helmfile/vals/releases/download/v0.44.5/vals_0.44.5_darwin_amd64.tar.gz": "a1d458361e1f03a81c206d278b773c90e70671bba014c9cd9fecd0e079fd388d",
+  "https://github.com/helmfile/vals/releases/download/v0.44.5/vals_0.44.5_linux_amd64.tar.gz": "ae18f11c2d49b19dc7040c4777571136954fc73fb89f8e9e4f336dd638993129",
+  "https://github.com/helmfile/vals/releases/download/v0.44.5/vals_0.44.5_linux_arm64.tar.gz": "6c8b337d6d6b72b0c3dfe15469ae168b38366e1cff0a03cf4d3d63f018a16931",
 }
