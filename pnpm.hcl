@@ -101,7 +101,7 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
 version "11.0.0" "11.0.1" "11.0.3" "11.0.4" "11.0.8" "11.0.9" "11.1.0" "11.1.1"
         "11.1.2" "11.1.3" "11.2.1" "11.2.2" "11.3.0" "11.4.0" "11.5.0" "11.5.1" "11.5.2"
         "11.5.3" "11.6.0" "11.7.0" "11.8.0" "11.9.0" "11.10.0" "11.11.0" "12.0.0-alpha.8"
-        "12.0.0-alpha.9" "12.0.0-alpha.10" "11.13.1" "12.0.0-alpha.14" {
+        "12.0.0-alpha.9" "12.0.0-alpha.10" "11.13.1" "12.0.0-alpha.14" "12.0.0-alpha.15-1" {
   platform "linux" "amd64" {
     source = "https://github.com/pnpm/pnpm/releases/download/v${version}/pnpm-${os}-x64.tar.gz"
   }
@@ -683,4 +683,7 @@ sha256sums = {
   "https://github.com/pnpm/pnpm/releases/download/v12.0.0-alpha.14/pnpm-darwin-arm64.tar.gz": "d3dd958ccfe29a5057668ce4eaf5a17143bf405b917ced9a10c1e358a605c187",
   "https://github.com/pnpm/pnpm/releases/download/v12.0.0-alpha.14/pnpm-linux-arm64.tar.gz": "b12874871bae14536375149e64d0f2711e2a4c0e383fb4dc0294b7ee15b4319f",
   "https://github.com/pnpm/pnpm/releases/download/v12.0.0-alpha.14/pnpm-linux-x64.tar.gz": "ab26de8bbf5f4ab96c37f08a0233811d719f55b0eaa8143005574fbadac925fc",
+  "https://github.com/pnpm/pnpm/releases/download/v12.0.0-alpha.15-1/pnpm-linux-arm64.tar.gz": "8331ba677e854f2ac986ce180aee7a724925654e4df6948dffe99a0af4d9d832",
+  "https://github.com/pnpm/pnpm/releases/download/v12.0.0-alpha.15-1/pnpm-darwin-arm64.tar.gz": "9afa8158b8ef5e84ca3e3aa8111e3bcc9de63c95593c1e81616cce7e6d416b97",
+  "https://github.com/pnpm/pnpm/releases/download/v12.0.0-alpha.15-1/pnpm-linux-x64.tar.gz": "78a519d66e23a99f61e604f8d73ac75c3c68178c7ad870b7083c5ea1b5d4a9f6",
 }
