@@ -11,7 +11,7 @@ platform "darwin" {
   source = "https://github.com/zizmorcore/zizmor/releases/download/v${version}/zizmor-${xarch}-apple-darwin.tar.gz"
 }
 
-version "1.26.1" "1.27.0" {
+version "1.26.1" "1.27.0" "1.28.0" {
   auto-version {
     github-release = "zizmorcore/zizmor"
   }
@@ -26,4 +26,8 @@ sha256sums = {
   "https://github.com/zizmorcore/zizmor/releases/download/v1.27.0/zizmor-x86_64-apple-darwin.tar.gz": "51cd82d1f6914cbb7f4402dbdc19bd989a7599078e5ddeaf837d1ab901c97328",
   "https://github.com/zizmorcore/zizmor/releases/download/v1.27.0/zizmor-aarch64-apple-darwin.tar.gz": "81336423d1b280c5dd0cdd8644a1e5f3238ab3ceb8d6e4334dfd05dab95a8a86",
   "https://github.com/zizmorcore/zizmor/releases/download/v1.27.0/zizmor-aarch64-unknown-linux-gnu.tar.gz": "46fceee9a8262dca0e61f8463204e1f0f3a63bf6c20fa3ef9a5c1b3cff7b17b0",
+  "https://github.com/zizmorcore/zizmor/releases/download/v1.28.0/zizmor-x86_64-apple-darwin.tar.gz": "40a58d8560d65c71357b3977d0da425773bf8f10bf1ffd38099d963d3afdf3aa",
+  "https://github.com/zizmorcore/zizmor/releases/download/v1.28.0/zizmor-aarch64-apple-darwin.tar.gz": "54949bbd6b4c8527046bb8990bac9e0dab3eec787640f4e6199ae121dd1040be",
+  "https://github.com/zizmorcore/zizmor/releases/download/v1.28.0/zizmor-x86_64-unknown-linux-gnu.tar.gz": "e87b67160194884e375a46a12c57ccc904f762b53845f254fab7f17d98809c09",
+  "https://github.com/zizmorcore/zizmor/releases/download/v1.28.0/zizmor-aarch64-unknown-linux-gnu.tar.gz": "324e43770cfacf4216f8aefb287263b5b5c733c85b03bf7583b5cc4a0460239e",
 }
