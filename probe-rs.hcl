@@ -15,7 +15,7 @@ platform "linux" {
   }
 }
 
-version "0.30.0" "0.31.0" {
+version "0.30.0" "0.31.0" "0.32.0" {
   auto-version {
     github-release = "probe-rs/probe-rs"
   }
@@ -32,4 +32,8 @@ sha256sums = {
   "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/probe-rs-tools-aarch64-unknown-linux-gnu.tar.xz": "80e4235c3262bf42e93a024124af37d3ddcf05b16bbc3b5b57eff8623061e385",
   "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/probe-rs-tools-x86_64-unknown-linux-gnu.tar.xz": "25e6c6792914994cd0b7a6d2f90f28c17ac22a45af8f4424e9a0f44a60ee85f2",
   "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/probe-rs-tools-x86_64-apple-darwin.tar.xz": "2ddda8dc7531b6896b585c738e54a255a21ff3b790f4089333e0da63b7856bc1",
+  "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/probe-rs-tools-x86_64-apple-darwin.tar.xz": "e23d117a29909a389c92234ac3ebafcc5ec24d8969d1ec5d70eece622827f778",
+  "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/probe-rs-tools-x86_64-unknown-linux-gnu.tar.xz": "c2ccc46049e52a5d403ef212078cd637ecda55b662708327960558f83e851ff5",
+  "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/probe-rs-tools-aarch64-apple-darwin.tar.xz": "c39631679b83d0c94dc442d05cc4ca974a87c02907a6ddbfce46746ed503152c",
+  "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/probe-rs-tools-aarch64-unknown-linux-gnu.tar.xz": "7c818cfd77808e806bf8f4d108c9137910b4fb28e0fe5c464d39782dbbc8af31",
 }
