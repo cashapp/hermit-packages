@@ -2,7 +2,7 @@ description = "Pre-commit is a multi-language package manager for pre-commit hoo
 binaries = ["pre-commit"]
 test = "pre-commit --version"
 source = "https://github.com/pre-commit/pre-commit/releases/download/v${version}/pre-commit-${version}.pyz"
-runtime-dependencies = ["python3@3.9"]
+runtime-dependencies = ["python3@3.14"]
 dont-extract = true
 
 on "unpack" {
