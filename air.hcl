@@ -7,7 +7,7 @@ version "1.27.3" "1.27.8" "1.27.9" "1.27.10" "1.29.0" "1.28.0" "1.30.0" "1.40.1"
         "1.47.0" "1.48.0" "1.49.0" "1.50.0" "1.51.0" "1.52.0" "1.52.1" "1.52.2" "1.52.3"
         "1.60.0" "1.61.0" "1.61.1" "1.61.4" "1.61.5" "1.61.7" "1.62.0" "1.63.0" "1.63.1"
         "1.63.4" "1.63.5" "1.63.6" "1.63.7" "1.63.8" "1.64.0" "1.64.1" "1.64.3" "1.64.4"
-        "1.64.5" "1.65.0" "1.65.1" "1.65.2" "1.65.3" "1.66.0" "1.67.1" {
+        "1.64.5" "1.65.0" "1.65.1" "1.65.2" "1.65.3" "1.66.0" "1.67.1" "1.67.2" {
   auto-version {
     github-release = "cosmtrek/air"
   }
@@ -218,4 +218,8 @@ sha256sums = {
   "https://github.com/cosmtrek/air/releases/download/v1.67.1/air_1.67.1_linux_amd64.tar.gz": "b9c1856a3fb3a7eedb8f632508957ee0800e16040f7829e0f610d4adba59a4d8",
   "https://github.com/cosmtrek/air/releases/download/v1.67.1/air_1.67.1_darwin_arm64.tar.gz": "0b5621b6ed0382805872c69c6a2a46301c5ff543a84d837ed912a661bee462c4",
   "https://github.com/cosmtrek/air/releases/download/v1.67.1/air_1.67.1_linux_arm64.tar.gz": "6d1b6eeb024b02f5d28efe56af2f82a01bc89c3c06abf090b34b85b45394e698",
+  "https://github.com/cosmtrek/air/releases/download/v1.67.2/air_1.67.2_linux_amd64.tar.gz": "3ce84c2bdfc80791a92dce59352ce75ff9092fde035c5db411c90db5b63d5c49",
+  "https://github.com/cosmtrek/air/releases/download/v1.67.2/air_1.67.2_darwin_amd64.tar.gz": "b2267e5e504c41682409deca786e5dfbd09cc0dca1ab871228433e30ee79a04a",
+  "https://github.com/cosmtrek/air/releases/download/v1.67.2/air_1.67.2_linux_arm64.tar.gz": "b8db8ed7ecccea9e94b51b54b9689cfd33223e073bb0488c67045cb56fd25a2f",
+  "https://github.com/cosmtrek/air/releases/download/v1.67.2/air_1.67.2_darwin_arm64.tar.gz": "e33f3a17c0711af6c225a5dbad3b2309ffa9033dfd42c83046226541eafb211c",
 }
