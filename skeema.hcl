@@ -28,7 +28,7 @@ version "1.6.0" {
 
 version "1.7.0" "1.7.1" "1.8.0" "1.8.1" "1.8.2" "1.9.0" "1.10.0" "1.10.1" "1.11.0"
         "1.11.1" "1.11.2" "1.12.0" "1.12.1" "1.12.2" "1.12.3" "1.13.0" "1.13.1" "1.13.2"
-        "1.14.0" {
+        "1.14.0" "1.14.1" {
   auto-version {
     github-release = "skeema/skeema"
   }
@@ -116,4 +116,8 @@ sha256sums = {
   "https://github.com/skeema/skeema/releases/download/v1.14.0/skeema_1.14.0_linux_amd64.tar.gz": "032b4b36a4724a4da3fa51a6f4e01d9bdf18fc12c5b8d24a018acf7e6752596e",
   "https://github.com/skeema/skeema/releases/download/v1.14.0/skeema_1.14.0_mac_amd64.tar.gz": "f6269243615939083fe66b7fce9bb14fdd9b681f8a94a3cfee6220a16e8b8954",
   "https://github.com/skeema/skeema/releases/download/v1.14.0/skeema_1.14.0_linux_arm64.tar.gz": "85d3ad2a5292688ed6d4f58080291146e648f58459fc123d596413a69174faab",
+  "https://github.com/skeema/skeema/releases/download/v1.14.1/skeema_1.14.1_mac_arm64.tar.gz": "fd7482c147c8ee8d4a42783c4a98cacd784e38f10a61f7b0a9887d6bf233fe96",
+  "https://github.com/skeema/skeema/releases/download/v1.14.1/skeema_1.14.1_linux_amd64.tar.gz": "bc0482bb4c26740e9a03fd80f58feda7eec30000e8217c1f6acf0e2043a54278",
+  "https://github.com/skeema/skeema/releases/download/v1.14.1/skeema_1.14.1_mac_amd64.tar.gz": "df8b8cf4d23ab62f73220ad4d6f4fb57fe4c67173638f8fba08f52d82fa618ec",
+  "https://github.com/skeema/skeema/releases/download/v1.14.1/skeema_1.14.1_linux_arm64.tar.gz": "522eb0cc1ee8f9b3be293d57de5c125182093e2270fe332b8c59c8ede53dca24",
 }
