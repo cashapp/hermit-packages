@@ -27,7 +27,7 @@ version "2.7.0" "2.8.0" "2.9.1" "2.9.2" "2.9.3" "2.10.0" "2.12.0" {
   }
 }
 
-version "2.13.1" "2.14.0" {
+version "2.13.1" "2.14.0" "2.15.0" {
   platform "darwin" {
     vars = {
       "os_": "macos",
@@ -62,4 +62,8 @@ sha256sums = {
   "https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-linux-arm64": "331f1d3511b84a4f1e3d18d52fec284723e4019552f4f47b19322a53ce9a40ed",
   "https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-macos-x86_64": "2b69a853433f1eca522ffb921cd490bd1321424d03331fd8390f93b7fb4a02e9",
   "https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-macos-arm64": "3625e2e9f43dcfe7bd38738a5f5520ed50ce39ed28485266e6803dd7bc197b10",
+  "https://github.com/hadolint/hadolint/releases/download/v2.15.0/hadolint-linux-x86_64": "eb8eb4dd06a068cce65cb84743fba69f09ed12a36ff13d58f9af090d6d696970",
+  "https://github.com/hadolint/hadolint/releases/download/v2.15.0/hadolint-macos-arm64": "1d701a41d2760ec88f8eff8d93f78b743d6ed57c53146ef274dbeb540816e563",
+  "https://github.com/hadolint/hadolint/releases/download/v2.15.0/hadolint-linux-arm64": "17993abf41a0a4da7f2e08970b4f4baf3f95e5e79b9ac80ba6b2aac1960ca71c",
+  "https://github.com/hadolint/hadolint/releases/download/v2.15.0/hadolint-macos-x86_64": "1d701a41d2760ec88f8eff8d93f78b743d6ed57c53146ef274dbeb540816e563",
 }
