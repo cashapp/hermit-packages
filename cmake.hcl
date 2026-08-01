@@ -26,7 +26,7 @@ version "3.20.4" "3.21.0-rc1" "3.21.0-rc2" "3.21.0-rc3" "3.21.0" "3.21.1" "3.21.
         "3.29.1" "3.29.2" "3.29.3" "3.29.4" "3.29.5" "3.29.6" "3.30.0" "3.30.1" "3.30.2"
         "3.30.3" "3.30.4" "3.30.5" "3.31.0" "3.31.1" "3.31.2" "3.31.3" "3.31.4" "3.31.5"
         "4.0.0" "4.0.1" "4.0.2" "4.0.3" "4.1.0" "4.1.1" "4.1.2" "4.1.3" "4.2.0" "4.2.1" "4.2.2"
-        "4.2.3" "4.3.0" "4.3.1" "4.3.2" "4.3.3" {
+        "4.2.3" "4.3.0" "4.3.1" "4.3.2" "4.3.3" "4.4.2" {
   auto-version {
     github-release = "Kitware/CMake"
   }
@@ -387,4 +387,7 @@ sha256sums = {
   "https://github.com/Kitware/CMake/releases/download/v4.3.3/cmake-4.3.3-macos-universal.tar.gz": "5221a13450c7a0219a2a0d1b6c9085eb06489721fafd8488ccebc1584175d2fb",
   "https://github.com/Kitware/CMake/releases/download/v4.3.3/cmake-4.3.3-linux-x86_64.tar.gz": "927b2368a946c37269c3a66225ab00544e756459cdd0b5d0da438694fb9ff802",
   "https://github.com/Kitware/CMake/releases/download/v4.3.3/cmake-4.3.3-linux-aarch64.tar.gz": "9ea38356dbd3e32e51029a3e09a0f2f8e117ef4fbcaad7a21ffb36409bbd5cb4",
+  "https://github.com/Kitware/CMake/releases/download/v4.4.2/cmake-4.4.2-linux-aarch64.tar.gz": "9ca1aadb4451c5dcbdc67f9b4aff42dab52abbaebd8db9e2900026502dbed671",
+  "https://github.com/Kitware/CMake/releases/download/v4.4.2/cmake-4.4.2-macos-universal.tar.gz": "800fc86838e913fff969b499886c80baeb4ccfd00f0e39906b34aa334f39ab6c",
+  "https://github.com/Kitware/CMake/releases/download/v4.4.2/cmake-4.4.2-linux-x86_64.tar.gz": "3ada9a3f5d8a85413579bdd0ea6aa8e8da86efdd6d15c91a1afa517f2021956c",
 }

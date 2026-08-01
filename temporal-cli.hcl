@@ -6,7 +6,7 @@ source = "https://github.com/temporalio/cli/releases/download/v${version}/tempor
 
 version "0.11.0" "0.12.0" "0.13.0" "0.13.1" "0.13.2" "1.0.0" "1.1.0" "1.1.1" "1.1.2"
         "1.2.0" "1.3.0" "1.4.0" "1.4.1" "1.5.0" "1.5.1" "1.6.1" "1.6.2" "1.7.0" "1.7.1" "1.7.2"
-        "1.7.3" "1.8.0" "1.8.1" {
+        "1.7.3" "1.8.0" "1.8.1" "1.8.2" {
   auto-version {
     github-release = "temporalio/cli"
   }
@@ -105,4 +105,8 @@ sha256sums = {
   "https://github.com/temporalio/cli/releases/download/v1.8.1/temporal_cli_1.8.1_linux_arm64.tar.gz": "f622eba969aa58fdbe8a7b58feba7578b3fc935305079eb071d34bac12ffa5bb",
   "https://github.com/temporalio/cli/releases/download/v1.8.1/temporal_cli_1.8.1_linux_amd64.tar.gz": "b94417b9a8760b30217f4b881dabce4b16a76a38b5e99e2eca3ce358b8030f06",
   "https://github.com/temporalio/cli/releases/download/v1.8.1/temporal_cli_1.8.1_darwin_arm64.tar.gz": "e942d2ba2634720293bded2a9061ac471a7fd44d883a6704b8d0ecb94995d6a6",
+  "https://github.com/temporalio/cli/releases/download/v1.8.2/temporal_cli_1.8.2_linux_amd64.tar.gz": "d8421bda989e6514b4bdb4d63a9012a8a05a806892e881a5aad8510496349a94",
+  "https://github.com/temporalio/cli/releases/download/v1.8.2/temporal_cli_1.8.2_linux_arm64.tar.gz": "83600a8fac6e3da54093e5da6918d399f501532b9f1172235603f9606f4ac6e4",
+  "https://github.com/temporalio/cli/releases/download/v1.8.2/temporal_cli_1.8.2_darwin_arm64.tar.gz": "dacdc3587682c04cf27e67c8878ca2d755230b6ad63c0c6ebddd7348ae90ed94",
+  "https://github.com/temporalio/cli/releases/download/v1.8.2/temporal_cli_1.8.2_darwin_amd64.tar.gz": "489d7f5420cae02b559774ac23df035141954c33a51dba96f5759a0ddccdf1b6",
 }
