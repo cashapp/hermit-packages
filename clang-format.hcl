@@ -1,25 +1,26 @@
 description = "A tool to format C/C++/Java/JavaScript/JSON/Objective-C/Protobuf/C# code."
 binaries = ["clang-format"]
+test = "clang-format --version"
+source = "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-${hash}/clang-format-${release}_${asset}"
 
-platform "linux" {
-  source = "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-${hash}/clang-format-${release}_linux-amd64"
-
-  on "unpack" {
-    rename {
-      from = "${root}/clang-format-${release}_linux-amd64"
-      to = "${root}/clang-format"
-    }
+on "unpack" {
+  rename {
+    from = "${root}/clang-format-${release}_${asset}"
+    to = "${root}/clang-format"
   }
 }
 
-platform "darwin" {
-  source = "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-${hash}/clang-format-${release}_macosx-amd64"
+platform "linux" {
+  vars = {
+    "asset": "linux-amd64",
+  }
+}
 
-  on "unpack" {
-    rename {
-      from = "${root}/clang-format-${release}_macosx-amd64"
-      to = "${root}/clang-format"
-    }
+# Upstream only began publishing native arm64 macOS builds recently, so versions
+# opt in individually by overriding "asset" in a `platform "darwin" "arm64"` block.
+platform "darwin" {
+  vars = {
+    "asset": "macosx-amd64",
   }
 }
 
@@ -86,6 +87,22 @@ version "20.0.0-20250417+2da3e7b" {
   }
 }
 
+# The macOS binaries in the 2da3e7b release are dynamically linked against
+# libclang-cpp.dylib, which upstream does not ship, so they abort on launch.
+# The 796e77c release is statically linked again and adds native arm64 builds.
+version "20.0.0-20250922+796e77c" {
+  vars = {
+    "hash": "796e77c",
+    "release": "20",
+  }
+
+  platform "darwin" "arm64" {
+    vars = {
+      "asset": "macos-arm-arm64",
+    }
+  }
+}
+
 sha256sums = {
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-a37b22cd/clang-format-10_macosx-amd64": "0d1bc8b91435996909ff93f113dc39d102e604f790379756de4a0b2efd7fa426",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-a37b22cd/clang-format-10_linux-amd64": "28fdc0753750d70ab4055ef49645da714ee5eb0e5de417941ebac2513306d046",
@@ -105,4 +122,7 @@ sha256sums = {
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-format-19_macosx-amd64": "ef150af911f628894bfbb9fc86e9c3ccba042f436dc83577877143c50b388b00",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-format-20_linux-amd64": "0320a8f7cfdbbe5306846ea79dad54e8559057d7ac9a957608527057d9996601",
   "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-2da3e7b/clang-format-20_macosx-amd64": "9647c9d25472ce5b1be324e4c0264d653230023314589bd05a16af5334c98016",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-796e77c/clang-format-20_linux-amd64": "e900c1e520b6c9b9c99e43c0f45ccd12927838741cfc60c077a33dec69bb60cc",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-796e77c/clang-format-20_macosx-amd64": "f2ddeacd376c764fef49e7abf5621a36d632ed3e73a7d92a9e87fbb164b7b227",
+  "https://github.com/muttleyxd/clang-tools-static-binaries/releases/download/master-796e77c/clang-format-20_macos-arm-arm64": "fe6b8450a8cf83de3f517e3b9a9b1bb925613e5fb59145d6d24ccca5fe17d442",
 }
