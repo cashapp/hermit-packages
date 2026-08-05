@@ -6,7 +6,7 @@ source = "https://github.com/elixir-lang/elixir/releases/download/v${version}/el
 test = "elixir --version"
 
 version "1.18.3" "1.18.4" "1.19.0" "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5"
-        "1.20.0" "1.20.1" "1.20.2" {
+        "1.20.0" "1.20.1" "1.20.2" "1.20.3" {
   runtime-dependencies = ["erlang-27.2.2"]
 
   auto-version {
@@ -26,4 +26,5 @@ sha256sums = {
   "https://github.com/elixir-lang/elixir/releases/download/v1.20.0/elixir-otp-27.zip": "d81ac8db1f952717458c16acc49fdd542d9e313119966af4f36e52142756fca3",
   "https://github.com/elixir-lang/elixir/releases/download/v1.20.1/elixir-otp-27.zip": "4b7ddfde964149ab0057fab1ba22c58c69afbff5c52d7894154d38c58b515024",
   "https://github.com/elixir-lang/elixir/releases/download/v1.20.2/elixir-otp-27.zip": "8ed70a989bf543c3e1607aae2b42729d2d58af9ce7abee6545fbacdead929e18",
+  "https://github.com/elixir-lang/elixir/releases/download/v1.20.3/elixir-otp-27.zip": "28b1707b69df18515f63242e8d218d8dffd31dadfc21bfe649618ca1f1b41b73",
 }
