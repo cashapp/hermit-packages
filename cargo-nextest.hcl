@@ -3,15 +3,15 @@ description = "A next-generation test runner for Rust."
 binaries = ["cargo-nextest"]
 
 platform "darwin" {
-  source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-universal-apple-darwin.tar.gz"
+  source = "https://github.com/nextest-rs/nextest/releases/download/${version}/${version}-universal-apple-darwin.tar.gz"
 }
 
 platform "linux" "amd64" {
-  source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-${xarch}-unknown-linux-musl.tar.gz"
+  source = "https://github.com/nextest-rs/nextest/releases/download/${version}/${version}-${xarch}-unknown-linux-musl.tar.gz"
 }
 
 platform "linux" "arm64" {
-  source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-${xarch}-unknown-linux-gnu.tar.gz"
+  source = "https://github.com/nextest-rs/nextest/releases/download/${version}/${version}-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
 version "0.9.68" {
