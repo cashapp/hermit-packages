@@ -1,6 +1,7 @@
 homepage = "https://github.com/nextest-rs/nextest"
 description = "A next-generation test runner for Rust."
 binaries = ["cargo-nextest"]
+test = "cargo-nextest --version"
 
 platform "darwin" {
   source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-universal-apple-darwin.tar.gz"
@@ -14,9 +15,10 @@ platform "linux" "arm64" {
   source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
-version "0.9.68" {
+version "0.9.68" "0.9.143" {
   auto-version {
     github-release = "nextest-rs/nextest"
+    version-pattern = "cargo-nextest-(.*)"
   }
 }
 
@@ -24,4 +26,7 @@ sha256sums = {
   "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.68/cargo-nextest-0.9.68-aarch64-unknown-linux-gnu.tar.gz": "ba5c9f4d8b3030e803182017424ca3e268659150f697208659ffd15d5e5d9ef1",
   "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.68/cargo-nextest-0.9.68-universal-apple-darwin.tar.gz": "eff1765e505b00addd162cd4fcfd8a3471404b80bc389f018cf3b3e969c98801",
   "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.68/cargo-nextest-0.9.68-x86_64-unknown-linux-musl.tar.gz": "7141df855d96d8b16ec3506531b7ab113872ba8a13d7be37b8eb05571dbcb57b",
+  "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.143/cargo-nextest-0.9.143-aarch64-unknown-linux-gnu.tar.gz": "2a64b3566a92508550a7ab29c3e8db25472ca37730ecb4d22100b6aa440c2a68",
+  "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.143/cargo-nextest-0.9.143-universal-apple-darwin.tar.gz": "4830d430411148d17602a75cc880bfb4dc8dac153dea59a48a2ef4cc93577f07",
+  "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.143/cargo-nextest-0.9.143-x86_64-unknown-linux-musl.tar.gz": "6d891c18105ec2d33f6e441a4f92b7ccab47ba263e22055c8bb66884243f3389",
 }
