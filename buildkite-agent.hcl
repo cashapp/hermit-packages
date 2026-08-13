@@ -19,7 +19,7 @@ version "3.33.3" "3.34.0" "3.34.1" "3.35.0" "3.35.1" "3.35.2" "3.36.0" "3.36.1"
         "3.117.0" "3.118.0" "3.118.1" "3.119.0" "3.119.1" "3.119.2" "3.120.0" "3.120.1"
         "3.120.3" "3.121.0" "3.121.1" "3.122.0" "3.123.0" "3.123.1" "3.124.0" "3.125.0"
         "3.126.0" "3.127.0" "3.127.1" "3.127.2" "3.128.0" "3.129.0" "3.130.0" "3.131.0"
-        "3.132.0" "3.133.0" "3.133.1" "3.134.0" "3.135.0" "3.136.2" "3.136.3" {
+        "3.132.0" "3.133.0" "3.133.1" "3.134.0" "3.135.0" "3.136.2" "3.136.3" "3.137.0" {
   auto-version {
     github-release = "buildkite/agent"
   }
@@ -638,4 +638,8 @@ sha256sums = {
   "https://github.com/buildkite/agent/releases/download/v3.136.3/buildkite-agent-linux-arm64-3.136.3.tar.gz": "296a34c70e452506f1cb148539fc4b697be11da3b45d7a47df8fe2d3f8367cb1",
   "https://github.com/buildkite/agent/releases/download/v3.136.3/buildkite-agent-darwin-amd64-3.136.3.tar.gz": "c30e880fca4cdfc5713c31d0e97156ce4b114c824dc53d2715f9e56233a9e7a4",
   "https://github.com/buildkite/agent/releases/download/v3.136.3/buildkite-agent-darwin-arm64-3.136.3.tar.gz": "7bfb4d4bf20442cd0cbee3ca1e8546f40ab8ac45a355fd14af35ea21a8e3849a",
+  "https://github.com/buildkite/agent/releases/download/v3.137.0/buildkite-agent-darwin-arm64-3.137.0.tar.gz": "26b18da67daf4926384cedc4f6e6c3eb14f649a21ef9fb17bd18ea5b0184b2e4",
+  "https://github.com/buildkite/agent/releases/download/v3.137.0/buildkite-agent-linux-amd64-3.137.0.tar.gz": "0eb50928ac767f7d1ae63c7a52bf99091a4582ff1675aa328d73a8e241893558",
+  "https://github.com/buildkite/agent/releases/download/v3.137.0/buildkite-agent-linux-arm64-3.137.0.tar.gz": "e653747bcdcc936f0d729ff1a00721ef70bbf467a9d18b7a01cb7f8619f517ff",
+  "https://github.com/buildkite/agent/releases/download/v3.137.0/buildkite-agent-darwin-amd64-3.137.0.tar.gz": "9bf2154905df9b54bc706e2118fc172349859b381a3a6254666e7095c7cd6bb4",
 }
