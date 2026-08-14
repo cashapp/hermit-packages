@@ -3,7 +3,7 @@ binaries = ["frizbee"]
 source = "https://github.com/stacklok/frizbee/releases/download/v${version}/frizbee_${version}_${os}_${arch}.tar.gz"
 sha256-source = "https://github.com/stacklok/frizbee/releases/download/v${version}/frizbee_${version}_checksums.txt"
 
-version "0.1.7" "0.1.8" "0.1.9" "0.1.10" {
+version "0.1.7" "0.1.8" "0.1.9" "0.1.10" "0.1.11" {
   auto-version {
     github-release = "stacklok/frizbee"
   }
@@ -26,4 +26,8 @@ sha256sums = {
   "https://github.com/stacklok/frizbee/releases/download/v0.1.10/frizbee_0.1.10_linux_amd64.tar.gz": "9638bb999f0f0936c381f01273feacda0bd0fcc573f037e0d7bd1b86d222f51c",
   "https://github.com/stacklok/frizbee/releases/download/v0.1.10/frizbee_0.1.10_darwin_arm64.tar.gz": "bb393bfdd5d26544f792813fd2d4cffbe2943ee91bd07c1f8a26c5776981acad",
   "https://github.com/stacklok/frizbee/releases/download/v0.1.10/frizbee_0.1.10_linux_arm64.tar.gz": "8277be164692a55f901f8b64dbaae4a12a058fdf09b8396f6b2c4662973ec736",
+  "https://github.com/stacklok/frizbee/releases/download/v0.1.11/frizbee_0.1.11_darwin_amd64.tar.gz": "f43c061dfe1d541ded2cc1b9cd8588f459f3eaca2e2a4797b68ad356f16e96a9",
+  "https://github.com/stacklok/frizbee/releases/download/v0.1.11/frizbee_0.1.11_linux_amd64.tar.gz": "34354d9e4b275aaba1782e204954df8d711603a0acf82aa1bec41ab5262e97f8",
+  "https://github.com/stacklok/frizbee/releases/download/v0.1.11/frizbee_0.1.11_darwin_arm64.tar.gz": "a0a666c42a78c38b0c03c824e5237a8b384b55772828246d8b9c6b4be686f68b",
+  "https://github.com/stacklok/frizbee/releases/download/v0.1.11/frizbee_0.1.11_linux_arm64.tar.gz": "4bf1946e50ca291055232ad509b70817fc073821cdaf76dcf789f68be7ca9a8b",
 }

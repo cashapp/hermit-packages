@@ -32,7 +32,7 @@ platform "windows" {
   }
 }
 
-version "0.5.0" "0.7.0" {
+version "0.5.0" "0.7.0" "0.7.1" {
   auto-version {
     github-release = "workos/emulate"
   }
@@ -49,4 +49,8 @@ sha256sums = {
   "https://github.com/workos/emulate/releases/download/v0.7.0/workos-emulate-linux-x64": "a1ea97bd1f26dc47b1fc0f1a2a086a279ce556af86d9d8032cc5dfb6aaf370ff",
   "https://github.com/workos/emulate/releases/download/v0.7.0/workos-emulate-darwin-x64": "9f37dc85f0294bdaa50fac87800e406f6016c3bca5c721e6c5cb3c0599bdb4ee",
   "https://github.com/workos/emulate/releases/download/v0.7.0/workos-emulate-darwin-arm64": "b80dd0886296b7995467d2fe87f80d09f10f9ff2a56958c6ae318eacb7a482f9",
+  "https://github.com/workos/emulate/releases/download/v0.7.1/workos-emulate-linux-x64": "3a252bf3047716dae5c19bc90c1ce2799fe286d8956a1849131e3247d68a98ce",
+  "https://github.com/workos/emulate/releases/download/v0.7.1/workos-emulate-darwin-x64": "fa4fa0b44cddb2a1258ead689fb4ed8efff607093e022ee11d9296e1956460b3",
+  "https://github.com/workos/emulate/releases/download/v0.7.1/workos-emulate-darwin-arm64": "6daef2e55ba0a935b4bb4a43d984b26359a75126226d58ca2c10b6866d46dbb0",
+  "https://github.com/workos/emulate/releases/download/v0.7.1/workos-emulate-linux-arm64": "d1188c482f0d1af8fe72d1015d297bbc0a1ed819cbf06ccf0898bbafebee45cd",
 }
