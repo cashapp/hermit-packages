@@ -11,7 +11,7 @@ platform "linux" {
   source = "https://github.com/caddyserver/xcaddy/releases/download/v${version}/xcaddy_${version}_linux_${arch}.tar.gz"
 }
 
-version "0.4.4" "0.4.5" {
+version "0.4.4" "0.4.5" "0.4.7" {
   auto-version {
     github-release = "caddyserver/xcaddy"
   }
@@ -26,4 +26,8 @@ sha256sums = {
   "https://github.com/caddyserver/xcaddy/releases/download/v0.4.5/xcaddy_0.4.5_linux_arm64.tar.gz": "6ecb9665a2d654697fe79c379bff5d90a9e8aa9165d4b63f8cb21614c5e5e323",
   "https://github.com/caddyserver/xcaddy/releases/download/v0.4.5/xcaddy_0.4.5_linux_amd64.tar.gz": "2f96dde11b8ecbb7d652c20e05fddbfd2f58c622b464104309eae512406193cf",
   "https://github.com/caddyserver/xcaddy/releases/download/v0.4.5/xcaddy_0.4.5_mac_amd64.tar.gz": "08cd33c9cbe144a1e73adc78d0f01b790203466745c241edac3c1118d205018d",
+  "https://github.com/caddyserver/xcaddy/releases/download/v0.4.7/xcaddy_0.4.7_linux_amd64.tar.gz": "e6d2882fb751b9697cdb73b0da8b8a7393f0d7f2cb47afa79a23982c4c61d2d4",
+  "https://github.com/caddyserver/xcaddy/releases/download/v0.4.7/xcaddy_0.4.7_linux_arm64.tar.gz": "2f24cd0e259761acd906d23dc558fa1855033e77e3c4318467ed59962fb3a02f",
+  "https://github.com/caddyserver/xcaddy/releases/download/v0.4.7/xcaddy_0.4.7_mac_amd64.tar.gz": "409c56195a13a62e82646772525887a4a5f8f28315705a71bbaf886802354757",
+  "https://github.com/caddyserver/xcaddy/releases/download/v0.4.7/xcaddy_0.4.7_mac_arm64.tar.gz": "0a588f4999952dc86f52aedb5301a27b4381096ee40699bb93697c8e1a8f9cb1",
 }
