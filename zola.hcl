@@ -14,7 +14,7 @@ platform "linux" "amd64" {
 version "0.18.0" "0.19.0" "0.19.1" "0.19.2" {
 }
 
-version "0.20.0" "0.21.0" "0.22.0" "0.22.1" "0.23.2" "0.23.3" {
+version "0.20.0" "0.21.0" "0.22.0" "0.22.1" "0.23.2" "0.23.3" "0.23.4" {
   auto-version {
     github-release = "getzola/zola"
   }
@@ -61,4 +61,8 @@ sha256sums = {
   "https://github.com/getzola/zola/releases/download/v0.23.3/zola-v0.23.3-x86_64-apple-darwin.tar.gz": "1c0a0cc90653b15267d9f6a52e2ff52ee2a442af18235f9dbf5ca5cc30ba137e",
   "https://github.com/getzola/zola/releases/download/v0.23.3/zola-v0.23.3-x86_64-unknown-linux-gnu.tar.gz": "f07c92607e5745268b576bd325ceef3a582aada253bb64db8d92a8a85303d958",
   "https://github.com/getzola/zola/releases/download/v0.23.3/zola-v0.23.3-aarch64-unknown-linux-gnu.tar.gz": "15387186bc8fde347dd931490afafe462ccc391db049e9e19c80a48dd060a8c9",
+  "https://github.com/getzola/zola/releases/download/v0.23.4/zola-v0.23.4-x86_64-unknown-linux-gnu.tar.gz": "54d1a347781b2f32330914fcc02def81c7e3ddb6111b36d1cc89c06557aed1de",
+  "https://github.com/getzola/zola/releases/download/v0.23.4/zola-v0.23.4-x86_64-apple-darwin.tar.gz": "e79edcba2e8d03d22065c9cb8fa2e3abf07b823ef17f00abdc060188dceabba7",
+  "https://github.com/getzola/zola/releases/download/v0.23.4/zola-v0.23.4-aarch64-apple-darwin.tar.gz": "303b8e1f3251a6250e47f811eda143316f653c22201faa66777d48ac499c0ee3",
+  "https://github.com/getzola/zola/releases/download/v0.23.4/zola-v0.23.4-aarch64-unknown-linux-gnu.tar.gz": "21bb37a4f3bbac663cf8f04df9b51ac6bc154acfe2cf2c3e9ea162b4951487b6",
 }
