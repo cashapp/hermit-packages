@@ -35,7 +35,7 @@ channel "stable" {
 version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
         "11.0.20.9.1" "11.0.21.9.1" "11.0.22.7.1" "11.0.23.9.1" "11.0.24.8.1" "11.0.25.9.1"
         "11.0.26.4.1" "11.0.27.6.1" "11.0.28.6.1" "11.0.29.7.1" "11.0.30.7.1" "11.0.31.11.1"
-        "11.0.32.9.1" {
+        "11.0.32.9.1" "11.0.32.10.1" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
@@ -44,14 +44,14 @@ version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
 version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
         "17.0.7.7.1" "17.0.8.7.1" "17.0.8.8.1" "17.0.9.8.1" "17.0.10.7.1" "17.0.11.9.1"
         "17.0.12.7.1" "17.0.13.11.1" "17.0.14.7.1" "17.0.15.6.1" "17.0.16.8.1" "17.0.17.10.1"
-        "17.0.18.8.1" "17.0.18.9.1" "17.0.19.10.1" "17.0.20.8.1" {
+        "17.0.18.8.1" "17.0.18.9.1" "17.0.19.10.1" "17.0.20.8.1" "17.0.20.10.1" {
   auto-version {
     github-release = "corretto/corretto-17"
   }
 }
 
 version "21.0.5.11.1" "21.0.4.7.1" "21.0.6.7.1" "21.0.7.6.1" "21.0.8.9.1"
-        "21.0.9.10.1" "21.0.10.7.1" "21.0.11.10.1" "21.0.12.8.1" {
+        "21.0.9.10.1" "21.0.10.7.1" "21.0.11.10.1" "21.0.12.8.1" "21.0.12.9.1" {
   auto-version {
     github-release = "corretto/corretto-21"
   }
@@ -250,4 +250,16 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/21.0.12.8.1/amazon-corretto-21.0.12.8.1-macosx-x64.tar.gz": "a018ae6221babf065f770479b1bf0ab0d23bea78ed18f236c40bb5d4736612ff",
   "https://corretto.aws/downloads/resources/21.0.12.8.1/amazon-corretto-21.0.12.8.1-macosx-aarch64.tar.gz": "cb230d7ac82784a4438663cdaf91d0d04037a9b4fb99ea41e138d88ce1224ab7",
   "https://corretto.aws/downloads/resources/17.0.20.8.1/amazon-corretto-17.0.20.8.1-macosx-aarch64.tar.gz": "786a9bbb94d2d077ca5618a80eec4c1a909595fbe24b617d57f50d360f96990e",
+  "https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-macosx-aarch64.tar.gz": "878b362d1942a4e4e553f1237ca3534a88b246dc200bbb13f2dc1712fb5602f4",
+  "https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-linux-aarch64.tar.gz": "5ee984d59dfc54fec798c908618c1b952622232d3b458a439b4ecfbc461cae5a",
+  "https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-linux-x64.tar.gz": "076ab46faa8606366a33f5ac3bcc5d880dde23ab91d827fedc05e1367592c902",
+  "https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-linux-x64.tar.gz": "74ff458657da91ca222681993e3c6b9a8e3629ca8e61c0d8cd90527280da9aa5",
+  "https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-linux-aarch64.tar.gz": "aca6cc93156f741995b81d91f2d7085992028b2c40056b5a405e6c7d9e350198",
+  "https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-macosx-x64.tar.gz": "3e328eaf6e82c5a95afc5bdfa8b65b387e18836f57e95bde31c0ad476678edf9",
+  "https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-macosx-aarch64.tar.gz": "44e16fd802661560640fc04209f72a61816bae3b02aae9fa7668ee23228b22f6",
+  "https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-linux-aarch64.tar.gz": "cda6f38775da6ba19e154dd2194a309dabfb12da87ad13f396893d9a555eb1ce",
+  "https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-macosx-x64.tar.gz": "203b3d37c16b388db2b2f3cabe9d37189bac09294848737a26f7dc9063331cb8",
+  "https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-macosx-aarch64.tar.gz": "2c03e806a8fb634b9fa21013f9de43ed4ec7fc6e6487144d2af5e2d4c126dfdd",
+  "https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-linux-x64.tar.gz": "f79824540cef882da0cdf1369f9d1d69afc14b5a9bc3a771fd5bb795793ce2f2",
+  "https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-macosx-x64.tar.gz": "b2dc525aed2dc78e0b7ebda1fd5fa37b40d184699ba27fb5d6edd13b8cf84531",
 }
