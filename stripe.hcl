@@ -22,7 +22,7 @@ version "1.19.4" "1.19.5" "1.20.0" "1.21.0" "1.21.2" "1.21.3" "1.21.5" "1.21.7"
         "1.40.0" "1.40.2" "1.40.3" "1.40.5" "1.40.6" "1.40.7" "1.40.8" "1.40.9" "1.41.1"
         "1.41.2" "1.42.0" "1.42.1" "1.42.4" "1.42.10" "1.42.11" "1.42.13" "1.42.14" "1.42.15"
         "1.43.2" "1.43.5" "1.43.6" "1.43.7" "1.43.8" "1.44.0" "1.45.0" "1.45.1" "1.45.2"
-        "1.50.1" "1.50.3" "1.50.4" {
+        "1.50.1" "1.50.3" "1.50.4" "1.50.5" {
   auto-version {
     github-release = "stripe/stripe-cli"
   }
@@ -251,4 +251,7 @@ sha256sums = {
   "https://github.com/stripe/stripe-cli/releases/download/v1.50.4/stripe_1.50.4_linux_x86_64.tar.gz": "f6a04bbb318e678c20bb62f1ceb2bb6b03b47173189e08e043f7a6b4d9916bc2",
   "https://github.com/stripe/stripe-cli/releases/download/v1.50.4/stripe_1.50.4_mac-os_arm64.tar.gz": "5dbf4bc580c3870d3f7cd0c56fde3c8a210340b59d45050a0c9c0ceb2110dc2f",
   "https://github.com/stripe/stripe-cli/releases/download/v1.50.4/stripe_1.50.4_linux_arm64.tar.gz": "35ff9ba4f861a10a94e1dff074b06b5fb36b0b3848caeeace995317de0f03f6e",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.50.5/stripe_1.50.5_mac-os_arm64.tar.gz": "9ca86f19fb29c810f37547e3662a6917857bcb84f23d45fe8ae927b7e28db64c",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.50.5/stripe_1.50.5_linux_arm64.tar.gz": "17e02986ce8cdb96c8c8a8a4e2e266b59a2e35a1445e5bd74c0b407547bddcf0",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.50.5/stripe_1.50.5_linux_x86_64.tar.gz": "1fb8d36cc34c528af04d39bc72cb9754a0a7b63299a2b441e90e90d257c61887",
 }
