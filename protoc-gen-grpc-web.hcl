@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.2.1" "1.3.0" "1.3.1" "1.4.0" "1.4.1" "1.4.2" "1.5.0" "2.0.1" "2.0.2" {
+version "1.2.1" "1.3.0" "1.3.1" "1.4.0" "1.4.1" "1.4.2" "1.5.0" "2.0.1" "2.0.2" "2.1.1" {
   auto-version {
     github-release = "grpc/grpc-web"
   }
@@ -35,4 +35,6 @@ sha256sums = {
   "https://github.com/grpc/grpc-web/releases/download/2.0.1/protoc-gen-grpc-web-2.0.1-darwin-x86_64": "c66f7b0c8335254e558b8746e4299228da90323c2f5457f6745fc6b96b090a0e",
   "https://github.com/grpc/grpc-web/releases/download/2.0.2/protoc-gen-grpc-web-2.0.2-darwin-x86_64": "f535c1359de2b6f49095be851bfa77bab941f6ddc124c4288c055d922d100a5d",
   "https://github.com/grpc/grpc-web/releases/download/2.0.2/protoc-gen-grpc-web-2.0.2-linux-x86_64": "10ff6c6e58018ff9e684cff1d9c008b8cc79d915c4f8be4fd47791333e1be299",
+  "https://github.com/grpc/grpc-web/releases/download/2.1.1/protoc-gen-grpc-web-2.1.1-darwin-x86_64": "3e1dbc5a440d869a5b1ac9fe4240d59db47c993c7279443ae6b4c0fd7faafd89",
+  "https://github.com/grpc/grpc-web/releases/download/2.1.1/protoc-gen-grpc-web-2.1.1-linux-x86_64": "d7f0000b84ecebceeb317204f60dc2716708f9276d11ae8b4b5d3a10af49d65f",
 }

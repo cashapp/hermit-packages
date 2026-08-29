@@ -13,7 +13,7 @@ on "unpack" {
 source = "https://github.com/mvdan/sh/releases/download/v${version}/shfmt_v${version}_${os}_${arch}"
 
 version "3.2.4" "3.3.0" "3.3.1" "3.4.0" "3.4.1" "3.4.2" "3.4.3" "3.5.0" "3.5.1" "3.6.0"
-        "3.7.0" "3.8.0" "3.9.0" "3.10.0" "3.11.0" "3.12.0" "3.13.0" "3.13.1" {
+        "3.7.0" "3.8.0" "3.9.0" "3.10.0" "3.11.0" "3.12.0" "3.13.0" "3.13.1" "3.14.0" {
   auto-version {
     github-release = "mvdan/sh"
   }
@@ -92,4 +92,8 @@ sha256sums = {
   "https://github.com/mvdan/sh/releases/download/v3.13.1/shfmt_v3.13.1_linux_arm64": "32d92acaa5cd8abb29fc49dac123dc412442d5713967819d8af2c29f1b3857c7",
   "https://github.com/mvdan/sh/releases/download/v3.13.1/shfmt_v3.13.1_linux_amd64": "fb096c5d1ac6beabbdbaa2874d025badb03ee07929f0c9ff67563ce8c75398b1",
   "https://github.com/mvdan/sh/releases/download/v3.13.1/shfmt_v3.13.1_darwin_amd64": "6feedafc72915794163114f512348e2437d080d0047ef8b8fa2ec63b575f12af",
+  "https://github.com/mvdan/sh/releases/download/v3.14.0/shfmt_v3.14.0_darwin_arm64": "4710ba8074a74334069719d5b82f8cb97532e5623bfe43ef7cdb3442101b9cb2",
+  "https://github.com/mvdan/sh/releases/download/v3.14.0/shfmt_v3.14.0_linux_arm64": "8029959a945b5c6f2bc92ce53fca5cf0384c811cc0884b25b196a093a005657a",
+  "https://github.com/mvdan/sh/releases/download/v3.14.0/shfmt_v3.14.0_linux_amd64": "fe42021c7272ef2d67ea36cbc3031683c625d0badec733ef3a57b567246a0b66",
+  "https://github.com/mvdan/sh/releases/download/v3.14.0/shfmt_v3.14.0_darwin_amd64": "74255a8087d74a79f5c1307db807e7efa8f062c429e3a05c075550392e0dcfa1",
 }

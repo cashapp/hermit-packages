@@ -19,7 +19,7 @@ platform "linux" "amd64" {
   source = "https://github.com/supernovae-st/nika/releases/download/v${version}/nika-linux-x64-${version}.tar.gz"
 }
 
-version "0.99.0" "0.108.0" "0.111.0" "0.112.0" "0.114.0" {
+version "0.99.0" "0.108.0" "0.111.0" "0.112.0" "0.114.0" "0.115.0" {
   auto-version {
     github-release = "supernovae-st/nika"
   }
@@ -46,4 +46,8 @@ sha256sums = {
   "https://github.com/supernovae-st/nika/releases/download/v0.114.0/nika-linux-x64-0.114.0.tar.gz": "dda67cca8f082228f09f16d5fd856b55864c3da324d8e6ca116cde1a62de7c5e",
   "https://github.com/supernovae-st/nika/releases/download/v0.114.0/nika-macos-x64-0.114.0.tar.gz": "50ea233d5890e360847424067fb049123819f59f11bdd6bb1e70f762a66fea88",
   "https://github.com/supernovae-st/nika/releases/download/v0.114.0/nika-linux-arm64-0.114.0.tar.gz": "1f6213babe0402f7192b7db0b0552646633490aab40a8f80d8761f804803f1ce",
+  "https://github.com/supernovae-st/nika/releases/download/v0.115.0/nika-macos-arm64-0.115.0.tar.gz": "b1bafc6102602c6f8b33f27e802453481fe5316e089e940369f27b65d5bafc99",
+  "https://github.com/supernovae-st/nika/releases/download/v0.115.0/nika-linux-x64-0.115.0.tar.gz": "0b15db01c88cfa6b16f1ccc69f87603e490becc22fbe753c8be0be11d7619dec",
+  "https://github.com/supernovae-st/nika/releases/download/v0.115.0/nika-macos-x64-0.115.0.tar.gz": "4ac9fd8972de01ab388a9540392143a683eb41f9a23aa0c0d71bb57c56e570c8",
+  "https://github.com/supernovae-st/nika/releases/download/v0.115.0/nika-linux-arm64-0.115.0.tar.gz": "4444d123fd1e824d04e657a61b875e85c50650c6021b5f92fb6e2b5b3d1c2d34",
 }
