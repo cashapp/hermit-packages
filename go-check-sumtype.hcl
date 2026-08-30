@@ -3,7 +3,7 @@ binaries = ["go-check-sumtype"]
 sha256-source = "https://github.com/alecthomas/go-check-sumtype/releases/download/v${version}/go-check-sumtype-${version}-checksums.txt"
 source = "https://github.com/alecthomas/go-check-sumtype/releases/download/v${version}/go-check-sumtype-${version}-${os}-${arch}.tar.gz"
 
-version "0.1.3" "0.1.4" "0.2.0" "0.3.0" "0.3.1" {
+version "0.1.3" "0.1.4" "0.2.0" "0.3.0" "0.3.1" "0.5.0" {
   auto-version {
     github-release = "alecthomas/go-check-sumtype"
   }
@@ -30,4 +30,8 @@ sha256sums = {
   "https://github.com/alecthomas/go-check-sumtype/releases/download/v0.2.0/go-check-sumtype-0.2.0-linux-arm64.tar.gz": "8ac48c6f342fb39cc5c9a529555485e91cde9486d130cecda6c00e8781d9d35f",
   "https://github.com/alecthomas/go-check-sumtype/releases/download/v0.3.0/go-check-sumtype-0.3.0-linux-arm64.tar.gz": "db7d7327212f0036b967850f89813f4d9f85aabe92424541bdd5c1f19f8eebda",
   "https://github.com/alecthomas/go-check-sumtype/releases/download/v0.3.1/go-check-sumtype-0.3.1-linux-arm64.tar.gz": "a4d40af5480c1602cb4fed74bcd3a77c3975284af62f8d05c1929ec4c4db2fa5",
+  "https://github.com/alecthomas/go-check-sumtype/releases/download/v0.5.0/go-check-sumtype-0.5.0-darwin-amd64.tar.gz": "c04403ebbde16a18ba132474577f7c1f1ca5fe83000d18638d2c8cca2610309c",
+  "https://github.com/alecthomas/go-check-sumtype/releases/download/v0.5.0/go-check-sumtype-0.5.0-darwin-arm64.tar.gz": "013587221143de7a9809591ef31761db50ceb10cbf73f1fba4f71a3bece6969b",
+  "https://github.com/alecthomas/go-check-sumtype/releases/download/v0.5.0/go-check-sumtype-0.5.0-linux-arm64.tar.gz": "834a7831e9a11365d719d8d9bce03812bbde126357d009bd93617f7282bdf3a6",
+  "https://github.com/alecthomas/go-check-sumtype/releases/download/v0.5.0/go-check-sumtype-0.5.0-linux-amd64.tar.gz": "84c803f5d242d10983d7f16136fc034d6c5aa57f70d4560ca1a7f8eae16d0aab",
 }
