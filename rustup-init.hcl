@@ -11,7 +11,7 @@ linux {
 }
 
 version "1.25.1" "1.25.2" "1.26.0" "1.27.0" "1.27.1" "1.28.0" "1.28.1" "1.28.2"
-        "1.29.0" {
+        "1.29.0" "1.29.1" {
   auto-version {
     git-tags = "https://github.com/rust-lang/rustup.git"
   }
@@ -54,4 +54,8 @@ sha256sums = {
   "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-apple-darwin/rustup-init": "33cf85df9142bc6d29cbc62fa5ca1d4c29622cddb55213a4c1a43c457fb9b2d7",
   "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-unknown-linux-gnu/rustup-init": "4acc9acc76d5079515b46346a485974457b5a79893cfb01112423c89aeb5aa10",
   "https://static.rust-lang.org/rustup/archive/1.29.0/aarch64-unknown-linux-gnu/rustup-init": "9732d6c5e2a098d3521fca8145d826ae0aaa067ef2385ead08e6feac88fa5792",
+  "https://static.rust-lang.org/rustup/archive/1.29.1/aarch64-unknown-linux-gnu/rustup-init": "15f6e4ce9f583b929c996c91562bad6d4454f3281de858b02cdfdef615fac433",
+  "https://static.rust-lang.org/rustup/archive/1.29.1/x86_64-unknown-linux-gnu/rustup-init": "dda7234360b7f578ca8b0ddcb80145646fa61a67c1720a5abc7051b35c9fcb71",
+  "https://static.rust-lang.org/rustup/archive/1.29.1/x86_64-apple-darwin/rustup-init": "259e2b84274434085163fe8d556510571772cda2aa6d87ca6aa664f57bc644e3",
+  "https://static.rust-lang.org/rustup/archive/1.29.1/aarch64-apple-darwin/rustup-init": "ec1b9233e7f72990ecd8e62063fa7f6c3dfc2bec8e97f88bff165f9100ac696a",
 }
