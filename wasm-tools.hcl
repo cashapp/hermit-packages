@@ -2,8 +2,10 @@ description = "Low-level tooling for WebAssembly: validate, parse, print, and co
 homepage = "https://github.com/bytecodealliance/wasm-tools"
 binaries = ["wasm-tools"]
 test = "wasm-tools --version"
-strip = 1
 source = "https://github.com/bytecodealliance/wasm-tools/releases/download/v${version}/wasm-tools-${version}-${xarch}-${os_}.tar.gz"
+
+# The archives unpack into a single top-level directory, hence `strip = 1`.
+strip = 1
 
 vars = {
   "os_": "${os}",
