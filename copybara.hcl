@@ -12,6 +12,14 @@ on "unpack" {
   }
 }
 
+// Copybara versions are date stamps without dots. Hermit's synthesized
+// @latest channel assumes dotted versions, so define an explicit channel that
+// selects the highest available date stamp.
+channel "latest" {
+  update = "24h"
+  version = "*"
+}
+
 version "20250512" "20250519" "20250526" "20250602" "20250609" "20250616" "20250623"
         "20250630" "20250707" "20250714" "20250721" "20250728" "20250804" "20250811" "20250818"
         "20250825" "20250901" "20250908" "20250915" "20250922" "20250929" "20251006" "20251013"
