@@ -7,7 +7,7 @@ strip = 1
 test = "kotlinc-jvm -version"
 
 version "2.1.0" "2.1.10" "2.1.20" "2.1.21" "2.2.0" "2.2.10" "2.2.20" "2.2.21" "2.3.0"
-        "2.3.10" "2.3.20" "2.3.21" "2.4.0" "2.4.10" {
+        "2.3.10" "2.3.20" "2.3.21" "2.4.0" "2.4.10" "2.4.20" {
   auto-version {
     github-release = "JetBrains/kotlin"
   }
@@ -66,4 +66,5 @@ sha256sums = {
   "https://github.com/JetBrains/kotlin/releases/download/v2.3.21/kotlin-compiler-2.3.21.zip": "a8cfc1d62cd4d0de4d04f42575e40135bd620588c17d568a20eb9c7c259af14f",
   "https://github.com/JetBrains/kotlin/releases/download/v2.4.0/kotlin-compiler-2.4.0.zip": "ba1b9e6eb6ddc3275079224f2e9ea4a2b02eef7d59ce2d38404f04b22613c20a",
   "https://github.com/JetBrains/kotlin/releases/download/v2.4.10/kotlin-compiler-2.4.10.zip": "473dd66c7a3ef4b182065b3da670466c1bf2773a9dbb0ed8b33a39fe9d4f876d",
+  "https://github.com/JetBrains/kotlin/releases/download/v2.4.20/kotlin-compiler-2.4.20.zip": "59e9ca74c7904ef2c122b12114937673ccce68de820a663f0ed66ccf8799e0b7",
 }
