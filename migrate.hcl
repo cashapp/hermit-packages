@@ -3,7 +3,7 @@ test = "migrate --version"
 binaries = ["migrate"]
 
 version "4.15.2" "4.16.0" "4.16.1" "4.16.2" "4.17.0" "4.17.1" "4.18.1" "4.18.2"
-        "4.18.3" "4.19.0" "4.19.1" {
+        "4.18.3" "4.19.0" "4.19.1" "4.20.1" {
   auto-version {
     github-release = "golang-migrate/migrate"
   }
@@ -66,4 +66,8 @@ sha256sums = {
   "https://github.com/golang-migrate/migrate/releases/download/v4.19.0/migrate.darwin-arm64.tar.gz": "f21cdd83cb95bcc009c4b0fbbbd17c04fcf372fae897d17153f9084bb76f0202",
   "https://github.com/golang-migrate/migrate/releases/download/v4.19.1/migrate.linux-arm64.tar.gz": "2fea2455c0f3f07cc3f4b98471c951ad1a716059574b20b6416bd1e9058751c5",
   "https://github.com/golang-migrate/migrate/releases/download/v4.19.1/migrate.darwin-arm64.tar.gz": "a8cc8657afd1c2c93c78e8b77fd2275d150c29ebc1fff0e8fe0be68751503468",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.20.1/migrate.linux-arm64.tar.gz": "03ea70d9ba535b68fe03602120d1856a567cd0fa2fbca3748ba8070e9d4b8f60",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.20.1/migrate.linux-amd64.tar.gz": "b1e13121d4178b7804a9fb29dca62d57b732390f7e5ae33f2cd65e9b192e1bd4",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.20.1/migrate.darwin-amd64.tar.gz": "acb7c3756fbfea5ae2985eaeb5aa7769ecfdd43bd179a7240f9bebf4b45fee89",
+  "https://github.com/golang-migrate/migrate/releases/download/v4.20.1/migrate.darwin-arm64.tar.gz": "d66f87e41eb6beda9328f0ef99a34c1c51411a0663a782111fb519f3652506c2",
 }
