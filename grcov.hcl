@@ -12,7 +12,7 @@ platform "linux" {
 }
 
 version "0.8.18" "0.8.19" "0.8.20" "0.8.23" "0.8.24" "0.9.0" "0.9.1" "0.10.0" "0.10.1"
-        "0.10.3" "0.10.5" "0.10.7" {
+        "0.10.3" "0.10.5" "0.10.7" "0.10.8" {
   auto-version {
     github-release = "mozilla/grcov"
   }
@@ -67,4 +67,8 @@ sha256sums = {
   "https://github.com/mozilla/grcov/releases/download/v0.10.7/grcov-x86_64-apple-darwin.tar.bz2": "5c6611ee98bb8dd42305d8b441820aea71373ccd649920d1cae86a49f934f63d",
   "https://github.com/mozilla/grcov/releases/download/v0.10.7/grcov-x86_64-unknown-linux-gnu.tar.bz2": "f9d0de258c737659fbf2c88e861784f392a784b52425b23f901d5e0cecdfd581",
   "https://github.com/mozilla/grcov/releases/download/v0.10.7/grcov-aarch64-apple-darwin.tar.bz2": "b8b2db490cd022baf59f3a9246c4f3ee1971b4f4f4c6b74d6f4e0a3f44a95cdb",
+  "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-x86_64-unknown-linux-gnu.tar.bz2": "25ef3d08b660fe82cd7306dd5af4fa59aa7342718fe89d98ef95064c557e28ab",
+  "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-aarch64-apple-darwin.tar.bz2": "c5441aae995470192afcd93f8da9fd56cf38a2caf910d3eafa7927ff847deba3",
+  "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-aarch64-unknown-linux-gnu.tar.bz2": "c23533dbca2e1500ebbedc6d89b9926a5193faa772f849ade9291d5365af31e6",
+  "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-x86_64-apple-darwin.tar.bz2": "7100963cce45cdebe1a3fcda3e9472ba10b3fc117d6da741671af2a01dcbbdf3",
 }

@@ -15,7 +15,7 @@ platform "linux" "arm64" {
   source = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-${version}/cargo-nextest-${version}-${xarch}-unknown-linux-gnu.tar.gz"
 }
 
-version "0.9.68" "0.9.143" {
+version "0.9.68" "0.9.143" "0.9.144" {
   auto-version {
     github-release = "nextest-rs/nextest"
     version-pattern = "cargo-nextest-(.*)"
@@ -29,4 +29,7 @@ sha256sums = {
   "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.143/cargo-nextest-0.9.143-aarch64-unknown-linux-gnu.tar.gz": "2a64b3566a92508550a7ab29c3e8db25472ca37730ecb4d22100b6aa440c2a68",
   "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.143/cargo-nextest-0.9.143-universal-apple-darwin.tar.gz": "4830d430411148d17602a75cc880bfb4dc8dac153dea59a48a2ef4cc93577f07",
   "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.143/cargo-nextest-0.9.143-x86_64-unknown-linux-musl.tar.gz": "6d891c18105ec2d33f6e441a4f92b7ccab47ba263e22055c8bb66884243f3389",
+  "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.144/cargo-nextest-0.9.144-x86_64-unknown-linux-musl.tar.gz": "20ed0a7d3d6f8dda9bb1b0bcb5838aea5784d3e2360746280868996d709dde0a",
+  "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.144/cargo-nextest-0.9.144-aarch64-unknown-linux-gnu.tar.gz": "7fecfd431b810c05c589d800524286b8f80ce2fe9fb1fef05caf16d095cea407",
+  "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.144/cargo-nextest-0.9.144-universal-apple-darwin.tar.gz": "87472b2c3ee09154cadd34d168a5cdede478806810f095c3dc4dc499943da42e",
 }
