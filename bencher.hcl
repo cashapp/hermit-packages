@@ -3,7 +3,6 @@ homepage = "https://bencher.dev"
 binaries = ["bencher"]
 test = "bencher --version"
 source = "https://github.com/bencherdev/bencher/releases/download/v${version}/bencher-v${version}-${os_}-${arch_}"
-
 // Upstream spells the architectures '-x86-64' and '-arm-64'. Both are overridden explicitly, so
 // that any other architecture keeps '${arch}' and fails to resolve, instead of silently
 // downloading a binary built for the wrong one.
@@ -37,7 +36,7 @@ on "unpack" {
   }
 }
 
-version "0.6.7" {
+version "0.6.7" "0.6.12" {
   auto-version {
     github-release = "bencherdev/bencher"
   }
@@ -48,4 +47,8 @@ sha256sums = {
   "https://github.com/bencherdev/bencher/releases/download/v0.6.7/bencher-v0.6.7-macos-x86-64": "ac4b354bbee6d529e7d7c499b5a7388009d131a27716547c79aa114c774a3d67",
   "https://github.com/bencherdev/bencher/releases/download/v0.6.7/bencher-v0.6.7-macos-arm-64": "aeb49d83edf0d2cd8ce1d486ce10db111c67cd06a9d70f266c2be149861b14ba",
   "https://github.com/bencherdev/bencher/releases/download/v0.6.7/bencher-v0.6.7-linux-arm-64": "5111a0a69cb3eedc05a548af29daa53fda19c2f8442bea2ca5a50b596accd79a",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.12/bencher-v0.6.12-linux-x86-64": "c2d3a6a7fae654246134e5ced1408bdb9ba4e198b0ac3b903af17a06574a7e08",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.12/bencher-v0.6.12-macos-x86-64": "f5f3e320d6fe23c29dba2a3161a8eede7ac73a4cb848441137a7b734c339376d",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.12/bencher-v0.6.12-macos-arm-64": "97398368393dd1053612ea5289b378a479e727a7266831d3253859d337ca06e2",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.12/bencher-v0.6.12-linux-arm-64": "2b3ea0117d2c0218de31918b4add895f35006e4d69deb36a6f0fd7e815950bfb",
 }
