@@ -29,7 +29,7 @@ platform "windows" "amd64" {
 
 source = "https://github.com/max-sixty/worktrunk/releases/download/v${version}/worktrunk-${xarch}-${platform}.${ext}"
 
-version "0.74.0" "0.75.0" "0.76.0" "0.77.0" {
+version "0.74.0" "0.75.0" "0.76.0" "0.77.0" "0.78.0" {
   auto-version {
     github-release = "max-sixty/worktrunk"
   }
@@ -53,4 +53,8 @@ sha256sums = {
   "https://github.com/max-sixty/worktrunk/releases/download/v0.77.0/worktrunk-x86_64-apple-darwin.tar.xz": "a6a95d2da85e4f2a8b169e307d98b158d990c3823f539438cd2396f0a7c65591",
   "https://github.com/max-sixty/worktrunk/releases/download/v0.77.0/worktrunk-aarch64-apple-darwin.tar.xz": "43f9b2e65d96954b5fa44eab148b040a5c78cd36abfd81718178928ac1746572",
   "https://github.com/max-sixty/worktrunk/releases/download/v0.77.0/worktrunk-aarch64-unknown-linux-musl.tar.xz": "d96a6a217255962d487e9a92d12d00478f3afcb9cf31f796dd2406340127e237",
+  "https://github.com/max-sixty/worktrunk/releases/download/v0.78.0/worktrunk-x86_64-unknown-linux-musl.tar.xz": "f365db63805a75a76bed7a84c8bde7e8c27a248e23f9aeb9576eccba3f1d72de",
+  "https://github.com/max-sixty/worktrunk/releases/download/v0.78.0/worktrunk-aarch64-apple-darwin.tar.xz": "6f7a04e5391a9ff9065c31ef3ca41e2082ccd3aa3cf62c30dd45e2c607effed8",
+  "https://github.com/max-sixty/worktrunk/releases/download/v0.78.0/worktrunk-aarch64-unknown-linux-musl.tar.xz": "0bf9c0005c8212160809f9ffbe9ef576dd86e96b56c2d541941cfbcb4acb93e6",
+  "https://github.com/max-sixty/worktrunk/releases/download/v0.78.0/worktrunk-x86_64-apple-darwin.tar.xz": "644236a05bdc9297b00f7a6b6aa8c4000d9ebca7754df54c805124bda7c90b7f",
 }
