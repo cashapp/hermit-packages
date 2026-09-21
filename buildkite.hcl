@@ -15,7 +15,7 @@ version "1.2.0" "2.0.0" {
 
 version "3.36.0" "3.37.1" "3.38.0" "3.38.1" "3.39.0" "3.40.0" "3.41.1" "3.42.0"
         "3.44.0" "3.44.1" "3.45.0" "3.46.0" "3.47.0" "3.48.1" "3.49.2" "3.50.0" "3.51.0"
-        "3.51.1" "3.52.1" "3.53.0" "3.54.0" "3.54.1" "3.54.2" "3.55.0" "3.56.0" {
+        "3.51.1" "3.52.1" "3.53.0" "3.54.0" "3.54.1" "3.54.2" "3.55.0" "3.56.0" "3.57.0" {
   strip = 1
 
   auto-version {
@@ -140,4 +140,8 @@ sha256sums = {
   "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_macOS_arm64.zip": "e52cc2dbbfcb51b0339f87062b17c736258cfe373243bd3f16cf3342d33b86dd",
   "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_macOS_amd64.zip": "35e01f827be43d64e7c66e710daefc493b46f817e64fa54450587b2d7eb9a6d2",
   "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_linux_amd64.tar.gz": "edb70ba5c9aa081fba688d0d04296aafb7ea1f1b2b7540ae0de1b238fee39745",
+  "https://github.com/buildkite/cli/releases/download/v3.57.0/bk_3.57.0_macOS_arm64.zip": "82a86fca64eb4cdf5efce31bcf6d6eb6a2519bd23ca415b4c6863b6989f83e9d",
+  "https://github.com/buildkite/cli/releases/download/v3.57.0/bk_3.57.0_linux_arm64.tar.gz": "f8fb21692d088a6267bf07477b49a5e837503b6ae43c9dda46093de7f4922fe7",
+  "https://github.com/buildkite/cli/releases/download/v3.57.0/bk_3.57.0_macOS_amd64.zip": "d4dcd61a4c302485a2f9bca5ac6c43abbf4b9c10885dd19ecfa6bc1dbd2bc605",
+  "https://github.com/buildkite/cli/releases/download/v3.57.0/bk_3.57.0_linux_amd64.tar.gz": "09a6fd856b36ef70b00bd9b3f7e8ba3cc2f938d031e415ef22adb229696a44b5",
 }
