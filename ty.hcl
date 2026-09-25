@@ -18,7 +18,8 @@ version "0.0.3" "0.0.4" "0.0.5" "0.0.6" "0.0.7" "0.0.8" "0.0.9" "0.0.10" "0.0.11
         "0.0.39" "0.0.40" "0.0.42" "0.0.43" "0.0.44" "0.0.46" "0.0.48" "0.0.49" "0.0.50"
         "0.0.51" "0.0.52" "0.0.53" "0.0.54" "0.0.55" "0.0.56" "0.0.57" "0.0.58" "0.0.59"
         "0.0.60" "0.0.61" "0.0.62" "0.0.63" "0.0.64" "0.0.66" "0.0.68" "0.0.70" "0.0.71"
-        "0.0.72" "0.0.73" "0.0.74" "0.0.75" "0.0.78" "0.0.80" "0.0.81" "0.0.82" "0.0.83" {
+        "0.0.72" "0.0.73" "0.0.74" "0.0.75" "0.0.78" "0.0.80" "0.0.81" "0.0.82" "0.0.83"
+        "0.0.84" {
   auto-version {
     github-release = "astral-sh/ty"
   }
@@ -313,4 +314,8 @@ sha256sums = {
   "https://github.com/astral-sh/ty/releases/download/0.0.83/ty-x86_64-apple-darwin.tar.gz": "4c1f6db572119a0e461895cd241a990ef616b30258394b02161b04d6a34d0911",
   "https://github.com/astral-sh/ty/releases/download/0.0.83/ty-x86_64-unknown-linux-gnu.tar.gz": "dc1baa9f6135cb34712f4c7487dc8ce05fc91eb018360426eb78bba03c2e4d2e",
   "https://github.com/astral-sh/ty/releases/download/0.0.83/ty-aarch64-unknown-linux-gnu.tar.gz": "0de6e6c215ba28579506488500a8fe91b868445de40f27bf022a4673feb6a5e0",
+  "https://github.com/astral-sh/ty/releases/download/0.0.84/ty-x86_64-apple-darwin.tar.gz": "3891e5509d306721cee4dd4e69b94535dbd96371af7ec3b734ee65f25b167ae4",
+  "https://github.com/astral-sh/ty/releases/download/0.0.84/ty-x86_64-unknown-linux-gnu.tar.gz": "336bb36b7e917d844b8b16925d373b4614b326e452c881ff4ed6bc5904b65185",
+  "https://github.com/astral-sh/ty/releases/download/0.0.84/ty-aarch64-unknown-linux-gnu.tar.gz": "d575243e0586742ae0e9186441358bd7e57e8160e319b3afb781430126762a39",
+  "https://github.com/astral-sh/ty/releases/download/0.0.84/ty-aarch64-apple-darwin.tar.gz": "c65c09f27bcef726c0b043dcee8d0f1e578bd1936799e5bc447235cbc3e19d91",
 }
