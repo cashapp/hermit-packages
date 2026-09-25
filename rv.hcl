@@ -24,7 +24,7 @@ platform "linux" {
 }
 
 version "0.1.0" "0.1.1" "0.2.0" "0.3.0" "0.3.1" "0.4.0" "0.4.1" "0.4.2" "0.4.3" "0.5.0"
-        "0.5.2" "0.5.3" "0.6.0" "0.7.0" {
+        "0.5.2" "0.5.3" "0.6.0" "0.7.0" "0.7.1" {
   auto-version {
     github-release = "spinel-coop/rv"
   }
@@ -73,4 +73,7 @@ sha256sums = {
   "https://github.com/spinel-coop/rv/releases/download/v0.7.0/rv-aarch64-unknown-linux-gnu.tar.xz": "488aa15a7d27c07b077e1cdb2baba030f9ace809e7cfab74d7a691fe11e7bbcb",
   "https://github.com/spinel-coop/rv/releases/download/v0.7.0/rv-x86_64-unknown-linux-gnu.tar.xz": "b7488073dec5a073e11022e882f955da0b33d3fe1984408b45cf2350993632cc",
   "https://github.com/spinel-coop/rv/releases/download/v0.7.0/rv-aarch64-apple-darwin.tar.xz": "817f52155f786a4297210d928e8c84e43e3abdc4d7c56c0e11942fc5973caad8",
+  "https://github.com/spinel-coop/rv/releases/download/v0.7.1/rv-x86_64-unknown-linux-gnu.tar.xz": "f5cc7e94d349547bc80b0cdcac60dcad0503837d5ce0f7da181d892da08df1b8",
+  "https://github.com/spinel-coop/rv/releases/download/v0.7.1/rv-aarch64-apple-darwin.tar.xz": "20da71e7896849e5a13e5a65163ec2f9651df693aac73f1623948f4207cd9874",
+  "https://github.com/spinel-coop/rv/releases/download/v0.7.1/rv-aarch64-unknown-linux-gnu.tar.xz": "622a06f978ecbe4f99fb733ab0b4d63dc9e9413c0888ce9b1aa37f6ca06e1fe6",
 }
