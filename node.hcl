@@ -46,20 +46,10 @@ version "16.1.0" "16.10.0" "16.11.0" "16.13.0" "16.13.1" "16.14.0" "16.14.1"
         "16.15.0" "16.17.0" "16.17.1" "16.18.0" "16.2.0" "16.3.0" "16.4.0" "16.5.0" "16.6.0"
         "16.6.1" "16.6.2" "16.7.0" "16.8.0" "16.9.0" "16.9.1" "16.18.1" "16.19.0" "16.19.1"
         "16.20.0" "16.20.1" "16.20.2" {
-  auto-version {
-    github-release = "nodejs/node"
-    ignore-invalid-versions = true
-    version-pattern = "v(16.*)"
-  }
 }
 
 version "17.0.0" "17.0.1" "17.1.0" "17.3.0" "17.3.1" "17.4.0" "17.5.0" "17.6.0"
         "17.7.0" "17.7.1" "17.7.2" "17.8.0" "17.9.0" "17.9.1" {
-  auto-version {
-    github-release = "nodejs/node"
-    ignore-invalid-versions = true
-    version-pattern = "v(17.*)"
-  }
 }
 
 version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.0"
@@ -67,20 +57,10 @@ version "18.0.0" "18.1.0" "18.10.0" "18.11.0" "18.12.0" "18.2.0" "18.3.0" "18.4.
         "18.14.2" "18.15.0" "18.16.0" "18.16.1" "18.17.0" "18.17.1" "18.18.0" "18.18.1"
         "18.18.2" "18.19.0" "18.19.1" "18.20.0" "18.20.1" "18.20.2" "18.20.3" "18.20.4"
         "18.20.5" "18.20.6" "18.20.7" "18.20.8" {
-  auto-version {
-    github-release = "nodejs/node"
-    ignore-invalid-versions = true
-    version-pattern = "v(18.*)"
-  }
 }
 
 version "19.0.0" "19.0.1" "19.1.0" "19.2.0" "19.3.0" "19.4.0" "19.5.0" "19.6.0"
         "19.7.0" "19.8.0" "19.8.1" "19.9.0" {
-  auto-version {
-    github-release = "nodejs/node"
-    ignore-invalid-versions = true
-    version-pattern = "v(19.*)"
-  }
 }
 
 version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1"
@@ -88,26 +68,16 @@ version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1"
         "20.12.0" "20.12.1" "20.12.2" "20.13.0" "20.13.1" "20.14.0" "20.15.0" "20.15.1"
         "20.16.0" "20.17.0" "20.18.0" "20.18.1" "20.18.2" "20.18.3" "20.19.0" "20.19.1"
         "20.19.2" "20.19.3" "20.19.4" "20.19.5" "20.19.6" "20.20.0" "20.20.1" "20.20.2" {
-  auto-version {
-    github-release = "nodejs/node"
-    ignore-invalid-versions = true
-    version-pattern = "v(20.*)"
-  }
 }
 
 version "21.0.0" "21.1.0" "21.2.0" "21.3.0" "21.4.0" "21.5.0" "21.6.0" "21.6.1"
         "21.6.2" "21.7.0" "21.7.1" "21.7.2" "21.7.3" {
-  auto-version {
-    github-release = "nodejs/node"
-    ignore-invalid-versions = true
-    version-pattern = "v(21.*)"
-  }
 }
 
 version "22.0.0" "22.1.0" "22.2.0" "22.3.0" "22.4.0" "22.4.1" "22.5.0" "22.5.1"
         "22.6.0" "22.7.0" "22.8.0" "22.9.0" "22.10.0" "22.11.0" "22.12.0" "22.13.0" "22.13.1"
         "22.14.0" "22.15.0" "22.15.1" "22.16.0" "22.17.0" "22.17.1" "22.18.0" "22.19.0"
-        "22.20.0" "22.21.0" "22.21.1" "22.22.0" "22.22.1" "22.22.2" {
+        "22.20.0" "22.21.0" "22.21.1" "22.22.0" "22.22.1" "22.22.2" "22.23.3" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -116,7 +86,7 @@ version "22.0.0" "22.1.0" "22.2.0" "22.3.0" "22.4.0" "22.4.1" "22.5.0" "22.5.1"
 }
 
 version "24.10.0" "24.11.0" "24.11.1" "24.12.0" "24.13.0" "24.13.1" "24.14.0"
-        "24.14.1" "24.15.0" {
+        "24.14.1" "24.15.0" "24.21.0" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -914,4 +884,12 @@ sha256sums = {
   "https://nodejs.org/dist/v24.15.0/node-v24.15.0-linux-arm64.tar.gz": "73afc234d558c24919875f51c2d1ea002a2ada4ea6f83601a383869fefa64eed",
   "https://nodejs.org/dist/v24.15.0/node-v24.15.0-darwin-x64.tar.gz": "ffd5ee293467927f3ee731a553eb88fd1f48cf74eebc2d74a6babe4af228673b",
   "https://nodejs.org/dist/v24.15.0/node-v24.15.0-linux-x64.tar.gz": "44836872d9aec49f1e6b52a9a922872db9a2b02d235a616a5681b6a85fec8d89",
+  "https://nodejs.org/dist/v22.23.3/node-v22.23.3-linux-x64.tar.gz": "1084aa36196bba4c3a5e69a1ee388a6e4ff729dad09445fbcd434b28fe3c24af",
+  "https://nodejs.org/dist/v22.23.3/node-v22.23.3-darwin-arm64.tar.gz": "23b25245dcfb9af7262f8ff142e9e2e0af025368117329e7a7458a51e5922f53",
+  "https://nodejs.org/dist/v22.23.3/node-v22.23.3-darwin-x64.tar.gz": "8a677b0219178efd6eb0e475457c4afb452b521a92f6e67845a73bd85727f2a8",
+  "https://nodejs.org/dist/v22.23.3/node-v22.23.3-linux-arm64.tar.gz": "5ced2d48d1d7198739b7f86804de0171aefb6823b684b12341d3321afc3cb0b2",
+  "https://nodejs.org/dist/v24.21.0/node-v24.21.0-darwin-x64.tar.gz": "1462cb3b3046b815cf8ea436d3da450ec1a9f11dac7e5a46b0ada5305d7e8097",
+  "https://nodejs.org/dist/v24.21.0/node-v24.21.0-linux-arm64.tar.gz": "724282c3b43aec998aa9527380465b45d229e021b58035f5f4f63095eabfe5d5",
+  "https://nodejs.org/dist/v24.21.0/node-v24.21.0-darwin-arm64.tar.gz": "bed7eea5325e1108f32ce5228ddd6a5f0f08a499ee42aa7442aea583702f6057",
+  "https://nodejs.org/dist/v24.21.0/node-v24.21.0-linux-x64.tar.gz": "6e1db87ef58b8819e5d5402eff1536491b18edd8eb7bee5ef7897876e88dc5ff",
 }
