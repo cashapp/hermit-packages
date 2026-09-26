@@ -25,7 +25,7 @@ on "unpack" {
 version "0.1.0" "0.2.0" "0.3.0" "0.4.0" "0.6.0" "0.7.0" "0.8.0" "0.9.0" "0.10.1"
         "0.14.1" "0.15.0" "0.16.0" "0.17.0" "0.18.0" "0.19.0" "0.20.0" "0.20.1" "0.20.2"
         "0.21.0" "0.22.0" "0.22.1" "0.23.0" "0.24.0" "0.26.0" "0.26.2" "0.26.3" "0.27.0"
-        "0.28.0" {
+        "0.28.0" "0.29.0" "0.29.1" {
   auto-version {
     github-release = "alecthomas/bit"
   }
@@ -144,4 +144,12 @@ sha256sums = {
   "https://github.com/alecthomas/bit/releases/download/v0.28.0/bit-aarch64-apple-darwin.bz2": "bde98e8b5c9553ebaf572f2bf38cacedbc60ae181cfabe36e096d642cc2162d3",
   "https://github.com/alecthomas/bit/releases/download/v0.28.0/bit-aarch64-unknown-linux-gnu.bz2": "442dab9d4be284bdbac15b0c0afaf46d3a7f9978134f3d92df2cb63cd155e103",
   "https://github.com/alecthomas/bit/releases/download/v0.28.0/bit-x86_64-unknown-linux-gnu.bz2": "417bcc6cd46e4b8ae7aae198d768e460b5d7fe8a896703da79025a5e7751d68d",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.0/bit-aarch64-unknown-linux-gnu.bz2": "996cbb1816c6029e65d3c3bca2b9d05ba8257596d9186348af4c7bb69f98d6a0",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.0/bit-x86_64-apple-darwin.bz2": "4d5d3742943d571ff679710d334acdceadeb6ff8a98aaa5d57526cf8c54c1657",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.0/bit-aarch64-apple-darwin.bz2": "8591b44d6b8c1356e5a718567e42545601495a70209ac88e220906b41f7024a5",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.0/bit-x86_64-unknown-linux-gnu.bz2": "369fc54e9accc1b844b064b984e67ffc17a9a2d57d283e87252d02a5b285a1ca",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.1/bit-aarch64-unknown-linux-gnu.bz2": "fbe458b3c10b23b634a9ac1b96b1ff6cfe5edebb3f298e9d2a1ec9d8b3dc8c12",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.1/bit-aarch64-apple-darwin.bz2": "b5ee6ce1b92f0ade181dac66ae26fa1401c7dd96e99c79f38271d7d3a7c70805",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.1/bit-x86_64-apple-darwin.bz2": "69fbf644193d708350ebcff3b79e186423c4ca20579f83885dff3cd8f86fbcf0",
+  "https://github.com/alecthomas/bit/releases/download/v0.29.1/bit-x86_64-unknown-linux-gnu.bz2": "04f48b35f0d6bffa9595e0fccf6c658a27a6f1302b284b4fe89c8dcefd9b4132",
 }
