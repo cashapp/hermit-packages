@@ -18,7 +18,7 @@ version "0.3.0" "0.4.0-rc.1" "0.4.0-rc.2" "0.4.0" "0.5.0-rc.1" "0.5.0" "0.6.0-rc
   source = "https://github.com/open-component-model/open-component-model/releases/download/cli/v${version}/ocm-${os}-${arch}"
 }
 
-version "0.8.0" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" {
+version "0.8.0" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.16.0" "0.17.0" {
   auto-version {
     github-release = "open-component-model/open-component-model"
   }
@@ -89,4 +89,8 @@ sha256sums = {
   "https://github.com/open-component-model/open-component-model/releases/download/v0.16.0/ocm-linux-arm64": "b2b598436bdca8fe7299b99294f48bf0a8e4d1369840015ec654e57fdf02e802",
   "https://github.com/open-component-model/open-component-model/releases/download/v0.16.0/ocm-linux-amd64": "6710ddec04a80c2893f5f83d1115fb68c4f536faa468c5382290de070e4d4c20",
   "https://github.com/open-component-model/open-component-model/releases/download/v0.16.0/ocm-darwin-amd64": "556a032fa939992f1ceafae1b97539fd765116fc83cc9360a3def77b7f17fe1b",
+  "https://github.com/open-component-model/open-component-model/releases/download/v0.17.0/ocm-linux-amd64": "d942e2d5d024e9a5a82f1484ba4303b458d84c0dc9767125bd61cfa96120268f",
+  "https://github.com/open-component-model/open-component-model/releases/download/v0.17.0/ocm-darwin-arm64": "ae87ac4943e81396054367315395787fb7b71a697d946f8bb62de67bcb93e544",
+  "https://github.com/open-component-model/open-component-model/releases/download/v0.17.0/ocm-linux-arm64": "697e44f71ab0dbd02287c6544fa17be0c73c0a9d6e873f9a2c91fd92c9acbc86",
+  "https://github.com/open-component-model/open-component-model/releases/download/v0.17.0/ocm-darwin-amd64": "b234a98d6d5a02d8ebf8da16023f078411bf65b4c0438de2c4e270d81507e538",
 }
