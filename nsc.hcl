@@ -27,7 +27,7 @@ version "0.0.322" "0.0.323" "0.0.325" "0.0.326" "0.0.328" "0.0.329" "0.0.330"
         "0.0.536" "0.0.537" "0.0.541" "0.0.543" "0.0.544" "0.0.545" "0.0.546" "0.0.549"
         "0.0.550" "0.0.551" "0.0.553" "0.0.556" "0.0.557" "0.0.558" "0.0.560" "0.0.561"
         "0.0.562" "0.0.564" "0.0.565" "0.0.567" "0.0.569" "0.0.570" "0.0.572" "0.0.573"
-        "0.0.574" "0.0.576" "0.0.578" {
+        "0.0.574" "0.0.576" "0.0.578" "0.0.580" {
   auto-version {
     github-release = "namespacelabs/foundation"
   }
@@ -778,4 +778,8 @@ sha256sums = {
   "https://github.com/namespacelabs/foundation/releases/download/v0.0.578/nsc_0.0.578_darwin_amd64.tar.gz": "ba61f12e3fbf118f3c446f3aa5d9a636dc797bd502b101c7a71dde4b3d79fdac",
   "https://github.com/namespacelabs/foundation/releases/download/v0.0.578/nsc_0.0.578_linux_arm64.tar.gz": "fab3974d98e1585014055f557108c7f1c2a9677650c43c1f050bf1617ab8c645",
   "https://github.com/namespacelabs/foundation/releases/download/v0.0.578/nsc_0.0.578_linux_amd64.tar.gz": "c0ac57eca210999d0c2ae0239fcae8571aa33c56b6939df9c8749a699d86e162",
+  "https://github.com/namespacelabs/foundation/releases/download/v0.0.580/nsc_0.0.580_darwin_amd64.tar.gz": "f67d38ffdbb7075c0304f00bace614c95109a8a628dc4998d2b2e6dbb891a5e1",
+  "https://github.com/namespacelabs/foundation/releases/download/v0.0.580/nsc_0.0.580_linux_arm64.tar.gz": "6b51bca03dc175d957cf781980f2d732f27c090cad8052eac8519557c3f40366",
+  "https://github.com/namespacelabs/foundation/releases/download/v0.0.580/nsc_0.0.580_linux_amd64.tar.gz": "e6b57db288d382f5d6f4476bc2bffc47e6adec0ea6e61cef5967ccbc1a8a7c05",
+  "https://github.com/namespacelabs/foundation/releases/download/v0.0.580/nsc_0.0.580_darwin_arm64.tar.gz": "d65f5a93f439db9a8c9938c25e54065c47afb3439d2243edaf0bd64c6c4dcd6e",
 }

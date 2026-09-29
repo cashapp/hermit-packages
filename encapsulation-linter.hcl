@@ -14,7 +14,7 @@ platform "linux" "amd64" {
 
 description = "A Go linter that enforces struct encapsulation"
 
-version "0.1.0" "0.2.0" {
+version "0.1.0" "0.2.0" "0.3.0" {
   auto-version {
     github-release = "alecthomas/encapsulation-linter"
   }
@@ -27,4 +27,7 @@ sha256sums = {
   "https://github.com/alecthomas/encapsulation-linter/releases/download/v0.2.0/encapsulation-linter-0.2.0-darwin-amd64.tar.gz": "e182061947d6a7a37bccb73025db965c2aaf86aa9121f38bfe67e41b5151e981",
   "https://github.com/alecthomas/encapsulation-linter/releases/download/v0.2.0/encapsulation-linter-0.2.0-darwin-arm64.tar.gz": "4dc21c70bbbb38620bcae13b1548c4b1cf7683734e14d86876d8166c9922e530",
   "https://github.com/alecthomas/encapsulation-linter/releases/download/v0.2.0/encapsulation-linter-0.2.0-linux-amd64.tar.gz": "dd9738860caa75e601b39d16248ccd8e14459b3bcfc28c12ebe7d4906f6b5ae3",
+  "https://github.com/alecthomas/encapsulation-linter/releases/download/v0.3.0/encapsulation-linter-0.3.0-darwin-arm64.tar.gz": "8078371fdb17fc10be3e57e7ba60b6708262db93465d2baa6f951805c06405a8",
+  "https://github.com/alecthomas/encapsulation-linter/releases/download/v0.3.0/encapsulation-linter-0.3.0-darwin-amd64.tar.gz": "c9759fe4ea96c3865cf837af5af8630c70c0e6cf6951daa75a9c380384904935",
+  "https://github.com/alecthomas/encapsulation-linter/releases/download/v0.3.0/encapsulation-linter-0.3.0-linux-amd64.tar.gz": "bf76174f253a3a5824ae1134859112b19b52380b89b9a6a2ae1860262dd63cc0",
 }
