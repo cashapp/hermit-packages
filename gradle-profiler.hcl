@@ -9,7 +9,7 @@ version "0.20.0" "0.21.0" "0.22.0-alpha-1" "0.22.0" "0.23.0" "0.24.0" "0.25.0" {
   source = "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/${version}/gradle-profiler-${version}.zip"
 }
 
-version "0.25.2" {
+version "0.25.2" "0.26.0" {
   auto-version {
     github-release = "gradle/gradle-profiler"
   }
@@ -24,4 +24,5 @@ sha256sums = {
   "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/0.24.0/gradle-profiler-0.24.0.zip": "74f39882a444d6d5616d35b3e9197f7423cd252f63f339bd3e01f662573b319c",
   "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/0.25.0/gradle-profiler-0.25.0.zip": "911bb597e96f1e4365532820fc352726859e8b6eed85694f98d605a8fa2b4888",
   "https://github.com/gradle/gradle-profiler/releases/download/v0.25.2/gradle-profiler-0.25.2.zip": "33a1add6590af522e0d2dc6a0ea8fe7e828128b6f2ac73a00d6d313964550a53",
+  "https://github.com/gradle/gradle-profiler/releases/download/v0.26.0/gradle-profiler-0.26.0.zip": "c573cdaffac8ecfa60cdd0624274511f46cbdde77fbba39ce35eae0fae7c9877",
 }
