@@ -26,7 +26,8 @@ version "2023.7.0" {
 }
 
 version "2025.10.0" "2025.11.0" "2025.12.0" "2025.12.1" "2026.1.0" "2026.2.0"
-        "2026.3.0" "2026.4.1" "2026.4.2" "2026.5.0" "2026.6.0" "2026.7.0" "2026.8.0" "2026.9.0" {
+        "2026.3.0" "2026.4.1" "2026.4.2" "2026.5.0" "2026.6.0" "2026.7.0" "2026.8.0" "2026.9.0"
+        "2026.9.1" {
   auto-version {
     github-release = "bitwarden/clients"
     ignore-invalid-versions = true
@@ -80,4 +81,7 @@ sha256sums = {
   "https://github.com/bitwarden/clients/releases/download/cli-v2026.9.0/bw-macos-arm64-2026.9.0.zip": "014bc4c093e586197013fac79b9d0f1df1da6004003293c8930406bf1ffde45b",
   "https://github.com/bitwarden/clients/releases/download/cli-v2026.9.0/bw-linux-2026.9.0.zip": "580c1deec8345b19dbac7f8b02babb6cc4fe250c69c567e29061f727f1e40768",
   "https://github.com/bitwarden/clients/releases/download/cli-v2026.9.0/bw-macos-2026.9.0.zip": "d2a1865c2c1f49c34e6f1b38a42c5b95dcf22e34f81121c4962ebda32f708a3e",
+  "https://github.com/bitwarden/clients/releases/download/cli-v2026.9.1/bw-macos-2026.9.1.zip": "7996558e562a7e5d1ef167f625e4dfde0230fe87246e01caf647aff5501ca658",
+  "https://github.com/bitwarden/clients/releases/download/cli-v2026.9.1/bw-linux-2026.9.1.zip": "84289eaf59d691f04242605112f21b00e8dba65acdedbc60dde001a2860f2097",
+  "https://github.com/bitwarden/clients/releases/download/cli-v2026.9.1/bw-macos-arm64-2026.9.1.zip": "9f52edf5fb855e277315c1106f1bae326a87c41b425a4c0e00fd1440e77fa0a6",
 }
