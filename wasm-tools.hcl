@@ -15,7 +15,7 @@ platform "darwin" {
   }
 }
 
-version "1.216.0" "1.259.0" "1.260.0" {
+version "1.216.0" "1.259.0" "1.260.0" "1.261.0" {
   auto-version {
     github-release = "bytecodealliance/wasm-tools"
   }
@@ -34,4 +34,8 @@ sha256sums = {
   "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.260.0/wasm-tools-1.260.0-x86_64-macos.tar.gz": "de0d4cf1e5386496ee9e33663ef56c0de62280f3884a51ca27beb8324d02cddc",
   "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.260.0/wasm-tools-1.260.0-aarch64-macos.tar.gz": "489b726d31f0e30b8a89b30abc797fc2f59fdd8eda9bb87b317cfe6ea9cf9017",
   "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.260.0/wasm-tools-1.260.0-aarch64-linux.tar.gz": "804390ca5955c953e0c6a1eb81e2ef15efc7e3747617b363c3ace3caa9b74474",
+  "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.261.0/wasm-tools-1.261.0-x86_64-linux.tar.gz": "ad62b2176037e93e1348cb65d6212d128ca9f097b63d155569f25215818ff7b1",
+  "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.261.0/wasm-tools-1.261.0-x86_64-macos.tar.gz": "354a84ffeede30ba11f29bc72de76875a977cf43bf1c5bdc3e91e2313e8a854b",
+  "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.261.0/wasm-tools-1.261.0-aarch64-linux.tar.gz": "6f19389a69e21c7dbd2a4e7ae72f807dc999988b48782c706c4102bad3e44487",
+  "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.261.0/wasm-tools-1.261.0-aarch64-macos.tar.gz": "94c4fc9baeada6e793f0d4adeca537633b5d93e9dc6bf718be2f478f4afe0296",
 }
