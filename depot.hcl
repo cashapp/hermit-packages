@@ -16,7 +16,7 @@ version "2.84.2" "2.84.3" "2.84.4" "2.85.0" "2.85.1" "2.85.2" "2.85.3" "2.85.4"
         "2.101.54" "2.101.57" "2.101.60" "2.101.61" "2.101.62" "2.101.63" "2.101.64" "2.101.65"
         "2.101.66" "2.101.67" "2.101.69" "2.101.70" "2.101.72" "2.101.73" "2.101.74" "2.101.75"
         "2.101.76" "2.101.77" "2.101.78" "2.102.1" "2.102.2" "2.102.6" "2.102.7" "2.102.8"
-        "2.102.9" "2.102.13" "2.102.15" {
+        "2.102.9" "2.102.13" "2.102.15" "2.102.16" {
   auto-version {
     github-release = "depot/cli"
   }
@@ -395,4 +395,8 @@ sha256sums = {
   "https://github.com/depot/cli/releases/download/v2.102.15/depot_2.102.15_linux_arm64.tar.gz": "c9c0515a146af35f5f6d09285c680f8ac227656cfc072b305b6c8ade0d0fbc6e",
   "https://github.com/depot/cli/releases/download/v2.102.15/depot_2.102.15_linux_amd64.tar.gz": "987ed8d389d73136b5e9678c44f92c4e5631e73a7e029db13e8777bda32307d8",
   "https://github.com/depot/cli/releases/download/v2.102.15/depot_2.102.15_darwin_amd64.tar.gz": "936a74f6bf4195d637ba6508fe5564258c6e91456fd3e414dc9b83c633230106",
+  "https://github.com/depot/cli/releases/download/v2.102.16/depot_2.102.16_linux_amd64.tar.gz": "6e82427723c9f074b332ccb505a121f7f8594e9d6a5f11e2773ec7da767bc6ec",
+  "https://github.com/depot/cli/releases/download/v2.102.16/depot_2.102.16_darwin_arm64.tar.gz": "7115e75e362c5f9f64e84547686424bfff90fc728d4ef88fa6886215cda3e79d",
+  "https://github.com/depot/cli/releases/download/v2.102.16/depot_2.102.16_linux_arm64.tar.gz": "6a44c71120ac5ceebeb7b02a554b31747529cbca3bc8808a04d36425376498dd",
+  "https://github.com/depot/cli/releases/download/v2.102.16/depot_2.102.16_darwin_amd64.tar.gz": "19dfa29da636b135e1ddb12e40d6a595fca197d798b5d52c8c4f91b3fe625a8c",
 }
