@@ -11,7 +11,7 @@ on "unpack" {
   }
 }
 
-version "1.6.1" "1.6.2" "1.6.3" "1.6.4" "1.6.5" "1.7.0" {
+version "1.6.1" "1.6.2" "1.6.3" "1.6.4" "1.6.5" "1.7.0" "1.7.1" {
   auto-version {
     github-release = "cloudflare/cfssl"
   }
@@ -30,4 +30,6 @@ sha256sums = {
   "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_darwin_amd64": "6625b252053d9499bf26102b8fa78d7f675de56703d0808f8ff6dcf43121fa0c",
   "https://github.com/cloudflare/cfssl/releases/download/v1.7.0/cfssl_1.7.0_linux_amd64": "0f35f42860362c109da24acb16f87e1857f005dfc4b531693993e74433209424",
   "https://github.com/cloudflare/cfssl/releases/download/v1.7.0/cfssl_1.7.0_darwin_amd64": "af30a9cf688431e1ebe5f5bb5df5a220b43808b19c8d0781e348d622ca2ea55e",
+  "https://github.com/cloudflare/cfssl/releases/download/v1.7.1/cfssl_1.7.1_darwin_amd64": "0f1d59edb87b53cc2f37f3027096914833444ca68a7add43b1b34af0ad54401c",
+  "https://github.com/cloudflare/cfssl/releases/download/v1.7.1/cfssl_1.7.1_linux_amd64": "a0fc7012d326705f5a318a0c5de7ef79a8a096e70ece13cebfc9c4af671ee02e",
 }
