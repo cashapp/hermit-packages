@@ -5,7 +5,7 @@ binaries = ["clusteradm"]
 test = "clusteradm --help"
 source = "https://github.com/open-cluster-management-io/clusteradm/releases/download/v${version}/clusteradm_${os}_${arch}.tar.gz"
 
-version "1.2.0" "1.2.1" "1.3.0" "1.3.1" {
+version "1.2.0" "1.2.1" "1.3.0" "1.3.1" "1.4.0" {
   auto-version {
     github-release = "open-cluster-management-io/clusteradm"
   }
@@ -28,4 +28,8 @@ sha256sums = {
   "https://github.com/open-cluster-management-io/clusteradm/releases/download/v1.3.1/clusteradm_darwin_arm64.tar.gz": "fd92e1aef695aec1cba9459fc6764b2845e75d807285b2009585fc90d0d9f5b1",
   "https://github.com/open-cluster-management-io/clusteradm/releases/download/v1.3.1/clusteradm_linux_arm64.tar.gz": "973af6a36363026942aaca10ac2f04cb02778baaff9e4f1d70b700ba24c68d56",
   "https://github.com/open-cluster-management-io/clusteradm/releases/download/v1.3.1/clusteradm_darwin_amd64.tar.gz": "54c377cf6b56aef2882ffc393a11f9182282473b59ccfc5ed1714a9fe63700a0",
+  "https://github.com/open-cluster-management-io/clusteradm/releases/download/v1.4.0/clusteradm_darwin_amd64.tar.gz": "fb269e7516dedd5c456639918a33000640df72db473755a1fa9a650a78fd7f97",
+  "https://github.com/open-cluster-management-io/clusteradm/releases/download/v1.4.0/clusteradm_linux_arm64.tar.gz": "37fa11ea802f526ed3226af892b4066f9e8224ac9d620849f6cdc1ecd074560b",
+  "https://github.com/open-cluster-management-io/clusteradm/releases/download/v1.4.0/clusteradm_darwin_arm64.tar.gz": "fe9bc31db7911093d75fefebda98cda3dc894eee922ea2b9538a31232ff2b960",
+  "https://github.com/open-cluster-management-io/clusteradm/releases/download/v1.4.0/clusteradm_linux_amd64.tar.gz": "aa94241caf353a515a0778e0ce608b4c68ced9b3e7f6fb5fe23f48393926153b",
 }
