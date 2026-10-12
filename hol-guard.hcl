@@ -1,4 +1,4 @@
-description = "HOL Guard command-line tools for AI agent runtime security (Linux x86_64 GNU/glibc)."
+description = "HOL Guard command-line tools for AI agent runtime security (Linux x86_64; requires glibc 2.35 or later)."
 homepage = "https://hol.org/guard"
 binaries = ["hol-guard"]
 test = "hol-guard --help"
