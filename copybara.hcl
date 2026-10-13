@@ -28,7 +28,7 @@ version "20250512" "20250519" "20250526" "20250602" "20250609" "20250616" "20250
         "20260223" "20260302" "20260309" "20260316" "20260323" "20260330" "20260406" "20260413"
         "20260420" "20260427" "20260504" "20260511" "20260518" "20260525" "20260601" "20260608"
         "20260615" "20260622" "20260629" "20260706" "20260713" "20260720" "20260727" "20260824"
-        "20260831" "20260907" "20260914" "20260921" "20260928" "20261005" {
+        "20260831" "20260907" "20260914" "20260921" "20260928" "20261005" "20261012" {
   auto-version {
     github-release = "google/copybara"
   }
@@ -104,4 +104,5 @@ sha256sums = {
   "https://github.com/google/copybara/releases/download/v20260921/copybara_deploy.jar": "3b9307e9751710f2b04422e108ccc3667b9671eb73e91ea264f5f3baaae2f771",
   "https://github.com/google/copybara/releases/download/v20260928/copybara_deploy.jar": "25807645ee17b7b863f4f885012b06192b9952632b540bdf8a21088313fe4925",
   "https://github.com/google/copybara/releases/download/v20261005/copybara_deploy.jar": "e672449e8c1ce99b3ecaddc72afa226d3df3d725777ddb589678f216b21f2d49",
+  "https://github.com/google/copybara/releases/download/v20261012/copybara_deploy.jar": "af92d7dbd569f8bd9a7c3f6cb9dafd68cdb1b6271f86074a73704c516b6a89c9",
 }
