@@ -20,7 +20,7 @@ version "1.7.8" "1.8.5" "1.9.3" "1.9.5" "1.10.2" "1.10.3" "1.9.7" "1.11.0" "1.9.
         "1.23.2" "1.23.3" "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.25.0" "1.25.1" "1.25.2"
         "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.27.0" "1.27.1" "1.27.2" "1.27.3" "1.28.0"
         "1.28.1" "1.28.2" "1.28.3" "1.29.0" "1.29.1" "1.29.2" "1.30.0" "1.30.1" "1.30.2"
-        "1.30.3" "1.30.4" "1.31.0" "1.31.1" {
+        "1.30.3" "1.30.4" "1.31.0" "1.31.1" "1.31.2" {
   auto-version {
     github-release = "istio/istio"
   }
@@ -309,4 +309,7 @@ sha256sums = {
   "https://github.com/istio/istio/releases/download/1.31.1/istioctl-1.31.1-linux-arm64.tar.gz": "9b27a99b2eaa41991ff11f0a5790c604144c3813d0ea21e5c5b84a0ede64b062",
   "https://github.com/istio/istio/releases/download/1.31.1/istioctl-1.31.1-osx.tar.gz": "e3205a241150eab2058d72564b1fab70dac3f881edf172b8594158db61c5926a",
   "https://github.com/istio/istio/releases/download/1.31.1/istioctl-1.31.1-linux-amd64.tar.gz": "a44563904f22f2a8bf6ac4fff1b0bad9f718587c2be6aa807b83fe9049910639",
+  "https://github.com/istio/istio/releases/download/1.31.2/istioctl-1.31.2-linux-amd64.tar.gz": "6ce061447857b54cc90314fd8a72f0f8ed234f67cb0d6e3fb3ef3739caaa5edb",
+  "https://github.com/istio/istio/releases/download/1.31.2/istioctl-1.31.2-linux-arm64.tar.gz": "62a493e287f2547397a6a7fc7d0fa2df91e041081800c9ca8b6bbfa3a4e23378",
+  "https://github.com/istio/istio/releases/download/1.31.2/istioctl-1.31.2-osx.tar.gz": "17be5cc9031d4a44a574e3170914a5ea705148b9e8af1c6ee38f065fdb8790ba",
 }
