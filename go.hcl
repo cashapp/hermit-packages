@@ -21,125 +21,37 @@ version "1.13.5" "1.14.4" "1.14.7" "1.15.2" "1.15.3" "1.15.6" "1.15.7" "1.15.11"
 
 source = "https://golang.org/dl/go${version}.${os}-${arch}.tar.gz"
 
-version "1.16" "1.16.3" "1.16.4" "1.16.5" "1.16.6" "1.16.7" "1.16.15" {
+version "1.16" "1.16.3" "1.16.4" "1.16.5" "1.16.6" "1.16.7" "1.16.15" "1.17rc1" "1.17"
+        "1.17.1" "1.17.2" "1.17.3" "1.17.7" "1.17.8" "1.17.9" "1.17.10" "1.17.11" "1.17.12"
+        "1.17.13" "1.18beta1" "1.18beta2" "1.18" "1.18.1" "1.18.2" "1.18.3" "1.19beta1"
+        "1.18.4" "1.18.5" "1.18.6" "1.18.7" "1.18.10" "1.19" "1.19.1" "1.19.2" "1.19.3"
+        "1.19.4" "1.19.5" "1.19.6" "1.19.7" "1.19.8" "1.19.9" "1.19.10" "1.19.11" "1.19.12"
+        "1.19.13" "1.20" "1.20.1" "1.20.2" "1.20.3" "1.20.4" "1.20.5" "1.20.6" "1.20.7" "1.20.8"
+        "1.20.9" "1.20.10" "1.20.11" "1.20.12" "1.20.13" "1.20.14" "1.21.0" "1.21.1" "1.21.2"
+        "1.21.3" "1.21.4" "1.21.5" "1.21.6" "1.21.7" "1.21.8" "1.21.13" "1.22.0" "1.22.1"
+        "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.12" "1.23.0" "1.23.1" "1.23.2"
+        "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7" "1.23.8" "1.23.9" "1.23.10" "1.23.11"
+        "1.23.12" "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
+        "1.24.8" "1.24.9" "1.24.10" "1.24.11" "1.24.12" "1.24.13" "1.25.0" "1.25.1" "1.25.2"
+        "1.25.3" "1.25.4" "1.25.5" "1.25.6" "1.25.7" {
+}
+
+// Previous minor version. When a new minor version is released, pin the current
+// catch-all block below to its minor version and move this block's versions
+// into the non-auto-versioned block above.
+version "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" "1.26.5" "1.26.6" "1.26.10" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
     html {
       url = "https://go.dev/dl/"
-      xpath = "//span[starts-with(., 'go1.16')]"
+      xpath = "//span[starts-with(., 'go1.26')]"
     }
   }
 }
 
-version "1.17rc1" "1.17" "1.17.1" "1.17.2" "1.17.3" "1.17.7" "1.17.8" "1.17.9"
-        "1.17.10" "1.17.11" "1.17.12" "1.17.13" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      xpath = "//span[starts-with(., 'go1.17')]"
-    }
-  }
-}
-
-version "1.18beta1" "1.18beta2" "1.18" "1.18.1" "1.18.2" "1.18.3" "1.19beta1"
-        "1.18.4" "1.18.5" "1.18.6" "1.18.7" "1.18.10" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      xpath = "//span[starts-with(., 'go1.18')]"
-    }
-  }
-}
-
-version "1.19" "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.19.6" "1.19.7" "1.19.8"
-        "1.19.9" "1.19.10" "1.19.11" "1.19.12" "1.19.13" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      xpath = "//span[starts-with(., 'go1.19')]"
-    }
-  }
-}
-
-version "1.20" "1.20.1" "1.20.2" "1.20.3" "1.20.4" "1.20.5" "1.20.6" "1.20.7" "1.20.8"
-        "1.20.9" "1.20.10" "1.20.11" "1.20.12" "1.20.13" "1.20.14" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      xpath = "//span[starts-with(., 'go1.20')]"
-    }
-  }
-}
-
-version "1.21.0" "1.21.1" "1.21.2" "1.21.3" "1.21.4" "1.21.5" "1.21.6" "1.21.7"
-        "1.21.8" "1.21.13" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      // this XPath will match all versions starting with "go1", i.e. all future versions.
-      // Once there is a new minor version, we'll need to update this, like in the previous sections.
-      xpath = "//span[starts-with(., 'go1.21')]"
-    }
-  }
-}
-
-version "1.22.0" "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.12" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      // this XPath will match all versions starting with "go1", i.e. all future versions.
-      // Once there is a new minor version, we'll need to update this, like in the previous sections.
-      xpath = "//span[starts-with(., 'go1.22')]"
-    }
-  }
-}
-
-version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
-        "1.23.8" "1.23.9" "1.23.10" "1.23.11" "1.23.12" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      // this XPath will match all versions starting with "go1", i.e. all future versions.
-      // Once there is a new minor version, we'll need to update this, like in the previous sections.
-      xpath = "//span[starts-with(., 'go1.23')]"
-    }
-  }
-}
-
-// All other versions
-version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
-        "1.24.8" "1.24.9" "1.24.10" "1.24.11" "1.24.12" "1.24.13" {
-  auto-version {
-    version-pattern = "go([^\\s]+)"
-
-    html {
-      url = "https://go.dev/dl/"
-      // this XPath will match all versions starting with "go1", i.e. all future versions.
-      // Once there is a new minor version, we'll need to update this, like in the previous sections.
-      xpath = "//span[starts-with(., 'go1.24')]"
-    }
-  }
-}
-
-// All other versions
-version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" "1.25.6" "1.25.7"
-        "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" "1.26.5" "1.26.6" "1.26.10" "1.27.0"
-        "1.27.1" "1.27.2" "1.27.3" {
+// Current and future minor versions
+version "1.27.0" "1.27.1" "1.27.2" "1.27.3" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
