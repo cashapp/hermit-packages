@@ -51,7 +51,10 @@ version "147.0.7710.0" "147.0.7712.0" "147.0.7714.0" "147.0.7716.0" "147.0.7718.
         "153.0.8010.2" "154.0.8012.0" "154.0.8014.0" "154.0.8016.0" "154.0.8020.2" "154.0.8026.0"
         "154.0.8028.0" "154.0.8030.0" "154.0.8032.0" "155.0.8039.0" "155.0.8041.0" "155.0.8043.0"
         "155.0.8047.0" "155.0.8049.0" "155.0.8053.0" "155.0.8054.0" "155.0.8058.0" "156.0.8060.2"
-        "156.0.8062.0" "156.0.8066.0" "156.0.8069.0" "156.0.8073.0" {
+        "156.0.8062.0" "156.0.8066.0" "156.0.8069.0" "156.0.8073.0" "156.0.8074.0" "156.0.8075.0"
+        "156.0.8077.0" "157.0.8083.0" "157.0.8087.2" "157.0.8089.0" "157.0.8093.0" "157.0.8095.0"
+        "157.0.8097.0" "157.0.8099.0" "157.0.8101.0" "157.0.8102.0" "158.0.8106.0" "158.0.8108.0"
+        "158.0.8114.0" {
   auto-version {
     json {
       url = "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json"
@@ -556,4 +559,49 @@ sha256sums = {
   "https://storage.googleapis.com/chrome-for-testing-public/156.0.8073.0/mac-x64/chrome-mac-x64.zip": "e13e31a8003caa0ba3d2089907d9aa4b822d7888c2c03729ea6666e6b8ba837a",
   "https://storage.googleapis.com/chrome-for-testing-public/156.0.8073.0/mac-arm64/chrome-mac-arm64.zip": "d72aab2291478d5ab10dda088986afb2c462d0b933ce5d7f71cb33c1b417948f",
   "https://storage.googleapis.com/chrome-for-testing-public/156.0.8073.0/linux64/chrome-linux64.zip": "a914018bd745298f0f220b778d98f5962f702548e4fdf3f8aa797787b9401631",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8074.0/mac-x64/chrome-mac-x64.zip": "22967bfcaa0b77536e5e2a73c3d4722b3af70a17b90b363e1d08065d211c89d8",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8074.0/linux64/chrome-linux64.zip": "a198e1b50d9ec1b916012e4de92569c8e1deb8ecd117dd2281def8f3c77615f7",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8074.0/mac-arm64/chrome-mac-arm64.zip": "6ad77aee4229c69181052aaea3ef75938866e6f7887b09b17ebe997a01ee9d72",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8075.0/linux64/chrome-linux64.zip": "c2dd73f56466a8de6a737be6e3c68a91ac3fe1c6b21de016f153c703c29240df",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8075.0/mac-arm64/chrome-mac-arm64.zip": "fdfcff12e00d936e7f0071ec5426c9f54ecf74eebe5641f68b0cfefb1dab6c47",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8075.0/mac-x64/chrome-mac-x64.zip": "c6caa7d1e03669b183c43b7ec3d67ad2368e2e0de2032ad7147fb55d4b031b3a",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8077.0/mac-arm64/chrome-mac-arm64.zip": "d6a0aa9d637bcf471d30a1c224ca3c6510158b594a99bd424093e0947eb001bb",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8077.0/linux64/chrome-linux64.zip": "dbe040f596581fff06b0f9c1e3f5f854d45607eb08e2f7d05b9e4daac5306e74",
+  "https://storage.googleapis.com/chrome-for-testing-public/156.0.8077.0/mac-x64/chrome-mac-x64.zip": "6779007705696efaef45f2f0cb2e22dc62e056f766835fd8b33200f244685f30",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8083.0/linux64/chrome-linux64.zip": "ca6fa07b9e4bce1727ddb721e50d2da0dd014883cec2b5a95ef75a1d8d482149",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8083.0/mac-arm64/chrome-mac-arm64.zip": "5ca1ddb99b8ca3f739ba0290b7f1529ee06c1ec8a7330e7acc3c88f984440dcd",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8083.0/mac-x64/chrome-mac-x64.zip": "1bf99dc5a420e48749130236e454939d8047bfdfe30caf004fcc7a8721d86036",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8087.2/mac-x64/chrome-mac-x64.zip": "a5ab728ccd1ff11b2f715a451dd0d881e4f7d546cf9a69512c5d73720f3da4dc",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8087.2/mac-arm64/chrome-mac-arm64.zip": "10f0e52bc86940e035cde729d41b5eb0c63f31fd6b5fd98b844cc74366640477",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8087.2/linux64/chrome-linux64.zip": "826aeb3e6dba3ef0a6430f4a232be44d83072ddfc1812e704d82c9f11abf2c61",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8089.0/mac-x64/chrome-mac-x64.zip": "2836b1b684ecc3e5c831ea8603e9fa3a0489fea559e692a17c4ee1776f454ac1",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8089.0/linux64/chrome-linux64.zip": "6593c42b114c72e2d53f0b2905bfc6d6b50a284df51b10e517e56f3f414aca38",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8089.0/mac-arm64/chrome-mac-arm64.zip": "7c9384a9d7bfb8b4db879343ac223ceb07c206c2593eeb182e23918fd8c9726b",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/mac-x64/chrome-mac-x64.zip": "60f2293fd694328cba2bb463369bbebc6c50b61c9687d571dc2a020b7dce39d1",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/linux64/chrome-linux64.zip": "dbf39ca7b9e9e18cfc7f4e5e889607c9e0f08e8b77e308cf79252a5811519a5d",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/mac-arm64/chrome-mac-arm64.zip": "95a218ef7d8633a8d5ced2fc5d4e866bd4363e26c890c1e5f1f19fb167c69e79",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8095.0/linux64/chrome-linux64.zip": "265f12a6481eb654ef496af0fbe6dd3b105953122a42c232f6fe692de5f1783c",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8095.0/mac-arm64/chrome-mac-arm64.zip": "b2a67b6333a6ddc8d1dbdd16b68525762bcfbc1d9d73b09c98f8f7a389738de6",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8095.0/mac-x64/chrome-mac-x64.zip": "6cd331e5d902f27f3d3d2124b434598c24431762b868b2e7b0d54d51b03a9574",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8097.0/mac-x64/chrome-mac-x64.zip": "21086b951dbfc4a31bc62302c9cef6f001841ec0a83d0a4356f0e08f8162905a",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8097.0/linux64/chrome-linux64.zip": "edee5a923d6d6f73450886af65dbe05c3445b4d5f1fa723bb209cbb9643eeeac",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8097.0/mac-arm64/chrome-mac-arm64.zip": "64b806e18876f652c27fef668d4475defd3a4c9e7dcff494ff71f9539ea91556",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/mac-arm64/chrome-mac-arm64.zip": "ee7520ee60e6ebb08950a6be7395e3dbe785dfadf3b53bf009bd0b573dde7e85",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/linux64/chrome-linux64.zip": "7df6cb1054e369307aa7fbb8000736726b8e5a53d451e1a102656fe8693ea421",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/mac-x64/chrome-mac-x64.zip": "9a5a8f600fafc41d4a97c3e308193ad69487ee9feaf2606c1ccdeba936f47b30",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8101.0/mac-arm64/chrome-mac-arm64.zip": "487bd9343abea673b412b906369af46b85f6b6199f149b013424d241c13f7375",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8101.0/mac-x64/chrome-mac-x64.zip": "1248eba11a4b06119cd47279b9e64ee9e4ff9104694867f807548f81c94d7cef",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8101.0/linux64/chrome-linux64.zip": "dd87ab67b0297323555474dc7e2f4bffac6061ca0357a4e99be956c223236d66",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8102.0/mac-x64/chrome-mac-x64.zip": "5cdcd3dd0ecd1c0e4a2b2d82330a5a5bc8c1d5e6011166eef568599fc9b77822",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8102.0/linux64/chrome-linux64.zip": "45cbd2c74f85af1163c69d5c79686244911f620c6a97ecd30354b562793d8cf1",
+  "https://storage.googleapis.com/chrome-for-testing-public/157.0.8102.0/mac-arm64/chrome-mac-arm64.zip": "03f88656a739e42815e05d2e8a5389858f27b9d13fa01248fdc6974aa99f3828",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8106.0/mac-arm64/chrome-mac-arm64.zip": "c266714754f9baa7d1cfcc0e9d3293ba0d89fdc09ad77b5b00132907b004d511",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8106.0/linux64/chrome-linux64.zip": "5c5134dd82e2e26a57790cf286eaba1d07e62cc66ad141defa3dc2416e2513eb",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8106.0/mac-x64/chrome-mac-x64.zip": "62ae3c30581e524fee27696d8e9dc8a4443a6acadff69c9e1975cf695a1cd9af",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8108.0/mac-arm64/chrome-mac-arm64.zip": "9cb35e104c4d6505d449d136266a7b20fdcd2f0d171324afa893f21836fb42fe",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8108.0/linux64/chrome-linux64.zip": "912cf8376528d102f11b51a10103f074bd05f92568b7b7e0325c3584c1edaef8",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8108.0/mac-x64/chrome-mac-x64.zip": "d01f1109b0a7f150c6202b18be771551f258378ca61e4a460b8c6568ebc7c0a5",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8114.0/mac-arm64/chrome-mac-arm64.zip": "09fc095c2bd0490e91297b7bff0684285912a3dfab433cc36160033a14f7aa40",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8114.0/linux64/chrome-linux64.zip": "c2aba1ac2b449094a1b8ffa9a6d9f4eec05d640ae13817905db1ce08406d9983",
+  "https://storage.googleapis.com/chrome-for-testing-public/158.0.8114.0/mac-x64/chrome-mac-x64.zip": "183c113bc25200bf500338fec998b0dd04626c91f3a123f626155d6c8364e6a9",
 }

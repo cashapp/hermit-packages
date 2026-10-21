@@ -28,7 +28,8 @@ platform "windows" {
 source = "https://github.com/kunobi-ninja/kache/releases/download/v${version}/kache-${xarch}-${platform}.${ext}"
 
 version "0.11.0" "0.12.0" "0.13.0" "0.14.0" "0.14.2" "0.16.0" "0.18.0" "0.19.0"
-        "0.20.0" "0.22.0" "0.23.0" "0.25.0" "0.26.3" {
+        "0.20.0" "0.22.0" "0.23.0" "0.25.0" "0.26.3" "0.28.0" "0.28.1" "1.0.0" "1.1.1" "1.2.1"
+        "1.2.2" {
   auto-version {
     github-release = "kunobi-ninja/kache"
   }
@@ -89,4 +90,28 @@ sha256sums = {
   "https://github.com/kunobi-ninja/kache/releases/download/v0.26.3/kache-aarch64-apple-darwin.tar.gz": "c51e7c0e3d5e6bf4a614c8e2287553e602d03e98b71616ddecb2066856fea647",
   "https://github.com/kunobi-ninja/kache/releases/download/v0.26.3/kache-aarch64-unknown-linux-musl.tar.gz": "ff11a4ffe22fadf0b8b1982fb767a1c127496ce492d04134b86ec81ab4fbb1ad",
   "https://github.com/kunobi-ninja/kache/releases/download/v0.26.3/kache-x86_64-apple-darwin.tar.gz": "ee4268d473f3c027f12497c6eddd20834cf9951abb417729c9a672a2d7588815",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.0/kache-aarch64-apple-darwin.tar.gz": "dcb7af37ab8884de23957b342552b42b5666922b4454081ef2bb175dda0310bc",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.0/kache-x86_64-unknown-linux-musl.tar.gz": "63ce67b2ef63497882cb6cd242ae61b721b883f3e70b4937ab9e2539d693a168",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.0/kache-x86_64-apple-darwin.tar.gz": "2f0b33883ae8be5bc6b5e9e9329aa37a7e49c71a1ab950bb1c22e9324e119c1f",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.0/kache-aarch64-unknown-linux-musl.tar.gz": "9419d22722208ea22006498850aba508f4f502ce629a7b855cdc815f649e966e",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.1/kache-x86_64-apple-darwin.tar.gz": "05180b56a4eb8e0600ee47682017a7a81fd4a7cc1e781d481654002af8b082a6",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.1/kache-aarch64-apple-darwin.tar.gz": "253096ab5972fe179b86301abbcfb5944bc9807e3fa3d1720b44b129b86fcbff",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.1/kache-x86_64-unknown-linux-musl.tar.gz": "68635a9f92ce5015a2c48c98b968d1b3707b6dbee0ca725e51d1671c9346f38f",
+  "https://github.com/kunobi-ninja/kache/releases/download/v0.28.1/kache-aarch64-unknown-linux-musl.tar.gz": "b2110805eb24afe9b408e5b9a1e3d0584b7fdd0b79fe8cbe548ab29fbaf50176",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.0.0/kache-x86_64-apple-darwin.tar.gz": "ae0792b17e1c5f2438b39be888896c20aaf006bef5959c44fa3bc5bc66d93b5b",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.0.0/kache-x86_64-unknown-linux-musl.tar.gz": "756e9701a6afb8354fd8b1d76164e13272d320354d84f01197e57d8a3b4be397",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.0.0/kache-aarch64-apple-darwin.tar.gz": "6d1be0079d0689a85fa04b7fed7eaa94f7e08259cafb8bd361a5c25c4c98c4a3",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.0.0/kache-aarch64-unknown-linux-musl.tar.gz": "88abd848be7d300d4e30b8510ebdc45990dae3f96b6591e3498209639cf34701",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.1.1/kache-aarch64-apple-darwin.tar.gz": "e5f59b85c30d0fcc2d2743af7626774b39680fcb064243887bed4377e725c611",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.1.1/kache-x86_64-apple-darwin.tar.gz": "7f5b1d1dc8cf5eb60786ead7d6a0709c87adf1c6efcf6028c3b9758988f59af5",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.1.1/kache-x86_64-unknown-linux-musl.tar.gz": "2ef097121b87ed7a24f9b40fbf5d3799837b4c2ac75391d2264ea5cc6c38b3d7",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.1.1/kache-aarch64-unknown-linux-musl.tar.gz": "3c2e82f42092123a937004aa1a3b5efa766c39b071eedce2de9e9b51fbe91b08",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.1/kache-aarch64-apple-darwin.tar.gz": "fb4b8209eeff6ba5c73758763368c2045e556c316e185cf294be280132bebdea",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.1/kache-aarch64-unknown-linux-musl.tar.gz": "fd80d47e78bdb478aac6c24239c0daeec7024913f5e69b457a1e84d87ff590db",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.1/kache-x86_64-apple-darwin.tar.gz": "ce2cc46f3f2d043cf41432bdee3e74b7ec4aa7ba8d390f3ceedbba6a39cc7c91",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.1/kache-x86_64-unknown-linux-musl.tar.gz": "9b2b86d592c5ffb53400218f450fc6b02008bd132827ae6cd133ec8859c9b753",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.2/kache-x86_64-apple-darwin.tar.gz": "9a1c3ecc89cf36b23512a93868226140d46f1f70cf6cb648bfe08eeafb25a368",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.2/kache-aarch64-apple-darwin.tar.gz": "10d09e146852a8df8796cf642ca58872107a7f391b7647ec8cc253cf289af0a9",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.2/kache-x86_64-unknown-linux-musl.tar.gz": "f2f6555dee50945c2a90a7fb793c2084a00cc6459d08ac2306d38d905064321b",
+  "https://github.com/kunobi-ninja/kache/releases/download/v1.2.2/kache-aarch64-unknown-linux-musl.tar.gz": "38856cee613f6ee0ec579099fc9205b840a0b45bb763f4b8fa782d25d93c18ef",
 }

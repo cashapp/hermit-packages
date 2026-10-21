@@ -66,7 +66,7 @@ version "2.0.40" "2.1.26" "2.2.4" "2.4.2" "2.4.4" "2.4.7" "2.5.8" "2.6.4" "2.7.3
         "2.36.18" "2.36.19" "2.36.20" "2.36.21" "2.36.22" "2.36.24" "2.36.25" "2.36.27"
         "2.36.29" "2.36.31" "2.36.32" "2.36.34" "2.36.36" "2.36.38" "2.36.39" "2.36.40"
         "2.36.42" "2.36.43" "2.36.44" "2.36.45" "2.36.46" "2.36.49" "2.36.50" "2.37.0" "2.37.1"
-        "2.37.3" {
+        "2.37.3" "2.37.4" "2.37.5" "2.37.8" "2.37.9" "2.37.11" "2.37.12" "2.38.1" "2.38.3" {
   auto-version {
     git-tags = "https://github.com/aws/aws-cli.git"
   }
@@ -1423,4 +1423,28 @@ sha256sums = {
   "https://awscli.amazonaws.com/AWSCLIV2-2.37.3.pkg": "ffd09341349048e1a7ed518314b869e71fc2cec7a5431081cd068d257fa5ce61",
   "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.3.zip": "db5b93dbdc2c129e0e86e19e60c180a58d6cd0d6db010dbc9eb8859e98210886",
   "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.3.zip": "78903b609938e6c06a02bd2c157af3af4fe184868e5507d6ed588cb68a7a2764",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.4.zip": "869aa72b9bdb931a9158d0cea9f4f0dc3f7aecf24ea1552da549b87907d28ab2",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.4.zip": "0c59444563f4df735eeb5481f6165f95dae546c33761760d8be9855d5cfe2d12",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.37.4.pkg": "6cba8327461d2b804e575fd841272951eecb253b2ca94c8a58acd19d5f283786",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.37.5.pkg": "ad0fb4f420172d9388eebb5134fbadcef96ea6051cc11ae269e0db9c38874523",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.5.zip": "850ba65f1342a1f725f4868de3c4621ea729af31dac96e54b574cbb0ef309029",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.5.zip": "95d2bac9242185ae3a2970ec38c8766d3bf7b31609a0302dec3643522a676d32",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.37.8.pkg": "70c8c35b59db8eaebc2ddb398be1c343361a21b7dc8a57395615ebd77249ee1f",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.8.zip": "6a2f98fee0901ff623ff9abb5c80f4d67c40e5c0ac5e2ad7afa2ba756a7d5088",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.8.zip": "00c4bac1cac8624b728d991f821428d5de1e0cb56e3803045b85bff63bedee8b",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.37.9.pkg": "a2fae32b07ca81c4327e3858ea810b1042bdfc91745a97ca30f9d5297e21834c",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.9.zip": "e7d2cca3622af4765871fe9ce7eeed03acd09dca10a99ebc46e92f79d78765c0",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.9.zip": "6b3a6a3d7bb3997928f0bdf7b866914224abf242c2e54e1dcebbe84bee64f356",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.11.zip": "759f4c75c832c171ce1401a956c5b6c9fe932c311e36786344641bd76adaf08a",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.11.zip": "41e1cf5e301ed04ece2ca3c2d8bdf6c3584e8b67292269689cc3e80f97de71ea",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.37.11.pkg": "7b27fad62a24222ed4c6231c853f9fdc257ae5804c2839335fa24eff19e1873a",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.12.zip": "e6d3c672fb36ed4b12c354c39a993eee2b34da1437cafb10bac4480840cfa83f",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.37.12.pkg": "c2290ff2f067bb548088c9210dfbce088ec10095d809aacfa556a2cf9929de88",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.12.zip": "829c76096e05f743267d75098bc7cc7cfae799fc7e568554ebaa6d78e6aba753",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.38.1.zip": "91360c0adb2ae508334ff657dce4787b598b443a11cf3dc58e08b74f12e16009",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.38.1.zip": "b11ed416d91f4251da363a17706938eeaf0e520745754c104c0c1890dd8363c7",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.38.1.pkg": "390f461072e2cd65dfb11e9d53653ec66296a6efb4ce2c87a2e8473fff63433d",
+  "https://awscli.amazonaws.com/AWSCLIV2-2.38.3.pkg": "e3e5f1efda9875286e897be6ca2d91db63e1118f93fb02e44693292131831b32",
+  "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.38.3.zip": "30452d9d2e47979ddca5dd9d0fc13c3b42ad6185b44916e54e3f5ef31fe70ee9",
+  "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.38.3.zip": "ae55fa4aa6653fc296f38eac500873e3b0e798d02a35f305c692d02fc835c548",
 }

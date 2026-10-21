@@ -16,7 +16,8 @@ version "2.42.0" "2.43.0" "2.45.0" "2.46.0" "2.47.0" "2.48.0" "2.49.0" "2.50.0"
         "2.138.0" "2.139.0" "2.140.0" "2.141.0" "2.142.0" "2.143.0" "2.144.0" "2.145.0"
         "2.146.0" "2.147.0" "2.149.0" "2.150.0" "2.152.0" "2.153.0" "2.154.0" "2.155.0"
         "2.156.0" "2.157.0" "2.158.0" "2.159.0" "2.163.0" "2.164.0" "2.166.0" "2.168.0"
-        "2.169.0" "2.170.0" "2.173.0" "2.176.0" "2.178.0" "2.181.0" "2.182.0" "2.183.0" {
+        "2.169.0" "2.170.0" "2.173.0" "2.176.0" "2.178.0" "2.181.0" "2.182.0" "2.183.0"
+        "2.185.0" "2.186.0" "2.191.0" "2.197.0" "2.201.0" "2.203.0" {
   auto-version {
     github-release = "palantir/godel"
   }
@@ -140,4 +141,10 @@ sha256sums = {
   "https://github.com/palantir/godel/releases/download/v2.181.0/godel-2.181.0.tgz": "66a784a6a921c1e28a54dcbbe9bf51c83c9ef48c65de9f965745e56b8fccf0af",
   "https://github.com/palantir/godel/releases/download/v2.182.0/godel-2.182.0.tgz": "e9d13476b209a96e8af89cc9d26f937009835b13b38c148ccf72b8b0a09d381a",
   "https://github.com/palantir/godel/releases/download/v2.183.0/godel-2.183.0.tgz": "a403f00e5a0feed04829a11f784d5fdb69ae8832bddbc5894798a8c6eef8e573",
+  "https://github.com/palantir/godel/releases/download/v2.185.0/godel-2.185.0.tgz": "feec43cb500633f5e2809120c3bffeab06954985097a1e31dab0d279b2e9e009",
+  "https://github.com/palantir/godel/releases/download/v2.186.0/godel-2.186.0.tgz": "6c0af91f162b0f4ea3f05c0320b5be4924ae1632f1583da5bac6ded9c4e71ce3",
+  "https://github.com/palantir/godel/releases/download/v2.191.0/godel-2.191.0.tgz": "2d0dd9374d4b11fede15a9c9970edacdaab5a90039b76a184cd771fe6d30da30",
+  "https://github.com/palantir/godel/releases/download/v2.197.0/godel-2.197.0.tgz": "ec83ef30cbe75fcb007651a2611806b2e515c0444871d6b882ed1dee8f922753",
+  "https://github.com/palantir/godel/releases/download/v2.201.0/godel-2.201.0.tgz": "16080e2f0a38ff82cba804325a49deb2fa1a5c20824338953f9f7184bcea1f35",
+  "https://github.com/palantir/godel/releases/download/v2.203.0/godel-2.203.0.tgz": "451c50bf5040a78c94c0b77f9693e9d31a0306bb448274f3612be8eb1cc7753c",
 }

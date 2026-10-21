@@ -19,7 +19,7 @@ on "unpack" {
 
 version "1.22.0" "1.23.0" "1.24.0" "1.25.0" "1.25.1" "1.25.2" "1.26.0" "1.27.0"
         "1.28.0" "1.29.0" "1.30.0" "1.31.0" "1.32.0" "1.33.0" "1.34.0" "1.34.1" "1.35.0"
-        "1.36.1" {
+        "1.36.1" "1.37.0" {
   auto-version {
     github-release = "google/google-java-format"
   }
@@ -44,4 +44,5 @@ sha256sums = {
   "https://github.com/google/google-java-format/releases/download/v1.34.1/google-java-format-1.34.1-all-deps.jar": "79e1cb5c8bd698c572c0ae504d07816129b8fc06204fb49550bec83bd5ea0aa8",
   "https://github.com/google/google-java-format/releases/download/v1.35.0/google-java-format-1.35.0-all-deps.jar": "bfb7f9ead6cd328389bc2da53860443bc0e805dfd08cc889bfdf43b26cb2a6e8",
   "https://github.com/google/google-java-format/releases/download/v1.36.1/google-java-format-1.36.1-all-deps.jar": "25b400f003089d23cc5320cdaf1a16cabee19b8aa3434d0ff021b3d9f42154b4",
+  "https://github.com/google/google-java-format/releases/download/v1.37.0/google-java-format-1.37.0-all-deps.jar": "834b2a0c38cb774953322a84b5ca3f2f40dd3156650b3cd44d3b744345962f7a",
 }

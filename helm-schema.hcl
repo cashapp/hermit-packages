@@ -35,7 +35,7 @@ platform "windows" {
   }
 }
 
-version "0.23.2" "0.23.3" "0.23.4" "0.23.5" {
+version "0.23.2" "0.23.3" "0.23.4" "0.23.5" "0.24.0" {
   auto-version {
     github-release = "dadav/helm-schema"
   }
@@ -58,4 +58,8 @@ sha256sums = {
   "https://github.com/dadav/helm-schema/releases/download/0.23.5/helm-schema_0.23.5_Linux_arm64.tar.gz": "9685fb7b11de591aebe0bcd62b84edbeb6ae190876078ca42cbed7116acd9f21",
   "https://github.com/dadav/helm-schema/releases/download/0.23.5/helm-schema_0.23.5_Linux_x86_64.tar.gz": "b6e5334de9651a06b5fc7af573a114fda5177ee13d4c3dc59e3b6f21d0695552",
   "https://github.com/dadav/helm-schema/releases/download/0.23.5/helm-schema_0.23.5_Darwin_x86_64.tar.gz": "6f5049c58d3f7f10a985242e72c45b62fc45c66e3b02cb9faeca6cc272beec1c",
+  "https://github.com/dadav/helm-schema/releases/download/0.24.0/helm-schema_0.24.0_Darwin_x86_64.tar.gz": "f532fc47757c88cd11f0185c3b91e8d76a46a6cdc7a1ae70e13e741679ef6f4d",
+  "https://github.com/dadav/helm-schema/releases/download/0.24.0/helm-schema_0.24.0_Darwin_arm64.tar.gz": "bfe5b19b2d65e2dda2d6805166683465d2acc08527ceb4d706bedddd87e654a4",
+  "https://github.com/dadav/helm-schema/releases/download/0.24.0/helm-schema_0.24.0_Linux_x86_64.tar.gz": "0a075160075216d820385aa3dfb738052fee6cea56802de1551d1bda60c26f36",
+  "https://github.com/dadav/helm-schema/releases/download/0.24.0/helm-schema_0.24.0_Linux_arm64.tar.gz": "c1e7221a2298eee31e409f9781a04a923a03ae6bb3e2c936b62b00881264224b",
 }

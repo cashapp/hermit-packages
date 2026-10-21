@@ -21,7 +21,7 @@ version "1.4.0" "1.5.0" "1.6.0" "1.7.0" "1.8.0" "1.9.0" "1.10.1" "1.11.0" "1.13.
         "1.53.4" "1.53.5" "1.53.6" "1.53.7" "1.53.8" "1.54.0" "1.54.2" "1.55.0" "1.56.0"
         "1.56.1" "1.56.2" "1.56.3" "1.56.4" "1.56.5" "1.56.6" "1.56.7" "1.56.9" "1.57.4"
         "1.57.5" "1.57.6" "1.57.8" "1.57.9" "1.57.10" "1.57.11" "1.57.13" "1.58.0" "1.58.2"
-        "1.58.4" {
+        "1.58.4" "1.58.6" "1.58.7" {
   auto-version {
     github-release = "encoredev/encore"
   }
@@ -536,4 +536,12 @@ sha256sums = {
   "https://d2f391esomvqpi.cloudfront.net/encore-1.58.4-darwin_arm64.tar.gz": "7cfcba76843a3e1fe42cffba0e94670f562f4cdca1773ee38fecdb9d8dee0ecd",
   "https://d2f391esomvqpi.cloudfront.net/encore-1.58.4-linux_arm64.tar.gz": "d46a86b48b0fe68b3cd98e254337a5222772c3dc0fa5f76da008649a37604823",
   "https://d2f391esomvqpi.cloudfront.net/encore-1.58.4-linux_amd64.tar.gz": "69c2b5959f52adc9c249edba0562987da2d06f1f59926be52a410ceddd5734b6",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.6-darwin_arm64.tar.gz": "d753656373aa9c271f4a7441493cf5a1d3a92cf5d316fb9686dfd9ca357ef497",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.6-linux_arm64.tar.gz": "874cc002a7132600f12d51f749ec2f6e061b6859a9988e2cb252e9e8da3e0d25",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.6-linux_amd64.tar.gz": "46add1a88eb02349e4ce51269fdade91c52e8fc044c972cc0ae40129a1eb91b2",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.6-darwin_amd64.tar.gz": "f0400b53c80ad95f99c16e25e0da6115ce28a70e1d6958d5ebfb3925f328d4aa",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.7-linux_arm64.tar.gz": "3eab6770403c13e1d654076cee3bb3a7f64f38c6575563bf68ab285f320c372c",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.7-linux_amd64.tar.gz": "09ae05a370a76386af94b5010a9043b86c7661c25c6572369c1209bc66c0c39e",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.7-darwin_arm64.tar.gz": "786dbd6cee3d0bc6b322ca61852fbd27d355e736a879a01c7b5731e93308fdba",
+  "https://d2f391esomvqpi.cloudfront.net/encore-1.58.7-darwin_amd64.tar.gz": "4fd1c9793991daee9ada3212216d19b53d7d72fc10850281aee864c427006bd2",
 }

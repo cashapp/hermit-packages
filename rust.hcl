@@ -39,7 +39,7 @@ version "1.51.0" "1.52.1" "1.53.0" "1.54.0" "1.55.0" "1.56.0" "1.57.0" "1.58.0"
         "1.77.1" "1.77.2" "1.78.0" "1.79.0" "1.80.0" "1.80.1" "1.81.0" "1.82.0" "1.83.0"
         "1.84.0" "1.84.1" "1.85.0" "1.85.1" "1.86.0" "1.87.0" "1.88.0" "1.89.0" "1.90.0"
         "1.91.0" "1.91.1" "1.92.0" "1.93.0" "1.93.1" "1.94.0" "1.94.1" "1.95.0" "1.96.0"
-        "1.96.1" "1.97.0" "1.97.1" "1.98.0" "1.98.1" {
+        "1.96.1" "1.97.0" "1.97.1" "1.98.0" "1.98.1" "1.99.0" "1.99.1" {
   auto-version {
     github-release = "rust-lang/rust"
   }
@@ -314,4 +314,12 @@ sha256sums = {
   "https://static.rust-lang.org/dist/rust-1.98.1-aarch64-unknown-linux-gnu.tar.xz": "0b514a8cc1cbcd939bff0f151661fe58b6ea5c7a7f645a5098c69e32e8c1e0a2",
   "https://static.rust-lang.org/dist/rust-1.98.1-aarch64-apple-darwin.tar.xz": "8f7c9de34c12c66dc55a6dbdd63b2b9645d4418775d4b975b0078a602f66e3e8",
   "https://static.rust-lang.org/dist/rust-1.98.1-x86_64-unknown-linux-gnu.tar.xz": "5326b36c53de11d148c8f8dab6553a3d1006c2cfd32123683073fad3c302605b",
+  "https://static.rust-lang.org/dist/rust-1.99.0-aarch64-apple-darwin.tar.xz": "0306e4813a6fa7d4353de68f0bb9a8216b4ca04b1cdee409d0e301f958e55dd2",
+  "https://static.rust-lang.org/dist/rust-1.99.0-x86_64-apple-darwin.tar.xz": "764a72c16eb6c1ae7979766ac9b178f581a6bfc67f253717810b523ab53d4dc8",
+  "https://static.rust-lang.org/dist/rust-1.99.0-aarch64-unknown-linux-gnu.tar.xz": "5a30ce742be0835d9b23fc862db5cbbbc71464e1c9b1fca22917e10e4ba32a92",
+  "https://static.rust-lang.org/dist/rust-1.99.0-x86_64-unknown-linux-gnu.tar.xz": "891c6366d7100feda0bca4c03ce63f3c9ac827cbebbc283e7433061d42c6a376",
+  "https://static.rust-lang.org/dist/rust-1.99.1-aarch64-apple-darwin.tar.xz": "30976378b6aaefd1861ba475905c6ba22a44c981418ce52285006af26337f98c",
+  "https://static.rust-lang.org/dist/rust-1.99.1-x86_64-apple-darwin.tar.xz": "13b237d0294bad3bb7b18d559517947ed8348ea25812fa3b468c904996f80e34",
+  "https://static.rust-lang.org/dist/rust-1.99.1-aarch64-unknown-linux-gnu.tar.xz": "a48fb1e853be56ce9b8e2751f5464dbd5e16440cd81e237920f3a5e7e806333e",
+  "https://static.rust-lang.org/dist/rust-1.99.1-x86_64-unknown-linux-gnu.tar.xz": "231fcae47ee950621374725b5fc3b5441d2fbda2955ac45dd7dc816d8876cfe7",
 }

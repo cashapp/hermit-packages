@@ -22,7 +22,8 @@ version "1.6.4" "1.6.5" "1.6.6" "1.6.7" "1.6.8" "1.6.9" "1.7.0" "1.7.1" "1.7.2" 
         "1.15.1" "1.15.3" "1.15.4" "1.15.5" "1.15.6" "1.15.7" "1.15.8" "1.15.9" "1.15.10"
         "1.15.11" "1.16.0" "1.16.1" "1.16.2" "1.16.3" "1.16.4" "1.16.5" "1.16.6" "1.16.7"
         "1.17.3" "1.17.4" "1.17.5" "1.17.6" "1.17.7" "1.17.8" "1.17.9" "1.18.0" "1.18.1"
-        "1.19.0" "1.19.1" "1.20.0" "1.20.1" "1.21.0" "1.21.1" "1.22.0" "1.23.0" {
+        "1.19.0" "1.19.1" "1.20.0" "1.20.1" "1.21.0" "1.21.1" "1.22.0" "1.23.0" "1.24.0"
+        "1.25.1" "1.25.2" "1.25.3" "1.26.0" {
   auto-version {
     github-release = "cargo-bins/cargo-binstall"
   }
@@ -296,4 +297,19 @@ sha256sums = {
   "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.23.0/cargo-binstall-universal-apple-darwin.zip": "38e587cc7ae94b53407b174928a9c516580c29027de14d825063855c3d03ed4d",
   "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.23.0/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "cdada45ad6bb501185ab309f5eef3f628b6bc44460746565cb3e0c7538815bf3",
   "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.23.0/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "c458cfe9534d1958f159fc17b5f50e839297b4ee752b23ffdd80c5e15a734c42",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.24.0/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "fa5d4362758d13c38c6630260528c895b535e96afeed08ed7003caf722524ab9",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.24.0/cargo-binstall-universal-apple-darwin.zip": "db2292691c155006acc306a0d42238fa8da2510c0fccac6272aabb49cf0837d9",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.24.0/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "ab139b59b86ce14baf9a8da0592dd4c73fdc8b8a7d74a9746881bd68d411f4d8",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.1/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "0c209d4fecaf428358b1a798d35e2372c98a9a5513c541ba08450c2ba1b2bf69",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.1/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "7566158bf76a99974e081abe442978b8a3e5f4e834ee8247d847902b588b2133",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.1/cargo-binstall-universal-apple-darwin.zip": "9b4706fbcbdae323720f55a400898e74ce98c08b7acd2740923b172bbe514be1",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.2/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "de0877ebf0ccf3e6901c1a2b0d33a3033acba0555df2cd4ca0fde1566577b9f9",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.2/cargo-binstall-universal-apple-darwin.zip": "c960af5fd078c5e7cf07605db78b9a1ecf9c9096fc3056d34e13127d9466c8ea",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.2/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "ca1217094690d15606c050e3d085bc03ce6fe12486de9a815d85dae345bb6803",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.3/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "a974ce4e525edfb78f953869cbe7c1b57d00ae04358adc1ae47462120d80bb6c",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.3/cargo-binstall-universal-apple-darwin.zip": "412c496635e082f921e75296e41381e336cd6c33bb4b87f7abc0ac2f686ff197",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.25.3/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "6beb20bdaa19033d51e296a3610e812e0b41f43bd6646287e4d510b3256bcda0",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.0/cargo-binstall-universal-apple-darwin.zip": "3bc6a55a29defee4f0d4e250b706f6fd6d0159a595703d4711950ed77e4f8cc9",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.0/cargo-binstall-x86_64-unknown-linux-gnu.tgz": "e59aec44d811ab53b1bb4c5e0b57e433b017999c37e24ca577a3afbefd49dabd",
+  "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.0/cargo-binstall-aarch64-unknown-linux-gnu.tgz": "255fd8d52e3a977ddb5e74fee58e7ef14b31c09d4eab5ad678e9967baedefced",
 }

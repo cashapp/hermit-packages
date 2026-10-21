@@ -29,7 +29,7 @@ on "unpack" {
   }
 }
 
-version "4.0.5" "4.1.0" "4.1.1" "4.1.2" "4.1.4" "4.2.0" "4.3.0" "4.3.1" {
+version "4.0.5" "4.1.0" "4.1.1" "4.1.2" "4.1.4" "4.2.0" "4.3.0" "4.3.1" "4.3.2" {
   auto-version {
     github-release = "leoafarias/fvm"
   }
@@ -68,4 +68,8 @@ sha256sums = {
   "https://github.com/leoafarias/fvm/releases/download/4.3.1/fvm-4.3.1-macos-arm64.tar.gz": "9c69d11d792963ce52a2dce457d4ec7f1d9c5da38d17d3088cdfcae4a6e3c525",
   "https://github.com/leoafarias/fvm/releases/download/4.3.1/fvm-4.3.1-linux-x64.tar.gz": "ad59c861bdbef80c9f262d30ab28debd374afad0ef4b10b99a47bbab77e08bde",
   "https://github.com/leoafarias/fvm/releases/download/4.3.1/fvm-4.3.1-linux-arm64.tar.gz": "ea4c4da1b4dcbf17e250c477711b453d54113fadbebea5b43971d31e00358210",
+  "https://github.com/leoafarias/fvm/releases/download/4.3.2/fvm-4.3.2-macos-arm64.tar.gz": "c9b1e67e5ff4ddae4710669ff9aa312f750947f68fac5b15fc5d248fb4419342",
+  "https://github.com/leoafarias/fvm/releases/download/4.3.2/fvm-4.3.2-macos-x64.tar.gz": "66a4e7c8907ba6141eea13168af54be01f07258162ee1d0ed82299b37302e7d2",
+  "https://github.com/leoafarias/fvm/releases/download/4.3.2/fvm-4.3.2-linux-arm64.tar.gz": "df05c7682eeac21b08939e7be131687dc3d54fd5575b5e4bca931717ddeb0a01",
+  "https://github.com/leoafarias/fvm/releases/download/4.3.2/fvm-4.3.2-linux-x64.tar.gz": "17dfced05f5b0cb32398dadd0691acc2bc458e8c4b0045a781cd5aa6c85f6ecb",
 }

@@ -5,7 +5,7 @@ binaries = ["kcl"]
 test = "kcl version"
 
 version "0.11.4" "0.10.10" "0.12.0" "0.12.1" "0.12.2-rc.1" "0.12.3" "0.12.4" "0.12.5"
-        "0.12.6" "0.12.7" "0.12.8" "0.12.9" "0.12.10" {
+        "0.12.6" "0.12.7" "0.12.8" "0.12.9" "0.12.10" "0.13.0" "0.13.1" {
   auto-version {
     github-release = "kcl-lang/cli"
   }
@@ -64,4 +64,12 @@ sha256sums = {
   "https://github.com/kcl-lang/cli/releases/download/v0.12.10/kcl-v0.12.10-darwin-amd64.tar.gz": "5370632b6d424376d5e2fbb574f981ce899ead24ae29625fb6c234e48379326f",
   "https://github.com/kcl-lang/cli/releases/download/v0.12.10/kcl-v0.12.10-darwin-arm64.tar.gz": "bec4e327081754accfbb0563a2440c66305a9f5f4e62cbd054c1b4e1e57b548c",
   "https://github.com/kcl-lang/cli/releases/download/v0.12.10/kcl-v0.12.10-linux-amd64.tar.gz": "ef66a88fbed2331ae95fbc4304a1d615827ebec13cbd8fdc712a23e866b85816",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.0/kcl-v0.13.0-linux-arm64.tar.gz": "02b5844cce09ecc716690c8c53315780d6dbdf2dd33668141aa1ffe28a6bcfa6",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.0/kcl-v0.13.0-linux-amd64.tar.gz": "1cb3490c4df4c823ae6b76289797791c1077611f677d2b3a3d0bc292dc704f2e",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.0/kcl-v0.13.0-darwin-arm64.tar.gz": "ebbfaded2efa0b6b9317efb316ba1f6d121b74b8f34da1e617aab4116cc9b65e",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.0/kcl-v0.13.0-darwin-amd64.tar.gz": "69d25376ad47a2e7e1e6ac3739f13b00d771cfd8cae893d7bd6ab0314e82683d",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.1/kcl-v0.13.1-darwin-amd64.tar.gz": "98d5e4ecc7b7ae53936296a3e686bac68c6192221ca232255dee4d8a1f7f183e",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.1/kcl-v0.13.1-darwin-arm64.tar.gz": "d1b14ca49917c9efa4fc4537dc18e9bdb0d26797a4996794fe8b45084cb8a151",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.1/kcl-v0.13.1-linux-arm64.tar.gz": "f609a72d876812a34d320e6da16a0be33e7fd058b603dd0cbe809699b230221b",
+  "https://github.com/kcl-lang/cli/releases/download/v0.13.1/kcl-v0.13.1-linux-amd64.tar.gz": "c21f29c876eface7f69eb60bfe57dde84a5e5bc5c33fb1bb32901dfd9da1c30b",
 }
