@@ -27,7 +27,12 @@ jobs:
           #   hermit manifest add-digests $file
           # done
 
-          hermit -d manifest auto-version --continue-on-error --update-digests $(ls -1 *.hcl | shuf | head -n $(( $(ls -1 *.hcl | wc -l) / 2 )))
+          # Check one half of the packages per run to limit download/API load,
+          # alternating the halves by day so that every package is checked
+          # every second night. The halves are the even and odd lines of the
+          # sorted file list; a random draw can skip a package for many nights.
+          half=$(( $(date -u +%s) / 86400 % 2 ))
+          hermit -d manifest auto-version --continue-on-error --update-digests $(ls -1 *.hcl | awk -v h="$half" 'NR % 2 == h')
 
           curl --header "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/rate_limit
           if git diff --exit-code HEAD; then
