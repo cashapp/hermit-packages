@@ -150,6 +150,17 @@ version "3.14.3" {
   }
 }
 
+version "3.14.9" "3.15.1" {
+  vars = {
+    "release_date": "20261021",
+  }
+
+  // Linux arm64 has pgo for 3.14 and 3.15
+  platform "linux" "arm64" {
+    source = "https://github.com/indygreg/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-unknown-linux-gnu-pgo+lto-full.tar.zst"
+  }
+}
+
 sha256sums = {
   "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-3.8.10-x86_64-unknown-linux-gnu-pgo+lto-20210506T0943.tar.zst": "aec8c4c53373b90be7e2131093caa26063be6d9d826f599c935c0e1042af3355",
   "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-3.8.10-x86_64-apple-darwin-pgo+lto-20210506T0943.tar.zst": "8d06bec08db8cdd0f64f4f05ee892cf2fcbc58cfb1dd69da2caab78fac420238",
@@ -309,4 +320,12 @@ sha256sums = {
   "https://github.com/indygreg/python-build-standalone/releases/download/20260211/cpython-3.14.3+20260211-x86_64-apple-darwin-pgo+lto-full.tar.zst": "3e55c3d0914e7e4f2e7a135c80077a0ac635de9dcfa0c08f2544fc2165e264a4",
   "https://github.com/indygreg/python-build-standalone/releases/download/20260211/cpython-3.14.3+20260211-aarch64-apple-darwin-pgo+lto-full.tar.zst": "d016c5a16c6a246f56cf2fae2a4150a339311a30787347ff1c1e063295c82401",
   "https://github.com/indygreg/python-build-standalone/releases/download/20260211/cpython-3.14.3+20260211-aarch64-unknown-linux-gnu-pgo+lto-full.tar.zst": "13a08dca6f29df3701f1846184db78499d23014f6d5a70fa6c2c1f29baee350a",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.14.9+20261021-aarch64-unknown-linux-gnu-pgo+lto-full.tar.zst": "f5726037fbea57a8d83ddb6bbe26242eeb96928fb396da2f6d9dbf3641aaff61",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.14.9+20261021-aarch64-apple-darwin-pgo+lto-full.tar.zst": "6404c3ca06e7a8abf3bb5247bf359c8f06c3d0e1d0421a6c539b5457cd885537",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.14.9+20261021-x86_64-unknown-linux-gnu-pgo+lto-full.tar.zst": "92f6abbce0283ed317873615396b5c43ccdcdf13ae9c7d68c9a07651df527528",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.14.9+20261021-x86_64-apple-darwin-pgo+lto-full.tar.zst": "b51b8a1f266a4b633cb75a754fa3ab712b5f4255c5a5d550a0412368e9bee605",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.15.1+20261021-aarch64-apple-darwin-pgo+lto-full.tar.zst": "3ba97f493a5fc72d9cad9f2d83cb5524b4c67e78140e4a6769bb0e0747f06e41",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.15.1+20261021-x86_64-unknown-linux-gnu-pgo+lto-full.tar.zst": "ed8c818ad80faeb7cb3a37f5d2283bd5f8350350b007bdda092026b9048ccb33",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.15.1+20261021-x86_64-apple-darwin-pgo+lto-full.tar.zst": "4f6eb28cf8222cdddbaba2134905712af45c8c54053cf220a50fa54a7363d212",
+  "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.15.1+20261021-aarch64-unknown-linux-gnu-pgo+lto-full.tar.zst": "9e208dab28830673758bdf2af2623756646aa39481cc246360c5465ba7156afb",
 }
