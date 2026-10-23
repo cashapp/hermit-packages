@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # ratchet:actions/checkout@v2
+        with:
+          # Deploy keys are a bypass actor in the master ruleset, which lets
+          # this job push directly. GITHUB_TOKEN cannot be granted a bypass.
+          ssh-key: ${{ secrets.AUTOVERSION_DEPLOY_KEY }}
       - name: Init Hermit
         run: ./bin/hermit env -r >> $GITHUB_ENV
       - name: Auto-version
