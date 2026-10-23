@@ -1,8 +1,8 @@
 description = "Declarative PostgreSQL role graph manager. Define roles, memberships, object privileges, and default privileges in YAML."
 binaries = ["pgroles"]
 test = "pgroles --version"
-
 strip = 1
+
 platform "darwin" {
   source = "https://github.com/hardbyte/pgroles/releases/download/v${version}/pgroles-v${version}-${xarch}-apple-darwin.tar.gz"
 }
@@ -11,7 +11,8 @@ platform "linux" {
   source = "https://github.com/hardbyte/pgroles/releases/download/v${version}/pgroles-v${version}-${xarch}-unknown-linux-musl.tar.gz"
 }
 
-version "0.7.0" "0.7.1" "0.7.2" "0.7.3" "0.7.4" "0.7.5" "0.7.6" "0.7.7" "0.7.8" {
+version "0.7.0" "0.7.1" "0.7.2" "0.7.3" "0.7.4" "0.7.5" "0.7.6" "0.7.7" "0.7.8"
+        "0.15.0" {
   auto-version {
     github-release = "hardbyte/pgroles"
   }
@@ -54,4 +55,8 @@ sha256sums = {
   "https://github.com/hardbyte/pgroles/releases/download/v0.7.6/pgroles-v0.7.6-x86_64-unknown-linux-musl.tar.gz": "91338b6e6d14c6ee3d6c63e6427210710865df594f75d83526067a1a460fb514",
   "https://github.com/hardbyte/pgroles/releases/download/v0.7.7/pgroles-v0.7.7-x86_64-unknown-linux-musl.tar.gz": "58725f999255bb3a27abee6248c2b295a4daeb2ed9282be5e03fc83eb58a4156",
   "https://github.com/hardbyte/pgroles/releases/download/v0.7.7/pgroles-v0.7.7-aarch64-unknown-linux-musl.tar.gz": "319bbcb951f6827109433d26ada7b3d99176895e1ae272721c83da66ec12aa0b",
+  "https://github.com/hardbyte/pgroles/releases/download/v0.15.0/pgroles-v0.15.0-x86_64-apple-darwin.tar.gz": "9adfaf0b7f2597aedeac33de09125d23f7f7251e36400dda9517b800131a5983",
+  "https://github.com/hardbyte/pgroles/releases/download/v0.15.0/pgroles-v0.15.0-aarch64-apple-darwin.tar.gz": "99092d284f9dd86182b971b59712aa9d7a86c57bd298b0db802d9849036ba0bf",
+  "https://github.com/hardbyte/pgroles/releases/download/v0.15.0/pgroles-v0.15.0-aarch64-unknown-linux-musl.tar.gz": "8e0a2bd1362fc60137f960385a313c8589eb23e29c85fb0586cffa4848433035",
+  "https://github.com/hardbyte/pgroles/releases/download/v0.15.0/pgroles-v0.15.0-x86_64-unknown-linux-musl.tar.gz": "62d048fb095f6b88f88ad583fa2f54eabfd2933b1e02a94158547dd490487f63",
 }

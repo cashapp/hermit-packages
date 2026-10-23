@@ -21,7 +21,7 @@ version "1.2.0" {
   }
 }
 
-version "1.3.0" "1.4.0" {
+version "1.3.0" "1.4.0" "1.4.1" {
   auto-version {
     github-release = "square/certstrap"
   }
@@ -34,4 +34,6 @@ sha256sums = {
   "https://github.com/square/certstrap/releases/download/v1.3.0/certstrap-darwin-amd64": "e92cb663708de1a07ea6ccfae710fead38e4b9744c7199dfcb59e13d2431bc27",
   "https://github.com/square/certstrap/releases/download/v1.4.0/certstrap-linux-amd64": "b80e018916773dbd268f094f31445cc36fe639ccbb62f0ec35bd0c38c6458936",
   "https://github.com/square/certstrap/releases/download/v1.4.0/certstrap-darwin-amd64": "6607c4feab8bdb61c816779207bc66b6a6ed52d1299024e5ccc32810d8350dda",
+  "https://github.com/square/certstrap/releases/download/v1.4.1/certstrap-linux-amd64": "fa9d18d8c8788c95f7b189e8621552024f16bc788d8330df236580a323d83ecc",
+  "https://github.com/square/certstrap/releases/download/v1.4.1/certstrap-darwin-amd64": "c8d902e5232bf25e5a42ee4482895f637f359b297850e77560d3173d24a21a5f",
 }

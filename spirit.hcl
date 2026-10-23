@@ -16,7 +16,7 @@ platform "linux" "arm64" {
 }
 
 version "0.11.0" "0.11.2" "0.11.3" "0.12.0" "0.13.0" "0.14.0" "0.15.0" "0.15.1"
-        "0.16.0" "0.17.0" "0.18.0" {
+        "0.16.0" "0.17.0" "0.18.0" "0.19.0" {
   auto-version {
     github-release = "block/spirit"
   }
@@ -56,4 +56,7 @@ sha256sums = {
   "https://github.com/block/spirit/releases/download/v0.18.0/spirit_0.18.0_darwin_arm64.tar.gz": "27f6872bd80dac99eb9f8074d0f10c6c76595f3f0566f6968511a171fca83e5b",
   "https://github.com/block/spirit/releases/download/v0.18.0/spirit_0.18.0_linux_arm64.tar.gz": "f7e5af43202b6bce97f0996d48cdefd68f829e6e20c8df9bd222645043247a8a",
   "https://github.com/block/spirit/releases/download/v0.18.0/spirit_0.18.0_linux_amd64.tar.gz": "ac4a5a2ecc16979e89d7ee4202608f9cc8a0a85844f77afd3c266cf0c1ff8536",
+  "https://github.com/block/spirit/releases/download/v0.19.0/spirit_0.19.0_linux_amd64.tar.gz": "1bd8b7849df4ee98e76121b80466012736c9908dd580f9ccca2fd154a3e7413f",
+  "https://github.com/block/spirit/releases/download/v0.19.0/spirit_0.19.0_darwin_arm64.tar.gz": "ccb260ce0733d94a5304d6083c44867c54f3ad14d8796cf8aaac92042e0251cb",
+  "https://github.com/block/spirit/releases/download/v0.19.0/spirit_0.19.0_linux_arm64.tar.gz": "d4280c867358c7ea17176d69a57d4deca714811dd5fb30121838b7f76ff7eb96",
 }
