@@ -19,7 +19,7 @@ version "20.10.24" "23.0.6" "24.0.9" "25.0.5" "26.0.0" "26.0.1" "26.0.2" "26.1.0
         "29.0.2" "29.0.4" "29.1.0" "29.1.1" "29.1.2" "29.1.3" "29.1.4" "29.1.5" "29.2.0"
         "29.2.1" "29.3.0" "29.3.1" "29.4.0" "29.4.1" "29.4.2-2" "29.4.3" "29.5.0" "29.5.1"
         "29.5.2" "29.5.3" "29.6.0" "29.6.1" "29.6.2" "29.7.1" "29.7.2" "29.8.0" "29.8.1"
-        "29.8.2" "29.9.0" "29.9.1" {
+        "29.8.2" "29.9.0" "29.9.1" "29.9.2" {
   auto-version {
     version-pattern = "docker-([^\\s]+).tgz"
 
@@ -331,4 +331,8 @@ sha256sums = {
   "https://download.docker.com/linux/static/stable/aarch64/docker-29.9.1.tgz": "3e93cc6d1a686456a3b18eefdde26467a837a7a2b257af22e27cba1dbc1b2018",
   "https://download.docker.com/mac/static/stable/x86_64/docker-29.9.1.tgz": "9fc063bfae58ecf3c46e7528beaad9814968f7e624e9ba04a7f5cba5becad26c",
   "https://download.docker.com/mac/static/stable/aarch64/docker-29.9.1.tgz": "7f2c1637313578046e7dd61153e4e4cd1188d83a1e4b71825ab914776c208460",
+  "https://download.docker.com/linux/static/stable/x86_64/docker-29.9.2.tgz": "9ac225999fd5e863f7694c728ef23d480616b1e5639328fa309befd4243d69eb",
+  "https://download.docker.com/mac/static/stable/x86_64/docker-29.9.2.tgz": "089c3f618df88bdef4f1257d9d604499136a1ec5168b67d194c260acad2b522f",
+  "https://download.docker.com/linux/static/stable/aarch64/docker-29.9.2.tgz": "873b3e0207857c3b2f28392fb922f3ea6efe37620c16d4d4aaf2fef409c90b73",
+  "https://download.docker.com/mac/static/stable/aarch64/docker-29.9.2.tgz": "ea8a2ce5ac31f9f5f3fb711a7a485e1e46cc7a69798a629a70306f6e6af25b7a",
 }

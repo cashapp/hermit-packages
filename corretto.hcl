@@ -35,7 +35,7 @@ channel "stable" {
 version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
         "11.0.20.9.1" "11.0.21.9.1" "11.0.22.7.1" "11.0.23.9.1" "11.0.24.8.1" "11.0.25.9.1"
         "11.0.26.4.1" "11.0.27.6.1" "11.0.28.6.1" "11.0.29.7.1" "11.0.30.7.1" "11.0.31.11.1"
-        "11.0.32.9.1" "11.0.32.10.1" "11.0.32.12.1" {
+        "11.0.32.9.1" "11.0.32.10.1" "11.0.32.12.1" "11.0.33.0.9" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
@@ -44,14 +44,16 @@ version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
 version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
         "17.0.7.7.1" "17.0.8.7.1" "17.0.8.8.1" "17.0.9.8.1" "17.0.10.7.1" "17.0.11.9.1"
         "17.0.12.7.1" "17.0.13.11.1" "17.0.14.7.1" "17.0.15.6.1" "17.0.16.8.1" "17.0.17.10.1"
-        "17.0.18.8.1" "17.0.18.9.1" "17.0.19.10.1" "17.0.20.8.1" "17.0.20.10.1" "17.0.20.12.1" {
+        "17.0.18.8.1" "17.0.18.9.1" "17.0.19.10.1" "17.0.20.8.1" "17.0.20.10.1" "17.0.20.12.1"
+        "17.0.21.0.10" {
   auto-version {
     github-release = "corretto/corretto-17"
   }
 }
 
 version "21.0.5.11.1" "21.0.4.7.1" "21.0.6.7.1" "21.0.7.6.1" "21.0.8.9.1"
-        "21.0.9.10.1" "21.0.10.7.1" "21.0.11.10.1" "21.0.12.8.1" "21.0.12.9.1" "21.0.12.12.1" {
+        "21.0.9.10.1" "21.0.10.7.1" "21.0.11.10.1" "21.0.12.8.1" "21.0.12.9.1" "21.0.12.12.1"
+        "21.0.13.0.10" {
   auto-version {
     github-release = "corretto/corretto-21"
   }
@@ -274,4 +276,16 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-macosx-aarch64.tar.gz": "8594556550766865662411ef3a7a71a66df9a9065f28a7b318a5352bda91b6a4",
   "https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-macosx-x64.tar.gz": "cc9cd6f9b8c34dc3d4df7e5468b810cdfe34ff7517a7d5df0cdbe2b5c22f1cdc",
   "https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-linux-aarch64.tar.gz": "d1206a81145e1ac3f45677f83ecd5e780428848f21f314be33691d62dde761c1",
+  "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-linux-x64.tar.gz": "a9ce82ab7bcc503d4514628052860c74215309e4a58c4113b679f14675625fe9",
+  "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-macosx-aarch64.tar.gz": "fb7b677c85eabcc14746ed6c64ad022dce33fc5063f52cb08ce294a764ce92d3",
+  "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-macosx-x64.tar.gz": "8b552a9c15cbb6cb6cf54d00ddc9bdda9e8ff8547e02d88038baf4a2b2b7c547",
+  "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-linux-x64.tar.gz": "b33adc502fdccdaa315feeafc5297b43e0009d0373182448920a46afe1656f34",
+  "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-macosx-x64.tar.gz": "f13aa9654979894dddcd448f8b95b9b355c299c137cb47367cbb01b668b65f7b",
+  "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-linux-aarch64.tar.gz": "495a5365af108172503c75d68476d5e8e4b0ff049908afc64feecb54b170de4c",
+  "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-macosx-aarch64.tar.gz": "85667cd211b7cef065a35d1ffbe16a19059493ac0130be5f0f93465458525d77",
+  "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-macosx-aarch64.tar.gz": "1e36f0d857dab1b59579ee33674f1552444f40178f9485767872b16b5b1f3ece",
+  "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-linux-x64.tar.gz": "a47243bd888b02a0fbd26d462caf394b756d45a5cb64ea96de74d01b37cde7cc",
+  "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-linux-aarch64.tar.gz": "e0bfcea80e052db916f0a0c73ffa50ee35265874f3da73851e806948769c71d0",
+  "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-macosx-x64.tar.gz": "63d4587a2434930a4e57c0f9c40e0e3ffe1d7d054b29a4f8a01f83f014bdddfa",
+  "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-linux-aarch64.tar.gz": "53d7619af34494903745c9ac00d484863950e9322f52d50122589e3b51bfbda2",
 }
