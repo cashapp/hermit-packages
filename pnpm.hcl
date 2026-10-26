@@ -27,7 +27,7 @@ version "7.33.7" "8.14.1" "8.14.2" "8.14.3" "8.15.0" "8.15.1" "8.15.2" "8.15.3"
         "10.25.0" "10.26.0" "10.26.1" "10.26.2" "10.27.0" "10.28.0" "10.28.1" "10.28.2"
         "10.29.1" "10.29.2" "10.29.3" "10.30.0" "10.30.1" "10.30.2" "10.30.3" "10.31.0"
         "10.32.0" "10.32.1" "10.33.0" "10.33.1" "10.33.2" "10.33.4" "10.34.1" "10.34.2"
-        "10.34.3" "10.34.4" "10.34.5" "10.34.6" "10.34.7" {
+        "10.34.3" "10.34.4" "10.34.5" "10.34.6" "10.34.7" "10.34.9" {
   // pnpm <= 10.x ships as bare per-platform binaries (e.g. `pnpm-darwin-arm64`)
   // that need to be renamed to `pnpm` after unpack. The source URLs and rename
   // rules MUST live inside this version block (rather than at top-level
@@ -798,4 +798,8 @@ sha256sums = {
   "https://github.com/pnpm/pnpm/releases/download/v11.28.8/pnpm-linux-x64.tar.gz": "15e1a7159d323418021877c5a3fd91080059613355c3cd5ac9a648415b942712",
   "https://github.com/pnpm/pnpm/releases/download/v11.28.8/pnpm-darwin-arm64.tar.gz": "a2c05d2b7269ca19bd7b87e0cfae6ad58d17597b474ef304efeb1d0320cb35ea",
   "https://github.com/pnpm/pnpm/releases/download/v11.28.8/pnpm-linux-arm64.tar.gz": "539f748383e206d5ad33dded451ae7c69132ac7c435feb34a866a43073f162e4",
+  "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-macos-x64": "58b35a997d2d5167ef60e24b6ac0d71b76a5e1a4b3346cb1075b1dface50bd32",
+  "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-linux-x64": "3ec79240658f0ee4e8977f21ee2c598c7a8b8d06b86dc564f2ec6cb099fd8ac2",
+  "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-macos-arm64": "984b2f4316de371dc314243649e5f9ea392195d541dedbfdb990dc24d6c6e1a2",
+  "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-linux-arm64": "85abd31b96964e6510cecb3b366ba024287191e0ee5978e5a9e2d3beb4a377d1",
 }
