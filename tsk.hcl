@@ -4,7 +4,7 @@ source = "https://github.com/alecthomas/tsk/releases/download/v${version}/tsk-${
 sha256-source = "https://github.com/alecthomas/tsk/releases/download/v${version}/checksums.txt"
 
 version "0.1.0" "0.2.0" "0.10.0" "0.11.0" "0.12.0" "0.12.1" "0.13.0" "0.14.0" "0.15.2"
-        "0.16.0" "0.16.1" "0.17.0" "0.17.1" {
+        "0.16.0" "0.16.1" "0.17.0" "0.17.1" "0.17.3" {
   auto-version {
     github-release = "alecthomas/tsk"
   }
@@ -63,4 +63,8 @@ sha256sums = {
   "https://github.com/alecthomas/tsk/releases/download/v0.17.1/tsk-darwin-amd64.tar.gz": "433a5bf5f27c837af28943e12a7f1500f46f3c7bdc144781ff9586c6ea728aad",
   "https://github.com/alecthomas/tsk/releases/download/v0.17.1/tsk-linux-amd64.tar.gz": "aad21dfd9ae8c6e2e92ff841d9eb8f582414d8860f53493f4900384d99291d06",
   "https://github.com/alecthomas/tsk/releases/download/v0.17.1/tsk-linux-arm64.tar.gz": "db8b47614e5a3835c794d45619862fad2f9736fc1b5ff1fbecc03884073de526",
+  "https://github.com/alecthomas/tsk/releases/download/v0.17.3/tsk-linux-arm64.tar.gz": "44a3ea5d471c35cb89c8ebf15ea7a01cf9a084ecfe1ccdc5d5d84971485d9d2b",
+  "https://github.com/alecthomas/tsk/releases/download/v0.17.3/tsk-linux-amd64.tar.gz": "5e73e8d224d87b5596b9bbad7d538ba15c3cbe4fd65450d3500dce291a01cbd8",
+  "https://github.com/alecthomas/tsk/releases/download/v0.17.3/tsk-darwin-amd64.tar.gz": "72bcc8bcab792ea32a05146a7bbf4660c67fde2e49cc0f71736c2c9178a26e7c",
+  "https://github.com/alecthomas/tsk/releases/download/v0.17.3/tsk-darwin-arm64.tar.gz": "c365f3d7e5225ef4c2ad6223815ca813e076af8466649ae673ccded9bdf6fdd8",
 }

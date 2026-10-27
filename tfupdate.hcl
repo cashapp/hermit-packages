@@ -4,7 +4,7 @@ test = "tfupdate --version"
 source = "https://github.com/minamijoyo/tfupdate/releases/download/v${version}/tfupdate_${version}_${os}_${arch}.tar.gz"
 sha256-source = "https://github.com/minamijoyo/tfupdate/releases/download/v${version}/tfupdate_${version}_checksums.txt"
 
-version "0.9.2" "0.9.3" "0.9.4" "0.10.0" "0.10.1" "0.10.2" {
+version "0.9.2" "0.9.3" "0.9.4" "0.10.0" "0.10.1" "0.10.2" "0.10.3" {
   auto-version {
     github-release = "minamijoyo/tfupdate"
   }
@@ -35,4 +35,8 @@ sha256sums = {
   "https://github.com/minamijoyo/tfupdate/releases/download/v0.10.2/tfupdate_0.10.2_linux_arm64.tar.gz": "3ca3382ce16b37a248e95b38cf7d889a49412a19df3a6f3a7ad3db727de8eb12",
   "https://github.com/minamijoyo/tfupdate/releases/download/v0.10.2/tfupdate_0.10.2_darwin_arm64.tar.gz": "a1403215422af47afdc47e94432bb53245888d772965621185ec3f762e9d2d00",
   "https://github.com/minamijoyo/tfupdate/releases/download/v0.10.2/tfupdate_0.10.2_linux_amd64.tar.gz": "559bc7c6c15496682a3207cbdc4e6327de252f5f1a4348f5098027d6bcc4ebe2",
+  "https://github.com/minamijoyo/tfupdate/releases/download/v0.10.3/tfupdate_0.10.3_darwin_amd64.tar.gz": "17be2147d5ebd1f0ea6aea97b28018a494deab7f436820131331c68850cd41c8",
+  "https://github.com/minamijoyo/tfupdate/releases/download/v0.10.3/tfupdate_0.10.3_darwin_arm64.tar.gz": "3fa0da51fd1e0da6df8834e923094682239f1ee4aa382b6ac2717078c7f8db28",
+  "https://github.com/minamijoyo/tfupdate/releases/download/v0.10.3/tfupdate_0.10.3_linux_amd64.tar.gz": "0165a5e9326f3c426766bfa6fba0f6630127b1fffa5e1a6a557b6457884f7396",
+  "https://github.com/minamijoyo/tfupdate/releases/download/v0.10.3/tfupdate_0.10.3_linux_arm64.tar.gz": "fc61718091b5bb9bbcdcaefae6b5633514755d68eb628bb874287f9c73c1b572",
 }
