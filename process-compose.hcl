@@ -9,7 +9,7 @@ platform "windows" {
 source = "https://github.com/F1bonacc1/process-compose/releases/download/v${version}/process-compose_${os}_${arch}.tar.gz"
 
 version "1.76.1" "1.78.0" "1.85.0" "1.87.0" "1.90.0" "1.94.0" "1.100.0" "1.103.0"
-        "1.110.0" "1.116.0" "1.120.0" "1.122.0" {
+        "1.110.0" "1.116.0" "1.120.0" "1.122.0" "1.124.0" {
   auto-version {
     github-release = "F1bonacc1/process-compose"
   }
@@ -64,4 +64,8 @@ sha256sums = {
   "https://github.com/F1bonacc1/process-compose/releases/download/v1.122.0/process-compose_linux_arm64.tar.gz": "52fa7d5a2d5e0db470faec5976204fc215ed7e3d13689e930cf522becfb63778",
   "https://github.com/F1bonacc1/process-compose/releases/download/v1.122.0/process-compose_darwin_amd64.tar.gz": "b4f76e881759e13f7913a5b2fed16a0e75275c04d3a61e656d40448921f1c3ec",
   "https://github.com/F1bonacc1/process-compose/releases/download/v1.122.0/process-compose_darwin_arm64.tar.gz": "eaa1238a1d6c300e928ef855d36a3d95aab8da64997104d74ea73d91d3cb6c60",
+  "https://github.com/F1bonacc1/process-compose/releases/download/v1.124.0/process-compose_darwin_amd64.tar.gz": "45d5234095de27b23445041a56cce5e5f3a80d6b303fccbceba94db0cd13563d",
+  "https://github.com/F1bonacc1/process-compose/releases/download/v1.124.0/process-compose_darwin_arm64.tar.gz": "818e29bdb75ec5c5e1fa9af64773964f513c8d0fe995c2e48328b4eaa1ea4789",
+  "https://github.com/F1bonacc1/process-compose/releases/download/v1.124.0/process-compose_linux_amd64.tar.gz": "487ce011d5324b4578d3ec1860aaa1dd3a95bd4b2b433e03791f73a23d215fd3",
+  "https://github.com/F1bonacc1/process-compose/releases/download/v1.124.0/process-compose_linux_arm64.tar.gz": "98e02400a05d1da74a6506a4ffb2682b1205b18f02ecfbfdea1005f9389fc52d",
 }

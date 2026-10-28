@@ -36,7 +36,7 @@ on "unpack" {
   }
 }
 
-version "0.6.7" "0.6.12" "0.6.13" {
+version "0.6.7" "0.6.12" "0.6.13" "0.6.14" {
   auto-version {
     github-release = "bencherdev/bencher"
   }
@@ -55,4 +55,8 @@ sha256sums = {
   "https://github.com/bencherdev/bencher/releases/download/v0.6.13/bencher-v0.6.13-macos-arm-64": "24934e555bcf39eefcabaaeea8cd8d10479aa759402e54243753359bfbb83923",
   "https://github.com/bencherdev/bencher/releases/download/v0.6.13/bencher-v0.6.13-linux-arm-64": "eefe56680908ad1772ec19a7f7e35cc64039f27be05cc5891e5cb5eca24b824c",
   "https://github.com/bencherdev/bencher/releases/download/v0.6.13/bencher-v0.6.13-linux-x86-64": "41b172864a1cd347f75a68688100688453b02f28e1d1b831b326931b895b4b3d",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.14/bencher-v0.6.14-macos-x86-64": "aebc455e9ee950d176e5089ff40dd1286c3a59ff2bb46f5532aa832688125bed",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.14/bencher-v0.6.14-linux-x86-64": "966cf07ef5bdb33a919c27027380853523b8340e458488cab7bfb780baf3d1c9",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.14/bencher-v0.6.14-macos-arm-64": "9d4130e01f3c5f2ba6ef4932f6166103fabf28876b1d1e080dcae2c8ab7755fd",
+  "https://github.com/bencherdev/bencher/releases/download/v0.6.14/bencher-v0.6.14-linux-arm-64": "612a20c2413838d0f8fff2b93eb5de5bc286e5c16fdb84365953d1d6257612ee",
 }

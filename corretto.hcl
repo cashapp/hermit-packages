@@ -35,7 +35,7 @@ channel "stable" {
 version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
         "11.0.20.9.1" "11.0.21.9.1" "11.0.22.7.1" "11.0.23.9.1" "11.0.24.8.1" "11.0.25.9.1"
         "11.0.26.4.1" "11.0.27.6.1" "11.0.28.6.1" "11.0.29.7.1" "11.0.30.7.1" "11.0.31.11.1"
-        "11.0.32.9.1" "11.0.32.10.1" "11.0.32.12.1" "11.0.33.0.9" {
+        "11.0.32.9.1" "11.0.32.10.1" "11.0.32.12.1" "11.0.33.0.9" "11.0.33.0.10" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
@@ -45,7 +45,7 @@ version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
         "17.0.7.7.1" "17.0.8.7.1" "17.0.8.8.1" "17.0.9.8.1" "17.0.10.7.1" "17.0.11.9.1"
         "17.0.12.7.1" "17.0.13.11.1" "17.0.14.7.1" "17.0.15.6.1" "17.0.16.8.1" "17.0.17.10.1"
         "17.0.18.8.1" "17.0.18.9.1" "17.0.19.10.1" "17.0.20.8.1" "17.0.20.10.1" "17.0.20.12.1"
-        "17.0.21.0.10" {
+        "17.0.21.0.10" "17.0.21.0.11" {
   auto-version {
     github-release = "corretto/corretto-17"
   }
@@ -53,7 +53,7 @@ version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
 
 version "21.0.5.11.1" "21.0.4.7.1" "21.0.6.7.1" "21.0.7.6.1" "21.0.8.9.1"
         "21.0.9.10.1" "21.0.10.7.1" "21.0.11.10.1" "21.0.12.8.1" "21.0.12.9.1" "21.0.12.12.1"
-        "21.0.13.0.10" {
+        "21.0.13.0.10" "21.0.13.0.11" {
   auto-version {
     github-release = "corretto/corretto-21"
   }
@@ -288,4 +288,16 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-linux-aarch64.tar.gz": "e0bfcea80e052db916f0a0c73ffa50ee35265874f3da73851e806948769c71d0",
   "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-macosx-x64.tar.gz": "63d4587a2434930a4e57c0f9c40e0e3ffe1d7d054b29a4f8a01f83f014bdddfa",
   "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-linux-aarch64.tar.gz": "53d7619af34494903745c9ac00d484863950e9322f52d50122589e3b51bfbda2",
+  "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-macosx-aarch64.tar.gz": "94dfe3dce2a508a5e0e3c67c75feb2ad580531c0dfd66ef46db17e0a8b08a338",
+  "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-macosx-x64.tar.gz": "96a4ffe772ffc62bdc7892720ff23935b6b888d8b05273dadf191f2e0410bd04",
+  "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-linux-aarch64.tar.gz": "ada21539d4959e8946b20b55a2c868a006d4b993be0633c576e3d38c8b9d0c1c",
+  "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-macosx-aarch64.tar.gz": "3cd5a2bdd380a5654aa1ef5eda3032f60021e8e48a0bdd552e8e39b032705732",
+  "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-linux-x64.tar.gz": "8f9a2ddb131ec5317419f2b0769240fe22ce27f8a0ae43f5346d53e1c8aec6a0",
+  "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-linux-aarch64.tar.gz": "33412bba53b912b21528150df7cf60c161d10fc3b7dae89cd5383d8f3c0362c0",
+  "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-macosx-x64.tar.gz": "dca4175d94d404533c4230eff1a64cc3ae9f3919bfdf35902c64bfd4d3bcb70e",
+  "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-macosx-aarch64.tar.gz": "f4ee9236ffc3ddcd37da877e04a1ab74b3d3376cf9e4287b5426f4749cc869a9",
+  "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-macosx-x64.tar.gz": "12cf7651ba1f2fd04357d5277b0d58a78a7df5d672bc7cfc085ccb0d60c4bc8c",
+  "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-linux-aarch64.tar.gz": "0985275871a6e064324f46f52c5cd89d45013c830e10a41539f6fd7f450808e9",
+  "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-linux-x64.tar.gz": "f3330bf440b8f4514b7b279b6145d4b4493dea9dda5f3a702b49c53c41bec1e4",
+  "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-linux-x64.tar.gz": "f368ac379f3b20e266080e80fcc1f5e8567d044a4f895c8786220cab5b580c15",
 }
