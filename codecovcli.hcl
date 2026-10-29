@@ -40,7 +40,7 @@ platform "windows" "amd64" {
   }
 }
 
-version "10.4.0" "11.0.6" "11.1.0" "11.2.8" "11.3.1" {
+version "10.4.0" "11.0.6" "11.1.0" "11.2.8" "11.3.1" "11.3.2" {
   auto-version {
     github-release = "codecov/codecov-cli"
   }
@@ -62,4 +62,7 @@ sha256sums = {
   "https://github.com/codecov/codecov-cli/releases/download/v11.2.8/codecovcli_linux_arm64": "0a973204b2654e973a45470364bf64abab671a471e49b68d511c7dd3305ae4fd",
   "https://github.com/codecov/codecov-cli/releases/download/v11.2.8/codecovcli_macos": "ff380d049c376134c35fecedc10d620e5c54f3f2ee8068e6dd994dc4784619df",
   "https://github.com/codecov/codecov-cli/releases/download/v11.2.8/codecovcli_linux": "8930c4bb30254a42f3d8c340706b1be340885e20c0df5160a24efa2e030e662b",
+  "https://github.com/codecov/codecov-cli/releases/download/v11.3.2/codecovcli_macos": "c7957a4c7a0f80eee58f53cd8ec7ec6cbdacffdbabb427bdfc2ce2a23f794164",
+  "https://github.com/codecov/codecov-cli/releases/download/v11.3.2/codecovcli_linux_arm64": "a4b71cac685742e272e7cfd4a390cafc3736f57ebc3cf7ba2e24010f19c7f23f",
+  "https://github.com/codecov/codecov-cli/releases/download/v11.3.2/codecovcli_linux": "8e1bfb71661378530f6ea21e82b414095899e565cbb4cf555c613064be17b973",
 }

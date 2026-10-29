@@ -16,7 +16,8 @@ version "0.2.45" "0.2.46" "0.2.48" "0.2.49" "0.2.50" "0.2.51" "0.2.52" "0.2.53"
         "0.2.54" "0.2.55" "0.2.56" "0.2.57" "0.2.58" "0.2.59" "0.2.60" "0.2.61" "0.2.62"
         "0.2.63" "0.2.64" "0.2.65" "0.2.66" "0.2.67" "0.2.68" "0.2.69" "0.2.70" "0.2.71"
         "0.2.72" "0.2.73" "0.2.74" "0.2.75" "0.2.76" "0.2.77" "0.2.78" "0.2.79" "0.2.80"
-        "0.2.81" "0.2.82" "0.2.83" "0.2.84" "0.2.85" "0.2.86" "0.2.87" "0.2.88" "0.2.89" {
+        "0.2.81" "0.2.82" "0.2.83" "0.2.84" "0.2.85" "0.2.86" "0.2.87" "0.2.88" "0.2.89"
+        "0.2.92" {
   auto-version {
     github-release = "nektos/act"
   }
@@ -199,4 +200,8 @@ sha256sums = {
   "https://github.com/nektos/act/releases/download/v0.2.89/act_darwin_x86_64.tar.gz": "41b31488e7c254baec31cce12c7dade3e35973b8a31b9486206ad43f233d814e",
   "https://github.com/nektos/act/releases/download/v0.2.89/act_darwin_arm64.tar.gz": "48ae218af96725f7635a66de2b87e1e346893b02add0f16b92f560296b2151fc",
   "https://github.com/nektos/act/releases/download/v0.2.89/act_linux_x86_64.tar.gz": "0191d6f1f3b716b5c55820032605d05fc3c1cdbf581ebeff655019e5dd1524c0",
+  "https://github.com/nektos/act/releases/download/v0.2.92/act_linux_x86_64.tar.gz": "c9e13f0eb77948a6d02eb2e06fa7220addfc5b9927ed2a1b35bcdae5441ac7a1",
+  "https://github.com/nektos/act/releases/download/v0.2.92/act_darwin_arm64.tar.gz": "fb9594d4ebc589a5bb4a490fbb4abae9964a530b1e6316bbba3b788a754a3919",
+  "https://github.com/nektos/act/releases/download/v0.2.92/act_darwin_x86_64.tar.gz": "27e16a6cdef6085f01d1d51e6085a35628f221fad52a04ca6d22d8a14ff416b0",
+  "https://github.com/nektos/act/releases/download/v0.2.92/act_linux_arm64.tar.gz": "b604e8f3e5d844e2221caedd2396bd8455dcb10fb3b2f0a43b5d67a65f883e4a",
 }
