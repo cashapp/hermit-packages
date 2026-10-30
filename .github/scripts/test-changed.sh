@@ -39,7 +39,7 @@ for pkg in $(git diff --name-only "$base" "$head_ref" | grep '\.hcl$' | sed 's/\
       if [[ "$ver" =~ ^[0-9] ]]; then
         echo "Testing ${pkg}-${ver}"
         if [ "$dry_run" = false ]; then
-          hermit test --no-check-sources "${pkg}-${ver}"
+          timeout 10m hermit test --no-check-sources "${pkg}-${ver}"
           hermit clean -tp
         fi
       else
@@ -51,7 +51,7 @@ for pkg in $(git diff --name-only "$base" "$head_ref" | grep '\.hcl$' | sed 's/\
   if [ -z "$new_versions" ] || [ "$tested_latest" = true ]; then
     echo "Testing ${pkg}@latest"
     if [ "$dry_run" = false ]; then
-      hermit test --no-check-sources "${pkg}@latest"
+      timeout 10m hermit test --no-check-sources "${pkg}@latest"
       hermit clean -tp
     fi
   fi
