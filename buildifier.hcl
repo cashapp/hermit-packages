@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "6.4.0" "8.0.3" "8.2.0" "8.2.1" "8.5.1" "10.0.1" "10.1.0" {
+version "6.4.0" "8.0.3" "8.2.0" "8.2.1" "8.5.1" "10.0.1" "10.1.0" "10.2.0" {
   auto-version {
     github-release = "bazelbuild/buildtools"
   }
@@ -45,4 +45,8 @@ sha256sums = {
   "https://github.com/bazelbuild/buildtools/releases/download/v10.1.0/buildifier-linux-arm64": "38d2ed845f560b4a16ddee41de906508a95f8dc85b04e0851b0a71e3a70d3890",
   "https://github.com/bazelbuild/buildtools/releases/download/v10.1.0/buildifier-linux-amd64": "31b6a8aa1e5c746696788f428729701770ad91925873d8256cb885c60e12c77e",
   "https://github.com/bazelbuild/buildtools/releases/download/v10.1.0/buildifier-darwin-arm64": "e9804864c407f920f5ecbf03a5e056a8145e11a6ae6b90d2438a3fd106d34473",
+  "https://github.com/bazelbuild/buildtools/releases/download/v10.2.0/buildifier-darwin-arm64": "d9c9c3a2826d1d8f592a9d463e62aed7f4dcacc5ab48e8de6be53c420b34b971",
+  "https://github.com/bazelbuild/buildtools/releases/download/v10.2.0/buildifier-linux-arm64": "e33b41bdb36eca5dfa69647333f4f148272654b98cddcea12f38fac5ec0a00ff",
+  "https://github.com/bazelbuild/buildtools/releases/download/v10.2.0/buildifier-linux-amd64": "470844069d710d0b7740e55007071c63e4d00be89a833dce5d1a91790e84dc28",
+  "https://github.com/bazelbuild/buildtools/releases/download/v10.2.0/buildifier-darwin-amd64": "9e78881e91266e3567ed6d590f6c19bb5cd8cfa7aa80c7e1b6e479264d1051b8",
 }
