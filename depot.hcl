@@ -17,7 +17,7 @@ version "2.84.2" "2.84.3" "2.84.4" "2.85.0" "2.85.1" "2.85.2" "2.85.3" "2.85.4"
         "2.101.66" "2.101.67" "2.101.69" "2.101.70" "2.101.72" "2.101.73" "2.101.74" "2.101.75"
         "2.101.76" "2.101.77" "2.101.78" "2.102.1" "2.102.2" "2.102.6" "2.102.7" "2.102.8"
         "2.102.9" "2.102.13" "2.102.15" "2.102.16" "2.102.17" "2.102.18" "2.102.23" "2.103.2"
-        "2.103.3" "2.103.4" {
+        "2.103.3" "2.103.4" "2.103.5" {
   auto-version {
     github-release = "depot/cli"
   }
@@ -424,4 +424,8 @@ sha256sums = {
   "https://github.com/depot/cli/releases/download/v2.103.4/depot_2.103.4_darwin_amd64.tar.gz": "5e63a41df1406667ceace34f500d34b975bdf48ca29c7fd1c47404ddc4290a3d",
   "https://github.com/depot/cli/releases/download/v2.103.4/depot_2.103.4_linux_amd64.tar.gz": "564b9f8b5bbf933adeccd9d5347c395b5f5c82951fbd7ad84eb02cee9a0a26a0",
   "https://github.com/depot/cli/releases/download/v2.103.4/depot_2.103.4_linux_arm64.tar.gz": "8d114fed30cb73cd70ba7e05dd43e9009bad1e64acfe1e610643cba042bd6e34",
+  "https://github.com/depot/cli/releases/download/v2.103.5/depot_2.103.5_linux_arm64.tar.gz": "2836be7c83850ad3994a32523da199c71c6b22272c28dc8042417fe17762b022",
+  "https://github.com/depot/cli/releases/download/v2.103.5/depot_2.103.5_linux_amd64.tar.gz": "b27eb35198152c73d60ac1bc9bae3d6dce8c27c400d15072be62a7047a3d118f",
+  "https://github.com/depot/cli/releases/download/v2.103.5/depot_2.103.5_darwin_arm64.tar.gz": "7d873d7bab1b58e1b66f290394c371ed0477698706db610e05092708a4469dcd",
+  "https://github.com/depot/cli/releases/download/v2.103.5/depot_2.103.5_darwin_amd64.tar.gz": "e285995231bf6ca22fba2923b3220ed97194ac415ffc39bf0fa74d3f5624dbc8",
 }

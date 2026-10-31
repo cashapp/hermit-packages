@@ -28,7 +28,7 @@ version "0.1.0" "0.2.0" "0.3.0" "0.4.0" "0.6.0" "0.7.0" "0.8.0" "0.9.0" "0.10.1"
         "0.28.0" "0.29.0" "0.29.1" "0.30.0" "0.31.0" "0.31.1" "0.31.2" "0.32.0" "0.32.1"
         "0.32.3" "0.32.4" "0.33.0" "0.33.2" "0.33.3" "0.34.0" "0.34.1" "0.35.0" "0.36.0"
         "0.38.0" "0.39.0" "0.39.1" "0.39.2" "0.40.0" "0.41.1" "0.42.1" "0.44.0" "0.45.0"
-        "0.46.0" "0.47.0" "0.48.0" "0.49.0" "0.50.0" {
+        "0.46.0" "0.47.0" "0.48.0" "0.49.0" "0.50.0" "0.51.0" {
   auto-version {
     github-release = "alecthomas/bit"
   }
@@ -271,4 +271,8 @@ sha256sums = {
   "https://github.com/alecthomas/bit/releases/download/v0.50.0/bit-aarch64-unknown-linux-gnu.bz2": "caafe25971f0a7d186f42379c579e660d6cba70ac5f42179f2a40793cdca6ebe",
   "https://github.com/alecthomas/bit/releases/download/v0.50.0/bit-aarch64-apple-darwin.bz2": "e9ee1893ff7ea3c982dcf4cdc64891d3c56fa77cf7c181eb2c6ccf3bba40d672",
   "https://github.com/alecthomas/bit/releases/download/v0.50.0/bit-x86_64-apple-darwin.bz2": "b37cf38970a2cd6e2e87d714ddc672c52b7d6d77685e435ff21da0d59287dae3",
+  "https://github.com/alecthomas/bit/releases/download/v0.51.0/bit-aarch64-apple-darwin.bz2": "0e02b4704c207e660b4991019e8c26020f67018bc67ed1f1354186c0780a1c4d",
+  "https://github.com/alecthomas/bit/releases/download/v0.51.0/bit-x86_64-apple-darwin.bz2": "7b7eb941b8cd143abba76968c0be6a71d3d45c24d9c15cebecc1f3400f7ed2aa",
+  "https://github.com/alecthomas/bit/releases/download/v0.51.0/bit-x86_64-unknown-linux-gnu.bz2": "281db9cf9294eb2ce22dc9c0521ca5886b816747fb2f3aba1c6071b3a1a1a154",
+  "https://github.com/alecthomas/bit/releases/download/v0.51.0/bit-aarch64-unknown-linux-gnu.bz2": "e20957cad445114a11782c1b731d3d286671aad5e583a0bf4d97a4f9a616add4",
 }
