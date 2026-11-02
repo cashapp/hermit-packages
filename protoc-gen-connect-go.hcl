@@ -1,17 +1,49 @@
 description = "A Protocol Buffers compiler that generates optimized marshaling & unmarshaling Go code for ProtoBuf APIv2"
 homepage = "https://connectrpc.com/"
 binaries = ["protoc-gen-connect-go"]
-source = "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v${version}-${os}-${arch}.bz2"
+vars = {
+  "arch_": "${arch}",
+}
+source = "https://github.com/connectrpc/connect-go/releases/download/v${version}/protoc-gen-connect-go-v${version}-${os_}-${arch_}.tar.gz"
 
-on "unpack" {
-  rename {
-    from = "${root}/protoc-gen-connect-go-v${version}-${os}-${arch}"
-    to = "${root}/protoc-gen-connect-go"
+platform "amd64" {
+  vars = {
+    "arch_": "x86_64",
   }
 }
 
+platform "darwin" {
+  vars = {
+    "os_": "Darwin",
+  }
+}
+
+platform "linux" {
+  vars = {
+    "os_": "Linux",
+  }
+}
+
+platform "linux" "arm64" {
+  vars = {
+    "arch_": "aarch64",
+  }
+}
+
+// # Built by cashapp/hermit-build, which only builds the v1 module path.
 version "1.5.1" "1.5.2" "1.8.0" "1.10.0" "1.11.1" "1.12.0" "1.18.1" "1.19.0" "1.19.1"
         "1.19.2" "1.20.0" "1.21.0" {
+  source = "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v${version}-${os}-${arch}.bz2"
+
+  on "unpack" {
+    rename {
+      from = "${root}/protoc-gen-connect-go-v${version}-${os}-${arch}"
+      to = "${root}/protoc-gen-connect-go"
+    }
+  }
+}
+
+version "2.0.0" "2.0.1" "2.0.2" {
   auto-version {
     github-release = "connectrpc/connect-go"
   }
@@ -66,4 +98,16 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.21.0-linux-arm64.bz2": "eca776b505ee57f9ce8f17d458482ae1a78973651df05e9598b01268d32e2095",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.21.0-linux-amd64.bz2": "fa53c834bebbcb91f66c5c564b98102c2973567c4f1d72ae97817ac2ef17a93d",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/protoc-gen-connect-go-v1.21.0-darwin-amd64.bz2": "4d51ab01a9f99fd1b8ca77a4739f78b89a2429dbebb67dfe816418c8537ad10d",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.0/protoc-gen-connect-go-v2.0.0-Darwin-x86_64.tar.gz": "349efe4603f08a812ebffb4b24755562eb4e2c3019bc509c4a020302a8ac3223",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.0/protoc-gen-connect-go-v2.0.0-Darwin-arm64.tar.gz": "3f7202b6994fafc87b29ce3ddd8c2d133f0e9a284baa90235cb6f692ece53d8e",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.0/protoc-gen-connect-go-v2.0.0-Linux-x86_64.tar.gz": "04a991c25c0943a65365e16fc409b2e6e8f1a89c469114939dfd2a113c0f9630",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.0/protoc-gen-connect-go-v2.0.0-Linux-aarch64.tar.gz": "1e0c80392e8a92925970186936c41285fb387a6d635238243931c5a9b23d5861",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.1/protoc-gen-connect-go-v2.0.1-Linux-x86_64.tar.gz": "35bcf3feb82d29aaef8a40aae87e6a5738fbfc684e727e13e481428726c6b6b7",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.1/protoc-gen-connect-go-v2.0.1-Linux-aarch64.tar.gz": "d4807adcd979bc6b41cc929de3de4b5a808001805937bd94c3713251b0a40cf7",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.1/protoc-gen-connect-go-v2.0.1-Darwin-x86_64.tar.gz": "283f0a8dfc07021c88a3511536fe0e92ff10ca328e40fafacbd911230c70fd5e",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.2/protoc-gen-connect-go-v2.0.2-Darwin-arm64.tar.gz": "be8a055fa3b972ac3420af544ea19ae32c5d45ca6528ebeac8ff90fdae3806a4",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.2/protoc-gen-connect-go-v2.0.2-Darwin-x86_64.tar.gz": "baf74d4cb92ce47934d9d6d430ec165d0f82ab2bc93b06be19d42039d45aff64",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.2/protoc-gen-connect-go-v2.0.2-Linux-x86_64.tar.gz": "634e69b58b0239276244647df3230cda15fc98af8b780c9638f59479d8b7f57d",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.2/protoc-gen-connect-go-v2.0.2-Linux-aarch64.tar.gz": "92bedab6eacb9c1c1a79cdb824bf08023c86ee176ac53e35067a9db769bbf370",
+  "https://github.com/connectrpc/connect-go/releases/download/v2.0.1/protoc-gen-connect-go-v2.0.1-Darwin-arm64.tar.gz": "0ad1d58b1c8097cc6d38e91dee8a724f356f014dce96107d52bc75ed7234755e",
 }
