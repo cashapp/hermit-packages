@@ -26,7 +26,7 @@ platform "windows" {
   source = "https://github.com/gabrie30/ghorg/releases/download/v${version}/ghorg_${version}_Windows_${arch_}.tar.gz"
 }
 
-version "1.11.13" "1.11.14" "1.11.15" "1.11.16" {
+version "1.11.13" "1.11.14" "1.11.15" "1.11.16" "1.11.17" {
   auto-version {
     github-release = "gabrie30/ghorg"
   }
@@ -49,4 +49,8 @@ sha256sums = {
   "https://github.com/gabrie30/ghorg/releases/download/v1.11.16/ghorg_1.11.16_Darwin_x86_64.tar.gz": "03ea45cd2c224dfefd9d6d59f2315733268366eac4a0a59ffc1595bb44b0fdbe",
   "https://github.com/gabrie30/ghorg/releases/download/v1.11.16/ghorg_1.11.16_Darwin_arm64.tar.gz": "bfaf27a8534525f31d126d5f66f8488129ea1f1aa7d96217ab5061ca9428ea35",
   "https://github.com/gabrie30/ghorg/releases/download/v1.11.16/ghorg_1.11.16_Linux_arm64.tar.gz": "cec7875630974f68f1b18b68809d124cd9a33f82798fe42e94b1cbe5a5dc57a1",
+  "https://github.com/gabrie30/ghorg/releases/download/v1.11.17/ghorg_1.11.17_Linux_arm64.tar.gz": "05f1ae63ba02350e1bab56b81deb3ff731d401322a70a721346e0281f167bd65",
+  "https://github.com/gabrie30/ghorg/releases/download/v1.11.17/ghorg_1.11.17_Darwin_x86_64.tar.gz": "a4d17b0e93a5009042e79270ffba5e4300c4a250a813c60056d1299478297552",
+  "https://github.com/gabrie30/ghorg/releases/download/v1.11.17/ghorg_1.11.17_Linux_x86_64.tar.gz": "613a1487c14ddc8f7155994cae3a7e5c6c406ad9c9d4659d3d00400dbb895c30",
+  "https://github.com/gabrie30/ghorg/releases/download/v1.11.17/ghorg_1.11.17_Darwin_arm64.tar.gz": "4f340d96c9ef4d16d99c5ff5837d6eec8ed54405b379131a4d51772ed0c84420",
 }
