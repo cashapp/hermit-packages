@@ -30,7 +30,7 @@ platform "darwin" "arm64" {
 }
 
 version "7.1.3-3" "7.1.3-6" "7.1.4-1" "7.1.4-2" "7.1.4-3" "8.1.2-4" "8.1.2-5"
-        "8.1.3-1" {
+        "8.1.3-1" "8.1.3-2" {
   auto-version {
     github-release = "jellyfin/jellyfin-ffmpeg"
     version-pattern = "v(.*)"
@@ -70,4 +70,8 @@ sha256sums = {
   "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.3-1/jellyfin-ffmpeg_8.1.3-1_portable_macarm64-gpl.tar.xz": "22445d7299742749ad2eeb9ce87963d50def0357e45b3e6c7b69987c8365dbf6",
   "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.3-1/jellyfin-ffmpeg_8.1.3-1_portable_linux64-gpl.tar.xz": "b86dc023c64a5a9a410e6e3a938a970460214fae78f31c1553c9f88f1c289b6a",
   "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.3-1/jellyfin-ffmpeg_8.1.3-1_portable_linuxarm64-gpl.tar.xz": "7bc8e8d0986f7f4693f63e9728570f671f07b6e21c05d5465dd7ce461d1631dc",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.3-2/jellyfin-ffmpeg_8.1.3-2_portable_mac64-gpl.tar.xz": "d394180f1155f84857544a48a99869f5741ccc50c5a1f73d2797429a2b326448",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.3-2/jellyfin-ffmpeg_8.1.3-2_portable_linuxarm64-gpl.tar.xz": "6522585818059cc886363fb1dee86ac9b8579fec3b914337fb92974ef9eb9884",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.3-2/jellyfin-ffmpeg_8.1.3-2_portable_linux64-gpl.tar.xz": "1df84d04c4322902dba81c290508cdf3d89524d210b9fe03154bea6c4e3bfbb6",
+  "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.3-2/jellyfin-ffmpeg_8.1.3-2_portable_macarm64-gpl.tar.xz": "d898cc819e7c4e9219d6410ddbdaada0838f14bec6ff89e283639915394cb43f",
 }

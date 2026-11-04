@@ -8,7 +8,7 @@ requires = ["jre"]
 
 version "6.2.1.4610" "7.0.0.4796" "7.0.1.4817" "7.0.2.4839" "7.1.0.4889"
         "7.2.0.5079" "7.3.0.5189" "8.0.0.6341" "8.0.1.6346" "8.1.0.6389" "8.2.0.6438"
-        "8.3.0.16463" {
+        "8.3.0.16463" "8.3.1.16491" {
   auto-version {
     github-release = "SonarSource/sonar-scanner-cli"
   }
@@ -27,4 +27,5 @@ sha256sums = {
   "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-8.1.0.6389.zip": "ab76ab3c360025e9108be5b55be066f304a164f8b2850d2f2f333915db51bc1b",
   "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-8.2.0.6438.zip": "2f1f412ad4c36d23266371367e13214fea03add397fb789bbb3282fdc9fb1372",
   "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-8.3.0.16463.zip": "d82326758561af2b3fba8bf9404d33ffc6a90edb8f47f8df976741beff4e34de",
+  "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-8.3.1.16491.zip": "44d41d24aef3cc996b8f959a8482e4f6167a001257f5fc3ff0ab4dcb9db489ce",
 }
