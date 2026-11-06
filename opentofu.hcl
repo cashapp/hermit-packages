@@ -8,7 +8,7 @@ version "1.6.1" "1.6.0" "1.6.2" "1.7.0" "1.7.1" "1.7.2" "1.7.3" "1.8.0" "1.8.1" 
         "1.8.3" "1.8.4" "1.8.5" "1.8.6" "1.8.7" "1.8.8" "1.9.0" "1.9.1" "1.10.0" "1.10.1"
         "1.10.2" "1.10.3" "1.10.4" "1.10.5" "1.10.6" "1.10.7" "1.10.8" "1.11.0" "1.11.1"
         "1.11.2" "1.11.3" "1.11.4" "1.11.5" "1.11.6" "1.11.7" "1.12.0" "1.12.1" "1.12.2"
-        "1.12.3" "1.12.4" "1.12.5" "1.12.6" "1.13.1" "1.13.2" {
+        "1.12.3" "1.12.4" "1.12.5" "1.12.6" "1.13.1" "1.13.2" "1.13.9" {
   auto-version {
     github-release = "opentofu/opentofu"
   }
@@ -191,4 +191,8 @@ sha256sums = {
   "https://github.com/opentofu/opentofu/releases/download/v1.13.2/tofu_1.13.2_linux_arm64.zip": "6e815c58a09ee957de606ff48cefad082942e70afc43b737ff975654c54ec453",
   "https://github.com/opentofu/opentofu/releases/download/v1.13.2/tofu_1.13.2_darwin_arm64.zip": "cb46112c095f1c4da721b6a18c8368f67341896a62205d1c117299e85993af61",
   "https://github.com/opentofu/opentofu/releases/download/v1.13.2/tofu_1.13.2_linux_amd64.zip": "723bebb0df8411daff1e5fc3862e28ff5581fe5634087f4c29a9aa41d78208b5",
+  "https://github.com/opentofu/opentofu/releases/download/v1.13.9/tofu_1.13.9_linux_amd64.zip": "bc44eb6b06446ba83bd4072114891987f590f66cca712737a7f1147c50c539ce",
+  "https://github.com/opentofu/opentofu/releases/download/v1.13.9/tofu_1.13.9_darwin_amd64.zip": "ac5505dd19d896f327d0ab727d4b853413c694931a7602b31f93c3a3e9d46d00",
+  "https://github.com/opentofu/opentofu/releases/download/v1.13.9/tofu_1.13.9_darwin_arm64.zip": "29ba2f4c78556a8d25476e5070fe4745495ef649c4a3b827170eb7436d23feb3",
+  "https://github.com/opentofu/opentofu/releases/download/v1.13.9/tofu_1.13.9_linux_arm64.zip": "04f7c93828b859d420269ed30f923ffebf09157b5d7fb95bf8d88a4d208b7fa3",
 }

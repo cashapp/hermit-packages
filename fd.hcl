@@ -21,7 +21,7 @@ version "8.3.2" "8.6.0" "8.7.0" "8.7.1" "9.0.0" "10.0.0" {
   source = "https://github.com/sharkdp/fd/releases/download/v${version}/fd-v${version}-x86_64-${osplus}.tar.gz"
 }
 
-version "10.1.0" "10.2.0" "10.3.0" "10.5.0" {
+version "10.1.0" "10.2.0" "10.3.0" "10.5.0" "10.5.1" {
   auto-version {
     github-release = "sharkdp/fd"
   }
@@ -56,4 +56,8 @@ sha256sums = {
   "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-unknown-linux-musl.tar.gz": "761c72dc8e120d85b22292063be8a796e2eeb20eb3e4f38b8fa2343ccf3514a7",
   "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-aarch64-apple-darwin.tar.gz": "b67e1836c468e42e411984b56e52fa7abec08c2bd22c867398e7cc134aac5e12",
   "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-aarch64-unknown-linux-musl.tar.gz": "d76c4317f7d5dba69f8a2a15856c90c777e7f0dd4e85f0de8c76de6992c374d4",
+  "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-x86_64-unknown-linux-musl.tar.gz": "f6c95edb190c241df6fddc815a5bab4051444993ac5d92ddc6eec0e0dc2342c7",
+  "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-aarch64-unknown-linux-musl.tar.gz": "64c20b9b154c9d4b36d4b7df3521de771c499c4768b4b5b045ef6b01532117be",
+  "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-x86_64-apple-darwin.tar.gz": "308ac4fa5f53798b4e4bd77d243ba65e77b3eaae1ef2fe4e2a8a4bb2128eedff",
+  "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-aarch64-apple-darwin.tar.gz": "2d336895ed27b14c5cc9fc5eb22df03b3ee842b5dce80060e99d9cdc1b1b9fc7",
 }
