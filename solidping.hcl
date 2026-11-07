@@ -12,7 +12,7 @@ on "unpack" {
   }
 }
 
-version "0.38.3" "0.41.0" "0.42.0" "0.43.0" {
+version "0.38.3" "0.41.0" "0.42.0" "0.43.0" "0.44.1" {
   auto-version {
     github-release = "fclairamb/solidping"
   }
@@ -35,4 +35,8 @@ sha256sums = {
   "https://github.com/fclairamb/solidping/releases/download/v0.43.0/sp-darwin-arm64.gz": "117e1da4019885759cc5f1434d8773edbebb687c3aa794f8846c598fe14d8e11",
   "https://github.com/fclairamb/solidping/releases/download/v0.43.0/sp-linux-arm64.gz": "ab8cc2cd0c8102d2a4297f88515329981d0591c8628b2d54b252e023b6624888",
   "https://github.com/fclairamb/solidping/releases/download/v0.43.0/sp-darwin-amd64.gz": "ddefc0e4044f53bf41a4b87a4d174256993845ecd24f0471828ae2ab5815d54a",
+  "https://github.com/fclairamb/solidping/releases/download/v0.44.1/sp-darwin-amd64.gz": "797f2f7a79f5306e97d99fcbe648a9037c4284d75fa373a13d73dc471a31cc9d",
+  "https://github.com/fclairamb/solidping/releases/download/v0.44.1/sp-linux-amd64.gz": "cd061ff77dff714013a6490328e29814bd4aad4a21784587fec7fc1c8a4330f0",
+  "https://github.com/fclairamb/solidping/releases/download/v0.44.1/sp-darwin-arm64.gz": "04ee30f283eb965fdf11ca91fd7f61b67c70a4e1f1949154cf5b382130074d20",
+  "https://github.com/fclairamb/solidping/releases/download/v0.44.1/sp-linux-arm64.gz": "bea118d08a9c7f01349b063ee0073484d3b877e5dae49e764e4dd5dfe8780ce9",
 }
