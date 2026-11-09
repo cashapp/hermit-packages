@@ -3,6 +3,11 @@ homepage = "https://tinygo.org"
 binaries = ["bin/tinygo"]
 strip = 1
 requires = ["go", "binaryen"]
+// TinyGo doesn't resolve symlinks when autodetecting its root, so it fails
+// when invoked via Hermit's link farm.
+env = {
+  "TINYGOROOT": "${root}",
+}
 source = "https://github.com/tinygo-org/tinygo/releases/download/v${version}/tinygo${version}.${os}-${arch}.tar.gz"
 
 // Older versions don't support arm64 Mac binaries
