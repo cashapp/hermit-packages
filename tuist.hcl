@@ -30,7 +30,8 @@ version "2.7.2" "3.0.1" "3.1.0" "3.2.0" "3.3.0" "3.4.0" "3.5.0" "3.6.0" "3.7.0" 
         "4.106.2" "4.108.1" "4.109.1" "4.110.1" "4.113.0" "4.119.1" "4.119.2" "4.125.0"
         "4.128.2" "4.130.2" "4.131.1" "4.134.0" "4.135.2" "4.137.0" "4.140.0" "4.148.4"
         "4.155.3" "4.161.0" "4.162.0" "4.166.0" "4.169.2" "4.171.2" "4.179.1" "4.184.1"
-        "4.191.1" "4.191.5" "4.195.11" "4.211.0" "4.213.0" "4.214.0" "4.214.1" "4.215.0" {
+        "4.191.1" "4.191.5" "4.195.11" "4.211.0" "4.213.0" "4.214.0" "4.214.1" "4.215.0"
+        "4.216.0" {
   auto-version {
     // tuist/tuist releases many other components (server@, xcresult-processor-image@, ...), so
     // `releases/latest` and the last 200 releases no longer contain a CLI release.
@@ -266,4 +267,5 @@ sha256sums = {
   "https://github.com/tuist/tuist/releases/download/4.214.0/tuist.zip": "89c15f4863537418673f7d532b97a2250819a54b22b42556696943ea3e967969",
   "https://github.com/tuist/tuist/releases/download/4.214.1/tuist.zip": "c9fb90582126d30380e9348da2c84d9c4ab08d59cded454f6bd8ef60bd93c759",
   "https://github.com/tuist/tuist/releases/download/4.215.0/tuist.zip": "7d9ef0d343c316fb7b677266eae2bc326d7e9a0a5c25e4fe47592321dc968f91",
+  "https://github.com/tuist/tuist/releases/download/4.216.0/tuist.zip": "eef9b9b0c5722052cc54ec6e114bd557cfcf8f695e483fb39cb80d53959354fc",
 }
