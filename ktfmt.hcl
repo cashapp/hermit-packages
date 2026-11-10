@@ -2,6 +2,7 @@ description = "ktfmt is a program that pretty-prints (formats) Kotlin code, base
 runtime-dependencies = ["openjre-17.0.4.1_1"]
 binaries = ["ktfmt"]
 source = "https://repo1.maven.org/maven2/com/facebook/ktfmt/${version}/ktfmt-${version}-jar-with-dependencies.jar"
+mirrors = ["https://maven-central.storage-download.googleapis.com/maven2/com/facebook/ktfmt/${version}/ktfmt-${version}-jar-with-dependencies.jar"]
 dont-extract = true
 
 on "unpack" {

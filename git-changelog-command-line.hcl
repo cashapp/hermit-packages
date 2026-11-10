@@ -2,6 +2,7 @@ description = "Command line tool to generate changelog, or releasenotes, from a 
 requires = ["jre"]
 binaries = ["git-changelog-command-line"]
 source = "https://repo1.maven.org/maven2/se/bjurr/gitchangelog/git-changelog-command-line/${version}/git-changelog-command-line-${version}.jar"
+mirrors = ["https://maven-central.storage-download.googleapis.com/maven2/se/bjurr/gitchangelog/git-changelog-command-line/${version}/git-changelog-command-line-${version}.jar"]
 dont-extract = true
 
 on "unpack" {

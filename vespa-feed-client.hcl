@@ -4,6 +4,7 @@ binaries = ["vespa-feed-client"]
 strip = 1
 requires = ["jre"]
 source = "https://repo1.maven.org/maven2/com/yahoo/vespa/vespa-feed-client-cli/${version}/vespa-feed-client-cli-${version}-zip.zip"
+mirrors = ["https://maven-central.storage-download.googleapis.com/maven2/com/yahoo/vespa/vespa-feed-client-cli/${version}/vespa-feed-client-cli-${version}-zip.zip"]
 
 version "8.131.17" {
 }
