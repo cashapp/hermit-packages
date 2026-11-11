@@ -161,6 +161,26 @@ version "3.14.9" "3.15.1" {
   }
 }
 
+// From here on, use the install_only_stripped builds. They hold the same
+// optimised interpreter, standard library, headers, pip and venv support as the
+// "full" builds, but leave out the build tree, the static libpython, the test
+// suite and debug info, which makes them several times smaller once unpacked.
+// relocate.sh moves their files under install/ so every version has the same
+// layout.
+version "3.11.18" "3.12.16" "3.13.18" "3.14.10" "3.15.2" {
+  vars = {
+    "release_date": "20261110",
+  }
+
+  platform "darwin" {
+    source = "https://github.com/astral-sh/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-apple-darwin-install_only_stripped.tar.gz"
+  }
+
+  platform "linux" {
+    source = "https://github.com/astral-sh/python-build-standalone/releases/download/${release_date}/cpython-${version}+${release_date}-${xarch}-unknown-linux-gnu-install_only_stripped.tar.gz"
+  }
+}
+
 sha256sums = {
   "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-3.8.10-x86_64-unknown-linux-gnu-pgo+lto-20210506T0943.tar.zst": "aec8c4c53373b90be7e2131093caa26063be6d9d826f599c935c0e1042af3355",
   "https://github.com/indygreg/python-build-standalone/releases/download/20210506/cpython-3.8.10-x86_64-apple-darwin-pgo+lto-20210506T0943.tar.zst": "8d06bec08db8cdd0f64f4f05ee892cf2fcbc58cfb1dd69da2caab78fac420238",
@@ -328,4 +348,24 @@ sha256sums = {
   "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.15.1+20261021-x86_64-unknown-linux-gnu-pgo+lto-full.tar.zst": "ed8c818ad80faeb7cb3a37f5d2283bd5f8350350b007bdda092026b9048ccb33",
   "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.15.1+20261021-x86_64-apple-darwin-pgo+lto-full.tar.zst": "4f6eb28cf8222cdddbaba2134905712af45c8c54053cf220a50fa54a7363d212",
   "https://github.com/indygreg/python-build-standalone/releases/download/20261021/cpython-3.15.1+20261021-aarch64-unknown-linux-gnu-pgo+lto-full.tar.zst": "9e208dab28830673758bdf2af2623756646aa39481cc246360c5465ba7156afb",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.11.18+20261110-aarch64-apple-darwin-install_only_stripped.tar.gz": "3afb0567b2a2b30b3a7341bd143cb4e8a69f3d8e95d4641218eaa45f0fabbd07",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.11.18+20261110-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz": "7e71f26a003949b57757e287f4f4b6689da07e7a229f5bbee7919c19ed77155d",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.11.18+20261110-x86_64-apple-darwin-install_only_stripped.tar.gz": "c2e4b51e535ead2e526b8974909a1b1e00fbc2ebe2281087b9b8b14dad0cad5d",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.12.16+20261110-aarch64-apple-darwin-install_only_stripped.tar.gz": "2f11b8aa3726bdbd87dd9eb76568412faddf4f47e26913fa45d6a2e424972acd",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.12.16+20261110-x86_64-apple-darwin-install_only_stripped.tar.gz": "b78a4c479f1964ec484880bee567568266f68da102269fb93a05fe8716b45f91",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.13.18+20261110-aarch64-apple-darwin-install_only_stripped.tar.gz": "7a2384641584ab9984221fcb0fc9265df465922af71be71410529e2a9c3f0540",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.13.18+20261110-x86_64-apple-darwin-install_only_stripped.tar.gz": "d27d59a722db9f69926eb6d9564071247221f45a04da920ea7f3001c97e32f9b",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.13.18+20261110-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz": "f2d2199eb25880e07863b391cf7124e7ffa1338b0d65600dfcec117c4223a7fb",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.14.10+20261110-x86_64-apple-darwin-install_only_stripped.tar.gz": "85f8e54798e8e6aa58d2253f013d815c5616343cc0d15cbea882fca78bdfeae2",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.15.2+20261110-x86_64-apple-darwin-install_only_stripped.tar.gz": "11143c2a2556b14619e8241d3f74bb43ad97181c0eb4909bab87d7aad1154e49",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.15.2+20261110-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz": "ad23d1b73fac26440b0306ae06911031344c49a90ec19716c8362e7fa40cae43",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.11.18+20261110-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz": "3288c54cea3db350052019b3f8b558dd8a3da8afa6fda573f5fd2bcb37635b4a",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.12.16+20261110-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz": "6a9e62dad033790aef722dbd370e0ce76ce17b73627ba3ae679f537049350b39",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.12.16+20261110-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz": "b6a41defec4975d94b4ff1950236e7383e5c02ba40ea48c9ec33c66087a35aab",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.13.18+20261110-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz": "55c00325f7c1fddf325dfc621aabdfbbac4dc54adda224af88ec411dc12db239",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.14.10+20261110-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz": "38fd50f07170adc29d481913d1c30b17ecb538fbe290315fe1f83d84fdd5b694",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.14.10+20261110-aarch64-apple-darwin-install_only_stripped.tar.gz": "f15ec3d15460dd66c2eb88639b152cd9040e7d1ece11e38bf89e8f53f0171e02",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.14.10+20261110-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz": "c2ff2e97422f5d3896a16e0317fd212ba977bbf2688d93a6f7a03d817506bd30",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.15.2+20261110-aarch64-apple-darwin-install_only_stripped.tar.gz": "7e58607647b5b4832092a339ff1c55eeeccee128221232509b8fc8d27957065e",
+  "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.15.2+20261110-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz": "d1367a6c3cd86a9e35712072841f1376859f3b47a2a54e224421a0f9fd169047",
 }
