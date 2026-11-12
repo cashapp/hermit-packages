@@ -19,7 +19,7 @@ version "1.84.1" "1.85.0" "1.86.0" "1.87.0" "1.88.0" "1.90.0" "1.91.0" "1.92.0"
         "1.152.0" "1.153.0" "1.154.0" "1.155.0" "1.157.0" "1.158.0" "1.159.0" "1.160.0"
         "1.160.1" "1.161.0" "1.162.0" "1.163.0" "1.164.0" "1.166.0" "1.167.0" "1.168.0"
         "1.175.0" "1.177.0" "1.178.0" "1.179.0" "1.181.0" "1.182.0" "1.185.0" "2.0.0" "2.0.1"
-        "2.1.0" "2.3.0" {
+        "2.1.0" "2.3.0" "2.4.0" {
   auto-version {
     github-release = "digitalocean/doctl"
   }
@@ -430,4 +430,8 @@ sha256sums = {
   "https://github.com/digitalocean/doctl/releases/download/v2.3.0/doctl-2.3.0-linux-amd64.tar.gz": "782f720843364bfe5e7eaffa561af7685987ec3658510faa64ec330c5ea87a3c",
   "https://github.com/digitalocean/doctl/releases/download/v2.3.0/doctl-2.3.0-darwin-arm64.tar.gz": "eaa265251dca393059c42864f539316c5add4ffa0990e4e4ffd1b223118ee010",
   "https://github.com/digitalocean/doctl/releases/download/v2.3.0/doctl-2.3.0-linux-arm64.tar.gz": "5d90101beb19022f04d47af786f9de4019c17da3ffbb6eb1bd251b3e50aa42c9",
+  "https://github.com/digitalocean/doctl/releases/download/v2.4.0/doctl-2.4.0-darwin-amd64.tar.gz": "9fdab6db3423fbe5a83aab946127a75989715f0d792290b3acba01a95fd5b71d",
+  "https://github.com/digitalocean/doctl/releases/download/v2.4.0/doctl-2.4.0-linux-amd64.tar.gz": "7027c4cc2738421d5d4391e2f1646bc773de08844cf78fd8c81ae1506fffa172",
+  "https://github.com/digitalocean/doctl/releases/download/v2.4.0/doctl-2.4.0-darwin-arm64.tar.gz": "5b080591d6bd76a39035b88442a8b011b96b3e14c7c227c5900cfd0ec259b3ab",
+  "https://github.com/digitalocean/doctl/releases/download/v2.4.0/doctl-2.4.0-linux-arm64.tar.gz": "bf07866c4c8ac21e9a49e86b98ed744dff19d749fdef4cf24fa549fd66fcbcfc",
 }

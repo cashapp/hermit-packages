@@ -39,7 +39,8 @@ version "1.16" "1.16.3" "1.16.4" "1.16.5" "1.16.6" "1.16.7" "1.16.15" "1.17rc1" 
 // Previous minor version. When a new minor version is released, pin the current
 // catch-all block below to its minor version and move this block's versions
 // into the non-auto-versioned block above.
-version "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" "1.26.5" "1.26.6" "1.26.10" {
+version "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" "1.26.5" "1.26.6" "1.26.10"
+        "1.26.11" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -51,7 +52,7 @@ version "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" "1.26.5" "1.26.6" "1.26.10"
 }
 
 // Current and future minor versions
-version "1.27.0" "1.27.1" "1.27.2" "1.27.3" {
+version "1.27.0" "1.27.1" "1.27.2" "1.27.3" "1.27.4" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -594,4 +595,12 @@ sha256sums = {
   "https://golang.org/dl/go1.26.10.darwin-arm64.tar.gz": "0b5183492292ada170f9b561a834863808dd02edba599e4ad0e89899330020b3",
   "https://golang.org/dl/go1.26.10.linux-amd64.tar.gz": "ccfe7ae822d2c2f41f4fe7c956199967a4dac22d0ee0d2b2bfdb440aab3b20c5",
   "https://golang.org/dl/go1.26.10.linux-arm64.tar.gz": "3f4227ce7b206a513e794f1393adb473a07b46e94d18bd15d1c684bbb7319797",
+  "https://golang.org/dl/go1.26.11.darwin-arm64.tar.gz": "e3a42e67a7a8acf450ebada2b074c7ca863000ca514907b7185b45e8f5cdff57",
+  "https://golang.org/dl/go1.26.11.linux-arm64.tar.gz": "6c2f29b458b5add0835f18b776f69c8881a6d88428f1484a6da55755e620757e",
+  "https://golang.org/dl/go1.26.11.linux-amd64.tar.gz": "9849f4e04ee35303714e34fbc3ac8ab44ea3e448a95aa182f91e3b9b79c710ec",
+  "https://golang.org/dl/go1.26.11.darwin-amd64.tar.gz": "394baae971332f2bc783d6e2004ae57101479bd3b06ed8209a3fe3570d4ce498",
+  "https://golang.org/dl/go1.27.4.linux-arm64.tar.gz": "3392582988a273a87ab5043ee1b2c9c17a2c3c00580bf9326c47a2e0aaaeac92",
+  "https://golang.org/dl/go1.27.4.linux-amd64.tar.gz": "7226736c2339719cda28fbf3a54d71aa63bcefe376e98cef00034268dab24840",
+  "https://golang.org/dl/go1.27.4.darwin-amd64.tar.gz": "2b799377704ef12db39bd254995d5c348c9cc8d86562ca817724390e56c38f43",
+  "https://golang.org/dl/go1.27.4.darwin-arm64.tar.gz": "91a44a2b8a716600ad94a4f143e156116620db8828086a6e3602291be9bd0bb4",
 }
