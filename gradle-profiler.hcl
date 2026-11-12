@@ -7,6 +7,7 @@ repository = "https://github.com/gradle/gradle-profiler"
 
 version "0.20.0" "0.21.0" "0.22.0-alpha-1" "0.22.0" "0.23.0" "0.24.0" "0.25.0" {
   source = "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/${version}/gradle-profiler-${version}.zip"
+  mirrors = ["https://maven-central.storage-download.googleapis.com/maven2/org/gradle/profiler/gradle-profiler/${version}/gradle-profiler-${version}.zip"]
 }
 
 version "0.25.2" "0.26.0" {
