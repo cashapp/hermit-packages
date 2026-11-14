@@ -3,7 +3,8 @@ binaries = ["jpm", "jpx"]
 strip = 2
 source = "https://github.com/jpm-hub/jpm/releases/download/v${version}/jpm-${version}-${os}-${arch}.zip"
 
-version "1.2.0" "1.2.2" "1.2.3" "1.2.4" "1.2.5" "1.2.7" "1.2.8" "1.2.9" "1.2.10" {
+version "1.2.0" "1.2.2" "1.2.3" "1.2.4" "1.2.5" "1.2.7" "1.2.8" "1.2.9" "1.2.10"
+        "1.2.11" {
   auto-version {
     github-release = "jpm-hub/jpm"
   }
@@ -46,4 +47,8 @@ sha256sums = {
   "https://github.com/jpm-hub/jpm/releases/download/v1.2.10/jpm-1.2.10-linux-amd64.zip": "c965f65bce3d2afc4724353310ca784587a0486ef54f947364bdae6ce95a6205",
   "https://github.com/jpm-hub/jpm/releases/download/v1.2.10/jpm-1.2.10-darwin-arm64.zip": "edb23b57bb594212367f065fae109acafefd075c63d4c710907493d71702c69f",
   "https://github.com/jpm-hub/jpm/releases/download/v1.2.10/jpm-1.2.10-linux-arm64.zip": "2e994290fb26246c292dc668bac6d2cb35e2a3c5173d1ca398b1d5c0eaec2fd7",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.11/jpm-1.2.11-darwin-arm64.zip": "fcfb43398dba770aa7594c47f6861c606d31c199f3b9f39ce374884696c49e9f",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.11/jpm-1.2.11-darwin-amd64.zip": "b7f0f59c775a3e13a7c46065cdf07b8186b8b7f725db54d420a4395ea76ffcf8",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.11/jpm-1.2.11-linux-arm64.zip": "549c121857453d532a2a9aa03b571be447e724856f27cab5dfa23de36d8a6589",
+  "https://github.com/jpm-hub/jpm/releases/download/v1.2.11/jpm-1.2.11-linux-amd64.zip": "3f01a75a1cd6f14c48d78f9f581eac8ecedd22c41e5a585ca80ca33a140e0059",
 }

@@ -27,7 +27,7 @@ on "unpack" {
   }
 }
 
-version "0.0.13" "0.0.14" {
+version "0.0.13" "0.0.14" "0.0.15" {
   auto-version {
     github-release = "EngFlow/auth"
     ignore-invalid-versions = true
@@ -43,4 +43,8 @@ sha256sums = {
   "https://github.com/EngFlow/auth/releases/download/v0.0.14/engflow_auth_macos_x64": "2bf04fc0be8b9da4b6ac4bb9bb9a2d8c4c6652499e5ff08e6d57db1f588ecaf8",
   "https://github.com/EngFlow/auth/releases/download/v0.0.14/engflow_auth_macos_arm64": "56c1838d1d0d6fc9e9ad332a494ab9f5cf1970283408889e9e6e41fa4b4e3ce5",
   "https://github.com/EngFlow/auth/releases/download/v0.0.14/engflow_auth_linux_arm64": "f9fa203c6c659e1df28822a256234104fd80f620551dae2e0c8e01c9f10cfe21",
+  "https://github.com/EngFlow/auth/releases/download/v0.0.15/engflow_auth_macos_x64": "63526dc1d1c2a819091666f378f9c96832e4a1b571fd556dc67be301ec33609c",
+  "https://github.com/EngFlow/auth/releases/download/v0.0.15/engflow_auth_linux_arm64": "fa881aadae8c51029518b59988a394520011bd88d3c5dee29ffedfdd5b4fd1a1",
+  "https://github.com/EngFlow/auth/releases/download/v0.0.15/engflow_auth_linux_x64": "6ff7018b05d6c6fa2cc0786405886c9c0566e5608f244ae4381377329491f7f6",
+  "https://github.com/EngFlow/auth/releases/download/v0.0.15/engflow_auth_macos_arm64": "f995e63def5ed67f2f4e1516be5725bb354791a2687c07925facee5faa85175d",
 }
