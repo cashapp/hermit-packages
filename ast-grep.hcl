@@ -17,7 +17,7 @@ version "0.26.3" "0.27.0" "0.27.1" "0.27.3" "0.28.0" "0.28.1" "0.29.0" "0.30.0"
         "0.39.3" "0.39.4" "0.39.5" "0.39.6" "0.39.7" "0.39.9" "0.40.0" "0.40.1" "0.40.2"
         "0.40.3" "0.40.4" "0.40.5" "0.41.0" "0.41.1" "0.42.0" "0.42.1" "0.42.2" "0.42.3"
         "0.43.0" "0.44.0" "0.44.1" "0.45.0" "0.45.1" "0.45.2" "0.45.3" "0.50.0" "0.51.0"
-        "0.51.1" "0.51.2" {
+        "0.51.1" "0.51.2" "0.51.3" {
   auto-version {
     github-release = "ast-grep/ast-grep"
   }
@@ -280,4 +280,8 @@ sha256sums = {
   "https://github.com/ast-grep/ast-grep/releases/download/0.51.2/app-x86_64-unknown-linux-gnu.zip": "40604c21c38d4c7581c56bdddeef277c56bf3c0113620aa96e78ae87e82366df",
   "https://github.com/ast-grep/ast-grep/releases/download/0.51.2/app-aarch64-unknown-linux-gnu.zip": "c3ab2bd43959db28621dc1551c13ea5fe5db4c1fc7b18086dade6b65042c78d0",
   "https://github.com/ast-grep/ast-grep/releases/download/0.51.2/app-aarch64-apple-darwin.zip": "ea4f4082d25e5f8e0450add6fd488dd008a373c90483cc2031759c8431f1dcfb",
+  "https://github.com/ast-grep/ast-grep/releases/download/0.51.3/app-aarch64-apple-darwin.zip": "7954eab1e2803d1485f263377be7f359db6d3915312b5d773cd575eb009330b1",
+  "https://github.com/ast-grep/ast-grep/releases/download/0.51.3/app-x86_64-unknown-linux-gnu.zip": "22803eb0c5bf83164fb7fd76d4721d355ecf0c8466ef47342c1ec7d80897ca47",
+  "https://github.com/ast-grep/ast-grep/releases/download/0.51.3/app-x86_64-apple-darwin.zip": "af04ed50179e51316a0139b8bb39502a3841d6c8e9fd9a4bac40987a8c7c3acd",
+  "https://github.com/ast-grep/ast-grep/releases/download/0.51.3/app-aarch64-unknown-linux-gnu.zip": "5b44fd68e78744934b359b07badce347d4197ed50b341d50f1f99d056ecedb08",
 }

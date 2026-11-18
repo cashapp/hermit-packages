@@ -12,7 +12,7 @@ on "unpack" {
 }
 
 version "1.10.8" "1.10.9" "1.11.0" "1.11.1" "1.11.2" "1.11.3" "1.11.4" "1.12.1"
-        "1.12.2" "1.12.3" "1.12.4" "1.12.5" {
+        "1.12.2" "1.12.3" "1.12.4" "1.12.5" "1.12.6" {
   auto-version {
     github-release = "akuity/kargo"
   }
@@ -67,4 +67,8 @@ sha256sums = {
   "https://github.com/akuity/kargo/releases/download/v1.12.5/kargo-darwin-amd64": "14becb36ec3ad4dc7b5f57bdf277f8e9141a75396e7572b76a3bf0f9f5a47991",
   "https://github.com/akuity/kargo/releases/download/v1.12.5/kargo-linux-arm64": "8efa60de964e95e56484c96ab7b848def9735b0281b63a715bccc125ae5e9122",
   "https://github.com/akuity/kargo/releases/download/v1.12.5/kargo-darwin-arm64": "679f84b88ace0061275a9c00fe64f47038ab81a0759956fd39fdc5b8ab941aa7",
+  "https://github.com/akuity/kargo/releases/download/v1.12.6/kargo-linux-arm64": "c664fed2af41c5e848188d2eefac0da86d76391e65e2f9f2a934e5c018c15b91",
+  "https://github.com/akuity/kargo/releases/download/v1.12.6/kargo-darwin-amd64": "f545347d0399e549da74facda41e69a450bc22f36db47ad1b39c7f1bcae69d4d",
+  "https://github.com/akuity/kargo/releases/download/v1.12.6/kargo-linux-amd64": "b14c023ca37957619d127fecc5dc46a7358558f62b6d5bcf9173e592758f1d0e",
+  "https://github.com/akuity/kargo/releases/download/v1.12.6/kargo-darwin-arm64": "38aede9b7e3816aadfdffbd0ad4d750b7e388772326e56e10c344efc972f0f79",
 }

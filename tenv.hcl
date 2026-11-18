@@ -32,7 +32,7 @@ platform "windows" {
   }
 }
 
-version "4.11.1" "4.12.0" "4.12.2" "4.14.8" "4.15.1" {
+version "4.11.1" "4.12.0" "4.12.2" "4.14.8" "4.15.1" "4.16.9" {
   auto-version {
     github-release = "tofuutils/tenv"
   }
@@ -59,4 +59,8 @@ sha256sums = {
   "https://github.com/tofuutils/tenv/releases/download/v4.15.1/tenv_v4.15.1_Darwin_x86_64.tar.gz": "29a912ba349f463cd3808c3eb6a01556e9aed820273ef5e9f2fdaa0630ec4dbe",
   "https://github.com/tofuutils/tenv/releases/download/v4.15.1/tenv_v4.15.1_Darwin_arm64.tar.gz": "46697b3f8e94596b9fb354acb22f238746ac5a1e07f9627e383405d81f221c41",
   "https://github.com/tofuutils/tenv/releases/download/v4.15.1/tenv_v4.15.1_Linux_arm64.tar.gz": "7ea9bafcfd9145f69751e94fbdc42a6cd3d161002b04e0a5bae3d53e3e88278b",
+  "https://github.com/tofuutils/tenv/releases/download/v4.16.9/tenv_v4.16.9_Darwin_arm64.tar.gz": "76dec98e7d900ffbe75dd28accdda0feccf2f0c3060b6f03ea63d29728913bbd",
+  "https://github.com/tofuutils/tenv/releases/download/v4.16.9/tenv_v4.16.9_Linux_x86_64.tar.gz": "c64ce2de9a9b49b1307d0bb43ac38b20b878046e997672962258d4088a3d7d13",
+  "https://github.com/tofuutils/tenv/releases/download/v4.16.9/tenv_v4.16.9_Linux_arm64.tar.gz": "e6065f096500a3c2131a72ff8e77ea91603b3de672889ad5fdcb79a29dfb5bb9",
+  "https://github.com/tofuutils/tenv/releases/download/v4.16.9/tenv_v4.16.9_Darwin_x86_64.tar.gz": "fe577e84491a319f2dbfcef32e439c05485a5f85db34174b0a4edd10a724ae6f",
 }
