@@ -10,7 +10,7 @@ darwin {
 version "2.26.0" "2.27.0" "2.28.0" "2.29.0" "2.30.0" "2.31.0" "2.32.0" "2.33.0"
         "2.34.0" "2.35.0" "2.36.0" "2.36.1" "2.37.0" "2.38.0" "2.39.0" "2.39.1" "2.40.0"
         "2.40.1" "2.41.0" "2.42.0" "2.43.0" "2.44.0" "2.44.1" "2.45.0" "2.45.2" "2.45.3"
-        "2.45.4" "2.46.0" "2.47.0" {
+        "2.45.4" "2.46.0" "2.47.0" "2.48.0" {
   auto-version {
     github-release = "yonaskolb/XcodeGen"
   }
@@ -46,4 +46,5 @@ sha256sums = {
   "https://github.com/yonaskolb/XcodeGen/releases/download/2.45.4/xcodegen.zip": "090ec29491aad50aec10631bf6e62253fed733c50f3aab0f5ffc86bc170bdbef",
   "https://github.com/yonaskolb/XcodeGen/releases/download/2.46.0/xcodegen.zip": "4d9e34b62172d645eed6457cac13fc222569974098ef4ee9c3368bedf0196806",
   "https://github.com/yonaskolb/XcodeGen/releases/download/2.47.0/xcodegen.zip": "6ef12a3ef5327c2c713397f46d9160550f8b1cdc5c925cd884d65c77c9f696cd",
+  "https://github.com/yonaskolb/XcodeGen/releases/download/2.48.0/xcodegen.zip": "620c9f0dc10849f94728ab5df52d225ebab8187439dd6fee1925e59e80dff892",
 }
