@@ -1,16 +1,38 @@
 description = "A Go tool to auto generate methods for your enums"
 binaries = ["enumer"]
 homepage = "https://github.com/dmarkham/enumer"
-source = "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v${version}-${os}-${arch}.bz2"
+vars = {
+  "exe": "",
+}
 
-on "unpack" {
-  rename {
-    from = "${root}/enumer-v${version}-${os}-${arch}"
-    to = "${root}/enumer"
+platform "windows" {
+  vars = {
+    "exe": ".exe",
   }
 }
 
+// Built by cashapp/hermit-build before upstream published release binaries.
 version "1.5.7" "1.5.9" "1.5.10" "1.5.11" "1.6.1" "1.6.3" {
+  source = "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v${version}-${os}-${arch}.bz2"
+
+  on "unpack" {
+    rename {
+      from = "${root}/enumer-v${version}-${os}-${arch}"
+      to = "${root}/enumer"
+    }
+  }
+}
+
+version "1.6.4" "1.7.0" "1.7.1" "1.7.2" {
+  source = "https://github.com/dmarkham/enumer/releases/download/v${version}/enumer.${os}-${arch}${exe}.tar.gz"
+
+  on "unpack" {
+    rename {
+      from = "${root}/enumer.${os}-${arch}${exe}"
+      to = "${root}/enumer${exe}"
+    }
+  }
+
   auto-version {
     github-release = "dmarkham/enumer"
   }
@@ -41,4 +63,20 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.6.3-linux-arm64.bz2": "fe68ebeb5d487b92a5ddf5d97e7d6794297c5229d6088154d08d3ef46fd0dca5",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.6.3-linux-amd64.bz2": "4b48cc8ac5079feae7897520073fdcdd7603a431b0c82f6fa964fa2883378027",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.6.3-darwin-arm64.bz2": "2248b0cb3eec0115f2f85477b72bca0e6c682a0cabdad11e1d8ce58dd9e41553",
+  "https://github.com/dmarkham/enumer/releases/download/v1.6.4/enumer.linux-arm64.tar.gz": "aa44167024e9d9e5394deb342edaaf7f10d8bdf8e6c08372a32c2ab9fd6342e7",
+  "https://github.com/dmarkham/enumer/releases/download/v1.6.4/enumer.linux-amd64.tar.gz": "63d2ed92bceb3b2007d3ba5332a5ec4bdc3f5f9de3d4af4d3520fc58977a4196",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.0/enumer.linux-amd64.tar.gz": "79495d64df18235f49e1b0781c70361b6711d044c455ce3bb4ffb7e734322312",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.0/enumer.darwin-amd64.tar.gz": "0a38c8d7765263dc9f52cc4f95b8171b075a25732fea548df3ac14bedfe8e97d",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.0/enumer.darwin-arm64.tar.gz": "bbd9ecfae0a641f44d021094677d499bcb7a6106265458e42a48bf9431a0dd30",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.0/enumer.linux-arm64.tar.gz": "df2eec03a1355911e00443e55aae0ddd20e1a0c4ef2d6992fb8a719c978f43e6",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.1/enumer.linux-arm64.tar.gz": "9b32aa6559ccba737ff2ef94848da2cfea7d0bfb6551fbbc8ee9a07a2a09896b",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.1/enumer.darwin-amd64.tar.gz": "8a1fa1176a92c1c570e3a54d1c5b8bdf64ccf55d4fa8d3a58df79f82fe1eb2ea",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.1/enumer.linux-amd64.tar.gz": "ff1b5152c619dc9f90cc002f419011c72893ff5ba93e021ad2d6ce319581cfd3",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.2/enumer.linux-arm64.tar.gz": "7e208aa7e58ab5a97328ef7d003ac8fd20080c7781d75d1f1ab686ee253b20c7",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.2/enumer.linux-amd64.tar.gz": "0a302f1ee48cbf51d45772a8d428dc05105d9378c9817bceb2ecf87158563c57",
+  "https://github.com/dmarkham/enumer/releases/download/v1.6.4/enumer.darwin-arm64.tar.gz": "b347ec22d5a56148ec895bf5c9575d56f6cba841f3c94212bdd1ea9c0edea320",
+  "https://github.com/dmarkham/enumer/releases/download/v1.6.4/enumer.darwin-amd64.tar.gz": "ed40b8bd6001f3d33f06102794348c4208532625e8f5a28bd94c3de04dc1f9fb",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.1/enumer.darwin-arm64.tar.gz": "924d00e05b4373f13cc1e4fd9f1e6d7e7d50eb1c8912979a6c929f4efc8f2940",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.2/enumer.darwin-amd64.tar.gz": "0d6bef7798c23617f391675e78ede71a52b4ec287c96ec1b0aa3ee329de2bae9",
+  "https://github.com/dmarkham/enumer/releases/download/v1.7.2/enumer.darwin-arm64.tar.gz": "19d909816ba2ba07c5c01e4a4a3dcfcf005f5b84c95828b561aa2737985555a3",
 }
