@@ -46,7 +46,7 @@ version "1.1262.0" "1.1264.0" "1.1266.0" "1.1267.0" "1.1268.0" "1.1269.0" "1.127
         "1.1300.2" "1.1301.0" "1.1301.1" "1.1301.2" "1.1302.0" "1.1302.1" "1.1303.0" "1.1303.1"
         "1.1303.2" "1.1304.0" "1.1304.1" "1.1304.2" "1.1304.3" "1.1305.0" "1.1305.1" "1.1305.2"
         "1.1306.0" "1.1306.1" "1.1306.2" "1.1306.3" "1.1306.4" "1.1307.0" "1.1307.1" "1.1307.2"
-        "1.1307.3" "1.1307.4" "1.1308.0" "1.1308.1" "1.1308.2" "1.1308.3" "1.1308.4" {
+        "1.1307.3" "1.1307.4" "1.1308.0" "1.1308.1" "1.1308.2" "1.1308.3" "1.1308.4" "1.1309.0" {
   auto-version {
     github-release = "snyk/cli"
   }
@@ -429,4 +429,8 @@ sha256sums = {
   "https://github.com/snyk/cli/releases/download/v1.1308.4/snyk-linux": "979172ee128903f50e43fff221f22a0689579f22c086dabaa0d1a5416485b9ba",
   "https://github.com/snyk/cli/releases/download/v1.1308.4/snyk-linux-arm64": "9cf3e55e4bd216138a86a08f6d4235d5a014459cf0df7150818421fd8e044d48",
   "https://github.com/snyk/cli/releases/download/v1.1308.4/snyk-macos": "a5dd98a899b2843d4add974682ccb2cc2420d758edb2ac98ff17dde547ae5412",
+  "https://github.com/snyk/cli/releases/download/v1.1309.0/snyk-linux": "4802579c2818938a2f4849d270df1139f310104286a8a5c6305328a3c2eb9e1c",
+  "https://github.com/snyk/cli/releases/download/v1.1309.0/snyk-linux-arm64": "97d6c5d0aed21d0f8ae0b0b7764acab3c67f5ccd211b1069a6a74fd953e5c600",
+  "https://github.com/snyk/cli/releases/download/v1.1309.0/snyk-macos-arm64": "54e7c341d6ab37da4c0a728bcde1064f78faf898f498acb4a214d397ec50ecc0",
+  "https://github.com/snyk/cli/releases/download/v1.1309.0/snyk-macos": "886740e8b33e821f46e90ed6510ce09c1aa431f3ff2b16418eb42c4dcb6fe596",
 }
