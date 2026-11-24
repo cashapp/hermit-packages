@@ -25,7 +25,7 @@ version "13.0.0" {
   }
 }
 
-version "15.1.0" "15.2.0" {
+version "15.1.0" "15.2.0" "16.0.0" {
   auto-version {
     github-release = "BurntSushi/ripgrep"
   }
@@ -42,4 +42,8 @@ sha256sums = {
   "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-apple-darwin.tar.gz": "3750b2e93f37e0c692657da574d7019a101c0084da05a790c83fd335bad973e4",
   "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-apple-darwin.tar.gz": "af7825fcc69a2afc7a7aea55fc9af90e26421d8f20fe59df32e233c0b8a231c1",
   "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz": "a740b91c82eaf9914cfedd353572f2791cbe0162c84101ee0951058f4dcbc90d",
+  "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-unknown-linux-musl.tar.gz": "54268ab4643c00a290a29b0086066d64b3f56236dd805ec64629a86f9bd29fd0",
+  "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-apple-darwin.tar.gz": "5a145656d5067144001bfce6648767fd3254599aa736f1ffdb7fb907760b8ca1",
+  "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-apple-darwin.tar.gz": "aa9183b0e0bfac03c5818895ad18b75001c402d230063898abfe5a58cd413caa",
+  "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-unknown-linux-gnu.tar.gz": "0b0bddcfaf42be1f3c56bf929d70defd1a2d96f2577aecbd7029a3734ddb4740",
 }

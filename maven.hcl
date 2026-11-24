@@ -9,7 +9,7 @@ mirrors = ["https://archive.apache.org/dist/maven/maven-3/${version}/binaries/ap
 
 version "3.6.3" "3.8.4" "3.8.5" "3.8.6" "3.9.5" "3.9.6" "3.9.7" "3.9.8" "3.9.9"
         "3.9.10" "3.9.11" "3.9.12" "3.9.13" "3.9.14" "3.9.15" "3.9.16" "3.10.0-rc-1" "3.10.0"
-        "3.10.1" {
+        "3.10.1" "3.10.2" {
   auto-version {
     version-pattern = "maven-(.*)"
     github-release = "apache/maven"
@@ -36,4 +36,5 @@ sha256sums = {
   "https://downloads.apache.org/maven/maven-3/3.10.0-rc-1/binaries/apache-maven-3.10.0-rc-1-bin.tar.gz": "6565e1154706c981d8a463ec658129f346b66084a401c40eefc2e3408583e766",
   "https://downloads.apache.org/maven/maven-3/3.10.0/binaries/apache-maven-3.10.0-bin.tar.gz": "a46cc51bc74fa23fd267c7a0b9132b146dcf526da60d31aa5174e565632e9e0e",
   "https://downloads.apache.org/maven/maven-3/3.10.1/binaries/apache-maven-3.10.1-bin.tar.gz": "810b8348f0a40f9116c202093fae007ebeabf67699bf34d81ee7e272289e085a",
+  "https://downloads.apache.org/maven/maven-3/3.10.2/binaries/apache-maven-3.10.2-bin.tar.gz": "8ba13121794243e604dbca50439f6ae649ce602675a167129556fd502947b249",
 }
