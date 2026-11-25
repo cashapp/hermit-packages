@@ -1,6 +1,6 @@
 description = "Istio configuration command line utility for service operators to debug and diagnose their Istio mesh."
 binaries = ["istioctl"]
-test = "istioctl version"
+test = "istioctl version --remote=false"
 
 darwin {
   source = "https://github.com/istio/istio/releases/download/${version}/istioctl-${version}-osx.tar.gz"
