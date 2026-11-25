@@ -22,7 +22,7 @@ platform "windows" {
 version "1.9.2" "1.9.3" "1.10.0" "1.9.4" "1.9.5" "1.10.1" "1.10.2" "1.11.0" "1.11.1"
         "1.12.0" "1.12.1" "1.12.2" "1.12.3" "1.13.0" "1.13.1" "1.13.2" "1.14.0" "1.14.1"
         "1.15.0" "1.15.1" "1.15.2" "1.16.0" "1.16.1" "1.16.2" "1.17.0" "1.17.1" "1.17.2"
-        "1.18.0" "1.18.1" "1.18.2" "1.18.3" "1.18.4" {
+        "1.18.0" "1.18.1" "1.18.2" "1.18.3" "1.18.4" "1.19.0" {
   auto-version {
     github-release = "vmware-tanzu/velero"
   }
@@ -125,4 +125,7 @@ sha256sums = {
   "https://github.com/vmware-tanzu/velero/releases/download/v1.18.4/velero-v1.18.4-linux-arm64.tar.gz": "c323275f9853493ad302ce1697c3bf98e9ad062397941136aaa809c516d673cc",
   "https://github.com/vmware-tanzu/velero/releases/download/v1.18.4/velero-v1.18.4-linux-amd64.tar.gz": "e520c17d8997e1c9d0a28ae013592e4473ca3bd82cb3acd132e51286263f74bf",
   "https://github.com/vmware-tanzu/velero/releases/download/v1.18.4/velero-v1.18.4-darwin-amd64.tar.gz": "b9e13510a2d55f80bd8ec0775cbcb0959214210688e6958b6c09da0d961c7d6a",
+  "https://github.com/vmware-tanzu/velero/releases/download/v1.19.0/velero-v1.19.0-linux-arm64.tar.gz": "bd713bd4f616f47f18f1dad9ee85728e1158a95b213ca21356319401a4a8893e",
+  "https://github.com/vmware-tanzu/velero/releases/download/v1.19.0/velero-v1.19.0-darwin-amd64.tar.gz": "83071b950b1814f35fd502ecdff0805bdbb1e0246849684c2e2bea911869987d",
+  "https://github.com/vmware-tanzu/velero/releases/download/v1.19.0/velero-v1.19.0-linux-amd64.tar.gz": "048d6965f152e9fe3e39e290caa3e8297009eaaa071946ff414417de20281ffe",
 }
