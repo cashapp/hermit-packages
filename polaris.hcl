@@ -5,7 +5,7 @@ source = "https://github.com/FairwindsOps/polaris/releases/download/v${version}/
 sha256-source = "https://github.com/FairwindsOps/polaris/releases/download/v${version}/checksums.txt"
 test = "polaris version"
 
-version "10.2.0" "10.2.1" "10.2.2" "10.2.4" "10.2.5" "10.2.6" {
+version "10.2.0" "10.2.1" "10.2.2" "10.2.4" "10.2.5" "10.2.6" "10.2.7" {
   auto-version {
     github-release = "FairwindsOps/polaris"
   }
@@ -36,4 +36,8 @@ sha256sums = {
   "https://github.com/FairwindsOps/polaris/releases/download/v10.2.6/polaris_10.2.6_linux_arm64.tar.gz": "e1c2774aa8100c6c5c23f2aa49cbf02476fd7b43a226a6372b405b6772acb585",
   "https://github.com/FairwindsOps/polaris/releases/download/v10.2.6/polaris_10.2.6_linux_amd64.tar.gz": "87856194124409f7f21912775c0d6ac0804061ddaded5b527a1326f1850e9491",
   "https://github.com/FairwindsOps/polaris/releases/download/v10.2.6/polaris_10.2.6_darwin_arm64.tar.gz": "6c92a34f3db0f6a00434c8eb7e7a6e68388f1e6371ce7b12cd8ddac8029ddaaa",
+  "https://github.com/FairwindsOps/polaris/releases/download/v10.2.7/polaris_10.2.7_darwin_amd64.tar.gz": "8c09080c13f376fe193f1174cd078c22b00dc66385601b394b817f445a6f99cb",
+  "https://github.com/FairwindsOps/polaris/releases/download/v10.2.7/polaris_10.2.7_linux_arm64.tar.gz": "8ea41fc82399d19e784155cec5962d2924ba0b2aee3f929d9a515548b916571e",
+  "https://github.com/FairwindsOps/polaris/releases/download/v10.2.7/polaris_10.2.7_linux_amd64.tar.gz": "ff861fcadb56563dbe7524835384bb4c5813c913ffa3fbe081e4fd1b6037fe81",
+  "https://github.com/FairwindsOps/polaris/releases/download/v10.2.7/polaris_10.2.7_darwin_arm64.tar.gz": "f528fc33ee94e40382837f983c218a985ba94955ca0453fc72c38ffc0c9cb445",
 }

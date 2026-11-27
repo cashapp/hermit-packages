@@ -3,7 +3,7 @@ binaries = ["tinkey"]
 source = "https://storage.googleapis.com/tinkey/tinkey-${version}.tar.gz"
 runtime-dependencies = ["openjre@17"]
 
-version "1.10.0" "1.10.1" "1.11.0" "1.12.0" "1.13.0" "1.14.0" {
+version "1.10.0" "1.10.1" "1.11.0" "1.12.0" "1.13.0" "1.14.0" "1.14.1" {
   auto-version {
     github-release = "tink-crypto/tink-tinkey"
   }
@@ -16,4 +16,5 @@ sha256sums = {
   "https://storage.googleapis.com/tinkey/tinkey-1.12.0.tar.gz": "9d908b457a2c0612fafd18bb351e05bbe85f604c5b9abe61809f5eb06280fc56",
   "https://storage.googleapis.com/tinkey/tinkey-1.13.0.tar.gz": "690eea87a059e05284134749391499df10df7b420a676480bac5cf0968fa6d20",
   "https://storage.googleapis.com/tinkey/tinkey-1.14.0.tar.gz": "177a31279317eabbdf2745560026ea78aaf48695a8bd5ea9ebc47e2e529be323",
+  "https://storage.googleapis.com/tinkey/tinkey-1.14.1.tar.gz": "e6aadbc5c31e4e6d3c2c2671f44191f1e7b85126a59cb14648b76666e599395b",
 }
